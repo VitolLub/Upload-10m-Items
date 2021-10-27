@@ -3,7 +3,11 @@ from urllib.error import HTTPError
 
 import content as content
 import lxml.html
-
+import asyncio
+import requests
+from bs4 import BeautifulSoup as soup
+from requests_html import AsyncHTMLSession
+import pyppdf.patch_pyppeteer
 from browser import Browser
 # Consumer key: ck_34e7f3f1e99a0b0911283a82b61280bbe422d789
 # Consumer secret: cs_e8838c981a6b91b89cbdfc8364152a569740e87d
@@ -37,7 +41,7 @@ class AliParserItemIDs:
             #set 5s. timeout
             response = session.get(url, timeout=5, headers=headers, proxies=proxies)
             # print(session.cookies.get_dict())
-            # print(response.content)
+            print(response.content)
             self.parse_content(response.content)
 
         except HTTPError as http_err:
@@ -49,10 +53,14 @@ class AliParserItemIDs:
 
 
     def parse_content(self,content):
-        res = soup(content)
+        res = soup(content, features="lxml")
 
         print(self.img_parse(res))
         print(self.title_parse(res))
+        print(self.price_parse(res))
+        print(self.discount_parse(res))
+        #print(self.description_parse(res))
+
 
     # parse images from single page
     def img_parse(self, res):
@@ -63,7 +71,6 @@ class AliParserItemIDs:
 
             # receive full img link
             if find_img > 0:
-                print(im_block['src'])
                 img = help_tool().cut_img(im_block['src'])
                 img_arr.append(img)
 
@@ -73,15 +80,43 @@ class AliParserItemIDs:
     #parse title from single page
     def title_parse(self, res):
         try:
-            return res.find_all("title")
+            title = res.find("title")
+            return title.getText()
         except Exception as e:
             return (f"During title parsing upon error {e}")
+
+    #parse descriptio
+    def description_parse(self, res):
+        try:
+            description = res.find_all("")
+        except Exception as error:
+            return f"During parse description upon eror {error}"
+
+    #price parse
+    def price_parse(self,res):
+        try:
+            #product-price-current
+            curre_price = res.find_all("span", {'class':'product-price-current'})
+            for pri in curre_price:
+                 return pri.getText()
+        except Exception as e:
+            return f"During parse price upon error {e}"
+
+    #parse discount
+    def discount_parse(self, res):
+        try:
+            # product-price-current
+            curre_discount = res.find_all("span", {'class': 'product-discount'})
+            for discount in curre_discount:
+                return discount.getText()
+        except Exception as e:
+            return f"During parse discount upon error {e}"
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://aliexpress.com/item/1005003038438063.html'
+    url = 'https://aliexpress.com/item/1005001967669349.html'
     start = AliParserItemIDs(url)
     start.request_by_url()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
