@@ -18,11 +18,17 @@ from requests_html import AsyncHTMLSession
 import random
 #import pyppdf.pyppeteer
 from utility import Utility as help_tool
-
+from saveonwebsite import SaveOnWebsite
 
 class AliParserItemIDs:
     def __init__(self,url):
+
         self.url = url
+
+        #list of attributes for rasing
+        self.color_attr = 'Product_SkuValuesBar__container__6ryfe'
+        self.lenght_attr = 'ali-kit_Base__base__1odrub ali-kit_Base__default__1odrub ali-kit_Label__label__1n9sab ali-kit_Label__size-s__1n9sab'
+
 
     #load every category id to parse subcatecory by subcatecory
     def load_category_id(self):
@@ -59,8 +65,9 @@ class AliParserItemIDs:
         print(self.title_parse(res))
         print(self.price_parse(res))
         print(self.discount_parse(res))
-        #print(self.description_parse(res))
-
+        print(self.description_parse(res))
+        print(self.raiting_parse(res))
+        print(self.product_attributes(res))
 
     # parse images from single page
     def img_parse(self, res):
@@ -88,7 +95,8 @@ class AliParserItemIDs:
     #parse descriptio
     def description_parse(self, res):
         try:
-            description = res.find_all("")
+            descriptions = res.find("div",{'class':'ProductDescription-module_content__1xpeo'})
+            return descriptions.getText()
         except Exception as error:
             return f"During parse description upon eror {error}"
 
@@ -112,11 +120,72 @@ class AliParserItemIDs:
         except Exception as e:
             return f"During parse discount upon error {e}"
 
+    #parse star raiting
+    def raiting_parse(self, res):
+
+        try:
+            # product-price-current
+            curre_raiting = res.find_all("div", {'class': 'Product_Stars__rating__tfb6k'})
+            for raiting in curre_raiting:
+                return raiting.getText()
+        except Exception as e:
+            return f"During parse raiting upon error {e}"
+
+    def product_attributes(self, res):
+        try:
+            arrtibute_arr = []
+            title_arr = []
+            lenght_attr = []
+
+            img_arr = []
+            alt_arr = []
+            # parse title of attributes
+            curre_product_attributes = res.find_all("div", {'class': 'Product_Sku__container__1f7i6'})
+            #print(curre_product_attributes)
+
+            # parse lenght attr
+            for lenght_search in curre_product_attributes:
+                lenght_attr_list = lenght_search.find_all("span", {'class':'ali-kit_Label__size-s__1n9sab'})
+                for lengh_value in lenght_attr_list:
+                    print(lengh_value)
+                    lenght_attr.append(lengh_value.getText())
+
+            #firnd attribute title
+            for attr_title in curre_product_attributes:
+                title_res = attr_title.find_all("div",{'class':'Product_SkuItem__title__rncuf'})
+                for item_attr_name in title_res:
+                    title_arr.append(item_attr_name.getText())
+
+            # parse color attr
+            for product_attributes in curre_product_attributes:
+                product_attributes = product_attributes.find_all("div", {'class': self.color_attr})
+                for value in product_attributes:
+                    alt_img = value.find_all("img")
+                    for values in alt_img:
+                        try:
+                            img_arr.index(values['src'])
+                        except Exception as e:
+                            img_arr.append(values['src'])
+                            alt_arr.append(values['alt'])
+
+
+
+
+
+            #convers arrays to dict
+            color_arr = dict(zip(alt_arr, img_arr))
+            attributes_titles = title_arr
+            return attributes_titles, color_arr,lenght_attr
+
+        except Exception as e:
+            return f"During parse product attributes upon error {e}"
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://aliexpress.com/item/1005001967669349.html'
+    url = 'https://aliexpress.com/item/1005002001535547.html'
     start = AliParserItemIDs(url)
     start.request_by_url()
 
-
+#div class Product_SkuItem__title__rncuf
+#span class ali-kit_Base__base__1odrub  - take
