@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup as soup
 import requests
 from requests_html import AsyncHTMLSession
 import random
+import json
 #import pyppdf.pyppeteer
 from utility import Utility as help_tool
 from saveonwebsite import SaveOnWebsite
@@ -30,6 +31,21 @@ class AliParserItemIDs:
         self.lenght_attr = 'ali-kit_Base__base__1odrub ali-kit_Base__default__1odrub ali-kit_Label__label__1n9sab ali-kit_Label__size-s__1n9sab'
 
 
+    #
+    def parse_subcategory(self,content):
+        res = soup(content, features="lxml")
+        res = res.find_all("a")
+        subcategory_arr = []
+        for category in res:
+            category = category['href']
+            if category.find('category/') > 0:
+                # f_index = category.find('category/')
+                # l_index = category.rfind("/")
+                # subcategory = category[f_index + len('category/'):l_index]
+                subcategory_arr.append(category)
+
+        print(subcategory_arr)
+        print(len(subcategory_arr))
     #load every category id to parse subcatecory by subcatecory
     def load_category_id(self):
         return help_tool().load_subcategory_id()
@@ -47,8 +63,11 @@ class AliParserItemIDs:
             #set 5s. timeout
             response = session.get(url, timeout=5, headers=headers, proxies=proxies)
             # print(session.cookies.get_dict())
-            print(response.content)
-            self.parse_content(response.content)
+
+            #print(response.content)
+
+            self.parse_subcategory(response.content)
+            #self.parse_content(response.content)
 
         except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')  # Python 3.6
@@ -61,13 +80,16 @@ class AliParserItemIDs:
     def parse_content(self,content):
         res = soup(content, features="lxml")
 
-        print(self.img_parse(res))
         print(self.title_parse(res))
+        print(self.video_parse(res))
+        print(self.img_parse(res))
         print(self.price_parse(res))
         print(self.discount_parse(res))
         print(self.description_parse(res))
         print(self.raiting_parse(res))
         print(self.product_attributes(res))
+        print(self.orders_count(res))
+        print(self.read_javascript(res))
 
     # parse images from single page
     def img_parse(self, res):
@@ -169,9 +191,6 @@ class AliParserItemIDs:
                             alt_arr.append(values['alt'])
 
 
-
-
-
             #convers arrays to dict
             color_arr = dict(zip(alt_arr, img_arr))
             attributes_titles = title_arr
@@ -180,10 +199,60 @@ class AliParserItemIDs:
         except Exception as e:
             return f"During parse product attributes upon error {e}"
 
+    def video_parse(self, res):
+        try:
+            video_link = res.find("video")
+            return video_link['src']
+        except:
+            return False
+
+    def orders_count(self, res):
+        order_count = res.find_all("span",{'class':'ali-kit_Label__label__1n9sab ali-kit_Label__size-s__1n9sab'})
+        for order_value in order_count:
+            print(order_value.getText())
+
+    def read_javascript(self, res):
+        #
+        full_script_data = res.find("script",{'id':'__AER_DATA__'})
+        res = full_script_data.getText()
+        #load full js
+        y = json.loads(res)
+        #index 4 - store info
+        id = y['widgets'][0]['children'][7]['children'][0]['props']['id']
+
+        gallery = y['widgets'][0]['children'][7]['children'][0]['props']['gallery']
+
+        original_imgs_arr = []
+        preview_imgs_arr = []
+        video_arr = []
+        for images in gallery:
+            original_imgs_arr.append(images['imageUrl'])
+            preview_imgs_arr.append(images['previewUrl'])
+            if images['videoUrl'] is not None:
+                video_arr.append(images['videoUrl'])
+
+        name = y['widgets'][0]['children'][7]['children'][0]['props']['name']
+
+        description = y['widgets'][0]['children'][7]['children'][0]['props']['description']
+
+        propertyList = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['propertyList']
+
+        price_list = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['priceList']
+
+        tradeCount = y['widgets'][0]['children'][7]['children'][0]['props']['tradeInfo']['tradeCount']
+
+        likes  = y['widgets'][0]['children'][7]['children'][0]['props']['likes']
+
+        reviews = y['widgets'][0]['children'][7]['children'][0]['props']['reviews']
+
+        discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
+
+        return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount
+        #print(y['widgets'][0]['children'][7]['children'][0]['props'])
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://aliexpress.com/item/1005002001535547.html'
+    url = 'https://www.aliexpress.com/all-wholesale-products.html?spm=a2g0o.productlist.16005.1.31d918c94xr3UD'
     start = AliParserItemIDs(url)
     start.request_by_url()
 
