@@ -1,4 +1,5 @@
 # This is a sample Python script.
+import time
 from urllib.error import HTTPError
 
 import content as content
@@ -9,8 +10,7 @@ from bs4 import BeautifulSoup as soup
 from requests_html import AsyncHTMLSession
 import pyppdf.patch_pyppeteer
 from browser import Browser
-# Consumer key: ck_34e7f3f1e99a0b0911283a82b61280bbe422d789
-# Consumer secret: cs_e8838c981a6b91b89cbdfc8364152a569740e87d
+
 import mechanize
 from bs4 import BeautifulSoup as soup
 import requests
@@ -66,8 +66,8 @@ class AliParserItemIDs:
 
             #print(response.content)
 
-            self.parse_subcategory(response.content)
-            #self.parse_content(response.content)
+            #return self.parse_subcategory(response.content)
+            return self.parse_content(response.content)
 
         except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')  # Python 3.6
@@ -80,16 +80,17 @@ class AliParserItemIDs:
     def parse_content(self,content):
         res = soup(content, features="lxml")
 
-        print(self.title_parse(res))
-        print(self.video_parse(res))
-        print(self.img_parse(res))
-        print(self.price_parse(res))
-        print(self.discount_parse(res))
-        print(self.description_parse(res))
-        print(self.raiting_parse(res))
-        print(self.product_attributes(res))
-        print(self.orders_count(res))
-        print(self.read_javascript(res))
+        # self.title_parse(res)
+        # self.video_parse(res)
+        # self.img_parse(res)
+        # self.price_parse(res)
+        # self.discount_parse(res)
+        # self.description_parse(res)
+        # self.raiting_parse(res)
+        # self.product_attributes(res)
+        # self.orders_count(res)
+
+        return self.read_javascript(res)
 
     # parse images from single page
     def img_parse(self, res):
@@ -252,9 +253,23 @@ class AliParserItemIDs:
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://www.aliexpress.com/all-wholesale-products.html?spm=a2g0o.productlist.16005.1.31d918c94xr3UD'
+    url = 'https://aliexpress.com/item/1005002001535547.html'
     start = AliParserItemIDs(url)
-    start.request_by_url()
+    res = start.request_by_url()
+    #print(res)
 
-#div class Product_SkuItem__title__rncuf
-#span class ali-kit_Base__base__1odrub  - take
+
+    save_class = SaveOnWebsite(res)
+    after_save = save_class.save()
+    #print(after_save)
+
+    #save_class.delete_product(623519)
+
+    # print(after_save['id'])
+    # save_class.add_attributes(after_save['id'])
+    #
+    # time.sleep(500)
+    # save_class.delete_product(after_save['id'])
+
+
+
