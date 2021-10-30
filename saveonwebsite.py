@@ -93,40 +93,26 @@ class SaveOnWebsite:
             attrribute_value_full_arr.append(attrribute_value_arr)
 
 
-        print(attr_name_arr)
-        print(attrribute_value_full_arr)
-        wcapi = self.credential()
+        # print(attr_name_arr)
+        # print(attrribute_value_full_arr)
 
+        #img array
         img_arr = []
-
+        img_in_description = []
         for img in self.data[1]:
             img_dict = {}
             img_dict['src'] = img
             img_dict['alt'] = self.data[4]
             img_arr.append(img_dict)
 
-
-        product_data = {
-            "name": self.data[4],
-            "type": "variable",
-            "sku":self.data[0],
-            "regular_price": "22.50",
-            'price':"20",
-            "total_sales":50,
-            "stock_quantity": 10,
-            "short_description": self.data[4],
-            "description": self.data[5],
-            "categories": [
-                {
-                    "id": 39618
-                }
-            ],
-
-            "images": img_arr,
+            img_tag = f'<img src="{img_dict["src"]}" alt="{img_dict["alt"]}" ><br>'
+            img_in_description.append(img_tag)
 
 
-            "attributes": [
-                {
+        # create oprion fro every attribute
+        #look code below
+        """
+        {
                     "id":1,
                     "name": "Color",
                     "visible": True,
@@ -136,21 +122,59 @@ class SaveOnWebsite:
                         "white"
                     ]
                 },
+        """
+        attr_option_arr = []
+
+        for index, attr_option in enumerate(attr_name_arr):
+            attr_option_dict = {}
+            attr_option_dict['id'] = index + 1
+            attr_option_dict['name'] = attr_option
+            attr_option_dict['visible'] = "True"
+            attr_option_dict['variation'] = "True"
+
+            val = []
+            for a in attrribute_value_full_arr[index]:
+                val.append(a['name'])
+            attr_option_dict['options'] = val
+            # #attrribute_value_full_arr[index]
+            attr_option_arr.append(attr_option_dict)
+
+        wcapi = self.credential()
+
+        product_data = {
+            "name": self.data[4],
+            "type": "variable",
+            "sku":self.data[0],
+            "regular_price": "",
+            'price':"",
+            "total_sales":50,
+            "stock_quantity": 1000,
+            'stock_status': 'instock',
+            'price_html': '',
+
+            "short_description": self.data[4],
+            "description": str(self.data[5])+str(" ".join(img_in_description)),
+            "categories": [
                 {
-                    "id": 2,
-                    "name": "Size",
-                    "visible": True,
-                    "variation": True,
-                    "options": [
-                        "S",
-                        "M",
-                        "L"
-                    ]
+                    "id": 39618
+                }
+            ],
+
+            "images": img_arr,
+
+
+            "attributes": attr_option_arr,
+            "default_attributes": [
+                {
+                    "id":10,
+                    "name":'AAA',
+                    "option":'test'
                 }
             ]
         }
-        # response = wcapi.post('products', product_data)
-        # return response.json()
+        print(product_data)
+        response = wcapi.post('products', product_data)
+        return response.json()
 
 
     def load_attributes(self):
@@ -165,43 +189,23 @@ class SaveOnWebsite:
         print(response.json())
         return response.json()
 
-    def add_attributes(self,id):
+    def add_attributes(self,id,res):
+        res1 = res[6]
+        res2 = res[7]
+        # print(res1 )
+        # print(res2)
+
+
+        attrribute_value_id_arr = self.extract_attrbute_nameAndId(res1)
+        print(attrribute_value_id_arr)
+        attrribute_skuPropIds_arr = self.extract_attrbute_skuPropIds(res2,attrribute_value_id_arr)
+
+        print('attrribute_skuPropIds_arr')
+        print(attrribute_skuPropIds_arr)
+
         wcapi = self.credential()
         data = {
-            "create": [
-                {
-                    "regular_price": "11.00",
-                    "sale_price":"8",
-                    "stock_quantity": 60,
-                    "stock_status":"instock",
-                    "attributes": [
-                            {
-                                "id": 1,
-                                "option": "black"
-                            },
-                            {
-                                "id": 2,
-                                "option": "M"
-                            }
-                        ]
-                },
-                {
-                    "regular_price": "10.00",
-                    "sale_price": "7",
-                    "stock_quantity":50,
-                    "stock_status": "instock",
-                     "attributes": [
-                            {
-                                "id": 1,
-                                "option": "white"
-                            },
-                            {
-                                "id": 2,
-                                "option": "M"
-                            }
-                        ]
-                }
-            ]
+            "create": attrribute_skuPropIds_arr
         }
 
         print(wcapi.post(f"products/{id}/variations/batch", data).json())
@@ -210,9 +214,79 @@ class SaveOnWebsite:
 
     def load_product_by_id(self,id):
         wcapi = self.credential()
-        response = wcapi.get("products/{id}")
+        response = wcapi.get(f"products/{id}")
         return response.json()
-#
+
+    def extract_attrbute_nameAndId(self, res1):
+        """
+                code extract attr name and attribute ID
+                follow data need to extract attributes value from skuPropIds
+                Example format we receive from Aliexpress 'skuPropIds': '1254,200000990,201336100'
+                """
+        attr_name_arr = []
+        attrribute_value_full_arr = []
+        for attr_count in res1:
+            attr_name_arr.append(attr_count['name'])
+            attr_dict = attr_count['values']
+
+            attrribute_value_arr = []
+            for attr_value in attr_dict:
+                attributes_dict = {}
+                attributes_dict['name'] = attr_value['name']
+                attributes_dict['id'] = attr_value['id']
+                attrribute_value_arr.append(attributes_dict)
+            attrribute_value_full_arr.append(attrribute_value_arr)
+
+        #return array with attr name and attr id
+        return attrribute_value_full_arr
+
+    #extract skuPropIds
+    def extract_attrbute_skuPropIds(self, res2,attrribute_value_id_arr):
+        """
+        variation on aliexpress save like follow
+        skuPropIds:1254,200003528,201336100 where
+         1254 - color name
+        200003528 - size name
+        201336100 - country of shippig
+
+        we need extracte data parse for atributes on our website
+        """
+        skuPropIds_addition_value_arr = []
+        skuPropIds_arr = []
+        for element in res2:
+            #parse skuPropIds and send value for ID
+            skuPropIds = element['skuPropIds']
+            skuPropIds_arr = skuPropIds.split(",")
+            attributes = self.receive_skuPropIds_data(skuPropIds_arr,attrribute_value_id_arr)
+
+
+            #extract addition data of skuPropIds
+            data_of_variation = {}
+            data_of_variation['regular_price'] = element['amount']['value']
+            data_of_variation['sale_price'] = element['activityAmount']['value']
+            data_of_variation['stock_quantity'] = element['availQuantity']
+            data_of_variation['stock_status'] = 'instock'
+            data_of_variation['attributes'] = attributes
+            skuPropIds_addition_value_arr.append(data_of_variation)
+        return skuPropIds_addition_value_arr
+
+
+    def receive_skuPropIds_data(self, skuPropIds_arr,attrribute_value_id_arr):
+
+        attr_id_value = []
+        for skuid in skuPropIds_arr:
+            for index, e in enumerate(attrribute_value_id_arr):
+                print(e)
+                print(index + 1)
+                for i, item in enumerate(e):
+                    value_dict = {}
+                    if item["id"] == skuid:
+                        value_dict['id'] = index + 1
+                        value_dict['option'] = item["name"]
+                        attr_id_value.append(value_dict)
+
+        #print(attr_id_value)
+        return attr_id_value
 # if __name__ == '__main__':
 #     # url = "https://fr.aliexpress.com/item/1005002001535547.html"
 #
