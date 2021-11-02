@@ -59,13 +59,17 @@ class AliParserItemIDs:
 
             #prepeare to request
             session = requests.Session()
+            session = requests.Session()
+            session.cookies.set('Host', 'aliexpress.com', domain='.aliexpress.com', path='/')
+            session.cookies.set('region', 'US', domain='.aliexpress.com', path='/')
             headers = {
                 "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
                 "Accept-Language":"en-US,en;q=0.5"
             }
 
-            #set 5s. timeout
-            response = session.get(url, timeout=20, headers=headers, proxies=proxies)
+            #set cookies, VERY IMPORTANT
+            cookies = {'aep_usuc_f': 'region=US&site=glo&b_locale=en_US&c_tp=USD','intl_locale':'en_US','xman_us_f':'x_l=0&x_locale=en_US'}
+            response = session.get(url, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
             # print(session.cookies.get_dict())
 
             #print(response.content)
@@ -84,7 +88,7 @@ class AliParserItemIDs:
     def parse_content(self,content):
         res = soup(content, features="lxml")
 
-        # self.title_parse(res)
+        #self.title_parse(res)
         # self.video_parse(res)
         # self.img_parse(res)
         # self.price_parse(res)
@@ -221,59 +225,63 @@ class AliParserItemIDs:
 
         full_script_data = res.find("script",{'id':'__AER_DATA__'})
         res = full_script_data.getText()
+        #print(res)
         #load full js
         y = json.loads(res)
+        full_name = y['widgets'][0]['children'][13]['props']['title']
+        #cut name from russia words
+        if full_name.find("|")>0:
+            index = full_name.find("|")
+            name = full_name[0:index]
+        #print(name)
         #index 4 - store info
-        # id = y['widgets'][0]['children'][7]['children'][0]['props']['id']
-        #
-        # gallery = y['widgets'][0]['children'][7]['children'][0]['props']['gallery']
-        #
-        # original_imgs_arr = []
-        # preview_imgs_arr = []
-        # video_arr = []
-        # for images in gallery:
-        #     original_imgs_arr.append(images['imageUrl'])
-        #     preview_imgs_arr.append(images['previewUrl'])
-        #     if images['videoUrl'] is not None:
-        #         video_arr.append(images['videoUrl'])
-        #
-        # name = y['widgets'][0]['children'][7]['children'][0]['props']['name']
-        #
-        # description = y['widgets'][0]['children'][7]['children'][0]['props']['description']
-        # full_description = print(f"Script {y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][0]['children'][0]['props']['html']}")
-        # addition_attributes_values = (y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][2]['children'][0]['props']['char'])
+        id = y['widgets'][0]['children'][7]['children'][0]['props']['id']
 
-        # propertyList = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['propertyList']
-        #
-        # price_list = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['priceList']
-        #
-        # tradeCount = y['widgets'][0]['children'][7]['children'][0]['props']['tradeInfo']['tradeCount']
-        #
-        # likes  = y['widgets'][0]['children'][7]['children'][0]['props']['likes']
-        #
-        # reviews = y['widgets'][0]['children'][7]['children'][0]['props']['reviews']
-        #
-        # discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
-        #
-        # return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
-        # #print(y['widgets'][0]['children'][7]['children'][0]['props'])
+        gallery = y['widgets'][0]['children'][7]['children'][0]['props']['gallery']
+
+        original_imgs_arr = []
+        preview_imgs_arr = []
+        video_arr = []
+        for images in gallery:
+            original_imgs_arr.append(images['imageUrl'])
+            preview_imgs_arr.append(images['previewUrl'])
+            if images['videoUrl'] is not None:
+                video_arr.append(images['videoUrl'])
+
+
+
+        description = y['widgets'][0]['children'][7]['children'][0]['props']['description']
+        full_description = y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][0]['children'][0]['props']['html']
+        addition_attributes_values = (y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][2]['children'][0]['props']['char'])
+
+        propertyList = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['propertyList']
+
+        price_list = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['priceList']
+
+        tradeCount = y['widgets'][0]['children'][7]['children'][0]['props']['tradeInfo']['tradeCount']
+
+        likes  = y['widgets'][0]['children'][7]['children'][0]['props']['likes']
+
+        reviews = y['widgets'][0]['children'][7]['children'][0]['props']['reviews']
+
+        discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
+
+        return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
+        #print(y['widgets'][0]['children'][7]['children'][0]['props'])
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://www.aliexpress.com/item/1005001564628352.html?spm=a2g0o.productlist.0.0.3e713178YShVc8&algo_pvid=965988a9-c04a-40cc-8dcb-6d45b665a731&aem_p4p_detail=202110301043061289447295598800011713001&algo_exp_id=965988a9-c04a-40cc-8dcb-6d45b665a731-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000018911210251%22%7D' #1005002669679611
+    url = 'https://www.aliexpress.ru/item/1005003172018337.html?c_tp=RUB&region=UK&b_locale=en_US' #1005002669679611
     start = AliParserItemIDs(url)
     res = start.request_by_url()
-    #print("Reposen from aliexpress")
-    #print(res)
-    # save_class = SaveOnWebsite(res)
-    # after_save = save_class.save()
-    # #print(after_save)
-    #
-    # #save_class.delete_product(623519)
-    # print(after_save['id'])
-    #
-    # save_class.add_attributes(after_save['id'],res)
-    # #
+    print("Reposen from aliexpress")
+    print(res)
+
+    save_class = SaveOnWebsite(res)
+    after_save = save_class.save()
+    print(after_save)
+    save_class.add_attributes(after_save['id'],res)
+
     # # print(save_class.load_product_by_id(after_save['id']))
     # time.sleep(40)
     # save_class.delete_product(after_save['id'])

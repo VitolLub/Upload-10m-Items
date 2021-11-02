@@ -9,11 +9,14 @@ Class describe login and nethods to save data on veblite - https://newdropship.a
 # Consumer secret: cs_e8838c981a6b91b89cbdfc8364152a569740e87d
 """
 from woocommerce import API
+from utility import Utility as utility
+
+
 class SaveOnWebsite:
 
     def __init__(self,data):
         self.data = data
-
+        self.all_translate_values = utility().read_translate_file()
 
     #website credential
     def credential(self):
@@ -75,7 +78,14 @@ class SaveOnWebsite:
 
     #save data on website
     def save(self):
-        #print(self.data[6])
+        #print(len(self.data))
+
+
+        # prepear video url
+        if len(self.data[3])>0:
+            video_embed = utility().fix_video_url(self.data[3][0])
+        else:
+            video_embed = ''
 
         attr_name_arr = []
         attrribute_value_full_arr = []
@@ -111,35 +121,41 @@ class SaveOnWebsite:
 
         # create oprion fro every attribute
         #look code below
-        """
-        {
-                    "id":1,
-                    "name": "Color",
-                    "visible": True,
-                    "variation": True,
-                    "options": [
-                        "black",
-                        "white"
-                    ]
-                },
-        """
+
         attr_option_arr = []
 
         for index, attr_option in enumerate(attr_name_arr):
             attr_option_dict = {}
             attr_option_dict['id'] = index + 1
-            attr_option_dict['name'] = attr_option
+
+            #translate att name
+
+            attr_option_dict['name'] = utility().translate(attr_option,self.all_translate_values)
             attr_option_dict['visible'] = "True"
             attr_option_dict['variation'] = "True"
 
             val = []
             for a in attrribute_value_full_arr[index]:
-                val.append(a['name'])
+                if len(a['name'])>2:
+                    result = utility().translate(a['name'],self.all_translate_values)
+                else:
+                    result = a['name']
+                val.append(result)
             attr_option_dict['options'] = val
             # #attrribute_value_full_arr[index]
             attr_option_arr.append(attr_option_dict)
 
+        #add addition attributes
+        for index, attr_atidion in enumerate(self.data[13]):
+            attr_adition_dict = {}
+            attr_adition_dict['name'] = attr_atidion['title']
+            attr_adition_dict['visible'] = "True"
+            attr_adition_dict['variation'] = "False"
+            attr_adition_dict['options'] = [attr_atidion['value']]
+            attr_option_arr.append(attr_adition_dict)
+
         wcapi = self.credential()
+
 
         product_data = {
             "name": self.data[4],
@@ -148,12 +164,13 @@ class SaveOnWebsite:
             "regular_price": "",
             'price':"",
             "total_sales":50,
+
             "stock_quantity": 1000,
-            'stock_status': 'instock',
-            'price_html': '',
+            "manage_stock":"true",
+            "stock_status": "instock",
 
             "short_description": self.data[4],
-            "description": str(self.data[5])+str(" ".join(img_in_description)),
+            "description": video_embed+self.data[12],
             "categories": [
                 {
                     "id": 39618
@@ -163,16 +180,10 @@ class SaveOnWebsite:
             "images": img_arr,
 
 
-            "attributes": attr_option_arr,
-            "default_attributes": [
-                {
-                    "id":10,
-                    "name":'AAA',
-                    "option":'test'
-                }
-            ]
+            "attributes": attr_option_arr
         }
-        print(product_data)
+        # print('Full atr list')
+        # print(product_data)
         response = wcapi.post('products', product_data)
         return response.json()
 
@@ -207,7 +218,7 @@ class SaveOnWebsite:
         data = {
             "create": attrribute_skuPropIds_arr
         }
-
+        #print(data)
         print(wcapi.post(f"products/{id}/variations/batch", data).json())
 
 
@@ -218,6 +229,7 @@ class SaveOnWebsite:
         return response.json()
 
     def extract_attrbute_nameAndId(self, res1):
+
         """
                 code extract attr name and attribute ID
                 follow data need to extract attributes value from skuPropIds
@@ -232,12 +244,18 @@ class SaveOnWebsite:
             attrribute_value_arr = []
             for attr_value in attr_dict:
                 attributes_dict = {}
-                attributes_dict['name'] = attr_value['name']
+
+                if len(attr_value['name'])>3:
+                    name = utility().translate(attr_value['name'],self.all_translate_values)
+                    attributes_dict['name'] = utility().translate(attr_value['name'],self.all_translate_values)
+                else:
+                    attributes_dict['name'] = attr_value['name']
                 attributes_dict['id'] = attr_value['id']
                 attrribute_value_arr.append(attributes_dict)
             attrribute_value_full_arr.append(attrribute_value_arr)
 
-        #return array with attr name and attr id
+        print('attrribute_value_full_arr')
+        print(attrribute_value_full_arr)
         return attrribute_value_full_arr
 
     #extract skuPropIds
@@ -266,6 +284,7 @@ class SaveOnWebsite:
             data_of_variation['sale_price'] = element['activityAmount']['value']
             data_of_variation['stock_quantity'] = element['availQuantity']
             data_of_variation['stock_status'] = 'instock'
+            data_of_variation['manage_stock'] = 'true'
             data_of_variation['attributes'] = attributes
             skuPropIds_addition_value_arr.append(data_of_variation)
         return skuPropIds_addition_value_arr
@@ -285,16 +304,4 @@ class SaveOnWebsite:
                         value_dict['option'] = item["name"]
                         attr_id_value.append(value_dict)
 
-        #print(attr_id_value)
         return attr_id_value
-# if __name__ == '__main__':
-#     # url = "https://fr.aliexpress.com/item/1005002001535547.html"
-#
-#     # start = AliParserItemIDs(url)
-#     # res = start.request_by_url()
-#     # print(res)
-#
-#     start = SaveOnWebsite()
-#     #start.connet_ping()
-#     #start.create_category()
-#     start.save()
