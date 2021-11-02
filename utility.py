@@ -1,3 +1,5 @@
+__author__      = "Lubomir Vitol"
+__copyright__   = "Copyright 2021, Planet Earth"
 """
 File contain help functions
 """
@@ -27,7 +29,6 @@ class Utility:
 
     def translate(self,value, all_translate_values):
         if self.has_cyrillic(value)==True:
-            print(f'cyrillic available')
             return self.find_translate(all_translate_values,value)
         else:
             return value

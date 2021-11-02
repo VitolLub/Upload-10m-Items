@@ -1,8 +1,5 @@
-""""""
-import json
-
-import self as self
-
+__author__      = "Lubomir Vitol"
+__copyright__   = "Copyright 2021, Planet Earth"
 """
 Class describe login and nethods to save data on veblite - https://newdropship.a2hosted.com/
 # Consumer key: ck_34e7f3f1e99a0b0911283a82b61280bbe422d789
@@ -40,8 +37,7 @@ class SaveOnWebsite:
             timeout=40
         )
         response = wcapi.get('products/categories/39617')
-        print(response.json())
-        print(response.status_code)
+        return response.json()
 
 
     def create_category(self):
@@ -72,15 +68,10 @@ class SaveOnWebsite:
           ]
         }
         response = wcapi.post('products/categories/batch', batch_data)
-        print(response)
-        print(response.json())
-        #39618
+        return response.json()
 
     #save data on website
     def save(self):
-        #print(len(self.data))
-
-
         # prepear video url
         if len(self.data[3])>0:
             video_embed = utility().fix_video_url(self.data[3][0])
@@ -96,15 +87,13 @@ class SaveOnWebsite:
             attrribute_value_arr = []
             for attr_value in attr_dict:
                 attributes_dict = {}
-                attributes_dict['name']= attr_value['name']
+                attributes_dict['name']= attr_value['displayName']
                 attributes_dict['displayName'] = attr_value['displayName']
                 attributes_dict['id'] = attr_value['id']
                 attrribute_value_arr.append(attributes_dict)
             attrribute_value_full_arr.append(attrribute_value_arr)
 
 
-        # print(attr_name_arr)
-        # print(attrribute_value_full_arr)
 
         #img array
         img_arr = []
@@ -163,11 +152,6 @@ class SaveOnWebsite:
             "sku":self.data[0],
             "regular_price": "",
             'price':"",
-            "total_sales":50,
-
-            "stock_quantity": 1000,
-            "manage_stock":"true",
-            "stock_status": "instock",
 
             "short_description": self.data[4],
             "description": video_embed+self.data[12],
@@ -182,44 +166,56 @@ class SaveOnWebsite:
 
             "attributes": attr_option_arr
         }
-        # print('Full atr list')
-        # print(product_data)
         response = wcapi.post('products', product_data)
+        print('Data saving')
         return response.json()
 
 
     def load_attributes(self):
         wcapi = self.credential()
         response = wcapi.get('products/attributes')
-        print(response.json())
+        return response.json()
 
 
     def delete_product(self,id):
         wcapi = self.credential()
         response = wcapi.delete(f'products/{id}')
-        print(response.json())
         return response.json()
 
     def add_attributes(self,id,res):
         res1 = res[6]
         res2 = res[7]
-        # print(res1 )
-        # print(res2)
-
 
         attrribute_value_id_arr = self.extract_attrbute_nameAndId(res1)
-        print(attrribute_value_id_arr)
         attrribute_skuPropIds_arr = self.extract_attrbute_skuPropIds(res2,attrribute_value_id_arr)
 
-        print('attrribute_skuPropIds_arr')
-        print(attrribute_skuPropIds_arr)
 
-        wcapi = self.credential()
-        data = {
-            "create": attrribute_skuPropIds_arr
-        }
-        #print(data)
-        print(wcapi.post(f"products/{id}/variations/batch", data).json())
+
+        try:
+            #save attribute
+            attributes_arr = []
+            index=0
+            for b in attrribute_skuPropIds_arr:
+                attributes_arr.append(b)
+                try:
+                    if len(attributes_arr) >= 99:
+                        self.save_all_attributes(attributes_arr,id)
+                        attributes_arr = []
+                        index=1
+                    elif len(attributes_arr) == len(attrribute_skuPropIds_arr):
+                        self.save_all_attributes(attributes_arr,id)
+                        index=2
+                    else:
+                        index=3
+                        attributes_arr = []
+                except Exception as e:
+                    print(f"During savind attributes upon error {e}")
+
+            if index==3:
+                self.save_all_attributes(attrribute_skuPropIds_arr,id)
+        except Exception as e:
+            print(f"During process in function add_attributes upon eroor {e}")
+
 
 
 
@@ -245,17 +241,14 @@ class SaveOnWebsite:
             for attr_value in attr_dict:
                 attributes_dict = {}
 
-                if len(attr_value['name'])>3:
-                    name = utility().translate(attr_value['name'],self.all_translate_values)
-                    attributes_dict['name'] = utility().translate(attr_value['name'],self.all_translate_values)
+                if len(attr_value['displayName'])>3:
+                    attributes_dict['name'] = utility().translate(attr_value['displayName'],self.all_translate_values)
                 else:
-                    attributes_dict['name'] = attr_value['name']
+                    attributes_dict['name'] = attr_value['displayName']
                 attributes_dict['id'] = attr_value['id']
                 attrribute_value_arr.append(attributes_dict)
             attrribute_value_full_arr.append(attrribute_value_arr)
 
-        print('attrribute_value_full_arr')
-        print(attrribute_value_full_arr)
         return attrribute_value_full_arr
 
     #extract skuPropIds
@@ -282,21 +275,29 @@ class SaveOnWebsite:
             data_of_variation = {}
             data_of_variation['regular_price'] = element['amount']['value']
             data_of_variation['sale_price'] = element['activityAmount']['value']
-            data_of_variation['stock_quantity'] = element['availQuantity']
-            data_of_variation['stock_status'] = 'instock'
-            data_of_variation['manage_stock'] = 'true'
+            if int(element['availQuantity']) > 0:
+                data_of_variation['stock_quantity'] = element['availQuantity']
+                data_of_variation['stock_status'] = 'instock'
+                data_of_variation['manage_stock'] = 'true'
+            else:
+                data_of_variation['stock_quantity'] = element['availQuantity']
+                data_of_variation['stock_status'] = 'outofstock'
+                data_of_variation['manage_stock'] = 'false'
+                data_of_variation['status'] = 'private'
+                data_of_variation['purchasable'] = 'false'
+
+
             data_of_variation['attributes'] = attributes
             skuPropIds_addition_value_arr.append(data_of_variation)
         return skuPropIds_addition_value_arr
 
-
+    #parse skuPropIds
     def receive_skuPropIds_data(self, skuPropIds_arr,attrribute_value_id_arr):
 
         attr_id_value = []
         for skuid in skuPropIds_arr:
             for index, e in enumerate(attrribute_value_id_arr):
-                print(e)
-                print(index + 1)
+
                 for i, item in enumerate(e):
                     value_dict = {}
                     if item["id"] == skuid:
@@ -305,3 +306,16 @@ class SaveOnWebsite:
                         attr_id_value.append(value_dict)
 
         return attr_id_value
+
+    def save_all_attributes(self,attrribute_skuPropIds_arr,id):
+        wcapi = self.credential()
+
+        try:
+
+            data = {
+                "create": attrribute_skuPropIds_arr
+            }
+            wcapi.post(f"products/{id}/variations/batch", data).json()
+        except Exception as e:
+            return f"Function save_all_attributes upon error {e}"
+

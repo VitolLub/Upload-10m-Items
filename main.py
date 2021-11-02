@@ -1,23 +1,10 @@
-# This is a sample Python script.
-import time
+__author__      = "Lubomir Vitol"
+__copyright__   = "Copyright 2021, Planet Earth"
 from urllib.error import HTTPError
-
-import content as content
-import lxml.html
-import asyncio
-import requests
-from bs4 import BeautifulSoup as soup
-from requests_html import AsyncHTMLSession
-import pyppdf.patch_pyppeteer
-from browser import Browser
-
-import mechanize
 from bs4 import BeautifulSoup as soup
 import requests
-from requests_html import AsyncHTMLSession
 import random
 import json
-#import pyppdf.pyppeteer
 from utility import Utility as help_tool
 from saveonwebsite import SaveOnWebsite
 
@@ -44,8 +31,6 @@ class AliParserItemIDs:
                 # subcategory = category[f_index + len('category/'):l_index]
                 subcategory_arr.append(category)
 
-        print(subcategory_arr)
-        print(len(subcategory_arr))
     #load every category id to parse subcatecory by subcatecory
     def load_category_id(self):
         return help_tool().load_subcategory_id()
@@ -59,7 +44,6 @@ class AliParserItemIDs:
 
             #prepeare to request
             session = requests.Session()
-            session = requests.Session()
             session.cookies.set('Host', 'aliexpress.com', domain='.aliexpress.com', path='/')
             session.cookies.set('region', 'US', domain='.aliexpress.com', path='/')
             headers = {
@@ -70,11 +54,9 @@ class AliParserItemIDs:
             #set cookies, VERY IMPORTANT
             cookies = {'aep_usuc_f': 'region=US&site=glo&b_locale=en_US&c_tp=USD','intl_locale':'en_US','xman_us_f':'x_l=0&x_locale=en_US'}
             response = session.get(url, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
-            # print(session.cookies.get_dict())
 
-            #print(response.content)
 
-            #return self.parse_subcategory(response.content)
+            print('Request Success')
             return self.parse_content(response.content)
 
         except HTTPError as http_err:
@@ -172,13 +154,11 @@ class AliParserItemIDs:
             alt_arr = []
             # parse title of attributes
             curre_product_attributes = res.find_all("div", {'class': 'Product_Sku__container__1f7i6'})
-            #print(curre_product_attributes)
 
             # parse lenght attr
             for lenght_search in curre_product_attributes:
                 lenght_attr_list = lenght_search.find_all("span", {'class':'ali-kit_Label__size-s__1n9sab'})
                 for lengh_value in lenght_attr_list:
-                    print(lengh_value)
                     lenght_attr.append(lengh_value.getText())
 
             #firnd attribute title
@@ -225,7 +205,8 @@ class AliParserItemIDs:
 
         full_script_data = res.find("script",{'id':'__AER_DATA__'})
         res = full_script_data.getText()
-        #print(res)
+
+
         #load full js
         y = json.loads(res)
         full_name = y['widgets'][0]['children'][13]['props']['title']
@@ -233,7 +214,8 @@ class AliParserItemIDs:
         if full_name.find("|")>0:
             index = full_name.find("|")
             name = full_name[0:index]
-        #print(name)
+
+
         #index 4 - store info
         id = y['widgets'][0]['children'][7]['children'][0]['props']['id']
 
@@ -266,25 +248,22 @@ class AliParserItemIDs:
 
         discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
 
+        print('Parse Data Success')
         return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
-        #print(y['widgets'][0]['children'][7]['children'][0]['props'])
+
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://www.aliexpress.ru/item/1005003172018337.html?c_tp=RUB&region=UK&b_locale=en_US' #1005002669679611
+    url = 'https://www.aliexpress.ru/item/4000048887606.html?c_tp=RUB&region=UK&b_locale=en_US' #1005002669679611
     start = AliParserItemIDs(url)
     res = start.request_by_url()
-    print("Reposen from aliexpress")
-    print(res)
-
+    print('Start save data')
     save_class = SaveOnWebsite(res)
     after_save = save_class.save()
-    print(after_save)
+    print('Add addition attributes')
     save_class.add_attributes(after_save['id'],res)
-
-    # # print(save_class.load_product_by_id(after_save['id']))
-    # time.sleep(40)
-    # save_class.delete_product(after_save['id'])
+    print('Done')
 
 
 
