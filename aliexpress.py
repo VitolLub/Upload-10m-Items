@@ -109,8 +109,34 @@ class AliexpressSubCategoryParse:
         subcategory = category[f_index + len('category/'):l_index]
         return subcategory
 
+    #function to chekc parent category in DB
+    def check_parent_category(self):
+        pass
+
+    #function do check all category in DB and save new subcategory
+    def check_sub_category(self,all_subcategoues):
+        for subcategory in all_subcategoues:
+            #check parend category in DB
+            parent_category = Database().check_parent_category(subcategory['ali_parent'])
+
+            subcategory['site_parent'] = parent_category['site_parent_cat_id']
+            print(subcategory)
+            subcategory_data = SaveOnWebsite().save_sub_category(subcategory)
+            print(subcategory_data['create'][0]['id'])
+
+            #save data in to DBs
+            #function to save subcategory in DB
+            subcategory['site_id'] = subcategory_data['create'][0]['id']
+            print(f"subcategory")
+            print(subcategory)
+            Database().save_sub_category(subcategory)
+
+
+
 
 if __name__ == '__main__':
 
     test = AliexpressSubCategoryParse()
-    test.parse_full_parent_category()
+    all_subcategoues = test.parse_sub_category()
+
+    test.check_sub_category(all_subcategoues)

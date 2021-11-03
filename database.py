@@ -26,3 +26,19 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_parent_category']
         collection.insert_many(parent_categoty)
+
+    def check_parent_category(self, param):
+        dbdump = self.connect_to_db()
+        collection = dbdump['aliexpress_parent_category']
+        result = collection.find_one({"ali_parent_cat_id": param})
+        return result
+
+    #save somecategory in aliexpress_sub_category
+    def save_sub_category(self, subcategory):
+        db = self.connect_to_db()
+        collection = db['aliexpress_sub_category']
+        #insert singl subcategory
+
+        collection.insert_one(subcategory)
+        return True
+

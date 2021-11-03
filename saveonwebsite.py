@@ -321,14 +321,25 @@ class SaveOnWebsite:
 
     def save_parent_category(self,parent_categoty_dict):
         wcapi = self.credential()
+        if parent_categoty_dict['site_parent'] == "":
+            parent_id = ''
+        else:
+            parent_id = parent_categoty_dict['site_parent']
+        print(f"parent_id {parent_id}")
+        #check if exist parent_categoty_dict['ali_parent_cat_id']
+        try:
+            ali_id = parent_categoty_dict['ali_parent_cat_id']
+        except:
+            ali_id = parent_categoty_dict['ali_id']
+
 
         batch_data = {
             'create': [
                 {
-                    'id': parent_categoty_dict['ali_parent_cat_id'],
+                    'id': ali_id,
                     'name': parent_categoty_dict['name'],
                     'slug': parent_categoty_dict['name'],
-                    #'parent': 39617,
+                    'parent': parent_id,
                     'description': parent_categoty_dict['name'],
                     'display': 'default',
                     'image': None,
@@ -336,7 +347,7 @@ class SaveOnWebsite:
                     'count': 0,
                     '_links': {
                         'self': [
-                            {'href': f'http://localhost/wp-json/wc/v3/products/categories/{parent_categoty_dict["ali_parent_cat_id"]}'}
+                            {'href': f'http://localhost/wp-json/wc/v3/products/categories/{ali_id}'}
                         ],
                         'collection': [
                             {'href': 'http://localhost/wp-json/wc/v3/products/categories'}
@@ -348,6 +359,9 @@ class SaveOnWebsite:
         response = wcapi.post('products/categories/batch', batch_data)
         print(response.json())
         return response.json()
+
+    def save_sub_category(self, subcategory):
+        return self.save_parent_category(subcategory)
 
 
 
