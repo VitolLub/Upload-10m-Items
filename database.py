@@ -11,7 +11,7 @@ class Database:
 
     def save_to_db(self):
         db = self.connect_to_db()
-        collection = db['aliexpress']
+        collection = db['aliexpress_parent_category']
 
         item_1 = {
             "_id": "2",
@@ -21,3 +21,8 @@ class Database:
         }
 
         collection.insert_many([item_1])
+
+    def save_parent_category(self,parent_categoty):
+        db = self.connect_to_db()
+        collection = db['aliexpress_parent_category']
+        collection.insert_many(parent_categoty)

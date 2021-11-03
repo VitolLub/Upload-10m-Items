@@ -3,7 +3,7 @@ __copyright__   = "Copyright 2021, Planet Earth"
 
 from bs4 import BeautifulSoup as soup
 from database import Database
-
+from saveonwebsite import SaveOnWebsite
 from utility import Utility as help_tool
 import random
 import requests
@@ -31,22 +31,46 @@ class AliexpressSubCategoryParse:
     def subcategory(self):
         url = "https://www.aliexpress.com/all-wholesale-products.html?spm=a2g0o.best.16005.1.6c2c2c25laMEvr"
         content = help_tool().request_by_url(url)
-        print(self.parse_subcategory(content))
+        return content
 
 
+    #save category parent in MongoDb to reice parent category id from site
+    def save_parent_category(self,parent_category):
+        Database().save_parent_category(parent_category)
 
-    def parse_parent_category(self,content):
+
+    #parse full parent parent_categoty
+    def parse_full_parent_category(self):
+        parent_category = self.parse_parent_category()
+        full_parent_cat_arr = []
+        for category in parent_category:
+            parent_category_data = SaveOnWebsite().save_parent_category(category)
+            category['site_parent_cat_id'] = parent_category_data['create'][0]['id']
+
+            full_parent_cat_arr.append(category)
+            # save data in to DBs
+        self.save_parent_category(full_parent_cat_arr)
+
+
+    def parse_parent_category(self):
+        content = self.subcategory()
         res = soup(content,features="lxml")
         res = res.find_all("h3")
-        category_id_arr = []
-        category_anchor_arr = []
-        # for h3 in res:
-        #     category_val = h3.find('a')
-        #     category_anchor_arr(category_val['data-spm-anchor-id'])
-        #     category_id_arr.append(category_val['href'])
-        # return dict(zip())
+        parent_categoryes_arr = []
+        for parent in res:
+            parent_dict = {}
+            parent_cat_name = parent.getText()
+            parent_cat = parent.find("a")
+            parent_cat_id = self.fix_category_url(parent_cat['href'])
 
-    def parse_subcategory(self, content):
+            parent_dict['name'] = parent_cat_name.strip()
+            parent_dict['ali_parent_cat_id'] = parent_cat_id.strip()
+            parent_categoryes_arr.append(parent_dict)
+        print(parent_categoryes_arr)
+        return parent_categoryes_arr
+
+    def parse_sub_category(self):
+        content = self.subcategory()
         subcategory_id_arr = []
         category_name_arr = []
 
@@ -75,7 +99,7 @@ class AliexpressSubCategoryParse:
                         subcategory_dict['site_parent'] = ""
 
                         category_name_arr.append(subcategory_dict)
-
+        print(category_name_arr)
         return category_name_arr
 
     def fix_category_url(self, category):
@@ -89,5 +113,4 @@ class AliexpressSubCategoryParse:
 if __name__ == '__main__':
 
     test = AliexpressSubCategoryParse()
-    #test.test_db_save()
-    test.subcategory()
+    test.parse_full_parent_category()

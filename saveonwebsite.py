@@ -11,7 +11,7 @@ from utility import Utility as utility
 
 class SaveOnWebsite:
 
-    def __init__(self,data):
+    def __init__(self,data=None):
         self.data = data
         self.all_translate_values = utility().read_translate_file()
 
@@ -318,4 +318,36 @@ class SaveOnWebsite:
             wcapi.post(f"products/{id}/variations/batch", data).json()
         except Exception as e:
             return f"Function save_all_attributes upon error {e}"
+
+    def save_parent_category(self,parent_categoty_dict):
+        wcapi = self.credential()
+
+        batch_data = {
+            'create': [
+                {
+                    'id': parent_categoty_dict['ali_parent_cat_id'],
+                    'name': parent_categoty_dict['name'],
+                    'slug': parent_categoty_dict['name'],
+                    #'parent': 39617,
+                    'description': parent_categoty_dict['name'],
+                    'display': 'default',
+                    'image': None,
+                    'menu_order': 0,
+                    'count': 0,
+                    '_links': {
+                        'self': [
+                            {'href': f'http://localhost/wp-json/wc/v3/products/categories/{parent_categoty_dict["ali_parent_cat_id"]}'}
+                        ],
+                        'collection': [
+                            {'href': 'http://localhost/wp-json/wc/v3/products/categories'}
+                        ]
+                    }
+                }
+            ]
+        }
+        response = wcapi.post('products/categories/batch', batch_data)
+        print(response.json())
+        return response.json()
+
+
 
