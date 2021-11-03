@@ -18,18 +18,7 @@ class AliParserItemIDs:
         self.lenght_attr = 'ali-kit_Base__base__1odrub ali-kit_Base__default__1odrub ali-kit_Label__label__1n9sab ali-kit_Label__size-s__1n9sab'
 
 
-    #
-    def parse_subcategory(self,content):
-        res = soup(content, features="lxml")
-        res = res.find_all("a")
-        subcategory_arr = []
-        for category in res:
-            category = category['href']
-            if category.find('category/') > 0:
-                # f_index = category.find('category/')
-                # l_index = category.rfind("/")
-                # subcategory = category[f_index + len('category/'):l_index]
-                subcategory_arr.append(category)
+     
 
     #load every category id to parse subcatecory by subcatecory
     def load_category_id(self):
