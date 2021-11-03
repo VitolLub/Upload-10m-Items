@@ -321,10 +321,10 @@ class SaveOnWebsite:
 
     def save_parent_category(self,parent_categoty_dict):
         wcapi = self.credential()
-        if parent_categoty_dict['site_parent'] == "":
-            parent_id = ''
-        else:
+        try:
             parent_id = parent_categoty_dict['site_parent']
+        except Exception as e:
+            parent_id = ''
         print(f"parent_id {parent_id}")
         #check if exist parent_categoty_dict['ali_parent_cat_id']
         try:
