@@ -1,6 +1,8 @@
 __author__      = "Lubomir Vitol"
 __copyright__   = "Copyright 2021, Planet Earth"
 
+import json
+
 from bs4 import BeautifulSoup as soup
 from database import Database
 from saveonwebsite import SaveOnWebsite
@@ -14,14 +16,91 @@ class AliexpressItemsParse:
     def __init__(self):
         self.db = Database().connect_to_db()
 
+    #check if product_id exist in aliexpress_all_product_ids table
+    def check_if_product_id_exist(self, product_id):
+        db = self.db
+        db = db['aliexpress_all_product_ids']
+        product_id_exist = db.find_one({'product_id': product_id})
+        if product_id_exist:
+            return True
+        else:
+            return False
 
-    def request_by_url(self,url):
+    #save parammeter in aliexpress_all_product_ids
+    def save_all_product_ids(self, product_id, site_id):
+        db = self.db
+        #save product_id in aliexpress_all_product_ids
+        db = db['aliexpress_all_product_ids']
+        db.insert_one({'product_id': product_id, 'category_site_id': site_id })
+        return True
 
-        pass
+    #load ali_id from aliexpress_sub_category
+    def load_all_ali_ids(self):
+        db = self.db
+        db = db['aliexpress_sub_category']
+        all_ali_ids = db.find({})
+        return all_ali_ids
+
+    #create url frm ali_id
+    def create_url(self, ali_id, page=1):
+        url = f"https://www.aliexpress.com/af/category/{ali_id}.html?ltype=affiliate&isFreeShip=y&isFavorite=y&SortType=default&page={page}&isrefine=y"
+        return url
+
+    def get_content(self, url):
+        #get content from url and parse content by BeautifulSoup
+        proxies_arr = help_tool().proxy_load()
+        proxies = {'http': proxies_arr[random.randint(0, len(proxies_arr) - 1)]}
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+        response = requests.get(url, headers=headers, proxies=proxies)
+        content = soup(response.text, 'html.parser')
+
+        return content
+
+    def parse_item(self, content, site_id):
+        #parse content by beautifulsoup
+        content = soup(content, 'html.parser')
+        #find all script tag what cantain text window._isCrawler
+        script_tag = content.find_all('script')
+        for script in script_tag:
+            if 'window._isCrawler' in script.text:
+                #if script tag contain text window._isCrawler then return False
+                #conver script text to json
+
+                """
+                Remove all the comments from the script
+                """
+                script_text = script.text.replace('\n', '').replace('\t', '').replace('\r', '')
+                script_text = script_text.encode('ascii', 'ignore').decode('ascii')
+
+                #script_text to json
+                print(script_text)
+                script_text = json.loads(script_text)
+                print(script_text)
 
 
-    def test_db_save(self):
-        Database().save_to_db()
+                break
+
+        # items = content.find_all('div', class_='product-container')
+        # for item in items:
+        #     ids = item.find_all('a')
+        #     for id in ids:
+        #         product_id = id['href']
+        #         print(f"Href = {product_id}")
+                # #extract product_id from url beetween /item/ and .html
+                # product_id = product_id.split('/')[-1].split('.')[0]
+                # print(f"product_id {product_id}")
+                # #check if product_id exist in aliexpress_all_product_ids table
+                # if not self.check_if_product_id_exist(product_id):
+                #     #save product_id in aliexpress_all_product_ids
+                #     site_id_arr = []
+                #     site_id_arr.append(site_id)
+                #     self.save_all_product_ids(product_id, site_id_arr)
+                # else:
+                #     #update site_id in aliexpress_all_product_ids
+                #     db = self.db
+                #     db = db['aliexpress_all_product_ids']
+                #     db.update_one({'product_id': product_id}, {'$push': {'category_site_id': site_id}})
+
 
 
 class AliexpressSubCategoryParse:
@@ -141,8 +220,36 @@ class AliexpressSubCategoryParse:
 
 if __name__ == '__main__':
 
-    test = AliexpressSubCategoryParse()
-    #test.parse_full_parent_category()
+    """
+    AliexpressSubCategoryParse class contain parsers for category and subcategory
+    Use once to parse all category and subcategory
+    """
+    # test = AliexpressSubCategoryParse()
+    # #test.parse_full_parent_category()
+    #
+    # all_subcategoues = test.parse_sub_category()
+    # test.check_sub_category(all_subcategoues)
 
-    all_subcategoues = test.parse_sub_category()
-    test.check_sub_category(all_subcategoues)
+
+    """
+    class AliexpressItemsParse contain parsers for items
+    code crawly all items in category and subcategory one by one and save in MongoDB
+    """
+    item = AliexpressItemsParse()
+    ali_ids = item.load_all_ali_ids()
+    for id in ali_ids:
+        id['ali_id'] = "200214073"
+        print(id['ali_id'])
+        #for page in range(1,50):
+        page = 1
+        url = item.create_url(id['ali_id'],page)
+
+        #make request to get content
+        content = help_tool().request_by_url(url)
+        site_id = id['site_id']
+        #function to extract data from content
+        item_data = item.parse_item(content,site_id)
+
+
+        break
+        #

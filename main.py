@@ -198,6 +198,8 @@ class AliParserItemIDs:
 
         #load full js
         y = json.loads(res)
+        print(y)
+
         full_name = y['widgets'][0]['children'][13]['props']['title']
         #cut name from russia words
         if full_name.find("|")>0:
@@ -244,7 +246,7 @@ class AliParserItemIDs:
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://www.aliexpress.ru/item/4000048887606.html?c_tp=RUB&region=UK&b_locale=en_US' #1005002669679611
+    url = 'https://www.aliexpress.ru/item/1005001564628352.html?c_tp=RUB&region=UK&b_locale=en_US' #1005002669679611
     start = AliParserItemIDs(url)
     res = start.request_by_url()
     print('Start save data')
