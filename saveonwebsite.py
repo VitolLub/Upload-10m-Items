@@ -1,5 +1,10 @@
 __author__      = "Lubomir Vitol"
 __copyright__   = "Copyright 2021, Planet Earth"
+
+import re
+
+from bs4 import BeautifulSoup
+
 """
 Class describe login and nethods to save data on veblite - https://newdropship.a2hosted.com/
 # Consumer key: ck_34e7f3f1e99a0b0911283a82b61280bbe422d789
@@ -146,6 +151,10 @@ class SaveOnWebsite:
         wcapi = self.credential()
 
 
+        #remove all links with word aliexpress  self.data[12]
+        full_description = self.remove_all_links(self.data[12])
+
+
         product_data = {
             "name": self.data[4],
             "type": "variable",
@@ -154,7 +163,7 @@ class SaveOnWebsite:
             'price':"",
 
             "short_description": self.data[4],
-            "description": video_embed+self.data[12],
+            "description": video_embed+full_description,
             "categories": [
                 {
                     "id": 40545
@@ -362,6 +371,30 @@ class SaveOnWebsite:
 
     def save_sub_category(self, subcategory):
         return self.save_parent_category(subcategory)
+
+    def remove_all_links(self, param):
+        #find all links with href param aliexpress using soup
+        soup = BeautifulSoup(param, 'html.parser')
+
+        #find single a tag with aliexpress text
+
+        #len for a_tag
+        a_tag = soup.find_all('a', href=re.compile('aliexpress'))
+        # len for a_tag
+        if len(a_tag) > 0:
+            links = soup.find_all('a')
+            for link in links:
+                if link['href'].find('aliexpress') > 0:
+                    # remove parent tag
+                    link.decompose()
+
+            #remove first img tag
+            img = soup.find('img')
+            img.decompose()
+        return soup.prettify()
+
+
+
 
 
 

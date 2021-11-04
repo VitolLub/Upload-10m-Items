@@ -71,11 +71,22 @@ class AliexpressItemsParse:
                 """
                 script_text = script.text.replace('\n', '').replace('\t', '').replace('\r', '')
                 script_text = script_text.encode('ascii', 'ignore').decode('ascii')
+                #print(script_text)
 
+                # from window.runParams=
+                #to ;window.runParams
+                #find position window.runParams= in script text
+                start_position = script_text.find('window.runParams = {"mods')
+                print(start_position)
+                #second position  ;window.runParams in script text
+                end_position = script_text.find('window.runParams.csrfToken')
+                print(end_position)
+                #get text from start_position to end_position
+                script_text = script_text[start_position:end_position]
+                print(script_text)
                 #script_text to json
-                print(script_text)
-                script_text = json.loads(script_text)
-                print(script_text)
+                #script_text = json.loads(script_text)
+                #print(script_text)
 
 
                 break
