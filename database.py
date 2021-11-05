@@ -42,3 +42,27 @@ class Database:
         collection.insert_one(subcategory)
         return True
 
+    def get_first_10_orders(self):
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        #first 10 orders with status = 0
+        result = collection.find({'status': 0}).limit(10)
+        print(result[0])
+        return result
+
+    def set_status(self, product_id):
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        #update status = 1 by product_id and receive result
+
+        collection.update_one({'product_id': product_id}, {'$set': {'status': 1}})
+        return True
+
+    def set_check_status(self, param):
+        db = self.connect_to_db()
+        collection = db['aliexpress_sub_category']
+        # inserst field is_checked = 1 by param
+        collection.update_one({'ali_id': param}, {'$set': {'is_checked': 1}})
+
+
+

@@ -7,11 +7,43 @@ import random
 import json
 from utility import Utility as help_tool
 from saveonwebsite import SaveOnWebsite
+from database import Database
+
+
+class ReadIdFromDb:
+
+    #connect to database connect_to_db
+    def __init__(self):
+        self.db = Database()
+
+
+    #get array of url by id from get_first_10_orders
+    def get_url_by_id(self):
+        ids_arr = self.db.get_first_10_orders()
+        urls_arr = []
+        for id in ids_arr:
+            urls_dict = {}
+            url_origin = f"https://www.aliexpress.ru/item/{id['product_id']}.html?c_tp=RUB&region=UK&b_locale=en_US"
+            urls_dict['url'] = url_origin
+            urls_dict['product_id'] = id['product_id']
+
+
+            site_id_arr = id['site_id']
+            #remove duplicates from site_id_arr
+            site_id_arr = list(dict.fromkeys(site_id_arr))
+
+            urls_dict['site_id'] = site_id_arr
+            urls_arr.append(urls_dict)
+        print(urls_arr)
+        return urls_arr
+
+    def set_status(self, param):
+        self.db.set_status(param)
+
 
 class AliParserItemIDs:
-    def __init__(self,url):
+    def __init__(self):
 
-        self.url = url
 
         #list of attributes for rasing
         self.color_attr = 'Product_SkuValuesBar__container__6ryfe'
@@ -26,7 +58,7 @@ class AliParserItemIDs:
 
     #load data by url
     #prxy include
-    def request_by_url(self):
+    def request_by_url(self,url_o):
         proxy_arr = help_tool().proxy_load()
         try:
             proxies = {'http': proxy_arr[random.randint(0, len(proxy_arr) - 1)]}
@@ -42,7 +74,7 @@ class AliParserItemIDs:
 
             #set cookies, VERY IMPORTANT
             cookies = {'aep_usuc_f': 'region=US&site=glo&b_locale=en_US&c_tp=USD','intl_locale':'en_US','xman_us_f':'x_l=0&x_locale=en_US'}
-            response = session.get(url, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
+            response = session.get(url_o, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
 
 
             print('Request Success')
@@ -241,20 +273,36 @@ class AliParserItemIDs:
         print('Parse Data Success')
         return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
 
+    def start(self):
+        read_ids = ReadIdFromDb()
+        urls_dick = read_ids.get_url_by_id()
+        for url in urls_dick:
+            try:
+                print(url)
+                url_o = url['url']
+                start = AliParserItemIDs()
+                res = start.request_by_url(url_o)
+                print('Start save data')
+                save_class = SaveOnWebsite(res)
+                after_save = save_class.save(url['site_id'])
+                print('Data after saving')
+                print(after_save)
+                print('Add addition attributes')
+                save_class.add_attributes(after_save['id'], res)
+                print('Update status')
+                read_ids.set_status(url['product_id'])
+                print('Done')
+            except Exception as e:
+                print(f"During parse product attributes upon error {e}")
+            except HTTPError as http_err:
+                print(f"During  parse products upon HTTP error {http_err}")
+        self.start()
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    url = 'https://www.aliexpress.ru/item/1005001818336451.html?c_tp=RUB&region=UK&b_locale=en_US' #1005002669679611
-    #1005001488352469
-    start = AliParserItemIDs(url)
-    res = start.request_by_url()
-    print('Start save data')
-    save_class = SaveOnWebsite(res)
-    after_save = save_class.save()
-    print('Add addition attributes')
-    save_class.add_attributes(after_save['id'],res)
-    print('Done')
+    program = AliParserItemIDs()
+    program.start()
 
 
 
