@@ -47,7 +47,7 @@ class Database:
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
         result = collection.find({'status': 0}).limit(10)
-        print(result[0])
+        print(result)
         return result
 
     def set_status(self, product_id):
@@ -63,6 +63,35 @@ class Database:
         collection = db['aliexpress_sub_category']
         # inserst field is_checked = 1 by param
         collection.update_one({'ali_id': param}, {'$set': {'is_checked': 1}})
+
+    # update is_checked = 0 for all subcategory
+    def update_is_checked(self):
+        db = self.connect_to_db()
+        collection = db['aliexpress_sub_category']
+        collection.update_many({}, {'$set': {'is_checked': 0}})
+
+
+
+
+    """
+    function for Checker class
+    """
+    def add_is_checked(self):
+        #is_checked =  0 field for cheker
+        # add field is_checked = 0 to all product_id in aliexpress_all_product_id
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        collection.update_many({}, {'$set': {'is_checked': 0}})
+
+    def load_is_checked(self):
+        #load first 10 rows is_checked = 0 from aliexpress_all_product_id
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        result = collection.find({'is_checked': 0}).limit(10)
+        return result
+
+
+
 
 
 

@@ -22,18 +22,23 @@ class ReadIdFromDb:
         ids_arr = self.db.get_first_10_orders()
         urls_arr = []
         for id in ids_arr:
-            urls_dict = {}
-            url_origin = f"https://www.aliexpress.ru/item/{id['product_id']}.html?c_tp=RUB&region=UK&b_locale=en_US"
-            urls_dict['url'] = url_origin
-            urls_dict['product_id'] = id['product_id']
+            try:
+                print(id['product_id'])
+                urls_dict = {}
+                url_origin = f"https://www.aliexpress.ru/item/{id['product_id']}.html?c_tp=RUB&region=UK&b_locale=en_US"
+                urls_dict['url'] = url_origin
+                urls_dict['product_id'] = id['product_id']
 
 
-            site_id_arr = id['site_id']
-            #remove duplicates from site_id_arr
-            site_id_arr = list(dict.fromkeys(site_id_arr))
+                site_id_arr = id['site_id']
+                #remove duplicates from site_id_arr
+                site_id_arr = list(dict.fromkeys(site_id_arr))
 
-            urls_dict['site_id'] = site_id_arr
-            urls_arr.append(urls_dict)
+                urls_dict['site_id'] = site_id_arr
+                urls_arr.append(urls_dict)
+            except Exception as e:
+                print(e)
+
         print(urls_arr)
         return urls_arr
 
