@@ -76,7 +76,16 @@ class SaveOnWebsite:
         return response.json()
 
     #save data on website
-    def save(self):
+    def save(self,site_id):
+
+        categories_arr = []
+
+        #create array wih site_id array
+        for id in site_id:
+            categories_dict = {}
+            categories_dict['id'] = id
+            categories_arr.append(categories_dict)
+
         # prepear video url
         if len(self.data[3])>0:
             video_embed = utility().fix_video_url(self.data[3][0])
@@ -164,11 +173,7 @@ class SaveOnWebsite:
 
             "short_description": self.data[4],
             "description": video_embed+full_description,
-            "categories": [
-                {
-                    "id": 40545
-                }
-            ],
+            "categories": categories_arr,
 
             "images": img_arr,
 
@@ -271,6 +276,8 @@ class SaveOnWebsite:
 
         we need extracte data parse for atributes on our website
         """
+
+
         skuPropIds_addition_value_arr = []
         skuPropIds_arr = []
         for element in res2:
@@ -279,11 +286,20 @@ class SaveOnWebsite:
             skuPropIds_arr = skuPropIds.split(",")
             attributes = self.receive_skuPropIds_data(skuPropIds_arr,attrribute_value_id_arr)
 
+            # add profit to price
+            regular_price = utility().price_fix(element['amount']['value'])
+            sale_price = utility().price_fix(element['activityAmount']['value'])
 
             #extract addition data of skuPropIds
             data_of_variation = {}
-            data_of_variation['regular_price'] = element['amount']['value']
-            data_of_variation['sale_price'] = element['activityAmount']['value']
+            data_of_variation['regular_price'] = regular_price
+
+            # if no any discount
+            try:
+                data_of_variation['sale_price'] = sale_price
+            except:
+                data_of_variation['sale_price'] = regular_price
+
             if int(element['availQuantity']) > 0:
                 data_of_variation['stock_quantity'] = element['availQuantity']
                 data_of_variation['stock_status'] = 'instock'
@@ -382,11 +398,14 @@ class SaveOnWebsite:
         a_tag = soup.find_all('a', href=re.compile('aliexpress'))
         # len for a_tag
         if len(a_tag) > 0:
-            links = soup.find_all('a')
-            for link in links:
-                if link['href'].find('aliexpress') > 0:
-                    # remove parent tag
-                    link.decompose()
+            #links = soup.find_all('a')
+            for link in a_tag:
+                try:
+                    if link['href'].find('aliexpress') > 0:
+                        # remove parent tag
+                        link.decompose()
+                except Exception as e:
+                    print(f"aliexpress link no found {e}")
 
             #remove first img tag
             img = soup.find('img')

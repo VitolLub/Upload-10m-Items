@@ -231,82 +231,96 @@ class AliParserItemIDs:
 
         full_script_data = res.find("script",{'id':'__AER_DATA__'})
         res = full_script_data.getText()
+        print("__AER_DATA__")
+
+        if res:
+            #load full js
+            y = json.loads(res)
+
+            full_name = y['widgets'][0]['children'][13]['props']['title']
+            #cut name from russia words
+            if full_name.find("|")>0:
+                index = full_name.find("|")
+                name = full_name[0:index]
 
 
-        #load full js
-        y = json.loads(res)
+            #index 4 - store info
+            id = y['widgets'][0]['children'][7]['children'][0]['props']['id']
 
-        full_name = y['widgets'][0]['children'][13]['props']['title']
-        #cut name from russia words
-        if full_name.find("|")>0:
-            index = full_name.find("|")
-            name = full_name[0:index]
+            gallery = y['widgets'][0]['children'][7]['children'][0]['props']['gallery']
 
-
-        #index 4 - store info
-        id = y['widgets'][0]['children'][7]['children'][0]['props']['id']
-
-        gallery = y['widgets'][0]['children'][7]['children'][0]['props']['gallery']
-
-        original_imgs_arr = []
-        preview_imgs_arr = []
-        video_arr = []
-        for images in gallery:
-            original_imgs_arr.append(images['imageUrl'])
-            preview_imgs_arr.append(images['previewUrl'])
-            if images['videoUrl'] is not None:
-                video_arr.append(images['videoUrl'])
+            original_imgs_arr = []
+            preview_imgs_arr = []
+            video_arr = []
+            for images in gallery:
+                original_imgs_arr.append(images['imageUrl'])
+                preview_imgs_arr.append(images['previewUrl'])
+                if images['videoUrl'] is not None:
+                    video_arr.append(images['videoUrl'])
 
 
 
-        description = y['widgets'][0]['children'][7]['children'][0]['props']['description']
-        full_description = y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][0]['children'][0]['props']['html']
-        addition_attributes_values = (y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][2]['children'][0]['props']['char'])
+            description = y['widgets'][0]['children'][7]['children'][0]['props']['description']
+            full_description = y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][0]['children'][0]['props']['html']
+            addition_attributes_values = (y['widgets'][0]['children'][10]['children'][1]['children'][1]['children'][2]['children'][0]['props']['char'])
 
-        propertyList = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['propertyList']
+            propertyList = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['propertyList']
 
-        price_list = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['priceList']
+            price_list = y['widgets'][0]['children'][7]['children'][0]['props']['skuInfo']['priceList']
 
-        tradeCount = y['widgets'][0]['children'][7]['children'][0]['props']['tradeInfo']['tradeCount']
+            tradeCount = y['widgets'][0]['children'][7]['children'][0]['props']['tradeInfo']['tradeCount']
 
-        likes  = y['widgets'][0]['children'][7]['children'][0]['props']['likes']
+            likes  = y['widgets'][0]['children'][7]['children'][0]['props']['likes']
 
-        reviews = y['widgets'][0]['children'][7]['children'][0]['props']['reviews']
+            reviews = y['widgets'][0]['children'][7]['children'][0]['props']['reviews']
 
-        discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
+            discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
 
-        print('Parse Data Success')
-        return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
+            print('Parse Data Success')
+            print(id,original_imgs_arr,preview_imgs_arr,video_arr,name)
+            return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
+
+
+
 
     def start(self):
+
         read_ids = ReadIdFromDb()
         urls_dick = read_ids.get_url_by_id()
         for url in urls_dick:
-            try:
-                print(url)
-                url_o = url['url']
-                start = AliParserItemIDs()
-                res = start.request_by_url(url_o)
+            # try:
+            print(url)
+            url_o = url['url']
+            start = AliParserItemIDs()
+            res = start.request_by_url(url_o)
+            if res is not False:
                 print('Start save data')
                 save_class = SaveOnWebsite(res)
                 after_save = save_class.save(url['site_id'])
                 print('Data after saving')
                 print(after_save)
-                print('Add addition attributes')
-                save_class.add_attributes(after_save['id'], res)
-                print('Update status')
+                try:
+                    if after_save['id']:
+                        print('Add addition attributes')
+                        save_class.add_attributes(after_save['id'], res)
+                        print('Update status')
+                except Exception as e:
+                    print(e)
+                    print(f'Error in add attributes {after_save}')
                 read_ids.set_status(url['product_id'])
                 print('Done')
-            except Exception as e:
-                print(f"During parse product attributes upon error {e}")
-            except HTTPError as http_err:
-                print(f"During  parse products upon HTTP error {http_err}")
-        self.start()
+            break
+            # except Exception as e:
+            #     print(f"During parse product attributes upon error {e}")
+            # except HTTPError as http_err:
+            #     print(f"During  parse products upon HTTP error {http_err}")
+        #self.start()
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     program = AliParserItemIDs()
+    #while True:
     program.start()
 
 

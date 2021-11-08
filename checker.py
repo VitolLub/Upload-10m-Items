@@ -10,7 +10,7 @@ Read data from aliexpress_all_product_id DB
 from datetime import datetime
 from database import Database
 from utility import Utility
-
+import asyncio
 class Checker:
     def __init__(self):
         self.db = Database()
@@ -24,15 +24,16 @@ class Checker:
     def load_is_checked(self):
         self.db.load_is_checked()
 
-    def start(self):
+    async def start(self):
         ids = self.load_is_checked()
-        for id in ids:
-            #request by product ID
-            print(id['product_id'])
-            url = self.utility.get_url_by_id(id['product_id'])
-            response = self.utility.request_by_url(url)
-            break
+        print(ids)
+        # for id in ids:
+        #     #request by product ID
+        #     print(id['product_id'])
+        #     url = self.utility.get_url_by_id(id['product_id'])
+        #     response = self.utility.request_by_url(url)
+        #     break
 
 if __name__ == '__main__':
     checker = Checker()
-    checker.add_is_checked()
+    asyncio.run(checker.start())

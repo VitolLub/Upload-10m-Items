@@ -38,7 +38,9 @@ class AliexpressItemsParse:
     def load_all_ali_ids(self):
         db = self.db
         db = db['aliexpress_sub_category']
-        all_ali_ids = db.find({})
+        #load all ali_id with is_checked = 0
+        all_ali_ids = db.find({'is_checked': 0})
+        #all_ali_ids = db.find({})
         return all_ali_ids
 
     #create url frm ali_id
@@ -77,40 +79,125 @@ class AliexpressItemsParse:
                 #to ;window.runParams
                 #find position window.runParams= in script text
                 start_position = script_text.find('window.runParams = {"mods')
-                print(start_position)
+                if start_position == -1:
+                    #retrun False if not found and break
+                    return False
+                    #stop script
+                    break
                 #second position  ;window.runParams in script text
                 end_position = script_text.find('window.runParams.csrfToken')
-                print(end_position)
                 #get text from start_position to end_position
                 script_text = script_text[start_position:end_position]
-                print(script_text)
+
+                #find start position window.runParams = in script text
+                start_position = script_text.find('window.runParams = ')
+                start_pos = start_position + len('window.runParams = ')
+
+                #find ; from end of script text
+                end_position = script_text.rfind(';')
+                cript_text = script_text[start_pos:end_position]
+
                 #script_text to json
-                #script_text = json.loads(script_text)
-                #print(script_text)
+                script_text = json.loads(cript_text.strip())
+                #print(script_text['mods']['itemList']['content'])
+
+                product_id_arr = []
+                #extract product_id from script_text
+                for prod in script_text['mods']['itemList']['content']:
+                    product_id = prod['productId']
+                    product_id_arr.append(product_id)
+        return product_id_arr
+
+    def save_items(self, product_id_arr):
+        #save many product_id in aliexpress_all_product_ids
+        db = self.db
+        db = db['aliexpress_all_product_ids']
+        #save full array product_id_arr in aliexpress_all_product_ids
+        db.insert_many(product_id_arr)
+        return True
+
+    def check_product_exist(self, product_id_arr,site_id):
+        product_id_no_dublicated_arr = []
+        #ckeck product_id in aliexpress_all_product_ids
+        db = self.db
+        db = db['aliexpress_all_product_ids']
+        #check product_id in aliexpress_all_product_ids
+        for product_id in product_id_arr:
+            #check count_documents in aliexpress_all_product_ids
+            count_documents = db.count_documents({'product_id': product_id})
+            if count_documents == 0:
+                product_id_no_dublicated_arr.append(product_id)
+            else:
+                print("Find dublicate")
+                print(product_id)
+                #find product_id in aliexpress_all_product_ids
+                #append site_id in res_arr
+
+                #update site_id arr in aliexpress_all_product_ids
+                db.update_one({'product_id': product_id}, {'$push': {'site_id': site_id}})
+        return product_id_no_dublicated_arr
 
 
-                break
 
-        # items = content.find_all('div', class_='product-container')
-        # for item in items:
-        #     ids = item.find_all('a')
-        #     for id in ids:
-        #         product_id = id['href']
-        #         print(f"Href = {product_id}")
-                # #extract product_id from url beetween /item/ and .html
-                # product_id = product_id.split('/')[-1].split('.')[0]
-                # print(f"product_id {product_id}")
-                # #check if product_id exist in aliexpress_all_product_ids table
-                # if not self.check_if_product_id_exist(product_id):
-                #     #save product_id in aliexpress_all_product_ids
-                #     site_id_arr = []
-                #     site_id_arr.append(site_id)
-                #     self.save_all_product_ids(product_id, site_id_arr)
-                # else:
-                #     #update site_id in aliexpress_all_product_ids
-                #     db = self.db
-                #     db = db['aliexpress_all_product_ids']
-                #     db.update_one({'product_id': product_id}, {'$push': {'category_site_id': site_id}})
+
+    def start_parse(self):
+        ali_ids = item.load_all_ali_ids()
+        print(ali_ids)
+        try:
+            for id in ali_ids:
+                print(id['ali_id'])
+                index_request = 0
+                for page in range(1, 100):
+
+                        if index_request > 0:
+                            break
+                        url = item.create_url(id['ali_id'], page)
+                        print(url)
+                        # make request to get content
+                        content = help_tool().request_by_url(url)
+                        site_id = id['site_id']
+                        # function to extract data from content
+                        product_id_arr = item.parse_item(content, site_id)
+                        # print(product_id_arr)
+                        if product_id_arr is not False:
+                            # chakc if product is exist in DB
+                            # function to check if product exist in DB
+                            product_id_arr = item.check_product_exist(product_id_arr, site_id)
+
+                            # save data in to DBs
+                            # convert product_id_arr to dict
+                            product_id_dict = help_tool().convert_array_to_dict(product_id_arr, site_id)
+
+                            # function to save item in DB aliexpress_all_product_ids
+                            item.save_items(product_id_dict)
+                        if product_id_arr is False:
+                            index_request += 1
+
+                # function set check status to 1 in aliexpress_sub_category
+                Database().set_check_status(id['ali_id'])
+        except Exception as e:
+            print(e)
+            self.start_parse()
+
+
+
+    def get_last_order(self):
+        db = self.db
+        db = db['aliexpress_all_product_ids']
+        #get last order
+        last_order = db.find().sort('_id', -1).limit(1)
+        last_order = list(last_order)
+        return last_order
+
+    def set_is_checked(self):
+        db = self.db
+        db = db['aliexpress_sub_category']
+        # check every _id if is_checked no exist add field is_checked to aliexpress_sub_category
+        for id in db.find():
+            if 'is_checked' not in id:
+                print(f"No exist {id['ali_id']}")
+                db.update_one({'_id': id['_id']}, {'$set': {'is_checked': 0}})
+
 
 
 
@@ -247,20 +334,7 @@ if __name__ == '__main__':
     code crawly all items in category and subcategory one by one and save in MongoDB
     """
     item = AliexpressItemsParse()
-    ali_ids = item.load_all_ali_ids()
-    for id in ali_ids:
-        id['ali_id'] = "200214073"
-        print(id['ali_id'])
-        #for page in range(1,50):
-        page = 1
-        url = item.create_url(id['ali_id'],page)
+    item.start_parse()
 
-        #make request to get content
-        content = help_tool().request_by_url(url)
-        site_id = id['site_id']
-        #function to extract data from content
-        item_data = item.parse_item(content,site_id)
-
-
-        break
-        #
+    # db = Database()
+    # db.update_is_checked()
