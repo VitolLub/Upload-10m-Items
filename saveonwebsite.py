@@ -14,6 +14,8 @@ from woocommerce import API
 from utility import Utility as utility
 
 
+
+
 class SaveOnWebsite:
 
     def __init__(self,data=None):
@@ -87,10 +89,15 @@ class SaveOnWebsite:
             categories_arr.append(categories_dict)
 
         # prepear video url
-        if len(self.data[3])>0:
-            video_embed = utility().fix_video_url(self.data[3][0])
-        else:
-            video_embed = ''
+        try:
+            print(self.data[3])
+            if len(self.data[3])>0:
+                video_embed = utility().fix_video_url(self.data[3][0])
+            else:
+                video_embed = ''
+        except Exception as e:
+            print(f"Video array {e}")
+
 
         attr_name_arr = []
         attrribute_value_full_arr = []
@@ -99,6 +106,7 @@ class SaveOnWebsite:
             attr_dict = attr_count['values']
 
             attrribute_value_arr = []
+
             for attr_value in attr_dict:
                 attributes_dict = {}
                 attributes_dict['name']= attr_value['displayName']
@@ -122,17 +130,16 @@ class SaveOnWebsite:
             img_in_description.append(img_tag)
 
 
-        # create oprion fro every attribute
+        # create oprion for every attribute
         #look code below
 
         attr_option_arr = []
 
         for index, attr_option in enumerate(attr_name_arr):
             attr_option_dict = {}
-            attr_option_dict['id'] = index + 1
+            attr_option_dict['id'] = self.get_attr_id(attr_option)
 
             #translate att name
-
             attr_option_dict['name'] = utility().translate(attr_option,self.all_translate_values)
             attr_option_dict['visible'] = "True"
             attr_option_dict['variation'] = "True"
@@ -140,13 +147,15 @@ class SaveOnWebsite:
             val = []
             for a in attrribute_value_full_arr[index]:
                 if len(a['name'])>2:
-                    result = utility().translate(a['name'],self.all_translate_values)
+                    name = self.attr_upper_case(a['name'])
+                    result = utility().translate(name,self.all_translate_values)
                 else:
                     result = a['name']
                 val.append(result)
             attr_option_dict['options'] = val
             # #attrribute_value_full_arr[index]
             attr_option_arr.append(attr_option_dict)
+
 
         #add addition attributes
         for index, attr_atidion in enumerate(self.data[13]):
@@ -172,7 +181,7 @@ class SaveOnWebsite:
             'price':"",
 
             "short_description": self.data[4],
-            "description": video_embed+full_description,
+            "description": "<div class='description' style='position: inherit; margin-top: 11%;'>"+video_embed+full_description+"</div>",
             "categories": categories_arr,
 
             "images": img_arr,
@@ -196,14 +205,14 @@ class SaveOnWebsite:
         response = wcapi.delete(f'products/{id}')
         return response.json()
 
-    def add_attributes(self,id,res):
+    def add_attributes(self,id,res, attributes_ids):
         res1 = res[6]
         res2 = res[7]
+        attributes_ids = self.remove_not_used_attributes(attributes_ids)
 
         attrribute_value_id_arr = self.extract_attrbute_nameAndId(res1)
-        attrribute_skuPropIds_arr = self.extract_attrbute_skuPropIds(res2,attrribute_value_id_arr)
 
-
+        attrribute_skuPropIds_arr = self.extract_attrbute_skuPropIds(res2,attrribute_value_id_arr,attributes_ids)
 
         try:
             #save attribute
@@ -229,6 +238,8 @@ class SaveOnWebsite:
                 self.save_all_attributes(attrribute_skuPropIds_arr,id)
         except Exception as e:
             print(f"During process in function add_attributes upon eroor {e}")
+
+        return attrribute_skuPropIds_arr
 
 
 
@@ -256,17 +267,22 @@ class SaveOnWebsite:
                 attributes_dict = {}
 
                 if len(attr_value['displayName'])>3:
-                    attributes_dict['name'] = utility().translate(attr_value['displayName'],self.all_translate_values)
+                    name = utility().translate(attr_value['displayName'],self.all_translate_values)
+                    attributes_dict['name'] = self.attr_upper_case(name)
                 else:
-                    attributes_dict['name'] = attr_value['displayName']
+                    attributes_dict['name'] = self.attr_upper_case(attr_value['displayName'])
                 attributes_dict['id'] = attr_value['id']
+                attributes_dict['imageMainUrl'] = attr_value['imageMainUrl']
                 attrribute_value_arr.append(attributes_dict)
             attrribute_value_full_arr.append(attrribute_value_arr)
 
         return attrribute_value_full_arr
 
     #extract skuPropIds
-    def extract_attrbute_skuPropIds(self, res2,attrribute_value_id_arr):
+    def extract_attrbute_skuPropIds(self, res2, attrribute_value_id_arr, attributes_ids):
+        print(res2)
+        print(attrribute_value_id_arr)
+
         """
         variation on aliexpress save like follow
         skuPropIds:1254,200003528,201336100 where
@@ -284,7 +300,8 @@ class SaveOnWebsite:
             #parse skuPropIds and send value for ID
             skuPropIds = element['skuPropIds']
             skuPropIds_arr = skuPropIds.split(",")
-            attributes = self.receive_skuPropIds_data(skuPropIds_arr,attrribute_value_id_arr)
+
+            attributes = self.receive_skuPropIds_data(skuPropIds_arr,attrribute_value_id_arr, attributes_ids)
 
             # add profit to price
             regular_price = utility().price_fix(element['amount']['value'])
@@ -299,7 +316,7 @@ class SaveOnWebsite:
                 data_of_variation['sale_price'] = sale_price
             except:
                 data_of_variation['sale_price'] = regular_price
-
+            data_of_variation['sku'] = element['skuId']
             if int(element['availQuantity']) > 0:
                 data_of_variation['stock_quantity'] = element['availQuantity']
                 data_of_variation['stock_status'] = 'instock'
@@ -310,14 +327,17 @@ class SaveOnWebsite:
                 data_of_variation['manage_stock'] = 'false'
                 data_of_variation['status'] = 'private'
                 data_of_variation['purchasable'] = 'false'
-
-
+            data_of_variation["image"] = {
+                "src": self.find_img_for_attr(attributes)
+            }
+            #data_of_variation['image'] =
             data_of_variation['attributes'] = attributes
             skuPropIds_addition_value_arr.append(data_of_variation)
+
         return skuPropIds_addition_value_arr
 
     #parse skuPropIds
-    def receive_skuPropIds_data(self, skuPropIds_arr,attrribute_value_id_arr):
+    def receive_skuPropIds_data(self, skuPropIds_arr,attrribute_value_id_arr, attributes_ids):
 
         attr_id_value = []
         for skuid in skuPropIds_arr:
@@ -326,8 +346,11 @@ class SaveOnWebsite:
                 for i, item in enumerate(e):
                     value_dict = {}
                     if item["id"] == skuid:
-                        value_dict['id'] = index + 1
+                        print(item)
+                        value_dict['id'] = self.find_attr_id(item["name"], attributes_ids)
                         value_dict['option'] = item["name"]
+                        if item["imageMainUrl"]:
+                            value_dict['imageMainUrl'] = item["imageMainUrl"]
                         attr_id_value.append(value_dict)
 
         return attr_id_value
@@ -410,7 +433,87 @@ class SaveOnWebsite:
             #remove first img tag
             img = soup.find('img')
             img.decompose()
+        #check all tags what containt text hello
+        adminAccountIds = soup.find_all(text=re.compile('window.adminAccountId'))
+        for adminAccountId in adminAccountIds:
+            fixed_text = adminAccountId.replace(adminAccountId, '')
+            adminAccountId.replace_with(fixed_text)
+
         return soup.prettify()
+
+    def get_attr_id(self, attr_option):
+        wcapi = self.credential()
+        arrributes = wcapi.get("products/attributes").json()
+        value = attr_option
+        attr_id = 0
+        for arrribute in arrributes:
+            # check every attribute in dict
+            if arrribute['name'] == value:
+                attr_id = arrribute['id']
+                break
+
+        if attr_id == 0:
+            data = {
+                "name": value,
+                "slug": "pa_" + str(value.lower()),
+                "type": "select",
+                "has_archives": True
+            }
+
+            wcapi.post("products/attributes", data).json()
+
+        return attr_id
+
+    def find_attr_id(self, param, attributes_ids):
+        # function to find attribute id by attribute name
+        # attributes neccecary to create product with attributes value. If you don't add additional attributes id the
+        # product will added and attributes don't ne active
+        # attributes_ids array contain all attributes id
+
+        print( param, attributes_ids)
+        attribute_id = 0
+        for attribute in attributes_ids:
+            if attribute['id'] != 0:
+                options = attribute['options']
+                for option in options:
+                    if option == param:
+                        attribute_id = attribute['id']
+                        break
+        return attribute_id
+
+    def find_img_for_attr(self, attributes):
+        for attribute in attributes:
+            if attribute['imageMainUrl'] != '':
+                img_url = attribute['imageMainUrl']
+                break
+        return img_url
+
+    def remove_not_used_attributes(self, attributes_ids):
+        attributes_ids_array = []
+        #remove attributes_ids and remove all elements with id = 0
+        attributes_ids_array = []
+        # remove attributes_ids and remove all elements with id = 0
+        for attribute in attributes_ids:
+            # check if id is 0
+            if attribute['id'] != 0:
+                # move to new array
+                correct_option = []
+                for options in attribute['options']:
+                    name = self.attr_upper_case(options)
+                    correct_option.append(name)
+                attribute['options'] = correct_option
+                attributes_ids_array.append(attribute)
+        return attributes_ids_array
+
+    def attr_upper_case(self, param):
+        name_arr = []
+        for word in param.split():
+            if word[0].isupper():
+                name_arr.append(word)
+            else:
+                name_arr.append(word.capitalize())
+        name = " ".join(name_arr)
+        return name
 
 
 

@@ -42,8 +42,14 @@ class ReadIdFromDb:
         print(urls_arr)
         return urls_arr
 
-    def set_status(self, param):
-        self.db.set_status(param)
+    def set_status(self, param,product_id,attributes):
+        # extract sku from dict and save to db
+        sku_arr = []
+        for attr in attributes:
+            for key, value in attr.items():
+                if key == 'sku':
+                    sku_arr.append(value)
+        self.db.set_status(param,product_id,sku_arr)
 
 
 class AliParserItemIDs:
@@ -83,7 +89,10 @@ class AliParserItemIDs:
 
 
             print('Request Success')
-            return self.parse_content(response.content)
+            if response.status_code == 200:
+                return self.parse_content(response.content)
+            else:
+                return False
 
         except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')  # Python 3.6
@@ -295,20 +304,29 @@ class AliParserItemIDs:
             res = start.request_by_url(url_o)
             if res is not False:
                 print('Start save data')
+                print(res)
                 save_class = SaveOnWebsite(res)
                 after_save = save_class.save(url['site_id'])
                 print('Data after saving')
-                print(after_save)
+
+                print( after_save)
+                attributes_ids = after_save['attributes']
                 try:
                     if after_save['id']:
                         print('Add addition attributes')
-                        save_class.add_attributes(after_save['id'], res)
+                        attributes = save_class.add_attributes(after_save['id'], res, attributes_ids)
                         print('Update status')
+                        print("Attributes")
+                        print(attributes)
+                        read_ids.set_status(url['product_id'], after_save['id'], attributes)
+                        print('Done')
                 except Exception as e:
                     print(e)
                     print(f'Error in add attributes {after_save}')
-                read_ids.set_status(url['product_id'])
-                print('Done')
+
+
+                # sku dict to save in db
+                print(save_class.load_product_by_id(after_save['id']))
             break
             # except Exception as e:
             #     print(f"During parse product attributes upon error {e}")

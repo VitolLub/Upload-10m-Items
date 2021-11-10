@@ -50,12 +50,12 @@ class Database:
         print(result)
         return result
 
-    def set_status(self, product_id):
+    def set_status(self, product_id,site_product_id,sku_arr):
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         #update status = 1 by product_id and receive result
 
-        collection.update_one({'product_id': product_id}, {'$set': {'status': 1}})
+        collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'site_product_id':site_product_id, 'sku_arr':sku_arr}})
         return True
 
     def set_check_status(self, param):
@@ -83,11 +83,15 @@ class Database:
         collection = db['aliexpress_all_product_ids']
         collection.update_many({}, {'$set': {'is_checked': 0}})
 
-    def load_is_checked(self):
+    async def load_is_checked(self):
+
         #load first 10 rows is_checked = 0 from aliexpress_all_product_id
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
-        result = collection.find({'is_checked': 0}).limit(10)
+
+        #load only if product not checked and add to website
+        result = collection.find({'is_checked': 0,'status':1}).limit(10)
+
         return result
 
 

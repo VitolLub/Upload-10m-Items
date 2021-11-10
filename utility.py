@@ -25,7 +25,7 @@ class Utility:
 
     #load proxy from db or file
     def proxy_load(self):
-        return ["51.79.220.22:8080", "51.79.220.50:8080", "185.49.69.134:8888", "206.253.164.198:80"]
+        return ["213.142.134.79:808","103.216.82.37:6666","46.4.96.137:8080","47.241.19.33:8088","206.253.164.101:80","45.199.148.36:80","51.195.201.93:80","143.110.151.242:3128","51.79.220.22:8080", "51.79.220.50:8080", "185.49.69.134:8888", "206.253.164.198:80"]
 
     def load_subcategory_id(self):
         pass
@@ -61,9 +61,12 @@ class Utility:
                 translated_value = val
                 break
         if len(translated_value) == 0:
-            translated_value = translator.translate(value, dest='en').text
-            translate_dic[value] = translated_value
-            self.save_translate_file(translate_dic)
+            try:
+                print(f'value {value}')
+                translated_value = translator.translate(value, dest='en').text
+                translate_dic[value] = translated_value
+            except Exception as e:
+                print(e)
         return translated_value
 
     def fix_video_url(self, param):
@@ -79,7 +82,7 @@ class Utility:
 
 
     def request_by_url(self,url):
-        proxy_arr = self.proxy_load()
+        proxy_arr =  self.proxy_load()
         try:
             proxies = {'http': proxy_arr[random.randint(0, len(proxy_arr) - 1)]}
             print(f"Request with proxy {proxies}")
@@ -96,13 +99,88 @@ class Utility:
             cookies = {'aep_usuc_f': 'region=US&site=glo&b_locale=en_US&c_tp=USD', 'intl_locale': 'en_US',
                        'xman_us_f': 'x_l=0&x_locale=en_US'}
             response = session.get(url, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
+            print(response.status_code)
+            if response.status_code == 200:
+                print('Request Success')
+                return response.content
 
-            print('Request Success')
-            return response.content
 
         except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')  # Python 3.6
         except Exception as err:
             print(f'Other error occurred: {err}')  # Python 3.6
-        else:
-            print('Success!')
+
+    def convert_array_to_dict(self, product_id_arr, site_id):
+        site_ids = []
+        site_ids.append(site_id)
+        product_id_list = []
+        #add every product id to dict
+        for product_id in product_id_arr:
+            product_id_dict = {}
+            product_id_dict['product_id'] = product_id
+            product_id_dict['site_id'] = site_ids
+            product_id_dict['status'] = 0
+
+            #add to list
+            product_id_list.append(product_id_dict)
+        return product_id_list
+
+
+
+    def get_url_by_id(self, param):
+        url = 'https://www.aliexpress.com/item/' +param + '.html'
+        return url
+
+    def price_fix(self, param):
+        # calculate price with 100% profit
+        price = float(param)
+        price = price * 2
+        price = round(price, 2)
+        return price
+
+
+
+
+    """
+    Checker section
+    """
+    async def proxy_load_checkerd(self):
+        return ["213.142.134.79:808","103.216.82.37:6666","46.4.96.137:8080","47.241.19.33:8088","206.253.164.101:80","45.199.148.36:80","51.195.201.93:80","143.110.151.242:3128","51.79.220.22:8080", "51.79.220.50:8080", "185.49.69.134:8888", "206.253.164.198:80"]
+
+
+
+    async def get_url_by_id_checker(self, param):
+        url = f"https://www.aliexpress.ru/item/{str(param) }.html?c_tp=RUB&region=UK&b_locale=en_US"
+        return url
+
+    async def request_by_url_checker(self, url):
+        proxy_arr = await self.proxy_load_checkerd()
+        try:
+            proxies = {'http': proxy_arr[random.randint(0, len(proxy_arr) - 1)]}
+            print(f"Request with proxy {proxies}")
+            # prepeare to request
+            session = requests.Session()
+            session.cookies.set('Host', 'aliexpress.com', domain='.aliexpress.com', path='/')
+            session.cookies.set('region', 'US', domain='.aliexpress.com', path='/')
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36",
+                "Accept-Language": "en-US,en;q=0.5"
+            }
+
+            # set cookies, VERY IMPORTANT
+            cookies = {'aep_usuc_f': 'region=US&site=glo&b_locale=en_US&c_tp=USD', 'intl_locale': 'en_US',
+                       'xman_us_f': 'x_l=0&x_locale=en_US'}
+            response = session.get(url, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
+            print(response.status_code)
+            if response.status_code == 200:
+                print('Request Success')
+                return response.content
+
+
+        except HTTPError as http_err:
+            print(f'HTTP error occurred: {http_err}')  # Python 3.6
+        except Exception as err:
+            print(f'Other error occurred: {err}')  # Python 3.6
+
+
+
