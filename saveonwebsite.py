@@ -90,7 +90,7 @@ class SaveOnWebsite:
 
         # prepear video url
         try:
-            print(self.data[3])
+
             if len(self.data[3])>0:
                 video_embed = utility().fix_video_url(self.data[3][0])
             else:
@@ -181,7 +181,7 @@ class SaveOnWebsite:
             'price':"",
 
             "short_description": self.data[4],
-            "description": "<div class='description' style='position: inherit; margin-top: 11%;'>"+video_embed+full_description+"</div>",
+            "description": "<div class='description' style='position: inherit; margin-top: 30%;'>"+"<div = 'video'>"+video_embed+"</div>"+full_description+"</div>",
             "categories": categories_arr,
 
             "images": img_arr,
@@ -201,9 +201,12 @@ class SaveOnWebsite:
 
 
     def delete_product(self,id):
-        wcapi = self.credential()
-        response = wcapi.delete(f'products/{id}')
-        return response.json()
+        try:
+            wcapi = self.credential()
+            response = wcapi.delete(f'products/{id}')
+            return response.json()
+        except Exception as e:
+            print(f"Error in delete product {e}")
 
     def add_attributes(self,id,res, attributes_ids):
         res1 = res[6]
@@ -280,8 +283,7 @@ class SaveOnWebsite:
 
     #extract skuPropIds
     def extract_attrbute_skuPropIds(self, res2, attrribute_value_id_arr, attributes_ids):
-        print(res2)
-        print(attrribute_value_id_arr)
+
 
         """
         variation on aliexpress save like follow
@@ -346,10 +348,9 @@ class SaveOnWebsite:
                 for i, item in enumerate(e):
                     value_dict = {}
                     if item["id"] == skuid:
-                        print(item)
                         value_dict['id'] = self.find_attr_id(item["name"], attributes_ids)
                         value_dict['option'] = item["name"]
-                        if item["imageMainUrl"]:
+                        if 'imageMainUrl' in item.keys():
                             value_dict['imageMainUrl'] = item["imageMainUrl"]
                         attr_id_value.append(value_dict)
 
@@ -373,7 +374,6 @@ class SaveOnWebsite:
             parent_id = parent_categoty_dict['site_parent']
         except Exception as e:
             parent_id = ''
-        print(f"parent_id {parent_id}")
         #check if exist parent_categoty_dict['ali_parent_cat_id']
         try:
             ali_id = parent_categoty_dict['ali_parent_cat_id']
@@ -405,7 +405,6 @@ class SaveOnWebsite:
             ]
         }
         response = wcapi.post('products/categories/batch', batch_data)
-        print(response.json())
         return response.json()
 
     def save_sub_category(self, subcategory):
@@ -470,7 +469,6 @@ class SaveOnWebsite:
         # product will added and attributes don't ne active
         # attributes_ids array contain all attributes id
 
-        print( param, attributes_ids)
         attribute_id = 0
         for attribute in attributes_ids:
             if attribute['id'] != 0:
@@ -483,7 +481,7 @@ class SaveOnWebsite:
 
     def find_img_for_attr(self, attributes):
         for attribute in attributes:
-            if attribute['imageMainUrl'] != '':
+            if 'imageMainUrl' in attribute.keys():
                 img_url = attribute['imageMainUrl']
                 break
         return img_url

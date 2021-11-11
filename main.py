@@ -302,6 +302,8 @@ class AliParserItemIDs:
             url_o = url['url']
             start = AliParserItemIDs()
             res = start.request_by_url(url_o)
+            print(res)
+            
             if res is not False:
                 print('Start save data')
                 print(res)
@@ -323,11 +325,11 @@ class AliParserItemIDs:
                 except Exception as e:
                     print(e)
                     print(f'Error in add attributes {after_save}')
-
+                    save_class.delete_product(after_save['id'])
 
                 # sku dict to save in db
                 print(save_class.load_product_by_id(after_save['id']))
-            break
+                break
             # except Exception as e:
             #     print(f"During parse product attributes upon error {e}")
             # except HTTPError as http_err:

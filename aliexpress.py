@@ -11,6 +11,12 @@ import random
 import requests
 
 
+"""
+Class Aliexpress
+parrse all items ID's by subcategory and save to DB 
+table - aliexpress_all_product_ids
+"""
+
 class AliexpressItemsParse:
 
     def __init__(self):

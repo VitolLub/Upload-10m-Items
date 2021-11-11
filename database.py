@@ -76,12 +76,13 @@ class Database:
     """
     function for Checker class
     """
-    def add_is_checked(self):
+    async def add_is_checked(self,id):
         #is_checked =  0 field for cheker
         # add field is_checked = 0 to all product_id in aliexpress_all_product_id
-        db = self.connect_to_db()
+        db = MongoClient('mongodb+srv://vitol:vitol486070920@ebay.elcsu.mongodb.net/test?retryWrites=true&w=majority')
+        db = db['test']
         collection = db['aliexpress_all_product_ids']
-        collection.update_many({}, {'$set': {'is_checked': 0}})
+        collection.update_many({'site_product_id':id}, {'$set': {'is_checked': 1}})
 
     async def load_is_checked(self):
 
@@ -89,8 +90,15 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
 
+        coun = collection.count_documents({'is_checked': 0, 'status': 1})
+        if coun==0:
+            #update all is_checked = 1 to 0
+            collection.update_many({}, {'$set': {'is_checked': 0}})
+
+
         #load only if product not checked and add to website
-        result = collection.find({'is_checked': 0,'status':1}).limit(10)
+        result = collection.find({'is_checked': 0,'status':1}).limit(100)
+        # print len of result
 
         return result
 
