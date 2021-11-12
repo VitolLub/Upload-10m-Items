@@ -182,5 +182,9 @@ class Utility:
         except Exception as err:
             print(f'Other error occurred: {err}')  # Python 3.6
 
+    def tranlsate_text(self, param):
+        res = translator.translate(param, dest='en').text
+        return res
+
 
 

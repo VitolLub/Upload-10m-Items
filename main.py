@@ -8,7 +8,8 @@ import json
 from utility import Utility as help_tool
 from saveonwebsite import SaveOnWebsite
 from database import Database
-
+from googletrans import Translator
+translator = Translator()
 
 class ReadIdFromDb:
 
@@ -286,7 +287,6 @@ class AliParserItemIDs:
             discount = y['widgets'][0]['children'][7]['children'][0]['props']['price']['discount']
 
             print('Parse Data Success')
-            print(id,original_imgs_arr,preview_imgs_arr,video_arr,name)
             return id,original_imgs_arr,preview_imgs_arr,video_arr,name,description,propertyList,price_list,tradeCount,likes,reviews,discount,full_description,addition_attributes_values
 
 
@@ -302,8 +302,6 @@ class AliParserItemIDs:
             url_o = url['url']
             start = AliParserItemIDs()
             res = start.request_by_url(url_o)
-            print(res)
-            
             if res is not False:
                 print('Start save data')
                 print(res)
