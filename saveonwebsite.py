@@ -480,6 +480,7 @@ class SaveOnWebsite:
         return attribute_id
 
     def find_img_for_attr(self, attributes):
+        img_url = ''
         for attribute in attributes:
             if 'imageMainUrl' in attribute.keys():
                 img_url = attribute['imageMainUrl']
