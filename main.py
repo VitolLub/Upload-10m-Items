@@ -86,7 +86,7 @@ class AliParserItemIDs:
 
             #set cookies, VERY IMPORTANT
             cookies = {'aep_usuc_f': 'region=US&site=glo&b_locale=en_US&c_tp=USD','intl_locale':'en_US','xman_us_f':'x_l=0&x_locale=en_US'}
-            response = session.get(url_o, timeout=20, headers=headers, proxies=proxies, cookies=cookies)
+            response = session.get(url_o, timeout=50, headers=headers, proxies=proxies, cookies=cookies)
 
 
             print('Request Success')
@@ -297,42 +297,42 @@ class AliParserItemIDs:
         read_ids = ReadIdFromDb()
         urls_dick = read_ids.get_url_by_id()
         for url in urls_dick:
-            # try:
-            print(url)
-            url_o = url['url']
-            start = AliParserItemIDs()
-            res = start.request_by_url(url_o)
-            if res is not False:
-                print('Start save data')
-                print(res)
-                save_class = SaveOnWebsite(res)
-                after_save = save_class.save(url['site_id'])
-                print('Data after saving')
+            try:
+                print(url)
+                url_o = url['url']
+                start = AliParserItemIDs()
+                res = start.request_by_url(url_o)
+                if res is not False:
+                    print('Start save data')
+                    print(res)
+                    save_class = SaveOnWebsite(res)
+                    after_save = save_class.save(url['site_id'])
+                    print('Data after saving')
 
-                print( after_save)
-                attributes_ids = after_save['attributes']
-                try:
-                    if after_save['id']:
-                        print('Add addition attributes')
-                        attributes = save_class.add_attributes(after_save['id'], res, attributes_ids)
-                        print('Update status')
-                        print("Attributes")
-                        print(attributes)
-                        read_ids.set_status(url['product_id'], after_save['id'], attributes)
-                        print('Done')
-                except Exception as e:
-                    print(e)
-                    print(f'Error in add attributes {after_save}')
-                    save_class.delete_product(after_save['id'])
+                    print( after_save)
+                    attributes_ids = after_save['attributes']
+                    try:
+                        if after_save['id']:
+                            print('Add addition attributes')
+                            attributes = save_class.add_attributes(after_save['id'], res, attributes_ids)
+                            print('Update status')
+                            print("Attributes")
+                            print(attributes)
+                            read_ids.set_status(url['product_id'], after_save['id'], attributes)
+                            print('Done')
+                    except Exception as e:
+                        print(e)
+                        print(f'Error in add attributes {after_save}')
+                        save_class.delete_product(after_save['id'])
 
-                # sku dict to save in db
-                print(save_class.load_product_by_id(after_save['id']))
-                break
-            # except Exception as e:
-            #     print(f"During parse product attributes upon error {e}")
-            # except HTTPError as http_err:
-            #     print(f"During  parse products upon HTTP error {http_err}")
-        #self.start()
+                    # sku dict to save in db
+                    print(save_class.load_product_by_id(after_save['id']))
+                    #break
+            except Exception as e:
+                print(f"During parse product attributes upon error {e}")
+            except HTTPError as http_err:
+                print(f"During  parse products upon HTTP error {http_err}")
+        self.start()
 
 
 # Press the green button in the gutter to run the script.

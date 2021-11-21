@@ -148,9 +148,10 @@ class AliexpressItemsParse:
 
     def start_parse(self):
         ali_ids = item.load_all_ali_ids()
-        print(ali_ids)
-        try:
-            for id in ali_ids:
+        print(ali_ids) 
+
+        for id in ali_ids:
+            try:
                 print(id['ali_id'])
                 index_request = 0
                 for page in range(1, 100):
@@ -181,9 +182,9 @@ class AliexpressItemsParse:
 
                 # function set check status to 1 in aliexpress_sub_category
                 Database().set_check_status(id['ali_id'])
-        except Exception as e:
-            print(e)
-            self.start_parse()
+            except Exception as e:
+                print(e)
+                #self.start_parse()
 
 
 
@@ -340,7 +341,11 @@ if __name__ == '__main__':
     code crawly all items in category and subcategory one by one and save in MongoDB
     """
     item = AliexpressItemsParse()
-    item.start_parse()
+    try:
+        item.start_parse()
+    except Exception as e:
+        print(e)
+        item.start_parse()
 
     # db = Database()
     # db.update_is_checked()
