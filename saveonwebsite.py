@@ -28,7 +28,7 @@ class SaveOnWebsite:
             url="https://kesmer.dreamhosters.com/",
             consumer_key="ck_cfeee6aee72653e01fe4eefebc3984bc44d9ab0e",
             consumer_secret="cs_e27fd83417fe739bb042b2e454e3689d64d0ad13",
-            timeout=60
+            timeout=120
         )
 
         return wcapi
@@ -41,7 +41,7 @@ class SaveOnWebsite:
             url="https://newdropship.a2hosted.com/",
             consumer_key="ck_34e7f3f1e99a0b0911283a82b61280bbe422d789",
             consumer_secret="cs_e8838c981a6b91b89cbdfc8364152a569740e87d",
-            timeout=40
+            timeout=80
         )
         response = wcapi.get('products/categories/39617')
         return response.json()
@@ -189,7 +189,7 @@ class SaveOnWebsite:
 
             "attributes": attr_option_arr
         }
-        print(product_data)
+        #print(product_data)
         response = wcapi.post('products', product_data)
         print('Data saving')
         return response.json()
@@ -487,8 +487,9 @@ class SaveOnWebsite:
         img_url = ''
         for attribute in attributes:
             if 'imageMainUrl' in attribute.keys():
-                img_url = attribute['imageMainUrl']
-                break
+                if attribute['imageMainUrl'] is not None:
+                    img_url = attribute['imageMainUrl']
+                    break
         return img_url
 
     def remove_not_used_attributes(self, attributes_ids):

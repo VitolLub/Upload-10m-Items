@@ -148,7 +148,7 @@ class AliexpressItemsParse:
 
     def start_parse(self):
         ali_ids = item.load_all_ali_ids()
-        print(ali_ids) 
+        print(ali_ids)
 
         for id in ali_ids:
             try:

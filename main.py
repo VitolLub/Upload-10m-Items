@@ -304,7 +304,7 @@ class AliParserItemIDs:
                 res = start.request_by_url(url_o)
                 if res is not False:
                     print('Start save data')
-                    print(res)
+                    #print(res)
                     save_class = SaveOnWebsite(res)
                     after_save = save_class.save(url['site_id'])
                     print('Data after saving')
