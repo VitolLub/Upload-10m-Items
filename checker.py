@@ -31,7 +31,7 @@ class Checker:
             url="https://newdropship.a2hosted.com/",
             consumer_key="ck_34e7f3f1e99a0b0911283a82b61280bbe422d789",
             consumer_secret="cs_e8838c981a6b91b89cbdfc8364152a569740e87d",
-            timeout=40
+            timeout=500
         )
 
         return wcapi
@@ -40,6 +40,7 @@ class Checker:
         return await self.db.load_is_checked()
 
     async def start(self):
+        #load id's from DB
         ids = await self.load_is_checked()
         for id in ids:
             try:
@@ -64,7 +65,8 @@ class Checker:
 
                 # update attributes and values and return array of attributes and values
 
-
+                print(update_attributes_arr)
+                quit()
                 await self.update_request(update_attributes_arr,int(id['site_product_id']))
 
                 # function to update is_checked to 1 in DB
@@ -101,7 +103,7 @@ class Checker:
                 if key == 'sku':
                     for site_element in extract_json_data_response:
                         for site_key, site_value in site_element.items():
-                            if site_value == value:
+                            if site_value == value+'_v1':
                                 element['regular_price'] = await self.fix_price(site_element['amount']['value'])  #
                                 element['sale_price'] = await self.fix_price(site_element['activityAmount']['value'])
                                 element['price'] = await self.fix_price(site_element['activityAmount']['value'])

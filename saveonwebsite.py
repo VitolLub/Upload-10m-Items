@@ -25,10 +25,15 @@ class SaveOnWebsite:
     #website credential
     def credential(self):
         wcapi = API(
+            # url="https://newdropship.a2hosted.com/",
+            # consumer_key="ck_e7206cd4ca57cac8a978d9cdbee19d320cad6235",
+            # consumer_secret="cs_19b8c87f70d22168e9faa096b9b6178769247903",
             url="https://kesmer.dreamhosters.com/",
             consumer_key="ck_cfeee6aee72653e01fe4eefebc3984bc44d9ab0e",
             consumer_secret="cs_e27fd83417fe739bb042b2e454e3689d64d0ad13",
-            timeout=120
+            # wp_api=True,
+            # version="wc/v3",
+            timeout=180
         )
 
         return wcapi
@@ -101,6 +106,8 @@ class SaveOnWebsite:
 
         attr_name_arr = []
         attrribute_value_full_arr = []
+        #print("self.data[6]")
+        #print(self.data[6])
         for attr_count in self.data[6]:
             attr_name_arr.append(attr_count['name'])
             attr_dict = attr_count['values']
@@ -171,7 +178,7 @@ class SaveOnWebsite:
 
         #remove all links with word aliexpress  self.data[12]
         full_description = self.remove_all_links(self.data[12])
-
+        clean_description = self.clen_description(full_description)
 
         product_data = {
             "name": self.data[4],
@@ -181,7 +188,7 @@ class SaveOnWebsite:
             'price':"",
 
             "short_description": self.data[4],
-            "description": "<div class='description' style='position: inherit; margin-top: 30%;'>"+"<div = 'video'>"+video_embed+"</div>"+full_description+"</div>",
+            "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>",
             "categories": categories_arr,
 
             "images": img_arr,
@@ -190,9 +197,9 @@ class SaveOnWebsite:
             "attributes": attr_option_arr
         }
         #print(product_data)
-        response = wcapi.post('products', product_data)
+        response = wcapi.post('products', product_data).json()
         print('Data saving')
-        return response.json()
+        return response
 
 
     def load_attributes(self):
@@ -219,32 +226,22 @@ class SaveOnWebsite:
         attrribute_skuPropIds_arr = self.extract_attrbute_skuPropIds(res2,attrribute_value_id_arr,attributes_ids)
 
 
-        # print(attrribute_skuPropIds_arr)
-        # quit()
-        try:
-            #save attribute
-            attributes_arr = []
-            index=0
-            for b in attrribute_skuPropIds_arr:
-                attributes_arr.append(b)
-                try:
-                    if len(attributes_arr) >= 99:
-                        self.save_all_attributes(attributes_arr,id)
-                        attributes_arr = []
-                        index=1
-                    elif len(attributes_arr) == len(attrribute_skuPropIds_arr):
-                        self.save_all_attributes(attributes_arr,id)
-                        index=2
-                    else:
-                        index=3
-                        attributes_arr = []
-                except Exception as e:
-                    print(f"During savind attributes upon error {e}")
+        #print(attrribute_skuPropIds_arr)
+        print("attrribute_skuPropIds_arr")
+        print(len(attrribute_skuPropIds_arr))
 
-            if index==3:
-                self.save_all_attributes(attrribute_skuPropIds_arr,id)
-        except Exception as e:
-            print(f"During process in function add_attributes upon eroor {e}")
+        if len(attrribute_skuPropIds_arr) <= 20:
+            self.save_all_attributes(attrribute_skuPropIds_arr, id)
+        else:
+            iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 20))
+
+            for iteration_val in iteration:
+                try:
+                    print("Run code if elements more  then  20")
+                    self.save_all_attributes(iteration_val, id)
+                except Exception as e:
+                    print(f"During savind attributes in function add_attributes upon error {e}")
+
 
         return attrribute_skuPropIds_arr
 
@@ -310,10 +307,13 @@ class SaveOnWebsite:
             attributes = self.receive_skuPropIds_data(skuPropIds_arr,attrribute_value_id_arr, attributes_ids)
 
             # add profit to price
-            regular_price = utility().price_fix(element['amount']['value'])
-            sale_price = utility().price_fix(element['activityAmount']['value'])
+            regular_price = str(utility().price_fix(element['amount']['value']))
+            try:
+                sale_price = str(utility().price_fix(element['activityAmount']['value']))
+            except:
+                sale_price = str(utility().price_fix(element['amount']['value']))
 
-            #extract addition data of skuPropIds
+                #extract addition data of skuPropIds
             data_of_variation = {}
             data_of_variation['regular_price'] = regular_price
 
@@ -322,7 +322,7 @@ class SaveOnWebsite:
                 data_of_variation['sale_price'] = sale_price
             except:
                 data_of_variation['sale_price'] = regular_price
-            data_of_variation['sku'] = element['skuId']
+            data_of_variation['sku'] = element['skuId']+"_v1" #add _v1 for all sku. If product have just one single variation then code show dublication of sku
             if int(element['availQuantity']) > 0:
                 data_of_variation['stock_quantity'] = element['availQuantity']
                 data_of_variation['stock_status'] = 'instock'
@@ -333,9 +333,11 @@ class SaveOnWebsite:
                 data_of_variation['manage_stock'] = 'false'
                 data_of_variation['status'] = 'private'
                 data_of_variation['purchasable'] = 'false'
-            data_of_variation["image"] = {
-                "src": self.find_img_for_attr(attributes)
-            }
+            img = self.find_img_for_attr(attributes)
+            if len(img)>0:
+                data_of_variation["image"] = {
+                    "src": img
+                }
             #data_of_variation['image'] =
             data_of_variation['attributes'] = attributes
             skuPropIds_addition_value_arr.append(data_of_variation)
@@ -361,16 +363,21 @@ class SaveOnWebsite:
         return attr_id_value
 
     def save_all_attributes(self,attrribute_skuPropIds_arr,id):
+        print(f"save_all_attributes for ID {id}")
         wcapi = self.credential()
 
-        try:
 
-            data = {
-                "create": attrribute_skuPropIds_arr
-            }
-            wcapi.post(f"products/{id}/variations/batch", data).json()
-        except Exception as e:
-            return f"Function save_all_attributes upon error {e}"
+        data = {
+            "create": attrribute_skuPropIds_arr
+        }
+        try:
+            print('Run code')
+            response = wcapi.post(f"products/{id}/variations/batch", data).json()
+            print(response)
+        except:
+            print('Some problem, attributes dont saved. Run code again')
+            print(attrribute_skuPropIds_arr,id)
+            self.save_all_attributes(attrribute_skuPropIds_arr,id)
 
     def save_parent_category(self,parent_categoty_dict):
         wcapi = self.credential()
@@ -518,6 +525,24 @@ class SaveOnWebsite:
                 name_arr.append(word.capitalize())
         name = " ".join(name_arr)
         return name
+
+    def divide_chunks(self, attrribute_skuPropIds_arr, param):
+        # looping till length l
+        for i in range(0, len(attrribute_skuPropIds_arr), param):
+            yield attrribute_skuPropIds_arr[i:i + param]
+
+    def remove_from_site(self, param):
+        wcapi = self.credential()
+        wcapi.delete(f"products/{param}", params={"force": True}).json()
+
+    def clen_description(self, full_description):
+        # find all span tags and remove the style attribute
+        soup = BeautifulSoup(full_description, 'html.parser')
+        for span in soup.find_all('span'):
+            span.attrs.pop('style', None)
+        for span in soup.find_all('div'):
+            span.attrs.pop('style', None)
+        return soup.prettify()
 
 
 

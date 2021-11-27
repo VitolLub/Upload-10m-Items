@@ -53,6 +53,8 @@ class ReadIdFromDb:
         self.db.set_status(param,product_id,sku_arr)
 
 
+
+
 class AliParserItemIDs:
     def __init__(self):
 
@@ -304,30 +306,34 @@ class AliParserItemIDs:
                 res = start.request_by_url(url_o)
                 if res is not False:
                     print('Start save data')
-                    #print(res)
+                    print(url['site_id'])
                     save_class = SaveOnWebsite(res)
                     after_save = save_class.save(url['site_id'])
                     print('Data after saving')
-
-                    print( after_save)
-                    attributes_ids = after_save['attributes']
                     try:
-                        if after_save['id']:
-                            print('Add addition attributes')
-                            attributes = save_class.add_attributes(after_save['id'], res, attributes_ids)
-                            print('Update status')
-                            print("Attributes")
-                            print(attributes)
-                            read_ids.set_status(url['product_id'], after_save['id'], attributes)
-                            print('Done')
-                    except Exception as e:
-                        print(e)
-                        print(f'Error in add attributes {after_save}')
-                        save_class.delete_product(after_save['id'])
+                        if after_save['message'] == 'Invalid or duplicated SKU.':
+                            #remove from db
+                            print('Invalid or duplicated SKU')
+                            save_class.remove_from_site(after_save['data']['resource_id'])
+                            print('Removed from db')
+                    except:
+                        pass
+                    print(after_save['id'])
+                    if after_save['id'] is not None:
+                        #print(after_save)
+                        #print(res)
+                        attributes_ids = after_save['attributes']
+                        print('Add addition attributes')
+                        attributes = save_class.add_attributes(after_save['id'], res, attributes_ids)
+                        print('Updedate status')
+                        print("Attributes")
+                        #print(attributes)
+                        read_ids.set_status(url['product_id'], after_save['id'], attributes)
+                        print('Done')
 
-                    # sku dict to save in db
-                    print(save_class.load_product_by_id(after_save['id']))
-                    #break
+                        # sku dict to save in db
+                        #print(save_class.load_product_by_id(after_save['id']))
+                        #brMeak
             except Exception as e:
                 print(f"During parse product attributes upon error {e}")
             except HTTPError as http_err:

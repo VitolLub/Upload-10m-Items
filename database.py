@@ -46,8 +46,15 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
-        result = collection.find({'status': 0}).limit(10)
+        result = collection.find({'status': 0,'shoise_status':1}).limit(10)
         print(result)
+        return result
+
+    def get_last_10_orders(self):
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        #first 10 orders with status = 0
+        result = collection.find({'status': 0}).sort({'_id':1}).limit(10)
         return result
 
     def set_status(self, product_id,site_product_id,sku_arr):
@@ -101,6 +108,37 @@ class Database:
         # print len of result
 
         return result
+
+    def set_status_for_all(self):
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        collection.update_many({}, {'$set': {'status': 0}})
+
+
+    #remove after all done
+    def set_status_for_shoese(self):
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        res = collection.find({})
+        return res
+
+    # remove after all done
+    def chekc_every_cat(self, i):
+        db = self.connect_to_db()
+        collection = db['aliexpress_sub_category']
+        res = collection.find({'ali_id':str(i)})
+        return res
+
+    # remove after all done
+    def update_status_for_shoese(self, site_id):
+        try:
+            db = self.connect_to_db()
+            collection = db['aliexpress_all_product_ids']
+            collection.update_one({'product_id': site_id}, {'$set': {'shoise_status': 1}})
+            return True
+        except:
+            return False
+
 
 
 

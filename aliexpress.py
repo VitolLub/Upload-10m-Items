@@ -151,11 +151,11 @@ class AliexpressItemsParse:
         print(ali_ids)
 
         for id in ali_ids:
-            try:
+
                 print(id['ali_id'])
                 index_request = 0
                 for page in range(1, 100):
-
+                    try:
                         if index_request > 0:
                             break
                         url = item.create_url(id['ali_id'], page)
@@ -179,12 +179,11 @@ class AliexpressItemsParse:
                             item.save_items(product_id_dict)
                         if product_id_arr is False:
                             index_request += 1
+                    except Exception as e:
+                        print(e)
 
                 # function set check status to 1 in aliexpress_sub_category
                 Database().set_check_status(id['ali_id'])
-            except Exception as e:
-                print(e)
-                #self.start_parse()
 
 
 
