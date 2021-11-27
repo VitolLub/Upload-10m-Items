@@ -47,6 +47,10 @@ class Database:
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
         result = collection.find({'status': 0,'shoise_status':1}).limit(10)
+        # update status = 1 by product_id in aliexpress_all_product_ids
+        for i in result:
+            collection.update_one({'product_id': i['product_id']}, {'$set': {'status': 1}})
+
         print(result)
         return result
 
