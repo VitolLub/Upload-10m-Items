@@ -47,11 +47,8 @@ class Database:
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
         result = collection.find({'status': 0,'shoise_status':1}).limit(10)
-        # update status = 1 by product_id in aliexpress_all_product_ids
-        for i in result:
-            collection.update_one({'product_id': i['product_id']}, {'$set': {'status': 1}})
 
-        print(result)
+        #print(result)
         return result
 
     def get_last_10_orders(self):
@@ -68,6 +65,8 @@ class Database:
 
         collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'site_product_id':site_product_id, 'sku_arr':sku_arr}})
         return True
+
+
 
     def set_check_status(self, param):
         db = self.connect_to_db()
@@ -142,6 +141,16 @@ class Database:
             return True
         except:
             return False
+
+    def set_status_to_1(self, ids_arr):
+
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        print('set_status_to_1')
+        print(ids_arr)
+        for id in ids_arr:
+            print(id['product_id'])
+            collection.update_one({'product_id': id['product_id']}, {'$set': {'status': 1}})
 
 
 

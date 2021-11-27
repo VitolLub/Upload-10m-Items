@@ -21,10 +21,12 @@ class ReadIdFromDb:
     #get array of url by id from get_first_10_orders
     def get_url_by_id(self):
         ids_arr = self.db.get_first_10_orders()
+        # set status to 1 if use many PC
+
         urls_arr = []
         for id in ids_arr:
             try:
-                print(id['product_id'])
+
                 urls_dict = {}
                 url_origin = f"https://www.aliexpress.ru/item/{id['product_id']}.html?c_tp=RUB&region=UK&b_locale=en_US"
                 urls_dict['url'] = url_origin
@@ -40,6 +42,8 @@ class ReadIdFromDb:
             except Exception as e:
                 print(e)
 
+        #update all ID to status 1
+        self.db.set_status_to_1(ids_arr)
         print(urls_arr)
         return urls_arr
 
@@ -298,6 +302,7 @@ class AliParserItemIDs:
 
         read_ids = ReadIdFromDb()
         urls_dick = read_ids.get_url_by_id()
+
         for url in urls_dick:
             try:
                 print(url)
@@ -328,7 +333,8 @@ class AliParserItemIDs:
                         print('Updedate status')
                         print("Attributes")
                         #print(attributes)
-                        read_ids.set_status(url['product_id'], after_save['id'], attributes)
+
+                        #read_ids.set_status(url['product_id'], after_save['id'], attributes)
                         print('Done')
 
                         # sku dict to save in db
