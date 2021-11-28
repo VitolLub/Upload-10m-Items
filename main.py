@@ -43,7 +43,7 @@ class ReadIdFromDb:
                 print(e)
 
         #update all ID to status 1
-        self.db.set_status_to_1(ids_arr)
+        self.db.set_status_to_1(urls_arr)
         print(urls_arr)
         return urls_arr
 
@@ -334,7 +334,7 @@ class AliParserItemIDs:
                         print("Attributes")
                         #print(attributes)
 
-                        #read_ids.set_status(url['product_id'], after_save['id'], attributes)
+                        read_ids.set_status(url['product_id'], after_save['id'], attributes)
                         print('Done')
 
                         # sku dict to save in db

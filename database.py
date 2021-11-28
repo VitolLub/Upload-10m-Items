@@ -46,7 +46,7 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
-        result = collection.find({'status': 0,'shoise_status':1}).limit(10)
+        result = collection.find({'status': 0,'shoise_status':1}).limit(10) #,
 
         #print(result)
         return result
@@ -147,9 +147,7 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         print('set_status_to_1')
-        print(ids_arr)
         for id in ids_arr:
-            print(id['product_id'])
             collection.update_one({'product_id': id['product_id']}, {'$set': {'status': 1}})
 
 
