@@ -31,9 +31,10 @@ class SaveOnWebsite:
             url="https://kesmer.dreamhosters.com/",
             consumer_key="ck_cfeee6aee72653e01fe4eefebc3984bc44d9ab0e",
             consumer_secret="cs_e27fd83417fe739bb042b2e454e3689d64d0ad13",
-            # wp_api=True,
-            # version="wc/v3",
-            timeout=180
+            wp_api=True,
+            version="wc/v3",
+            timeout=500,
+
         )
 
         return wcapi
@@ -102,6 +103,7 @@ class SaveOnWebsite:
                 video_embed = ''
         except Exception as e:
             print(f"Video array {e}")
+            video_embed = ''
 
 
         attr_name_arr = []
@@ -196,7 +198,7 @@ class SaveOnWebsite:
 
             "attributes": attr_option_arr
         }
-        #print(product_data)
+        print("Save Data")
         response = wcapi.post('products', product_data).json()
         print('Data saving')
         return response
@@ -373,10 +375,10 @@ class SaveOnWebsite:
         try:
             print('Run code')
             response = wcapi.post(f"products/{id}/variations/batch", data).json()
-            print(response)
+            #print(response)
         except:
             print('Some problem, attributes dont saved. Run code again')
-            print(attrribute_skuPropIds_arr,id)
+            #print(attrribute_skuPropIds_arr,id)
             self.save_all_attributes(attrribute_skuPropIds_arr,id)
 
     def save_parent_category(self,parent_categoty_dict):
