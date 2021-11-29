@@ -1,8 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
 __author__      = "Lubomir Vitol"
 __copyright__   = "Copyright 2021, Planet Earth"
 
 import re
-
+import json
 from bs4 import BeautifulSoup
 
 """
@@ -33,7 +37,8 @@ class SaveOnWebsite:
             consumer_secret="cs_e27fd83417fe739bb042b2e454e3689d64d0ad13",
             wp_api=True,
             version="wc/v3",
-            timeout=500,
+            query_string_auth=True,
+            timeout=180
 
         )
 
@@ -199,7 +204,12 @@ class SaveOnWebsite:
             "attributes": attr_option_arr
         }
         print("Save Data")
-        response = wcapi.post('products', product_data).json()
+        print(product_data)
+        try:
+            response = wcapi.post('products', product_data).json()
+        except:
+            print('Save product use second request')
+            response = wcapi.post('products', product_data).json()
         print('Data saving')
         return response
 
@@ -231,7 +241,6 @@ class SaveOnWebsite:
         #print(attrribute_skuPropIds_arr)
         print("attrribute_skuPropIds_arr")
         print(len(attrribute_skuPropIds_arr))
-
         if len(attrribute_skuPropIds_arr) <= 20:
             self.save_all_attributes(attrribute_skuPropIds_arr, id)
         else:
@@ -372,6 +381,7 @@ class SaveOnWebsite:
         data = {
             "create": attrribute_skuPropIds_arr
         }
+        print("product_data")
         try:
             print('Run code')
             response = wcapi.post(f"products/{id}/variations/batch", data).json()
