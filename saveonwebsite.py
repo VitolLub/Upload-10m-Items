@@ -195,7 +195,7 @@ class SaveOnWebsite:
             'price':"",
 
             "short_description": self.data[4],
-            "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>",
+           # "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>",
             "categories": categories_arr,
 
             "images": img_arr,
@@ -205,13 +205,22 @@ class SaveOnWebsite:
         }
         print("Save Data")
         print(product_data)
+        response = ''
         try:
             response = wcapi.post('products', product_data).json()
+            #print(response)
+
+            data = {
+                "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>"
+            }
+            resp_get = wcapi.put(f"products/{response['id']}", data).json()
+            print('Data saving')
+            print(resp_get)
+            return resp_get
         except:
             print('Save product use second request')
-            response = wcapi.post('products', product_data).json()
-        print('Data saving')
-        return response
+            self.save(site_id)
+
 
 
     def load_attributes(self):
@@ -241,10 +250,10 @@ class SaveOnWebsite:
         #print(attrribute_skuPropIds_arr)
         print("attrribute_skuPropIds_arr")
         print(len(attrribute_skuPropIds_arr))
-        if len(attrribute_skuPropIds_arr) <= 20:
+        if len(attrribute_skuPropIds_arr) <= 10:
             self.save_all_attributes(attrribute_skuPropIds_arr, id)
         else:
-            iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 20))
+            iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 10))
 
             for iteration_val in iteration:
                 try:
