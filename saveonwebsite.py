@@ -1,12 +1,8 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
 __author__      = "Lubomir Vitol"
 __copyright__   = "Copyright 2021, Planet Earth"
 
 import re
-import json
+
 from bs4 import BeautifulSoup
 
 """
@@ -32,14 +28,10 @@ class SaveOnWebsite:
             # url="https://newdropship.a2hosted.com/",
             # consumer_key="ck_e7206cd4ca57cac8a978d9cdbee19d320cad6235",
             # consumer_secret="cs_19b8c87f70d22168e9faa096b9b6178769247903",
-            url="https://kesmer.dreamhosters.com/",
-            consumer_key="ck_cfeee6aee72653e01fe4eefebc3984bc44d9ab0e",
-            consumer_secret="cs_e27fd83417fe739bb042b2e454e3689d64d0ad13",
-            wp_api=True,
-            version="wc/v3",
-            query_string_auth=True,
-            timeout=180
-
+            url="http://195.181.243.90",
+            consumer_key="ck_8a23912a6156503227cd48970bb221e394aabd6c",
+            consumer_secret="cs_a6af47b5c7b36fde6222c95159e9fbd2e59f56c1",
+            timeout=1000
         )
 
         return wcapi
@@ -108,7 +100,6 @@ class SaveOnWebsite:
                 video_embed = ''
         except Exception as e:
             print(f"Video array {e}")
-            video_embed = ''
 
 
         attr_name_arr = []
@@ -162,6 +153,7 @@ class SaveOnWebsite:
             for a in attrribute_value_full_arr[index]:
                 if len(a['name'])>2:
                     name = self.attr_upper_case(a['name'])
+                    #print(name)
                     result = utility().translate(name,self.all_translate_values)
                 else:
                     result = a['name']
@@ -195,7 +187,7 @@ class SaveOnWebsite:
             'price':"",
 
             "short_description": self.data[4],
-           # "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>",
+            "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>",
             "categories": categories_arr,
 
             "images": img_arr,
@@ -203,24 +195,11 @@ class SaveOnWebsite:
 
             "attributes": attr_option_arr
         }
-        print("Save Data")
-        print(product_data)
-        response = ''
-        try:
-            response = wcapi.post('products', product_data).json()
-            #print(response)
-
-            data = {
-                "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>"
-            }
-            resp_get = wcapi.put(f"products/{response['id']}", data).json()
-            print('Data saving')
-            print(resp_get)
-            return resp_get
-        except:
-            print('Save product use second request')
-            self.save(site_id)
-
+        #print(product_data)
+        #quit()
+        response = wcapi.post('products', product_data).json()
+        print('Data saving')
+        return response
 
 
     def load_attributes(self):
@@ -250,14 +229,15 @@ class SaveOnWebsite:
         #print(attrribute_skuPropIds_arr)
         print("attrribute_skuPropIds_arr")
         print(len(attrribute_skuPropIds_arr))
-        if len(attrribute_skuPropIds_arr) <= 10:
+
+        if len(attrribute_skuPropIds_arr) <= 40:
             self.save_all_attributes(attrribute_skuPropIds_arr, id)
         else:
-            iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 10))
+            iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 40))
 
             for iteration_val in iteration:
                 try:
-                    print("Run code if elements more  then  20")
+                    print("Run code if elements more  then  40")
                     self.save_all_attributes(iteration_val, id)
                 except Exception as e:
                     print(f"During savind attributes in function add_attributes upon error {e}")
@@ -390,14 +370,13 @@ class SaveOnWebsite:
         data = {
             "create": attrribute_skuPropIds_arr
         }
-        print("product_data")
         try:
             print('Run code')
             response = wcapi.post(f"products/{id}/variations/batch", data).json()
             #print(response)
         except:
             print('Some problem, attributes dont saved. Run code again')
-            #print(attrribute_skuPropIds_arr,id)
+            print(attrribute_skuPropIds_arr,id)
             self.save_all_attributes(attrribute_skuPropIds_arr,id)
 
     def save_parent_category(self,parent_categoty_dict):
@@ -462,8 +441,12 @@ class SaveOnWebsite:
                     print(f"aliexpress link no found {e}")
 
             #remove first img tag
-            img = soup.find('img')
-            img.decompose()
+            try:
+                img = soup.find('img')
+                img.decompose()
+            except Exception as e:
+                print(f"During remove first img from description {e}")
+
         #check all tags what containt text hello
         adminAccountIds = soup.find_all(text=re.compile('window.adminAccountId'))
         for adminAccountId in adminAccountIds:

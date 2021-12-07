@@ -65,7 +65,16 @@ class Database:
 
         collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'site_product_id':site_product_id, 'sku_arr':sku_arr}})
         return True
-
+    def set_status_to_404(self, url_o):
+        # extract product_id from url
+        # find item/ in ur_o
+        start = url_o.find('item/')
+        end = url_o.find('.html', start + 1)
+        url_res = url_o[start + 5:end]
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        collection.update_one({'product_id': int(url_res)}, {'$set': {'status':1,'status_not_found': 404}})
+        return url_res
 
 
     def set_check_status(self, param):
@@ -149,6 +158,8 @@ class Database:
         print('set_status_to_1')
         for id in ids_arr:
             collection.update_one({'product_id': id['product_id']}, {'$set': {'status': 1}})
+
+
 
 
 

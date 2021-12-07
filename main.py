@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 __author__      = "Lubomir Vitol"
 __copyright__   = "Copyright 2021, Planet Earth"
 from urllib.error import HTTPError
@@ -45,8 +43,9 @@ class ReadIdFromDb:
                 print(e)
 
         #update all ID to status 1
+
         self.db.set_status_to_1(urls_arr)
-        ##print(urls_arr)
+        #print(urls_arr)
         return urls_arr
 
     def set_status(self, param,product_id,attributes):
@@ -79,6 +78,7 @@ class AliParserItemIDs:
     #load data by url
     #prxy include
     def request_by_url(self,url_o):
+        print("request_by_url")
         proxy_arr = help_tool().proxy_load()
         try:
             proxies = {'http': proxy_arr[random.randint(0, len(proxy_arr) - 1)]}
@@ -99,16 +99,23 @@ class AliParserItemIDs:
 
             print('Request Success')
             if response.status_code == 200:
+                print(response.status_code)
                 return self.parse_content(response.content)
+            elif response.status_code == 404:
+                print(response.status_code)
+                # update status for aliexpress_all_product_ids
+                db = Database()
+                db.set_status_to_404(url_o)
+                return 404
             else:
+                print(response.status_code)
                 return False
 
         except HTTPError as http_err:
             print(f'HTTP error occurred: {http_err}')  # Python 3.6
         except Exception as err:
             print(f'Other error occurred: {err}')  # Python 3.6
-        else:
-            print('Success!')
+
 
 
     def parse_content(self,content):
@@ -189,48 +196,48 @@ class AliParserItemIDs:
             return f"During parse raiting upon error {e}"
 
     def product_attributes(self, res):
-        try:
-            arrtibute_arr = []
-            title_arr = []
-            lenght_attr = []
+        #try:
+        arrtibute_arr = []
+        title_arr = []
+        lenght_attr = []
 
-            img_arr = []
-            alt_arr = []
-            # parse title of attributes
-            curre_product_attributes = res.find_all("div", {'class': 'Product_Sku__container__1f7i6'})
+        img_arr = []
+        alt_arr = []
+        # parse title of attributes
+        curre_product_attributes = res.find_all("div", {'class': 'Product_Sku__container__1f7i6'})
 
-            # parse lenght attr
-            for lenght_search in curre_product_attributes:
-                lenght_attr_list = lenght_search.find_all("span", {'class':'ali-kit_Label__size-s__1n9sab'})
-                for lengh_value in lenght_attr_list:
-                    lenght_attr.append(lengh_value.getText())
+        # parse lenght attr
+        for lenght_search in curre_product_attributes:
+            lenght_attr_list = lenght_search.find_all("span", {'class':'ali-kit_Label__size-s__1n9sab'})
+            for lengh_value in lenght_attr_list:
+                lenght_attr.append(lengh_value.getText())
 
-            #firnd attribute title
-            for attr_title in curre_product_attributes:
-                title_res = attr_title.find_all("div",{'class':'Product_SkuItem__title__rncuf'})
-                for item_attr_name in title_res:
-                    title_arr.append(item_attr_name.getText())
+        #firnd attribute title
+        for attr_title in curre_product_attributes:
+            title_res = attr_title.find_all("div",{'class':'Product_SkuItem__title__rncuf'})
+            for item_attr_name in title_res:
+                title_arr.append(item_attr_name.getText())
 
-            # parse color attr
-            for product_attributes in curre_product_attributes:
-                product_attributes = product_attributes.find_all("div", {'class': self.color_attr})
-                for value in product_attributes:
-                    alt_img = value.find_all("img")
-                    for values in alt_img:
-                        try:
-                            img_arr.index(values['src'])
-                        except Exception as e:
-                            img_arr.append(values['src'])
-                            alt_arr.append(values['alt'])
+        # parse color attr
+        for product_attributes in curre_product_attributes:
+            product_attributes = product_attributes.find_all("div", {'class': self.color_attr})
+            for value in product_attributes:
+                alt_img = value.find_all("img")
+                for values in alt_img:
+                    try:
+                        img_arr.index(values['src'])
+                    except Exception as e:
+                        img_arr.append(values['src'])
+                        alt_arr.append(values['alt'])
 
 
-            #convers arrays to dict
-            color_arr = dict(zip(alt_arr, img_arr))
-            attributes_titles = title_arr
-            return attributes_titles, color_arr,lenght_attr
+        #convers arrays to dict
+        color_arr = dict(zip(alt_arr, img_arr))
+        attributes_titles = title_arr
+        return attributes_titles, color_arr,lenght_attr
 
-        except Exception as e:
-            return f"In function product_attributes parse product attributes upon error {e}"
+        # except Exception as e:
+        #     return f"During parse product attributes upon error {e}"
 
     def video_parse(self, res):
         try:
@@ -311,9 +318,10 @@ class AliParserItemIDs:
                 url_o = url['url']
                 start = AliParserItemIDs()
                 res = start.request_by_url(url_o)
-                if res is not False:
+                if res is not False or res != 404:
+                    #print(res)
                     print('Start save data')
-                    print(url['site_id'])
+                    #print(url['site_id'])
                     save_class = SaveOnWebsite(res)
                     after_save = save_class.save(url['site_id'])
                     print('Data after saving')
@@ -346,14 +354,15 @@ class AliParserItemIDs:
                 print(f"During parse product attributes upon error {e}")
             except HTTPError as http_err:
                 print(f"During  parse products upon HTTP error {http_err}")
+
         self.start()
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     program = AliParserItemIDs()
-    #while True:
-    program.start()
+    while True:
+        program.start()
 
 
 
