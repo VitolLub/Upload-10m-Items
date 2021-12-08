@@ -48,7 +48,7 @@ class Utility:
 
     def read_translate_file(self):
         # reading the data from the file
-        with open('translate_file.txt') as f:
+        with open('translate_file.txt', encoding="utf-8") as f:
             data = f.read()
 
         res = ast.literal_eval(data)

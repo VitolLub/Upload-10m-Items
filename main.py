@@ -1,3 +1,4 @@
+# coding=utf-8
 __author__      = "Lubomir Vitol"
 __copyright__   = "Copyright 2021, Planet Earth"
 from urllib.error import HTTPError
