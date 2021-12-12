@@ -19,6 +19,8 @@ from database import Database
 def goto_website():
     # go to website
     chrome_options = Options()
+    #chrome_options.add_argument('headless')
+
     prefs2 = {"profile.default_content_setting_values.notifications": 2}
     chrome_options.add_experimental_option("prefs", prefs2)
     prefs = {"profile.managed_default_content_settings.images": 2}
@@ -56,7 +58,7 @@ def update_alidrop_status(param):
 
 def edit_post(driver):
     #load data from DB
-    item_arr,id_arr = get_data_fromdb()
+    id_arr, item_arr = get_data_fromdb()
     # wait until the page is loaded
     for index, elem in enumerate(id_arr):
         time.sleep(2)
@@ -127,6 +129,7 @@ def edit_post(driver):
         driver.find_element(By.XPATH,"//button[@class='button save_adswsupplier button-primary']").click()
 
         update_alidrop_status(item_arr[index])
+    edit_post(driver)
 
 
 
@@ -147,14 +150,17 @@ def edit_post(driver):
 
 
 if __name__ == '__main__':
-    # driver = goto_website()
-    # time.sleep(2)
-    #
-    # # edit post function
-    # edit_post(driver)
-    product_sku, product_id = get_data_fromdb()
-    print(product_sku)
-    print(product_id)
+    while True:
+        try:
+            driver = goto_website()
+            # edit post function
+            edit_post(driver)
+        except Exception as e:
+            print(e)
+
+    # product_sku, product_id = get_data_fromdb()
+    # print(product_sku)
+    # print(product_id)
 
 
 
