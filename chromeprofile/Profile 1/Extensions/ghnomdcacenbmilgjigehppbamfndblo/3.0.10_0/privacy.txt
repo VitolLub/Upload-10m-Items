@@ -1,0 +1,29 @@
+The Camelizer ("the extension") and camelcamelcamel.com ("our site") are published by Cosmic Shovel, Inc ("we").
+
+In order to function, The Camelizer requires certain data be collected and transmitted to our server:
+
+* The URL of the Amazon or camelcamelcamel page you're viewing when you activate The Camelizer, as well as some page content.
+  * This is required for extension functionality; we use the URL and other page data to determine which product you’re viewing, current prices, etc.
+  * If we do not detect an Amazon or camelcamelcamel domain, or if a URL is on our blacklist of sensitive pages, the extension halts processing and no data is transmitted.
+
+* Your email address.
+  * If you provide it, we will associate your email address with any price watches created through the extension, for the purpose of sending you the price drop alert emails you have requested.
+  * You do not have to provide your email address to use the price history features of the extension, but it is required to use the price watch functionality.
+  * We will not share your email address outside our company.
+
+The Camelizer also, optionally, collects usage statistics.  This is important for us to determine how the extension is being used, if things are broken, etc.  We have no ads or monetization inside the extension itself; this tracking is purely for our own reporting.  All tracking data is anonymized and aggregated, and kept to a bare minimum.
+
+Optional information we collect:
+
+* Events like opening and closing The Camelizer window, and clicks on UI elements (buttons, links) contained therein.
+  * Basic usage tracking that helps us improve the extension (e.g., which features people use.)
+  
+* Screen and browser dimensions.
+  * The width and height of these two things tell us if The Camelizer's window is correctly sized.
+  
+* Randomized installation ID.
+  * A random number that allows us to differentiate between one anonymous user and another, without de-anonymizing them.
+
+You can opt-out of this usage tracking by visiting this page: https://camelcamelcamel.com/camelizer/first_run
+
+You can request the deletion of your personal information from our servers by visiting this page: https://camelcamelcamel.com/contact

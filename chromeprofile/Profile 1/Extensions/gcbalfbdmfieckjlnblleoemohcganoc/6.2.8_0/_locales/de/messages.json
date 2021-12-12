@@ -1,0 +1,14 @@
+{
+   "description": {
+      "description": "extension description",
+      "message": "Open-Source Robotic Process Automation (RPA) mit Selenium IDE für die Web und Desktop Test Automatisierung und Datenextraktion."
+   },
+   "name": {
+      "description": "extension name",
+      "message": "UI.Vision RPA"
+   },
+   "short_name": {
+      "description": "extension short_name",
+      "message": "UIVision RPA"
+   }
+}

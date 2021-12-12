@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "js/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon19_no.png",
+      "default_popup": "popup.html",
+      "default_title": "PAYAD.ME - Новый взгляд на рекламу"
+   },
+   "content_scripts": [ {
+      "css": [ "css/style.css" ],
+      "js": [ "js/addad.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://payad.me/; object-src 'self'",
+   "description": "Удобно и просто, без лишних действий, смотрите рекламу и получайте прибыль.",
+   "homepage_url": "https://payad.me/",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoYwYN7iXVSGqOtwBL49WVQBW8MKa/36eUof478Q5DDmxHXKj1jwUnRXbofpGYSCpT6lYRX0hzqoX/aGzA60Zxc8roMyc0XM/0bCkLAbPOMlPOkxxJh1EK3X+lwAUTKIBV0TjDTG9ZYTzFsLd2PonRQvj63KwDekWxVb7d0ql0wPPNjAbeq8TlN2nyGZKyKFEoqyw2k5yeMpGPYBLqnyARxb4/rGHNqp6H73woAK8DcJvIOqPbgz6YWtkigRlZrl4Of+HWObWZv6wBfIvgSWhEWZJxJMDbevNxxLqpup9NUyIdiUd9+UxtI80c93Jtl+CGSeZxWBe2j6aMdjHWUy5XwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0.1229.79",
+   "name": "PAYAD.ME",
+   "permissions": [ "notifications", "tabs", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.9",
+   "web_accessible_resources": [ "css/*", "js/task.js", "js/helper.js", "js/addad.js", "img/timer.gif", "img/timer10.gif", "img/timer15.gif", "img/timer30.gif", "img/success.gif" ]
+}

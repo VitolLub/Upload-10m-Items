@@ -49,7 +49,7 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
-        result = collection.find({'status': 0,'shoise_status':1}).limit(10) #,
+        result = collection.find({'status': 0}).limit(10) #, ,'shoise_status':1
 
         #print(result)
         return result
@@ -66,7 +66,7 @@ class Database:
         collection = db['aliexpress_all_product_ids']
         #update status = 1 by product_id and receive result
 
-        collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'site_product_id':site_product_id, 'sku_arr':sku_arr}})
+        collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'alidropship_status':0,'site_product_id':site_product_id, 'sku_arr':sku_arr}})
         return True
     def set_status_to_404(self, url_o):
         # extract product_id from url
@@ -161,6 +161,31 @@ class Database:
         print('set_status_to_1')
         for id in ids_arr:
             collection.update_one({'product_id': id['product_id']}, {'$set': {'status': 1}})
+
+    def get_data(self):
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+
+        # get all product_id with status = 1
+        res = collection.find({'status': 1,'alidropship_status':0}).limit(10)
+        product_id_arr = []
+        product_sku_arr = []
+        for i in res:
+            try:
+                print(i.get('site_product_id'))
+                product_sku_arr.append(i['site_product_id'])
+                product_id_arr.append(i['product_id'])
+            except:
+                pass
+
+        return product_id_arr, product_sku_arr
+
+    def update_alidrop_status(self, param):
+        print(f'update_alidrop_status {param}')
+        db = self.connect_to_db()
+        collection = db['aliexpress_all_product_ids']
+        collection.update_one({'site_product_id': param}, {'$set': {'alidropship_status': 1}})
+
 
 
 

@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "אודות"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "חשבון"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "שם משתמש"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "הוספת חשבון"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "סרוק ברקוד"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "הזנה ידנית"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " התווסף."
+   },
+   "advanced": {
+      "message": "מתקדם"
+   },
+   "advisor": {
+      "message": "Advisor"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Autofill can be enabled to automatically fill codes into websites."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Enable auto-lock to protect your data."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "Browser sync is disabled. Enabling it allows accounts to be synced across browsers."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Set a password to protect your data."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Enabling smart filter allows for quick access to accounts."
+   },
+   "algorithm": {
+      "message": "אלגוריתם"
+   },
+   "autolock": {
+      "message": "נעל לאחר"
+   },
+   "backup": {
+      "message": "גיבוי"
+   },
+   "backup_file_info": {
+      "message": "גיבוי הנתונים שלך לקובץ."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "מבוסס מונה"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "מבוסס זמן"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "סינכרון דפדפן"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "הצילום נכשל, נא לרענן את הדף ולנסות שנית."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "האם ניסית לסרוק קוד QR מקובץ מקומי? יש להשתמש בתמונת גיבוי QR במקום זאת."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "זהירות! השעון המקומי שלך רחוק מדי, יש לתקן אותו לפני שנמשיך."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "סגירה"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "האם באמת ברצונך למחוק את החשבון הזה? לא ניתן לבטל פעולה זו."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "ברור לי כי כל המידע שלי ימחק ללא יכולת שחזור."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "אימות סיסמה"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "הועתק"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "סיסמה נוכחית"
+   },
+   "danger": {
+      "message": "Danger"
+   },
+   "delete_all": {
+      "message": "איפוס מאמת"
+   },
+   "delete_all_warning": {
+      "message": "פעולה זו תמחוק את כל המידע שלך ותאפס את המאמת. שחזור המידע האישי לא יהיה אפשרי! מומלץ לשמור גיבוי לפני איפוס המאמת."
+   },
+   "digits": {
+      "message": "ספרות"
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "הורד את קובץ הגיבוי"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "הורד גיבוי מוגן בסיסמה"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "אזהרה: הגיבויים אינם מוצפנים. השתמש על אחריותך בלבד."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "עריכה"
+   },
+   "enable_context_menu": {
+      "message": "Add to context menu"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "מוצפן"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "קוד QR בלתי מזוהה."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "קוד סודי שגוי"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "אזהרה: כל הגיבויים אינם מוצפנים. רוצה להוסיף חשבון לאפליקציה אחרת? רחף מעל החלק השמאלי העליון של חשבון כלשהו ולחץ על הכפתור המוסתר."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "המאמת מחולל קודי אימות דו שלבי ישירות מהדפדפן."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "מאמת"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "מאמת"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "משוב"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "ייבא גיבוי"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "ייבא גיבוי כטקסט"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "ייבא קובץ גיבוי"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "יבוא תמונת גיבוי QR"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "ניתן לבחור מספר קבצים כדי לייבא גיבויים באצוות."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Import successful, but some QR codes could not be recognized."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "עליך לספק סיסמה נכונה כדי לייבא גיבויים."
+   },
+   "info": {
+      "message": "Info"
+   },
+   "invalid": {
+      "message": "שגוי"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "מנפיק"
+   },
+   "learn_more": {
+      "message": "Learn more"
+   },
+   "loading": {
+      "message": "טוען..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "הסיסמה שלך מאוחסנת באופן מקומי, אנא שנה אותה בתפריט האבטחה באופן מיידי."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "נעל"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "צא מהמערכת"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "Manual Backup"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "היבוא נכשל. אם מדובר ביבוא מהמאמת של גוגל, יש ליצא את המידע מהיישומון של גוגל ולנסות שוב."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "חלק ממידע החשבון לא יובא בהצלחה."
+   },
+   "minutes": {
+      "message": "דקות"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "סיסמה חדשה"
+   },
+   "no": {
+      "description": "No.",
+      "message": "לא"
+   },
+   "no_entires": {
+      "message": "No accounts to display. Add your first account now."
+   },
+   "no_insight_available": {
+      "message": "No insights found, everything looks good!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "אישור"
+   },
+   "onedrive_business_perms": {
+      "message": "Why do business accounts require more permissions?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "ניתן לייבא גיבויים מיישומים אחרים."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "למידע נוסף"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "יש לך חשבון Steam או Blizzard אחד או יותר. גיבויים לא מוצפנים לא ישתמשו בתבנית גיבוי סטנדרטית."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "יש להזין סיסמה לצורך לפענוח נתוני חשבון."
+   },
+   "password_policy_default_hint": {
+      "message": "Your password does not meet your organization's security requirements. Contact your administrator for more information."
+   },
+   "period": {
+      "message": "תקופה"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "סיסמה"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "לא ניתן להוסיף חשבון חדש עד שכל החשבונות יפוענחו. נא להכניס סיסמא נכונה כדי להמשיך."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "חשבונות שהפענוח שלהם נכשל לא יכללו בגיבוי זה."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "הסיסמה אינה תואמת."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "מצב פופ-אפ"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "זכור את הסיסמה"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "האם יש לך גיבוי לחשבונות שלך? לא לחכות עד שיהיה מאוחר מדי!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "הסרה"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "העדפות"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "קנה מידה"
+   },
+   "search": {
+      "description": "Search",
+      "message": "חפש"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "סוד"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "אבטחה"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "סיסמה זו תשמש להצפנת חשבונותיך. אין דרך לשחזר את הסיסמה אם היא תשכח."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "הגדרות"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "הצג את כל הערכים"
+   },
+   "show_all_insights": {
+      "message": "Show all insights."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "התחברות"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Sign in (Business)"
+   },
+   "smart_filter": {
+      "message": "מסנן חכם"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "קוד מקור"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "גבה אוטומטית את הנתונים שלך לשירותי אחסון של צד ג '."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "סינכרון שעון עם גוגל"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "עיצוב"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "כהה"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "ניגודיות גבוהה"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "בהיר"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Simple"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "הייתה בעיה בהתחברות לחשבון $ SERVICE $ שלך, אנא היכנס שוב.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "תרגם"
+   },
+   "type": {
+      "message": "סוג"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "עדכון"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "כישלון."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "הצלחה."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "השתמש במילוי אוטומטי"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "השתמש בניגודיות גבוהה"
+   },
+   "warning": {
+      "message": "Warning"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "כן"
+   }
+}

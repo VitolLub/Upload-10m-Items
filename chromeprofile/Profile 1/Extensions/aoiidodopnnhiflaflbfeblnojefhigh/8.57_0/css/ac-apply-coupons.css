@@ -1,0 +1,33 @@
+#priceblink-ac-container #ac-apply-coupons .progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    width: 100%;
+    border-radius: 100px;
+    margin: 24px 0px;
+}
+
+#priceblink-ac-container #ac-apply-coupons .progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    transition: width .6s ease;
+    background-color: #F1C242;
+    border-radius: 100px;
+}
+
+/* media queries */
+@media (max-width:480px){
+  #priceblink-ac-container #ac-apply-coupons .progress {
+    margin: 18px 0px;
+    height: 12px;
+  }
+}

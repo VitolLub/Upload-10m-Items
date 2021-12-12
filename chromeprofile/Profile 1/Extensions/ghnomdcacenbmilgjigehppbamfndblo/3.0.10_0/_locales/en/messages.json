@@ -1,0 +1,347 @@
+{
+   "appDesc": {
+      "message": "Easily view historical pricing data from camelcamelcamel.com."
+   },
+   "appName": {
+      "message": "The Camelizer"
+   },
+   "chart_options_opt_fo_title": {
+      "message": "Remove Outliers"
+   },
+   "chart_options_opt_fo_tooltip": {
+      "message": "Ignore prices that are far outside the product's typical range."
+   },
+   "chart_options_opt_zero_title": {
+      "message": "Close-up View"
+   },
+   "chart_options_opt_zero_tooltip": {
+      "message": "Toggle whether the chart's Y-axis begins at zero or near the lowest price ever."
+   },
+   "chart_options_other_legend": {
+      "message": "Other Options"
+   },
+   "chart_options_pt_legend": {
+      "message": "Price Types in Chart"
+   },
+   "chart_options_pt_tooltip": {
+      "message": "Toggle $price_type$ in the price history chart.",
+      "placeholders": {
+         "price_type": {
+            "content": "$1",
+            "example": "Third Party New"
+         }
+      }
+   },
+   "error_overlay_body": {
+      "message": "An unknown error has occurred.  Please close The Camelizer and try again."
+   },
+   "error_overlay_footer": {
+      "message": "If retrying your request doesn't solve the issue, please visit"
+   },
+   "error_overlay_title": {
+      "message": "Error"
+   },
+   "http_0": {
+      "message": "A network error occurred.  Please try again later.  (0)"
+   },
+   "http_403": {
+      "message": "The Camelizer was unable to access camelcamelcamel.  (403)"
+   },
+   "http_404": {
+      "message": "The selected product was not found.  (404)"
+   },
+   "http_429": {
+      "message": "You are making requests too quickly.  Please wait for one minute and try again.  (429)"
+   },
+   "http_500": {
+      "message": "There was an error on the camelcamelcamel server.  Please try again later.  (500)"
+   },
+   "http_5xx": {
+      "message": "The Camelizer was unable to access camelcamelcamel. (5XX)"
+   },
+   "http_error_title": {
+      "message": "Error (HTTP $status$)",
+      "placeholders": {
+         "status": {
+            "content": "$1",
+            "example": "404"
+         }
+      }
+   },
+   "http_unknown": {
+      "message": "An unknown error occurred.  Please try again later.  ($status$)",
+      "placeholders": {
+         "status": {
+            "content": "$1",
+            "example": "200"
+         }
+      }
+   },
+   "intro_chart_area": {
+      "message": "This is the camelcamelcamel price history chart.  It shows changes in a product's price over time."
+   },
+   "intro_chart_period_opts": {
+      "message": "The Chart Period options allow you to choose how far back in time the chart displays data."
+   },
+   "intro_sidebar": {
+      "message": "This is the Sidebar. Click the icons to view the different parts of the extension."
+   },
+   "intro_thanks": {
+      "message": "Thank you for using our extension!"
+   },
+   "intro_watchfrm": {
+      "message": "This is the price watch form.  Enter your email address, and the price you want to pay (desired price), and we will email you when the price drops."
+   },
+   "intro_welcome_0": {
+      "message": "Welcome to The Camelizer!"
+   },
+   "intro_welcome_1": {
+      "message": "Please click Next to continue the tour, or Exit to...exit."
+   },
+   "loading_overlay_msg": {
+      "message": "LOADING"
+   },
+   "msg_error_saving_watches": {
+      "message": "Error Saving Price Watches!"
+   },
+   "msg_partial_watches_saved": {
+      "message": "Not all of your price watches could be saved."
+   },
+   "msg_product_list_error": {
+      "message": "An error occurred when accessing the product list.  Please try again later."
+   },
+   "msg_saving_watches": {
+      "message": "Saving price watches..."
+   },
+   "msg_see_red_fields": {
+      "message": "Please see the fields highlighted in red."
+   },
+   "msg_server_error_saving": {
+      "message": "Due to a server error, we were unable to save your price watches.  Please try again."
+   },
+   "msg_success": {
+      "message": "Success!"
+   },
+   "msg_watches_saved": {
+      "message": "We have saved your price watches."
+   },
+   "options_analytics_p0": {
+      "message": "Help improve The Camelizer by submitting anonymous usage stats."
+   },
+   "options_analytics_p1_0": {
+      "message": "For more information, please read"
+   },
+   "options_analytics_p1_1": {
+      "message": "The Camelizer's privacy policy"
+   },
+   "options_analytics_title": {
+      "message": "Anonymous Usage Tracking"
+   },
+   "options_zoom_p0": {
+      "message": "This is used to shrink or expand The Camelizer's main window.  If you simply want to get rid of scrollbars on the window, find your browser's zoom setting and set this box to match.  For example: if your browser is set to 150% zoom, select the entry in this list labeled \"(browser 150%)\"."
+   },
+   "options_zoom_p1": {
+      "message": "To help avoid potential over- or under-zooming, please only move one zoom level at a time.  If scrollbars remain after changing this setting, close and re-open The Camelizer window."
+   },
+   "options_zoom_title": {
+      "message": "Zoom"
+   },
+   "pageActionTitle": {
+      "message": "The Camelizer"
+   },
+   "parent_error_msg": {
+      "message": "The current page does not have a specific product selected.  Please choose a product option (size, color, etc) and reactivate The Camelizer."
+   },
+   "parent_error_title": {
+      "message": "Please select a color / size option."
+   },
+   "price_type_new": {
+      "message": "Third Party New"
+   },
+   "price_type_used": {
+      "message": "Third Party Used"
+   },
+   "sidebar_chartmenu_title": {
+      "message": "Chart Options"
+   },
+   "sidebar_chartmenu_tooltip": {
+      "message": "View Chart Display Options"
+   },
+   "sidebar_gotoc3_title": {
+      "message": "camelcamelcamel.com"
+   },
+   "sidebar_gotoc3_tooltip": {
+      "message": "Go to camelcamelcamel.com"
+   },
+   "sidebar_help_title": {
+      "message": "About The Camelizer"
+   },
+   "sidebar_help_tooltip": {
+      "message": "About The Camelizer"
+   },
+   "sidebar_pageproducts_title": {
+      "message": "Other Products"
+   },
+   "sidebar_pageproducts_tooltip": {
+      "message": "Products On this Page"
+   },
+   "sidebar_pricehistory_title": {
+      "message": "Price History"
+   },
+   "sidebar_pricehistory_tooltip": {
+      "message": "Price History Chart & Price Watches"
+   },
+   "sidebar_settings_title": {
+      "message": "Settings"
+   },
+   "sidebar_user_title": {
+      "message": "Your Camel Account"
+   },
+   "sidebar_user_tooltip": {
+      "message": "Your Camel Account"
+   },
+   "tab_help_disclaimer_p0": {
+      "message": "This extension does not contain any third party analytics code, advertisements, or affiliate links.  Please read"
+   },
+   "tab_help_disclaimer_p0_link": {
+      "message": "$appname$'s privacy policy",
+      "placeholders": {
+         "appname": {
+            "content": "$1",
+            "example": "The Camelizer"
+         }
+      }
+   },
+   "tab_help_disclaimer_p1": {
+      "message": "Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed at the time of purchase will apply."
+   },
+   "tab_help_disclaimers": {
+      "message": "Disclaimers"
+   },
+   "tab_help_how_to_use": {
+      "message": "How To Use"
+   },
+   "tab_help_howto_p0": {
+      "message": "Visit a product page at Amazon.  The Camelizer icon will appear in the address or extensions bar; click it."
+   },
+   "tab_help_howto_p1": {
+      "message": "To toggle a price type in the price history chart, click its row in the table beneath the chart; the background color of the row will match the color of the line in the chart."
+   },
+   "tab_help_intro": {
+      "message": "A price tracking extension for $browser$ by",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   },
+   "tab_pageproducts_not_found": {
+      "message": "No products found and/or loaded."
+   },
+   "tab_pageproducts_p0": {
+      "message": "Click a product's title to view its price history information."
+   },
+   "tab_pageproducts_title": {
+      "message": "Products On This Page"
+   },
+   "tab_price_history_chart_alt": {
+      "message": "camelcamelcamel price history chart"
+   },
+   "tab_price_history_chartlink_title": {
+      "message": "View the product page at camelcamelcamel"
+   },
+   "tab_price_history_email_text": {
+      "message": "We'll send price drops to:"
+   },
+   "tab_price_history_period_option_1m": {
+      "message": "1 Month"
+   },
+   "tab_price_history_period_option_1y": {
+      "message": "1 Year"
+   },
+   "tab_price_history_period_option_3m": {
+      "message": "3 Months"
+   },
+   "tab_price_history_period_option_6m": {
+      "message": "6 Months"
+   },
+   "tab_price_history_period_option_all": {
+      "message": "All Time"
+   },
+   "tab_price_history_period_option_tooltip": {
+      "message": "Change chart period to $period$",
+      "placeholders": {
+         "period": {
+            "content": "$1",
+            "example": "1 Month"
+         }
+      }
+   },
+   "tab_price_history_period_title": {
+      "message": "History"
+   },
+   "tab_price_history_period_tooltip": {
+      "message": "How far back in time should the chart display data?"
+   },
+   "tab_price_history_save_button": {
+      "message": "Save Price Watches"
+   },
+   "tab_price_history_watchtbl_current_price": {
+      "message": "Current Price"
+   },
+   "tab_price_history_watchtbl_desired_price": {
+      "message": "Desired Price"
+   },
+   "tab_price_history_watchtbl_highest_price": {
+      "message": "Highest Price"
+   },
+   "tab_price_history_watchtbl_lowest_price": {
+      "message": "Lowest Price"
+   },
+   "tab_price_history_watchtbl_price_type": {
+      "message": "Price Type"
+   },
+   "tab_price_history_watchtbl_tour_tooltip": {
+      "message": "Click here to learn how to use The Camelizer."
+   },
+   "tab_price_history_your_email": {
+      "message": "Your email address"
+   },
+   "tab_settings_chart_p0": {
+      "message": "There is now a small gear icon in the Chart tab that will allow you to change your chart settings."
+   },
+   "tab_settings_chart_title": {
+      "message": "Looking For The Chart's Settings?"
+   },
+   "tab_settings_p0": {
+      "message": "Here you can customize various parts of The Camelizer."
+   },
+   "tab_settings_title": {
+      "message": "Settings"
+   },
+   "tab_user_create_account": {
+      "message": "Create Free Account"
+   },
+   "tab_user_login": {
+      "message": "Login to camelcamelcamel"
+   },
+   "tab_user_manage_account": {
+      "message": "Manage Your Account"
+   },
+   "tab_user_manage_wishlists": {
+      "message": "Manage Wishlists"
+   },
+   "tab_user_not_signed_in": {
+      "message": "You are not signed into camelcamelcamel."
+   },
+   "tab_user_options": {
+      "message": "Options"
+   },
+   "tab_user_signed_in_as": {
+      "message": "You are signed into camelcamelcamel as"
+   },
+   "tab_user_title": {
+      "message": "Your Camel Account"
+   }
+}

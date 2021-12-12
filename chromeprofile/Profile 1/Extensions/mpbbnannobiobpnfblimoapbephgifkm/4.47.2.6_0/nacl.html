@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--prevent mobile devices from resizing this form automaticly-->
+    <title>Chrome RDP for Google Cloud Platform</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/mediaqueries.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="scripts/min.js"></script>
+</head>
+<body id="body" style="-webkit-user-select: none; cursor:default;">
+    <div id="frame" style="width: 100%; height: 100%; overflow: auto; position: absolute; left: 0px; top: 0px;">
+        <div id="home" style="vertical-align:top;">
+            <div id="contents" class="paid busy" style="vertical-align: top;">
+                <table border="0" width="100%" style="vertical-align: top; padding-right: 10px; padding-bottom: 10px;">
+                    <tr>
+                        <td align="left" style="text-align:left; vertical-align:top; padding-top:10px;">
+                            <table border="0">
+                                <tr>
+                                    <td align="left">
+                                        <img src="images/rdp_gce_icon-128.png" style="padding-top:10px; padding-bottom:0px; padding-left:10px; padding-right:5px;" />
+                                    </td>
+                                    <td align="left" style="font-size:26px; color:#999; padding-bottom:0px;">
+                                        <span id="titleText">Chrome RDP for Google Cloud Platform</span>
+                                        <span id="titleFreeTrialText" class="nodisplay">Free Trial</span>
+                                        <span id="titleOffline" class="nodisplay">Offline</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td align="right" style="text-align:right; vertical-align:top; padding-top:25px;">
+                            <table border="0" width="100%">
+                                <tr>
+                                    <td align="right">
+                                        <table border="0" id="auth_table" style="display:none;">
+                                            <tr align="right">
+                                                <td align="right" style="padding-bottom:10px;">
+                                                    <label id="signin_label" style="font-size:12px; cursor: default; text-decoration:none; color:GrayText; display:none;">Sign in&nbsp</label>
+                                                    <a id="signin_link" style="font-size:12px; cursor: pointer;">Sign in&nbsp</a>
+                                                    <label id="signingin_label" style="font-size:12px; cursor: default; text-decoration:none; color:GrayText; display:none;">Signing in...&nbsp</label>
+                                                    <label id="email_label" style="cursor: default; text-decoration:none; color:GrayText; display:none;"></label>
+                                                    <label id="freeTrial_label" style="cursor: default; text-decoration:none; color:GrayText; display:none;"></label>
+                                                    <label id="signout_label" style="font-size:12px; cursor: default; text-decoration:none; color:GrayText; display:none;">Sign out&nbsp</label>
+                                                    <a id="signout_link" style="font-size:12px; cursor: pointer; display:none;">Sign out&nbsp</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table border="0">
+                                            <tr align="right">
+                                                <td align="right">
+                                                    <label id="settings_label" style="cursor: default; text-decoration:none; color:GrayText; display:none;">Options</label>
+                                                    <a id="settings_link" style="cursor: pointer;">Options</a>
+                                                </td>
+                                                <td align="center" style="padding-bottom:2px;">
+                                                    |
+                                                </td>
+                                                <td align="left">
+                                                    <label id="contactus_label" style="cursor: default; text-decoration:none; color:GrayText; display:none;">Contact Us</label>
+                                                    <a id="contactus_link" style="cursor: pointer;">Contact Us</a>
+                                                </td>
+                                            </tr>
+                                            <tr align="right">
+                                                <td colspan="5" align="right" style="padding-right:0px; white-space:nowrap;">
+                                                    <label id="license_label" style="cursor: default; text-decoration:none; color:GrayText; display:none;">Chrome RDP Store</label>
+                                                    <a id="license_link" href="https://gauth.fusionlabs.net/license_info.aspx" target="_blank" style="cursor: pointer;">Chrome RDP Store</a>
+                                                    <div>
+                                                        <label id="fullscreen_label" style="cursor: default; font-size: 9px; text-decoration:none; color:GrayText; display:none;">Toggle Fullscreen</label>
+                                                        <a id="fullscreen_link" style="cursor: pointer; font-size: 9px;">Toggle Fullscreen</a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" valign="top">
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                <tr>
+                                    <td align="left" style="width:300px;"></td>
+                                    <td id="tdConnect" align="center" valign="top" style="padding-left:0px;">
+                                        <table border="0">
+                                            <tr>
+                                                <td align="right" valign="top" style="padding-left:10px;">
+                                                    <table border="0">
+                                                        <tr>
+                                                            <td colspan="3" style="padding-left:0px;">
+                                                                <div id="summary">
+                                                                    <table cellpadding="0" cellspacing="0">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <span id="summaryMessage"></span>
+                                                                            </td>
+                                                                            <td style="padding-left: 10px; padding-top:5px;">
+                                                                                <div id="divBookmark_link" style="cursor:pointer; display:none;">
+                                                                                    <a id="addBookmark_link" title="Create Bookmark">
+                                                                                        <img src="images/page_bookmark.gif" />
+                                                                                    </a>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="3" style="padding-top:5px; padding-left:0px;">
+                                                                <table cellpadding="0" cellspacing="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div id="prompt"></div>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                                    <tr id="loading_busy_indicator_row" style="display:none;">
+                                                                        <td valign="top" style="white-space:nowrap; padding-left:0px;" colspan="2">
+                                                                            <div class="progress-bar blue stripes shine">
+                                                                                <span id="loading_busy_indicator_progress"></span>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr id="rdpaddress_row">
+                                                                        <td valign="top" style="white-space:nowrap; padding-left:0px;">
+                                                                            <input id="rdpaddress" autofocus />
+                                                                            <div id="menubutton" class="kd-button">
+                                                                                <img src="images/drop_arrow.png" />&nbsp;
+                                                                            </div>
+                                                                            <div id="mru">
+                                                                                <!-- this section is dynamically generated-->
+                                                                            </div>
+                                                                        </td>
+                                                                        <td id="tdButton" align="left" valign="top" style="padding-top:7px; text-align:left;">
+                                                                            <button id="button" class="kd-button">Connect</button>
+                                                                        </td>
+
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td>
+                                                                &nbsp;
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td id="tdBookmarks" valign="top" align="right">
+                                        <table border="0" align="right" valign="top" cellpadding="0" cellspacing="0" style="padding-right: 5px; width:236px;">
+                                            <tr align="right" valign="top">
+                                                <td align="right" valign="top">
+                                                    <div id="bookmarksHeader" style="font-size:10px; padding-right:2px;">
+                                                        :::Bookmarks:::
+                                                    </div>
+                                                    <div id="bookmarks" style="padding:5px; border:1px solid #CCC; width:175px; overflow:auto; font-size:12px; vertical-align:top; text-align:left; ">
+                                                        <!-- this section is dynamically generated-->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <div id="activate" style="display:none;" class="homeouttotopfinal">
+                    <div id="activate_google" class="row">
+                        <div class="cell">
+                            <button id="activate_google_button" name="activate_google_button">
+                                <img alt="Activate using your Google Account" src="images/favicon.ico" />
+                                Activate using your Google Account
+                            </button>
+                            <div id="payment" class="nodisplay">
+                                <span>Chrome RDP did not aquire a license for your google user account.</span>
+                                <div>
+                                    <span>Purchase and activate Chrome RDP with Google Wallet.</span>
+                                </div>
+                                <div>
+                                    <input type="image" name="payment_checkout" id="payment_checkout" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <button id="activate_google_next" name="activate_google_next" class="arrow">
+                                <img alt="Next Activate Option" src="images/right-arrow.png" />
+                            </button>
+                        </div>
+                    </div>
+                    <div id="activate_username" class="row homeouttorightfinal">
+                        <div class="cell">
+                            <table>
+                                <tr>
+                                    <td colspan="2"><span>Activate demonstration account</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="activate_username_value">Username: </label>
+                                    </td>
+                                    <td>
+                                        <input id="activate_username_value" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="activate_password_value">Password: </label>
+                                    </td>
+                                    <td>
+                                        <input id="activate_password_value" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="cell">
+                            <button id="activate_username_next" name="activate_username_next" class="arrow">
+                                <img alt="Next Activate Option" src="images/right-arrow.png" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="session">
+            <div id="sessionmenu">
+                <div id="controlbox">
+                    <div id="controls"></div>
+                    <div id="menutab">
+                        <img id="tab" src="images/tab.png" class="tab" />
+                        <div id="tabarrow"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="module" type="application/x-pnacl">
+            </div>
+        </div>
+        <div id="popupContainer" style="position: absolute; top: 100px; left: 100px; width: 200px; height: 200px; overflow: auto; z-index: 9003; display: none; background-color: #FFF; border-radius: 5px; box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15); border: 1px solid #aaa; ">
+            <div id="popup" class="scale0">
+                <h1 id="popup_header"></h1>
+                <p id="popup_body" style="display:block;"></p>
+                <div id="popup_auth_section" style="display:none;">
+                    <b>Verifying license...</b>
+                    <br />
+                    <br />
+                    Click <a id="popup_auth_link" style="cursor:pointer; visibility:visible;"><b><u>here</u></b></a> to activate using your Google account.
+                    <br />
+                </div>
+                <div id="settings">
+                    <div id="settingsTabs" style="-webkit-user-select: none;">
+                        <a>General</a>
+                        <a>Performance</a>
+                        <a>Advanced</a>
+                        <a>Certificates</a>
+                    </div>
+                    <div id="settingsPages" style="border-width: 1px; border-style: solid; border-color: #808080; padding: 15px;">
+                        <div>
+                            <div>
+                                <table>
+                                    <tr>
+                                        <td style="text-align: right;">
+                                            <label for="ddlScreenSize">Resolution:</label>
+                                        </td>
+                                        <td style="padding-left:1px;">
+                                            <select id="ddlScreenSize">
+                                                <option value="Automatic">Automatic</option>
+                                                <option value="Fullscreen">Full Screen</option>
+                                                <option value="1680|1050">1680x1050</option>
+                                                <option value="1440|1050">1440x1050</option>
+                                                <option value="1440|900">1440x900</option>
+                                                <option value="1280|1024">1280x1024</option>
+                                                <option value="1280|768">1280x768</option>
+                                                <option value="1280|720">1280x720</option>
+                                                <option value="1024|768">1024x768</option>
+                                                <option value="800|600">800x600</option>
+                                                <option value="640|480">640x480</option>
+                                                <option value="Custom">Custom</option>
+                                            </select>
+                                            <div id="customScreenSize" style="float:right;width:60%;">
+                                                <input id="txtScreenWidth" type="number" min="640" max="4096" placeholder="Width" style="width:60px;" required />
+                                                <input id="txtScreenHeight" type="number" min="480" max="2048" placeholder="Height" style="width:60px;" required />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: right;">
+                                            <label for="ddlColors">Colors:</label>
+                                        </td>
+                                        <td style="padding-left:1px; padding-top:3px;">
+                                            <select id="ddlColors">
+                                                <option value="16">High Color (16 bit)</option>
+                                                <option value="24">True Color (24 bit)</option>
+                                                <option value="32">Highest Quality (32 bit)</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: right; padding-top:5px;">
+                                            <label for="ddlTimeZone">Time Zone:</label>
+                                        </td>
+                                        <td style="padding-left:1px; padding-top:7px;">
+                                            <select id="ddlTimeZone">
+                                                <option value="-1">Default</option>
+                                                <option value="720">UTC-12:00</option>
+                                                <option value="660">UTC-11:00</option>
+                                                <option value="600">UTC-10:00</option>
+                                                <option value="540">UTC-9:00</option>
+                                                <option value="480">UTC-8:00</option>
+                                                <option value="420">UTC-7:00</option>
+                                                <option value="360">UTC-6:00</option>
+                                                <option value="300">UTC-5:00</option>
+                                                <option value="270">UTC-4:30</option>
+                                                <option value="240">UTC-4:00</option>
+                                                <option value="210">UTC-3:30</option>
+                                                <option value="180">UTC-3:00</option>
+                                                <option value="120">UTC-2:00</option>
+                                                <option value="60">UTC-1:00</option>
+                                                <option value="0">UTC</option>
+                                                <option value="-60">UTC+1:00</option>
+                                                <option value="-120">UTC+2:00</option>
+                                                <option value="-180">UTC+3:00</option>
+                                                <option value="-210">UTC+3:30</option>
+                                                <option value="-240">UTC+4:00</option>
+                                                <option value="-270">UTC+4:30</option>
+                                                <option value="-300">UTC+5:00</option>
+                                                <option value="-330">UTC+5:30</option>
+                                                <option value="-345">UTC+5:45</option>
+                                                <option value="-360">UTC+6:00</option>
+                                                <option value="-390">UTC+6:30</option>
+                                                <option value="-420">UTC+7:00</option>
+                                                <option value="-480">UTC+8:00</option>
+                                                <option value="-540">UTC+9:00</option>
+                                                <option value="-570">UTC+9:30</option>
+                                                <option value="-600">UTC+10:00</option>
+                                                <option value="-660">UTC+11:00</option>
+                                                <option value="-720">UTC+12:00</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(This determines which time zone is sent to the RDP Server which must have the Allow Time Zone Redirection Group Policy enabled)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: right; padding-top:0px;">
+                                            <label for="ddlLanguages">Language:</label>
+                                        </td>
+                                        <td style="padding-left: 1px; padding-top: 0px;">
+                                            <select id="ddlLanguages" style="width:275px;">
+                                                <option id="1052" value="0x0000041c">Albanian</option>
+                                                <option id="1025" value="0x00000401">Arabic</option>
+                                                <option id="66561" value="0x00010401">Arabic (102)</option>
+                                                <option id="132097" value="0x00020401">Arabic (102) AZERTY</option>
+                                                <option id="1067" value="0x0000042b">Armenian Eastern</option>
+                                                <option id="66603" value="0x0001042b">Armenian Western</option>
+                                                <option id="1101" value="0x0000044d">ASSAMESE - INSCRIPT</option>
+                                                <option id="2092" value="0x0000082c">Azeri Cyrillic</option>
+                                                <option id="1068" value="0x0000042c">Azeri Latin</option>
+                                                <option id="1133" value="0x0000046d">Bashkir</option>
+                                                <option id="1059" value="0x00000423">Belarusian</option>
+                                                <option id="67596" value="0x0001080c">Belgian (Comma)</option>
+                                                <option id="2067" value="0x00000813">Belgian (Period)</option>
+                                                <option id="2060" value="0x0000080c">Belgian French</option>
+                                                <option id="1093" value="0x00000445">Bengali</option>
+                                                <option id="132165" value="0x00020445">Bengali - INSCRIPT</option>
+                                                <option id="66629" value="0x00010445">Bengali - INSCRIPT (Legacy)</option>
+                                                <option id="8218" value="0x0000201a">Bosnian (Cyrillic)</option>
+                                                <option id="1026" value="0x00000402">Bulgarian</option>
+                                                <option id="66562" value="0x00010402">Bulgarian (Latin)</option>
+                                                <option id="132098" value="0x00020402">Bulgarian (phonetic layout)</option>
+                                                <option id="197634" value="0x00030402">Bulgarian (phonetic layout)</option>
+                                                <option id="2052" value="0x00000804">Chinese (Simplified) - US Keyboard</option>
+                                                <option id="1028" value="0x00000404">Chinese (Traditional) - US Keyboard</option>
+                                                <option id="1050" value="0x0000041a">Croatian</option>
+                                                <option id="1029" value="0x00000405">Czech</option>
+                                                <option id="66565" value="0x00010405">Czech (QWERTY)</option>
+                                                <option id="132101" value="0x00020405">Czech Programmers</option>
+                                                <option id="1030" value="0x00000406">Danish</option>
+                                                <option id="1081" value="0x00000439">Devanagari-INSCRIPT</option>
+                                                <option id="1125" value="0x00000465">Divehi Phonetic</option>
+                                                <option id="66661" value="0x00010465">Divehi Typewriter</option>
+                                                <option id="1043" value="0x00000413">Dutch</option>
+                                                <option id="69641" value="0x00011009">English - Canadian Multilingual Standard</option>
+                                                <option id="2057" value="0x00000809">English - United Kingdom</option>
+                                                <option id="1106" value="0x00000452">English - United Kingdom Extended</option>
+                                                <option id="1033" value="0x00000409">English - United States</option>
+                                                <option id="66569" value="0x00010409">English - United States - Dvorak</option>
+                                                <option id="197641" value="0x00030409">English - United States - Dvorak for left hand</option>
+                                                <option id="263177" value="0x00040409">English - United States - Dvorak for right hand</option>
+                                                <option id="132105" value="0x00020409">English - United States - International</option>
+                                                <option id="1061" value="0x00000425">Estonian</option>
+                                                <option id="1080" value="0x00000438">Faeroese</option>
+                                                <option id="1035" value="0x0000040b">Finnish</option>
+                                                <option id="67643" value="0x0001083b">Finnish with Sami</option>
+                                                <option id="1036" value="0x0000040c">French</option>
+                                                <option id="4105" value="0x00001009">French - Canadian</option>
+                                                <option id="3084" value="0x00000c0c">French - Canadian (Legacy)</option>
+                                                <option id="71689" value="0x00011809">Gaelic</option>
+                                                <option id="55" value="0x00000437">Georgian</option>
+                                                <option id="132151" value="0x00020437">Georgian (Ergonomic)</option>
+                                                <option id="66615" value="0x00010437">Georgian (QWERTY)</option>
+                                                <option id="1031" value="0x00000407">German</option>
+                                                <option id="66567" value="0x00010407">German (IBM)</option>
+                                                <option id="1032" value="0x00000408">Greek</option>
+                                                <option id="66568" value="0x00010408">Greek (220)</option>
+                                                <option id="197640" value="0x00030408">Greek (220) Latin</option>
+                                                <option id="132104" value="0x00020408">Greek (319)</option>
+                                                <option id="263176" value="0x00040408">Greek (319) Latin</option>
+                                                <option id="328713" value="0x00050409">Greek Latin</option>
+                                                <option id="394248" value="0x00060408">Greek Polytonic</option>
+                                                <option id="1135" value="0x0000046f">Greenlandic</option>
+                                                <option id="1095" value="0x00000447">Gujarati</option>
+                                                <option id="1037" value="0x0000040d">Hebrew</option>
+                                                <option id="66617" value="0x00010439">Hindi Traditional</option>
+                                                <option id="1038" value="0x0000040e">Hungarian</option>
+                                                <option id="66574" value="0x0001040e">Hungarian 101-key</option>
+                                                <option id="1039" value="0x0000040f">Icelandic</option>
+                                                <option id="2141" value="0x0000085d">Inuktitut - Latin</option>
+                                                <option id="66653" value="0x0001045d">Inuktitut - Naqittaut</option>
+                                                <option id="6153" value="0x00001809">Irish</option>
+                                                <option id="1040" value="0x00000410">Italian</option>
+                                                <option id="66576" value="0x00010410">Italian (142)</option>
+                                                <option id="1041" value="0x00000411">Japanese</option>
+                                                <option id="1099" value="0x0000044b">Kannada</option>
+                                                <option id="1087" value="0x0000043f">Kazakh</option>
+                                                <option id="1107" value="0x00000453">Khmer</option>
+                                                <option id="1042" value="0x00000412">Korean</option>
+                                                <option id="1088" value="0x00000440">Kyrgyz Cyrillic</option>
+                                                <option id="1108" value="0x00000454">Lao</option>
+                                                <option id="2058" value="0x0000080a">Latin American</option>
+                                                <option id="1062" value="0x00000426">Latvian</option>
+                                                <option id="66598" value="0x00010426">Latvian (QWERTY)</option>
+                                                <option id="66599" value="0x00010427">Lithuanian</option>
+                                                <option id="1063" value="0x00000427">Lithuanian IBM</option>
+                                                <option id="132135" value="0x00020427">Lithuanian New</option>
+                                                <option id="1134" value="0x0000046e">Luxembourgish</option>
+                                                <option id="1071" value="0x0000042f">Macedonian (FYROM)</option>
+                                                <option id="66607" value="0x0001042f">Macedonian (FYROM) - Standard</option>
+                                                <option id="1100" value="0x0000044c">Malayalam</option>
+                                                <option id="1082" value="0x0000043a">Maltese 47-Key</option>
+                                                <option id="66618" value="0x0001043a">Maltese 48-key</option>
+                                                <option id="1153" value="0x00000481">Maori</option>
+                                                <option id="1102" value="0x0000044e">Marathi</option>
+                                                <option id="2128" value="0x00000850">Mongolian (Mongolian Script)</option>
+                                                <option id="1104" value="0x00000450">Mongolian Cyrillic</option>
+                                                <option id="1121" value="0x00000461">Nepali</option>
+                                                <option id="1044" value="0x00000414">Norwegian</option>
+                                                <option id="1083" value="0x0000043b">Norwegian with Sami</option>
+                                                <option id="1096" value="0x00000448">Oriya</option>
+                                                <option id="1123" value="0x00000463">Pashto (Afghanistan)</option>
+                                                <option id="1065" value="0x00000429">Persian</option>
+                                                <option id="66581" value="0x00010415">Polish (214)</option>
+                                                <option id="1045" value="0x00000415">Polish (Programmers)</option>
+                                                <option id="2070" value="0x00000816">Portuguese</option>
+                                                <option id="1046" value="0x00000416">Portuguese (Brazilian ABNT)</option>
+                                                <option id="66582" value="0x00010416">Portuguese (Brazilian ABNT2)</option>
+                                                <option id="1094" value="0x00000446">Punjabi</option>
+                                                <option id="1048" value="0x00000418">Romanian (Legacy)</option>
+                                                <option id="132120" value="0x00020418">Romanian (Programmers)</option>
+                                                <option id="66584" value="0x00010418">Romanian (Standard)</option>
+                                                <option id="1049" value="0x00000419">Russian</option>
+                                                <option id="66585" value="0x00010419">Russian (Typewriter)</option>
+                                                <option id="133179" value="0x0002083b">Sami Extended Finland-Sweden</option>
+                                                <option id="66619" value="0x0001043b">Sami Extended Norway</option>
+                                                <option id="3098" value="0x00000c1a">Serbian (Cyrillic)</option>
+                                                <option id="2074" value="0x0000081a">Serbian (Latin)</option>
+                                                <option id="1115" value="0x0000045b">Sinhala</option>
+                                                <option id="66651" value="0x0001045b">Sinhala - wij 9</option>
+                                                <option id="1051" value="0x0000041b">Slovak</option>
+                                                <option id="66587" value="0x0001041b">Slovak (QWERTY)</option>
+                                                <option id="1060" value="0x00000424">Slovenian</option>
+                                                <option id="66606" value="0x0001042e">Sorbian Extended</option>
+                                                <option id="1070" value="0x0000042e">Sorbian Standard</option>
+                                                <option id="1034" value="0x0000040a">Spanish</option>
+                                                <option id="66570" value="0x0001040a">Spanish Variation</option>
+                                                <option id="1053" value="0x0000041d">Swedish</option>
+                                                <option id="2107" value="0x0000083b">Swedish with Sami</option>
+                                                <option id="4108" value="0x0000100c">Swiss French</option>
+                                                <option id="2055" value="0x00000807">Swiss German</option>
+                                                <option id="1114" value="0x0000045a">Syriac</option>
+                                                <option id="66650" value="0x0001045a">Syriac Phonetic</option>
+                                                <option id="1064" value="0x00000428">Tajik</option>
+                                                <option id="1097" value="0x00000449">Tamil</option>
+                                                <option id="1092" value="0x00000444">Tatar</option>
+                                                <option id="1098" value="0x0000044a">Telugu</option>
+                                                <option id="1054" value="0x0000041e">Thai Kedmanee</option>
+                                                <option id="132126" value="0x0002041e">Thai Kedmanee (non-ShiftLock)</option>
+                                                <option id="66590" value="0x0001041e">Thai Pattachote</option>
+                                                <option id="197662" value="0x0003041e">Thai Pattachote (non-ShiftLock)</option>
+                                                <option id="1105" value="0x00000451">Tibetan (People's Republic of China)</option>
+                                                <option id="66591" value="0x0001041f">Turkish F</option>
+                                                <option id="1055" value="0x0000041f">Turkish Q</option>
+                                                <option id="1090" value="0x00000442">Turkmen</option>
+                                                <option id="1152" value="0x00000480">Uighur</option>
+                                                <option id="1058" value="0x00000422">Ukrainian</option>
+                                                <option id="132130" value="0x00020422">Ukrainian (Enhanced)</option>
+                                                <option id="1056" value="0x00000420">Urdu</option>
+                                                <option id="2115" value="0x00000843">Uzbek Cyrillic</option>
+                                                <option id="1066" value="0x0000042a">Vietnamese</option>
+                                                <option id="1157" value="0x00000485">Yakut</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(This determines what language is sent to the RDP Server)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: right; padding-top: 0px;">
+                                            <label for="ddlKeyboards">Keyboard:</label>
+                                        </td>
+                                        <td style="padding-left: 1px; padding-top: 0px;">
+                                            <select id="ddlKeyboards" style="width:275px;">
+                                                <option id="1" value="0x00000001">IBM PC/XT or compatible (83-key) keyboard</option>
+                                                <option id="2" value="0x00000002">Olivetti "ICO" (102-key) keyboard</option>
+                                                <option id="3" value="0x00000003">IBM PC/AT (84-key) and similar keyboards</option>
+                                                <option id="4" value="0x00000004">IBM enhanced (101-key or 102-key) keyboard</option>
+                                                <option id="5" value="0x00000005">Nokia 1050 and similar keyboards</option>
+                                                <option id="6" value="0x00000006">Nokia 9140 and similar keyboards</option>
+                                                <option id="7" value="0x00000007">Japanese keyboard</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(This determines what type of keyboard is used to interpret the client keystrokes)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="white-space:nowrap; vertical-align:top; padding-top:3px; text-align:right;">
+                                            Client Name:
+                                        </td>
+                                        <td>
+                                            <input id="txtRDPName" type="text" pattern="[a-zA-Z0-9\._]{1,15}" style="padding-left:2px; padding-right:2px;" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(This changes how your RDP client is identified to remote computers)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="white-space:nowrap; vertical-align:top; padding-top:2px; text-align:right;">
+                                            Log Messages:
+                                        </td>
+                                        <td>
+                                            <select id="ddlDebugLevel">
+                                                <!--subtract one to get the real debug level, backwords compatibility issue-->
+                                                <option value="0">Off</option>
+                                                <option value="1">Basic</option>
+                                                <option value="2">Low</option>
+                                                <option value="4">Moderate</option>
+                                                <option value="5">Advanced</option>
+                                                <option value="99">Everything</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:3px; padding-bottom:5px;">
+                                            <span>(Turning on this setting can potentially degrade performance)</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--hidden till its implimented-->
+                            <div class="nodisplay">
+                                <fieldset>
+                                    <legend>Shared Resources</legend>
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <span>What resources would you like to share with the remote system?</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input id="clipboard" type="checkbox" name="clipboard" value="clipboard" checked /><label for="clipboard">Clipboard</label>
+                                                <input id="google_drive" type="checkbox" name="google_drive" value="google_drive" checked /><label for="google_drive">Google Drive</label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </fieldset>
+                            </div>
+                            <!--hidden till its implimented-->
+                            <div class="nodisplay">
+                                <input id="reconnect" type="checkbox" name="reconnect" value="reconnect" checked /><label for="reconnect">Reconnect if connection dropped</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <table style="padding-left:15px;">
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxWallpaper" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Display Desktop Wallpaper
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Stops rendering the desktop's selected wallpaper)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxDisableFullWindowDrag" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Disable Full Window Drag
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Only the window outline is displayed when the window is moved)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxDisableMenuAnimations" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Disable Menu Animations
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Stops rendering any animations generated by menus)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxDisableTheming" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Disable Theming
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Turns off any selected themes for the desktop)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxDisableCursorShadow" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Disable Cursor Shadows
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Stops rendering any shadows generated by the mouse)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxDisableCursorBlinking" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Disable Cursor Blinking
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Stops the cursor from blinking when editing text)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxEnableFontSmoothing" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Enable Font Smoothing
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Turn on font smoothing)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td>
+                                                        <input type="checkbox" id="cbxEnableDesktopComposition" />
+                                                    </td>
+                                                    <td style="padding-left:3px;">
+                                                        Enable Desktop Composition
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                            <span>(Turn on Aero features if applicable)</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                    <table style="padding-left:15px;">
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td>
+                                                            <input id="cbxSSHTunnel" type="checkbox" />
+                                                        </td>
+                                                        <td style="padding-left:3px;">
+                                                            Allow SSH Tunneling
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                                <span>(This will allow connections to the localhost)</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td>
+                                                            <input id="CheckboxAllowNonNLAConnections" type="checkbox" />
+                                                        </td>
+                                                        <td style="padding-left:3px;">
+                                                            Allow Non-NLA Connections
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                                <span>(This will allow connections to systems NOT using Network Level Authentication)</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td>
+                                                            <input id="cbxStorePasswords" type="checkbox" />
+                                                        </td>
+                                                        <td style="padding-left:3px;">
+                                                            Allow Storing Passwords
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                                <span>(This will store an encrypted password on successful connections ONLY to machines using Network Level Authentication)</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td>
+                                                            <input id="CheckboxUseTcpNoDelay" type="checkbox" />
+                                                        </td>
+                                                        <td style="padding-left:3px;">
+                                                            Use TCP No Delay
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td style="font-size:10px; vertical-align:top; padding-left:2px; padding-bottom:5px;">
+                                                <span>(Disables coalescing of small writes to make TCP segments and delivers data immediately)</span>
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                            </div>
+                            <!--hidden till its implimented-->
+                            <div class="nodisplay">
+                                <fieldset>
+                                    <legend>Connect to Admin Console</legend>
+                                    <div>
+                                        <span>This setting will not be saved between sessions.</span>
+                                        <br />
+                                        <input id="cbxAdminConsole" type="checkbox" />
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                    <table width="100%">
+                                        <tr>
+                                            <td>
+                                                <span>Chrome RDP remembers the identities of computers you have connected to in the past with SSL.  You will need to clear saved certificates if the remote address of a saved certificate has changed.</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select id="slctCertificate" size="5" style="width:100%"></select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding-top:8px;">
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <button id="btnRemoveCertificates" class="kd-button" style="margin-left:60px;">Delete Certificate</button>
+                                                            
+                                                            <button id="btnClearSSLCache" class="kd-button" style="margin-left:35px;">Delete All Certificates</button>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="popup_optional_inputs">
+                    <table style="margin-left:40px">
+                        <tr id="popup_domain">
+                            <td align="right">
+                                <label id="popup_domain_caption" for="popup_domain">Domain:</label>
+                            </td>
+                            <td>
+                                <input id="popup_domain_value" type="text" value="" style="width: 225px;" />
+                            </td>
+                        </tr>
+                        <tr id="popup_text1">
+                            <td align="right">
+                                <label id="popup_text1_caption" for="popup_text1"></label>
+                            </td>
+                            <td>
+                                <input id="popup_text1_value" type="text" value="" style="width: 225px;" />
+                            </td>
+                        </tr>
+                        <tr id="popup_password">
+                            <td align="right">
+                                <label id="popup_password_caption" for="popup_password"></label>
+                            </td>
+                            <td>
+                                <input id="popup_password_value" type="password" value="" style="width: 225px;" />
+                            </td>
+                        </tr>
+                        <tr id="popup_password_store" style="display:none;">
+                            <td align="right"></td>
+                            <td style="font-size:10px; vertical-align:top; padding-left:3px; padding-bottom:0px; color:Red;">
+                                <span>(Your settings are configured to store encrypted passwords. If you do not want to store encrypted passwords, press the 'Cancel' button and turn off 'Allow Storing Passwords' from the 'Options' link under the 'Advanced' tab)</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="popup_crash">
+                    <div style="float:left; width: 125px">
+                        <img src="images/sadtab.png" alt="Crashing is sad" />
+                    </div>
+                    <div style="float:left; width: 300px; margin-top:30px">
+                        <div style="margin-bottom:30px">
+                            <span>You have arrived here because something has gone wrong. To continue, reload the application.</span>
+                        </div>
+                        <div>
+                            <button id="submitButton" class="kd-button" style="float:right">Provide Feedback</button>
+                            <button id="restartButton" class="kd-button" style="float:right">Restart</button>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div id="popup_contactus">
+                    <div id="popup_contactus_links">
+                        <div>
+                            <a href="https://chrome.google.com/webstore/detail/chrome-rdp/cbkkbcmdlboombapidmoeolnmdacpkch" target="_blank" style="cursor: pointer;">
+                                <figure>
+                                    <img src="images/ChromeWebStore_Badge_v2_Icon_contactus.png" alt="Chrome web store" />
+                                    <figcaption>Chrome web store</figcaption>
+                                </figure>
+                            </a>
+                            <a href="https://gauth.fusionlabs.net/license_info.aspx" target="_blank" style="cursor: pointer;">
+                                <figure>
+                                    <img src="images/rdp_icon_contactus.png" alt="Chrome RDP store" />
+                                    <figcaption>Chrome RDP store</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://groups.google.com/forum/?fromgroups#!forum/chromerdp" target="_blank" style="cursor: pointer;">
+                                <figure>
+                                    <img src="images/groups_contactus.png" alt="Google Groups" />
+                                    <figcaption>Google Groups</figcaption>
+                                </figure>
+                            </a>
+                            <a href="mailto:rdpsupport@fusionlabs.net?Subject=Chrome%20RDP%20Support" target="_blank" style="cursor: pointer;">
+                                <figure>
+                                    <img src="images/email_contactus.png" alt="Email" />
+                                    <figcaption>Email</figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Show Log: </label><input id="popup_email_showlog" type="checkbox" />
+                        <textarea id="popup_email_log" name="log" rows="6" cols="60" wrap="off" style="resize:none" disabled>Stuff</textarea>
+                        <button id="popup_email_log_copytoclipboard" class="kd-button">Copy to clipboard</button>
+                    </div>
+                </div>
+                <div id="popup_connecting">
+                    <div>
+                        <div id="popup_connecting_busy_indicator" class="progress-bar blue stripes shine">
+                            <span style="width: 100%"></span>
+                        </div>
+                        <div id="popup_connecting_timeout_message">
+                            <p>Chrome RDP for Google Cloud Platform could not connect to the remote computer for one of these reasons:</p>
+                            <p>1) Remote access to the server is not enabled<br>2) The remote computer is turned off<br>3) The remote computer is not available on the network</p>
+                            <p>Make sure the remote computer is turned on and connected to the network, and that remote access is enabled.</p>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <input id="popup_callback" type="hidden" value="" />
+                <div style="text-align:center">
+                    <button id="popup_yes" class="kd-button">Yes</button>
+                    <div id="popup_btnSpacer"></div>
+                    <button id="popup_no" class="kd-button">No</button>
+                </div>
+            </div>
+
+        </div>
+        <div id="simplePopup_div" style="display:none;" class="simplePopup">
+            <table width="100%">
+                <tr id="simplePopup_message_section" style="display:none;">
+                    <td align="center" style="font-size:13px; color:Black; padding-top:5px; padding-bottom:10px; padding-left:0px; padding-right:0px;">
+                        <label id="simplePopup_label_body" style="display:block;"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <table cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td id="simplePopup_cell_ok">
+                                    <button id="simplePopup_button_ok" class="kd-button">OK</button>
+                                </td>
+                                <td id="simplePopup_cell_cancel" style="padding-left:5px;">
+                                    <button id="simplePopup_button_cancel" class="kd-button">Cancel</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="black" style="z-index:9001;">
+    </div>
+</body>
+</html>

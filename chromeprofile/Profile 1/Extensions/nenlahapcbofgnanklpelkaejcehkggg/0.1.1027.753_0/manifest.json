@@ -1,0 +1,45 @@
+{
+   "background": {
+      "page": "bg/bg.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "assets/icons/browser/browseraction-off-19-shopping.png",
+         "38": "assets/icons/browser/browseraction-off-38-shopping.png"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "notifications/pageView.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "GENERATED/commons-1.js", "GENERATED/commons-2.js", "GENERATED/site.js" ],
+      "matches": [ "*://*.amazon.com/*", "*://*.bestbuy.com/*", "*://*.homedepot.com/*", "*://*.target.com/*", "*://*.zappos.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "GENERATED/cashbackAnnotation.js" ],
+      "matches": [ "*://*.jcpenney.com/*", "*://*.macys.com/*", "*://*.bedbathandbeyond.com/*", "*://*.bloomingdales.com/*", "*://*.belk.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "GENERATED/commons-1.js", "GENERATED/commons-2.js", "GENERATED/wikibuy.js" ],
+      "matches": [ "*://*.ivf-local.com/*", "*://*.ivf-dev.com/*", "*://*.ivf-stage.com/*", "*://*.wikibuy.com/*", "*://*.capitaloneshopping.com/*", "*://*.wikibuy-qa.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "A simple and free way to help you save online",
+   "icons": {
+      "128": "assets/icons/shopping-icon128.png",
+      "16": "assets/icons/shopping-icon16.png",
+      "48": "assets/icons/shopping-icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuGYggbuTpnT/i+GcuBoO1kO8i7t9s9jJwIgsnMZSZ7PXXN26wx7MVL7HfLkYvHaWTj/YSWRvZIf3ozFEOrT8W1Uk2AKd5AqvtH1iKTE8cf0nDSeE1H9i8hiWTb0+FBeBpF6pyRiCNx1MBjsRe1I/E+CPLnVhOpI86jSjRJUpxofNG4dUA5d42e7ZE3Y53eHQT/xmnDYW8qDQbRy4PRZklQ3x7dEfjfpWjCcReMnOQC02saESl9wTJj+qSu8BrglHjrl8gedAW2Sqvu3MzMiUbv6h8pG0IZBoUW0ei/43ghZEY1AgB8h5kzhjMqrQYwu0O/K81fqhGijtORoy8YvgYQIDAQAB",
+   "manifest_version": 2,
+   "name": "Capital One Shopping: Add to Chrome for Free",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "contextMenus", "storage", "cookies", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.1027.753",
+   "web_accessible_resources": [ "GENERATED/*", "webpage/*", "notifications/*", "assets/*" ]
+}

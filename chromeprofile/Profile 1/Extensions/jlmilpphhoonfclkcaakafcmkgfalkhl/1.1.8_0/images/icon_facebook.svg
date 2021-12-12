@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="36px" viewBox="0 0 18 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-568.000000, -326.000000)" fill="#FFFFFF">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row">
+                    <g id="item" transform="translate(242.000000, 0.000000)">
+                        <g id="Group-8" transform="translate(10.000000, 5.000000)">
+                            <g id="Facebook" transform="translate(30.000000, 21.000000)">
+                                <path d="M5.04319694,35.789528 L5.04319694,19.3071749 L-2.76276564e-25,19.3071749 L-2.76276564e-25,13.3800666 L5.0431969,13.3800666 L5.04319694,9.03391603 C5.04319694,9.03391603 4.68042111,-1.96745163e-17 12.0437382,-1.96745163e-17 L18,-1.96745163e-17 L17.9999998,6.03887089 L14.2886154,6.03887089 C14.2886154,6.03887089 11.5571808,5.88150637 11.527455,8.87462192 L11.5274547,13.3800666 L17.5318788,13.3800666 L16.6658521,19.3071749 L11.4680039,19.3071749 L11.4680039,36 L5.04319694,36 L5.04319694,35.789528 Z" id="icon_facebook"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

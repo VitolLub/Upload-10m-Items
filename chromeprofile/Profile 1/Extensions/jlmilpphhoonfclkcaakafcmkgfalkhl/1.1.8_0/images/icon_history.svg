@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="44px" viewBox="0 0 47 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-2.000000, 0.000000)">
+            <path d="M8.39460032,30.6201234 C11.7249589,37.7981224 18.9330291,42.5 27,42.5 C38.3218374,42.5 47.5,33.3218374 47.5,22 C47.5,10.6781626 38.3218374,1.5 27,1.5 C18.3807103,1.5 10.7787324,6.86862201 7.80336969,14.789959 L8.39460032,30.6201234 Z" id="Oval-4" stroke="#757575" stroke-width="3"></path>
+            <polygon id="Rectangle" fill="#FFFFFF" points="5.89331055 19.2613525 10 17.479126 10.5682373 29.8331299 6.29980469 30.6018066"></polygon>
+            <circle id="Oval-9" fill="#757575" cx="8.325" cy="30.525" r="1.525"></circle>
+            <polygon id="Triangle-3" fill="#757575" transform="translate(6.983887, 16.422363) rotate(-157.000000) translate(-6.983887, -16.422363) " points="6.98388672 13.4223633 12.9838867 19.4223633 0.983886719 19.4223633"></polygon>
+            <rect id="Rectangle-5" fill="#494949" x="24" y="10" width="3" height="16" rx="1.5"></rect>
+            <rect id="Rectangle-5" fill="#494949" transform="translate(30.500000, 24.500000) rotate(-270.000000) translate(-30.500000, -24.500000) " x="29" y="18" width="3" height="13" rx="1.5"></rect>
+        </g>
+    </g>
+</svg>

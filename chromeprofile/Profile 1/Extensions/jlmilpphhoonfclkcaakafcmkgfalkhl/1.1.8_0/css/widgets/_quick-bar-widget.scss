@@ -1,0 +1,265 @@
+.quick-bar {
+    .widget__header {
+        padding: 10px 15px;
+    }
+    .btn_small {
+        width: 130px;
+    }
+
+    &__btn {
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: bold;
+        color: #4285F4;
+        min-height: 40px;
+        width: 100%;
+        border-radius: 20px;
+        border: 1px solid #CECECE;
+        text-transform: uppercase;
+        letter-spacing: 0.04px;
+        padding: 0;
+        margin: 10px 0 30px;
+        transition: all .2s;
+
+        i {
+            position: relative;
+            top: -1px;
+            font-size: 24px;
+            font-weight: normal;
+            line-height: 1;
+            margin-right: 10px;
+        }
+        
+        &:hover {
+            color: #fff;
+            background-color: #4285F4;
+            border-color: #4285F4;
+        }
+
+        &:active {
+            color: #fff;
+            background-color: #D6D6D6;
+            border-color: #D6D6D6;
+        }
+
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 15px;
+        color: #757575;
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 5px;
+    }
+    .apps {
+        max-height: none;
+        padding-top: 5px;
+        &__item {
+            transition: none;
+            margin-top: 0;
+            margin-bottom: 30px;
+            width: 50%;
+            &:hover {
+                .apps__title {
+                    background-color: transparent;
+                }
+            }
+        }
+        &__icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 3px 0 rgba(0,0,0,0.30);
+            margin-bottom: 10px;
+            cursor: move;
+            img {
+                display: block;
+            }
+        }
+        &__title {
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #323232;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+    .angular-ui-tree-hidden {
+        display: block;
+        padding: 0;
+        height: 126px;
+        border: none;
+        width: 50%;
+        min-width: 100px;
+        margin: 0;
+        .apps__item {
+            opacity: .5;
+            margin: 0 auto;
+        }
+    }
+    .angular-ui-tree-placeholder {
+        display: none;
+    }
+}
+
+
+.create-link {
+    padding: 25px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px 0 rgba(#000, .5);
+    width: 100%;
+    max-width: 500px;
+    border-radius: 4px;
+    color: #000;
+
+    &__title {
+        margin: 0 0 30px;
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: bold;
+    }
+
+    &__field {
+        margin-bottom: 30px;
+    }
+
+    &__label {
+        font-weight: bold;
+        display: block;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    &__input.has-error {
+        border-color: #FF4236;
+    }
+
+
+    &__colors {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__radio-color {
+        flex: 0 0 auto;
+        display: block;
+        padding: 4px;
+
+        input {
+            display: none;
+
+            &:checked + span {
+                &:before {
+                    display: block;
+                }
+
+                &:hover {
+                    &:after {display: none}
+                }
+            }
+        }
+
+        span {
+            position: relative;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+
+            &:hover {
+                &:after { opacity: 1; }
+            }
+
+            &:before {
+                content: '';
+                display: none;
+                width: 10px;
+                height: 10px;
+                background-image: url(../images/checkmark-small@2x.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 10px 10px;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -8px;
+                margin-left: -8px;
+                width: 16px;
+                height: 16px;
+                background-image: url(../images/icon_radio-btn.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 16px 16px;
+                opacity: 0;
+                transition: opacity .2s;
+            }
+        }
+    }
+
+
+    &__btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__btn-link {
+        cursor: pointer;
+        margin-right: 30px;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #494949;
+        border: none;
+        background-color: transparent;
+        transition: all .2s;
+
+        &:hover {
+            color: #4285F4;
+        }
+    }
+    
+    &__btn {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        min-height: 44px;
+        background-color: #4285F4;
+        color: #fff;
+        border-radius: 2px;
+        width: 100%;
+        max-width: 200px;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.04px;
+        transition: all .2s;
+
+        &:hover {
+            background-color: #F7931A;
+        }
+    }
+    
+}

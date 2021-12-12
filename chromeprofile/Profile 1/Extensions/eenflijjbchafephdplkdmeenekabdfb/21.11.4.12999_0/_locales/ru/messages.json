@@ -1,0 +1,2585 @@
+{
+   "ACTIVATE_FIREFOX_PAGE_ATTENTION": {
+      "message": "Чтобы начать пользоваться Alitools, пожалуйста, \u003Cbr/> ознакомьтесь со следующей информацией:"
+   },
+   "ACTIVATE_FIREFOX_PAGE_BUTTON_ACTIVATE": {
+      "message": "Всё понятно, включить Alitools!"
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_1": {
+      "message": "Мы используем технические данные, которые включают IP-адрес, дату и время использования \u003Cbr/> Alitools, язык, информацию об ОС и типе браузера. Эти данные нужны, чтобы убедиться, \u003Cbr/> что Alitools работает правильно, предотвратить мошенничество и настроить продукт для вас."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_2": {
+      "message": "Для того, чтобы мы могли вас авторизовать и автоматически настроить профиль, \u003Cbr/> мы используем файлы cookies. В своих функциях мы используем ссылки партнёрских \u003Cbr/> программ AliExpress и других магазинов-партнёров."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_3_1": {
+      "message": "Alitools собирает следующую персональную информацию: URL посещенных страниц \u003Cbr/> по ограниченному списку сайтов для работы «Истории», домены первого уровня по \u003Cbr/> ограниченному списку сайтов для работы «Поиска товаров» и «Любимых магазинов» и домены \u003Cbr/> первого уровня при показе иконки «Поиска по картинке» на всех сайтах. Со списками доменов, \u003Cbr/> адреса которых мы собираем, можно ознакомиться в"
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_3_2": {
+      "message": " Политике конфиденциальности"
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_3_3": {
+      "message": ".\u003Cbr/>Все данные отправляются на сервер в зашифрованном виде."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_4": {
+      "message": "Мы стремимся сделать Alitools лучше для всех наших пользователей. Для этого мы с помощью \u003Cbr/> сервисов Google Analytics, Яндекс.Метрика и Facebook Pixel собираем информацию о том, \u003Cbr/> как вы используете Alitools."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DISABLE_ANALYTICS": {
+      "message": "Запретить сбор \u003Cbr/> аналитических данных."
+   },
+   "ACTIVATE_FIREFOX_PAGE_PRIVACY_POLICY": {
+      "message": "Политика конфиденциальности"
+   },
+   "ACTIVATE_FIREFOX_PAGE_TITLE": {
+      "message": "еще не включен!"
+   },
+   "ACTIVATE_FIREFOX_PAGE_USER_AGREEMENT": {
+      "message": "Пользовательское соглашение"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_1": {
+      "message": "Желтый треугольник означает что расширение не активно,\u003Cbr/> но это легко исправить нажав на иконку:"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_2": {
+      "message": "Затем в открывшемся меню выберите\u003Cbr/> пункт «Always Allow on Every Websites»."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_3": {
+      "message": "Выбрав этот пункт, расширение активируется автоматически."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_4": {
+      "message": "Если желтого треугольника нет, но расширение ${BR}$ все еще не активно ${LINK}$."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_4_LINK": {
+      "message": "следуйте этим инструкциям"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_2_1": {
+      "message": "Расширение все еще не активно по причине блокировки прав,\u003Cbr/> в настройках Safari вы легко решите эту проблему, просто\u003Cbr /> следуйте указаниям на картинках."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_2_2": {
+      "message": "Выбрав пункт «Always Allow on Every Websites»,\u003Cbr/> расширение активируется автоматически."
+   },
+   "ACTIVATE_SAFARI_PAGE_TITLE": {
+      "message": "Alitools не активен"
+   },
+   "ADVICE_PRODUCTS_HEADER": {
+      "message": "На AliExpress"
+   },
+   "ADVICE_PRODUCTS_ORDERS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "ADVICE_PRODUCTS_SORT_DEFAULT": {
+      "message": "без сортировки"
+   },
+   "ADVICE_PRODUCTS_SORT_HEADER": {
+      "message": "сортировать"
+   },
+   "ADVICE_PRODUCTS_SORT_ORDERS": {
+      "message": "сначала популярные"
+   },
+   "ADVICE_PRODUCTS_SORT_PRICE": {
+      "message": "сначала дешевле"
+   },
+   "ADVICE_STRIPE_ONBOARDING_COMMENT": {
+      "message": "Просматривайте товары, а мы найдем подходящие предложения на AliExpress."
+   },
+   "ADVICE_STRIPE_ONBOARDING_HERO": {
+      "message": "Alitools нашел похожие \u003C/br>и сопутствующие товары"
+   },
+   "ADVICE_STRIPE_ONBOARDING_SETTINGS_BUTTON": {
+      "message": "Продолжить"
+   },
+   "ADVICE_STRIPE_ONBOARDING_SETTINGS_LINK": {
+      "message": "в настройках"
+   },
+   "ADVICE_STRIPE_ONBOARDING_SETTINGS_MESSAGE": {
+      "message": "Отключить эту функцию можно "
+   },
+   "ADVICE_STRIP_ASIDE_OFFERS": {
+      "message": "Все предложения"
+   },
+   "ADVICE_STRIP_CONTEXT_CONFIGURE": {
+      "message": "Настроить Alitools Советник"
+   },
+   "ADVICE_STRIP_CONTEXT_HIDE": {
+      "message": "Не показывать на этом сайте"
+   },
+   "ADVICE_STRIP_MAIN_BUTTON_ACTION": {
+      "message": "Открыть на AliExpress"
+   },
+   "ADVICE_STRIP_MAIN_MESSAGE": {
+      "message": "Похожий товар есть на AliExpress"
+   },
+   "ADVICE_WIDGET_TAB_FROM": {
+      "message": "от "
+   },
+   "ADVICE_WIDGET_TAB_ON_ALIEXPRESS": {
+      "message": "на AliExpress"
+   },
+   "ANNOUNCE_CONTROL_CLOSE": {
+      "message": "Всё понятно, спасибо"
+   },
+   "ANNOUNCE_DESCRIPTION": {
+      "message": "Новыe магазины."
+   },
+   "ANNOUNCE_FEATURE_CABINET_FILTERS": {
+      "message": "Быстро находите избранные товары из разных магазинов с помощью нового фильтра на"
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON": {
+      "message": "Кнопка «Следить за ценой» теперь\u003Cbr>всегда на виду — добавляйте товары\u003Cbr>в избранное одним кликом."
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON_GUEST": {
+      "message": " и добавляйте\u003Cbr>интересующие вас товары в\u003Cbr>избранное одним кликом."
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON_GUEST_REGISTRATION": {
+      "message": "Зарегистрируйтесь"
+   },
+   "ANNOUNCE_FEATURE_MOBILE_PRICE": {
+      "message": "Во вкладке «Динамика цены» появилась\u003Cbr>цена покупки через мобильное\u003Cbr>приложение AliExpress."
+   },
+   "ANNOUNCE_FEATURE_NEW_STORES": {
+      "message": "Alitools для Pandao, Joom, Lamoda, Wildberries."
+   },
+   "ANNOUNCE_FEATURE_PRICE_WIDGET": {
+      "message": "Alitools сравнивает старую и новую\u003Cbr>цены и сразу показывает, сколько\u003Cbr>можно сэкономить."
+   },
+   "ANNOUNCE_FOOTER_FEEDBACK": {
+      "message": "Помогите сделать Alitools лучше:"
+   },
+   "ANNOUNCE_FOOTER_FEEDBACK_LINK": {
+      "message": "присылайте идеи, отзывы и сообщения об ошибках."
+   },
+   "ANNOUNCE_TITLE": {
+      "message": "Alitools обновился!"
+   },
+   "BALLOON_BUTTON_CLOSE": {
+      "message": "Закрыть"
+   },
+   "BETA_LABEL": {
+      "message": "Бета-версия"
+   },
+   "BETA_SUPPORT_LINK": {
+      "message": "Написать разработчикам"
+   },
+   "BETA_TITLE": {
+      "message": "Alitools для $STORE_NAME$",
+      "placeholders": {
+         "store_name": {
+            "content": "$1",
+            "example": "Gearbest"
+         }
+      }
+   },
+   "BETA_TOOLTIP": {
+      "message": "Расширение находится в разработке. Будем признательны за ваши отзывы, предложения и сообщения об ошибках."
+   },
+   "BOOKMARKS_HEADER_SITES_LIST": {
+      "message": "Все магазины"
+   },
+   "BOOKMARKS_HEADER_TITLE": {
+      "message": "Любимые магазины"
+   },
+   "BOOKMARKS_ITEM_ICON_CART": {
+      "message": "Корзина"
+   },
+   "BOOKMARKS_ITEM_ICON_FAVORITE": {
+      "message": "Избранное"
+   },
+   "BOOKMARKS_SITES_HINT_HEADER": {
+      "message": "Поддерживаемые магазины:"
+   },
+   "BUTTON_TRY_AGAIN": {
+      "message": "Повторить запрос"
+   },
+   "CHART2_CHEAPER": {
+      "message": "дешевле"
+   },
+   "CHART2_CURRENT_PRICE": {
+      "message": "Последняя цена"
+   },
+   "CHART2_DOESNT_CHANGE": {
+      "message": "не изменилась "
+   },
+   "CHART2_DROPPED": {
+      "message": "упала на "
+   },
+   "CHART2_EXPENSIVE": {
+      "message": "дороже"
+   },
+   "CHART2_FEEDBACK_HOW": {
+      "message": "Как вам новый график?"
+   },
+   "CHART2_FEEDBACK_PLACEHOLDER": {
+      "message": "Расскажите, что вам не понравилось?"
+   },
+   "CHART2_FEEDBACK_SEND": {
+      "message": "Отправить"
+   },
+   "CHART2_FEEDBACK_THANKS": {
+      "message": "Спасибо за ответ!"
+   },
+   "CHART2_INCREASED": {
+      "message": "поднялась на "
+   },
+   "CHART2_LAST_PRICE": {
+      "message": "Последняя цена:"
+   },
+   "CHART2_NOW": {
+      "message": "Сейчас на"
+   },
+   "CHART2_ONE_POINT_SINCE": {
+      "message": "Alitools начал получать информацию о цене\u003C/br>с "
+   },
+   "CHART2_PRICE": {
+      "message": "Цена:"
+   },
+   "CHART2_SAME_PRICE": {
+      "message": "Такая же цена,\u003C/br> как сейчас"
+   },
+   "CHART2_START_TRACKING_DATE": {
+      "message": "(начало отслеживания) "
+   },
+   "CHART2_UNKNOWN": {
+      "message": "В этот день Alitools\u003C/br> не получал информацию\u003C/br> о цене."
+   },
+   "COUPON_BUTTON_APPLYING": {
+      "message": "К оформлению"
+   },
+   "COUPON_BUTTON_BACK_TO_CHECKOUT": {
+      "message": "К оформлению"
+   },
+   "COUPON_BUTTON_GRAB_NOW": {
+      "message": "Забрать"
+   },
+   "COUPON_BUTTON_OK_TEXT": {
+      "message": "Проверить"
+   },
+   "COUPON_BUTTON_STANDBY": {
+      "message": "Забрать"
+   },
+   "COUPON_FOUND_INFO": {
+      "message": "Найдем промокоды и купоны"
+   },
+   "COUPON_FOUND_TITLE": {
+      "message": "Экономь на покупках!"
+   },
+   "COUPON_ONBORDING_MINIWIDGET_DESCRIPTION": {
+      "message": "Наведите на иконку и вы сможете повторно\u003Cbr/>найти скидку для своих покупок."
+   },
+   "COUPON_ONBORDING_MINIWIDGET_TITLE": {
+      "message": "Автоматический поиск скидки"
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_COUPON_DESCRIPTION": {
+      "message": "Проверяем купоны и перезагружаем\u003Cbr/>страницу вашей корзины."
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_COUPON_TITLE": {
+      "message": "Проверка купонов"
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_PROMOCODE_DESCRIPTION": {
+      "message": "Выбираем самые лучшие промокоды.\u003Cbr/> Это займет около минуты."
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_PROMOCODE_TITLE": {
+      "message": "Проверка кодов"
+   },
+   "COUPON_PARAGRAPH_APPLYING_FINISH_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "Выбрали лучшие скидки, которые сейчас \u003Cbr/>активируем."
+   },
+   "COUPON_PARAGRAPH_APPLYING_FINISH_FOUND_DISCOUNT_TITLE": {
+      "message": "Применение скидки $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_PARAGRAPH_FINISH_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "Выбрали лучшие скидки и применили \u003Cbr/>их к вашей корзине."
+   },
+   "COUPON_PARAGRAPH_FINISH_FOUND_DISCOUNT_TITLE": {
+      "message": "Применена скидка — $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_PARAGRAPH_FINISH_NOT_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "Вы можете изменить содержимое своей \u003Cbr/>корзины или попытать счастья позже."
+   },
+   "COUPON_PARAGRAPH_FINISH_NOT_FOUND_DISCOUNT_TITLE": {
+      "message": "Скидки не найдены"
+   },
+   "COUPON_PARAGRAPH_NOT_FINISH_NOT_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "Вы можете изменить содержимое своей \u003Cbr/>корзины или попытать счастья позже."
+   },
+   "COUPON_PARAGRAPH_NOT_FINISH_NOT_FOUND_DISCOUNT_TITLE": {
+      "message": "Скидки не найдены"
+   },
+   "COUPON_SPLASH_DESCRIPTION": {
+      "message": "Мы автоматизировали поиск и\u003Cbr/>применение скидок для вас."
+   },
+   "COUPON_SPLASH_TITLE": {
+      "message": "Пожалуйста, ждите..."
+   },
+   "COUPON_STATE_ACTIVATE_COUPON": {
+      "message": "Выбираем лучшие купоны..."
+   },
+   "COUPON_STATE_ACTIVATE_PROMOCODE": {
+      "message": "Проверяем $CURRENT$ из $COUNT$ / $PROMOCODE$...",
+      "placeholders": {
+         "count": {
+            "content": "$2",
+            "example": "14"
+         },
+         "current": {
+            "content": "$1",
+            "example": "7"
+         },
+         "promocode": {
+            "content": "$3",
+            "example": "HAVE100"
+         }
+      }
+   },
+   "COUPON_STATE_APPLYING_FINISH_NOT_FOUND_DISCOUNT": {
+      "message": "Восстанавливаем вашу скидку..."
+   },
+   "COUPON_STATE_FINISH_BUST_FOUND_DISCOUNT": {
+      "message": "Можно вернуться к оформлению."
+   },
+   "COUPON_STATE_FINISH_FOUND_DISCOUNT": {
+      "message": "Применяем лучшую скидку..."
+   },
+   "COUPON_STATE_FINISH_NOT_FOUND_DISCOUNT": {
+      "message": "Можно вернуться к оформлению."
+   },
+   "COUPON_STATE_PROGRESS_STEP": {
+      "message": "Шаг $STEP$/$COUNT$: ",
+      "placeholders": {
+         "count": {
+            "content": "$2",
+            "example": "3"
+         },
+         "step": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "COUPON_STATUS_BAR_DISCOUNT": {
+      "message": "Сэкономили $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_STATUS_BAR_GRAB_NOW": {
+      "message": "Скидка $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_STATUS_BAR_NOT_DISCOUNT": {
+      "message": "Нам очень жаль"
+   },
+   "COUPON_STATUS_BAR_STANDBY": {
+      "message": "Секундочку"
+   },
+   "EXTENSION_DESCRIPTION": {
+      "message": "Автоактивация промокодов AliExpress ™, история цены, рейтинг продавцов, похожие товары, поиск по картинке и фото"
+   },
+   "EXTENSION_NAME": {
+      "message": "Alitools помощник в покупках"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "Alitools"
+   },
+   "EXTERNAL_LINKS_ALERT_PRODUCT_DELETED": {
+      "message": "Возможно, товар снят с продажи"
+   },
+   "EXTERNAL_LINKS_ALIEXPRESS_PAGE": {
+      "message": "Страница AliExpress"
+   },
+   "EXTERNAL_LINKS_BUTTON_ALIEXPRESS_PAGE": {
+      "message": "Перейти на страницу"
+   },
+   "EXTERNAL_LINKS_BUTTON_MAKE_SURE": {
+      "message": "Убедиться"
+   },
+   "EXTERNAL_LINKS_BUTTON_ON": {
+      "message": "Открыть на"
+   },
+   "EXTERNAL_LINKS_BUTTON_PRODUCT": {
+      "message": "Открыть на AliExpress"
+   },
+   "EXTERNAL_LINKS_BUTTON_PRODUCT_PAGE": {
+      "message": "Открыть страницу товара"
+   },
+   "EXTERNAL_LINKS_CUTAWAY_SERVICE_ACTION": {
+      "message": "Ссылка проверена"
+   },
+   "EXTERNAL_LINKS_CUTAWAY_SERVICE_TITLE": {
+      "message": "Проводник"
+   },
+   "EXTERNAL_LINKS_IS_NOT_PRODUCT_DATA": {
+      "message": "Ссылка успешно проверена"
+   },
+   "EXTERNAL_LINKS_IS_NOT_PRODUCT_DATA_DESCRIPTION": {
+      "message": "Мы убедились в надежности ссылки,\u003Cbr/>но не смогли получить данные о товаре."
+   },
+   "EXTERNAL_LINKS_IS_NOT_PRODUCT_PAGE": {
+      "message": "Мы убедились в надежности ссылки, но не смогли \u003Cbr/>определить является ли это ссылкой на товар."
+   },
+   "EXTERNAL_LINKS_ITEMS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "EXTERNAL_LINKS_ITEM_SELLER": {
+      "message": "Рейтинг продавца: ${SCORE}$"
+   },
+   "EXTERNAL_LINKS_TAB_REVIEWS": {
+      "message": "Обзоры"
+   },
+   "EXTERNAL_LINKS_TAB_REVIEWS_EMPTY_TITLE": {
+      "message": "К сожалению, на этот\u003Cbr/>товар нет обзоров."
+   },
+   "EXTERNAL_LINKS_TAB_SIMILAR": {
+      "message": "Похожие"
+   },
+   "EXTERNAL_LINKS_TAB_SIMILAR_EMPTY_TITLE": {
+      "message": "К сожалению, на этот\u003Cbr/>товар нет похожих."
+   },
+   "FILTER_ALL": {
+      "message": "Все"
+   },
+   "FILTER_ITAO": {
+      "message": "iTao"
+   },
+   "FILTER_PHOTOS": {
+      "message": "Фото"
+   },
+   "FILTER_USER_PHOTOS": {
+      "message": "Фото покупателей"
+   },
+   "FILTER_VIDEOS": {
+      "message": "Видео"
+   },
+   "FILTER_YOUTUBE": {
+      "message": "YouTube"
+   },
+   "HISTORY_TAB_ITEMS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "IMAGE_SEARCH_BOX_TITLE": {
+      "message": "Поиск товара по картинке"
+   },
+   "IMAGE_SEARCH_CATEGORIES_TITLE": {
+      "message": "Уточнить категорию:"
+   },
+   "IMAGE_SEARCH_CATEGORY_APPAREL": {
+      "message": "Одежда"
+   },
+   "IMAGE_SEARCH_CATEGORY_BAGS": {
+      "message": "Сумки"
+   },
+   "IMAGE_SEARCH_CATEGORY_FOOTWEAR": {
+      "message": "Обувь"
+   },
+   "IMAGE_SEARCH_CATEGORY_OTHER": {
+      "message": "Другое"
+   },
+   "IMAGE_SEARCH_CONTEXT": {
+      "message": "Найти на AliExpress"
+   },
+   "IMAGE_SEARCH_CONTEXT_TITLE": {
+      "message": "Alitools"
+   },
+   "IMAGE_SEARCH_CROP_BUTTON": {
+      "message": "Искать по выделенной области"
+   },
+   "IMAGE_SEARCH_CROP_BUTTON_ACTIVE": {
+      "message": "Ищем..."
+   },
+   "IMAGE_SEARCH_EMPTY_TEXT": {
+      "message": "К сожалению, мы не смогли\u003C/br>найти ни одного товара\u003C/br>по этой картинке."
+   },
+   "IMAGE_SEARCH_FAILURE_RETRY": {
+      "message": "Попробовать еще раз"
+   },
+   "IMAGE_SEARCH_FAILURE_TEXT": {
+      "message": "Что-то пошло не так...\u003C/br>Пожалуйста, попробуйте\u003C/br>повторить попытку чуть позже."
+   },
+   "IMAGE_SEARCH_ORDERS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "IMAGE_SEARCH_ORDERS_NONE": {
+      "message": "Нет заказов"
+   },
+   "IMAGE_SEARCH_SORT_HEADER": {
+      "message": "сортировать"
+   },
+   "IMAGE_SEARCH_SORT_NONE": {
+      "message": "без сортировки"
+   },
+   "IMAGE_SEARCH_SORT_ORDERS": {
+      "message": "сначала популярнее"
+   },
+   "IMAGE_SEARCH_SORT_PRICE": {
+      "message": "сначала дешевле"
+   },
+   "IMAGE_SEARCH_STATUS_ANALYZING": {
+      "message": "Анализируем картинку"
+   },
+   "IMAGE_SEARCH_STATUS_SEARCHING": {
+      "message": "Ищем товары на AliExpress"
+   },
+   "IMAGE_SEARCH_STATUS_SENDING": {
+      "message": "Отправляем картинку"
+   },
+   "INDICATOR_ANNOUNCE": {
+      "message": "Что нового?"
+   },
+   "INDICATOR_UPDATE_AVAILABLE": {
+      "message": "Доступно обновление"
+   },
+   "LEGACY_SELLER_CHECK_NOTE_PLACEHOLDER": {
+      "message": "Личная заметка о продавце..."
+   },
+   "LEGACY_SELLER_CHECK_TITLE": {
+      "message": "Рейтинг продавца по данным Alitools"
+   },
+   "LEGACY_SELLER_CHECK_TOOLTIP": {
+      "message": "Вы можете выключить этот блок в настройках расширения."
+   },
+   "MOBILE_PRICE_WIDGET_DISCOUNT_TOOLTIP": {
+      "message": "Мобильная скидка: "
+   },
+   "MODAL_SETTINGS_AUTH_LOGIN": {
+      "message": "Вход"
+   },
+   "MODAL_SETTINGS_AUTH_SIGN_UP": {
+      "message": "Регистрация"
+   },
+   "MODAL_SETTINGS_BASE_TITLE": {
+      "message": "Общие настройки"
+   },
+   "MODAL_SETTINGS_FOOTER_ABOUT": {
+      "message": "О нас"
+   },
+   "MODAL_SETTINGS_FOOTER_FEEDBACK": {
+      "message": "Служба поддержки"
+   },
+   "MODAL_SETTINGS_L10N_TITLE": {
+      "message": "Локализация"
+   },
+   "MODAL_SETTINGS_LOGOUT": {
+      "message": "ВЫЙТИ"
+   },
+   "MODAL_SETTINGS_NOTIFICATIONS_TITLE": {
+      "message": "Уведомления"
+   },
+   "MODAL_VIDEOS_TITLE": {
+      "message": "Видеообзоры"
+   },
+   "NAVIGATION_BRAND_TITLE": {
+      "message": "Все товары $MESSAGE$",
+      "placeholders": {
+         "message": {
+            "content": "$1",
+            "example": "Bamoer"
+         }
+      }
+   },
+   "NOTICE_DISABLE_SITE_BUTTON_CLOSE": {
+      "message": "Закрыть"
+   },
+   "NOTICE_DISABLE_SITE_BUTTON_SHOW_MORE": {
+      "message": "Узнать подробности"
+   },
+   "NOTICE_DISABLE_SITE_TITLE": {
+      "message": "Alitools прекращает работу на $STORE_NAME$",
+      "placeholders": {
+         "store_name": {
+            "content": "$1",
+            "example": "Gearbest"
+         }
+      }
+   },
+   "NOTICE_DISABLE_SITE_TOOLTIP": {
+      "message": "С $DATE$ Alitools будет доступен только на&nbspAliExpress",
+      "placeholders": {
+         "date": {
+            "content": "$1",
+            "example": "16 марта"
+         }
+      }
+   },
+   "ONBOARDING_ADD_TO_FAVORITES_TEXT": {
+      "message": "Чтобы следить за товаром и получать уведомления о значимых снижениях \u003Cbr> цены, нажмите сердечко."
+   },
+   "ONBOARDING_ADD_TO_FAVORITES_TITLE": {
+      "message": "Новый способ экономить"
+   },
+   "ONBOARDING_CHECK_PRODUCT_BUTTON": {
+      "message": "Понятно, закрыть"
+   },
+   "ONBOARDING_CHECK_PRODUCT_TEXT": {
+      "message": "Нажматие на иконку Alitools в правом верхнем\u003Cbr/> углу браузера, чтобы посмотреть историю цены,\u003Cbr/> рейтинг продавца и другую информацию."
+   },
+   "ONBOARDING_CHECK_PRODUCT_TITLE": {
+      "message": "Как проверить товар?"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_BUTTON_CANCEL": {
+      "message": "Не хочу"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_BUTTON_TRY": {
+      "message": "Попробовать поиск с Alitools"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_MESSAGE": {
+      "message": "Больше никаких чехлов при поиске телефона!"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_TITLE": {
+      "message": "Находите только\u003C/br>нужный товар с Alitools"
+   },
+   "ONBOARDING_WIDGET_MOVED_BUTTON": {
+      "message": "Понятно, закрыть"
+   },
+   "ONBOARDING_WIDGET_MOVED_TEXT": {
+      "message": "Нажматие на иконку Alitools в правом верхнем\u003Cbr/> углу браузера, чтобы посмотреть историю цены,\u003Cbr/> рейтинг продавца и остальную информацию."
+   },
+   "ONBOARDING_WIDGET_MOVED_TITLE": {
+      "message": "Виджет Alitools переехал"
+   },
+   "ONBOARDING_WIDGET_PIN_BUTTON": {
+      "message": "Понятно, закрыть"
+   },
+   "ONBOARDING_WIDGET_PIN_TEXT": {
+      "message": "Закрепите иконку Alitools, чтобы проверять\u003Cbr/> товар в один клик и не пропускать важные\u003Cbr/> уведомления о цене."
+   },
+   "ONBOARDING_WIDGET_PIN_TITLE": {
+      "message": "Экономьте своё время"
+   },
+   "ON_BOARDING_HISTORY_ASIDE_WIDGET_TEXT_2": {
+      "message": "Нажмите на кнопку «История», чтобы открыть\u003Cbr/> список просмотренных товаров."
+   },
+   "ON_BOARDING_HISTORY_IN_BULB_TEXT_2": {
+      "message": "Нажмите на логотип Alitools, чтобы открыть\u003Cbr/> список просмотренных товаров."
+   },
+   "ON_BOARDING_HISTORY_TEXT_1": {
+      "message": "В истории хранятся все товары, которые\u003Cbr/> вы открывали. Не потеряются даже случайно\u003C/br> закрытые."
+   },
+   "ON_BOARDING_HISTORY_TITLE": {
+      "message": "История просмотров"
+   },
+   "ON_BOARDING_PRICE_TEXT_1": {
+      "message": "Одна из его функций — график истории цены.\u003C/br>На нем сразу видны искусственные скидки\u003C/br>и завышенные цены."
+   },
+   "ON_BOARDING_PRICE_TEXT_2": {
+      "message": "Нажмите на блок «Цена», чтобы открыть график."
+   },
+   "ON_BOARDING_PRICE_TITLE": {
+      "message": "Alitools готов к работе"
+   },
+   "PACKAGES_EMPTY_LIST_ALL": {
+      "message": "Введите трек-код в поле сверху,\u003C/br> чтобы узнать, где сейчас заветная коробочка."
+   },
+   "PACKAGES_EMPTY_LIST_NEW_INFO": {
+      "message": "Посылок с новой информацией пока нет."
+   },
+   "PACKAGE_ARCHIVE_BUTTON": {
+      "message": "Архивировать"
+   },
+   "PACKAGE_CANCEL_BUTTON": {
+      "message": "Отмена"
+   },
+   "PACKAGE_DELETE_MESSAGE": {
+      "message": "Посылка удалена и больше не отслеживается."
+   },
+   "PACKAGE_DELIVERED_TOOLTIP": {
+      "message": "Получена"
+   },
+   "PACKAGE_FROM_ARCHIVE_BUTTON": {
+      "message": "Из архива"
+   },
+   "PACKAGE_FROM_ARCHIVE_TOOLTIP": {
+      "message": "Из архива"
+   },
+   "PACKAGE_JUST_UPDATED_LABEL": {
+      "message": "только что"
+   },
+   "PACKAGE_MARKED_BRING_BACK": {
+      "message": "Вернуть обратно"
+   },
+   "PACKAGE_MARKED_HIDE": {
+      "message": "Скрыть"
+   },
+   "PACKAGE_MARKED_TEXT": {
+      "message": "Посылка удалена и больше не отслеживается."
+   },
+   "PACKAGE_MESSAGE_DELETE_CURRENT": {
+      "message": "Посылка удалена\u003C/br> и больше не отслеживается."
+   },
+   "PACKAGE_NO_DATA_YET_MSG": {
+      "message": "По этой посылке пока нет данных."
+   },
+   "PACKAGE_NO_PACKAGE_INFO_HEADER_MSG": {
+      "message": "Нет информации о посылке."
+   },
+   "PACKAGE_NO_PACKAGE_INFO_TEXT_MSG": {
+      "message": "Как только мы узнаем, где она,\u003Cbr> вы получите уведомление."
+   },
+   "PACKAGE_ON_THE_WAY_DAYS": {
+      "message": "$DAYS$ {pluralize, $DAYS$, день|дня|дней}",
+      "placeholders": {
+         "days": {
+            "content": "1",
+            "example": "2"
+         }
+      }
+   },
+   "PACKAGE_ON_THE_WAY_TOOLTIP": {
+      "message": "В пути"
+   },
+   "PACKAGE_PACKAGES_LIST_BACK": {
+      "message": "Назад"
+   },
+   "PACKAGE_PACKAGES_LIST_BUTTON": {
+      "message": "Список посылок"
+   },
+   "PACKAGE_PICKUP_READY_TOOLTIP": {
+      "message": "Готова к получению"
+   },
+   "PACKAGE_RELOAD_BUTTON": {
+      "message": "Обновить"
+   },
+   "PACKAGE_REMOVE_BUTTON": {
+      "message": "Удалить"
+   },
+   "PACKAGE_RENAME": {
+      "message": "Переименовать"
+   },
+   "PACKAGE_RESTORE_BUTTON": {
+      "message": "Восстановить"
+   },
+   "PACKAGE_SAVE_BUTTON": {
+      "message": "Сохранить"
+   },
+   "PACKAGE_START_TRACKING_TOOLTIP": {
+      "message": "Начало отслеживания"
+   },
+   "PACKAGE_TIME_LABEL_PRETEXT": {
+      "message": "в "
+   },
+   "PACKAGE_TO_ARCHIVE_BUTTON": {
+      "message": "В архив"
+   },
+   "PACKAGE_TO_ARCHIVE_TOOLTIP": {
+      "message": "В архив"
+   },
+   "PACKAGE_TO_REMOVE_TOOLTIP": {
+      "message": "Удалить"
+   },
+   "PACKAGE_TRY_RELOAD_MSG": {
+      "message": "Попробуйте обновить чуть позже."
+   },
+   "PACKAGE_UPDATED_LABEL": {
+      "message": "Обновлено"
+   },
+   "PACKAGE_WAITING_DATA_MSG": {
+      "message": "Получаем данные о посылке..."
+   },
+   "PLAY_TAB_PRICE_HISTORY_BUTTON": {
+      "message": "Открыть страницу товара без акции"
+   },
+   "PLAY_TAB_PRICE_HISTORY_TEXT": {
+      "message": "История цены этого товара недоступна\u003Cbr/> в рамках акции «С друзьями дешевле»."
+   },
+   "POPUP_APP_BUTTON_OPEN_AGREEMENT_PAGE": {
+      "message": "Перейти к включению"
+   },
+   "POPUP_APP_DISABLED_DESCRIPTION": {
+      "message": "Требуется ваше действие."
+   },
+   "POPUP_APP_DISABLED_HEADER": {
+      "message": "Alitools еще не включен!"
+   },
+   "POPUP_CARD_MENU_DELETE": {
+      "message": "Удалить"
+   },
+   "POPUP_CONTROL_FAVORITES": {
+      "message": "Избранное"
+   },
+   "POPUP_CONTROL_PACKAGES": {
+      "message": "Посылки"
+   },
+   "POPUP_CONTROL_SETTINGS": {
+      "message": "Настройки"
+   },
+   "POPUP_FAVORITES_AUTH_BLOCK": {
+      "message": "Чтобы воспользоваться избранным, нужно ${LOGIN}$ или ${SIGNUP}$."
+   },
+   "POPUP_FAVORITES_AUTH_BLOCK_LOGIN": {
+      "message": "войти"
+   },
+   "POPUP_FAVORITES_AUTH_BLOCK_SIGNUP": {
+      "message": "зарегистрироваться"
+   },
+   "POPUP_FAVORITES_EMPTY_DESCRIPTION_TEXT": {
+      "message": "Чтобы добавить товар и начать следить за его ценой, нажмите ${HEART_ICON}$  в левом нижнем углу ${LINK}$${EXT_LINK_ICON}$."
+   },
+   "POPUP_FAVORITES_EMPTY_DESCRIPTION_TEXT_ALIEXPRESS_PAGE": {
+      "message": "страницы товара AliExpress"
+   },
+   "POPUP_FAVORITES_EMPTY_DROP_PRICE_DESCRIPTION": {
+      "message": "Когда на отслеживаемый в Alitools товар\u003Cbr> упадёт цена, придет push-уведомление,\u003Cbr> а на иконке расширения появится цифра."
+   },
+   "POPUP_FAVORITES_EMPTY_DROP_PRICE_HEADER_TEXT": {
+      "message": "Товаров с упавшей ценой нет."
+   },
+   "POPUP_FAVORITES_EMPTY_HEADER_TEXT": {
+      "message": "Вы пока не отслеживаете ни одного товара."
+   },
+   "POPUP_FAVORITES_EMPTY_TEXT": {
+      "message": "Тут будут товары с AliExpress, за которыми вы начнете следить через Alitools."
+   },
+   "POPUP_FAVORITES_EMPTY_TEXT_DROPPED": {
+      "message": "Похоже, в избранном Alitools пока нет товаров с упавшей ценой."
+   },
+   "POPUP_FAVORITE_MARKED_CANCEL": {
+      "message": "Отменить"
+   },
+   "POPUP_FAVORITE_MARKED_HIDE": {
+      "message": "Скрыть"
+   },
+   "POPUP_FAVORITE_MARKED_RESTORE": {
+      "message": "Вернуть обратно"
+   },
+   "POPUP_FAVORITE_MARKED_TEXT": {
+      "message": "Товар удалён. Его цена больше не отслеживается."
+   },
+   "POPUP_FAVORITE_NO_PRICE_MESSAGE": {
+      "message": "Не получается собрать данные о цене. Уже чиним."
+   },
+   "POPUP_FAVORITE_PRICE_ADDED_TIME": {
+      "message": "на момент добавления в список"
+   },
+   "POPUP_FAVORITE_PRICE_DOWN_NEW": {
+      "message": "Упала на"
+   },
+   "POPUP_FAVORITE_PRICE_SAME_NEW": {
+      "message": "Не изменилась"
+   },
+   "POPUP_FAVORITE_PRICE_UP_NEW": {
+      "message": "Выросла на"
+   },
+   "POPUP_FOOTER_ABOUT": {
+      "message": "О нас"
+   },
+   "POPUP_FOOTER_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_FOOTER_SHOWCASE_INFO": {
+      "message": "Подбираем товары с низкой ценой и бесплатной\u003Cbr/> доставкой от продавцов с высоким рейтингом."
+   },
+   "POPUP_FOOTER_SHOWCASE_UPDATE": {
+      "message": "До обновления \u003Cstrong>$TIME$\u003C/strong>",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "5 ч."
+         }
+      }
+   },
+   "POPUP_FOOTER_SUPPORT": {
+      "message": "Поддержка"
+   },
+   "POPUP_FOOTER_TUTORIAL": {
+      "message": "Как пользоваться?"
+   },
+   "POPUP_HISTORY_FILTER_ALL_SITES": {
+      "message": "Все магазины"
+   },
+   "POPUP_HISTORY_HEADER_SITES_LIST": {
+      "message": "Список магазинов"
+   },
+   "POPUP_HISTORY_HINT_HEADER": {
+      "message": "Новый раздел «История»"
+   },
+   "POPUP_HISTORY_HINT_TEXT": {
+      "message": "В истории хранятся все товары поддерживаемых магазинов,\u003C/br>которые вы открывали."
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_LAST_MONTH": {
+      "message": "В прошлом месяце"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_LAST_WEEK": {
+      "message": "На прошлой неделе"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_THIS_MONTH": {
+      "message": "В этом месяце"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_THIS_WEEK": {
+      "message": "На этой неделе"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_TODAY": {
+      "message": "Сегодня"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_YESTERDAY": {
+      "message": "Вчера"
+   },
+   "POPUP_HISTORY_SITES_HINT_HEADER": {
+      "message": "Магазины, товары из которых сохраняются в истории просмотров:"
+   },
+   "POPUP_HISTORY_SORT_BY_DAY": {
+      "message": "По дням"
+   },
+   "POPUP_HISTORY_SORT_BY_MONTH": {
+      "message": "По месяцам"
+   },
+   "POPUP_HISTORY_SORT_BY_WEEK": {
+      "message": "По неделям"
+   },
+   "POPUP_HISTORY_SORT_DEFAULT": {
+      "message": "Без группировки"
+   },
+   "POPUP_INTERESTING_BALLOON_BUTTON_CLOSE": {
+      "message": "Понятно, закрыть"
+   },
+   "POPUP_INTERESTING_BALLOON_HEADER": {
+      "message": "Раздел «Интересное»"
+   },
+   "POPUP_INTERESTING_BALLOON_TEXT": {
+      "message": "Быстро переходите к важным разделам и начинайте поиск товара прямо здесь."
+   },
+   "POPUP_INTERESTING_CONTENT_FAILURE_HEADER": {
+      "message": "Не удалось загрузить товары"
+   },
+   "POPUP_INTERESTING_CONTENT_NEWEST_BALLOON": {
+      "message": "Новинки!"
+   },
+   "POPUP_INTERESTING_CONTENT_TITLE": {
+      "message": "Специально для вас"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_CART": {
+      "message": "Корзина"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_INPUT_PLACEHOLDER": {
+      "message": "Поиск на AliExpress (например, "
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_LABEL": {
+      "message": "Быстрый доступ"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_SEARCH_BUTTON": {
+      "message": "Найти"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_WISHES": {
+      "message": "Желания"
+   },
+   "POPUP_INTERESTING_HISTORY_ALL": {
+      "message": "Вся история"
+   },
+   "POPUP_INTERESTING_HISTORY_EMPTY_MESSAGE": {
+      "message": "Здесь будут товары, которые вы просматривали в поддерживаемых интернет-магазинах."
+   },
+   "POPUP_INTERESTING_HISTORY_HEADER": {
+      "message": "История просмотров"
+   },
+   "POPUP_PACKAGE_ARCHIVED": {
+      "message": "В архиве"
+   },
+   "POPUP_PACKAGE_MARKED_TEXT": {
+      "message": "Посылка удалена."
+   },
+   "POPUP_PACKAGE_STATUS_DELIVERED": {
+      "message": "Получена"
+   },
+   "POPUP_PACKAGE_STATUS_FORSAKEN": {
+      "message": "Не отслеживается"
+   },
+   "POPUP_PACKAGE_STATUS_FORSAKEN_DESCRIPTION": {
+      "message": "По посылке слишком долго не было новой информации, поэтому она больше не отслеживается."
+   },
+   "POPUP_PACKAGE_STATUS_INVALID": {
+      "message": "Неизвестный курьер"
+   },
+   "POPUP_PACKAGE_STATUS_INVALID_DESCRIPTION": {
+      "message": "Не удалось определить, какому курьеру принадлежит трек-код. Возможно, такого курьера нет в системе Alitools или в трек-коде допущена ошибка."
+   },
+   "POPUP_PACKAGE_STATUS_INVALID_ORDER": {
+      "message": "Номер заказа"
+   },
+   "POPUP_PACKAGE_STATUS_INVALID_UNKNOWN_COURIER": {
+      "message": "Неизвестный курьер"
+   },
+   "POPUP_PACKAGE_STATUS_NEW": {
+      "message": "Новая"
+   },
+   "POPUP_PACKAGE_STATUS_ON_THE_WAY": {
+      "message": "В пути"
+   },
+   "POPUP_PACKAGE_STATUS_ORDER_NUMBER": {
+      "message": "Номер заказа"
+   },
+   "POPUP_PACKAGE_STATUS_ORDER_NUMBER_DESCRIPTION": {
+      "message": "Вы ввели номер заказа вместо трек-кода. Трек-код можно найти в подробной информации о заказе в разделе ${LINK}$${EXT_LINK_ICON}$ на AliExpress."
+   },
+   "POPUP_PACKAGE_STATUS_ORDER_NUMBER_DESCRIPTION_MY_ORDERS": {
+      "message": "«Мои заказы»"
+   },
+   "POPUP_PACKAGE_STATUS_READY_FOR_PICKUP": {
+      "message": "Готова к получению"
+   },
+   "POPUP_PACKAGE_STATUS_WAITING": {
+      "message": "Получение данных"
+   },
+   "POPUP_PAGE_FAVORITES_FAILURE_DESCRIPTION": {
+      "message": "Проверьте интернет-соединение\u003Cbr>и попробуйте ещё раз."
+   },
+   "POPUP_PAGE_FAVORITES_FAILURE_HEADER": {
+      "message": "Не удалось загрузить список товаров."
+   },
+   "POPUP_PAGE_FAVORITES_FAILURE_TEXT": {
+      "message": "Что-то пошло не так... Пожалуйста, попробуйте повторить попытку чуть позже."
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_DESCRIPTION_ALIEXPRESS_PAGE": {
+      "message": "странице заказов AliExpress"
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_DESCRIPTION_ENTER_TRACKCODE": {
+      "message": "Введите трек-код в поле сверху, чтобы\u003Cbr> узнать, где сейчас заветная коробочка."
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_DESCRIPTION_FIND_TRACKCODE_HERE": {
+      "message": "Трек-коды почтовых отправлений можно найти на ${LINK}$${EXT_LINK_ICON}$."
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_HEADER": {
+      "message": "Вы пока не отслеживаете ни одной посылки."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_DESCRIPTION": {
+      "message": "Проверьте интернет-соединение\u003Cbr> и попробуйте ещё раз."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_DESCRIPTION_LINE": {
+      "message": "Проверьте интернет-соединение и попробуйте ещё раз."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_HEADER": {
+      "message": "Не удалось загрузить список посылок."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_TEXT": {
+      "message": "Не удалось загрузить список посылок. Проверьте интернет-соединение и попробуйте еще раз."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_BUTTON_TEXT": {
+      "message": "Отследить посылку"
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_FEW_SYMBOL": {
+      "message": "Трек-код не может быть короче пяти символов."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_MANY_SYMBOL": {
+      "message": "Слишком длинный трек-код. Максимум 45 символов."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_NO_TRACK_CODE": {
+      "message": "Не похоже на трек-код."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_ONLY_LATIN": {
+      "message": "Трек код может содержать латинские буквы (a-z) и цифры (0-9)."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_TEXT": {
+      "message": "Хм... Не похоже на трек-код."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_INPUT_PLACEHOLDER": {
+      "message": "Введите трек-код посылки"
+   },
+   "POPUP_PAGE_PACKAGES_NAME_INPUT_PLACEHOLDER": {
+      "message": "Введите название посылки..."
+   },
+   "POPUP_PAGE_PACKAGES_WAITING_LABEL": {
+      "message": "Получение данных"
+   },
+   "POPUP_PAGE_SHOWCASES_FAILURE_DESCRIPTION": {
+      "message": "Проверьте интернет-соединение\u003Cbr>и попробуйте ещё раз."
+   },
+   "POPUP_PAGE_SHOWCASES_FAILURE_HEADER": {
+      "message": "Не удалось загрузить список товаров."
+   },
+   "POPUP_SHOWCASE_TAB_BEST_UP_TO_5": {
+      "message": "Лучшее до $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$5"
+         }
+      }
+   },
+   "POPUP_SHOWCASE_TAB_CHOICE_ALITOOLS": {
+      "message": "Выбор Alitools"
+   },
+   "POPUP_SHOWCASE_TAB_MOST_VIEWED": {
+      "message": "Самые просматриваемые"
+   },
+   "POPUP_SIDEBAR_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_SIDEBAR_COUPONS": {
+      "message": "Купоны"
+   },
+   "POPUP_SIDEBAR_FAVORITES": {
+      "message": "Избранное"
+   },
+   "POPUP_SIDEBAR_HISTORY": {
+      "message": "История"
+   },
+   "POPUP_SIDEBAR_INTERESTING": {
+      "message": "Интересное"
+   },
+   "POPUP_SIDEBAR_LOGIN_AND_SIGNUP": {
+      "message": "Вход и регистрация"
+   },
+   "POPUP_SIDEBAR_NEWS_AND_SALES": {
+      "message": "Новости и акции"
+   },
+   "POPUP_SIDEBAR_PACKAGES": {
+      "message": "Посылки"
+   },
+   "POPUP_SIDEBAR_PRODUCTS": {
+      "message": "Товары"
+   },
+   "POPUP_SIDEBAR_PROFILE": {
+      "message": "Профиль"
+   },
+   "POPUP_SIDEBAR_SETTINGS": {
+      "message": "Настройки"
+   },
+   "POPUP_SIDEBAR_SHOWCASES": {
+      "message": "Товары дня"
+   },
+   "POPUP_SIDEBAR_SHOWCASES_CLOSE": {
+      "message": "Не сейчас"
+   },
+   "POPUP_SIDEBAR_SHOWCASES_OPEN": {
+      "message": "Открыть"
+   },
+   "POPUP_SIDEBAR_SHOWCASES_TEXT_FIRST_GROUP": {
+      "message": "Ежедневно обновляемая подборка вдохновляющих товаров от Alitools."
+   },
+   "POPUP_SIDEBAR_SHOWCASES_TEXT_SECOND_GROUP": {
+      "message": "Ежедневно обновляемые подборки самых популярных товаров среди пользователей Alitools."
+   },
+   "POPUP_SIDEBAR_SHOWCASES_TITLE": {
+      "message": "Товары дня"
+   },
+   "POPUP_SIDEBAR_SUPPORT": {
+      "message": "Поддержка"
+   },
+   "POPUP_SIDEBAR_SYNC": {
+      "message": "Синхронизация"
+   },
+   "POPUP_SIDEBAR_SYNC_CLOSE": {
+      "message": "Не сейчас"
+   },
+   "POPUP_SIDEBAR_SYNC_OPEN": {
+      "message": "Включить"
+   },
+   "POPUP_SIDEBAR_SYNC_TEXT": {
+      "message": "Включите синхронизацию, чтобы не потерять товары и посылки и иметь к ним доступ на любом устройстве."
+   },
+   "POPUP_SIDEBAR_SYNC_TITLE": {
+      "message": "Синхронизация"
+   },
+   "POPUP_SIDEBAR_WIDGET": {
+      "message": "Проверка"
+   },
+   "POPUP_TAB_ALL": {
+      "message": "Все"
+   },
+   "POPUP_TAB_WITH_NEW_INFO": {
+      "message": "с новой информацией"
+   },
+   "POPUP_TAB_WITH_PRICE_DROP": {
+      "message": "С упавшей ценой"
+   },
+   "POPUP_TIME_HOURS": {
+      "message": "$HOURS$ ч",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5 ч"
+         }
+      }
+   },
+   "POPUP_TIME_MINUTES": {
+      "message": "$MINUTES$ мин",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "5 мин"
+         }
+      }
+   },
+   "POPUP_WELCOME_ASIDE_TITLE": {
+      "message": "Функциональный\u003C/br> помощник на AliExpress"
+   },
+   "POPUP_WELCOME_BANNER_HEADER": {
+      "message": "Чем Alitools может быть полезен?"
+   },
+   "POPUP_WELCOME_BANNER_HEADER_V3": {
+      "message": "Познакомьтесь с Alitools"
+   },
+   "POPUP_WELCOME_BANNER_TEXT": {
+      "message": "Предлагаем ознакомиться с возможностями расширения на примере страницы товара \u003C/br> на AliExpress."
+   },
+   "POPUP_WELCOME_BANNER_TEXT_V3": {
+      "message": "Узнайте, чем расширение будет полезно\u003Cbr> при работе с сайтом AliExpress."
+   },
+   "POPUP_WIDGET_BALLOON_BUTTON_CLOSE": {
+      "message": "Понятно, закрыть"
+   },
+   "POPUP_WIDGET_EMPTY_DESCRIPTION_TEXT": {
+      "message": "Откройте ${LINK}$${EXT_LINK_ICON}$ и нажмите на иконку Alitools, чтобы посмотреть историю цены, рейтинг продавца и другую информацию."
+   },
+   "POPUP_WIDGET_EMPTY_DESCRIPTION_TEXT_ALIEXPRESS_PAGE": {
+      "message": "страницу товара на AliExpress"
+   },
+   "POPUP_WIDGET_EMPTY_HEADER_TEXT": {
+      "message": "Нет товара для проверки"
+   },
+   "POPUP_WIDGET_HINT_HEADER": {
+      "message": "Новый раздел «Проверка»"
+   },
+   "POPUP_WIDGET_HINT_TEXT": {
+      "message": "Заходите сюда, находясь на странице товара\u003Cbr/> на AliExpress, чтобы начать следить за товаром,\u003Cbr/> посмотреть историю цены, рейтинг продавца и др."
+   },
+   "POPUP_WIDGET_PRICE_BALLOON_BUTTON_CLOSE": {
+      "message": "Понятно, закрыть"
+   },
+   "POPUP_WIDGET_PRICE_HINT_HEADER": {
+      "message": "Лучший способ экономить"
+   },
+   "POPUP_WIDGET_PRICE_HINT_TEXT": {
+      "message": "Чтобы следить за товаром и получать уведомления о значимых снижениях цены, нажмите на кнопку с сердечком."
+   },
+   "PRICE_DYNAMICS_NEGATIVE": {
+      "message": "понизилась"
+   },
+   "PRICE_DYNAMICS_NEUTRAL": {
+      "message": "не меняется"
+   },
+   "PRICE_DYNAMICS_POSITIVE": {
+      "message": "повысилась"
+   },
+   "PUSH_MULTIPLE_MESSAGE": {
+      "message": "Перейти в избранное для просмотра списка товаров"
+   },
+   "PUSH_MULTIPLE_MORE": {
+      "message": "и ещё $COUNT$ {pluralize, $COUNT$, другой|других|других}",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "PUSH_MULTIPLE_TITLE": {
+      "message": "Снижена цена на товары"
+   },
+   "PUSH_SINGLE_TITLE": {
+      "message": "Снижена цена на товар"
+   },
+   "PUSH_SINGLE_TITLE_NEW_NOTIFICATION": {
+      "message": "Цена упала на "
+   },
+   "QUESTIONNAIRE_DESCRIPTION": {
+      "message": "Этим вы поможете нам сделать расширение еще лучше."
+   },
+   "QUESTIONNAIRE_GRATEFULNESS_TEXT": {
+      "message": "Окно закроется автоматически."
+   },
+   "QUESTIONNAIRE_GRATEFULNESS_TITLE": {
+      "message": "Благодарим за ответ!"
+   },
+   "QUESTIONNAIRE_TITLE": {
+      "message": "Как вы узнали об Alitools?"
+   },
+   "QUESTIONNAIRE_YOU_OWN_VERSION_ITEM_BUTTON": {
+      "message": "Добавить"
+   },
+   "QUESTIONNAIRE_YOU_OWN_VERSION_ITEM_TEXT": {
+      "message": "Свой вариант"
+   },
+   "RATING_CHANGE": {
+      "message": "Изменить"
+   },
+   "RATING_CHROME_BTN": {
+      "message": "Оставить отзыв в $BROWSER$",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Chrome"
+         }
+      }
+   },
+   "RATING_CHROME_TEXT": {
+      "message": "Расскажите, как Alitools вам смог помочь в\u003Cbr/>покупках на AliExpress?"
+   },
+   "RATING_CHROME_TITLE": {
+      "message": "Ух ты! Будем очень рады вашему отзыву"
+   },
+   "RATING_EMAIL_INPUT_PLACEHOLDER": {
+      "message": "Адрес электронной почты..."
+   },
+   "RATING_EMAIL_TEXT": {
+      "message": "Иногда хочется уточнить, что вы имели ввиду.\u003Cbr>Оставьте почту, чтобы мы могли написать вам."
+   },
+   "RATING_HEADER_SCORE": {
+      "message": "Оценка: $SCORE$ {pluralize, $SCORE$, балл|балла|баллов}",
+      "placeholders": {
+         "score": {
+            "content": "0",
+            "example": "10"
+         }
+      }
+   },
+   "RATING_HEADER_ZERO_SCORE": {
+      "message": "Оценка: 0 баллов"
+   },
+   "RATING_HIGHT": {
+      "message": "Обязательно"
+   },
+   "RATING_INPUT_PLACEHOLDER": {
+      "message": "Сообщение..."
+   },
+   "RATING_LOW": {
+      "message": "Ни за что"
+   },
+   "RATING_QUESTION": {
+      "message": "Порекомендуете Alitools друзьям?"
+   },
+   "RATING_QUESTION_AVERAGE": {
+      "message": "Расскажите, почему вы поставили такую оценку?"
+   },
+   "RATING_QUESTION_HIGH": {
+      "message": "Ух ты! Расскажите, что в Alitools для вас самое полезное?"
+   },
+   "RATING_QUESTION_LOW": {
+      "message": "Расскажите, что нужно улучшить, чтобы получить 10 баллов?"
+   },
+   "RATING_SEND": {
+      "message": "Отправить"
+   },
+   "RATING_SURVEY_BTN": {
+      "message": "Пройти опрос"
+   },
+   "RATING_SURVEY_TEXT": {
+      "message": "Для нас очень важно ваше мнение.\u003Cbr/>Пожалуйста, пройдите наш коротки опрос."
+   },
+   "RATING_SURVEY_TITLE": {
+      "message": "Как мы можем сделать Alitools лучше?"
+   },
+   "RATING_THANKS": {
+      "message": "Спасибо!"
+   },
+   "RATING_THANKS_END": {
+      "message": "Спасибо за участие!"
+   },
+   "REVIEWS_GAMERY_FROM_SUFFIX": {
+      "message": "из"
+   },
+   "REVIEWS_GAMERY_TURN_LEFT": {
+      "message": "Повернуть влево"
+   },
+   "REVIEWS_GAMERY_TURN_RIGHT": {
+      "message": "Повернуть вправо"
+   },
+   "SALE_ONBOARDING_TEXT_1": {
+      "message": " Новости сообщат о важных\u003C/br> событиях и выгодных акциях."
+   },
+   "SALE_ONBOARDING_TEXT_2": {
+      "message": "Советы помогут разобраться\u003C/br>в хитростях шопинга на AliExpress."
+   },
+   "SALE_ONBOARDING_TITLE": {
+      "message": "Все секреты AliExpress\u003C/br>в одном месте"
+   },
+   "SALE_SIDEBAR_ADVICE_EMPTY_MESSAGE": {
+      "message": "Тут пока ничего нет.\u003C/br>Советы начнут появляться\u003C/br>ближе к началу распродажи."
+   },
+   "SALE_SIDEBAR_ASSISTANT": {
+      "message": "Ассистент"
+   },
+   "SALE_SIDEBAR_NEWS_MORE_LINK": {
+      "message": "Подробнее..."
+   },
+   "SALE_SIDEBAR_NEWS_TODAY": {
+      "message": "Сегодня"
+   },
+   "SALE_SIDEBAR_NEWS_YESTERDAY": {
+      "message": "Вчера"
+   },
+   "SALE_SIDEBAR_NEW_LABEL": {
+      "message": "Новое"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_BUTTON": {
+      "message": "Новости распродажи"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_START_BUY": {
+      "message": "Сметай всё!"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_START_SALE": {
+      "message": "Распродажа началась"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_TEXT": {
+      "message": "Наполняй корзину, собирай купоны"
+   },
+   "SALE_SIDEBAR_SALE_NAVIGATOR": {
+      "message": "Навигатор \u003C/br> по распродаже"
+   },
+   "SALE_SIDEBAR_SEARCH_WELCOME_TEXT": {
+      "message": "Больше никаких чехлов при поиске телефона!"
+   },
+   "SALE_SIDEBAR_SEARCH_WELCOME_TITLE": {
+      "message": "Находите нужный\u003C/br>товар с Alitools"
+   },
+   "SALE_SIDEBAR_SETTINGS": {
+      "message": "Настройки Alitools"
+   },
+   "SALE_SIDEBAR_SETTINGS_TOOLTIP": {
+      "message": "Настройки Alitools"
+   },
+   "SALE_SIDEBAR_TAB_NEWS": {
+      "message": "Новости"
+   },
+   "SALE_SIDEBAR_TAB_NEWS_TOOLTIP": {
+      "message": "О лучших акциях, скидках и купонах."
+   },
+   "SALE_SIDEBAR_TAB_SEARCH": {
+      "message": "Поиск товаров"
+   },
+   "SALE_SIDEBAR_TAB_SEARCH_TOOLTIP": {
+      "message": "Ищите товары на AliExpress через Alitools"
+   },
+   "SALE_SIDEBAR_TIP_BACK": {
+      "message": "Назад"
+   },
+   "SALE_SIDEBAR_TIP_HEADER_CATEGORY": {
+      "message": "Рубрика «${CATEGORY}$»"
+   },
+   "SALE_SIDEBAR_WELCOME_BUTTON": {
+      "message": "Понятно, закрыть"
+   },
+   "SALE_SIDEBAR_WELCOME_TEXT": {
+      "message": "Навигатор направит по самым интересным разделам распродажи, а советы и новости помогут сэкономить по максимуму."
+   },
+   "SALE_SIDEBAR_WELCOME_TITLE": {
+      "message": "Ваш личный ассистент"
+   },
+   "SEARCH_BY_IMAGE_CUSTOMIZE": {
+      "message": "Настроить поиск по картинке"
+   },
+   "SEARCH_BY_IMAGE_FIND_ON_ALIEXPRESS": {
+      "message": "Найти на AliExpress"
+   },
+   "SEARCH_BY_IMAGE_OFF_ON_SITE": {
+      "message": "Не показывать на этом сайте"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION": {
+      "message": "Понятно, закрыть"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_APPLY": {
+      "message": "Попробовать поиск Alitools"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_CANCEL": {
+      "message": "Не хочу"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_TEXT": {
+      "message": "Находите товары, которых нет \u003C/br> в стандартном поиске AliExpress."
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_TITLE": {
+      "message": "Поиск с Alitools"
+   },
+   "SEARCH_IN_SIDEBAR_BREAD_CRUMB_LOOK_WHAT_FOUND": {
+      "message": "Посмотрите, что нашел Alitools"
+   },
+   "SEARCH_IN_SIDEBAR_BREAD_CRUMB_WANT_MORE": {
+      "message": "  Хотите еще?"
+   },
+   "SEARCH_IN_SIDEBAR_CATEGORIES_ALL": {
+      "message": "Все категории"
+   },
+   "SEARCH_IN_SIDEBAR_CATEGORIES_TITLE": {
+      "message": "КАТЕГОРИИ"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE": {
+      "message": "ЦЕНА"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE_CLEAR": {
+      "message": "Сбросить"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE_FROM": {
+      "message": "От"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE_TO": {
+      "message": "До"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANG_APPLY": {
+      "message": "Применить"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_SHIPPING": {
+      "message": "Бесплатная доставка"
+   },
+   "SEARCH_IN_SIDEBAR_FIND_BUTTON": {
+      "message": "Найти"
+   },
+   "SEARCH_IN_SIDEBAR_FIND_WITH_ALITOOLS_BUTTON": {
+      "message": "С Alitools"
+   },
+   "SEARCH_IN_SIDEBAR_HEADER_SUBMIT": {
+      "message": "Найти"
+   },
+   "SEARCH_IN_SIDEBAR_HEADER_TITLE": {
+      "message": "Поиск"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LABEL": {
+      "message": "Например, "
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_1": {
+      "message": "mi band 4"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_10": {
+      "message": "аккумулятор"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_2": {
+      "message": "карта micro sd"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_3": {
+      "message": "power bank"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_4": {
+      "message": "наушники"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_5": {
+      "message": "смартфон"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_6": {
+      "message": "процессор"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_7": {
+      "message": "микрофон"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_8": {
+      "message": "материнская плата"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_9": {
+      "message": "xiaomi redmi note"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_MESSAGE": {
+      "message": "Введите запрос в поле сверху,\u003C/br>чтобы найти товары на AliExpress."
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_EMPTY_MESSAGE": {
+      "message": "К сожалению, мы не смогли\u003C/br>найти ни одного товара\u003C/br>по вашему запросу."
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_ERROR_BUTTON": {
+      "message": "Попробовать еще раз"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_ERROR_MESSAGE": {
+      "message": "Что-то пошло не так...\u003C/br>Пожалуйста, попробуйте ещё раз."
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_LENGTH_LABEL": {
+      "message": "{pluralize, $PRODUCTS$, Найден|Найдено|Найдено} ",
+      "placeholders": {
+         "products": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_LENGTH_POSITIVE": {
+      "message": " {pluralize, $PRODUCTS$, товар|товара|товаров}",
+      "placeholders": {
+         "products": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_LENGTH_ZERO": {
+      "message": "По вашему запросу ничего не нашлось"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_PRODUCT_FREE_DELIVERY": {
+      "message": "Бесплатная доставка"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_PRODUCT_ORDERS": {
+      "message": "$ORDERS$ {pluralize, $ORDERS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "orders": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_PRODUCT_PRICE_DELIVERY": {
+      "message": "Доставка:"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_SORT_TITLE": {
+      "message": "Без сортировки"
+   },
+   "SEARCH_IN_SIDEBAR_SITE_AUTOCOMPLETE_ITEM": {
+      "message": "Искать ${ITEM}$ через поиск Alitools"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_BEST_MATCH": {
+      "message": "Без сортировки"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_HIGHEST_PRICE": {
+      "message": "Сначала дорогие"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_LOWEST_PRICE": {
+      "message": "Сначала дешевые"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_NUMBER_OF_ORDERS": {
+      "message": "Сначала популярные"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_SELLER_RATING": {
+      "message": "Сначала с рейтингом от 4★"
+   },
+   "SEARCH_IN_SIDEBAR_TOOLTIP_REMINDER": {
+      "message": "Alitools найдет \u003C/br> интересные товары."
+   },
+   "SEARCH_IN_SIDEBAR_TOOLTIP_WELCOME": {
+      "message": "Улучшенный поиск \u003C/br> от Alitools"
+   },
+   "SELLER_CHECK_BAD": {
+      "message": "Низкий"
+   },
+   "SELLER_CHECK_EMPTY_TITLE": {
+      "message": "Мы еще не собрали достаточно данных, чтобы оценить этого продавца. Скоро мы это исправим."
+   },
+   "SELLER_CHECK_GOOD": {
+      "message": "Высокий"
+   },
+   "SELLER_CHECK_NEUTRAL": {
+      "message": "Средний"
+   },
+   "SELLER_CHECK_STORE_NAME": {
+      "message": "Рейтинг продавца ${NAME}$"
+   },
+   "SELLER_TAB_COMMENTS_PAGE": {
+      "message": "Комментарии о продавце"
+   },
+   "SELLER_TAB_MAIN_PAGE": {
+      "message": "Страница продавца"
+   },
+   "SETTINGS_BUTTON_CANCEL": {
+      "message": "Отмена"
+   },
+   "SETTINGS_BUTTON_CHANGE": {
+      "message": "Изменить"
+   },
+   "SETTINGS_BUTTON_CONNECT": {
+      "message": "Подключить"
+   },
+   "SETTINGS_BUTTON_LOGOUT": {
+      "message": "Выйти"
+   },
+   "SETTINGS_BUTTON_SAVE": {
+      "message": "Сохранить"
+   },
+   "SETTINGS_BUTTON_SIGNIN": {
+      "message": "Вход"
+   },
+   "SETTINGS_BUTTON_SIGNUP": {
+      "message": "Регистрация"
+   },
+   "SETTINGS_COMMON_CURRENCY": {
+      "message": "Валюта:"
+   },
+   "SETTINGS_COMMON_LANGUAGE": {
+      "message": "Язык:"
+   },
+   "SETTINGS_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "Если вы отключите кнопку\u003C/br>«Найти на AliExpress» на каком-то\u003C/br>сайте, его адрес появится здесь."
+   },
+   "SETTINGS_DISABLED_SITES_LIST_HEADER": {
+      "message": "Сайты с выключенной кнопкой"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_CONNECT": {
+      "message": "Email и пароль"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_EMAIL_PLACEHOLDER": {
+      "message": "Email..."
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_PASSWORD_HINT": {
+      "message": "Минимум 6 символов"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_PASSWORD_PLACEHOLDER": {
+      "message": "Пароль..."
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_TITLE": {
+      "message": "Подключить email"
+   },
+   "SETTINGS_EMAIL_EMAIL_PLACEHOLDER": {
+      "message": "Новый email..."
+   },
+   "SETTINGS_EMAIL_PASSWORD_PLACEHOLDER": {
+      "message": "Текущий пароль..."
+   },
+   "SETTINGS_EMAIL_SUCCESS": {
+      "message": "Email изменён"
+   },
+   "SETTINGS_EMAIL_TITLE": {
+      "message": "Изменение email-адреса"
+   },
+   "SETTINGS_ENABLE_BUTTON_ON_IMAGES": {
+      "message": "Кнопка на картинках"
+   },
+   "SETTINGS_ENABLE_HISTORY": {
+      "message": "История для сайтов интернет-магазинов"
+   },
+   "SETTINGS_ENABLE_NOTIFICATIONS_COUNTER": {
+      "message": "Счетчик уведомлений на иконке расширения"
+   },
+   "SETTINGS_ENABLE_PUSH_NOTIFICATIONS": {
+      "message": "Пуш-уведомления о падении цен на товары"
+   },
+   "SETTINGS_ENABLE_SOVETNIK": {
+      "message": "Показывать предложения с AliExpress на сайтах других магазинов"
+   },
+   "SETTINGS_FOOTER_TEXT": {
+      "message": "Версия расширения: "
+   },
+   "SETTINGS_HISTORY_DISABLED_SITES_HEADER": {
+      "message": "Сайты с выключенной историей"
+   },
+   "SETTINGS_HISTORY_WIDGET_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "Если вы отключите виджет \u003C/br> Истории на каком-нибудь сайте, \u003C/br> его адрес появится здесь."
+   },
+   "SETTINGS_JDPR_POLICY": {
+      "message": " политикой конфиденциальности"
+   },
+   "SETTINGS_JDPR_TERMS": {
+      "message": " пользовательским соглашением"
+   },
+   "SETTINGS_JDPR_TEXT": {
+      "message": "Я прочёл и согласен c "
+   },
+   "SETTINGS_LABEL_ANALYTICS": {
+      "message": "Разрешить сбор аналитических данных для улучшения продукта"
+   },
+   "SETTINGS_LABEL_CURRENCY": {
+      "message": "Валюта"
+   },
+   "SETTINGS_LABEL_EMAIL_NOTIFICATIONS": {
+      "message": "Email-уведомления"
+   },
+   "SETTINGS_LABEL_GOOGLE_ANALYTICS": {
+      "message": "Разрешить сбор аналитических данных для улучшения продукта"
+   },
+   "SETTINGS_LABEL_LANGUAGE": {
+      "message": "Язык"
+   },
+   "SETTINGS_LABEL_NOTIFICATIONS_BADGE": {
+      "message": "Показывать на панели количество новых уведомлений"
+   },
+   "SETTINGS_LABEL_PAGE_MOBILE_PRICE": {
+      "message": "Показывать цену из мобильного приложения на странице товара"
+   },
+   "SETTINGS_LABEL_PAGE_SELLER_CHECK": {
+      "message": "Показывать блок проверки продавца на странице товара"
+   },
+   "SETTINGS_LABEL_PANEL_ALL_PAGES": {
+      "message": "Показывать панель расширения на всех страницах магазинов"
+   },
+   "SETTINGS_LABEL_PUSH_NOTIFICATIONS": {
+      "message": "Push-уведомления"
+   },
+   "SETTINGS_LABEL_THEME": {
+      "message": "Цветовая схема"
+   },
+   "SETTINGS_LABEL_YANDEX_SOVETNIK": {
+      "message": "Показывать рекомендации Яндекс.Советника"
+   },
+   "SETTINGS_MODAL_HEADER": {
+      "message": "Настройки"
+   },
+   "SETTINGS_NOTE_CURRENCY": {
+      "message": "В расширении цены в указанной валюте могут отличаться от цен в интернет-магазине на 1–5%."
+   },
+   "SETTINGS_NOTE_END": {
+      "message": ", используя учётную запись Alitools,\u003Cbr> чтобы использовать все возможности расширения."
+   },
+   "SETTINGS_NOTE_LOGIN": {
+      "message": "войдите"
+   },
+   "SETTINGS_NOTE_OR": {
+      "message": "или"
+   },
+   "SETTINGS_NOTE_SIGN_UP": {
+      "message": "Зарегистрируйтесь"
+   },
+   "SETTINGS_NOTIFICATIONS_EXPLANATION": {
+      "message": "Падение — разница между ценой на момент добавления в «Мои товары» и текущей. Первое уведомление придёт при падении на 5%, второе — на 10% и т.д."
+   },
+   "SETTINGS_OAUTH_ERROR": {
+      "message": "Во время авторизации произошла ошибка. Перезагрузите страницу и попробуйте еще раз."
+   },
+   "SETTINGS_OAUTH_WARNING": {
+      "message": "Аккаунт, который вы пытались подключить, уже привязан к другой учетной записи Alitools."
+   },
+   "SETTINGS_OAUTH_facebook": {
+      "message": "Facebook"
+   },
+   "SETTINGS_OAUTH_google": {
+      "message": "Google"
+   },
+   "SETTINGS_OAUTH_vk": {
+      "message": "VK"
+   },
+   "SETTINGS_PASSWORD_CHANGE": {
+      "message": "Пароль"
+   },
+   "SETTINGS_PASSWORD_NEW_HINT": {
+      "message": "Минимум 6 символов"
+   },
+   "SETTINGS_PASSWORD_NEW_PLACEHOLDER": {
+      "message": "Новый пароль..."
+   },
+   "SETTINGS_PASSWORD_OLD_PLACEHOLDER": {
+      "message": "Текущий пароль..."
+   },
+   "SETTINGS_PASSWORD_SUCCESS": {
+      "message": "Пароль изменён"
+   },
+   "SETTINGS_PASSWORD_TITLE": {
+      "message": "Изменение пароля"
+   },
+   "SETTINGS_SHOW_NOTIFICATIONS": {
+      "message": "Количество товаров с упавшей ценой на виджете"
+   },
+   "SETTINGS_SHOW_PAGE_MOBILE_PRICE": {
+      "message": "Мобильная цена на странице товара"
+   },
+   "SETTINGS_SHOW_PAGE_SELLER_CHECK": {
+      "message": "Блок проверки продавца на странице товара"
+   },
+   "SETTINGS_SHOW_PANEL_ON_ALL_PAGES": {
+      "message": "Виджет на всех страницах AliExpress"
+   },
+   "SETTINGS_SHOW_SEARCH_BUTTON": {
+      "message": "Кнопка поиска Alitools рядом с поиском AliExpress"
+   },
+   "SETTINGS_SOVETNIK_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "Если вы отключите полоску\u003C/br>Советника на каком-нибудь\u003C/br>сайте, его адрес появится здесь."
+   },
+   "SETTINGS_SOVETNIK_DISABLED_SITES_HEADER": {
+      "message": "Сайты с выключенным советником"
+   },
+   "SETTINGS_SOVETNIK_WIDGET_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "Если вы отключите виджет \u003C/br> Советника на каком-нибудь \u003C/br> сайте, его адрес появится здесь."
+   },
+   "SETTINGS_SYNC_DO": {
+      "message": "Включить"
+   },
+   "SETTINGS_SYNC_FIRST_TEXT": {
+      "message": "Создайте или войдите в аккаунт, чтобы привязать к нему товары и посылки. Так они будут доступны с любого устройства."
+   },
+   "SETTINGS_SYNC_SIGN_UP": {
+      "message": "Создать аккаунт"
+   },
+   "SETTINGS_SYNC_TEXT": {
+      "message": "Все товары и посылки остались привязаны к вашему аккаунту. Включите синхронизацию, чтобы получить к ним доступ."
+   },
+   "SETTINGS_SYNC_TITLE": {
+      "message": "Синхронизация отключена"
+   },
+   "SETTINGS_TAB_ADVICE": {
+      "message": "Советник"
+   },
+   "SETTINGS_TAB_COMMON": {
+      "message": "Общее"
+   },
+   "SETTINGS_TAB_EXTENSION": {
+      "message": "Расширение"
+   },
+   "SETTINGS_TAB_HISTORY": {
+      "message": "История"
+   },
+   "SETTINGS_TAB_NOTIFICATIONS": {
+      "message": "Уведомления"
+   },
+   "SETTINGS_TAB_PROFILE": {
+      "message": "Профиль"
+   },
+   "SETTINGS_TAB_SEARCH_BY_IMAGE": {
+      "message": "Поиск по картинке"
+   },
+   "SETTINGS_TAB_SYNC": {
+      "message": "Синхронизация"
+   },
+   "SETTINGS_THEME": {
+      "message": "Цветовая схема"
+   },
+   "SETTINGS_THEMES_DEFAULT": {
+      "message": "тёмная"
+   },
+   "SETTINGS_THEMES_LIGHT": {
+      "message": "светлая"
+   },
+   "SETTINGS_THEME_DARK": {
+      "message": "Темная"
+   },
+   "SETTINGS_THEME_LIGHT": {
+      "message": "Светлая"
+   },
+   "SHARE_BUTTON_NO_TEXT": {
+      "message": "Нет"
+   },
+   "SHARE_BUTTON_SPLIT_MORE_TEXT": {
+      "message": "Еще"
+   },
+   "SHARE_BUTTON_YES_TEXT": {
+      "message": "Нравится"
+   },
+   "SHARE_COPY_TEXT": {
+      "message": "Скопировать ссылку"
+   },
+   "SHARE_FACEBOOK_MESSENGER_TEXT": {
+      "message": "Поделиться в Facebook Messenger"
+   },
+   "SHARE_FACEBOOK_TEXT": {
+      "message": "Поделиться в Facebook"
+   },
+   "SHARE_LIKE_US_BODY_IMPORTANT_QUESTION_SUBTITLE": {
+      "message": "Вам нравится Alitools?"
+   },
+   "SHARE_LIKE_US_BODY_IMPORTANT_QUESTION_TITLE": {
+      "message": "Важный вопрос:"
+   },
+   "SHARE_LIKE_US_BODY_THANKS_SUBTITLE": {
+      "message": "Поделитесь пользой с друзьями:"
+   },
+   "SHARE_LIKE_US_BODY_THANKS_TITLE": {
+      "message": "Спасибо! Мы очень рады."
+   },
+   "SHARE_LIKE_US_TITLE": {
+      "message": "Спасибо, что покупаете с Alitools!"
+   },
+   "SHARE_OK_TEXT": {
+      "message": "Поделиться в Одноклассниках"
+   },
+   "SHARE_REDDIT_TEXT": {
+      "message": "Поделиться в Reddit"
+   },
+   "SHARE_TELEGRAM_TEXT": {
+      "message": "Отправить в Telegram"
+   },
+   "SHARE_TRICKY_SELLERS_BODY_SUBTITLE": {
+      "message": "Расскажите друзьям и близким об Alitools, чтобы они тоже покупали на AliExpress дешево и безопасно."
+   },
+   "SHARE_TRICKY_SELLERS_BODY_TITLE": {
+      "message": "Хитрые китайские продавцы не смогли вас обмануть."
+   },
+   "SHARE_TRICKY_SELLERS_TITLE": {
+      "message": "Поздравляем, вы сделали покупку вместе с Alitools!"
+   },
+   "SHARE_TWITTER_TEXT": {
+      "message": "Поделиться в Twitter"
+   },
+   "SHARE_VIBER_TEXT": {
+      "message": "Отправить в Viber"
+   },
+   "SHARE_VK_TEXT": {
+      "message": "Поделиться в VK"
+   },
+   "SHARE_WHATSAPP_TEXT": {
+      "message": "Отправить в WhatsApp"
+   },
+   "SIMILARS_TAB_EMPTY": {
+      "message": "Извините, пока не нашли ничего похожего."
+   },
+   "SIMILARS_TAB_ORDERS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SIMILARS_TAB_ORDERS_V2": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, заказ|заказа|заказов}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SIMILARS_TAB_TITLE": {
+      "message": "Похожие товары"
+   },
+   "SIMILARS_TAB_TITLE_EMPTY": {
+      "message": "Пока поиск похожих товаров запущен только для мобильных телефонов."
+   },
+   "SIMILARS_TAB_TITLE_EMPTY_SMART": {
+      "message": "Посмотреть на примере Xiaomi Redmi Note 5"
+   },
+   "SIMILAR_ALI_ITEM_SELLER": {
+      "message": "Продавец: ${SCORE}$"
+   },
+   "SIMILAR_BEST_OFFER_MOST_CHEAP": {
+      "message": "Вы просматриваете \u003Cbr> самый дешевый вариант."
+   },
+   "SIMILAR_BEST_OFFER_MOST_POPULAR": {
+      "message": "Вы просматриваете \u003Cbr> самый популярный вариант."
+   },
+   "SIMILAR_BEST_OFFER_MOST_RELIABLE": {
+      "message": "Вы просматриваете \u003Cbr> самый надежный вариант."
+   },
+   "SIMILAR_DIVIDER_LESS_POPULAR": {
+      "message": "Заказов меньше ${ORDERS}$"
+   },
+   "SIMILAR_DIVIDER_LESS_RELIABLE": {
+      "message": "Рейтинг продавца ниже ${SCORE}$%"
+   },
+   "SIMILAR_DIVIDER_MORE_EXPENSIVE": {
+      "message": "Цена выше ${PRICE}$"
+   },
+   "SIMILAR_DROP_DOWN_CHEAP_FIRST": {
+      "message": "сначала дешевле"
+   },
+   "SIMILAR_DROP_DOWN_HEADER": {
+      "message": "сортировать"
+   },
+   "SIMILAR_DROP_DOWN_NO_SORT": {
+      "message": "без сортировки"
+   },
+   "SIMILAR_DROP_DOWN_POPULAR_FIRST": {
+      "message": "сначала популярнее"
+   },
+   "SIMILAR_DROP_DOWN_TRUSTED_FIRST": {
+      "message": "сначала надежнее"
+   },
+   "SIMILAR_NEW_TAB_TITLE": {
+      "message": "Похожие"
+   },
+   "SIMILAR_TAB_TOOLTIP_SORT": {
+      "message": "Сортируйте похожие товары по цене, рейтингу продавца \u003Cbr> и количеству заказов."
+   },
+   "SIMILAR_TOOLTIP_NEW_FEATURES": {
+      "message": "Новые возможности"
+   },
+   "SORT_LAST": {
+      "message": "Последние"
+   },
+   "SORT_LOWEST_PRICE": {
+      "message": "С упавшей ценой"
+   },
+   "SOVETNIK_CONTEXT_CONFIGURE": {
+      "message": "Настроить Alitools Советник"
+   },
+   "SOVETNIK_CONTEXT_HIDE": {
+      "message": "Не показывать на этом сайте"
+   },
+   "SOVETNIK_LOCATION_DIVIDER_TEXT": {
+      "message": " есть на AliExpress за "
+   },
+   "SOVETNIK_ONBOARDING_BUTTON": {
+      "message": "Продолжить"
+   },
+   "SOVETNIK_ONBOARDING_COMMENT": {
+      "message": "Просматривайте товары, а мы сообщим, если найдем\u003C/br>подходящие предложения на AliExpress дешевле."
+   },
+   "SOVETNIK_ONBOARDING_HERO": {
+      "message": "Alitools нашел этот товар дешевле"
+   },
+   "SOVETNIK_ONBOARDING_SETTINGS_LINK": {
+      "message": "в настройках"
+   },
+   "SOVETNIK_ONBOARDING_SETTINGS_MESSAGE": {
+      "message": "Отключить эту функцию можно "
+   },
+   "SOVETNIK_OPEN_BUTTON": {
+      "message": "Открыть на AliExpress"
+   },
+   "SOVETNIK_SAVE_BUTTON": {
+      "message": "Можно сэкономить"
+   },
+   "SPLASH_HEARD_BUTTON_ADDITIONAL_TEXT": {
+      "message": "Теперь без регистрации!"
+   },
+   "SPLASH_HEARD_BUTTON_HEADER": {
+      "message": "Новый способ экономить"
+   },
+   "SPLASH_HEARD_BUTTON_MAIN_TEXT": {
+      "message": "Нажимайте на сердечко, чтобы следить за товаром и получать уведомления\u003Cbr> о снижении цены."
+   },
+   "SPLASH_OPEN_POPUP_HEADER": {
+      "message": "Товар добавлен в Alitools"
+   },
+   "SPLASH_OPEN_POPUP_TEXT_FOR_OPENING": {
+      "message": ", чтобы открыть\u003Cbr> список отслеживаемых товаров."
+   },
+   "SPLASH_OPEN_POPUP_TEXT_PUSH_ICON": {
+      "message": "Нажмите на иконку"
+   },
+   "STATIC_CHANGE_LOG_TITLE": {
+      "message": "Изменения — Alitools"
+   },
+   "STATIC_SETTINGS_TITLE": {
+      "message": "Настройки — Alitools"
+   },
+   "STATIC_TRACKING_ARCHIVE_TITLE": {
+      "message": "Архив посылок — Alitools"
+   },
+   "STATIC_TRACKING_PACKAGES_TITLE": {
+      "message": "Отслеживание посылок — Alitools"
+   },
+   "STATIC_TUTORIAL_TITLE": {
+      "message": "Руководство — Alitools"
+   },
+   "TAB_ERROR_BUTTON": {
+      "message": "Попробовать еще раз"
+   },
+   "TAB_ERROR_TITLE": {
+      "message": "Что-то пошло не так...\u003Cbr> Пожалуйста, попробуйте\u003Cbr> повторить попытку чуть позже."
+   },
+   "TAB_FAVORITES_EMPTY_BUTTON": {
+      "message": "Добавить в избранное"
+   },
+   "TAB_FAVORITES_EMPTY_PRODUCT_TOOLTIP": {
+      "message": "Чтобы следить за товаром, "
+   },
+   "TAB_FAVORITES_EMPTY_TITLE": {
+      "message": "Тут будут товары, за которыми вы начнете следить через Alitools"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP": {
+      "message": "Чтобы следить за ценой, "
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_LOGIN": {
+      "message": "войдите"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_REGISTER": {
+      "message": "зарегистрируйтесь"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_SUFFIX": {
+      "message": " или "
+   },
+   "TAB_FAVORITES_ERROR_MESSAGE": {
+      "message": "Во время загрузки товаров возникла ошибка"
+   },
+   "TAB_FAVORITES_LIST_EMPY_TEXT": {
+      "message": "Похоже, скидок пока нет,\u003Cbr> но скоро они обязательно появятся."
+   },
+   "TAB_FAVORITES_MORE": {
+      "message": "Открыть все избранные товары"
+   },
+   "TAB_FAVORITES_MOVED_MESSAGE": {
+      "message": "Товары, за которыми вы следите через\u003Cbr>Alitools, теперь всегда под рукой. Нажмите\u003Cbr>на иконку расширения в правом\u003Cbr>верхнем углу браузера."
+   },
+   "TAB_FAVORITES_MOVED_TITLE": {
+      "message": "Избранное переехало"
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TITLE": {
+      "message": "Тут будут товары с AliExpress, которые вы добавите в избранное."
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP": {
+      "message": "Чтобы воспользоваться избранным, нужно "
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP_LOGIN": {
+      "message": "войти"
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP_REGISTER": {
+      "message": "зарегистрироваться."
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP_SUFFIX": {
+      "message": " или "
+   },
+   "TAB_FAVORITES_PRICE_DOWN": {
+      "message": "упала на"
+   },
+   "TAB_FAVORITES_PRICE_SAME": {
+      "message": "не изменилась"
+   },
+   "TAB_FAVORITES_PRICE_UP": {
+      "message": "поднялась на"
+   },
+   "TAB_FAVORITES_TITLE": {
+      "message": "Избранное"
+   },
+   "TAB_HISTORY_EMPTY_TITLE": {
+      "message": "Здесь будут товары,\u003Cbr/> которые вы просматривали\u003Cbr/> на AliExpress."
+   },
+   "TAB_HISTORY_TITLE": {
+      "message": "История просмотров"
+   },
+   "TAB_HISTORY_TODAY": {
+      "message": "Сегодня"
+   },
+   "TAB_HISTORY_YESTERDAY": {
+      "message": "Вчера"
+   },
+   "TAB_MULTI_SITES_HISTORY_EMPTY_TITLE": {
+      "message": "Здесь будут товары,\u003Cbr/> которые вы просматривали\u003Cbr/> в этом магазине."
+   },
+   "TAB_PRICE_HISTORY_3_MONTH_PERIOD": {
+      "message": "за 3 месяца"
+   },
+   "TAB_PRICE_HISTORY_6_MONTH_PERIOD": {
+      "message": "за полгода"
+   },
+   "TAB_PRICE_HISTORY_ADDED_TO_FAVORITE": {
+      "message": "Добавлено в избранное"
+   },
+   "TAB_PRICE_HISTORY_ADD_TO_FAVORITE": {
+      "message": "Добавить в избранное"
+   },
+   "TAB_PRICE_HISTORY_DYNAMIC_TODAY": {
+      "message": "Сегодня"
+   },
+   "TAB_PRICE_HISTORY_EMPTY_TITLE": {
+      "message": "Мы еще не собрали\u003Cbr> достаточно данных для построения\u003Cbr> графика динамики цены."
+   },
+   "TAB_PRICE_HISTORY_EXPLANATION_AFTER_ADD": {
+      "message": "Вы следите за товаром с ${DATE}$.${BREAK}$Когда товар подешевеет, придёт уведомление."
+   },
+   "TAB_PRICE_HISTORY_EXPLANATION_BEFORE_ADD": {
+      "message": "Чтобы следить за товаром и получать уведомления${BREAK}$о значимых снижениях цены, нажимайте сердечко."
+   },
+   "TAB_PRICE_HISTORY_FOLLOWING_BUTTON": {
+      "message": "Цена отслеживается"
+   },
+   "TAB_PRICE_HISTORY_FOLLOWING_PRODUCT_BUTTON": {
+      "message": "Товар отслеживается"
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_BUTTON": {
+      "message": "Следить за ценой"
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_COMMENT": {
+      "message": "Товар добавится в избранное."
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_PRODUCT_BUTTON": {
+      "message": "Следить за товаром"
+   },
+   "TAB_PRICE_HISTORY_HEADER_TOOLTIP": {
+      "message": "Alitools отображает динамику цены\u003Cbr> только самой дешевой конфигурации."
+   },
+   "TAB_PRICE_HISTORY_MOBILE_DISCOUNT": {
+      "message": "скидка"
+   },
+   "TAB_PRICE_HISTORY_MOBILE_PRICE": {
+      "message": "Мобильная цена:"
+   },
+   "TAB_PRICE_HISTORY_NOTIFICATIONS_COMMENT": {
+      "message": "Когда цена упадет, придет уведомление."
+   },
+   "TAB_PRICE_HISTORY_PRODUCT_TOOLTIP": {
+      "message": "Чтобы следить за товаром, "
+   },
+   "TAB_PRICE_HISTORY_REMOVE_FROM_FAVORITE": {
+      "message": "Удалить из избранного"
+   },
+   "TAB_PRICE_HISTORY_TAB_TITLE": {
+      "message": "История цены"
+   },
+   "TAB_PRICE_HISTORY_TITLE": {
+      "message": "Динамика цены"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP": {
+      "message": "Чтобы следить за ценой, "
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_LOGIN": {
+      "message": "войдите"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_REGISTER": {
+      "message": "зарегистрируйтесь"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_SUFFIX": {
+      "message": " или "
+   },
+   "TAB_PRICE_HISTORY_UNFOLLOW_BUTTON": {
+      "message": "Перестать отслеживать"
+   },
+   "TAB_PRICE_HISTORY_UNFOLLOW_COMMENT": {
+      "message": "Товар удалится из избранного."
+   },
+   "TAB_REVIEWS_EMPTY_TITLE": {
+      "message": "К сожалению,\u003Cbr> мы не нашли ни одного\u003Cbr> обзора этого товара."
+   },
+   "TAB_REVIEWS_LIST_EMPTY_PHOTOS_TEXT": {
+      "message": "Для этого товара\u003Cbr> пока нет ни одного\u003Cbr> фотообзора."
+   },
+   "TAB_REVIEWS_LIST_EMPTY_VIDEOS_TEXT": {
+      "message": "Для этого товара\u003Cbr> пока нет ни одного\u003Cbr> видеообзора."
+   },
+   "TAB_REVIEWS_TITLE": {
+      "message": "Обзоры"
+   },
+   "TAB_SELLER_CHECK_TITLE": {
+      "message": "Рейтинг продавца"
+   },
+   "TRACKING_ACTION_ARCHIVE": {
+      "message": "В архив"
+   },
+   "TRACKING_ACTION_REMOVE": {
+      "message": "Удалить"
+   },
+   "TRACKING_ACTION_RESTORE": {
+      "message": "Восстановить"
+   },
+   "TRACKING_ACTION_SELECT_ALL": {
+      "message": "Открыть все посылки\u003Cbr />на одной странице"
+   },
+   "TRACKING_ACTION_UPDATE": {
+      "message": "Редактировать"
+   },
+   "TRACKING_INPUT_PLACEHOLDER": {
+      "message": "Номер отслеживания"
+   },
+   "TRACKING_MESSAGE_ARCHIVE_EMPTY": {
+      "message": "Здесь пока ничего нет.\u003Cbr />Чтобы не запутаться, перемещайте в архив доставленные посылки."
+   },
+   "TRACKING_MESSAGE_EDIT_NAME": {
+      "message": "Введите имя для посылки"
+   },
+   "TRACKING_MESSAGE_LOADING": {
+      "message": "Загрузка..."
+   },
+   "TRACKING_MESSAGE_LOADING_ERROR": {
+      "message": "При загрузке списка посылок произошла ошибка."
+   },
+   "TRACKING_MESSAGE_PACKAGES_EMPTY": {
+      "message": "Чтобы узнать где сейчас находится ваша посылка, введите в поле ниже код отслеживания,\u003Cbr />который вам дал продавец."
+   },
+   "TRACKING_PACKAGES_MESSAGE_CLEAN_NEW": {
+      "message": "Посылок с новой информацией больше нет."
+   },
+   "TRACKING_PACKAGES_MESSAGE_EMPTY_ALL": {
+      "message": "Введите трек-код в поле сверху,\u003C/br>чтобы узнать, где сейчас заветная коробочка."
+   },
+   "TRACKING_PACKAGES_MESSAGE_EMPTY_NEW": {
+      "message": "Посылок с новой информацией пока нет."
+   },
+   "TRACKING_TAB_ARCHIVE": {
+      "message": "Архив"
+   },
+   "TRACKING_TAB_PACKAGES": {
+      "message": "Отслеживание посылок"
+   },
+   "TUTORIAL_MODAL_CONTROLS_ABORT": {
+      "message": "Закончить знакомство с Alitools"
+   },
+   "TUTORIAL_MODAL_CONTROLS_NEXT": {
+      "message": "Дальше"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_CONTROLS_GUEST": {
+      "message": "Продолжить без регистрации"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_CONTROLS_SIGNUP": {
+      "message": "Зарегистрироваться"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_DESCRIPTION": {
+      "message": "Отслеживание цены и избранное доступны\u003Cbr> только зарегистрированным пользователям. "
+   },
+   "TUTORIAL_MODAL_STEP_DONE_TITLE": {
+      "message": "И напоследок..."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_DESCRIPTION": {
+      "message": "Все товары, за ценами которых вы следите,\u003Cbr> отображаются здесь."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_CABINET": {
+      "message": "Все избранные товары доступны\u003Cbr> в личном кабинете."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_FILTERS": {
+      "message": "Чтобы посмотреть, на какие товары\u003Cbr> недавно упала цена, переключитесь\u003Cbr> на вкладку «С упавшей ценой»"
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_ITEMS": {
+      "message": "В избранном можно быстро посмотреть,\u003Cbr> сколько сейчас стоят товары и на сколько\u003Cbr> изменилась их цена."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_TITLE": {
+      "message": "Это избранное"
+   },
+   "TUTORIAL_MODAL_STEP_POPUP": {
+      "message": "Список товаров и посылок"
+   },
+   "TUTORIAL_MODAL_STEP_POPUP_TEXT_END": {
+      "message": " в правом верхнем углу браузера."
+   },
+   "TUTORIAL_MODAL_STEP_POPUP_TEXT_START": {
+      "message": "Чтобы открыть список товаров и посылок, за которыми вы следите, нажмите на иконку расширения "
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_DESCRIPTION": {
+      "message": "Сравнивайте старые цены с текущей,\u003Cbr> чтобы распознать ненастоящую скидку."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_FAVORITES_SECTION_CONTROL": {
+      "message": "Кнопка «Следить за товаром» добавляет товар\u003Cbr> в избранное. Как только цена на товар\u003Cbr> упадёт, вам придёт уведомление."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_FAVORITES_TITLE": {
+      "message": "Понравился товар?"
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_SECTION_CHART": {
+      "message": "График показывает историю изменений цены.\u003Cbr> Наведите курсор на график, чтобы выбрать\u003Cbr> период времени для сравнения."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_SECTION_COMPARING": {
+      "message": "Это блок сравнения цен. Слева показана старая\u003Cbr> цена, справа — текущая цена, а посередине —\u003Cbr> разница между ними и процент скидки."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_TITLE": {
+      "message": "Это динамика цены"
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_DESCRIPTION": {
+      "message": "Смотрите вживую на товар,\u003Cbr> который собираетесь купить."
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_SECTION_FILTERS": {
+      "message": "Фильтры для переключения типа\u003Cbr> обзоров (фото или видео)"
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_SECTION_ITEMS": {
+      "message": "Каждая карточка ведёт на свой обзор.\u003Cbr> Наведя курсор на карточку, можно прочитать\u003Cbr> краткое описание обзора."
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_TITLE": {
+      "message": "Это обзоры"
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_DESCRIPTION": {
+      "message": "Проверяйте уровень доверия к продавцу,\u003Cbr> чтобы принять верное решение о покупке."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_SECTION_CONCLUSION": {
+      "message": "У продавца может быть один из трёх рейтингов:\u003Cbr> высокий, средний и низкий. Сразу под рейтингом\u003Cbr> расположена краткая характеристика."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_SECTION_REASONS": {
+      "message": "Факторы, которые повлияли на оценку,\u003Cbr> всегда перечислены ниже."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_TITLE": {
+      "message": "Это рейтинг продавца"
+   },
+   "TUTORIAL_MODAL_STEP_WELCOME_DESCRIPTION": {
+      "message": "На нем расположены индикатор изменения цены,\u003Cbr> процент доверия к продавцу, количество обзоров\u003Cbr> и кнопка «Следить за товаром»."
+   },
+   "TUTORIAL_MODAL_STEP_WELCOME_TITLE": {
+      "message": "Это мини-виджет Alitools"
+   },
+   "TUTORIAL_POPUP_ALI_CONFIRM": {
+      "message": "Попробовать на AliExpress"
+   },
+   "TUTORIAL_POPUP_ALI_OPEN_GUIDE": {
+      "message": "Открыть руководство"
+   },
+   "TUTORIAL_POPUP_CONTROL_ALI_CONFIRM": {
+      "message": "Попробовать\u003Cbr> на AliExpress"
+   },
+   "TUTORIAL_POPUP_CONTROL_CANCEL": {
+      "message": "Мне всё понятно"
+   },
+   "TUTORIAL_POPUP_CONTROL_CONFIRM": {
+      "message": "Попробовать\u003Cbr> на странице товара"
+   },
+   "TUTORIAL_POPUP_CONTROL_NOT_WANT": {
+      "message": "Не хочу"
+   },
+   "TUTORIAL_POPUP_CONTROL_NO_THANKS": {
+      "message": "Нет, спасибо"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_CHART": {
+      "message": "Динамика цены"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_DYNAMICS": {
+      "message": "Уведомления о падении цены"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_HISTORY": {
+      "message": "История цены за 3 месяца"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_HISTORY_HALF_YEAR": {
+      "message": "История цены за полгода"
+   },
+   "TUTORIAL_POPUP_FEATURE_REVIEWS": {
+      "message": "Фото и видео обзоры"
+   },
+   "TUTORIAL_POPUP_FEATURE_SELLER_CHECK": {
+      "message": "Уровень доверия к продавцу"
+   },
+   "TUTORIAL_POPUP_HEADER": {
+      "message": "Помогаем покупать \u003Cbr> на AliExpress дешевле \u003Cbr>и безопаснее"
+   },
+   "TUTORIAL_POPUP_HEADER_TEST": {
+      "message": "Покупайте на AliExpress\u003Cbr>дешевле и безопаснее"
+   },
+   "UPDATES_TAB_TEXT": {
+      "message": "Мы добавили новые функции и исправили ошибки. Обновитесь, чтобы сделать расширение еще полезнее и удобнее."
+   },
+   "UPDATES_TAB_TITLE": {
+      "message": "Доступно обновление"
+   },
+   "UPDATES_TAB_UPDATE_EXTENSION": {
+      "message": "Обновить Alitools"
+   },
+   "UPDATES_TAB_VERSION": {
+      "message": "Версия: $VERSION$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "5.0.0"
+         }
+      }
+   },
+   "VIDEO_THUMB_VIEWS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, просмотр|просмотра|просмотров}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "WEB_PUSH_SIGNATURE": {
+      "message": "Новости"
+   },
+   "WIDGETS_HISTORY_BUTTON_TITLE": {
+      "message": "история"
+   },
+   "WIDGET_HISTORY_BALLOON_HEADER": {
+      "message": "История просмотров"
+   },
+   "WIDGET_HISTORY_BALLOON_TEXT": {
+      "message": "Теперь и на "
+   },
+   "WIDGET_HISTORY_STRIP_CONTEXT_CONFIGURE": {
+      "message": "Настроить Историю"
+   },
+   "WIDGET_HISTORY_STRIP_CONTEXT_HIDE": {
+      "message": "Не показывать на этом сайте"
+   },
+   "WIDGET_MIN_PRICE_TOOLTIP": {
+      "message": "Минимальная цена"
+   },
+   "WIDGET_TAB_PRICE": {
+      "message": "цена"
+   },
+   "WIDGET_TAB_REVIEWS": {
+      "message": "обзоры"
+   },
+   "WIDGET_TAB_SELLER": {
+      "message": "продавец"
+   },
+   "WIDGET_TAB_SIMILAR": {
+      "message": "похожие"
+   }
+}

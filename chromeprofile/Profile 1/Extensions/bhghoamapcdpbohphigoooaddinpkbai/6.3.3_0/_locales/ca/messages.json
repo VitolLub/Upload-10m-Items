@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Quant a"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Compte"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Nom d'usuari"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "Afegeix compte"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Escaneja codi QR"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Entrada manual"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " s'ha afegit."
+   },
+   "advanced": {
+      "message": "Avançat"
+   },
+   "advisor": {
+      "message": "Assessor"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Podeu activar l'emplenament automàtic per omplir els codis a les pàgines web."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Activeu el bloqueig automàtic per protegir les vostres dades."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "La sincronització està desactivada. Habilitar-la permet que els comptes es sincronitzin entre navegadors."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Establiu una contrasenya per protegir les vostres dades."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Activar el filtre intel·ligent permet l'accés ràpid als comptes."
+   },
+   "algorithm": {
+      "message": "Algorisme"
+   },
+   "autolock": {
+      "message": "Bloqueja passats"
+   },
+   "backup": {
+      "message": "Còpia de seguretat"
+   },
+   "backup_file_info": {
+      "message": "Fes una còpia de les dades a un fitxer."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "En base a un comptador"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "En base al temps"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "Sincronització amb el Navegador"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "La captura ha fallat, recarregueu la pàgina i torneu-ho a provar."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "Proveu de llegir un codi QR des d'un arxiu local? Enlloc d'això, utilitzeu la importació de còpies de seguretat d'imatges QR."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Compte! El rellotge del vostre sistema està massa desajustat, solucioneu-ho abans de continuar."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Tanca"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Segur que voleu eliminar aquest compte? Aquesta acció no es pot desfer."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "Entenc que totes les meves dades s'esborraran i seran impossibles de recuperar."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Confirma la contrasenya"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Copiat"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Contrasenya actual"
+   },
+   "danger": {
+      "message": "Perill"
+   },
+   "delete_all": {
+      "message": "Reinicialitza l'Authenticator"
+   },
+   "delete_all_warning": {
+      "message": "Això esborrarà totes les vostres dades i reiniciarà completament l'Authenticator. No podreu recuperar cap dada un cop esborrades! Considereu de fer una còpia de seguretat abans de reiniciar l'Authenticator."
+   },
+   "digits": {
+      "message": "Dígits"
+   },
+   "dismiss": {
+      "message": "Descarta"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Descarrega còpia de seguretat"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Descarrega còpia de seguretat protegida per contrasenya"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Atenció: tingueu en consideració que les còpies de seguretat no estan xifrades."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Edita"
+   },
+   "enable_context_menu": {
+      "message": "Afegeix al menú contextual"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Xifrat"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Codi QR no reconegut."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Clau secreta del compte no vàlida"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Atenció: les còpies de seguretat no estan xifrades. Voleu afegir un compte per a una altra aplicació? Passeu el ratolí per la cantonada superior dreta de qualsevol compte i premeu el botó ocult."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator genera codis d'autenticació en dos passos al vostre navegador."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Authenticator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Authenticator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Retroacció"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Importa còpia de seguretat"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Importa còpia de seguretat com a text pla"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Importa fitxer de còpia de seguretat"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "Importa còpia d'imatge QR"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "Podeu seleccionar diversos fitxers per importar la còpia en lots."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Importat correctament, però alguns codis QR no s'han reconegut."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Heu de proporcionar la contrasenya correcta per poder importar còpies de seguretat."
+   },
+   "info": {
+      "message": "Informació"
+   },
+   "invalid": {
+      "message": "No és vàlid"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Emissor"
+   },
+   "learn_more": {
+      "message": "Saber-ne més"
+   },
+   "loading": {
+      "message": "Carregant..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "La contrasenya està emmagatzemada localment, canvieu-la al menú de seguretat immediatament."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Bloqueja"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Desconnecta"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "Còpia de seguretat manual"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "La importació ha fallat. Si esteu migrant dades de Google Authenticator, torneu a exportar les dades i proveu-ho de nou."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "Algunes dades del compte no s'han importat correctament."
+   },
+   "minutes": {
+      "message": "minuts"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Nova contrasenya"
+   },
+   "no": {
+      "description": "No.",
+      "message": "No"
+   },
+   "no_entires": {
+      "message": "Sense comptes per mostrar. Afegiu un compte ara."
+   },
+   "no_insight_available": {
+      "message": "No s'han trobat punts de vista, tot sembla correcte!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "D'acord"
+   },
+   "onedrive_business_perms": {
+      "message": "Perquè els comptes de negocis demanen més permisos?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Podeu importar còpies de seguretat d'altres aplicacions."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Saber-ne més"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "Teniu un o més comptes de Steam o de Blizzard. Les còpies de seguretat sense xifrar no utilitzaran un format estàndard de còpia de seguretat."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Escriviu la contrasenya per desxifrar les dades del compte."
+   },
+   "password_policy_default_hint": {
+      "message": "La contrasenya no compleix els requeriments de seguretat de la teva companyia. Contacta amb el teu administrador per a més informació."
+   },
+   "period": {
+      "message": "període"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Contrasenya"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "No podeu afegir un nou compte fins que s'hagin desxifrat tots els comptes. Escriviu la contrasenya correcta abans de continuar."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "Els comptes que no s'han pogut desxifrar no s'inclouran en aquesta còpia de seguretat."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "La contrasenya no concorda."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Panell emergent"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Recorda la contrasenya"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Ja heu fet una còpia de seguretat dels vostres comptes? No espereu a fer-ho quan ja sigui massa tard!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Elimina"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Preferències"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Escala"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Cerca"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Clau secreta"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Seguretat"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Aquesta contrasenya s'emprarà per xifrar els vostres comptes. Ningú us podrà ajudar si oblideu la contrasenya."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Preferències"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Mostra totes les entrades"
+   },
+   "show_all_insights": {
+      "message": "Mostra tots els punts de vista."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Inicia sessió"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Inicia sessió (Negocis)"
+   },
+   "smart_filter": {
+      "message": "Filtre intel·ligent"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Codi font"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Fes una còpia de seguretat automàtica de les dades a un servei d'emmagatzematge de tercers."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Sincronitzar el rellotge amb Google"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "Tema"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "Fosc"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "Alt contrast"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "Clar"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Senzill"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Hi ha hagut un problema en connectar amb el vostre compte a $SERVICE$, torneu a iniciar la sessió.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Tradueix"
+   },
+   "type": {
+      "message": "Tipus"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Actualitza"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Ha fallat."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Fet."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Utilitza l'emplenament automàtic"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Contrast alt"
+   },
+   "warning": {
+      "message": "Advertència"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Sí"
+   }
+}

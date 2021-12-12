@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Om"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Konto"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Brugernavn"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "Tilføj konti"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Skan QR-kode"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Manuel indtastning"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " er tilføjet."
+   },
+   "advanced": {
+      "message": "Avanceret"
+   },
+   "advisor": {
+      "message": "Advisor"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Autofill can be enabled to automatically fill codes into websites."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Enable auto-lock to protect your data."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "Browser sync is disabled. Enabling it allows accounts to be synced across browsers."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Set a password to protect your data."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Enabling smart filter allows for quick access to accounts."
+   },
+   "algorithm": {
+      "message": "Algoritme"
+   },
+   "autolock": {
+      "message": "Lås efter"
+   },
+   "backup": {
+      "message": "Sikkerhedskopi"
+   },
+   "backup_file_info": {
+      "message": "Sikkerhedskopier dine data til en fil."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Tællebaseret"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Tidsbaseret"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "Browser Synkronisering"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Optagelsen mislykkedes. Genindlæs siden igen, og prøv igen."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "Are you trying to scan QR code from a local file? Use Import QR Image Backup instead."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Advarsel!!!! Dit lokale ur er for langt væk, du skal rette det, inden du fortsætter."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Luk"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Er du sikker på, at du vil slette denne konto? Denne handling kan ikke fortrydes."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "I understand that all of my data will be irrecoverably deleted."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Bekræft adgangskode"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Kopieret"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Nuværende Adgangskode"
+   },
+   "danger": {
+      "message": "Danger"
+   },
+   "delete_all": {
+      "message": "Nulstil Autentificering"
+   },
+   "delete_all_warning": {
+      "message": "This will delete all of your data and completely reset Authenticator. You will not be able to recover any deleted data! You should consider saving a backup before resetting Authenticator."
+   },
+   "digits": {
+      "message": "Cifre"
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Download sikkerhedskopifil"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Download adgangskodebeskyttet sikkerhedskopi"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Advarsel: sikkerhedskopier er ikke krypteret. Brug det på din egen risiko."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Rediger"
+   },
+   "enable_context_menu": {
+      "message": "Add to context menu"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Krypteret"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Ukendt QR-kode."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Ugyldig kontohemmelighed"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Advarsel: alle sikkerhedskopier er ikke krypteret. Vil du føje en konto til en anden app? Hold markøren over den øverste højre del af enhver konto, og tryk på den skjulte knap."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator genererer to-faktor autentificeringskoder i din browser."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Autentificering"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Autentificering"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Feedback"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Importer sikkerhedskopi"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Importer sikkerhedskopiering af tekst"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Importer sikkerhedskopifil"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "Import QR Image Backup"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "You can select multiple files to import backup in batches."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Import successful, but some QR codes could not be recognized."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Du skal angive korrekt adgangskode for at importere sikkerhedskopier."
+   },
+   "info": {
+      "message": "Info"
+   },
+   "invalid": {
+      "message": "Ugyldigt"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Udstederen"
+   },
+   "learn_more": {
+      "message": "Learn more"
+   },
+   "loading": {
+      "message": "Indlæser..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Din adgangskode gemmes lokalt, skal du straks ændre den i sikkerheds-menuen."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Lås"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Log af"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "Manual Backup"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "Import failed. If you are migrating data from Google Authenticator, please re-export your data from Google Authenticator and try again."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "Some account data was not imported successfully."
+   },
+   "minutes": {
+      "message": "minutter"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Ny adgangskode"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Nej"
+   },
+   "no_entires": {
+      "message": "No accounts to display. Add your first account now."
+   },
+   "no_insight_available": {
+      "message": "No insights found, everything looks good!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Ok"
+   },
+   "onedrive_business_perms": {
+      "message": "Hvorfor kræver forretningskonti flere tilladelser?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Du kan importere sikkerhedskopier fra nogle andre applikationer."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Lær mere"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "Du har en eller flere Steam- eller Blizzard-konti. Ikke-krypterede sikkerhedskopier bruger ikke et standardiseret backupformat."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Indtast adgangskode for at dekryptere kontodata."
+   },
+   "password_policy_default_hint": {
+      "message": "Your password does not meet your organization's security requirements. Contact your administrator for more information."
+   },
+   "period": {
+      "message": "Periode"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Adgangskode"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "You cannot add a new account until all accounts are decrypted. Please enter the correct password before continuing."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "Accounts that were not able to be decrypted will not be included in this backup."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Kodeord passer ikke."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Pop-up-tilstand"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Husk adgangskoder"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Har du en sikkerhedskopi til dine konti? Vent ikke til det er for sent!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Fjern"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Præferencer"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Skaler"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Søg"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Hemmelighed"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Sikkerhed"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Denne adgangskode bruges til at kryptere dine konti. Ingen kan hjælpe dig, hvis du glemmer adgangskoden."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Indstillinger"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Vis alle poster"
+   },
+   "show_all_insights": {
+      "message": "Show all insights."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Log ind"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Log ind (Buisness)"
+   },
+   "smart_filter": {
+      "message": "Smart Filter"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Kildekode"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Sikkerhedskopier automatisk dine data til tredjepartslagertjenester."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Synk. historik med Google"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "Tema"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "Mørk"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "Høj Kontrast"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "Lys"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Simple"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Der opstod et problem med forbindelse til din $service$ konto, skal du logge ind igen.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Oversæt"
+   },
+   "type": {
+      "message": "Type"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Opdatér"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Fejl."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Succes."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Brug autofyld"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Brug høj kontrast"
+   },
+   "warning": {
+      "message": "Warning"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Ja"
+   }
+}

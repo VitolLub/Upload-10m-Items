@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon_19.png",
+      "default_popup": "popup.html",
+      "default_title": "Awesome Cookie Manager"
+   },
+   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+   "description": "Displays a list of all Google Chrome cookies. Allows searching, viewing, editing, saving, restoring, and deleting cookies.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWjPEtfyL8XEYl9Ady1OkOCp6BTmvfxHPTFuk++xiYPSPhbEwn2xg0qPaX6/B8YH2WYZUYuTFw7+TkTdeDEHI0K8oIK27G5BuD/b1Z8dl7iKssfAtwRLX7u7RX85styeeDDdSVD5RdlQQiHUHytpacAXuhArkAgP7ncPZi4RlQOwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "11.0.674.0",
+   "name": "Awesome Cookie Manager",
+   "options_page": "options.html",
+   "permissions": [ "cookies", "*://*/", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1.5"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="37px" viewBox="0 0 52 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E72B22" offset="0%"></stop>
+            <stop stop-color="#DD2A22" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-431.000000, -327.000000)" fill="url(#linearGradient-1)">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row">
+                    <g id="item" transform="translate(121.000000, 0.000000)">
+                        <g id="Icon" transform="translate(24.000000, 27.000000)">
+                            <path d="M7.33661563,0.595390257 C7.33661563,0.595390257 13.6936903,0 25.9597302,0 C38.2256465,0 44.0464974,0.595390257 44.0464974,0.595390257 C44.0464974,0.595390257 48.5079429,0.752281951 50.251813,4.1242062 C50.251813,4.1242062 51.9956832,6.57086856 51.9956832,18.5 C51.9956832,18.5 52.1007282,25.8850092 51.2744567,29.8111677 C50.4480618,33.7372015 48.6233688,34.8838329 48.6233688,34.8838329 C48.6233688,34.8838329 47.452797,36.0303395 44.870668,36.3430004 C42.2885389,36.6557861 33.9159601,37 25.9597302,37 C25.9597302,37 11.3944412,36.9916441 6.48834657,36.1732631 C1.58225194,35.3550068 0.893033327,30.7313163 0.893033327,30.7313163 C0.893033327,30.7313163 -1.11629166,19.0267969 0.893033327,6.28177878 C0.893033327,6.28177878 1.47461174,1.19090523 7.33661563,0.595390257 Z M34.9408482,18.2109375 L20.4877232,11.0680804 L20.4877232,25.3537946 L34.9408482,18.2109375 Z" id="icon_youtube"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

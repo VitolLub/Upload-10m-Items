@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon__apps</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-980.000000, -21.000000)" fill="#4285F4">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="top" transform="translate(0.000000, 15.000000)">
+                    <path d="M32,10 L36,10 L36,6 L32,6 L32,10 Z M26,10 L30,10 L30,6 L26,6 L26,10 Z M20,10 L24,10 L24,6 L20,6 L20,10 Z M32,16 L36,16 L36,12 L32,12 L32,16 Z M26,16 L30,16 L30,12 L26,12 L26,16 Z M20,16 L24,16 L24,12 L20,12 L20,16 Z M32,22 L36,22 L36,18 L32,18 L32,22 Z M26,22 L30,22 L30,18 L26,18 L26,22 Z M20,22 L24,22 L24,18 L20,18 L20,22 Z" id="icon__apps"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+{
+   "author": "Cosmic Shovel, Inc.",
+   "background": {
+      "page": "background.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "homepage_url": "https://camelcamelcamel.com/",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "256": "icon-256.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "64": "icon-64.png",
+      "96": "icon-96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxbvT0nBVaPPMAAwC4CYp+GA3hllMfMdJMtShuCrO5mTe89bwBQHBvV9fs+J80v/IhVNqtCxiaeI/fLkWJ9txKIY8fqhtSyUZR851Pb4otbuNNl7ZU+6JefY1yk7Feade1OTMad6e2WrytKsRjA8zVX7oXvDcQPwdSe8nC5kJCowIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "page_action": {
+      "default_icon": "icon-96.png",
+      "default_popup": "main.html",
+      "default_title": "__MSG_pageActionTitle__"
+   },
+   "permissions": [ "activeTab", "storage", "https://*.camelcamelcamel.com/*", "https://camelcamelcamel.com/*", "https://*.amazon.com/*", "https://*.amazon.co.uk/*", "https://*.amazon.fr/*", "https://*.amazon.de/*", "https://*.amazon.es/*", "https://*.amazon.ca/*", "https://*.amazon.it/*", "https://*.amazon.com.au/*" ],
+   "short_name": "Camelizer",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.0.10"
+}

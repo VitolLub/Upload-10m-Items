@@ -1,0 +1,28 @@
+<div class="widget">
+    <div class="widget__header">
+        <img src="images/icon_notes_small.svg" width="23" height="23" />
+        <h1 class="widget__title">{{ 'widget_title_notes' | i18n }}<span ng-show="notes.length > 0" class="notes-count" ng-click="showList = showList ? false : true">{{notes.length}}</span></h1>
+    </div>
+    <div class="notes-menu">
+        <div class="notes-menu__show-all" ng-click="showList = showList ? false : true">
+            <span class="toggle" ng-class="{'active': showList}"></span>
+            <span class="notes-menu__action">{{ 'show_all' | i18n }}</span>
+        </div>
+        <span class="notes-menu__action notes-menu__action_add" ng-click="addNote()">{{ 'notes_add' | i18n }}</span>
+    </div>
+    <div class="widget__content" ui-tree="notesOptions" data-empty-placeholder-enabled="false">
+        <div class="note-date">{{notes[openedNote].created| date : 'd MMMM yyyy, HH:mm'}}</div>
+        <textarea class="note" ng-model="notes[openedNote].body" ng-change="editNote(this)" ng-model-options="{'debounce': 500}" autofocus></textarea>
+        <ul ui-tree-nodes="" ng-model="notes" class="notes-list" ng-class="{'active': showList}">
+            <li ng-repeat="note in notes track by note.created"
+                ng-class="{'active' : openedNote==$index}"
+                ng-click="openNote($index)"
+                ui-tree-node
+                class="notes-list__item">
+                {{note.title}}
+                <span class="notes-list__drag" ui-tree-handle></span>
+                <span class="notes-list__remove" ng-click="removeNote(note, $event)"></span>
+            </li>
+        </ul>
+    </div>
+</div>

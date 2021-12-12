@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/fav.png",
+      "default_popup": "popup.html",
+      "default_title": "SellerApp"
+   },
+   "content_scripts": [ {
+      "css": [ "css/loader.css" ],
+      "matches": [ "https://*.amazon.com/*", "http://*.amazon.com/*" ]
+   } ],
+   "content_security_policy": "default-src https://*.firebaseio.com 'self'; script-src 'self' https://apis.google.com:* http://localhost:3000 https://localhost:3000 https://localhost:8097 http://localhost:8097 http://localhost:8000 https://localhost:8000 https://*.firebaseio.com  https://apis.google.com/js/api.js  'unsafe-eval';  connect-src ws://localhost:8000 wss://localhost:8097 ws://localhost:8097 http://146.148.105.219:32400 http://34.136.189.203:8084 http://localhost:9200 http://localhost:3000 https://localhost:3000 https://localhost:8097 http://localhost:8097 https://localhost:8000 http://localhost:8000 http://localhost:33200 https://securetoken.googleapis.com https://appsuite.fibotalk.com http://*.amazon.com https://*.amazon.com http://*.amazon.ca https://*.amazon.ca http://*.amazon.com.mx https://*.amazon.com.mx http://*.amazon.co.uk https://*.amazon.co.uk http://*.amazon.de https://*.amazon.de http://*.amazon.it https://*.amazon.it http://*.amazon.es https://*.amazon.es http://*.amazon.fr https://*.amazon.fr http://*.amazon.in https://*.amazon.in http://*.amazon.co.jp https://*.amazon.co.jp http://*.amazon.com.au https://*.amazon.com.au https://*.firebaseio.com https://*.googleapis.com http://localhost:32100 https://localhost:32100 http://35.224.31.39:11866 https://*.sellerprime.com:* http://*.sellerprime.com:* https://*.sellerapp.com:* http://*.sellerapp.com:* http://ip-api.com; style-src * 'unsafe-inline' 'self' blob:; font-src * 'unsafe-inline' 'self' blob:; img-src https://m.media-amazon.com https://cdn.sellerapp.com https://*.amazon.com  https://*.ssl-images-amazon.com https://s.alicdn.com https://www.countryflags.io 'self' data:;frame-src https://dashboard.sellerapp.com/ https://dashboard.sellerapp.com/* https://goseller.firebaseapp.com/",
+   "description": "SellerApp’s Chrome extension to Research and compare products on the go for Amazon Sellers",
+   "externally_connectable": {
+      "ids": [ "icghibfdnckphcciaddomipiocdakphe", "lebpbmopodkmcadehlkmghfcfmgnacdm", "bkdkbhjcfhfkmkbffkdklaiepfbllbgg" ],
+      "matches": [ "https://dashboard.sellerapp.com/*", "http://dashboard.sellerapp.com/*" ]
+   },
+   "icons": {
+      "128": "img/fav128.png",
+      "16": "img/fav.png",
+      "48": "img/fav48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkvjJlj2S2DaBX2xrjEvOgA0IPHNMVYjEKXBSgGCTInfnRhQUOe3wyAdctC63j2HlzQqTY6RboK7Lqah4fSgb3Ljr1Nc9P6PLvsScM4w6uE5zdpOf0s6GpoC87pPyTmqNnuaSmSJ/qi888VRZgaf5NhnOcXAfuDD5EjAvOoZyaZbe0CEmUYGSYvXjv/mqwpVnYuc/JrRjOfAH/3fAMsFABsdZN1w1WGCrdvvNzA9KwkpO5kyTLCaQyi2hdes//H6YkW2mkAEYgc5fn4mpz2/eNXlKaKLvJ4ZJngDUdBaglPu2JLNq/5zQd3g6i6LWPt62C5vc8GEAnXy0QBJVzlSPRwIDAQAB",
+   "manifest_version": 2,
+   "name": "SellerApp: Supercharge your Amazon Sales",
+   "oauth2": {
+      "client_id": "207791529245-01l6t9giet4d8nq8i80hudv0qapv3jg9.apps.googleusercontent.com/",
+      "scopes": [ "https://www.googleapis.com/auth/plus.login", "https://www.googleapis.com/auth/userinfo.profile", "https://www.googleapis.com/auth/userinfo.email" ]
+   },
+   "permissions": [ "storage", "gcm", "identity", "https://www.amazon.com/", "https://dashboard.sellerapp.com/" ],
+   "short_name": "SellerApp Chrome Extension",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.5.2",
+   "web_accessible_resources": [ "inject.html", "img/draggable.png", "img/fav.png" ]
+}

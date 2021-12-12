@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="42px" viewBox="0 0 48 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_gdrive</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="15.6842887 0 31.9094149 0 47.5937036 28 31.3685774 28"></polygon>
+        <filter x="-1.6%" y="-1.8%" width="103.1%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.889140428   0 0 0 0 0.556561711  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M8.18910897,40.9230769 C10.5407893,36.5748574 15.7608345,28 15.7608345,28 L47.6702494,28 L39.5576863,42 L8.18910896,42 C8.18910896,42 8.0168808,41.2415241 8.18910897,40.9230769 Z" id="path-3"></path>
+        <filter x="-1.3%" y="-3.6%" width="102.5%" height="107.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.580392157   0 0 0 0 0.71372549   0 0 0 0 0.909803922  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="43.6025947%" y1="-46.318583%" x2="43.6025947%" y2="109.619183%" id="linearGradient-5">
+            <stop stop-color="#155ACA" offset="0%"></stop>
+            <stop stop-color="#2F71DD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.80742852%" y1="44.531045%" x2="41.0102288%" y2="65.409263%" id="linearGradient-6">
+            <stop stop-color="#002D77" stop-opacity="0.801800272" offset="0%"></stop>
+            <stop stop-color="#2F71DD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-7" points="16.0983344 28.0292171 22.9564638 41.4486225 8.44368746 41.4486225"></polygon>
+        <linearGradient x1="34.0319283%" y1="26.4114835%" x2="86.8797674%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#1B935A" offset="0%"></stop>
+            <stop stop-color="#118B50" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-796.000000, -324.000000)">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row">
+                    <g id="item" transform="translate(484.000000, 0.000000)">
+                        <g id="icon_gdrive" transform="translate(26.000000, 24.000000)">
+                            <g id="Yellow">
+                                <use fill="#FFCF48" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Blue">
+                                <use fill="#4587F4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            </g>
+                            <polygon id="Green" fill="#1BA261" points="15.6842887 0 23.7968518 14.5384615 8.11256311 42 0 28"></polygon>
+                            <g id="Blue-Shadow">
+                                <use fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                            </g>
+                            <polygon id="Green-Shadow" fill="url(#linearGradient-8)" points="15.6991762 0.0180757963 20.4120287 20.4549319 23.8218734 14.5194001"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Extension-Upd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bitmotion_share-popup" transform="translate(-474.000000, -497.000000)" fill="#FFFFFF">
+            <g id="popup" transform="translate(414.000000, 132.000000)">
+                <g id="share-icons" transform="translate(30.000000, 345.000000)">
+                    <g id="fb">
+                        <g id="up">
+                            <path d="M32.8706874,39.8830711 L32.8706874,30.7262083 L30,30.7262083 L30,27.4333703 L32.8706874,27.4333703 L32.8706874,25.0188422 C32.8706874,25.0188422 32.6641882,20 36.8555338,20 L40.2459558,20 L40.2459557,23.3549283 L38.1333624,23.3549283 C38.1333624,23.3549283 36.5785758,23.2675035 36.5616553,24.9303455 L36.5616551,27.4333703 L39.979492,27.4333703 L39.4865325,30.7262083 L36.5278145,30.7262083 L36.5278145,40 L32.8706874,40 L32.8706874,39.8830711 Z" id="fb"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

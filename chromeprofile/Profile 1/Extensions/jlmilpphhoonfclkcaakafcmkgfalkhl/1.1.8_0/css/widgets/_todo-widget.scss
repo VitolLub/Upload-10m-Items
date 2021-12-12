@@ -1,0 +1,133 @@
+/* Todo widget */
+.todo {
+    margin-top: 10px;
+    margin-left: 40px;
+    background-image: url('../images/todo_bg@2x.png');
+    background-size: 1px 39px;
+    min-height: calc(100% - 105px);
+    &_done {
+        background: none;
+        min-height: none;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        position: relative;
+        .cancel {
+            display: none;
+            position: absolute;
+            right: 10px;
+        }
+        &:hover {
+            .cancel,
+            .drag {
+                display: block;
+            }
+        }
+        &.done {
+            .todo__status {
+                background-color: $blue;
+                border-color: $blue;
+                background-image: url('../images/icon_done@2x.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 12px 10px;
+            }
+            .todo__text {
+                line-height: 39px;
+                text-decoration: line-through;
+            }
+        }
+        &_new {
+            form {
+                width: 100%;
+            }
+            .todo__status:hover {
+                border: 1px solid #D0D0D0;
+                &:before {
+                    display: none;
+                }
+            }
+        }
+
+        &.ng-leave {
+            transition: 0.3s linear all;
+            opacity: 1;
+        }
+        &.ng-leave.ng-leave-active {
+            opacity: 0;
+        }
+
+    }
+    &__status {
+        display: block;
+        position: absolute;
+        left: -25px;
+        width: 18px;
+        min-width: 18px;
+        height: 18px;
+        border-radius: 9px;
+        border: 1px solid #D0D0D0;
+        margin-right: 7px;
+        float: left;
+        &:hover {
+            border: 3px solid $blue;
+            &::before {
+                content: '';
+                display: block;
+                width: 6px;
+                height: 6px;
+                border-radius: 3px;
+                background-color: $blue;
+                position: absolute;
+                top: 3px;
+                left: 3px;
+            }
+        }
+    }
+    &__text {
+        display: block;
+        width: 100%;
+        height: 39px;
+        font-size: 14px;
+        color: #323232;
+        border: none;
+        border-bottom: 1px solid #D8D8D8;
+        padding-right: 32px;
+        outline: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    span.todo__text {
+        line-height: 39px;
+    }
+    &.angular-ui-tree-nodes {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    &.angular-ui-tree-drag {
+        background-image: none;
+        margin-left: 0;
+        margin-top: 0;
+        .todo__item {
+            padding: 0;
+            margin: 0;
+        }
+        .todo__text {
+            border-bottom: none;
+        }
+    }
+    .angular-ui-tree-placeholder {
+        padding: 0;
+        margin-left: -35px;
+        margin-right: 5px;
+    }
+    & .drag {
+        top: 8px;
+        right: 32px;
+        &:hover {
+            background-color: transparent;
+            background-image: url('../images/drag-dark@2x.png');
+        }
+    }
+}

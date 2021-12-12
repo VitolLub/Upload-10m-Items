@@ -1,0 +1,155 @@
+.animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#anim_03 {
+    width: 100%;
+    top: 50%;
+    svg {
+        transform: translateY(-50%);
+    }
+}
+
+#anim_04 {
+    background-color: #060e1b;
+}
+
+#anim_05 {
+    left: 50%;
+    width: 130%;
+    height: 130%;
+    transform: translateX(-50%) translateY(-12%);
+}
+
+$arms: 7;
+$bands: 6;
+$spots: 6;
+$speed: 2s;
+$colour: magenta;
+$hue-shift: 180deg / $bands;
+
+#anim_06 {
+
+    overflow: hidden;
+    .container {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	perspective: 80vmin;
+        z-index: -1;
+    	transform-style: preserve-3d;
+    	animation: move-container $speed ease-in-out infinite;
+    }
+
+    .box {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform-style: preserve-3d;
+    	animation: move-box $speed*3 linear infinite;
+    }
+
+    .arm {
+    	position: absolute;
+    	transform-style: preserve-3d;
+    	@for $i from 1 to $arms+1 {
+    		&:nth-child(#{$i}) {
+    			transform: rotateZ((360deg/$arms)*$i);
+    			.arm {
+    				animation-delay: ($speed * -3) + ((($speed*3)/$arms)*$i);
+    			}
+    		}
+    	}
+    }
+
+    .band {
+    	position: absolute;
+    	transform-style: preserve-3d;
+    	left: 0;
+    	animation-name: move-band;
+    	animation-duration: $speed;
+    	animation-timing-function: ease-in-out;
+    	animation-iteration-count: infinite;
+    }
+
+    .spot {
+    	position: absolute;
+    	transform-style: preserve-3d;
+    	border-radius: 50%;
+    	animation-duration: $speed;
+    	animation-timing-function: ease-in-out;
+    	animation-iteration-count: infinite;
+    	animation-name: move-spot;
+    }
+}
+.page_sidebar #anim_06 .container {
+    left: calc(50% - 160px);
+}
+.page.pause_animation #anim_06 * {
+    animation-play-state: paused;
+}
+
+@for $i from 1 to $bands+1 {
+	.band:nth-child(#{$i}) {
+		top: (-5vmin + (-7.5vmin * $i));
+		animation-delay: ($speed*-1)+((($speed/2)/$bands) * $i);
+		@for $j from 1 to $spots+1 {
+			.spot:nth-child(#{$j}) {
+				$w: .75vmin + (.33vmin * $i);
+				$h: .75vmin + (.33vmin * $i);
+				width: $w;
+				height: $h;
+				top: 0 - ($h / 2);
+				width: 0 - ($w / 2);
+				background-color: adjust-hue($colour, ($hue-shift * ($i - 1)));
+				transform: rotateY((360deg/$spots)*$j) translateZ((-3vmin * $i));
+				animation-delay:((($speed/2)/$bands) * $i) + (($speed*-1.5) + (($speed/$spots)*$j));
+			}
+		}
+	}
+}
+
+@keyframes move-container {
+	0% {
+		transform: scale(.9);
+	}
+	50% {
+		transform: scale(.6);
+	}
+	100% {
+		transform: scale(.9);
+	}
+}
+
+@keyframes move-box {
+	0% {
+		transform: rotateZ(0deg);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+
+@keyframes move-band {
+	0% {
+		transform: translate(-50%, -50%) rotateY(0deg);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotateY(-360deg);
+	}
+}
+
+@keyframes move-spot {
+	0% {
+		opacity: .7;
+	}
+	50% {
+		opacity: .1;
+	}
+	100% {
+		opacity: .7;
+	}
+}

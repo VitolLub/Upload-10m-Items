@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "O aplikaci"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Účet"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Název účtu"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "Přidat účet"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Naskenovat QR kód"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Ruční zadání"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " byl přidán."
+   },
+   "advanced": {
+      "message": "Pokročilé"
+   },
+   "advisor": {
+      "message": "Advisor"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Autofill can be enabled to automatically fill codes into websites."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Enable auto-lock to protect your data."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "Browser sync is disabled. Enabling it allows accounts to be synced across browsers."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Nastavte si heslo pro ochranu vašich dat."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Enabling smart filter allows for quick access to accounts."
+   },
+   "algorithm": {
+      "message": "Algoritmus"
+   },
+   "autolock": {
+      "message": "Zamknout po"
+   },
+   "backup": {
+      "message": "Záloha"
+   },
+   "backup_file_info": {
+      "message": "Backup your data to a file."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Založeno na počítadle"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Na základě času"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "Browser Sync"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Získávání dat selhalo, prosím načtěte stránku znovu a opakujte akci."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "Are you trying to scan QR code from a local file? Use Import QR Image Backup instead."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Pozor! Váš místní čas se velmi liší, před pokračováním jej prosím opravte."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Zavřít"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Opravdu chcete tento účet smazat? Tuto akci nelze vrátit zpět."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "Chápu, že všechna moje data budou nenávratně smazána."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Potvrzení hesla"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Zkopírováno"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Stávající heslo"
+   },
+   "danger": {
+      "message": "Danger"
+   },
+   "delete_all": {
+      "message": "Resetovat autentifikátor"
+   },
+   "delete_all_warning": {
+      "message": "Tímto smažete všechna vaše data a kompletně obnovíte autentifikátor. Nebudete moci obnovit žádná odstraněná data! Před resetováním autentifikátoru byste měli zvážit uložení zálohy."
+   },
+   "digits": {
+      "message": "Digits"
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Stáhnout záložní soubor"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Stáhnout zálohy chráněné heslem"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Warning: backups are unencrypted. Use at your own risk."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Upravit"
+   },
+   "enable_context_menu": {
+      "message": "Add to context menu"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Šifrováno"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "QR kód nebyl rozpoznán."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Neplatné číslo účtu"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Upozornění: všechny zálohy jsou nešifrované. Chcete přidat účet do jiné aplikace? Najeďte myší na pravý horní roh libovolného účtu a klikněte na skryté tlačítko."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Authenticator generuje kódy dvoufázového ověření ve Vašem prohlížeči."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Authenticator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Authenticator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Zpětná vazba"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Importovat zálohu"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Importovat textovou zálohu"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Importovat záložní soubor"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "Import QR Image Backup"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "You can select multiple files to import backup in batches."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Import successful, but some QR codes could not be recognized."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Je nutné zadat správné heslo pro import zálohy."
+   },
+   "info": {
+      "message": "Info"
+   },
+   "invalid": {
+      "message": "Invalid"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Vydavatel"
+   },
+   "learn_more": {
+      "message": "Learn more"
+   },
+   "loading": {
+      "message": "Načítání..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Vaše heslo je lokálně uloženo, prosím změňte to ihned v menu zabezpečení."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Zámek"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Odhlásit se"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "Ruční zálohování"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "Import se nezdařil. Pokud migrujete data z Google Authenticator, prosím znovu exportujte svá data z Google Authenticator a zkuste to znovu."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "Některá data účtu nebyla úspěšně importována."
+   },
+   "minutes": {
+      "message": "minutách"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Nové heslo"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Ne"
+   },
+   "no_entires": {
+      "message": "No accounts to display. Add your first account now."
+   },
+   "no_insight_available": {
+      "message": "No insights found, everything looks good!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "Ok"
+   },
+   "onedrive_business_perms": {
+      "message": "Why do business accounts require more permissions?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "You can import backups from some other applications."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Learn more"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "You have one or more Steam or Blizzard accounts. Unencrypted backups will not use standardized backup format."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Zadejte heslo pro dešifrování dat účtu."
+   },
+   "password_policy_default_hint": {
+      "message": "Vaše heslo nesplňuje bezpečnostní požadavky vaší organizace. Pro více informací kontaktujte svého správce."
+   },
+   "period": {
+      "message": "Period"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Heslo"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Nelze přidat nový účet, dokud nejsou všechny účty dešifrovány. Před pokračováním zadejte prosím správné heslo."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "Účty které nebylo možno dešifrovat nebudou zahrnuty v této záloze."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Heslo se neshoduje."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Popup mód"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Zapamatovat si heslo"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Máte zálohu vašich účtů? Nečekejte než je příliš pozdě!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Odstranit"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Vyskakovací stránka"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Měřítko"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Hledat"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Secret"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Zabezpečení"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Toto heslo bude použito k šifrování vašich účtů. Nikdo vám nemůže pomoci, pokud zapomenete heslo."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Nastavení"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Ukaž všechny záznamy"
+   },
+   "show_all_insights": {
+      "message": "Show all insights."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Přihlásit se"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Sign in (Business)"
+   },
+   "smart_filter": {
+      "message": "Chytrý filtr"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Zdrojový kód"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Automatically backup your data to 3rd party storage services."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Synchronizovat hodiny s Google"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "Motiv"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "Tmavý"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "Vysoký kontrast"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "Světlý"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Simple"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "There was an issue connecting to your $SERVICE$ account, please sign in again.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Přeložit"
+   },
+   "type": {
+      "message": "Type"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Aktualizovat"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Došlo k chybě."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Úspěch."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Použití automatického vyplňování"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Použít vysoký kontrast"
+   },
+   "warning": {
+      "message": "Warning"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Ano"
+   }
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width: 890px), screen and (max-height: 450px) {
+    #titleTextContainer
+    {
+        float:none;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    #contents
+    {
+        left: initial;
+        margin-left: initial;
+    }
+
+    #titlerow
+    {
+        float: right;
+    }
+
+    #titleImgContainer
+    {
+        display: none;
+    }
+
+    #titleTextContainer
+    {
+        padding:initial;
+    }
+
+    #titleColumnLeft
+    {
+        -webkit-transform: scale(.75);
+    }
+}

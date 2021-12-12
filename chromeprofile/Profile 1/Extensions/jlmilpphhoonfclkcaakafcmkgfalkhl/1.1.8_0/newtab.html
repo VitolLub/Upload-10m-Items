@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+		  display: none !important;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="js/init.js" defer></script>
+	<script src="js/sharing.js" defer></script>
+
+	<script src="app/lib/angular.js" defer></script>
+	<script src="app/lib/angular-route.js" defer></script>
+	<script src="app/lib/angular-animate.js" defer></script>
+	<script src="app/lib/angular-sanitize.js" defer></script>
+	<script src="app/lib/angular-ui-tree.js" defer></script>
+	<script src="app/lib/ngDialog.js" defer></script>
+
+	<!--<script src="app/lib/i18next.js" defer></script>-->
+	<!--<script src="app/lib/i18nextBrowserLanguageDetector.js" defer></script>-->
+	<!--<script src="app/lib/ng-i18next.js" defer></script>-->
+
+	<!--<script src="app/locales/index.js" defer></script>-->
+	<script src="app/app.js" defer></script>
+
+	<script src="app/shared/cache.service.js" defer></script>
+	<script src="app/shared/notification.service.js" defer></script>
+	<script src="app/shared/bg.service.js" defer></script>
+	<script src="app/shared/activity.service.js" defer></script>
+	<script src="app/shared/to-fahrenheit.filter.js" defer></script>
+	<script src="app/shared/highlight.filter.js" defer></script>
+	<script src="app/shared/i18n.filter.js" defer></script>
+	<script src="app/shared/require-action.filter.js" defer></script>
+	<script src="app/shared/ng-blur-delay.directive.js" defer></script>
+	<script src="app/shared/countdown.directive.js" defer></script>
+
+	<script src="app/components/main/main.controller.js" defer></script>
+	<script src="app/components/info/info.controller.js" defer></script>
+	<script src="app/components/info/info.directive.js" defer></script>
+	<script src="app/components/search/search.directive.js" defer></script>
+	<script src="app/components/weather/weather.controller.js" defer></script>
+	<script src="app/components/weather/weather-settings.controller.js" defer></script>
+	<script src="app/components/weather/weather.directive.js" defer></script>
+	<script src="app/components/weather/weather.service.js" defer></script>
+	<script src="app/components/to-do/to-do.controller.js" defer></script>
+	<script src="app/components/extensions/extensions.controller.js" defer></script>
+	<script src="app/components/extensions/install-type.filter.js" defer></script>
+	<script src="app/components/notes/notes.controller.js" defer></script>
+	<script src="app/components/bookmarks/bookmarks.controller.js" defer></script>
+	<script src="app/components/bookmarks/bookmarks-bar.directive.js" defer></script>
+	<script src="app/components/history/history.controller.js" defer></script>
+	<script src="app/components/settings/settings.controller.js" defer></script>
+	<script src="app/components/sharing/sharing.controller.js" defer></script>
+	<script src="app/components/rate/rate.controller.js" defer></script>
+	<script src="app/components/notifications/notifications.controller.js" defer></script>
+	<script src="app/components/page/page.controller.js" defer></script>
+	<script src="app/components/quick-bar/quick-bar-settings.controller.js" defer></script>
+
+</head>
+<body class="page"
+	ng-controller="MainController"
+	ng-class="[{'page_sidebar overflow-hidden': !sidebarHidden, 'page_with-bookmarks': settings.bookmarksBar}, background.bg]">
+
+
+	<info ng-if="settings.showCtBar"></info>
+
+	<div ng-class="{'loader-hidden': loaded}" class="loader">
+        <div class="loader__spinner">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+        </div>
+	</div>
+
+    <div class="main">
+
+		<div class="bookmarks-bar-container">
+			<bookmarks-bar ng-if="settings.bookmarksBar"></bookmarks-bar>
+		</div>
+
+		<div class="logo" ng-class="{'hidden' : settings.showLogo === false}">
+			<img srcset="images/logo@2x.png 2x" />
+		</div>
+
+        <header class="header">
+			<a class="back" href="#!/" ng-if="$location.path().indexOf('/page') !== -1" ng-cloak>&larr; {{ 'go_to_newtab' | i18n }}</a>
+            <ul class="menu">
+				<li class="menu__item menu__item_dropdown-apps">
+                    <span ng-click="toggleDropdownApps()"><img src="images/icon_widgets.svg" /></span>
+					<div class="dropdown-apps" ng-if="showDropdownApps" ng-cloak>
+						<div class="dropdown-apps__items">
+							<a href="https://maps.google.com/">
+								<img src="images/apps/app_icons_maps@2x.png">
+								<span>{{ 'google_maps' | i18n }}</span>
+							</a>
+							<a href="https://www.youtube.com/">
+								<img src="images/apps/app_icons_youtube@2x.png">
+								<span>YouTube</span>
+							</a>
+							<a href="https://mail.google.com/">
+								<img src="images/apps/app_icons_gmail@2x.png">
+								<span>Gmail</span>
+							</a>
+							<a href="https://www.google.com/drive/">
+								<img src="images/apps/app_icons_disk@2x.png">
+								<span>{{ 'google_drive' | i18n }}</span>
+							</a>
+							<a href="https://play.google.com/">
+								<img src="images/apps/app_icons_play@2x.png">
+								<span>Play</span>
+							</a>
+							<a href="https://photos.google.com/">
+								<img src="images/apps/app_icons_photos@2x.png">
+								<span>{{ 'google_photos' | i18n }}</span>
+							</a>
+							<a href="https://translate.google.com/">
+								<img src="images/apps/app_icons_translate@2x.png">
+								<span>{{ 'google_translate' | i18n }}</span>
+							</a>
+							<a href="https://news.google.com/">
+								<img src="images/apps/app_icons_news@2x.png">
+								<span>{{ 'google_news' | i18n }}</span>
+							</a>
+							<a href="https://docs.google.com/">
+								<img src="images/apps/app_icons_docs@2x.png">
+								<span>{{ 'google_docs' | i18n }}</span>
+							</a>
+							<a href="https://www.facebook.com/">
+								<img src="images/apps/app_icons_facebook@2x.png">
+								<span>Facebook</span>
+							</a>
+							<a href="https://www.instagram.com/">
+								<img src="images/apps/app_icons_instagram@2x.png">
+								<span>Instagram</span>
+							</a>
+							<a href="https://twitter.com/">
+								<img src="images/apps/app_icons_twitter@2x.png">
+								<span>Twitter</span>
+							</a>
+							<a href="https://www.amazon.com/?_encoding=UTF8">
+								<img src="images/apps/app_icons_amazon@2x.png">
+								<span>Amazon</span>
+							</a>
+							<a href="https://www.booking.com/?aid=1563398">
+								<img src="images/apps/app_icons_booking@2x.png">
+								<span>Booking</span>
+							</a>
+							<a href="http://www.ebay.com/">
+								<img src="images/apps/app_icons_ebay@2x.png">
+								<span>Ebay</span>
+							</a>
+						</div>
+					</div>
+                </li>
+                <li class="menu__item" ng-if="(notifications|filter:{isActionRequired:true}).length > 0" ng-click="showNotifications()" ng-cloak>
+                    <img ng-src="{{ (notifications|filter:{isRead:false}).length > 0 ? 'images/icon_notification_has-new.svg' : 'images/icon_notification.svg' }}" />
+                    <span class="menu__notification" ng-if="(notifications|filter:{isRead:false}).length > 0"><i ng-bind="(notifications|filter:{isRead:false}).length"></i></span>
+					<span class="tooltip">{{ 'menu_tooltip_item_notifications' | i18n }}</span>
+                </li>
+                <li class="menu__item">
+                    <a href="#!/settings"><img src="images/icon_settings.svg" /></a>
+					<span class="tooltip tooltip_place_left-bottom">{{ 'menu_tooltip_item_settings' | i18n }}</span>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+			<search type="{{searchType}}" placeholder="{{'search_placeholder_type_'+searchType | i18n}}" ng-style="!settings.apps ? { 'margin-bottom':'50px' } : ''" class="search"></search>
+			<div ui-tree="appsOptions">
+	            <div class="apps" ng-class="{'hidden' : settings.apps === false}" ui-tree-nodes="" ng-model="apps" ng-cloak>
+					<a class="apps__item" ui-tree-node ng-repeat="item in apps" ng-click="goTo(QUICKBAR_ICONS[item.id].url)" ng-class="{'active': $location.path() == QUICKBAR_ICONS[item.id].url, 'hover' : destIndex == $index}">
+						<span ui-tree-handle class="apps__icon" ng-style="{'background-color': QUICKBAR_ICONS[item.id].bgColor, 'background-image': QUICKBAR_ICONS[item.id].bgImage ? 'url(images/{{QUICKBAR_ICONS[item.id].bgImage}})' : ''}">
+							<img ng-if="QUICKBAR_ICONS[item.id].icon" ng-src="images/{{ QUICKBAR_ICONS[item.id].icon }}"/>
+							<span class="apps__letter" ng-if="!QUICKBAR_ICONS[item.id].icon && !QUICKBAR_ICONS[item.id].bgImage" ng-bind="QUICKBAR_ICONS[item.id].name[0]"></span>
+							<span class="apps__notification" ng-if="item.id == 'todo' && todoCount > 0" ng-bind="todoCount" ng-cloak></span>
+						</span>
+						<span class="apps__title"><b ng-bind="QUICKBAR_ICONS[item.id].name"></b></span>
+					</a>
+	            </div>
+				<div class="apps" id="apps" ng-if="!apps"></div>
+			</div>
+        </div>
+    </div>
+
+    <div class="sidebar" ng-if="$location.path().indexOf('/page') == -1">
+		<a class="sidebar__cancel" ng-click="closeSidebar()"></a>
+		<ng-view></ng-view>
+    </div>
+
+	<ng-view ng-if="$location.path().indexOf('/page') !== -1"></ng-view>
+
+	<div class="tip" ng-if="bgTip && !topTip" ng-cloak>
+		<p>{{ 'tip_switch_backgrounds' | i18n }}</p>
+        <button class="link-btn link-btn_primary" ng-click="closeBgTip()">{{ 'ok_got_it' | i18n }}</button>
+	</div>
+
+	<div class="top-tip" ng-if="topTip" ng-cloak>
+		<div class="top-tip__text" ng-bind-html="topTip.text"></div>
+		<div class="top-tip__btns">
+			<button type="button" class="top-tip__btn top-tip__btn_secondary" ng-click="hideTopTip();">{{ 'hide' | i18n }}</button>
+			<button type="button" class="top-tip__btn top-tip__btn_primary" ng-click="openTopTip();">{{ 'open' | i18n }}</button>
+		</div>
+	</div>
+
+	<weather></weather>
+
+</body>
+</html>

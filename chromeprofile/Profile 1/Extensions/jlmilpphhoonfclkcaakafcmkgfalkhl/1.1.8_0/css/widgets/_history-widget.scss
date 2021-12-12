@@ -1,0 +1,185 @@
+/* History widget */
+.sites {
+    display: block;
+    &__item {
+        display: block;
+        min-height: 36px;
+        padding: 0 0 0 20px;
+        transition: all .3s;
+        position: relative;
+        &:hover {
+            background-color: $blue;
+            a {
+                color: #fff;
+            }
+            & > a {
+                padding-right: 65px;
+            }
+        }
+        &.has-child:hover {
+            background-color: #fff;
+        }
+        a {
+            display: block;
+            font-size: 13px;
+            color: #494949;
+            text-decoration: none;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding-right: 35px;
+            line-height: 36px;
+            position: relative;
+            &:hover {
+                color: #fff;
+                & > .remove,
+                & > .drag {
+                    display: block;
+                }
+            }
+        }
+        &.expanded {
+            & > .folder {
+                background-size: 15px 11px;
+                background-position: 0 12px;
+                background-image: url('../images/icon_folder-opened@2x.png');
+            }
+            & > .sites {
+                display: block;
+            }
+            & > .empty {
+                display: block;
+            }
+        }
+    }
+    &__icon {
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+        float: left;
+        margin-top: 10px;
+    }
+    .sites {
+        display: none;
+        margin-left: 6px;
+        padding-bottom: 10px;
+        &.ng-empty {
+            padding-bottom: 0;
+        }
+        .sites__item {
+            padding-left: 12px;
+            border-left: 2px solid #D0D0D0;
+            position: relative;
+            &:first-child:before,
+            &:last-child:after {
+                content: '';
+                position: absolute;
+                width: 2px;
+                background-color: #fff;
+                z-index: 1;
+                display: block;
+                height: 10px;
+                width: 2px;
+                left: -2px;
+            }
+            &:first-child:hover:before,
+            &:last-child:hover:after {
+                display: none;
+            }
+            &:first-child:before {
+                top: 0;
+            }
+            &:last-child:after {
+                bottom: 0;
+            }
+        }
+        .angular-ui-tree-placeholder {
+            margin-left: 0;
+        }
+    }
+    &_no-transition {
+        .sites__item {
+            transition: none;
+        }
+    }
+}
+
+.nothing {
+    display: block;
+    color: #7B8287;
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+}
+
+.folder {
+    display: block;
+    height: 36px;
+    padding-left: 26px;
+    font-size: 13px;
+    line-height: 36px;
+    color: #30344A;
+    background-repeat: no-repeat;
+    background-position: 0 12px;
+    background-size: 13px 11px;
+    background-image: url('../images/icon_folder-closed@2x.png');
+    cursor: default;
+    position: relative;
+    &:hover {
+        color: #4285F4;
+        .remove,
+        .drag {
+            display: block;
+        }
+    }
+}
+.empty {
+    display: none;
+    color: #7B8287;
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.remove {
+    display: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover {
+        background-color: $blue;
+        &:after,
+        &:before {
+            background-color: #fff;
+        }
+    }
+    &:active {
+        background-color: #545454;
+    }
+    &:after,
+    &:before {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 12px;
+        background-color: #545454;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 11px;
+        transition: all .3s;
+    }
+    &:after {
+        transform: rotate(45deg);
+    }
+    &:before {
+        transform: rotate(-45deg);
+    }
+}

@@ -1,0 +1,24 @@
+<script type="text/ng-template" id="bookmarks.html">
+    <span ng-class="{'link': data.url}" ng-click="data.url ? openBookmark(data.url) : toggleBookmarks($event)">
+        <img ui-tree-handle ng-src="{{data.url ? ('chrome://favicon/size/16@2x/'+data.url) : 'images/folder@2x.png'}}" width="16" />
+        {{data.title}}
+    </span>
+    <ul class="bookmarks-nested-list" ui-tree-nodes="" ng-model="data.children">
+        <li ui-tree-node ng-repeat="data in data.children" ng-include="'bookmarks.html'"></li>
+    </ul>
+</script>
+
+<div class="bookmarks-bar" ui-tree="bookmarksOptions">
+    <ul ng-if="bookmarksBar.length > 0" class="bookmarks-list" ui-tree-nodes="" ng-model="bookmarksBar">
+        <li ui-tree-node ng-repeat="data in bookmarksBar">
+            <span ng-class="{'link': data.url}" ng-click="data.url ? openBookmark(data.url) : toggleBookmarks($event, true)">
+                <img ui-tree-handle ng-src="{{data.url ? ('chrome://favicon/size/16@2x/'+data.url) : 'images/folder@2x.png'}}" width="16" />
+                {{data.title}}
+            </span>
+            <ul class="bookmarks-nested-list" ui-tree-nodes="" ng-model="data.children">
+                <li ui-tree-node ng-repeat="data in data.children" ng-include="'bookmarks.html'"></li>
+            </ul>
+        </li>
+    </ul>
+    <span class="bookmarks-bar__empty" ng-if="bookmarksBar.length == 0">{{ 'empty' | i18n }}</span>
+</div>

@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "vendor.js", "background_csv_editor_desktop_screenshot_editor_options_popup_vision_editor.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "38": "logo38.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content_script.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "logo128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx0JRufkmCKrHAL37dWmu4gQT9xh9/AktNTdCSNoLxmzPVdvOfhjbcocQ7veb5inYE9hprJ/vcsWOrjAO9xvTXk+zUZQRNoUtamCnCqbGwuKD98OMDb9S5/QoK4/ThniS4e1RuL3K12wydJ/GUGOMX+TF3GtDODYmzIJIGDXOmcTy821sr9tsDUN0LQDa/8MK29rtGUmXleWt/gPgwhpIAb1k0ATCOk1P3QbnybRuRTAfFvAz5hTKLJ0A6755gGYo7qjFQHK8EUloo7bQ5ufvRqSnfLcziOHUkQthlgIUu4MDAPBNLQ7jMWuOT40yaJ3H5ftrkPv1gCobWmFdDMYGKQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "bookmarks", "clipboardRead", "clipboardWrite", "cookies", "debugger", "downloads", "downloads.shelf", "notifications", "storage", "tabs", "proxy", "webRequest", "webRequestBlocking", "nativeMessaging", "contextMenus", "\u003Call_urls>" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.2.8",
+   "web_accessible_resources": [ "content_script.js", "inject.js", "logo.png" ]
+}

@@ -1,0 +1,395 @@
+{
+   "Friday": {
+      "message": "Пятница"
+   },
+   "Monday": {
+      "message": "Понедельник"
+   },
+   "Saturday": {
+      "message": "Суббота"
+   },
+   "Sunday": {
+      "message": "Воскресенье"
+   },
+   "Thursday": {
+      "message": "Четверг"
+   },
+   "Tuesday": {
+      "message": "Вторник"
+   },
+   "Wednesday": {
+      "message": "Среда"
+   },
+   "about": {
+      "message": "О проекте"
+   },
+   "add_custom_button": {
+      "message": "Добавить ссылку"
+   },
+   "add_link": {
+      "message": "Добавить ссылку"
+   },
+   "add_to_chrome": {
+      "message": "Добавить в Chrome"
+   },
+   "additional": {
+      "message": "Дополнительно"
+   },
+   "additional_backgrounds": {
+      "message": "Дополнительные фоны"
+   },
+   "apps_remove_tooltip": {
+      "message": "Удалить из Chrome"
+   },
+   "apps_title": {
+      "message": "Приложения и расширения"
+   },
+   "apps_title_extensions": {
+      "message": "Расширения"
+   },
+   "bg_change_mode_30sec": {
+      "message": "Каждые 30 секунд"
+   },
+   "bg_change_mode_everyday": {
+      "message": "Каждый день"
+   },
+   "bg_change_mode_everyhour": {
+      "message": "Каждый час"
+   },
+   "bg_change_mode_never": {
+      "message": "Никогда"
+   },
+   "bg_change_mode_random": {
+      "message": "При открытии вкладки"
+   },
+   "bookmarks_search_placeholder": {
+      "message": "Поиск в закладках"
+   },
+   "bookmarks_tab_bar": {
+      "message": "Панель закладок"
+   },
+   "bookmarks_tab_other": {
+      "message": "Другие"
+   },
+   "browserActionTitle": {
+      "message": "Открыть новую вкладку"
+   },
+   "cancel": {
+      "message": "Отменить"
+   },
+   "change_background": {
+      "message": "Сменить фон"
+   },
+   "change_widgets_bar": {
+      "message": "Добавить виджеты"
+   },
+   "choose_background": {
+      "message": "Выбрать фон"
+   },
+   "contact_us": {
+      "message": "Обратная связь"
+   },
+   "dismiss": {
+      "message": "Закрыть"
+   },
+   "empty": {
+      "message": "Пусто"
+   },
+   "extDescription": {
+      "message": "Улучшенная стартовая страница со списком дел, заметками, прогнозом погоды, фоновыми изображениями и другими полезными виджетами."
+   },
+   "extName": {
+      "message": "CryptoTab START"
+   },
+   "ext_description": {
+      "message": "Улучшенная стартовая страница со списком дел, заметками, прогнозом погоды, фоновыми изображениями и другими полезными виджетами."
+   },
+   "ext_name": {
+      "message": "CryptoTab START"
+   },
+   "go_to_newtab": {
+      "message": "Назад"
+   },
+   "google_docs": {
+      "message": "Документы"
+   },
+   "google_drive": {
+      "message": "Диск"
+   },
+   "google_maps": {
+      "message": "Карты"
+   },
+   "google_news": {
+      "message": "Новости"
+   },
+   "google_photos": {
+      "message": "Фото"
+   },
+   "google_translate": {
+      "message": "Перводчик"
+   },
+   "hide": {
+      "message": "Скрыть"
+   },
+   "hide_details": {
+      "message": "Скрыть"
+   },
+   "history_clear": {
+      "message": "Очистить"
+   },
+   "history_search_placeholder": {
+      "message": "Поиск в истории"
+   },
+   "info_tooltip_1": {
+      "message": "Курс рассчитан на основе данных Coinmarketcap"
+   },
+   "info_tooltip_2": {
+      "message": "и представлен только в ознакомительных целях."
+   },
+   "label_color": {
+      "message": "Цвет"
+   },
+   "left_bottom_promo_newbackgrounds_text": {
+      "message": "Скачать"
+   },
+   "left_bottom_promo_newbackgrounds_title": {
+      "message": "Галерея фонов обновлена"
+   },
+   "location": {
+      "message": "Город"
+   },
+   "location_text": {
+      "message": "Укажите для прогноза погоды"
+   },
+   "menu_tooltip_item_notifications": {
+      "message": "Уведомления"
+   },
+   "menu_tooltip_item_settings": {
+      "message": "Настройки"
+   },
+   "name": {
+      "message": "Имя"
+   },
+   "newtab": {
+      "message": "Новая вкладка"
+   },
+   "notes_add": {
+      "message": "Добавить"
+   },
+   "notes_count": {
+      "message": "Заметка"
+   },
+   "notes_count_plural": {
+      "message": "Заметки"
+   },
+   "notes_new": {
+      "message": "Новая заметка"
+   },
+   "nothing_found": {
+      "message": "Нет результатов"
+   },
+   "notification_search_label": {
+      "message": "Сделайте поиск удобнее"
+   },
+   "ok_got_it": {
+      "message": "Ок, понятно"
+   },
+   "open": {
+      "message": "Открыть"
+   },
+   "open_new_tab": {
+      "message": "Открыть новую вкладку"
+   },
+   "pressure_imperial": {
+      "message": "дюймов"
+   },
+   "pressure_metric": {
+      "message": "мм рт. ст."
+   },
+   "privacy_policy": {
+      "message": "Конфиденциальность"
+   },
+   "quickbar_text": {
+      "message": "Перетащите нужный значок на основную панель"
+   },
+   "quickbar_tip_text": {
+      "message": "Перетаскивайте значки между панелями, заменяйте и меняйте местами."
+   },
+   "rate_btn": {
+      "message": "Оценить"
+   },
+   "rate_question": {
+      "message": "Как вам новая стартовая страница?"
+   },
+   "rate_text_1": {
+      "message": "Если вам нравится CryptoTab START, пожалуйста, поставьте оценку в Chrome Web Store."
+   },
+   "rate_text_2": {
+      "message": "Это займёт меньше минуты и не помешает вашим текущим занятиям."
+   },
+   "rate_title": {
+      "message": "Оцените CryptoTab START"
+   },
+   "rate_us": {
+      "message": "Оценить"
+   },
+   "save_changes": {
+      "message": "Сохранить"
+   },
+   "search_placeholder_type_images": {
+      "message": "Поиск изображений"
+   },
+   "search_placeholder_type_maps": {
+      "message": "Поиск в картах"
+   },
+   "search_placeholder_type_news": {
+      "message": "Поиск новостей"
+   },
+   "search_placeholder_type_videos": {
+      "message": "Поиск видео"
+   },
+   "search_placeholder_type_web": {
+      "message": "Поиск"
+   },
+   "search_tab_images": {
+      "message": "Картинки"
+   },
+   "search_tab_maps": {
+      "message": "Карты"
+   },
+   "search_tab_news": {
+      "message": "Новости"
+   },
+   "search_tab_videos": {
+      "message": "Видео"
+   },
+   "search_tab_web": {
+      "message": "Веб"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "sharing_popup_label": {
+      "message": "Поделиться"
+   },
+   "sharing_popup_text": {
+      "message": "Чтобы получить доступ к набору дополнительных фонов, поделитесь постом о расширении CryptoTab Start в социальных сетях или мессенджерах. Не нужно ничего писать или придумывать: пост уже готов, просто выберите сеть и нажмите «Поделиться»."
+   },
+   "sharing_popup_title": {
+      "message": "Разблокируйте дополнительные фоны"
+   },
+   "show_all": {
+      "message": "Показать все"
+   },
+   "show_bookmarks": {
+      "message": "Показать закладки"
+   },
+   "show_cryptotab_bar": {
+      "message": "Показать панель CryptoTab"
+   },
+   "show_details": {
+      "message": "Подробнее"
+   },
+   "show_logo": {
+      "message": "Показать логотип"
+   },
+   "show_widgets": {
+      "message": "Показать виджеты"
+   },
+   "speed_imperial": {
+      "message": "миль/ч"
+   },
+   "speed_metric": {
+      "message": "км/ч"
+   },
+   "store_text": {
+      "message": "Get more apps on"
+   },
+   "store_title": {
+      "message": "Chrome Web Store"
+   },
+   "terms_of_use": {
+      "message": "Правила"
+   },
+   "tip_switch_backgrounds": {
+      "message": "Выберите фон стартовой страницы. Поделитесь ссылкой на CryptoTab START в социальных сетях, чтобы разблокировать дополнительные фоны."
+   },
+   "todo_search_placeholder": {
+      "message": "Что нужно сделать?"
+   },
+   "todo_tab_done": {
+      "message": "Готово"
+   },
+   "todo_tab_todo": {
+      "message": "Задачи"
+   },
+   "unlock_background": {
+      "message": "Разблокировать фон"
+   },
+   "update_default_search": {
+      "message": "Изменить основной поиск"
+   },
+   "url_to_open": {
+      "message": "Адрес"
+   },
+   "weather_label_humidity": {
+      "message": "Влажность"
+   },
+   "weather_label_pressure": {
+      "message": "Давление"
+   },
+   "weather_label_wind": {
+      "message": "Ветер"
+   },
+   "weather_popup_title": {
+      "message": "Настройки прогноза погоды"
+   },
+   "weather_units_imperial": {
+      "message": "Английские (Фаренгейт)"
+   },
+   "weather_units_metric": {
+      "message": "Метрические (Цельсий)"
+   },
+   "weather_units_title": {
+      "message": "Единицы измерения"
+   },
+   "widget_jettickets": {
+      "message": "Поиск рейсов"
+   },
+   "widget_title_apps": {
+      "message": "Приложения"
+   },
+   "widget_title_bookmarks": {
+      "message": "Закладки"
+   },
+   "widget_title_cryptobrowser": {
+      "message": "Получить BTC"
+   },
+   "widget_title_history": {
+      "message": "История"
+   },
+   "widget_title_maps": {
+      "message": "Карты"
+   },
+   "widget_title_nbc": {
+      "message": "NBC News"
+   },
+   "widget_title_notes": {
+      "message": "Заметки"
+   },
+   "widget_title_todo": {
+      "message": "Список дел"
+   },
+   "widget_title_vk": {
+      "message": "Вконтакте"
+   },
+   "widget_title_weather": {
+      "message": "Погода"
+   },
+   "widget_title_wikipedia": {
+      "message": "Википедия"
+   },
+   "widgets": {
+      "message": "Виджеты"
+   }
+}

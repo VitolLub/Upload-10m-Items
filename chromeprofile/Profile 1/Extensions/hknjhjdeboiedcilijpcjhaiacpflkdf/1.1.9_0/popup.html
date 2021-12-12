@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <title>PAYAD.ME - Новый взгляд на рекламу</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="https://payad.me/themes/payadme/bt/css/bt.css" rel="stylesheet">
+	<link href="https://payad.me/themes/payadme/css/style.css" rel="stylesheet">
+	<link href="https://payad.me/themes/payadme/css/reg.css" rel="stylesheet">
+	<link href="css/popup.css" rel="stylesheet">
+	<script src="js/jquery-1.12.2.js"></script>
+    <script src="js/popup.js"></script>
+  </head>
+  <body class="is-new-ui is-mp-ui">
+	<h2 class="title">Загрузка...</h2>
+    <div id="popup" class="popup-container popup-content">
+		<div class="Cube" style="top:0;height:245px">
+		<div class="Cube panelLoad">
+			<div class='cube-face cube-face-front'></div>
+			<div class='cube-face cube-face-back'></div>
+			<div class='cube-face cube-face-left'></div>
+			<div class='cube-face cube-face-right'></div>  
+			<div class='cube-face cube-face-bottom'></div>
+			<div class='cube-face cube-face-top'></div>
+		</div></div>
+		<div id="loginform">
+			<div class="authform">
+				<form id="form_userauth" name="form_userauth">
+					<div style="display:inline;margin:0;padding:0"><input type="hidden" name="x" value="" autocomplete="off"><input type="hidden" name="key" value="" autocomplete="off"></div>
+					<div class="form-group">
+						<input class="form-control" type="email" name="rusername" id="rusername" placeholder="Email" autocomplete="off">
+					</div>
+					<div class="form-group">
+						<a id="rpassword-eye" tabindex="-1" class="password-eye" title="Показать/скрыть пароль"></a>
+						<input class="form-control" type="password" name="rpassword" id="rpassword" placeholder="Пароль" autocomplete="off">
+					</div>
+					<div class="form-forget">
+						<a class="small" target="_blank" href="https://payad.me/recovery">Забыли пароль?</a>
+						<a class="small" target="_blank" href="https://payad.me/register/clients">Регистрация</a>
+					</div>
+					<div class="form-group">
+						<div class="errors_container alert alert-danger alert-mini hide"></div>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-success btn-sm" id="userauthbutton">Войти</button>
+					<hr><div class="hrstyle">или войти через</div>
+						<div class="hybridauth-block">
+							<div>
+								<a class="btn unAuthVkontakteConnect registerLoginButton" target="_blank" href="https://payad.me/hybridauth?a=login&provider=Vkontakte">    
+									<em></em><span class="buttonText">Вконтакте</span>
+								</a>
+							</div>
+							<div>
+								<a class="btn unAuthFacebookConnect registerLoginButton" target="_blank" href="https://payad.me/hybridauth?a=login&provider=Facebook">    
+									<em></em><span class="buttonText">Facebook</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div id="pamprof-info">
+			<div id="oldversion" class="alert alert-info alert-mini"><span class="pamicons">w</span>Доступна новая версия расширения. <a target="_blank" href="https://payad.me/">Обновите расширение.</a></div>
+			<div id="txt" class="alert alert-success alert-mini"></div>
+			<div id="pamprof-image"><a target="_blank" href="https://payad.me/profile"><img src="" alt="" class="userimg avatar"></a></div>
+			<div id="pamprof-details">
+				<div id="pamprof-balance">Баланс: <a target="_blank" title="Вывод средств" href="https://payad.me/profile/balance/payouts"></a></div>
+				<div class="pamprof-location pamicons-pre"></div>
+				<div class="pamprof-gender pamicons-pre"></div>
+				<a target="_blank" href="https://payad.me/profile" style="text-decoration:underline;">Открыть мой профиль</a>
+			</div>  
+			<div class="clear"></div>
+		</div>
+		<div id="pamprof-stats">
+			<div class="statistic">
+				<h4 class="caption"><span class="pamicons">X</span>Статистика за день</h4>
+				<div id="pamprof-balance-stat">
+				За последний просмотр: <b class="lastpay"></b><br>
+				Заработано с просмотров: <b class="zarabotano_seg"></b><br>
+				Заработано с рефералов: <b class="zarefov"></b><br>
+				Заработано всего: <b class="zarabotano"></b><br>
+				Просмотров всего: <b class="prosmotrov"></b>
+				</div>
+			</div>
+			<div class="setting">
+				<div id="pamprof-balance-stat">
+				<span>Показывать рекламу?</span><br>
+				<label for="poweryes"><input id="poweryes" type="radio" name="power" value="1">Да</label>
+				<label for="powerno"><input id="powerno" type="radio" name="power" value="0">Нет</label>
+				<div class="clear"></div>
+				<span>В какой части экрана показывать рекламу?</span><br>
+				<label for="leftarea"><input id="leftarea" type="radio" name="area" value="left">Внизу слева</label>
+				<label for="rightarea"><input id="rightarea" type="radio" name="area" value="right">Внизу справа</label>
+				<div class="clear"></div>
+				<span>Включить помощник</span><br>
+				<label for="helperyes"><input id="helperyes" type="radio" name="helper" value="1">Да</label>
+				<label for="helperno"><input id="helperno" type="radio" name="helper" value="0">Нет</label>
+				<div class="clear"></div><br>
+				<span>Push уведомления</span><br>
+				<label for="pushyes"><input id="pushyes" type="radio" name="push" value="1">Да</label>
+				<label for="pushno"><input id="pushno" type="radio" name="push" value="0">Нет</label>
+				<div class="clear"></div><br>
+				</div>
+				<div class="btn-setting">
+					<a id="save-setting" class="btn btn-success">Сохранить</a>
+					<a id="cancel-setting" class="btn">Отмена</a>
+				</div>
+			</div>
+		</div>
+		<div class="btn-group">
+			<input type="checkbox" id="s3" /><label class="slider-v2" for="s3" title="Выключатель рекламы"></label>
+			<a id="pamprof-edit" class="btn"><span class="pamicons edit">N</span>Настройки</a>
+			<a id="logingout" href="https://payad.me/auth?out=1" class="btn"><span class="pamicons edit">L</span>Выйти</a>
+		</div>
+	</div>
+  </body>
+</html>

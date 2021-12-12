@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "scripts/jquery-2.1.1.min.js", "scripts/background.js" ]
+   },
+   "browser_action": {
+
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "styles/style.css" ],
+      "js": [ "scripts/jquery-2.1.1.min.js", "scripts/jquery-ui.min.js", "scripts/bootstrap.min.js", "scripts/lodash.js", "scripts/contentscript.js" ],
+      "matches": [ "*://*.amazon.com/*", "*://*.amazon.co.uk/*", "*://*.amazon.ca/*", "*://*.amazon.in/*", "*://*.amazon.co.jp/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.cn/*", "*://*.amazon.com.mx/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'unsafe-eval' 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "images/Add_product_arrow-on.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnMRBwUWQz5+ao88MFw0RAccjwQLutb5/fXz198Oyezh2LF1qSskdKUbYzsTwukuO2jeWUNshPhpcaMp936qfbAEVOzPDt6sj6S1jVNOfbHDlbXvOyZTmDVUcrUa43cO9UqNWMS442n9Vwa7gspCNB4MNuPqQ9vEUQVm8YzNLuJNLQ3kdvXoAkuyLb0uvvUGVnVvHeLepw4o4z4szXRKCcGVFv/Lb34IOeReS5HQqLnTfoeUL7zt5zJYFot2WHz7Djt5EI+Thej5+h/tz7bGywLIrxNZbKGuVxBrapbTdka+jjhjE8tMaieSoqZmKrHEYjIiK64SREFmP2H3pruJepQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.14"
+}

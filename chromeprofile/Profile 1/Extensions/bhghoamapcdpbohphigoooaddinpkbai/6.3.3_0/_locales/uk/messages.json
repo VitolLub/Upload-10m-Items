@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Про додаток"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Обліковий запис"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Логін"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "Add account"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Сканувати QR-код"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Ручне введення"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " був доданий."
+   },
+   "advanced": {
+      "message": "Додатково"
+   },
+   "advisor": {
+      "message": "Порадник"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Увімкнути автозаповнення для автоматичного заповнення кодів на веб-сайтах."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Увімкніть автоблокування для захисту ваших даних."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "Синхронізацію браузера вимкнено. Увімкнення дозволяє синхронізувати облікові записи між браузерами."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Встановіть пароль для захисту ваших даних."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Увімкнення розумного фільтра дозволяє отримати швидкий доступ до облікових записів."
+   },
+   "algorithm": {
+      "message": "Алгоритм"
+   },
+   "autolock": {
+      "message": "Блокувати після"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "backup_file_info": {
+      "message": "Backup your data to a file."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "На підставі лічильника"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "На підставі часу"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "Browser Sync"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "Помилка захоплення, будь ласка, оновіть сторінку та спробуйте знову."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "Are you trying to scan QR code from a local file? Use Import QR Image Backup instead."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Увага! Ваш місцевий годинник налаштовано неправильно. Будь ласка, виправте його, перш ніж продовжити."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Закрити"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Ви впевнені, що хочете видалити цей обліковий запис? Цю дію не можна скасувати."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "Я розумію, що всі мої дані буде невиправно видалено."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Підтвердити пароль"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Скопійовано"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Поточний пароль"
+   },
+   "danger": {
+      "message": "Загроза"
+   },
+   "delete_all": {
+      "message": "Скинути автентифікатор"
+   },
+   "delete_all_warning": {
+      "message": "Це призведе до видалення всіх Ваших даних і повного скидання автентифікатора. Ви не зможете відновити втрачені дані! Вам слід розглянути можливість збереження резервної копії перед скиданням автентифікатора."
+   },
+   "digits": {
+      "message": "Цифри"
+   },
+   "dismiss": {
+      "message": "Відхилити"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Завантажити резервну копію"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Завантажити захищену паролем резервну копію"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Попередження: резервні копії не зашифровані. Використовуйте на свій страх і ризик."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Редагувати"
+   },
+   "enable_context_menu": {
+      "message": "Add to context menu"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Зашифровано"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Нерозпізнаний QR-код."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Неприпустимий ідентифікатор аккаунта."
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Попередження: усі резервні копії не зашифровані. Хочете додати акаунт в інший додаток? Наведіть курсор на праву частину будь-якого облікового запису і натисніть приховану кнопку."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "Автентифікатор генерує коди двофакторної аутентифікації у вашому браузері."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Authenticator"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Authenticator"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Відгук"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Імпортувати резервну копію"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Імпорт та резервні копії з тексту"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Імпортувати файл резервної копії"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "Імпортувати резервну копію QR-зображення"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "Ви можете вибрати декілька файлів для імпорту резервних копій групами."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Import successful, but some QR codes could not be recognized."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Ви повинні вказати правильний пароль для імпорту резервних копій."
+   },
+   "info": {
+      "message": "Інформація"
+   },
+   "invalid": {
+      "message": "Невірний"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Видавець"
+   },
+   "learn_more": {
+      "message": "Дізнатись більше"
+   },
+   "loading": {
+      "message": "Завантаження..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "Ваш пароль зберігається локально, будь ласка, негайно змініть його в меню безпеки."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Заблокувати"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Вийти"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "Ручне резервне копіювання"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "Import failed. If you are migrating data from Google Authenticator, please re-export your data from Google Authenticator and try again."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "Some account data was not imported successfully."
+   },
+   "minutes": {
+      "message": "хвилин"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Новий пароль"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Ні"
+   },
+   "no_entires": {
+      "message": "No accounts to display. Add your first account now."
+   },
+   "no_insight_available": {
+      "message": "Не знайдено жодних відомостей, все виглядає добре!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "ОК"
+   },
+   "onedrive_business_perms": {
+      "message": "Чому бізнес-акаунти потребують більше дозволів?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Ви можете імпортувати резервні копії з деяких інших програм."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Детальніше"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "У вас є один або кілька облікових записів Steam або Blizzard. Незашифровані резервні копії не будуть використовувати стандартизований формат."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Введіть пароль для розшифровки даних облікового запису."
+   },
+   "password_policy_default_hint": {
+      "message": "Ваш пароль не відповідає вимогам безпеки вашої організації. Для отримання додаткової інформації зверніться до адміністратора."
+   },
+   "period": {
+      "message": "Період"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Пароль"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Ви не можете додати новий обліковий запис, поки всі облікові записи не будуть розшифровані. Будь ласка, введіть правильний пароль перед продовженням."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "Облікові записи, які не змогли розшифруватися, не будуть включені до цієї резервної копії."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "Пароль не підходить."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Спливаючий режим"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Запам'ятати пароль"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "У вас є резервні копії ваших облікових записів? Зробіть зараз. Не чекайте, доки це буде занадто пізно!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Видалити свій пароль"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Налаштування"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Масштаб"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Пошук"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Ключ"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Захист"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Цей пароль буде використовуватися для шифрування ваших облікових записів. Ніхто не може допомогти вам, якщо ви забудете пароль."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Налаштування"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Показати всі записи"
+   },
+   "show_all_insights": {
+      "message": "Показати всі деталі."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Увійти"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Увійти (Бізнес)"
+   },
+   "smart_filter": {
+      "message": "Розумний фільтр"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Вихідний код"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Автоматично створювати резервні копії Ваших даних у сторонніх сервісах-сховищах."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Синхронізувати годинник з Google"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "Тема"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "Темна"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "Висока контрастність"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "Світла"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Simple"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Виникла проблема з підключенням до вашого облікового запису $SERVICE$, будь ласка, увійдіть знову.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Переклад"
+   },
+   "type": {
+      "message": "Тип"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Оновити"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Невдача."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Успішно."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Використовувати автозаповнення"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Використовувати високу контрастність"
+   },
+   "warning": {
+      "message": "Попередження"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Так"
+   }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CBA</title>
+    <script type="text/javascript" src="js/browser-polyfill.min.js"></script>
+    <script type="module" src="js/cba-components.js"></script>
+    <script type="text/javascript" src="js/popup.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+  </head>
+  <body>
+    <div id="projectsManagement">
+      <div id="projects">
+        <cba-list heading="Projects" subheading="record"></cba-list>
+        <div class="controls">
+          <cba-button data-action="addGroup" title="Add new group">G+</cba-button>
+          <cba-button data-action="addProject" title="Add new project">+</cba-button>
+          <cba-button data-action="removeProject" title="Delete">-</cba-button>
+          <cba-button id="renameBtn" data-action="renameProject">Rename</cba-button>
+          <cba-button id="saveBtn" data-action="saveProject">Save</cba-button>
+        </div>
+      </div>
+
+      <cba-table id="actions" caption="Actions" droppable="true" reorder="true">
+        <cba-column text="inputs$0" width="33%">data</cba-column>
+        <cba-column text="type" width="33%">event</cba-column>
+        <cba-column text="inputs$1" width="33%">value</cba-column>
+      </cba-table>
+      <cba-list id="functions" heading="Functions" subHeading="Name" drag="true" tooltip-text="info.description" tooltip-link="info.link"></cba-list>
+    </div>
+    <div id="actionInput">
+      <textarea rows="3" cols="39" id="actionData"></textarea>
+      <div>
+        <select id="actionEvType"></select>
+        <cba-tooltip id="actionInfo" arrow="y"><img src="/css/images/info.svg#default" /></cba-tooltip>
+        <input type="text" id="actionNewValue"/>
+      </div>
+    </div>
+    <div>
+      <div id="actionsControl">
+        <cba-button data-action="addAction">Add</cba-button>
+        <cba-button data-action="deleteAction">Delete</cba-button>
+        <cba-button data-action="saveAction">Save</cba-button>
+      </div>
+      <div id="playbackControl">
+        <cba-button id="recordButton" data-action="record">Rec</cba-button>
+        <cba-button data-action="stop">stop</cba-button>
+        <cba-tooltip id="playButtonTooltip" arrow="y">
+          <cba-button id="playButton" data-action="play">play</cba-button>
+        </cba-tooltip>
+        <input type="text" id="repeat" size="3" value="1"/> times
+      </div>
+      <div id="notification" class="notification"></div>
+    </div>
+    <div id="logo">
+
+      <a href="http://chrome-automation.com/" target="_blank">
+        chrome-automation.com
+        <img src="logo.png" style="width: 50px;" />
+      </a>
+    </div>
+  </body>
+</html>

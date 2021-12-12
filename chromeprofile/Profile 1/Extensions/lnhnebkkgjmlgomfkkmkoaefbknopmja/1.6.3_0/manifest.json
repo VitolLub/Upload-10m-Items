@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+      "default_icon": "icons/app_38.png",
+      "default_popup": "index.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/app_128.png",
+      "16": "icons/app_16.png",
+      "48": "icons/app_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAggi51gKcE9x2D+P7GXQAH47YIkkASC85djTblPKj98iUpmdy+88Y18zAttMph6tfqk7umfW8Ca738UnrmYAS/3trD9espNPgHojEIGDPqjo0+hDwPIbz/W/h0I5KRKQSrVtvtdm1HEIsVF7RKEL7Tt74hcka/G1Gj9yBQgS7UY9g7CN9vSLhuupHyjCyhf/yLdYer+OuCVlwrV4Mmo+N6EB3d6sqhIJe0wVWl24EPkfFkg/0z8ud3C5zTlmMyIe4YcZSWaY/p3SHUPWOkECqe49su7EesZcewdABnXSW2eRPCeUiPT8kRDOfF5a4Codc+3zVKojG5h+XI8/XFGqZLQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_title__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.3"
+}

@@ -1,0 +1,50 @@
+<div class="widget">
+    <div class="widget__header">
+        <img src="images/icon_to-do.svg" width="23" height="20" />
+        <h1 class="widget__title">{{ 'widget_title_todo' | i18n }}</h1>
+    </div>
+    <div class="widget__content" ui-tree="todoOptions" data-empty-placeholder-enabled="false">
+        <div class="widget__section">
+            <form ng-submit="add()">
+                <div class="input">
+                    <input type="text" placeholder="{{ 'todo_search_placeholder' | i18n }}" ng-model="ctrl.newItem" ng-required="true" ng-focus="topInputFocused=true" ng-blur="topInputFocused=false" />
+                    <span class="cancel"></span>
+                </div>
+            </form>
+        </div>
+        <ul class="widget-tabs">
+            <li class="widget-tabs__item" ng-click="ctrl.doneFilter=false" ng-class="{'active': !ctrl.doneFilter}">{{ 'todo_tab_todo' | i18n }}</li>
+            <li class="widget-tabs__item" ng-click="ctrl.doneFilter=true" ng-class="{'active': ctrl.doneFilter}">{{ 'todo_tab_done' | i18n }}</li>
+        </ul>
+        <ul ng-if="!ctrl.doneFilter" ui-tree-nodes="" ng-model="undoneList" class="todo">
+            <li class="todo__item"
+                ng-repeat="item in undoneList track by $id(item)"
+                ui-tree-node
+                data-scroll-container=".widget__content"
+                ng-class="{'done' : item.done && ctrl.doneFilter && !item.inProgress || item.inProgress && !ctrl.doneFilter }">
+                <span class="todo__status" ng-click="done(item)"></span>
+                <span ng-if="item.done" class="todo__text">{{item.text}}</span>
+                <input ng-if="!item.done" class="todo__text" type="text" ng-model="item.text" ng-change="save()" ng-model-options="{debounce: 500}" />
+                <span class="drag" ui-tree-handle ng-hide="ctrl.doneFilter"></span>
+                <span class="cancel" ng-click="ctrl.remove(item);"></span>
+            </li>
+            <li class="todo__item todo__item_new" ng-hide="ctrl.doneFilter">
+                <span class="todo__status" ng-click="add('inline', true);"></span>
+                <form ng-submit="add('inline')">
+                    <input class="todo__text" type="text" ng-model="ctrl.newItemInline" ng-required="true" ng-blur-delay="add('inline')" />
+                </form>
+            </li>
+        </ul>
+        <ul ng-if="ctrl.doneFilter" class="todo todo_done">
+            <li class="todo__item"
+                ng-repeat="item in doneList track by $id(item)"
+                data-scroll-container=".widget__content"
+                ng-class="{'done' : item.done && ctrl.doneFilter && !item.inProgress || item.inProgress && !ctrl.doneFilter }">
+                <span class="todo__status" ng-click="done(item)"></span>
+                <span ng-if="item.done" class="todo__text">{{item.text}}</span>
+                <input ng-if="!item.done" class="todo__text" type="text" ng-model="item.text" ng-change="save()" ng-model-options="{debounce: 500}" />
+                <span class="cancel" ng-click="ctrl.remove(item);"></span>
+            </li>
+        </ul>
+    </div>
+</div>

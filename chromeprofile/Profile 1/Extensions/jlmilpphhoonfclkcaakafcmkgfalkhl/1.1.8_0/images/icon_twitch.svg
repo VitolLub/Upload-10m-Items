@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="39px" viewBox="0 0 38 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_twitch</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-1172.000000, -305.000000)" fill="#FFFFFF">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="item" transform="translate(25.000000, 86.000000)">
+                    <g transform="translate(156.000000, 197.000000)" id="icon">
+                        <g transform="translate(10.000000, 0.000000)">
+                            <path d="M23.671875,22 L21,28.6940299 L21,56.0522388 L30.5,56.0522388 L30.5,61 L35.84375,61 L40.890625,56.0522388 L48.609375,56.0522388 L59,45.8656716 L59,22 L23.671875,22 Z M55.4375,44.119403 L49.5,49.9402985 L40,49.9402985 L34.953125,54.8880597 L34.953125,49.9402985 L26.9375,49.9402985 L26.9375,25.4925373 L55.4375,25.4925373 L55.4375,44.119403 Z M49.5,32.1865672 L49.5,42.3731343 L45.9375,42.3731343 L45.9375,32.1865672 L49.5,32.1865672 Z M40,32.1865672 L40,42.3731343 L36.4375,42.3731343 L36.4375,32.1865672 L40,32.1865672 Z" id="icon_twitch"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

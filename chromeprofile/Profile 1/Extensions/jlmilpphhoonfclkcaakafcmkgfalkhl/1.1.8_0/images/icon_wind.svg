@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_wind</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03-weather" transform="translate(-999.000000, -348.000000)">
+            <g id="weather" transform="translate(970.000000, 185.000000)">
+                <g id="active">
+                    <g id="params" transform="translate(20.000000, 163.000000)">
+                        <g id="wind">
+                            <g id="icon_wind" transform="translate(9.000000, 0.000000)">
+                                <circle id="Oval-7" stroke="#F7931A" stroke-width="1.5" cx="7" cy="7" r="6.25"></circle>
+                                <path d="M4.02594499,9.7775452 L6.89832604,3.1214843 C6.9123324,3.04049477 6.94896441,3 7.0092995,3 C7.06963458,3 7.1062666,3.04049477 7.12135037,3.1214843 L9.98080247,9.7775452 C10.01097,9.85853473 10.005583,9.92247383 9.96464129,9.96723121 C9.92369962,10.0109229 9.86228713,10.0109229 9.77932638,9.96723121 L7.12135037,7.91365352 C7.04700893,7.88381527 6.97159007,7.88381527 6.89724863,7.91365352 L4.21664696,9.96723121 C4.1412281,10.0109229 4.08197043,10.0109229 4.03671911,9.96723121 C3.9914678,9.92247383 3.98823556,9.85853473 4.02594499,9.7775452 Z" id="Path" fill="#494949"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

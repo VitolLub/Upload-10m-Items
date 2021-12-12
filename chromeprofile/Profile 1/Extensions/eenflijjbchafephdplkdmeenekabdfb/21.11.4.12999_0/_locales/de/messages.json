@@ -1,0 +1,20 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Preisverlauf für 6 Monate, ähnliche Produkte, Artikel nach Bild finden, Verkäuferbewertungen."
+   },
+   "EXTENSION_NAME": {
+      "message": "Alitools Shopping Assistent"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "Alitools"
+   },
+   "NAVIGATION_BRAND_TITLE": {
+      "message": "Alle waren $MESSAGE$",
+      "placeholders": {
+         "message": {
+            "content": "$1",
+            "example": "Bamoer"
+         }
+      }
+   }
+}

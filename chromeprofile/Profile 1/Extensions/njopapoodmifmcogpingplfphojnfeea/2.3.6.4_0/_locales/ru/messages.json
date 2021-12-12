@@ -1,0 +1,1856 @@
+{
+   "CM": {
+      "message": "см"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "дюйм"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "килограммы"
+   },
+   "POUND": {
+      "message": "фунты"
+   },
+   "RON": {
+      "message": "L"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "UAH": {
+      "message": "₴"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "VND": {
+      "message": "₫"
+   },
+   "aboutAppVersion": {
+      "message": "Версия приложения"
+   },
+   "aboutExpires": {
+      "message": "Истекает"
+   },
+   "aboutLicence": {
+      "message": "Лицензия"
+   },
+   "aboutLicenceType": {
+      "message": "Тип лицензии"
+   },
+   "aboutModalTitle": {
+      "message": "О приложении"
+   },
+   "aboutRegisteredTo": {
+      "message": "Зарегистрировано на"
+   },
+   "activeExceed": {
+      "message": "Количество активных установок превышено"
+   },
+   "activeLimit": {
+      "message": "Ограничение установок"
+   },
+   "addToTracker": {
+      "message": "Добавить в Tracker"
+   },
+   "additionalMonthlyCosts": {
+      "message": "Дополнительные месячные расходы"
+   },
+   "additionalProductCost": {
+      "message": "Дополнительные расходы на единицу товара"
+   },
+   "allRowsAreNotAvailable": {
+      "message": "Все строки будут доступны в платной версии."
+   },
+   "alreadyPaid": {
+      "message": "Я уже оплатил"
+   },
+   "alreadyPaidContact": {
+      "message": "Please contact us at \u003Ca class='btn--dotted already-pay__btn_dotted' href='mailto:support@amzscout.net'>support@amzscout.net\u003C/a> if this didn’t solve the problem."
+   },
+   "alreadyPaidQuestion": {
+      "message": "If you paid for PRO Extension and are still experiencing licensing issues, please follow these steps to fix it:"
+   },
+   "alreadyPaidStep1": {
+      "message": "Delete the AMZScout PRO Extension from your Chrome browser"
+   },
+   "alreadyPaidStep2": {
+      "message": "\u003Ca target='_blank' class='btn--dotted already-pay__btn_dotted' href='https://chrome.google.com/webstore/detail/amzscout-pro/njopapoodmifmcogpingplfphojnfeea?hl=en-US'>Reinstall\u003C/a> the AMZScout PRO Extension on Chrome"
+   },
+   "alreadyPaidStep2Edge": {
+      "message": "\u003Ca target='_blank' class='btn--dotted already-pay__btn_dotted' href='https://microsoftedge.microsoft.com/addons/detail/idcpecldgbbabloifgjogemdifohldkd'>Reinstall\u003C/a> the AMZScout PRO Extension on Edge"
+   },
+   "alreadyPaidStep3": {
+      "message": "Log on to the AMZScout PRO Extension on Chrome, and enjoy!"
+   },
+   "annual": {
+      "message": "На год"
+   },
+   "appDesc": {
+      "message": "Расширение AMZScout PRO поможет вам принять решение о выборе ниши на основе фактических данных, а не интуиции."
+   },
+   "appName": {
+      "message": "Amazon Product Finder - AMZScout PRO"
+   },
+   "apply": {
+      "message": "Применить"
+   },
+   "asin": {
+      "message": "ASIN"
+   },
+   "availableFrom": {
+      "message": "Дата добавления"
+   },
+   "availableFromTooltip": {
+      "message": "Дата добавления на Amazon"
+   },
+   "avgMarginImpact": {
+      "message": "Cредн. маржинальность"
+   },
+   "avgMonthlyRevenue": {
+      "message": "Средн. мес. выручка"
+   },
+   "avgMonthlySales": {
+      "message": "Средн. месячные продажи"
+   },
+   "avgPrice": {
+      "message": "Средн. цена"
+   },
+   "avgReviews": {
+      "message": "Средн. кол-во комментариев"
+   },
+   "avgSalesRank": {
+      "message": "Средн. ранг"
+   },
+   "benefit1": {
+      "message": "Найди ниши – минимизируй риски."
+   },
+   "benefit2": {
+      "message": "Точные показатели в реальном времени – максимизируй прибыль."
+   },
+   "benefit3": {
+      "message": "Проверяй и продавай с уверенностью."
+   },
+   "benefits": {
+      "message": "Преимущества"
+   },
+   "bestPractices": {
+      "message": "Best Practices from experts"
+   },
+   "bestSeller": {
+      "message": "BS"
+   },
+   "bestSellerCategory": {
+      "message": "Лидер продаж в"
+   },
+   "bestSellerLink": {
+      "message": "Ссылка на категорию"
+   },
+   "bestSellerTooltip": {
+      "message": "Лидер продаж"
+   },
+   "blog": {
+      "message": "Blog "
+   },
+   "brand": {
+      "message": "Бренд"
+   },
+   "bsr30Tooltip": {
+      "message": "Средний BSR за последние 30 дней"
+   },
+   "bulletsCount": {
+      "message": "Кол-во буллетов"
+   },
+   "bundlingItems": {
+      "message": "Bundling items to double your revenue"
+   },
+   "businessType": {
+      "message": "Business type:"
+   },
+   "buy": {
+      "message": "Купить"
+   },
+   "buyAtGoogle": {
+      "message": "Купить в Google Chrome Store"
+   },
+   "buyNow": {
+      "message": "Купить сейчас"
+   },
+   "buyPrice": {
+      "message": "Пожизненная лицензия за :price::currency"
+   },
+   "buyPriceRecurring": {
+      "message": ":price::currency в месяц"
+   },
+   "ca": {
+      "message": "Canada"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "cantGetProductsErr": {
+      "message": "На этой странице нет данных о товарах.\u003Cbr>\u003Cbr>Расширение AMZScout PRO может отображать данные только со страниц Amazon, на которых есть товары, например:\u003Cbr>- Страницы результатов поиска\u003Cbr>- Страницы с листингом товара\u003Cbr>- Такие страницы, как Best Sellers, Today’s Deals и другие\u003Cbr>"
+   },
+   "category": {
+      "message": "Категория"
+   },
+   "cessFee": {
+      "message": "Обслуживание и Cess"
+   },
+   "ch": {
+      "message": "China"
+   },
+   "chartMaxPeriod": {
+      "message": "Maximum available period"
+   },
+   "chartMonth": {
+      "message": "month"
+   },
+   "chartMonths": {
+      "message": "months"
+   },
+   "chartYear": {
+      "message": "year"
+   },
+   "chartYears": {
+      "message": "years"
+   },
+   "chartselectPeriod": {
+      "message": "Select period:"
+   },
+   "checkProfit": {
+      "message": "Check If Profitable"
+   },
+   "choosePaymentMethod": {
+      "message": "Выберите способ оплаты"
+   },
+   "choosingBest": {
+      "message": "Choosing the best niche with AMZScout Scores"
+   },
+   "chromeStore": {
+      "message": "Chrome Store"
+   },
+   "clear": {
+      "message": "Очистить"
+   },
+   "close": {
+      "message": "Закрыть"
+   },
+   "closingFee": {
+      "message": "Сбор за закрытие"
+   },
+   "columns": {
+      "message": "Столбцы"
+   },
+   "consideredHOT": {
+      "message": "This product is considered HOT because its sales grew by 20% or more for the past :textHot."
+   },
+   "contactSupplier": {
+      "message": "Contact Supplier"
+   },
+   "continue": {
+      "message": "Продолжить"
+   },
+   "copyASIN": {
+      "message": "Копировать ASIN"
+   },
+   "currencyType": {
+      "message": "Currency type"
+   },
+   "daily": {
+      "message": "1 день"
+   },
+   "data": {
+      "message": "Данные"
+   },
+   "dataLoading": {
+      "message": "Data is loading"
+   },
+   "deliveryFee": {
+      "message": "Сбор за доставку"
+   },
+   "descriptionLength": {
+      "message": "Длина описания"
+   },
+   "ebc": {
+      "message": "EBC"
+   },
+   "ebcTooltip": {
+      "message": "Листинг с улучшенным описанием"
+   },
+   "emptyImport": {
+      "message": "Продукты не найдены, проверьте ваш файл"
+   },
+   "enablePS": {
+      "message": "Включить всплывающее окно оценки AMZScout"
+   },
+   "enterP": {
+      "message": "Enter a product"
+   },
+   "error": {
+      "message": "Ошибка"
+   },
+   "estRevenue": {
+      "message": "Прибл. выручка"
+   },
+   "estRevenueTooltip": {
+      "message": "Приблизительная месячная выручка"
+   },
+   "estSales": {
+      "message": "Прибл. продажи"
+   },
+   "estSalesTooltip": {
+      "message": "Приблизительные месячные продажи"
+   },
+   "estimatedProfit": {
+      "message": "Прибл. мес. прибыль"
+   },
+   "estimatedProfitTooltip": {
+      "message": "Предполагаемый ежемесячный доход рассчитан на основе приблизительных ежемесячных продаж и процента прибыли"
+   },
+   "estimatedRevenue": {
+      "message": "Прибл. мес. выручка"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Приблизительный месячный доход основан на приблизительных месячных продажах и прибыли с одного товара"
+   },
+   "estimatedSales": {
+      "message": "Прибл. мес. продажи"
+   },
+   "export": {
+      "message": "Экспорт в CSV"
+   },
+   "extendTrial": {
+      "message": "Продлить пробный период"
+   },
+   "extendTrialMessage": {
+      "message": "Получите до 2 месяцев бесплатно"
+   },
+   "extractOneProductOnly": {
+      "message": "Извлекать один продукт только на странице продукта"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "faq_a_0": {
+      "message": "О: Указанная стоимость это разовый платёж. Вы получаете неограниченную по времени лицензию, все последующие обновления и поддержку."
+   },
+   "faq_a_1": {
+      "message": "О: Откройте сайт Amazon.com и сделайте запрос по интересующему Вас продукту. После загрузки результатов поиска активируйте расширение. В появившемся окне  через несколько секунд начнет появляться информация о найденных продуктах."
+   },
+   "faq_a_2": {
+      "message": "О: Расширение показывает значения приблизительных продаж за месяц."
+   },
+   "faq_a_3": {
+      "message": "О: Расчёт приблизительных продаж происходит по формуле, основанной на статистике реальных продаж продуктов по категориям."
+   },
+   "faq_a_4": {
+      "message": "О: Столбец Нетто показывает сумму, которая остается после вычета из цены комиссий FBA и реферальной комиссии Amazon, равной 15-ти процентам."
+   },
+   "faq_a_5": {
+      "message": "О: LQS (Listing Quality Score) переводится как индекс качества описания. Расширение AMZScout тщательно анализирует описание товаров по многим критериям и вычисляет результат. Товар с самым высоким индексом означает верхние позиции в поисковой выдаче. Чтобы увидеть детали наведите курсор на значение LQS выбранного товара."
+   },
+   "faq_a_6": {
+      "message": "О: RPR (Revenue Per Review) показывает месячную выручку на один комментарий. Чем выше показатель RPR, тем больше вероятность высокого уровня продаж товара на Amazon."
+   },
+   "faq_a_7": {
+      "message": "О: Комиссии FBA вычисляются исходя из расчета за единицу и включают в себя хранения на складе Amazon в течении месяца. Расчет производится в зависимости от указанного размера и веса, взятых со страницы товара."
+   },
+   "faq_a_8": {
+      "message": "О: Самый быстрый способ связи - это задать Ваш вопрос по адресу: to \u003Ca href='mailto:amazondevcrew@gmail.com'>amazondevcrew@gmail.com\u003C/a>"
+   },
+   "faq_q_0": {
+      "message": "В: Указанная стоимость расширения это разовый платёж или месячная подписка?"
+   },
+   "faq_q_1": {
+      "message": "В: Я приобрел доступ к расширению, что дальше?"
+   },
+   "faq_q_2": {
+      "message": "В: Данные по приблизительным продажам и прибыли указываются за месяц, день или год?"
+   },
+   "faq_q_3": {
+      "message": "В: Каким образом вычисляются приблизительные продажи?"
+   },
+   "faq_q_4": {
+      "message": "В: Что означает столбец Нетто?"
+   },
+   "faq_q_5": {
+      "message": "В: Что означает колонка LQS?"
+   },
+   "faq_q_6": {
+      "message": "В: Что означает столбец RPR?"
+   },
+   "faq_q_7": {
+      "message": "В: Как рассчитываются комиссии FBA: за единицу товара или за объем?"
+   },
+   "faq_q_8": {
+      "message": "В: Если у меня возникнут вопросы или проблемы с расширением AMZScout, как я могу связаться со службой поддержки?"
+   },
+   "favorites": {
+      "message": "Избранные"
+   },
+   "favoritesTooltip": {
+      "message": "Ваши избранные продукты"
+   },
+   "fbaFees": {
+      "message": "FBA сбор"
+   },
+   "fbaOnly": {
+      "message": "только FBA"
+   },
+   "featureIsNotAvailable": {
+      "message": "Эта функция доступна в платной версии"
+   },
+   "feedback": {
+      "message": "Обратная связь"
+   },
+   "filter": {
+      "message": "Фильтр"
+   },
+   "filters": {
+      "message": "Фильтры"
+   },
+   "findProfit": {
+      "message": "Find profitable products and niches"
+   },
+   "forever": {
+      "message": "Получить навсегда"
+   },
+   "fr": {
+      "message": "France"
+   },
+   "freeLaunchesLeft": {
+      "message": "Осталось :freeLaunchesLeft беспл. поисков"
+   },
+   "freeLaunchesLeftSingle": {
+      "message": "Осталcя :freeLaunchesLeft беспл. поиск"
+   },
+   "freeQuestion": {
+      "message": "У нас отличные новости для тебя!\u003Cbr>Мы рады предложить 3 месяца использования AMZScout Web App бесплатно в обмен на короткое интервью.\u003Cbr>Ты в деле?"
+   },
+   "freeQuestionNo": {
+      "message": "Нет, спасибо"
+   },
+   "freeQuestionTitle": {
+      "message": "Привет!"
+   },
+   "freeQuestionYes": {
+      "message": "Да, конечно"
+   },
+   "freshNicheIdea": {
+      "message": "У вас есть свежая идея ниши!"
+   },
+   "friendyNAInventory": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Сложно сказать, каков уровень запасов этого продукта на складе.\u003C/span>\u003C/div>"
+   },
+   "friendyNASales": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Сложно сказать, так как Amazon не дает ранг этого товара в родительской категории. Чем ниже ранг подкатегории, тем лучше продаётся товар.\u003C/span>\u003C/div>"
+   },
+   "from": {
+      "message": "от"
+   },
+   "getKeywords": {
+      "message": "Найти ключевые слова"
+   },
+   "getNicheIdea": {
+      "message": "Идея ниши"
+   },
+   "getNicheKeywords": {
+      "message": "Получить ключевые слова в нише"
+   },
+   "gotIt": {
+      "message": "Понятно"
+   },
+   "gotoFindP": {
+      "message": "Go to finding a product"
+   },
+   "gr": {
+      "message": "Germany"
+   },
+   "grew3M": {
+      "message": "Grew by 20% for the past 3 months"
+   },
+   "grewM": {
+      "message": "Grew by 20% for the past month"
+   },
+   "headers": {
+      "message": "Заголовки"
+   },
+   "hideSponsored": {
+      "message": "Скрывать спонсорские"
+   },
+   "hideTips": {
+      "message": "Скрыть эти советы"
+   },
+   "hot": {
+      "message": "Hot"
+   },
+   "howHacks": {
+      "message": "Amazon hacks"
+   },
+   "howTips": {
+      "message": "Tips from experts"
+   },
+   "howToStart": {
+      "message": "How to start"
+   },
+   "howToUsePro": {
+      "message": "How to use AMZScout PRO Extension"
+   },
+   "howToUserProExt": {
+      "message": "How to use Pro Extension"
+   },
+   "igotIt": {
+      "message": "I got it"
+   },
+   "imagesCount": {
+      "message": "Кол-во фотографий"
+   },
+   "import": {
+      "message": "Импорт из CSV"
+   },
+   "in": {
+      "message": "в"
+   },
+   "ind": {
+      "message": "India"
+   },
+   "instanceBlockedErr": {
+      "message": "Ваша копия AMZScout заблокирована. Пожалуйста, свяжитесь со службой поддержки по e-mail: amazondevcrew@gmail.com"
+   },
+   "instanceUnsupportedErr": {
+      "message": "Ваша версия расширения больше не поддерживается. Пожалуйста, обновите AMZScout до последней версии."
+   },
+   "inventory": {
+      "message": "На складе"
+   },
+   "inventoryTooltip": {
+      "message": "Количество товара на складе"
+   },
+   "it": {
+      "message": "Italy"
+   },
+   "jp": {
+      "message": "Japan"
+   },
+   "keepTracking": {
+      "message": "Получи около $$500 прибыли в первом месяце, выбирая выгодный продукт"
+   },
+   "keyword": {
+      "message": "Ключевое слово"
+   },
+   "keywords": {
+      "message": "Ключевые слова"
+   },
+   "keywordsNotFound": {
+      "message": "К сожалению, мы не нашли ключевых слов"
+   },
+   "keywordsPropositionFind": {
+      "message": "Получите \u003Cspan class='modal--keywords__decor'> тысячи ключевых слов \u003C/ span> для этого продукта, даже те, о которых ваши конкуренты не знают!"
+   },
+   "keywordsPropositionLearn": {
+      "message": "Узнайте о наших инструментах ключевых слов"
+   },
+   "keywordsPropositionReverse": {
+      "message": "Откройте Обратный ASIN Lookup, чтобы получить больше ключевых слов"
+   },
+   "learnHowToSell": {
+      "message": "Learn how to sell on Amazon"
+   },
+   "licenceExpired": {
+      "message": "К сожалению, лицензия на Product Tracker истекла. Вы можете продлить лицензию \u003Ca href=\"https://amzscout.net/app/#/tracker\">тут\u003C/a>."
+   },
+   "licenceFull": {
+      "message": "Полная"
+   },
+   "licenceTrial": {
+      "message": "Пробная"
+   },
+   "lifetime": {
+      "message": "Пожизенная"
+   },
+   "load20warn": {
+      "message": "\u003Cp class='load20-warn-content'>Загрузка 20 страниц займёт много времени и сильно \u003Cbr>нагрузит ваш компьютер. Продолжить?\u003C/p>"
+   },
+   "lqs": {
+      "message": "LQS"
+   },
+   "lqsTooltip": {
+      "message": "Индекс качества описания"
+   },
+   "mainProducts": {
+      "message": "Main products"
+   },
+   "mainProductsT": {
+      "message": "\u003Cdiv class='niche__tooltip-wrap'>\u003Cdiv class='niche__tooltip-title'>\u003Cstrong>The main products from this supplier are:\u003C/strong>\u003C/div>\u003Cdiv class='niche__tooltip-content'>:mainProducts\u003C/div>\u003C/div>"
+   },
+   "marginImpact": {
+      "message": "Маржа"
+   },
+   "marginImpactTooltip": {
+      "message": "Маржинальность товара"
+   },
+   "masterclasses": {
+      "message": "MasterClasses"
+   },
+   "maxImport": {
+      "message": "Максимально количество для импорта: ::count товаров"
+   },
+   "minPrice": {
+      "message": "Мин. цена"
+   },
+   "modalTitle": {
+      "message": "Cообщение"
+   },
+   "moneyBack": {
+      "message": "100% гарантия возврата денег"
+   },
+   "monthly": {
+      "message": "На месяц"
+   },
+   "monthlyFee": {
+      "message": "Ежемесячно"
+   },
+   "monthlyPayment": {
+      "message": "Месячный платёж"
+   },
+   "monthlyStorage": {
+      "message": "Месячное хранение"
+   },
+   "moq": {
+      "message": "MOQ"
+   },
+   "my": {
+      "message": "Malaysia"
+   },
+   "nameLength": {
+      "message": "Длина имени"
+   },
+   "needPermissions": {
+      "message": "Для продолжения работы необходимо авторизоваться"
+   },
+   "negativeNumberTooltip": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Beware, this is a negative Est.Monthly Profit / Net Margin / Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees.\u003C/span>\u003C/div>"
+   },
+   "net": {
+      "message": "Нетто"
+   },
+   "next": {
+      "message": "Дальше"
+   },
+   "next20pages": {
+      "message": "Следующие 20 страниц"
+   },
+   "next5pages": {
+      "message": "Следующие 5 страниц"
+   },
+   "nextP": {
+      "message": "Next Page"
+   },
+   "nextPage": {
+      "message": "След. страница"
+   },
+   "nicheAddFavorite": {
+      "message": "Add to favorites"
+   },
+   "nicheFilterBtn": {
+      "message": "Search"
+   },
+   "nicheHistory": {
+      "message": "История ниши"
+   },
+   "nicheKeywords": {
+      "message": "Ключевые слова"
+   },
+   "nicheRemoveFavorite": {
+      "message": "Remove from favorites"
+   },
+   "nicheSuppliers": {
+      "message": "Suppliers for Niche"
+   },
+   "nicheSuppliersFavorite": {
+      "message": "Favorite Suppliers"
+   },
+   "no": {
+      "message": "Нет"
+   },
+   "noCreditCard": {
+      "message": "Кредитная карта не требуется"
+   },
+   "noFees": {
+      "message": "Никаких дополнительных платежей"
+   },
+   "nofavorites": {
+      "message": "You have not added any products to your Favorites yet"
+   },
+   "nosuppliers": {
+      "message": "There are no suppliers on Alibaba for this keyword corresponding to these filter settings. \u003C/br>Please try other filter settings or another keyword."
+   },
+   "number": {
+      "message": "№"
+   },
+   "occurrencesNumber": {
+      "message": "Количество вхождений"
+   },
+   "of": {
+      "message": "of"
+   },
+   "onboardAdjust": {
+      "message": "We will adjust the amount of pop up tips and certain parameters based on your experience. You will be able to change this choice later in the Settings."
+   },
+   "onboardAsExpert": {
+      "message": "As an expert, you’ll see the full data and be able to fine-tune your research."
+   },
+   "onboardBeginner": {
+      "message": "Beginner"
+   },
+   "onboardCheck": {
+      "message": "To check whether a niche is profitable, simply enter its name and click «Check If Profitable»."
+   },
+   "onboardExpert": {
+      "message": "Expert"
+   },
+   "onboardHelps": {
+      "message": "PRO Extension helps you find the perfect product to sell on Amazon"
+   },
+   "onboardNotShure": {
+      "message": "Not sure what to look for? Try one of our suggestions:"
+   },
+   "onboardResearch": {
+      "message": "Research you first niche with PRO Extension!"
+   },
+   "onboardSelect": {
+      "message": "Select your experience level with Amazon"
+   },
+   "onboardWelcome": {
+      "message": "Welcome to AMZScout PRO Extension"
+   },
+   "onboardWillsee": {
+      "message": "You will see items with similar names currently sold on Amazon along with their \u003Cspan class='step__desc_decor'> Monthly Sales, Reviews, Best Seller Rank, \u003C/span> and other key statistics you need to evaluate them."
+   },
+   "onboardYouNew": {
+      "message": "If you are new to Amazon research, you’ll see vital parameters that will help you choose a great product quickly. Great for learning."
+   },
+   "oneTimeFee": {
+      "message": "Разовый платёж"
+   },
+   "onetimePayment": {
+      "message": "Разовый платёж"
+   },
+   "opScore": {
+      "message": "Оценка ниши"
+   },
+   "opScoreDisabled": {
+      "message": "Оценка ниши доступна только на странице поиска"
+   },
+   "options": {
+      "message": "Настройки"
+   },
+   "orderHandling": {
+      "message": "Обработка заказа"
+   },
+   "orderProcessing": {
+      "message": "Ваш заказ будет обработан в течение 5 минут. Пожалуйста, попробуйте использовать расширение снова через 5 минут."
+   },
+   "orderQuantity": {
+      "message": "Minimum Order Quantity"
+   },
+   "os_amzSellers_1": {
+      "message": "Очень много AMZ продавцов"
+   },
+   "os_amzSellers_1_desc": {
+      "message": "Вам придется конкурировать с Amazon, что очень сложно."
+   },
+   "os_amzSellers_2": {
+      "message": "Много AMZ продавцов"
+   },
+   "os_amzSellers_2_desc": {
+      "message": "Вам придется конкурировать с некоторыми товарами Amazon, что очень сложно."
+   },
+   "os_amzSellers_3": {
+      "message": "Несколько AMZ продавцов"
+   },
+   "os_amzSellers_3_desc": {
+      "message": "Вам почти не придется конкурировать с Amazon, что хорошо."
+   },
+   "os_amzSellers_4": {
+      "message": "Мало AMZ продавцов"
+   },
+   "os_amzSellers_4_desc": {
+      "message": "Вам не придется конкурировать с Amazon, что отлично."
+   },
+   "os_avgMargin_1": {
+      "message": "Очень низкая маржа"
+   },
+   "os_avgMargin_1_desc": {
+      "message": "Вам придется продать много товара, чтобы получить прибыль. Внимательно оцените FBA сборы, стоимость доставки и производства и расходы на маркетинг. Они могут быть слишком высокими. Воспользуйтесь нашим калькулятором прибыли!"
+   },
+   "os_avgMargin_2": {
+      "message": "Низкая маржа"
+   },
+   "os_avgMargin_2_desc": {
+      "message": "Вам придется продавать много товара, чтобы получить прибыль. Внимательно оцените FBA сборы, стоимость доставки и производства и расходы на маркетинг. Они могут быть высокими. Воспользуйтесь нашим калькулятором прибыли!"
+   },
+   "os_avgMargin_3": {
+      "message": "Высокая маржа"
+   },
+   "os_avgMargin_3_desc": {
+      "message": "Вы сможете получить прибыль. Но не забудьте рассчитать стоимость доставки и производства и расходы на маркетинг с помощью калькулятора прибыли."
+   },
+   "os_avgMargin_4": {
+      "message": "Очень высокая маржа"
+   },
+   "os_avgMargin_4_desc": {
+      "message": "Вы можете легко получить прибыль. Но не забудьте рассчитать стоимость доставки и производства и расходы на маркетинг с помощью калькулятора прибыли."
+   },
+   "os_avgPrice_1": {
+      "message": "Очень нежелательные цены"
+   },
+   "os_avgPrice_1_desc": {
+      "message": "Цены находятся вне диапазона $$15-40. Вам будет сложно получить прибыль, если цены низкие, и продавать в большом количестве, если цены высокие."
+   },
+   "os_avgPrice_2": {
+      "message": "Нежелательные цены"
+   },
+   "os_avgPrice_2_desc": {
+      "message": "Некоторые цены находятся вне диапазона $$15-40. Вам будет сложно получить прибыль, если цены низкие, и продавать в большом количестве, если цены высокие."
+   },
+   "os_avgPrice_3": {
+      "message": "Цены близки к желаемым"
+   },
+   "os_avgPrice_3_desc": {
+      "message": "Большинство цен находятся в диапазоне $$15-40. Вам будет проще получить прибыль или продавать больше, если цены не слишком низкие и не слишком высокие."
+   },
+   "os_avgPrice_4": {
+      "message": "Желаемые цены"
+   },
+   "os_avgPrice_4_desc": {
+      "message": "Цены находятся в диапазоне $$15-40. Получить прибыль или продать много товара проще, если цены не слишком низкие и не слишком высокие."
+   },
+   "os_avgRating_1": {
+      "message": "Очень высокий средний рейтинг"
+   },
+   "os_avgRating_1_desc": {
+      "message": "Очень сложно сделать товар лучшего качества."
+   },
+   "os_avgRating_2": {
+      "message": "Высокий средний рейтинг"
+   },
+   "os_avgRating_2_desc": {
+      "message": "Можете попробовать сделать товар лучшего качества."
+   },
+   "os_avgRating_3": {
+      "message": "Низкий средний рейтинг"
+   },
+   "os_avgRating_3_desc": {
+      "message": "Будет довольно легко сделать товар лучшего качества."
+   },
+   "os_avgRating_4": {
+      "message": "Очень низкий средний рейтинг"
+   },
+   "os_avgRating_4_desc": {
+      "message": "Можно легко сделать товар лучшего качества."
+   },
+   "os_avgSales_1": {
+      "message": "Низкие продажи"
+   },
+   "os_avgSales_1_desc": {
+      "message": "Вам придется много работать, чтобы продать товар, даже если вы будете на первой странице."
+   },
+   "os_avgSales_2": {
+      "message": "Неплохие продажи"
+   },
+   "os_avgSales_2_desc": {
+      "message": "Вам придется прилагать усилия, чтобы продать, даже если вы будете на первой странице."
+   },
+   "os_avgSales_3": {
+      "message": "Высокие продажи"
+   },
+   "os_avgSales_3_desc": {
+      "message": "У вас есть шанс продать много товара, особенно если вы окажетесь на первой странице."
+   },
+   "os_avgSales_4": {
+      "message": "Очень высокие продажи"
+   },
+   "os_avgSales_4_desc": {
+      "message": "Вы сможете продать много товара, особенно если окажетесь на первой странице."
+   },
+   "os_circle_1": {
+      "message": "Плохая ниша"
+   },
+   "os_circle_2": {
+      "message": "Слабая ниша"
+   },
+   "os_circle_3": {
+      "message": "Неплохая ниша"
+   },
+   "os_circle_4": {
+      "message": "Отличная ниша"
+   },
+   "os_competition": {
+      "message": "Конкуренция"
+   },
+   "os_competition_1": {
+      "message": "Очень сильная"
+   },
+   "os_competition_2": {
+      "message": "Сильная"
+   },
+   "os_competition_3": {
+      "message": "Средняя"
+   },
+   "os_competition_4": {
+      "message": "Слабая"
+   },
+   "os_dateFirstAvailable_1": {
+      "message": "Старая ниша"
+   },
+   "os_dateFirstAvailable_1_desc": {
+      "message": "Вы можете быть уверены, что спрос на товар сохраняется в течение нескольких лет, но вам придется конкурировать со старыми продавцами."
+   },
+   "os_dateFirstAvailable_2": {
+      "message": "Довольно старая ниша"
+   },
+   "os_dateFirstAvailable_2_desc": {
+      "message": "Вы можете быть уверены, что спрос на товар сохраняется некоторое время, но вам придется конкурировать со старыми продавцами."
+   },
+   "os_dateFirstAvailable_3": {
+      "message": "Довольно новая ниша"
+   },
+   "os_dateFirstAvailable_3_desc": {
+      "message": "Спрос на товар может быть временным, но есть шансы, что он будет расти, и вы можете стать одним из первых продавцов."
+   },
+   "os_dateFirstAvailable_4": {
+      "message": "Новая ниша"
+   },
+   "os_dateFirstAvailable_4_desc": {
+      "message": "Спрос может быть временным, но есть шансы, что он будет расти, и вы будете одним из первых продавцов."
+   },
+   "os_demand": {
+      "message": "Спрос"
+   },
+   "os_demand_1": {
+      "message": "Низкий"
+   },
+   "os_demand_2": {
+      "message": "Средний"
+   },
+   "os_demand_3": {
+      "message": "Хороший"
+   },
+   "os_demand_4": {
+      "message": "Отличный"
+   },
+   "os_entering": {
+      "message": "Прибыль"
+   },
+   "os_entering_1": {
+      "message": "Низкая"
+   },
+   "os_entering_2": {
+      "message": "OK"
+   },
+   "os_entering_3": {
+      "message": "Высокая"
+   },
+   "os_entering_4": {
+      "message": "Очень высокая"
+   },
+   "os_lqs_1": {
+      "message": "Отличные листинги"
+   },
+   "os_lqs_1_desc": {
+      "message": "Будет очень сложно создать листинг товара столь же высокого качества."
+   },
+   "os_lqs_2": {
+      "message": "Неплохие листинги"
+   },
+   "os_lqs_2_desc": {
+      "message": "Придется постараться, чтобы создать листинг товара такого же качества."
+   },
+   "os_lqs_3": {
+      "message": "Листинги низкого качества"
+   },
+   "os_lqs_3_desc": {
+      "message": "Вы сможете создать более качественный листинг товара."
+   },
+   "os_lqs_4": {
+      "message": "Листинги очень низкого качества"
+   },
+   "os_lqs_4_desc": {
+      "message": "Вы легко создадите более качественный листинг товара."
+   },
+   "os_niche_1": {
+      "message": "Сложно добиться успеха"
+   },
+   "os_niche_2": {
+      "message": "Может быть сложно добиться успеха"
+   },
+   "os_niche_3": {
+      "message": "Вероятно можно добиться успеха"
+   },
+   "os_niche_4": {
+      "message": "Вероятность добиться успеха велика"
+   },
+   "os_open_on_run": {
+      "message": "Открывать окно при каждом запуске"
+   },
+   "os_productsCount_1": {
+      "message": "Очень насыщенная ниша"
+   },
+   "os_productsCount_1_desc": {
+      "message": "Вам придется конкурировать с большим количеством продавцов."
+   },
+   "os_productsCount_2": {
+      "message": "Насыщенная ниша"
+   },
+   "os_productsCount_2_desc": {
+      "message": "Вы будет конкурировать с большим количеством продавцов."
+   },
+   "os_productsCount_3": {
+      "message": "Ниша частично насыщена"
+   },
+   "os_productsCount_3_desc": {
+      "message": "Вы будете конкурировать с небольшим числом продавцов."
+   },
+   "os_productsCount_4": {
+      "message": "Ненасыщенная ниша"
+   },
+   "os_productsCount_4_desc": {
+      "message": "Вы будете конкурировать лишь с несколькими продавцами."
+   },
+   "os_query_label": {
+      "message": "Результат для:"
+   },
+   "os_reviewsCount_1": {
+      "message": "Очень много отзывов"
+   },
+   "os_reviewsCount_1_desc": {
+      "message": "Вам понадобится много отзывов, чтобы добиться продаж."
+   },
+   "os_reviewsCount_2": {
+      "message": "Много отзывов"
+   },
+   "os_reviewsCount_2_desc": {
+      "message": "Вам понадобятся отзывы, чтобы товар продавался."
+   },
+   "os_reviewsCount_3": {
+      "message": "Мало отзывов"
+   },
+   "os_reviewsCount_3_desc": {
+      "message": "Вы сможете продавать товар, имея даже несколько отзывов."
+   },
+   "os_reviewsCount_4": {
+      "message": "Очень мало отзывов"
+   },
+   "os_reviewsCount_4_desc": {
+      "message": "Вы сможете продавать даже с 0-2 отзывами."
+   },
+   "os_title": {
+      "message": "Общая оценка"
+   },
+   "os_topBrands_1": {
+      "message": "Очень высокая конкуренция с топовыми брендами"
+   },
+   "os_topBrands_1_desc": {
+      "message": "Вам придется конкурировать с несколькими известными брендами."
+   },
+   "os_topBrands_2": {
+      "message": "Высокая конкуренция с топовыми брендами"
+   },
+   "os_topBrands_2_desc": {
+      "message": "Вы будете конкурировать с известными брендами."
+   },
+   "os_topBrands_3": {
+      "message": "Низкая конкуренция с топовыми брендами"
+   },
+   "os_topBrands_3_desc": {
+      "message": "Вам не придется конкурировать со множеством известных брендов."
+   },
+   "os_topBrands_4": {
+      "message": "Очень низкая конкуренция с топовыми брендами"
+   },
+   "os_topBrands_4_desc": {
+      "message": "Вам не придется конкурировать с известными брендами."
+   },
+   "os_topSellers_1": {
+      "message": "Чрезвычайно монополистическая ниша"
+   },
+   "os_topSellers_1_desc": {
+      "message": "Вы будете конкурировать со множеством очень сильных продавцов."
+   },
+   "os_topSellers_2": {
+      "message": "Монополистическая ниша"
+   },
+   "os_topSellers_2_desc": {
+      "message": "Вы будете конкурировать с несколькими сильными продавцами."
+   },
+   "os_topSellers_3": {
+      "message": "Немонополистическая ниша"
+   },
+   "os_topSellers_3_desc": {
+      "message": "Вам не придется конкурировать с большим числом сильных продавцов."
+   },
+   "os_topSellers_4": {
+      "message": "Свободная конкуренция"
+   },
+   "os_topSellers_4_desc": {
+      "message": "Вам не придется конкурировать с сильными продавцами."
+   },
+   "oversize": {
+      "message": "Оверсайз"
+   },
+   "oversizeTooltip": {
+      "message": "Несоответствие товара стандартным размерам. Товар оверсайз, если его измерения больше 18 х 14 х 8 дюймов и вес больше 20 фунтов."
+   },
+   "packageWeight": {
+      "message": "Вес упаковки"
+   },
+   "page": {
+      "message": "Page"
+   },
+   "page1": {
+      "message": " "
+   },
+   "pageLoading": {
+      "message": "Пожалуйста, дождитесь окончания загрузки страницы."
+   },
+   "payment": {
+      "message": "Сумма платежа"
+   },
+   "paymentChooseMethod": {
+      "message": "Выберите метод оплаты"
+   },
+   "paymentDone": {
+      "message": "Оплата прошла успешно"
+   },
+   "paymentFooterMessage": {
+      "message": "Присоединяйтесь к \u003Cstrong>40 000+\u003C/strong> успешным продавцам на Amazon использующих AMZScout"
+   },
+   "paymentInfo": {
+      "message": "Информация о платеже"
+   },
+   "paymentMethod_card": {
+      "message": "Банковская карта"
+   },
+   "paymentRejectedErr": {
+      "message": "Оплата отклонена. Проверьте платежные данные и повторите попытку."
+   },
+   "paymentRuble": {
+      "message": "На следующем шаге Вы увидите цену в рублях, что приблизительно равняется :price::currency"
+   },
+   "paywallTagline": {
+      "message": "Ваш успешный бизнес на Amazon"
+   },
+   "paywallTitleBottom": {
+      "message": "Продолжайте зарабатывать больше"
+   },
+   "paywallTitleTop": {
+      "message": "Найди прибыльные продукты и превзойди конкурентов"
+   },
+   "personalizeView": {
+      "message": "By clicking the Personalize View button, you can customize your view of the data in the Extension"
+   },
+   "ph": {
+      "message": "Philippines"
+   },
+   "pickPack": {
+      "message": "Сбор за упаковку"
+   },
+   "piece": {
+      "message": "шт."
+   },
+   "pk": {
+      "message": "Pakistan"
+   },
+   "previousP": {
+      "message": "Previous Page"
+   },
+   "price": {
+      "message": "Цена"
+   },
+   "price30": {
+      "message": "Цена 30"
+   },
+   "price30Tooltip": {
+      "message": "Средняя цена за последние 30 дней"
+   },
+   "priceHistory": {
+      "message": "История цены"
+   },
+   "priceRange": {
+      "message": "Price range"
+   },
+   "productCost": {
+      "message": "Стоимость продукта"
+   },
+   "productHistory": {
+      "message": "История продукта"
+   },
+   "productName": {
+      "message": "Имя продукта"
+   },
+   "productPrice": {
+      "message": "Цена продукта"
+   },
+   "productScore": {
+      "message": "Оценка продукта"
+   },
+   "productScoreTooltip": {
+      "message": "Оценка продукта показывает, насколько хорошо продукт соответствует основным критериям, предоставленным экспертами fba."
+   },
+   "productSize": {
+      "message": "Размер продукта"
+   },
+   "productSizeDimension": {
+      "message": "Размер упаковки"
+   },
+   "productUntrackable": {
+      "message": "Этот продукт невозможно отследить, поскольку Amazon не предоставил достаточно данных."
+   },
+   "productWeight": {
+      "message": "Вес продукта"
+   },
+   "product_score_high": {
+      "message": "Отличный продукт, который легко скопировать и продавать."
+   },
+   "product_score_low": {
+      "message": "Продукт, с которым придётся много работать, чтобы получить продажи."
+   },
+   "product_score_middle": {
+      "message": "Продукт, который вы можете продать, имея некоторый опыт."
+   },
+   "products": {
+      "message": "products on"
+   },
+   "profit": {
+      "message": "Прибыль"
+   },
+   "profitCalculator": {
+      "message": "Калькулятор прибыли"
+   },
+   "providerInitErr": {
+      "message": "Не удалось инициализировать провайдер оплаты."
+   },
+   "ps_lqs_1": {
+      "message": "Этот листинг отличный, вам понадобится листинг такого же качества, чтобы конкурировать."
+   },
+   "ps_lqs_2": {
+      "message": "Этот листинг среднего качества, вы можете сделать более качественный листинг, чтобы конкурировать с этим товаром."
+   },
+   "ps_lqs_3": {
+      "message": "Этот листинг низкого качества, вы с легкостью сделаете более качественный листинг, чтобы конкурировать."
+   },
+   "ps_margin_1": {
+      "message": "С этим товаром сложно получить прибыль."
+   },
+   "ps_margin_2": {
+      "message": "С этим товаром у вас будет неплохая прибыль."
+   },
+   "ps_margin_3": {
+      "message": "У этого товара отличная маржа."
+   },
+   "ps_revenue_1": {
+      "message": "Этот продукт не приносит много прибыли."
+   },
+   "ps_revenue_2": {
+      "message": "Этот продукт дает возможность получения средней прибыли."
+   },
+   "ps_revenue_3": {
+      "message": "Этот продукт дает возможность получения высокой прибыли."
+   },
+   "ps_rpr_1": {
+      "message": "Вам понадобится много отзывов для продаж."
+   },
+   "ps_rpr_2": {
+      "message": "Вам понадобится несколько отзывов для продаж."
+   },
+   "ps_rpr_3": {
+      "message": "Вы сможете получить приличные продажи даже с малым числом отзывов."
+   },
+   "pw1": {
+      "message": "Получи больше выгоды с AMZScout"
+   },
+   "pw1AlreadyPaid": {
+      "message": "Уже оплатил"
+   },
+   "pw1And": {
+      "message": "и"
+   },
+   "pw1BuyNowTitle": {
+      "message": "Найди \u003Cspan class='red-text'>Прибыльные\u003C/span> Продукты и \u003Cspan class='red-text'>Превзойдите\u003C/span> Конкурентов"
+   },
+   "pw1ExpiredSubTitle": {
+      "message": "Для продолжения использования AMZScout PRO выберите платёжный план ниже."
+   },
+   "pw1ExpiredTitle": {
+      "message": "К сожалению, Ваш пробный период истёк."
+   },
+   "pw1FeedbackPlaceholder": {
+      "message": "Напишите здесь Номер Телефона или Email, по которым мы сможем с вами связаться."
+   },
+   "pw1FeedbackTitle": {
+      "message": "Мы заметили, что у вас возникли проблемы с покупкой. Оставьте свою контактную информацию ниже, чтобы мы смогли помочь вам."
+   },
+   "pw1MainTitle": {
+      "message": "Ценности"
+   },
+   "pw1Or": {
+      "message": "или"
+   },
+   "pw1PanelProfit1": {
+      "message": "Найди \u003Cspan class='red-text'>прибыльный продукт\u003C/span> за \u003Cspan class='red-text'>1 день.\u003C/span>"
+   },
+   "pw1PanelProfit2": {
+      "message": "Самые \u003Cspan class='red-text'>точные данные\u003C/span> на рынке."
+   },
+   "pw1PanelProfit3": {
+      "message": "Мы защитили \u003Cspan class='red-text'>66,000+ продавцов\u003C/span> от неправильных решений."
+   },
+   "pw1PanelProfit4": {
+      "message": "Гарантия возврата денег в течение \u003Cspan class='red-text'>10 дней\u003C/span>."
+   },
+   "pw1PayPalBuyerProtection": {
+      "message": "Программа защиты покупателей PayPal"
+   },
+   "pw1PayWith": {
+      "message": "Оплатить"
+   },
+   "pw1PayWithCard": {
+      "message": "Оплатить банковской картой"
+   },
+   "pw1PaymentTitle": {
+      "message": "Оплата"
+   },
+   "pw1PlanAnnualHint": {
+      "message": "Определите наиболее выгодные продукты!"
+   },
+   "pw1PlanAnnualName": {
+      "message": "На год"
+   },
+   "pw1PlanAnnualPriceHint": {
+      "message": "(на 75% дешевле!)"
+   },
+   "pw1PlanLifetimeHint": {
+      "message": "Получите безлимитный доступ к самым актуальным данным по продажам!"
+   },
+   "pw1PlanLifetimeName": {
+      "message": "Пожизненный"
+   },
+   "pw1PlanLifetimePriceHint": {
+      "message": " "
+   },
+   "pw1PlanMonthlyHint": {
+      "message": "Найдите свою первую нишу в считанные секунды!"
+   },
+   "pw1PlanMonthlyName": {
+      "message": "На месяц"
+   },
+   "pw1PlanMostPopular": {
+      "message": "Самый популярный"
+   },
+   "pw1PlansTitle": {
+      "message": "Выберите свой план"
+   },
+   "pw1Privacy": {
+      "message": "Политики конфиденциальности."
+   },
+   "pw1StripeMoneyBack": {
+      "message": "Ваш платёж защищён Stripe"
+   },
+   "pw1StripePowered": {
+      "message": "Обслуживается через Stripe."
+   },
+   "pw1Terms": {
+      "message": "Условия"
+   },
+   "pw1TrustpilotReviews": {
+      "message": ":reviews отзывов"
+   },
+   "pw2": {
+      "message": "Минимизируй риски с надежными данными о продаже продукта"
+   },
+   "pw3": {
+      "message": "Сэкономь 2-3 часа в день, избавившись от рутинной работы"
+   },
+   "pw4": {
+      "message": "Избегай невыгодных продуктов, подвисших на складе"
+   },
+   "rank": {
+      "message": "Ранг"
+   },
+   "rankHistory": {
+      "message": "История BSR"
+   },
+   "rating": {
+      "message": "Рейтинг"
+   },
+   "referralFee": {
+      "message": "Партнёрский сбор"
+   },
+   "referralMessage": {
+      "message": "Отправьте эту ссылку друзьям и Вы получите 1 неделю бесплатно за каждого друга, кто присоединится. Ваш друг также получит 1 неделю дополнительно."
+   },
+   "refresh": {
+      "message": "Обновить"
+   },
+   "remember": {
+      "message": "Больше не спрашивать"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "results": {
+      "message": "Результаты"
+   },
+   "revenueNiche": {
+      "message": "Revenue per 6 month: \u003Cspan class='niche-item__score-value'>:halfYearSalesAmout\u003C/span> in \u003Cspan class='niche-item__revenue-value'>:halfYearOrderNumber\u003C/span> transactions"
+   },
+   "reviewScore": {
+      "message": "Review score:"
+   },
+   "reviews": {
+      "message": "Кол-во коммент."
+   },
+   "reviewsCount": {
+      "message": "Кол-во коммент."
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Возврат инвестиций"
+   },
+   "rpr": {
+      "message": "RPR"
+   },
+   "rprTooltip": {
+      "message": "Месячная выручка за комментарий"
+   },
+   "s1f": {
+      "message": "получите все данные для принятия решения \u003Cbr>в несколько кликов."
+   },
+   "s1h": {
+      "message": "Больше не надо собирать \u003Cbr>данные вручную"
+   },
+   "s2f": {
+      "message": "оценивая потенциал ниши, основываясь \u003Cbr>на надёжных данных."
+   },
+   "s2h": {
+      "message": "Найдите высоко-маржинальный продукт"
+   },
+   "s3f": {
+      "message": "узнайте какое количество продуктов \u003Cbr>вы продадите в течение 1 месяца"
+   },
+   "s3h": {
+      "message": "Минимизируйте риски"
+   },
+   "s4f": {
+      "message": "принимая правильные решения."
+   },
+   "s4h": {
+      "message": "Получите результат, которого Вы ожидаете"
+   },
+   "sa": {
+      "message": "South Africa"
+   },
+   "sales": {
+      "message": "Продажи"
+   },
+   "salesHistory": {
+      "message": "История продаж"
+   },
+   "satScore": {
+      "message": "Оценка насыщенности"
+   },
+   "satScoreDisabled": {
+      "message": "Оценка насыщенности доступна только на странице поиска"
+   },
+   "saturationScore": {
+      "message": "Оценка видимости"
+   },
+   "saturationScoreHigh": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. This niche is often seen by many sellers researching the market. Their high interest in this niche can indicate either that it is a large niche with big sales and high competition or that there are some notable trends prompting sellers to market research in this niche.\u003C/p>"
+   },
+   "saturationScoreMiddle": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. This niche isn't a once-in-a-lifetime opportunity. However, there is room for new sellers to make money with a strong product and reasonable advertising.\u003C/p>"
+   },
+   "saturationScoreTTLow": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. Competition in this niche is very low and will remain low for some time. If it shows promise in terms of revenue then it's a great niche to invest in.\u003C/p>"
+   },
+   "save": {
+      "message": "Сэкономить"
+   },
+   "sc": {
+      "message": "South Korea"
+   },
+   "searchAli": {
+      "message": "Найти на AliBaba"
+   },
+   "searchButtonCaption": {
+      "message": "Search products"
+   },
+   "searchGoogle": {
+      "message": "Загуглить"
+   },
+   "searchPlaceHolder": {
+      "message": "Enter a product to search, eg. plastic straw rug"
+   },
+   "searchSuppTitle": {
+      "message": "Search Suppliers\u003C/br>on Alibaba.com"
+   },
+   "searchSupplierDisabled": {
+      "message": "To find a supplier on Alibaba with Extension Pro, please open a specific product page on Amazon or type a keyword into the search bar on Amazon to open the search results page"
+   },
+   "searchSuppliers": {
+      "message": "Search Suppliers"
+   },
+   "selectPlan": {
+      "message": "К выбору тарифа"
+   },
+   "selectYourPlan": {
+      "message": "Выберите свой план"
+   },
+   "seller": {
+      "message": "Прод."
+   },
+   "sellerIsFBA": {
+      "message": "FBA продавец"
+   },
+   "sellers": {
+      "message": "Кол-во прод."
+   },
+   "sellersTooltip": {
+      "message": "Количество продавцов"
+   },
+   "send": {
+      "message": "Отправить"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "show": {
+      "message": "Покажите"
+   },
+   "showMore": {
+      "message": "Показать подробно"
+   },
+   "signOut": {
+      "message": "Выйти"
+   },
+   "signUp": {
+      "message": "Войти через"
+   },
+   "signUpMessage1": {
+      "message": "Кредитная карта не требуется во время пробного периода"
+   },
+   "signUpMessage2": {
+      "message": "Вы получите полнофункциональное приложение после регистрации"
+   },
+   "signUpMessage3": {
+      "message": "Ваши персональные данные в безопасности"
+   },
+   "signUpTitle": {
+      "message": "Зарегистрируйтесь, чтобы найти свой \u003Cbr>\u003Cspan class='highlight'>Прибыльный продукт\u003C/span>"
+   },
+   "signUpWithChrome": {
+      "message": "Chrome"
+   },
+   "signUpWithEmail": {
+      "message": "Email"
+   },
+   "signUpWithFacebook": {
+      "message": "Facebook"
+   },
+   "signUpWithGoogle": {
+      "message": "Google"
+   },
+   "signUpWithWeibo": {
+      "message": "Weibo"
+   },
+   "skip": {
+      "message": "Пропустить"
+   },
+   "sponsored": {
+      "message": "Спонсорский"
+   },
+   "startTrial": {
+      "message": "Начать пробный период"
+   },
+   "startingAt": {
+      "message": "Starting at $$:lowestPrice per unit"
+   },
+   "step": {
+      "message": "Step"
+   },
+   "stepByC": {
+      "message": "Step-by-step  Course"
+   },
+   "stopShowingTips": {
+      "message": "Больше не надо"
+   },
+   "strictFilterTooltip": {
+      "message": "Заданы слишком строгие параметры фильтра. Попробуйте изменить их или выключить фильтр."
+   },
+   "suppliedBy": {
+      "message": "Supplied by:"
+   },
+   "supplierCountry": {
+      "message": "Supplier country"
+   },
+   "suppliersON": {
+      "message": "suppliers on"
+   },
+   "suppliersTrade": {
+      "message": "Supporting trade assurance only"
+   },
+   "suppliersVerified": {
+      "message": "Verified only"
+   },
+   "t0": {
+      "message": "Все \u003Cb>голубые цифры\u003C/b> и строки в таблице продуктов \u003Cb>кликабельны\u003C/b>.\u003Cbr>Попробуйте нажать на них, чтобы увидеть дополнительные функции."
+   },
+   "t1": {
+      "message": "Заголовки столбцов таблицы имеют всплывающие подсказки. Чтобы увидеть их, задержите курсор мыши на пару секунд.\u003Cbr>Для сортировки данных в таблице просто кликните на заголовке столбца."
+   },
+   "t10": {
+      "message": "В столбце EBC отображается зеленая галочка, когда продукт имеет Enhanced Brand Content или листинг A+. \u003Cbr>EBC открыт для продавцов, которые были одобрены через процесс регистрации бренда на Amazon."
+   },
+   "t2": {
+      "message": "\u003Cb>Добавьте потенциальные продукты\u003C/b> в избранное, щелкнув звезду слева в строке продукта. \u003Cb>Обновляйте данные\u003C/b> по ним \u003Cb>в любое время\u003C/b>, когда захотите, нажав кнопку «Избранное» внизу."
+   },
+   "t3": {
+      "message": "Если нажать на значении в столбцах FBA Сбор или Нетто, то откроется Profit Calculator, с помощью которого Вы можете быстро посчитать прибыль и ROI, на которые Вы можете рассчитывать"
+   },
+   "t4": {
+      "message": "Если Вы наведёте курсор мыши на значение в столбце LQS, Вы увидите всплывающее окно с детальной информацией о качестве листинга."
+   },
+   "t5": {
+      "message": "Если нажать на значение в столбце Цена, Вы увидите график изменения цены во времени."
+   },
+   "t6": {
+      "message": "Если нажать на значение в столбце Ранг, Вы увидите график изменения ранга товара во времени."
+   },
+   "t7": {
+      "message": "Если кликнуть на стрелку слева в таблице товаров, то появится выпадающее меню, где Вы сможете сделать поиск похожих товаров на Alibaba или скопировать ASIN товара."
+   },
+   "t8": {
+      "message": "\u003Cb>Находите идеи для ключевиков\u003C/b>, чтобы \u003Cb>эффективно продвигать свой товар\u003C/b>, просто кликнув на стрелку слева и выбрав соответствующий пункт в меню."
+   },
+   "t9": {
+      "message": "\u003Cb>Товар имеет ранг 1\u003C/b>, если в колонке BSR он помечен оранжевым круглым значком.\u003Cbr>Узнайте в какой категории он продается лучше всего при наведении курсора на значок."
+   },
+   "textNodatafull": {
+      "message": "*There is no price, sales and rank history for this product for this date"
+   },
+   "textNodatapriceNo": {
+      "message": "*There is no price history for this product for this date"
+   },
+   "textNodatapriceandrankNo": {
+      "message": "*There is no price and rank history for this product for this date"
+   },
+   "textNodatapriceandsalesNo": {
+      "message": "*There is no price and sales history for this product for this date"
+   },
+   "textNodatarankNo": {
+      "message": "*There is no rank history for this product for this date"
+   },
+   "textNodatarankandsalesNo": {
+      "message": "*There is no rank and sales history for this product for this date"
+   },
+   "textNodatasalesNo": {
+      "message": "*There is no sales history for this product for this date"
+   },
+   "textSameDatasales": {
+      "message": "There is not enough data to estimate sales volume changes for some periods after "
+   },
+   "th": {
+      "message": "Thailand"
+   },
+   "theyearly": {
+      "message": "the yearly sales history of the product to check for yourself."
+   },
+   "tips": {
+      "message": "Подсказки"
+   },
+   "to": {
+      "message": "до"
+   },
+   "toggleFilterTitle": {
+      "message": "Включить/выключить фильтр"
+   },
+   "tooltip_10_beginner": {
+      "message": "Нажав на эту кнопку, вы увидите ключевые слова для товаров в данной товарной нише. Сколько то или иное слово встречается в заголовках товаров указано в скобках. Используйте наиболее популярные слова, чтобы выбрать название для своего товара."
+   },
+   "tooltip_10_expert": {
+      "message": "Нажав на эту кнопку, вы увидите ключевые слова, которые используются для названий товаров в этой нише. В скобках указывается, сколько раз повторяется слово. Выбирая название товара, постарайтесь добавить наиболее важные слова."
+   },
+   "tooltip_1_beginner": {
+      "message": "Нажмите здесь, чтобы увидеть разбивку по спросу и конкуренции в данной товарной нише, чтобы знать, чего стоит ожидать."
+   },
+   "tooltip_1_expert": {
+      "message": "Оценка ниши проводится на основе спроса, конкуренции, качества и возраста листингов. Нажмите здесь, чтобы посмотреть подробности."
+   },
+   "tooltip_2_beginner": {
+      "message": "Отфильтруйте товары, основываясь на конкретных критериях и ожиданиях. Например, цена, по которой вы хотите продавать, объем продаж в месяц, доход, который вы планируете получать и т.д."
+   },
+   "tooltip_2_expert": {
+      "message": "Устанавливайте фильтры и используйте их в качестве предопределенных критериев. Это поможет вам выбрать товары с нужной стоимостью и нужным спросом, которые наилучшим образом подходят к вашей стратегии продаж."
+   },
+   "tooltip_3_beginner": {
+      "message": "Выберите, какие столбцы нужно отображать, чтобы настроить расширение под себя."
+   },
+   "tooltip_3_expert": {
+      "message": "Настраивайте меню под себя, определяя, какие столбцы нужно отображать, а какие нет."
+   },
+   "tooltip_4_beginner": {
+      "message": "Сортируйте по любым столбцам, нажав на заголовок. Можно отсортировать и увидеть лучший ранг, максимальные продажи, лучшую цену и наилучший доход, чтобы выбрать наилучшее сочетание."
+   },
+   "tooltip_4_expert": {
+      "message": "Вы можете сортировать по показателю, нажав на заголовок столбца. Это поможет вам найти товары с самым высоким доходом, новые товары и т.д. Просмотр новых товаров помогает понять, какие продажи вы можете ожидать после запуска нового товара."
+   },
+   "tooltip_5_beginner": {
+      "message": "Калькулятор прибыли здесь (нажмите на значение синего цвета). Так вы сможете увидеть доход и комиссии по интересующему вас товару, включая сбор Amazon – совсем как если бы вы продавали товар!"
+   },
+   "tooltip_5_expert": {
+      "message": "Калькулятор прибыли помогает вычислять прибыль. Он показывает комиссии Amazon, оценки стоимости хранения товара, сборы за продажу товара. Укажите стоимость своего товара, чтобы получить наиболее точные оценки прибыли."
+   },
+   "tooltip_6_beginner": {
+      "message": "Коэффициент дохода к отзывам помогает найти товар, дающий максимальный доход при минимальном количестве отзывов. Отзывы получить сложно, именно поэтому этот показатель так важен."
+   },
+   "tooltip_6_expert": {
+      "message": "Этот коэффициент показывает отношение между доходом от товара и отзывами. Чем выше этот коэффициент, тем наиболее вероятно получать доход даже при небольшом количестве отзывов."
+   },
+   "tooltip_7_beginner": {
+      "message": "Это оценка качества листинга, которая содержит подробное описание того, что хорошо и что плохо на странице товара. Просто наведите курсор на этот показатель, и вы сразу увидите, что можно улучшить."
+   },
+   "tooltip_7_expert": {
+      "message": "Качество листинга помогает определить слабые стороны конкурентов, основываясь на длине описания товара и изображениях. Это неплохой показатель для начала, но все-таки конкретные случаи требуют более тщательного изучения."
+   },
+   "tooltip_8_beginner": {
+      "message": "Это функция поиска товарной ниши, которая подсказывает идеи товаров, с которых можно начать. Она поможет расширить горизонты и найти интересные варианты товаров для продажи на Amazon."
+   },
+   "tooltip_8_expert": {
+      "message": "Это инструмент поиска ниши, который может дать несколько хороших идей и подсказать интересные товарные ниши, которые, возможно, вдохновят вас на поиски."
+   },
+   "tooltip_9_beginner": {
+      "message": "Product Score показывает, насколько продукт представляет собой отличную идею для продажи на основе его продаж, ранга, рейтинга, обзоров и других показателей."
+   },
+   "tooltip_9_expert": {
+      "message": "Product Score показывает, насколько продукт представляет собой отличную идею для продажи на основе его продаж, ранга, рейтинга, обзоров и других показателей."
+   },
+   "totalFee": {
+      "message": "Суммарный FBA сбор"
+   },
+   "tr": {
+      "message": "Turkey"
+   },
+   "trackAddedMessage": {
+      "message": "Продукт был успешно добавлен в \u003Ca href=\":url\" target='_blank'>Product Tracker\u003C/a>"
+   },
+   "tracksLimitExceed": {
+      "message": "Превышено количество отслеживаемых продуктов по вашему тарифу."
+   },
+   "trends": {
+      "message": "Тренды"
+   },
+   "trialEnded": {
+      "message": "Ваш пробный период закончился"
+   },
+   "trialMessage": {
+      "message": "В следующие 7 дней Вы можете увидеть все возможности расширения AMZScout без ограничений.\u003Cbr>\u003Cbr>Никаких кредитных карт. Никаких сюрпризов. Только результаты.\u003Cbr>"
+   },
+   "trialMessageBtnMore": {
+      "message": "Узнать больше"
+   },
+   "trialMessageBtnStart": {
+      "message": "Начнём"
+   },
+   "trialTitle": {
+      "message": "Пробный период AMZScout"
+   },
+   "try": {
+      "message": "Попробовать"
+   },
+   "tryDay": {
+      "message": "Попробовать 1 день"
+   },
+   "tutorial": {
+      "message": "Руководство"
+   },
+   "tutorialTitle": {
+      "message": "Руководство по AMZScout PRO Extension"
+   },
+   "uk": {
+      "message": "United Kingdom"
+   },
+   "unhandledErr": {
+      "message": "Похоже, мы не на той странице. Пожалуйста, попробуйте другую страницу"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "us": {
+      "message": "United States"
+   },
+   "usa": {
+      "message": "USA"
+   },
+   "variants": {
+      "message": "Варианты"
+   },
+   "variantsTooltip": {
+      "message": "Количество вариантов продукта"
+   },
+   "variationsTips": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Products on Amazon can have multiple variations (eg. colors, sizes, etc). \u003Cbr> \u003Cbr> This product has :variations variations on Amazon. The Sales Estimation column provided in Pro  Extension is for all variations added together. If you would like to check the popularity and demand for a specific color or size of a product, you can enter corresponding keywords into \u003Ca class='hot-tooltip__link' target='_blank' href=\":url\">Keyword Search.\u003C/a>\u003C/span>\u003C/div>"
+   },
+   "verifiedSince": {
+      "message": "Verified since"
+   },
+   "vi": {
+      "message": "Vietnam"
+   },
+   "videoT": {
+      "message": "Video Tutorial"
+   },
+   "view": {
+      "message": "View"
+   },
+   "warning": {
+      "message": "Предупреждение"
+   },
+   "weight": {
+      "message": "Вес"
+   },
+   "weightHandling": {
+      "message": "Сбор за вес"
+   },
+   "wrongPage": {
+      "message": "Похоже, вы не на странице Amazon. Для примера мы откроем страницу поиска Amazon и откроем AMZScout на ней."
+   },
+   "yes": {
+      "message": "Да"
+   },
+   "youCanSkipThisIn": {
+      "message": "Пожалуйста, подождите"
+   },
+   "youViewed": {
+      "message": "You've viewed"
+   },
+   "yourPlan": {
+      "message": "Ваш план"
+   }
+}

@@ -1,0 +1,525 @@
+.social-btn {
+  display: inline-block;
+  height: 56px;
+  width: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  flex-shrink: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+.social-btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.social-btn_fb {
+  background-color: #4861A3;
+}
+.social-btn_fb:hover {
+  background-color: #5777CC;
+}
+.social-btn_fb:active {
+  background-color: #374C82;
+}
+.social-btn_fb:before {
+  width: 13px;
+  height: 24px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-fb.svg");
+}
+.social-btn_vk {
+  background-color: #597DA2;
+}
+.social-btn_vk:hover {
+  background-color: #678EB6;
+}
+.social-btn_vk:active {
+  background-color: #446A91;
+}
+.social-btn_vk:before {
+  width: 34px;
+  height: 19px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-vk.svg");
+}
+.social-btn_tw {
+  background-color: #1DA1F2;
+}
+.social-btn_tw:hover {
+  background-color: #3EB5FF;
+}
+.social-btn_tw:active {
+  background-color: #1588CE;
+}
+.social-btn_tw:before {
+  width: 23px;
+  height: 19px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-tw.svg");
+}
+.social-btn_gplus {
+  background-color: #DD5044;
+}
+.social-btn_gplus:hover {
+  background-color: #FB5446;
+}
+.social-btn_gplus:active {
+  background-color: #BF4339;
+}
+.social-btn_gplus:before {
+  width: 28px;
+  height: 18px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-gplus.svg");
+}
+.social-btn_mail {
+  background-color: #fff;
+  border: 1px solid #CDCDCD;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-mail.svg");
+  background-size: 33px 27px;
+}
+.social-btn_mail:hover {
+  border: 2px solid #4285F4;
+  background-color: #fff;
+}
+.social-btn_mail:active {
+  background-color: #D6D6D6;
+  border-color: #D6D6D6;
+}
+.social-btn_vb {
+  background-color: #665CAC;
+}
+.social-btn_vb:hover {
+  background-color: #776DBF;
+}
+.social-btn_vb:active {
+  background-color: #554C93;
+}
+.social-btn_vb:before {
+  width: 27px;
+  height: 28px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-viber.svg");
+}
+.social-btn_wa {
+  background-color: #1DC93B;
+}
+.social-btn_wa:hover {
+  background-color: #29D046;
+}
+.social-btn_wa:active {
+  background-color: #19A131;
+}
+.social-btn_wa:before {
+  width: 28px;
+  height: 26px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-whatsapp.svg");
+}
+.social-btn_tg {
+  background-color: #31A5E0;
+}
+.social-btn_tg:hover {
+  background-color: #46B9F3;
+}
+.social-btn_tg:active {
+  background-color: #2D8BBB;
+}
+.social-btn_tg:before {
+  width: 26px;
+  height: 22px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-telegram.svg");
+}
+.social-btn_th {
+  background-color: #36465D;
+}
+.social-btn_th:hover {
+  background-color: #455772;
+}
+.social-btn_th:active {
+  background-color: #242E3B;
+}
+.social-btn_th:before {
+  width: 20px;
+  height: 28px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-tumblr.svg");
+}
+.social-btn_pt {
+  background-color: #fff;
+  border: 1px solid #CDCDCD;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-pinterest.svg");
+  background-size: 28px;
+}
+.social-btn_pt:hover {
+  border: 2px solid #4285F4;
+  background-color: #fff;
+}
+.social-btn_pt:active {
+  background-color: #D6D6D6;
+  border-color: #D6D6D6;
+}
+.social-btn_ln {
+  background-color: #3ACE01;
+}
+.social-btn_ln:hover {
+  background-color: #4EDF16;
+}
+.social-btn_ln:active {
+  background-color: #43BC15;
+}
+.social-btn_ln:before {
+  width: 28px;
+  height: 27px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-linechat.svg");
+}
+.social-btn_li {
+  background-color: #017AB6;
+}
+.social-btn_li:hover {
+  background-color: #0A8DCE;
+}
+.social-btn_li:active {
+  background-color: #096B9C;
+}
+.social-btn_li:before {
+  width: 28px;
+  height: 28px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-linkedin.svg");
+}
+.social-btn_flb {
+  background-color: #F01B23;
+}
+.social-btn_flb:hover {
+  background-color: #F9343C;
+}
+.social-btn_flb:active {
+  background-color: #DB171E;
+}
+.social-btn_flb:before {
+  width: 28px;
+  height: 28px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-flipboard.svg");
+}
+.social-btn_rd {
+  background-color: #FF4500;
+}
+.social-btn_rd:hover {
+  background-color: #FF642A;
+}
+.social-btn_rd:active {
+  background-color: #E34206;
+}
+.social-btn_rd:before {
+  width: 31px;
+  height: 28px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-reddit.svg");
+}
+.social-btn_ok {
+  background-color: #E27E35;
+}
+.social-btn_ok:hover {
+  background-color: #EF9554;
+}
+.social-btn_ok:active {
+  background-color: #F29C5D;
+}
+.social-btn_ok:before {
+  width: 18px;
+  height: 31px;
+  background-image: url("https://cryptobrowser.site/static/django-cryptotab-sharing/cryptotab_sharing/images/icon-ok.svg");
+}
+.social-btn:active:before {
+  opacity: 0.7;
+}
+
+.social-btns-title {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+.social-btns-title span {
+  display: inline-block;
+  background-color: #fff;
+  border: 1px solid #D9D9D9;
+  border-radius: 9px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: bold;
+  margin-right: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social-btns {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 600px;
+  position: relative;
+}
+.social-btns .social-btn {
+  margin-right: 7px;
+}
+.social-btns_size_s .social-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.social-btns_size_s .social-btn_vk:before {
+  width: 22px;
+  height: 12px;
+}
+.social-btns_size_s .social-btn_fb:before {
+  width: 9px;
+  height: 16px;
+}
+.social-btns_size_s .social-btn_tw:before {
+  width: 16px;
+  height: 13px;
+}
+.social-btns_size_s .social-btn_wa:before {
+  width: 18px;
+  height: 18px;
+}
+.social-btns_size_s .social-btn_tg:before {
+  width: 19px;
+  height: 16px;
+}
+.social-btns_size_s .social-btn_gplus:before {
+  width: 19px;
+  height: 12px;
+}
+.social-btns_size_s .social-btn_mail {
+  background-size: 23px 18px;
+}
+.social-btns_size_s .social-btn_vb:before {
+  width: 21px;
+  height: 22px;
+}
+.social-btns_size_s .social-btn_wa:before {
+  width: 20px;
+  height: 20px;
+}
+.social-btns_size_s .social-btn_th:before {
+  width: 16px;
+  height: 22px;
+}
+.social-btns_size_s .social-btn_pt {
+  background-size: 22px;
+}
+.social-btns_size_s .social-btn_ln:before {
+  width: 22px;
+  height: 21px;
+}
+.social-btns_size_s .social-btn_li:before {
+  width: 22px;
+  height: 22px;
+}
+.social-btns_size_s .social-btn_flb:before {
+  width: 22px;
+  height: 22px;
+}
+.social-btns_size_s .social-btn_rd:before {
+  width: 24px;
+  height: 22px;
+}
+.social-btns_size_s .social-btn_ok:before {
+  width: 14px;
+  height: 24px;
+}
+.social-btns_size_s .social-btns__list {
+  width: 130px;
+}
+.social-btns_size_s .social-btns__more {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.social-btns_size_m .social-btn {
+  width: 56px;
+  height: 56px;
+  margin-right: 8px;
+  border-radius: 28px;
+}
+.social-btns_size_m .social-btns__list {
+  width: 162px;
+}
+.social-btns_size_m .social-btns__list .social-btn {
+  margin-right: 0;
+}
+.social-btns_size_m .social-btns__more {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+.social-btns__more {
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 320px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: inset 0px 0px 0px 1px #CDCDCD;
+}
+.social-btns__more:before, .social-btns__more::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #494949;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.social-btns__more:before {
+  width: 2px;
+  height: 16px;
+  top: 50%;
+}
+.social-btns__more:after {
+  width: 16px;
+  height: 2px;
+}
+.social-btns__more:hover {
+  box-shadow: inset 0px 0px 0px 2px #4285F4;
+}
+.social-btns__more:hover:after, .social-btns__more:hover:before {
+  background-color: #4285F4;
+}
+.social-btns__list {
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(46px) translateY(calc(-100% + 5px));
+  z-index: 100;
+  border-radius: 24px;
+  width: 170px;
+  box-sizing: border-box;
+}
+.social-btns__list .social-btn {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+.social-btns__list.active {
+  display: flex;
+}
+.social-btns__list_down {
+  top: auto;
+  bottom: 0;
+  transform: translateX(46px) translateY(calc(100% - 5px));
+}
+
+@media screen and (max-width: 800px) {
+  .social-btn {
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .social-btn_vk:before {
+    width: 22px;
+    height: 12px;
+  }
+  .social-btn_fb:before {
+    width: 9px;
+    height: 16px;
+  }
+  .social-btn_tw:before {
+    width: 16px;
+    height: 13px;
+  }
+  .social-btn_wa:before {
+    width: 18px;
+    height: 18px;
+  }
+  .social-btn_tg:before {
+    width: 19px;
+    height: 16px;
+  }
+  .social-btn_gplus:before {
+    width: 19px;
+    height: 12px;
+  }
+  .social-btn_mail {
+    background-size: 23px 18px;
+  }
+  .social-btn_vb:before {
+    width: 21px;
+    height: 22px;
+  }
+  .social-btn_wa:before {
+    width: 20px;
+    height: 20px;
+  }
+  .social-btn_th:before {
+    width: 16px;
+    height: 22px;
+  }
+  .social-btn_pt {
+    background-size: 22px;
+  }
+  .social-btn_ln:before {
+    width: 22px;
+    height: 21px;
+  }
+  .social-btn_li:before {
+    width: 22px;
+    height: 22px;
+  }
+  .social-btn_flb:before {
+    width: 22px;
+    height: 22px;
+  }
+  .social-btn_rd:before {
+    width: 24px;
+    height: 22px;
+  }
+  .social-btn_ok:before {
+    width: 14px;
+    height: 24px;
+  }
+
+  .social-btns {
+    max-width: 400px;
+  }
+  .social-btns .social-btn {
+    margin-right: 5px;
+  }
+  .social-btns__more {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    left: 0;
+  }
+  .social-btns__list {
+    width: 130px;
+  }
+  .social-btns__list .social-btn {
+    margin-right: 0;
+  }
+}

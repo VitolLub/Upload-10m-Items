@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../styles/popup-style.css">
+
+    <script src="../scripts/jquery-2.1.1.min.js"></script>
+    <script src="../scripts/popup.js"></script>
+  </head>
+  <body id="popup">
+
+    <div id="login-pop">
+      <h2 class="logo"> <img src="../images/Add_product_arrow-on.png"/> AMZ Seller Browser </h2>
+      <h3> for enable  please login </h3>
+      <p class="massege"></p>
+      <form class="login-form">
+        <h4>email: </h4>
+        <input id="User-email" placeholder="example@example.com" >
+        <h4>password: </h4>
+        <input id="User-password" placeholder="password">
+        <div class="btn-group">
+          <button id="login-btn" class="btn btn-default" >login</button>
+          <button id="signUp-btn" class="btn btn-default">sign up</button>
+        </div>
+      </form>
+    </div>
+
+    <a class="btn-pop" style="display: none;"> enable </a>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+   "author": "ReviewMeta.com",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/default_icon.png"
+   },
+   "content_scripts": [ {
+      "js": [ "checkinstall.js" ],
+      "matches": [ "*://*.reviewmeta.com/*" ]
+   } ],
+   "description": "See our adjusted rating directly as you shop on Amazon.  Click our icon to open our full review analysis in a new tab.",
+   "homepage_url": "https://ReviewMeta.com",
+   "icons": {
+      "128": "icons/default_icon128.png",
+      "16": "icons/default_icon.png",
+      "48": "icons/default_icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgvwzlCiI9n6jbo6EPXyj73Aij8ywMWCHFT+S20DoXwTFMoz34TRM3v+NNkrPyX+qsayxsZEnXQCcuSzXzFzuq2TNYJCiAMLFDIt0mIqboz5VB5HicPi86uOFJRg7LoUAF2+g7+lGuT6X40Gf84OICXSKdCR82QIElVEvvuJ2ILp+G+neOTrzCk6vEuUlgP6J46OvqvwBxhtRyXdB+2iS50rHhdG7AdEafnfm+wm7MhBNkCN65xTgvwP2tuCnIqNifOrMgSYlMK8U2m56zdc26s0L8J/NbeoycEdsJ7Ca259O6uqDvGhUOzDNaWIhY1CYLRIdSQMSIjfFkleUGlB7VQIDAQAB",
+   "manifest_version": 2,
+   "name": "ReviewMeta.com Review Analyzer",
+   "permissions": [ "*://*.amazon.com/*", "*://*.amazon.ca/*", "*://*.amazon.co.uk/*", "*://*.amazon.com.au/*", "*://*.amazon.de/*", "*://*.amazon.fr/*", "*://*.amazon.it/*", "*://*.amazon.co.jp/*", "*://*.amazon.in/*", "*://*.amazon.es/*", "*://*.amazon.cn/*", "*://*.amazon.com.mx/*", "*://*.amazon.com.br/*", "*://*.amazon.nl/*" ],
+   "short_name": "ReviewMeta.com",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.4"
+}

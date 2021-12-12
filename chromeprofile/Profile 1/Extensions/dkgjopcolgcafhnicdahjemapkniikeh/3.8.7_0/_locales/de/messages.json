@@ -1,0 +1,149 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "gr"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "zoll"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "Kilogramm"
+   },
+   "POUND": {
+      "message": "Pfund"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "appDesc": {
+      "message": "Der FBA-Rechner zeigt Amazon-Gebühren, Verkaufsmargen, Umsatz und Produktnettogewinn an und kann kostenlos verwendet werden."
+   },
+   "appName": {
+      "message": "Amazon FBA Calculator Kostenlos von AMZScout"
+   },
+   "bannerText": {
+      "message": "Ermitteln Sie das Inventar, den monatlichen Umsatz und die Preisentwicklung für diese Artikel \u003Ca href='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner' target='_blank'>Fachwissen\u003C/a>"
+   },
+   "bannerTextStats": {
+      "message": "Wollen Sie Amazon Verkäufer Lagerbeständen kostenlos kennenlernen? \u003Ca href='https://goo.gl/rFZcHW' target='_blank'>Ich will\u003C/a>"
+   },
+   "cannotFees": {
+      "message": "Leider bietet Amazon keine Informationen zu Gebühren für dieses Produkt an."
+   },
+   "cessFee": {
+      "message": "Gebühren Service & Cess"
+   },
+   "cpcCost": {
+      "message": "CPC Kosten"
+   },
+   "dateFirstAvailable": {
+      "message": "Datum des Warenempfangs"
+   },
+   "deliveryFee": {
+      "message": "Zustellgebühr"
+   },
+   "estimatedRevenue": {
+      "message": "Gesch. Monatsumsatz"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Geschätzter Monatsumsatz auf der Basis der geschätzten monatlichen Verkäufe und der Marge"
+   },
+   "estimatedSales": {
+      "message": "Gesch. monatlicher Verkauf"
+   },
+   "fixedClosingFee": {
+      "message": "Feste Schlussgebühr"
+   },
+   "marginImpact": {
+      "message": "Nettomarge"
+   },
+   "monthlyStorage": {
+      "message": "Monatliches Lager"
+   },
+   "negativeNumberTooltip": {
+      "message": "Beware, this is a negative Est.Monthly Profit / Net Margin / Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "orderHandling": {
+      "message": "Bestellabwicklung"
+   },
+   "packageWeight": {
+      "message": "Paketgewicht"
+   },
+   "pageLoadingErr": {
+      "message": "Es sieht aus wie die Seite nicht vollständig geladen. Seite aktualisieren und erneut versuchen."
+   },
+   "pickPack": {
+      "message": "Kommissionierung und Verpackung"
+   },
+   "piece": {
+      "message": "Stück"
+   },
+   "productCost": {
+      "message": "Produktkosten"
+   },
+   "productPrice": {
+      "message": "Produktpreis"
+   },
+   "productSize": {
+      "message": "Produktgröße"
+   },
+   "productSizeDimension": {
+      "message": "Packungsgrösse"
+   },
+   "productWeight": {
+      "message": "Gewicht des Produkts"
+   },
+   "profitPerUnit": {
+      "message": "Profitieren"
+   },
+   "referralFee": {
+      "message": "Vermittlungsbonus"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Return On Investment"
+   },
+   "shippingCost": {
+      "message": "Versandkosten"
+   },
+   "taxes": {
+      "message": "Steuern"
+   },
+   "totalFee": {
+      "message": "Summe der FBA-Gebühr"
+   },
+   "tryScout": {
+      "message": "Testen Sie AMZScout PRO KOSTENLOS!"
+   },
+   "unsupportedDomainErr": {
+      "message": "Es tut uns leid, aber diese Domain ist derzeit nicht unterstützt."
+   },
+   "variableClosingFee": {
+      "message": "Variable Schlussgebühr"
+   },
+   "weightHandling": {
+      "message": "Handhabungsgewicht"
+   },
+   "wrongPageErr": {
+      "message": "Es sieht so aus, als ob wir auf der falschen Seite sind.\u003Cbr>Öffnen Sie die Amazon-Produktseite und versuchen Sie es erneut!"
+   }
+}

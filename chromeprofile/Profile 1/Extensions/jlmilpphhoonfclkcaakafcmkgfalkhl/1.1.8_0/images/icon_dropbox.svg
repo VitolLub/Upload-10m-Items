@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="42px" viewBox="0 0 44 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_dropbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="11.7785334%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#129EF6" offset="0%"></stop>
+            <stop stop-color="#0180E6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-1028.000000, -1571.000000)" fill="url(#linearGradient-1)">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="item" transform="translate(25.000000, 86.000000)">
+                    <g transform="translate(15.000000, 1466.000000)" id="icon_dropbox">
+                        <path d="M63.1315663,34.9109338 L71.9949386,41.9641332 L59.0082452,50.8178399 L49.9974693,42.7710654 L40.9866934,50.8178399 L28,41.9641332 L36.8684337,34.9069061 L28.0050614,27.8537066 L40.9917548,19 L50.0025307,27.0467744 L59.0133066,19 L72,27.8537066 L63.1315663,34.9109338 L63.1315663,34.9109338 L63.1315663,34.9109338 Z M63.1091479,34.9074026 L49.9974693,42.7690111 L36.8908521,34.9104373 L50.0025307,27.0488288 L63.1091479,34.9074026 L63.1091479,34.9074026 L63.1091479,34.9074026 Z M36.8849805,52.3686375 L49.9487079,61 L62.9713735,52.3686375 L62.9713735,49.5380076 L59.0464922,52.234934 L49.9487079,44.1790316 C49.9487079,44.1790316 40.7425517,52.2349338 40.8756505,52.234934 C41.0087493,52.2349342 36.8849805,49.4842393 36.8849805,49.4842393 L36.8849805,52.518556 L36.8849805,52.3686375 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

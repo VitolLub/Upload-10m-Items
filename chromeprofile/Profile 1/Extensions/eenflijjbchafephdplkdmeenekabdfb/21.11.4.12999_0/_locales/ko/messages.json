@@ -1,0 +1,20 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "Price history for 6 months, similar products, find item by picture, seller ratings."
+   },
+   "EXTENSION_NAME": {
+      "message": "Alitools Shopping Assistant"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "Alitools"
+   },
+   "NAVIGATION_BRAND_TITLE": {
+      "message": "모든 상품 $MESSAGE$",
+      "placeholders": {
+         "message": {
+            "content": "$1",
+            "example": "Bamoer"
+         }
+      }
+   }
+}

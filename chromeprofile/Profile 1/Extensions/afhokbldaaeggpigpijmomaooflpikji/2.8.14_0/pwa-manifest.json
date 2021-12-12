@@ -1,0 +1,27 @@
+{
+  "short_name": "MakeTime",
+  "name": "MakeTime",
+  "icons": [
+    {
+      "src": "/assets/img/management_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/assets/img/management_256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/assets/img/management_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ff9800",
+  "gsm_sender_id": "23475543785"
+}

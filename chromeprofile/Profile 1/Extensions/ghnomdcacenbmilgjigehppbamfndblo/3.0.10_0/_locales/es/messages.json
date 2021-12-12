@@ -1,0 +1,314 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Fácil de ver los datos de precios históricos de camelcamelcamel.com."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "El Camelizer"
+   },
+   "chart_options_opt_fo_title": {
+      "message": "Eliminar valores atípicos"
+   },
+   "chart_options_opt_fo_tooltip": {
+      "message": "Ignore los precios que están muy por fuera del rango típico del producto."
+   },
+   "chart_options_opt_zero_title": {
+      "message": "Vista de primer plano"
+   },
+   "chart_options_opt_zero_tooltip": {
+      "message": "Alternar si el eje Y del gráfico comienza en cero o cerca del precio más bajo."
+   },
+   "chart_options_other_legend": {
+      "message": "Otras opciones"
+   },
+   "chart_options_pt_legend": {
+      "message": "Tipos de precios en el gráfico"
+   },
+   "chart_options_pt_tooltip": {
+      "message": "Alternar $price_type$ en el gráfico del historial de precios.",
+      "placeholders": {
+         "price_type": {
+            "content": "$1",
+            "example": "Third Party New"
+         }
+      }
+   },
+   "error_overlay_body": {
+      "message": "Un error desconocido a ocurrido. Cierre The Camelizer y vuelva a intentarlo."
+   },
+   "error_overlay_footer": {
+      "message": "Si volver a intentar su solicitud no resuelve el problema, visite"
+   },
+   "error_overlay_title": {
+      "message": "Error"
+   },
+   "http_0": {
+      "message": "Ocurrió un error de red. Por favor, inténtelo de nuevo más tarde. (0)"
+   },
+   "http_403": {
+      "message": "El camelizador no pudo acceder a camelcamelcamel. (403)"
+   },
+   "http_404": {
+      "message": "No se encontró el producto seleccionado. (404)"
+   },
+   "http_429": {
+      "message": "Está haciendo solicitudes demasiado rápido. Espere un minuto y vuelva a intentarlo. (429)"
+   },
+   "http_500": {
+      "message": "Hubo un error en el servidor camelcamelcamel. Por favor, inténtelo de nuevo más tarde. (500)"
+   },
+   "http_5xx": {
+      "message": "El camelizador no pudo acceder a camelcamelcamel. (5XX)"
+   },
+   "http_error_title": {
+      "message": "Error ( $status$ HTTP)",
+      "placeholders": {
+         "status": {
+            "content": "$1",
+            "example": "404"
+         }
+      }
+   },
+   "http_unknown": {
+      "message": "Un error desconocido ocurrió. Por favor, inténtelo de nuevo más tarde. ( $status$ )",
+      "placeholders": {
+         "status": {
+            "content": "$1",
+            "example": "200"
+         }
+      }
+   },
+   "intro_chart_area": {
+      "message": "Este es el gráfico histórico de precios de camelcamelcamel. Muestra cambios en el precio de un producto a lo largo del tiempo."
+   },
+   "intro_chart_period_opts": {
+      "message": "Las opciones del período del gráfico le permiten elegir cuánto tiempo atrás en el tiempo muestra los datos el gráfico."
+   },
+   "intro_sidebar": {
+      "message": "Esta es la barra lateral. Haga clic en los iconos para ver las diferentes partes de la extensión."
+   },
+   "intro_thanks": {
+      "message": "¡Gracias por usar nuestra extensión!"
+   },
+   "intro_watchfrm": {
+      "message": "Esta es la forma de observación de precios. Ingrese su dirección de correo electrónico y el precio que desea pagar (precio deseado), y le enviaremos un correo electrónico cuando baje el precio."
+   },
+   "intro_welcome_0": {
+      "message": "¡Bienvenido a The Camelizer!"
+   },
+   "intro_welcome_1": {
+      "message": "Haga clic en Siguiente para continuar el recorrido o en Salir para ... salir."
+   },
+   "loading_overlay_msg": {
+      "message": "CARGANDO"
+   },
+   "msg_error_saving_watches": {
+      "message": "¡Error al ahorrar precios en relojes!"
+   },
+   "msg_partial_watches_saved": {
+      "message": "No se pueden guardar todos los relojes de precio."
+   },
+   "msg_product_list_error": {
+      "message": "Ocurrió un error al acceder a la lista de productos. Por favor, inténtelo de nuevo más tarde."
+   },
+   "msg_saving_watches": {
+      "message": "Ahorrando relojes de precio ..."
+   },
+   "msg_see_red_fields": {
+      "message": "Consulte los campos resaltados en rojo."
+   },
+   "msg_server_error_saving": {
+      "message": "Debido a un error del servidor, no pudimos guardar sus relojes de precios. Inténtalo de nuevo."
+   },
+   "msg_success": {
+      "message": "¡Éxito!"
+   },
+   "msg_watches_saved": {
+      "message": "Hemos guardado sus relojes de precio."
+   },
+   "pageActionTitle": {
+      "description": "Tool tip for the icon",
+      "message": "El Camelizer"
+   },
+   "parent_error_msg": {
+      "message": "The current page does not have a specific product selected.  Please choose a product option (size, color, etc) and reactivate The Camelizer."
+   },
+   "parent_error_title": {
+      "message": "Please select a color / size option."
+   },
+   "price_type_new": {
+      "message": "Tercero Nuevo"
+   },
+   "price_type_used": {
+      "message": "Tercero Usado"
+   },
+   "sidebar_chartmenu_title": {
+      "message": "Opciones de gráfico"
+   },
+   "sidebar_chartmenu_tooltip": {
+      "message": "Ver opciones de visualización del gráfico"
+   },
+   "sidebar_gotoc3_title": {
+      "message": "camelcamelcamel.com"
+   },
+   "sidebar_gotoc3_tooltip": {
+      "message": "Ir a camelcamelcamel.com"
+   },
+   "sidebar_help_title": {
+      "message": "Sobre el camelizador"
+   },
+   "sidebar_help_tooltip": {
+      "message": "Sobre el camelizador"
+   },
+   "sidebar_pageproducts_title": {
+      "message": "Otros productos"
+   },
+   "sidebar_pageproducts_tooltip": {
+      "message": "Productos en esta página"
+   },
+   "sidebar_pricehistory_title": {
+      "message": "Historial de precios"
+   },
+   "sidebar_pricehistory_tooltip": {
+      "message": "Gráfico de historial de precios y relojes de precios"
+   },
+   "sidebar_user_title": {
+      "message": "Tu cuenta camel"
+   },
+   "sidebar_user_tooltip": {
+      "message": "Tu cuenta camel"
+   },
+   "tab_help_disclaimer_p0": {
+      "message": "Esta extensión no contiene ningún código de análisis de terceros, anuncios ni enlaces de afiliados. Por favor lee"
+   },
+   "tab_help_disclaimer_p0_link": {
+      "message": "política de privacidad de $appname$",
+      "placeholders": {
+         "appname": {
+            "content": "$1",
+            "example": "The Camelizer"
+         }
+      }
+   },
+   "tab_help_disclaimer_p1": {
+      "message": "Los precios y la disponibilidad de los productos son precisos a la fecha / hora indicada y están sujetos a cambios. Se aplicará cualquier información de precio y disponibilidad que se muestre en el momento de la compra."
+   },
+   "tab_help_disclaimers": {
+      "message": "Descargos de responsabilidad"
+   },
+   "tab_help_how_to_use": {
+      "message": "Cómo utilizar"
+   },
+   "tab_help_howto_p0": {
+      "message": "Visite la página de un producto en Amazon. El icono de Camelizer aparecerá en la barra de direcciones o extensiones; Pinchalo."
+   },
+   "tab_help_howto_p1": {
+      "message": "Para alternar un tipo de precio en el gráfico del historial de precios, haga clic en su fila en la tabla debajo del gráfico; el color de fondo de la fila coincidirá con el color de la línea en el gráfico."
+   },
+   "tab_help_intro": {
+      "message": "Una extensión de seguimiento de precios para el $browser$ de",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Firefox"
+         }
+      }
+   },
+   "tab_pageproducts_not_found": {
+      "message": "No se han encontrado y / o cargado productos."
+   },
+   "tab_pageproducts_p0": {
+      "message": "Haga clic en el título de un producto para ver la información de su historial de precios."
+   },
+   "tab_pageproducts_title": {
+      "message": "Productos en esta página"
+   },
+   "tab_price_history_chart_alt": {
+      "message": "camelcamelcamel gráfico histórico de precios"
+   },
+   "tab_price_history_chartlink_title": {
+      "message": "Ver la página del producto en camelcamelcamel"
+   },
+   "tab_price_history_email_text": {
+      "message": "Enviaremos rebajas de precios a:"
+   },
+   "tab_price_history_period_option_1m": {
+      "message": "1 mes"
+   },
+   "tab_price_history_period_option_1y": {
+      "message": "1 año"
+   },
+   "tab_price_history_period_option_3m": {
+      "message": "3 meses"
+   },
+   "tab_price_history_period_option_6m": {
+      "message": "6 meses"
+   },
+   "tab_price_history_period_option_all": {
+      "message": "Todo el tiempo"
+   },
+   "tab_price_history_period_option_tooltip": {
+      "message": "Cambiar período de gráfico a $period$",
+      "placeholders": {
+         "period": {
+            "content": "$1",
+            "example": "1 Month"
+         }
+      }
+   },
+   "tab_price_history_period_title": {
+      "message": "Historia"
+   },
+   "tab_price_history_period_tooltip": {
+      "message": "¿Qué tan atrás en el tiempo debería mostrar datos el gráfico?"
+   },
+   "tab_price_history_save_button": {
+      "message": "Ahorre precio relojes"
+   },
+   "tab_price_history_watchtbl_current_price": {
+      "message": "Precio actual"
+   },
+   "tab_price_history_watchtbl_desired_price": {
+      "message": "Precio deseado"
+   },
+   "tab_price_history_watchtbl_highest_price": {
+      "message": "Precio más alto"
+   },
+   "tab_price_history_watchtbl_lowest_price": {
+      "message": "El precio más bajo"
+   },
+   "tab_price_history_watchtbl_price_type": {
+      "message": "Tipo de precio"
+   },
+   "tab_price_history_watchtbl_tour_tooltip": {
+      "message": "Haga clic aquí para aprender a usar The Camelizer."
+   },
+   "tab_price_history_your_email": {
+      "message": "Tu correo electrónico"
+   },
+   "tab_user_create_account": {
+      "message": "Crea una cuenta gratis"
+   },
+   "tab_user_login": {
+      "message": "Iniciar sesión en camelcamelcamel"
+   },
+   "tab_user_manage_account": {
+      "message": "Gestiona tu cuenta"
+   },
+   "tab_user_manage_wishlists": {
+      "message": "Gestionar listas de deseos"
+   },
+   "tab_user_not_signed_in": {
+      "message": "No estás registrado en camelcamelcamel."
+   },
+   "tab_user_options": {
+      "message": "Opciones"
+   },
+   "tab_user_signed_in_as": {
+      "message": "Estás registrado en camelcamelcamel como"
+   },
+   "tab_user_title": {
+      "message": "Tu cuenta camel"
+   }
+}

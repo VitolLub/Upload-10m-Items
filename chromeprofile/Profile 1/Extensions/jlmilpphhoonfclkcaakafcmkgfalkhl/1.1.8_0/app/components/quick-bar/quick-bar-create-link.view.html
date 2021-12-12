@@ -1,0 +1,38 @@
+<div class="create-link">
+    <form  class="create-link__body" name="customButtonForm" ng-submit="addLink(customButtonForm.$valid)" novalidate>
+        <h2 class="create-link__title">{{ 'add_custom_button' | i18n }}</h2>
+
+        <div class="create-link__field">
+            <label for="url" class="create-link__label">{{ 'url_to_open' | i18n }}</label>
+            <div class="input">
+                <input type="text" name="url" class="create-link__input" placeholder="URL" id="url"
+                       ng-class="{'has-error': customButtonForm.url.$invalid && submitted}"
+                       ng-pattern="/^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/"
+                       ng-model="customButton.url" required>
+            </div>
+        </div>
+
+        <div class="create-link__field">
+            <label for="name" class="create-link__label">{{ 'name' | i18n }}</label>
+            <div class="input">
+                <input type="text" name="name" id="name" class="create-link__input" ng-class="{'has-error': customButtonForm.name.$invalid && submitted}" placeholder="{{ 'name' | i18n }}" ng-minlength="3" ng-maxlength="36" maxlength="36" ng-model="customButton.name" required>
+            </div>
+        </div>
+
+        <div class="create-link__field">
+            <span class="create-link__label">{{ 'label_color' | i18n }}</span>
+
+            <div class="create-link__colors">
+                <label class="create-link__radio-color" ng-repeat="item in colors">
+                    <input type="radio" name="color" value="{{item.color}}" ng-checked="item.checked" ng-model="$parent.customButton.color">
+                    <span style="background: {{item.color}}"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="create-link__btns">
+            <button type="button" class="create-link__btn-link" ng-click="closeThisDialog(0)">{{ 'dismiss' | i18n }}</button>
+            <button type="submit" class="create-link__btn">{{ 'add_link' | i18n }}</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "حول التطبيق"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "حساب"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "اسم المستخدم"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "إضافة حساب"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "مسح رمز QR"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "الإدخال اليدوي"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": " تم إضافته."
+   },
+   "advanced": {
+      "message": "إعدادات متقدمة"
+   },
+   "advisor": {
+      "message": "Advisor"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Autofill can be enabled to automatically fill codes into websites."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Enable auto-lock to protect your data."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "Browser sync is disabled. Enabling it allows accounts to be synced across browsers."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Set a password to protect your data."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Enabling smart filter allows for quick access to accounts."
+   },
+   "algorithm": {
+      "message": "‮الخوارزمية"
+   },
+   "autolock": {
+      "message": "أقفال بعد"
+   },
+   "backup": {
+      "message": "نسخ احتياطي"
+   },
+   "backup_file_info": {
+      "message": "قم بالنسخ الاحتياطي لبياناتك إلى ملف."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "قائم على العداد"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "على أساس الوقت"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "مزامنة المتصفح"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "فشل في التقاط الرمز, يرجى إعادة تحميل الصفحة والمحاولة مرة أخرى."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "هل تحاول مسح رمز QR من ملف محلي؟ استخدم استيراد نسخة احتياطية لصورة QR بدلاً من ذلك."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "تحذير! التوقيت المحلي بعيد جدًا، الرجاء إصلاحه قبل المتابعة."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "إغلاق"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "هل أنت متأكد من حذف هذا الملف؟ لا يمكن التراجع عن هذا الإجراء."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "أفهم أنه سيتم حذف جميع بياناتي بشكل لا رجعة فيه."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "تأكيد كلمة المرور"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "تم النسخ!"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "كلمة المرور الحالية"
+   },
+   "danger": {
+      "message": "Danger"
+   },
+   "delete_all": {
+      "message": "إعادة تعيين أداة المصادقة"
+   },
+   "delete_all_warning": {
+      "message": "سيؤدي هذا إلى حذف جميع بياناتك وإعادة تعيين أداة المصادقة بالكامل. لن تتمكن من استعادة أي بيانات محذوفة! يجب مراعاة حفظ نسخة احتياطية قبل إعادة تعيين أداة المصادقة."
+   },
+   "digits": {
+      "message": "وحدات"
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "ملف قابل للتنزيل"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "تنزيل النسخة الاحتياطية المحمية بكلمة مرور"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "تحذير: النسخ الاحتياطية غير مشفرة. استخدم على مسؤوليتك الخاصة."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "حرّر"
+   },
+   "enable_context_menu": {
+      "message": "Add to context menu"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "مشفَّر"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "رمز الاستجابة السريع غير معترف به."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "بيانات الحساب غير صالحة"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "تحذير: جميع نسخك الاحتياطية غير مشفرة. هل ترغب في إضافة حساب إلى آخر التطبيق؟ مرر فوق الجزء الأيمن العلوي من أي حساب، و اضغط على الزر المخفي."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "يقوم المصادق بإنشاء رموز المصادقة ذات عاملين في المتصفح الخاص بك."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "مصادقة"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "المصادقة"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "المشاكل"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "استيراد النسخة الاحتياطية"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "استيراد النسخة الاحتياطية الغير مشفرة"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "استيراد ملف النسخ الاحتياطي"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "استيراد نسخة احتياطية لصورة QR"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "يمكنك تحديد ملفات متعددة لاستيراد نسخة احتياطية على دفعات."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Import successful, but some QR codes could not be recognized."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "يجب توفير كلمة المرور الصحيحة لاستيراد النسخ الاحتياطي."
+   },
+   "info": {
+      "message": "Info"
+   },
+   "invalid": {
+      "message": "معطل"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "المصدر"
+   },
+   "learn_more": {
+      "message": "Learn more"
+   },
+   "loading": {
+      "message": "جاري التحميل..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "يتم تخزين كلمة المرور الخاصة بك محلياً، يرجى تغييره في القائمة أمان فورا."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "قفل"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "تسجيل خروج"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "النسخ الاحتياطي اليدوي"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "فشل الاستيراد. إذا كنت تقوم بترحيل البيانات من Google Authenticator، الرجاء إعادة تصدير بياناتك من Google Authenticator وحاول مرة أخرى."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "Some account data was not imported successfully."
+   },
+   "minutes": {
+      "message": "دقائق"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "كلمة السرّ الجديدة"
+   },
+   "no": {
+      "description": "No.",
+      "message": "لا"
+   },
+   "no_entires": {
+      "message": "No accounts to display. Add your first account now."
+   },
+   "no_insight_available": {
+      "message": "No insights found, everything looks good!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "موافق"
+   },
+   "onedrive_business_perms": {
+      "message": "لماذا تتطلب حسابات الأعمال المزيد من الصلاحيات؟"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "يمكنك استيراد نسخ احتياطية من بعض التطبيقات الأخرى."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "لمعرفة المزيد"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "لديك واحد أو أكثر من حسابات البخار أو عاصفة ثلجية. لن النسخ الاحتياطية غير مشفرة باستخدام استمارة موحدة احتياطية."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "أدخل كلمة المرور لفك تشفير بيانات الحساب."
+   },
+   "password_policy_default_hint": {
+      "message": "Your password does not meet your organization's security requirements. Contact your administrator for more information."
+   },
+   "period": {
+      "message": "المدة"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "كلمة المرور"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "لا يمكنك إضافة حساب جديد حتى يتم فك تشفير جميع الحسابات. الرجاء إدخال كلمة المرور الصحيحة قبل المتابعة."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "لن يتم تضمين الحسابات التي لا يمكن فك تشفيرها في هذه النسخة الاحتياطية."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "عبارة المرور غير متطابقة."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "الوضع المنبثق"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "تذكر كلمات المرور"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "هل لديك نسخة احتياطية للحسابات الخاصة بك؟ لا تنتظر حتى فوات الاوان!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "احذف"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "تفضيلات"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "مقياس"
+   },
+   "search": {
+      "description": "Search",
+      "message": "بحث"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "سر"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "الوظائف الأمنية"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "سيتم استخدام كلمة المرور هذه لتشفير الحسابات الخاصة بك. لا يمكن أن يساعدك أحد إذا كنت قد نسيت كلمة المرور."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "الاعدادات"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "إظهار كافة الإدخالات"
+   },
+   "show_all_insights": {
+      "message": "Show all insights."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "تسجيل الدخول"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "تسجيل الدخول (الأعمال التجارية)"
+   },
+   "smart_filter": {
+      "message": "الفلتر الذكي"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "العربية"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "تلقائياً النسخ الاحتياطي البيانات الخاصة بك للتخزين وخدمات الطرف الثالث."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Sync Clock with Google"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "المظهر"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "غامق"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "تباين عالي"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "فاتح"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Simple"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "كان هناك مشكلة الاتصال بحسابك $SERVICE$ ، الرجاء تسجيل الدخول مرة أخرى.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "ترجمة"
+   },
+   "type": {
+      "message": "نوع"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "التحديث"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "فشل التحديث."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "تم بنجاح"
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "استخدام ميزة الملء التلقائي"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "تباين عالي"
+   },
+   "warning": {
+      "message": "Warning"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "نعم!"
+   }
+}

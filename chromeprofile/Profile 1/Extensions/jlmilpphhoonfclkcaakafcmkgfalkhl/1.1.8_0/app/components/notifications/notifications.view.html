@@ -1,0 +1,6 @@
+<div class="modal modal_notifications">
+    <div ng-repeat="item in notifications|filter:{isActionRequired:true} | orderBy:'-' track by $index" class="notification">
+    	<ng-include ng-if="item.id != 'search'" src="'/app/components/'+ item.id +'/'+ item.id +'.view.html'"></ng-include>
+        <ng-include ng-if="item.id == 'search'" src="'/app/components/notifications/search-notification.view.html'"></ng-include>
+    </div>
+</div>

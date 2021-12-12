@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Менеджер, який дозволяє обробляти файли APK, які запускаються за допомогою платформи емулятора android ApkOnline"
+   },
+   "title": {
+      "message": "ApkOnline Менеджер APK для емулятора Android"
+   }
+}

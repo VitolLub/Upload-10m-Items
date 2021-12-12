@@ -1,0 +1,56 @@
+<html>
+<head>
+  <style>
+    html {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    body {
+      font-family: Arial, sans-serif, Helvetica;
+      font-size: 15px;
+    }
+    #priceblink-popup {
+      margin: 0;
+      padding: 0;
+    }
+
+    #priceblink-popup ul {
+      width: 340px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #priceblink-popup ul li {
+      border-bottom: 1px solid #e1e1e1;
+      padding: 18px;
+    }
+
+    #priceblink-popup ul li:hover {
+      background-color: #efefef;
+      cursor: pointer;
+    }
+
+    .hide {
+      display: none !important;
+      visibility: hidden;
+    }
+
+    .show {
+      display: block;
+      visibility: visible;
+    }
+
+  </style>
+  <script src="coupons_popup.js" type="text/javascript"></script>
+</head>
+<body id="priceblink-popup">
+<ul>
+  <li id="add-to-wishlist" style="display: none">Add to PriceBlink Wish List</li>
+  <li id="go-to-wishlist">Go to PriceBlink Wish List</li>
+  <li id="suggest-a-coupon">Suggest a coupon for this merchant</li>
+  <li id="toggle-coupons">Turn <span id="toggle-coupons-text"></span> coupon notifications for this merchant</li>
+  <li id="need-help">Need Help?</li>
+</ul>
+</body>
+</html>

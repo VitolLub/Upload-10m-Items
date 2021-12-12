@@ -1,0 +1,11 @@
+{
+   "browserActionTitle": {
+      "message": "Open New Tab"
+   },
+   "extDescription": {
+      "message": "New tab page extension for your browser with bunch of beautiful backgrounds and useful widgets."
+   },
+   "extName": {
+      "message": "CryptoTab START"
+   }
+}

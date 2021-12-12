@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Gestionnaire qui permet de gérer les fichiers APK exécutés avec la plate-forme d'émulateur Android ApkOnline"
+   },
+   "title": {
+      "message": "ApkOnline manager APK pour émulateur Android"
+   }
+}

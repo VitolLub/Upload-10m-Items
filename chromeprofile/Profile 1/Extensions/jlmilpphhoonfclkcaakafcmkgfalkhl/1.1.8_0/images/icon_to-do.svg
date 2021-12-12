@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="42px" viewBox="0 0 44 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_to-do</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-797.000000, -462.000000)">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row" transform="translate(0.000000, 139.000000)">
+                    <g id="item" transform="translate(484.000000, 5.000000)">
+                        <g id="icon_to-do" transform="translate(28.000000, 20.000000)">
+                            <g id="Group-3" transform="translate(1.000000, 0.000000)">
+                                <rect id="Rectangle-3" fill="#4285F4" x="9" y="5" width="33" height="3" rx="1.5"></rect>
+                                <polyline id="Path-2" stroke="#4285F4" stroke-width="2.5" stroke-linecap="round" points="0 3.76923077 2.82352941 7 8 0"></polyline>
+                            </g>
+                            <g id="Group-2" transform="translate(0.000000, 13.000000)">
+                                <rect id="Rectangle-3" fill="#757575" x="10" y="2" width="33" height="3" rx="1.5"></rect>
+                                <circle id="Oval-3" stroke="#D6D6D6" stroke-width="2" cx="3.5" cy="3.5" r="2.5"></circle>
+                            </g>
+                            <g id="Group-2" transform="translate(0.000000, 23.000000)">
+                                <rect id="Rectangle-3" fill="#757575" x="10" y="2" width="33" height="3" rx="1.5"></rect>
+                                <circle id="Oval-3" stroke="#D6D6D6" stroke-width="2" cx="3.5" cy="3.5" r="2.5"></circle>
+                            </g>
+                            <g id="Group-2" transform="translate(0.000000, 33.000000)">
+                                <rect id="Rectangle-3" fill="#757575" x="10" y="2" width="33" height="3" rx="1.5"></rect>
+                                <circle id="Oval-3" stroke="#D6D6D6" stroke-width="2" cx="3.5" cy="3.5" r="2.5"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<form ng-submit="submit()">
+    <div class="input">
+        <input type="text" placeholder="{{placeholder}}" ng-change="getSuggestions()" ng-keydown="switchSugg($event)" ng-model="inputValue" ng-model-options="{debounce: 300}" />
+        <button class="cancel" type="reset" ng-click="showSuggestions=false"></button>
+        <ul class="suggestions" ng-show="showSuggestions">
+            <li class="nothing" ng-show="!suggestions.length">{{ 'nothing_found' | i18n }}</li>
+            <li class="suggestions__item" ng-repeat="suggestion in suggestions" ng-bind-html="suggestion.name_hl + ', ' + suggestion.country_name" ng-click="submit(suggestion)" ng-class="{'active': $index==activeSugg}"></li>
+        </ul>
+    </div>
+</form>

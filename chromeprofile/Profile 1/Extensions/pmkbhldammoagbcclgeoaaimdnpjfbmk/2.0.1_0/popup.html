@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+    <meta charset="utf-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="logic.js"></script>
+    <style>
+      .col,.row{
+        padding:0 !important;
+        margin:0 !important;
+      }
+      .card{
+        margin:0;
+      }
+    </style>
+  </head>
+
+  <body style="width:300px">
+    <div id="app">
+		<div v-if="page==200" id="page200" class="row">
+        <div class="col s12">
+          <div class="card red darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Сервис временно недоступен</span>
+              
+            </div>
+            
+            <div class="card-action white">
+                <div>
+                  <span>Все услуги для Амазон предпринимателей:</span>
+                    <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div v-if="page==1" id="page1" class="row">
+        <div class="col s12">
+          <div class="card light-blue darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Регистрация</span>
+              <p>Введите свой email</p>
+            </div>
+            <div class="card-action white">
+
+                <div class="row">
+                  <div class="col s12">
+                    <div class="input-field inline">
+                      <input id="email" type="email" class="validate" v-model="email" v-on:keyup.13="keymonitor" name="email" >
+                      <label for="email">Email</label>
+                      <button v-on:click="registerEmail" class="btn waves-effect waves-light">Отправить
+                          <i class="material-icons right">send</i>
+                          </button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card-action white">
+                <div>
+                  <span>Все услуги для Амазон предпринимателей:</span>
+                    <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div v-if="page==2" id="page2" class="row">
+          <div class="col s12">
+            <div class="card light-blue darken-4">
+              <div class="card-content white-text">
+                <span class="card-title">Проверка товара</span>
+                <p>Нажмите кнопку, чтобы проверить есть ли лимит на публикацию отзывов</p>
+              </div>
+              <div class="card-action white">
+                   <button v-on:click="checkProduct" class="btn waves-effect green waves-light">Проверить
+                        <i class="material-icons right">search</i>
+                      </button>
+              </div>
+              <div class="card-action white">
+                  <div>
+                    <span>Все услуги для Амазон предпринимателей:</span>
+                      <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div v-if="page==3" id="page3" class="row">
+            <div class="col s12">
+              <div class="card light-blue darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Проверка товара</span>
+                </div>
+                <div class="card-action white">
+                    <div class="progress">
+                        <div class="indeterminate"></div>
+                    </div>
+                </div>
+                <div class="card-action white">
+                    <div>
+                      <span>Все услуги для Амазон предпринимателей:</span>
+                        <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div v-if="page==4" id="page4" class="row">
+              <div class="col s12">
+                <div class="card amber darken-4">
+                  <div class="card-content white-text">
+                    <span class="card-title">Нет товара</span>
+                    <p>На этой странице нет товара</p>
+                  </div>
+                  <div class="card-action white">
+                      <div>
+                        <span>Все услуги для Амазон предпринимателей:</span>
+                          <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          <div v-if="page==5" id="page5" class="row">
+            <div class="col s12">
+              <div class="card green darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title">Всё хорошо</span>
+                  <p>На данный товар нет лимита публикаций отзывов</p>
+                </div>
+                <div class="card-action white">
+                    <div>
+                      <span>Все услуги для Амазон предпринимателей:</span>
+                        <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div v-if="page==6" id="page6" class="row">
+            <div class="col s12">
+              <div class="card red darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">:(</span>
+                  <p>На данный товар есть лимит публикаций отзывов</p>
+                </div>
+                <div class="card-action white">
+                    <div>
+                      <span>Все услуги для Амазон предпринимателей:</span>
+                        <a href="#" v-on:click="openSite">www.AmzSmart.biz</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div v-if="page==7" id="page7" class="row">
+              <div class="col s12">
+                <div class="card light-blue darken-4">
+                  <div class="card-content white-text">
+                    <span class="card-title">Регистрация</span>
+                    <p></p>
+                  </div>
+                  <div class="card-action white">
+                      <div class="progress">
+                          <div class="indeterminate"></div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div v-if="page==8" id="page7" class="row">
+                <div class="col s12">
+                  <div class="card light-blue darken-4">
+                    <div class="card-action white">
+                        <div class="progress">
+                            <div class="indeterminate"></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+   
+  </div>
+    
+
+    <script src="popup.js"></script>
+
+  </body>
+</html>

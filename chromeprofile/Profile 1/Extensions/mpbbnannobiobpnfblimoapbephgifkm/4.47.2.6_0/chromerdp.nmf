@@ -1,0 +1,12 @@
+{
+  "program": {
+    "portable": {
+      "pnacl-translate": {
+        "url": "chromerdp.pexe"
+      },
+      "pnacl-debug": {
+        "url": "chromerdp_unstripped.bc"
+      }
+    }
+  }
+}

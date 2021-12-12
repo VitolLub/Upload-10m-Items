@@ -1,0 +1,23 @@
+.info-widget {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    z-index: 50;
+    font-size: 0;
+}
+
+
+.info__tooltip {
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    font-size: 14px;
+    padding: 4px 10px;
+    line-height: 1.4;
+    z-index: 999;
+    border-radius: 4px;
+    display: inline-block;
+    white-space: nowrap;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}

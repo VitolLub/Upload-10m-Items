@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Options</title>
+    <script type="text/javascript" src="js/browser-polyfill.min.js"></script>
+    <script type="module" src="js/cba-components.js"></script>
+    <script type="text/javascript" src="js/options.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
+  </head>
+  <body bgcolor="#f0f0f0">
+    <div id="sidebar">
+      <header>
+        <h1>
+          CBA
+        </h1>
+        <span id="version"></span>
+      </header>
+      <nav>
+        <cba-tabs>
+          <cba-tab id="import-tab">Import/export</cba-tab>
+          <cba-tab id="cba-tab">CBA</cba-tab>
+          <cba-tab id="functions-tab">funcions</cba-tab>
+        </cba-tabs>
+      </nav>
+    </div>
+    <main id="optionsContainer">
+      <cba-panel id="panel-import" aria-labelledby="import-tab">
+        <h2>Import/Export</h2>
+        <h3>Export</h3>
+        <div class="flexContainer">
+          <cba-list id="exportList" heading="Export" subheading="record"></cba-list>
+          <textarea id="automExport" rows="12" cols="48"></textarea>
+        </div>
+
+        <h3>Import</h3>
+
+        <div class="flexContainer">
+          <textarea id="automImport" rows="10" cols="50"></textarea>
+          <div>
+            <cba-list id="importList" heading="Import" subheading="record"></cba-list>
+            <cba-button id="importProjects">Import</cba-button>
+          </div>
+        </div>
+        <div class="notification"></div>
+      </cba-panel>
+      <cba-panel id="panel-cba" aria-labelledby="cba-tab">
+        <h2>CBA</h2>
+        <iframe src="popup.html?options=true" id="popup" frameborder="0"></iframe>
+      </cba-panel>
+      <cba-panel id="panel-functions" aria-labelledby="functions-tab">
+        <h2>Functions</h2>
+        <div class="flexContainer">
+          <div id="functions-input">
+            <div class="flexContainer">
+              <input type="text" id="funcName" placeholder="Name"/>
+              <input type="text" id="funcLink" placeholder="Link (optional)"/>
+            </div>
+            <input type="text" id="funcDescription" placeholder="Description (optional)"/>
+            <textarea rows="13" cols="47" id="funcData" placeholder="Input"></textarea>
+            <div class="flexContainer">
+              <select id="funcEvType"></select>
+              <input type="text" id="funcNewValue" placeholder="Input"/>
+            </div>
+            <div>
+              <cba-button data-action="addFunction">Add</cba-button>
+              <cba-button data-action="deleteFunction">Delete</cba-button>
+              <cba-button data-action="saveFunction">Save</cba-button>
+            </div>
+          </div>
+          <div>
+            <cba-list id="functions" heading="Functions" subHeading="Name"></cba-list>
+          </div>
+        </div>
+        <div class="notification"></div>
+      </cba-panel>
+    </div>
+  </body>
+</html>

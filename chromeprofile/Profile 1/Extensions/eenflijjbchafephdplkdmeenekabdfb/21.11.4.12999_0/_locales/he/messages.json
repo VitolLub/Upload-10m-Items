@@ -1,0 +1,20 @@
+{
+   "EXTENSION_DESCRIPTION": {
+      "message": "היסטוריית מחירים של 6 חודשים, מוצרים דומים, מציאת מוצרים לפי תמונה, דירוג מוכרים."
+   },
+   "EXTENSION_NAME": {
+      "message": "Alitools - עוזר קניות"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "Alitools"
+   },
+   "NAVIGATION_BRAND_TITLE": {
+      "message": "$MESSAGE$ כל הסחורה",
+      "placeholders": {
+         "message": {
+            "content": "$1",
+            "example": "Bamoer"
+         }
+      }
+   }
+}

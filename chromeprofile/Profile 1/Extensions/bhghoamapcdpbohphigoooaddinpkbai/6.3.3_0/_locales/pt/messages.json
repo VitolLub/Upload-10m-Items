@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "Sobre"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "Conta"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "Nome de Utilizador"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "Add account"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "Ler código QR"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "Entrada manual"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": "foi adicionado ao."
+   },
+   "advanced": {
+      "message": "Avançado"
+   },
+   "advisor": {
+      "message": "Advisor"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "Autofill can be enabled to automatically fill codes into websites."
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "Enable auto-lock to protect your data."
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "Browser sync is disabled. Enabling it allows accounts to be synced across browsers."
+   },
+   "advisor_insight_password_not_set": {
+      "message": "Set a password to protect your data."
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "Enabling smart filter allows for quick access to accounts."
+   },
+   "algorithm": {
+      "message": "Algoritmo"
+   },
+   "autolock": {
+      "message": "Bloquear após"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "backup_file_info": {
+      "message": "Backup your data to a file."
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "Baseado no Contador"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "Baseado no Tempo"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "Browser Sync"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "A captura falhou, por favor recarregue a página e tente novamente."
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "Are you trying to scan QR code from a local file? Use Import QR Image Backup instead."
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "Cuidado! O seu relógio está atrasado, por favor corrija antes de continuar."
+   },
+   "close": {
+      "description": "Close.",
+      "message": "Fechar"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "Tem a certeza que pretende eliminar esta conta? Esta ação não pode ser revertida."
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "Compreendo que todos os meus dados serão definitivamente apagados."
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "Confirmar palavra-passe"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "Copiado"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "Palavra-passe atual"
+   },
+   "danger": {
+      "message": "Danger"
+   },
+   "delete_all": {
+      "message": "Redefinir Autenticação"
+   },
+   "delete_all_warning": {
+      "message": "Irá apagar todos os seus dados e redefinir a autenticação completamente. Não será possível recuperar quaisquer dados apagados! Deve considerar guardar uma cópia de segurança antes de redefinir a autenticação."
+   },
+   "digits": {
+      "message": "Dígitos"
+   },
+   "dismiss": {
+      "message": "Dismiss"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "Exportar cópia de segurança"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "Exportar cópia de segurança protegida por palavra-passe"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "Aviso: os backups estão desencriptados. Use por sua conta e risco."
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "Editar"
+   },
+   "enable_context_menu": {
+      "message": "Add to context menu"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "Encriptado"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "Código QR não reconhecido."
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "Invalid account secret"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "Aviso: todos os backups estão desencriptados. Pretende adicionar uma conta noutra aplicação? Passe o rato sobre a parte superior direita de qualquer conta e clique no botão escondido."
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "O autenticador gera códigos de autenticação de dois factores no seu navegador."
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "Autenticador"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "Autenticador"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "Feedback"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "Importar cópia de segurança"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "Importar código de segurança"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "Importar cópia de segurança"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "Importar código QR"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "Pode selecionar vários ficheiros para importar cópias de segurança em lotes."
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "Import successful, but some QR codes could not be recognized."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "Deve fornecer a palavra-passe correta para importar as cópias de segurança."
+   },
+   "info": {
+      "message": "Info"
+   },
+   "invalid": {
+      "message": "Inválido"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "Emissor"
+   },
+   "learn_more": {
+      "message": "Learn more"
+   },
+   "loading": {
+      "message": "A carregar..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "A palavra-passe encontra-se armazenada localmente. Por favor, altere-a no menu de segurança imediatamente."
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "Bloquear"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "Sair"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "Manual Backup"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "Import failed. If you are migrating data from Google Authenticator, please re-export your data from Google Authenticator and try again."
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "Some account data was not imported successfully."
+   },
+   "minutes": {
+      "message": "minutos"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "Nova palavra-passe"
+   },
+   "no": {
+      "description": "No.",
+      "message": "Não"
+   },
+   "no_entires": {
+      "message": "No accounts to display. Add your first account now."
+   },
+   "no_insight_available": {
+      "message": "No insights found, everything looks good!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "OK"
+   },
+   "onedrive_business_perms": {
+      "message": "Why do business accounts require more permissions?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "Você pode importar cópias de segurança de outras aplicações."
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "Mais informações"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "Você tem uma ou mais contas Steam ou Blizzard. As cópias de segurança não encriptadas não utilizarão o formato padrão de backup."
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "Digite a palavra-passe para desencriptar os dados da conta."
+   },
+   "password_policy_default_hint": {
+      "message": "Your password does not meet your organization's security requirements. Contact your administrator for more information."
+   },
+   "period": {
+      "message": "Período"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "Palavra-passe"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "Não pode adicionar uma nova conta até que todas as contas estejam desencriptadas. Por favor, digite a palavra-passe correta antes de continuar."
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "Contas que não puderam ser desencriptadas não serão incluídas nesta cópia de segurança."
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "As palavras-passe não correspondem."
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "Modo pop-up"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "Lembrar palavra-passe"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "Tem alguma cópia de segurança das suas contas? Não espere até que seja tarde demais!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "Remover"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "Definições"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "Escala"
+   },
+   "search": {
+      "description": "Search",
+      "message": "Pesquisa"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "Segredo"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "Segurança"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "Esta palavra-passe será utilizada para encriptar todas as suas contas. Ninguém poderá ajudá-lo caso se esqueça da sua palavra-passe."
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "Configurações"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "Mostrar todas as entradas"
+   },
+   "show_all_insights": {
+      "message": "Show all insights."
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Entrar"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "Sign in (Business)"
+   },
+   "smart_filter": {
+      "message": "Filtro Inteligente"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "Código fonte"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "Automaticamente os seus dados serão exportados para serviços de armazenamento de terceiros."
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "Sincronizar relógio com Google"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "Tema"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "Escuro"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "Alto Contraste"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "Claro"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "Simple"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "Houve um problema na conexão com sua conta do $SERVICE$, por favor faça o login novamente.",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "Traduzir"
+   },
+   "type": {
+      "message": "Tipo"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "Atualizar"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "Falhou."
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "Sucesso."
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "Utilizar preenchimento automático"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "Utilizar alto contraste"
+   },
+   "warning": {
+      "message": "Warning"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "Sim"
+   }
+}

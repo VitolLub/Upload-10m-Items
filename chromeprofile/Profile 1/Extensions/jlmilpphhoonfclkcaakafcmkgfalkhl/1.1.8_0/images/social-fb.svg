@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="16px" viewBox="0 0 9 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="cryptotab--user-panel--a" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+       transform="translate(-520.000000, -607.000000)">
+        <g id="referral" transform="translate(470.000000, 165.000000)" fill="#FFFFFF">
+            <g id="share-icons" transform="translate(29.000000, 430.000000)">
+                <g id="fb">
+                    <g id="up">
+                        <path d="M23.2932503,27.9064569 L23.2932503,20.5809666 L21,20.5809666 L21,17.9466963 L23.2932503,17.9466963 L23.2932503,16.0150738 C23.2932503,16.0150738 23.1282883,12 26.4765472,12 L29.1849877,12 L29.1849876,14.6839426 L27.4973412,14.6839426 C27.4973412,14.6839426 26.2552991,14.6140028 26.2417821,15.9442764 L26.2417819,17.9466963 L28.9721229,17.9466963 L28.5783219,20.5809666 L26.2147484,20.5809666 L26.2147484,28 L23.2932503,28 L23.2932503,27.9064569 Z"
+                              id="icon-fb"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,66 @@
+<div class="widget">
+    <div class="widget__header">
+        <img src="images/icon_bookmarks.svg" width="19" height="19" />
+        <h1 class="widget__title">{{ 'widget_title_bookmarks' | i18n }}</h1>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section">
+            <div class="input">
+                <input type="text" placeholder="{{ 'bookmarks_search_placeholder' | i18n }}" ng-model="query" ng-model-options="{debounce: 500}" />
+                <span class="cancel" ng-click="query=''"></span>
+            </div>
+        </div>
+        <ul class="widget-tabs">
+            <li class="widget-tabs__item" ng-click="switchTab('bookmarksBar')" ng-class="{'active': activeTab == 'bookmarksBar'}">{{ 'bookmarks_tab_bar' | i18n }}</li>
+            <li class="widget-tabs__item" ng-click="switchTab('other')" ng-class="{'active': activeTab == 'other'}">{{ 'bookmarks_tab_other' | i18n }}</li>
+        </ul>
+        <div class="widget-tab" ng-if="!query">
+            <script type="text/ng-template" id="items_renderer.html">
+                <span ng-click="toggle(this)" class="folder" ng-if="item.children">
+                    <span>{{item.title}}</span>
+                    <span class="remove" ng-click="removeBookmark(item, bookmarks, $event)"></span>
+                    <span class="drag" ui-tree-handle></span>
+                </span>
+                <span class="empty" ng-if="item.children == 0">{{ 'empty' | i18n }}</span>
+                <img ng-if="!item.children" class="sites__icon" src="chrome://favicon/size/16/{{item.url}}" srcset="chrome://favicon/size/16@2x/{{item.url}} 2x" />
+                <a ng-if="!item.children" href="{{item.url}}">
+                    {{item.title}}
+                    <span class="remove" ng-click="removeBookmark(item, bookmarks, $event)"></span>
+                    <span class="drag" ui-tree-handle></span>
+                </a>
+                <ul class="sites" ui-tree-nodes="" ng-model="item.children">
+                    <li ng-repeat="item in item.children"
+                        ng-class="{'has-child': item.children, 'expanded': !collapsed}"
+                        class="sites__item"
+                        ui-tree-node
+                        ng-include="'items_renderer.html'"
+                        data-scroll-container=".widget__content"
+                        data-collapsed="true"></li>
+                </ul>
+            </script>
+            <div ui-tree="bookmarksOptions" ng-if="bookmarks.length > 0">
+                <ul ui-tree-nodes="" ng-model="bookmarks" class="sites sites_no-transition">
+                    <li ng-repeat="item in bookmarks"
+                        ui-tree-node
+                        ng-class="{'has-child': item.children, 'expanded': !collapsed}"
+                        class="sites__item"
+                        ng-include="'items_renderer.html'"
+                        data-scroll-container=".widget__content"
+                        data-collapsed="true"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="widget-tab" ng-if="query">
+            <span ng-if="allBookmarks.length == 0" class="nothing">{{ 'nothing_found' | i18n }}</span>
+            <ul class="sites sites_no-transition">
+                <li class="sites__item" ng-repeat="item in allBookmarks track by $index">
+                    <img class="sites__icon" src="chrome://favicon/size/16/{{item.url}}" srcset="chrome://favicon/size/16@2x/{{item.url}} 2x" />
+                    <a href="{{item.url}}">
+                        {{item.title}}
+                        <span class="remove" ng-click="removeFromAll(item, $event)"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

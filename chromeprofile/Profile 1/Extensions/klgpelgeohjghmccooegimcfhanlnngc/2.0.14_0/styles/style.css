@@ -1,0 +1,66 @@
+.extension-result {
+  clear: left;
+  color: #333;
+  border: solid 1px #eee;
+  background-color: #e8e8e8;
+  /*padding: 10px;*/
+}
+#extention-close-popup{
+  float: right;
+  text-decoration: none;
+}
+#extention-close-popup:hover{
+  color:#E0E0E0;
+}
+
+
+.extension-result .extension-rank, .extension-result .zg_hrsr_rank, .extension-result .extension-loader {
+  font-weight: bold;
+  font-size: 120%;
+  padding: 1px 3px;
+  color: #FF0000 !important;
+  background-color: #e8e8e8;
+  /*background-color: #787878;*/
+  border-radius: 2px;
+}
+
+ .extension-rank, .extension-loader {
+   color: #FF0000;
+ }
+
+.extension-result .zg_hrsr {
+  margin-top: 8px !important;
+}
+
+.extension-result .zg_hrsr_item {
+  margin-left: 0px !important;
+}
+
+
+#extension-resultPopup {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+
+  width: 600px;
+  max-height: 800px;
+  padding: 10px 0 10px 10px;
+  overflow-y: scroll;
+
+  color: #333 !important;
+  background: #fff;
+  border: solid 1px #666;
+  z-index: 1000;
+
+  box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.85);
+}
+
+#extension-resultPopup ul {
+  color: #333 !important;
+  margin: 0;
+  padding: 0;
+}
+
+#extension-resultPopup .bucketDivider {
+  display: none;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="38px" viewBox="0 0 44 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_vimeo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M30.3662051,34.0316862 C30.3662051,34.0316862 34.4537024,29.1936847 36.3178005,34.0316862 C36.3178005,34.0316862 40.7635827,48.6157772 42.6998459,54.8055955 C44.6356009,60.9949094 50.9459894,58.5050657 50.9459894,58.5050657 C50.9459894,58.5050657 58.4750548,56.2280032 67.5099333,41.287932 C76.5448118,26.3478608 69.1510413,22.3079188 69.1510413,22.3079188 C69.1510413,22.3079188 62.7053579,17.8108934 56.1805067,25.4942145 C56.1805067,25.4942145 54.0531582,27.8801888 52.9701721,31.5993236 C52.9701721,31.5993236 58.6341231,28.4590346 59.3420535,33.0454297 C60.0499838,37.6318248 53.8447939,44.366706 53.8447939,44.366706 C53.8447939,44.366706 51.261585,48.0026444 50.012924,42.0941815 C50.012924,42.0941815 47.3067293,28.8306455 47.0983651,27.3431933 C47.0983651,27.3431933 45.7159548,18.4851816 37.6365027,23.2783073 C37.6365027,23.2783073 32.8061,26.5303889 28,31.3991478 L30.3662051,34.0316862 Z" id="path-1"></path>
+        <filter x="-1.1%" y="-1.3%" width="102.3%" height="102.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.000487677315   0 0 0 0 0.622065709   0 0 0 0 0.823979592  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-1169.000000, -1573.000000)">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="item" transform="translate(25.000000, 86.000000)">
+                    <g transform="translate(156.000000, 1466.000000)" id="icon_vimeo">
+                        <g>
+                            <use fill="#1AB7EA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

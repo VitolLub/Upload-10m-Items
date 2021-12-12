@@ -1,0 +1,169 @@
+  <html>
+  <head>
+    <title>Blank New Tab</title>
+    <style>
+
+    </style>
+      <!-- <script src="../scripts/jquery-2.1.1.min.js"></script>-->
+    <script src="../scripts/jquery-2.1.1.min.js"></script>
+
+    <script src="../scripts/bootstrap.min.js"></script>
+
+    <script src="../scripts/store.min.js"></script>
+
+    <script src="../scripts/lodash.js"></script>
+
+    <script src="../scripts/jquery.flot.min.js"></script>
+
+    <script src="../scripts/jquery.flot.time.min.js"></script>
+
+
+    <!-- Bootstrap stylesheet -->
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+
+<!--     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" >
+ -->    <!-- bootstrap widget theme -->
+    <link rel="stylesheet" href="../styles/bootstrap-theme.min.css">
+
+    <!-- tablesorter plugin -->
+    <script src="../scripts/jquery.tablesorter.min.js"></script>
+    <!-- tablesorter widget file - loaded after the plugin -->
+    <script src="../scripts/jquery.tablesorter.widgets.min.js"></script>
+
+    <script src="../scripts/jquery.tablesorter.output.js"></script>
+
+    <!-- pager plugin -->
+    <link rel="stylesheet" href="../styles/jquery.tablesorter.pager.min.css">
+
+    <script src="../scripts/jquery.tablesorter.pager.min.js"></script>
+
+    <script src="../scripts/jquery.tablesorter.widget-columnSelector.js"></script>
+
+    <script src="../scripts/productstab.js"></script>
+
+    <link rel="stylesheet" href="../styles/prod-table.css">
+
+  </head>
+  <body>
+   <div class="container">
+
+
+             <!--<div class="panel with-nav-tabs panel-default" >
+                <div class="panel-heading">
+                        <ul  class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#tab1default" data-toggle="tab" aria-controls="tab1default" role="tab">Default 1</a></li>
+                            <li role="presentation"><a href="#tab2default" data-toggle="tab" aria-controls="tab2default" role="tab">Default 2</a></li>
+                            
+                        </ul>
+                </div>
+                <div class="panel-body">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="tab1default">Default 1</div>
+                        <div role="tabpanel" class="tab-pane fade" id="tab2default">Default 2</div>
+                     
+                    </div>
+                </div>
+                </div>-->
+            
+    
+   <div class="page-header">
+        <h4>Product research end to end<span class="pull-right label label-default">:)</span></h4>
+    </div>
+    
+     <div class="panel with-nav-tabs panel-default" style="overflow-x:scroll">
+        <div class="panel-heading">
+                <ul id="myTabs" class="nav nav-tabs" data-tabs="tabs">
+
+                      <li class="active" ><a href="#research" data-toggle="tab">Research</a></li>
+                      <li ><a href="#keywords-a" data-toggle="tab">Keywords recomendation</a></li>
+                      <li ><a href="#asin-tracking" data-toggle="tab">ASIN Tracking</a></li>
+
+                </ul>
+        </div>
+
+     <div class="panel-body">
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="research">
+        <div class="row">
+        <div class="col-sm-12">
+          <div class="control-group" id="fields">
+              <label class="control-label" for="field1">Root Keywords</label>
+              <div class="controls"> 
+                  <form role="form" autocomplete="off">
+                      <div class="entry input-group col-xs-3">
+                          <input class="form-control" name="fields[]" type="text" placeholder="Insert keyword" />
+                          <span class="input-group-btn">
+                              <button class="btn btn-success btn-add-research-keyword" type="button">
+                                  <span class="glyphicon glyphicon-plus"></span>
+                              </button>
+                          </span>
+
+                      </div>
+
+                       <div class="col-sm-6 pull-right">
+                                  <div class="form-group">
+                              <label for="sel1">Select market place:</label>
+                              <select class="form-control" id="marketPlaceSelect">
+                                <option value='US'>amazon.com</option>
+                                <option value='UK'>amazon.co.uk</option>
+                                
+                              </select>
+                            </div>
+                        </div>
+
+                  </form>
+              <br>
+              <small>Press <span class="glyphicon glyphicon-plus gs"></span> to add another keyword and <span class="glyphicon glyphicon-minus gs"></span> to remove it</small>
+              <p></p>
+              </div>
+          </div>
+       </div>
+     </div>
+
+    <button type="button" class="btn btn-default downloadResearch">Download CSV</button>
+
+    <button type="button" id="run" class="btn btn-default">Run</button>
+
+    <button id="popover" type="button" class="btn btn-default">
+      Select Column
+    </button>
+
+    <div class="hidden">
+      <div id="popover-target"></div>
+    </div>
+
+   <div id="loading-message" class="row" style="display:none">
+        <div class="col-sm-12">
+            <div class="well">
+             <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                  0%
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+  </div>
+
+   <div class="tab-pane fade" id="keywords-a">
+
+
+   </div>
+         
+    <div class="tab-pane fade" id="asin-tracking">
+
+       
+       
+        
+      </div>      
+    
+    </div>
+   </div>
+  </div>
+  </div>
+  </div>
+
+</body>
+</html>

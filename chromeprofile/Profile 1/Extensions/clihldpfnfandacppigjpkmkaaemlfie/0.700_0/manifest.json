@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/config.js", "js/chrome.background.js", "js/cms_configs.js", "js/auth.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon-38.png",
+      "default_popup": "index.html",
+      "default_title": "Amazon Publisher Studio 2.0 Beta"
+   },
+   "description": "This is the official Amazon Associates extension for Chrome",
+   "homepage_url": "https://affiliate-program.amazon.com",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnxWyq14n6eVdbU+WOjdRMJTUkE0pk37LmsMbuKJUuJi1GyHtIseGnrNbI0LR8c2ME+Ts7aB16BaQjJEl63q5QjbWO5bEyBkb5hVs/6QXCGKxryy4ihAA/z6O1p0ctfpBc4I5T+D/9uNFHkolElRvrccHDpuURGHvUfC/Roa1lIH0T96eff7dBXPEiSGYwtTZ+KWWXtp03ia8cLVVeDJ/6zyYrPFPrjEhDoESgtL1GEOAGo7i+FKuMB+HemDKS5dCLZl0wcW65Ayumsp2na+EGax8vt1P2MKmwHUI29Sx5Mc8MCVK1CGelNUc+ptUKEOpgmun+p4AA4NTqb6Fikm17wIDAQAB",
+   "manifest_version": 2,
+   "name": "Amazon Publisher Studio Extension Beta",
+   "permissions": [ "storage", "tabs", "http://*/*", "https://*/*", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.700"
+}

@@ -1,0 +1,386 @@
+{
+   "Friday": {
+      "message": "Sexta-feira"
+   },
+   "Monday": {
+      "message": "Segunda-feira"
+   },
+   "Saturday": {
+      "message": "Sábado"
+   },
+   "Sunday": {
+      "message": "Domingo"
+   },
+   "Thursday": {
+      "message": "Quinta-feira"
+   },
+   "Tuesday": {
+      "message": "Terça-feira"
+   },
+   "Wednesday": {
+      "message": "Quarta-feira"
+   },
+   "about": {
+      "message": "Sobre"
+   },
+   "add_custom_button": {
+      "message": "Adicionar link personalizado"
+   },
+   "add_link": {
+      "message": "Adicionar link"
+   },
+   "add_to_chrome": {
+      "message": "Adicionar ao Chrome"
+   },
+   "additional": {
+      "message": "Adicional"
+   },
+   "additional_backgrounds": {
+      "message": "Fundos adicionais"
+   },
+   "apps_remove_tooltip": {
+      "message": "Remover do Chrome"
+   },
+   "apps_title": {
+      "message": "Aplicações e extensões"
+   },
+   "apps_title_extensions": {
+      "message": "Extensões"
+   },
+   "bg_change_mode_30sec": {
+      "message": "A cada 30 segundos"
+   },
+   "bg_change_mode_everyday": {
+      "message": "Todos os dias"
+   },
+   "bg_change_mode_everyhour": {
+      "message": "Hora a hora"
+   },
+   "bg_change_mode_never": {
+      "message": "Nunca"
+   },
+   "bg_change_mode_random": {
+      "message": "Sempre"
+   },
+   "bookmarks_search_placeholder": {
+      "message": "Pesquisar marcadores"
+   },
+   "bookmarks_tab_bar": {
+      "message": "Barra de marcadores"
+   },
+   "bookmarks_tab_other": {
+      "message": "Outros"
+   },
+   "browserActionTitle": {
+      "message": "Abrir nova aba"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "change_background": {
+      "message": "Alterar fundo"
+   },
+   "change_widgets_bar": {
+      "message": "Alterar barra de widgets"
+   },
+   "choose_background": {
+      "message": "Escolher fundo"
+   },
+   "contact_us": {
+      "message": "Contacte-nos"
+   },
+   "dismiss": {
+      "message": "Ignorar"
+   },
+   "empty": {
+      "message": "Vazio"
+   },
+   "extDescription": {
+      "message": "A sua página de novo separador com um painel personalizado com diversas funcionalidades: estado do tempo, tarefas, notas, fundos magníficos e muito mais."
+   },
+   "extName": {
+      "message": "CryptoTab START"
+   },
+   "ext_description": {
+      "message": "A sua página de novo separador com um painel personalizado com diversas funcionalidades: estado do tempo, tarefas, notas, fundos magníficos e muito mais."
+   },
+   "ext_name": {
+      "message": "CryptoTab START"
+   },
+   "go_to_newtab": {
+      "message": "Ir para um novo separador"
+   },
+   "google_docs": {
+      "message": "Documentos"
+   },
+   "google_drive": {
+      "message": "Drive"
+   },
+   "google_maps": {
+      "message": "Mapas"
+   },
+   "google_news": {
+      "message": "Notícias"
+   },
+   "google_photos": {
+      "message": "Fotos"
+   },
+   "google_translate": {
+      "message": "Tradutor"
+   },
+   "hide": {
+      "message": "Ocultar"
+   },
+   "hide_details": {
+      "message": "Detalhes ocultos"
+   },
+   "history_clear": {
+      "message": "Limpar histórico"
+   },
+   "history_search_placeholder": {
+      "message": "Histórico de pesquisa"
+   },
+   "info_tooltip_1": {
+      "message": "Taxa de câmbio aproximada com base em dados do Coinmarketcap"
+   },
+   "info_tooltip_2": {
+      "message": "Apenas para fins informativos."
+   },
+   "label_color": {
+      "message": "Tag Color"
+   },
+   "left_bottom_promo_newbackgrounds_text": {
+      "message": "Obter agora"
+   },
+   "left_bottom_promo_newbackgrounds_title": {
+      "message": "Novos fundos disponíveis"
+   },
+   "location": {
+      "message": "Localização"
+   },
+   "location_text": {
+      "message": "É exibido o estado do tempo para a sua localização"
+   },
+   "menu_tooltip_item_notifications": {
+      "message": "Abrir notificações"
+   },
+   "menu_tooltip_item_settings": {
+      "message": "Abrir definições"
+   },
+   "name": {
+      "message": "Nome"
+   },
+   "newtab": {
+      "message": "Novo separador"
+   },
+   "notes_add": {
+      "message": "Adicionar nota"
+   },
+   "notes_count": {
+      "message": "Nota"
+   },
+   "notes_count_plural": {
+      "message": "Notas"
+   },
+   "notes_new": {
+      "message": "Nova nota"
+   },
+   "nothing_found": {
+      "message": "A pesquisa não encontrou nada"
+   },
+   "notification_search_label": {
+      "message": "Melhore a sua pesquisa na Web"
+   },
+   "ok_got_it": {
+      "message": "Ok, compreendi"
+   },
+   "open": {
+      "message": "Abrir"
+   },
+   "open_new_tab": {
+      "message": "Abrir nova aba"
+   },
+   "pressure_imperial": {
+      "message": "polegadas"
+   },
+   "privacy_policy": {
+      "message": "Política de Privacidade"
+   },
+   "quickbar_text": {
+      "message": "Araste e solte ícones na vista principal"
+   },
+   "quickbar_tip_text": {
+      "message": "Araste e solte os ícones, de forma fácil, entre o painel direito e a vista principal ou reorganize-os."
+   },
+   "rate_btn": {
+      "message": "Avalie-nos na loja"
+   },
+   "rate_question": {
+      "message": "O que acha desta nova organização dos separadores?"
+   },
+   "rate_text_1": {
+      "message": "Se estiver satisfeito com o CryptoTab START, avalie-nos positivamente nas nossas páginas da Web Store do Chrome."
+   },
+   "rate_text_2": {
+      "message": "Bastarão apenas dois cliques e não interferirá com as janelas ou separadores que estiverem abertos."
+   },
+   "rate_title": {
+      "message": "Avalie o CryptoTab START"
+   },
+   "rate_us": {
+      "message": "Avalie-nos"
+   },
+   "save_changes": {
+      "message": "Guardar alterações"
+   },
+   "search_placeholder_type_images": {
+      "message": "Pesquisar imagens"
+   },
+   "search_placeholder_type_maps": {
+      "message": "Pesquisar mapas"
+   },
+   "search_placeholder_type_news": {
+      "message": "Pesquisar notícias"
+   },
+   "search_placeholder_type_videos": {
+      "message": "Pesquisar vídeos"
+   },
+   "search_placeholder_type_web": {
+      "message": "Pesquisar na Web"
+   },
+   "search_tab_images": {
+      "message": "Imagens"
+   },
+   "search_tab_maps": {
+      "message": "Mapas"
+   },
+   "search_tab_news": {
+      "message": "Notícias"
+   },
+   "search_tab_videos": {
+      "message": "Videos"
+   },
+   "search_tab_web": {
+      "message": "Web"
+   },
+   "settings": {
+      "message": "Definições"
+   },
+   "sharing_popup_label": {
+      "message": "Partilhar a ligação via"
+   },
+   "sharing_popup_text": {
+      "message": "Para desbloquear o pacote especial de fundos tem de partilhar uma publicação pré-feita sobre a extensão CryptoTab Start numa das suas redes sociais ou messengers. Nós tratamos de todo o conteúdo da publicação, apenas precisa de dois cliques para partilhá-lha e desfrutar de novos fundos!"
+   },
+   "sharing_popup_title": {
+      "message": "Desbloquear fundos adicionais"
+   },
+   "show_all": {
+      "message": "Mostrar tudo"
+   },
+   "show_bookmarks": {
+      "message": "Mostrar Marcadores"
+   },
+   "show_cryptotab_bar": {
+      "message": "Mostrar Barra CryptoTab"
+   },
+   "show_details": {
+      "message": "Mostrar detalhes"
+   },
+   "show_logo": {
+      "message": "Mostrar logótipo"
+   },
+   "show_widgets": {
+      "message": "Mostrar Widgets"
+   },
+   "store_text": {
+      "message": "Obter mais aplicações em"
+   },
+   "store_title": {
+      "message": "Web Store do Chrome"
+   },
+   "terms_of_use": {
+      "message": "Termos de Utilização"
+   },
+   "tip_switch_backgrounds": {
+      "message": "Altere aqui os seus fundos. Desbloqueie fundos adicionais partilhando uma ligação para o CryptoTab START nas suas redes sociais."
+   },
+   "todo_search_placeholder": {
+      "message": "O que pretende fazer a seguir?"
+   },
+   "todo_tab_done": {
+      "message": "Concluído"
+   },
+   "todo_tab_todo": {
+      "message": "Tarefas"
+   },
+   "unlock_background": {
+      "message": "Desbloquear fundo"
+   },
+   "update_default_search": {
+      "message": "Atualize a sua pesquisa predefinida"
+   },
+   "url_to_open": {
+      "message": "URL para abrir"
+   },
+   "weather_label_humidity": {
+      "message": "Humidade"
+   },
+   "weather_label_pressure": {
+      "message": "Pressão"
+   },
+   "weather_label_wind": {
+      "message": "Vento"
+   },
+   "weather_popup_title": {
+      "message": "Configurações do estado do tempo"
+   },
+   "weather_units_imperial": {
+      "message": "Imperial (Fahrenheit)"
+   },
+   "weather_units_metric": {
+      "message": "Métrico (Celsius)"
+   },
+   "weather_units_title": {
+      "message": "Unidades para exibir o estado do tempo"
+   },
+   "widget_jettickets": {
+      "message": "Pesquisar voos"
+   },
+   "widget_title_apps": {
+      "message": "Apps"
+   },
+   "widget_title_bookmarks": {
+      "message": "Marcadores"
+   },
+   "widget_title_cryptobrowser": {
+      "message": "Obter Bitcoin"
+   },
+   "widget_title_history": {
+      "message": "Histórico"
+   },
+   "widget_title_maps": {
+      "message": "Mapas"
+   },
+   "widget_title_nbc": {
+      "message": "NBC News"
+   },
+   "widget_title_notes": {
+      "message": "Notas"
+   },
+   "widget_title_todo": {
+      "message": "Tarefas"
+   },
+   "widget_title_vk": {
+      "message": "VK"
+   },
+   "widget_title_weather": {
+      "message": "Estado do tempo"
+   },
+   "widget_title_wikipedia": {
+      "message": "Wikipedia"
+   },
+   "widgets": {
+      "message": "Widgets"
+   }
+}

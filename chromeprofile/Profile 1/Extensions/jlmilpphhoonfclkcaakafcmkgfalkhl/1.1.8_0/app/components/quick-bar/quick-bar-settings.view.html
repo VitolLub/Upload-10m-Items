@@ -1,0 +1,28 @@
+<div class="tip tip_quick-bar" ng-cloak ng-if="!activity.quickBarTipWatched">
+    <p>{{ 'quickbar_tip_text' | i18n }}</p>
+    <button class="link-btn link-btn_primary" ng-click="closeTip()">{{ 'ok_got_it' | i18n }}</button>
+</div>
+<div class="widget quick-bar">
+    <div class="widget__header  widget__header_border">
+        <img src="images/icon__apps.svg" width="20" height="20">
+        <h1 class="widget__title ng-binding">{{ 'widgets' | i18n }}</h1>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section widget__section_padding">
+            <button class="quick-bar__btn" ng-click="openLinkCreate()"><i>+</i> {{ 'add_custom_button' | i18n }}</button>
+            <p>{{ 'quickbar_text' | i18n }}</p>
+            <div ui-tree="qbOptions" data-nodrop-enabled="true" data-empty-placeholder-enabled="true">
+	            <div class="apps" ng-class="{'hidden' : settings.apps === false}" ui-tree-nodes="" ng-model="hiddenApps" ng-cloak>
+					<a class="apps__item" ui-tree-node ng-repeat="item in hiddenApps" ng-click="goTo(QUICKBAR_ICONS[item.id].url)" ng-class="{'active': $location.path() == QUICKBAR_ICONS[item.id].url}">
+	                    <span ui-tree-handle class="apps__icon" ng-style="{'background-color': QUICKBAR_ICONS[item.id].bgColor, 'background-image': QUICKBAR_ICONS[item.id].bgImage ? 'url(images/{{QUICKBAR_ICONS[item.id].bgImage}})' : ''}">
+	                        <img ng-if="QUICKBAR_ICONS[item.id].icon" ng-src="images/{{ QUICKBAR_ICONS[item.id].icon }}"/>
+                            <span class="apps__letter" ng-if="!QUICKBAR_ICONS[item.id].icon && !QUICKBAR_ICONS[item.id].bgImage" ng-bind="QUICKBAR_ICONS[item.id].name[0]"></span>
+							<span class="apps__notification" ng-if="item.id == 'todo' && todoCount > 0" ng-bind="todoCount" ng-cloak></span>
+	                    </span>
+	                    <span class="apps__title" ng-bind="QUICKBAR_ICONS[item.id].name"></span>
+	                </a>
+	            </div>
+			</div>
+        </div>
+    </div>
+</div>

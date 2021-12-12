@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="14" viewBox="0 0 47 14">
+    <defs>
+        <linearGradient id="a" x1="96.098%" x2="0%" y1="57.744%" y2="57.744%">
+            <stop offset="0%" stop-color="#FFAF45"/>
+            <stop offset="100%" stop-color="#E81800"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#3E3C3C" font-family="AppleColorEmoji, Apple Color Emoji" font-size="11" transform="translate(-1 -2)">
+            <tspan x="0" y="14">🔥</tspan>
+        </text>
+        <path fill="url(#a)" d="M24.127 5h2.034v8.898h-1.69l-4.437-5.402v5.402H18V5h1.703l4.424 5.403V5zm10.704 5.504c0 .153-.026.369-.039.534H29.62c.19.852.915 1.373 1.957 1.373.725 0 1.246-.216 1.716-.661l1.055 1.144C33.712 13.62 32.758 14 31.525 14c-2.364 0-3.902-1.487-3.902-3.521 0-2.047 1.563-3.521 3.648-3.521 2.009 0 3.56 1.347 3.56 3.546zm-3.547-2.046c-.903 0-1.55.546-1.69 1.423h3.368c-.14-.864-.788-1.423-1.678-1.423zM45.38 7.059h1.755l-2.48 6.84H42.75l-1.538-4.246-1.59 4.245h-1.906L35.25 7.06h1.869l1.614 4.627 1.678-4.627h1.678l1.627 4.627 1.665-4.627z" transform="translate(-1 -2)"/>
+    </g>
+</svg>

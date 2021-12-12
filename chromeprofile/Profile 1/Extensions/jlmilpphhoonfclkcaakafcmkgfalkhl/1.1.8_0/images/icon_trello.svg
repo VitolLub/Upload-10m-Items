@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_trello</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-1026.000000, -3466.000000)">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="item" transform="translate(20.000000, 91.000000)">
+                    <g transform="translate(20.000000, 3359.000000)" id="icon_trello">
+                        <g transform="translate(26.000000, 16.000000)">
+                            <rect id="background" fill="#1A8BCD" x="0" y="0" width="48" height="48" rx="5"></rect>
+                            <path d="M29.9508197,6 L39.0491803,6 C40.6787705,6 42,7.28952 42,8.88 L42,24.12 C42,25.71048 40.6787705,27 39.0491803,27 L29.9508197,27 C28.3212295,27 27,25.71048 27,24.12 L27,8.88 C27,7.28952 28.3212295,6 29.9508197,6" id="Fill-4" fill="#FFFFFF"></path>
+                            <path d="M8.95081967,6 L18.0491803,6 C19.6787705,6 21,7.28952 21,8.88 L21,36.12 C21,37.71048 19.6787705,39 18.0491803,39 L8.95081967,39 C7.32122951,39 6,37.71048 6,36.12 L6,8.88 C6,7.28952 7.32122951,6 8.95081967,6" id="Fill-6" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

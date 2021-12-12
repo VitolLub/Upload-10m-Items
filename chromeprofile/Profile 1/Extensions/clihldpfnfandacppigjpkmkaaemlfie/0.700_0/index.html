@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="ext-wrap">
+
+    <select id='amznps-stores-drop-down' class='amznps-hidden'></select>
+    <select id='amznps-tags-drop-down' class='amznps-hidden'></select>
+
+    <div id="amznps-loggedin" style="display:none;">
+        <div class="amznps-logo amznps-sprite"></div>
+        <div class="amznps-loggedin-user">
+            <span class="amznps-username"></span>
+            (<a id='amzn-ps-ext-signout' href="#" class="js-amznps-logout-user" class='link'>Sign Out</a>)
+        </div>
+        <hr class="amznps-grey-divider">
+        <div class="amznps-toggle-stat">
+            <input type="checkbox" name="stat" id="stat" checked>
+            <label for="stat"></label>
+        </div>
+        <hr class="amznps-grey-divider" id="amzn-ext-earningsgraph-divider">
+        <div id="amzn-ext-earningsgraph-wait">
+            <div id="amzn-ext-earningsgraph-wait-icon"><span></span></div>
+            <div id="amzn-ext-earningsgraph-wait-msg">Loading daily earnings...</div>
+        </div>
+        <div id="amznps-chart">
+            <div class="amznps-chart-title">
+                <span>
+                    Daily Earnings
+                </span>
+                <span id="amznps-chart-date-range">
+                </span>
+            </div>
+            <div id="amzn-ext-earningsgraph-wrapper">
+            </div>
+            <div id="amznps-chart-date">
+            </div>
+        </div>
+        <hr class="amznps-grey-divider">
+        <ul class="amznps-main-nav">
+            <li><a href="https://affiliate-program.amazon.com/" class='link'>Associates Home</a>
+            </li>
+            <li><a href="mailto:publisherstudio2-feedback@amazon.com" class='link'>Share Feedback</a>
+            </li>
+            <li><a href="#" id ="amzn-ext-options">Settings</a></li>
+            <li><a href="https://affiliate-program.amazon.com/gp/associates/help/t103" class='link'>Help and FAQ</a>
+            </li>
+            <!--<li><a href="#" id ="amzn-clr-local-plt">Reset</a></li>-->
+            <li><a href="https://affiliate-program.amazon.com/gp/associates/help/t102" class='link'>Terms of Use</a></li>
+        </ul>
+
+
+    </div>
+
+    <div id="amznps-loggedout" style="display:none;">
+        <div class="amznps-logo amznps-sprite"></div>
+        <ul>
+            <li class="amznps-signup-link">
+                <a href="http://affiliate-program.amazon.com/gp/associates/apply/main.html" class='link'>Sign Up</a>
+            </li>
+        </ul>
+        <hr class="amznps-grey-divider">
+        <ul class="amznps-main-nav">
+            <li class="amznps-login-link js-amznps-login-link">
+                <a  id="amzn-ps-ext-signin" >Sign In</a>
+            </li>
+            <li><a href="https://affiliate-program.amazon.com/" class='link' >Associates Home</a>
+            </li>
+            <li><a href="https://affiliate-program.amazon.com/gp/associates/help/t103" class='link' >Help and FAQ</a>
+            </li>
+            <li><a href="https://affiliate-program.amazon.com/gp/associates/help/t102" class='link'>Terms of Use</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="js/amzn-j.js"></script>
+<script src="js/Chart.js"></script>
+<script src="js/init.js"></script>
+<script src="js/graph.js"></script>
+
+</body>
+
+</html>

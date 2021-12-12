@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  width: 220px;
+  height: 120px;
+}
+.post .avatar {
+  float: left;
+  width: 52px;
+  height: 52px;
+  background-color: #ccc;
+  border-radius: 25%;
+  margin: 8px;
+  background-image: linear-gradient(90deg, #F4F4F4 0px, rgba(229, 229, 229, 0.8) 40px, #F4F4F4 80px);
+  background-size: 600px;
+  animation: shine-avatar 2s infinite ease-out;
+}
+.post .line {
+  float: left;
+  width: 200px;
+  height: 10px;
+  margin-top: 12px;
+  border-radius: 7px;
+  background-image: linear-gradient(90deg, #F4F4F4 0px, rgba(229, 229, 229, 0.8) 40px, #F4F4F4 80px);
+  background-size: 600px;
+  animation: shine-lines 2s infinite ease-out;
+}
+.post .small-line {
+  float: left;
+  width: 120px;
+  height: 10px;
+  margin-top: 12px;
+  border-radius: 7px;
+  background-image: linear-gradient(90deg, #F4F4F4 0px, rgba(229, 229, 229, 0.8) 40px, #F4F4F4 80px);
+  background-size: 600px;
+  animation: shine-lines 2s infinite ease-out;
+}
+.post .avatar + .line {
+  margin-top: 11px;
+  width: 100px;
+}
+.post .line ~ .line {
+  background-color: #ddd;
+}
+
+@keyframes shine-lines {
+  0% {
+    background-position: -100px;
+  }
+  40%, 100% {
+    background-position: 140px;
+  }
+}
+@keyframes shine-avatar {
+  0% {
+    background-position: -32px;
+  }
+  40%, 100% {
+    background-position: 208px;
+  }
+}
+
+.sellerapp-container {
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sellerapp-container .flex-container {
+  display: flex;
+  flex-wrap : wrap;
+  align-items: flex-end;
+  justify-content: start;
+}
+.sellerapp-container .flex-container p+p{
+  margin-top: 0px;
+}
+.sellerapp-container .flex-container p{
+  margin-bottom:5px;
+  margin-right: 10px;
+}
+.sellerapp-container .sellerapp-bsr-container{
+  margin-bottom: 10px;
+}
+.sellerapp-container .sellerapp-bsr-container .sellerapp-bsr-details .bsr{
+  color:orange;
+}
+.sellerapp-container .sellerapp-bsr-container .sellerapp-bsr-details p{
+  margin-bottom:5px;
+}
+.sellerapp-container .other-details-container p{
+  margin-bottom:2px;
+  margin-right: 10px;
+}
+.sellerapp-container .other-details-container img{
+  width: 16px;
+  margin-right: 5px;
+}
+.sellerapp-container a{
+  text-decoration: none !important;
+}

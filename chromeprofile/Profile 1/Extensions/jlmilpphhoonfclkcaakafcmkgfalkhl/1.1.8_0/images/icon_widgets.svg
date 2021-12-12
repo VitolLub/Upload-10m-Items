@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_widgets</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-1145.000000, -22.000000)" fill="#FFFFFF">
+            <g id="top" transform="translate(843.000000, 16.000000)">
+                <g id="apps" transform="translate(0.000000, 6.000000)">
+                    <path d="M314,4 L318,4 L318,0 L314,0 L314,4 Z M308,4 L312,4 L312,0 L308,0 L308,4 Z M302,4 L306,4 L306,0 L302,0 L302,4 Z M314,10 L318,10 L318,6 L314,6 L314,10 Z M308,10 L312,10 L312,6 L308,6 L308,10 Z M302,10 L306,10 L306,6 L302,6 L302,10 Z M314,16 L318,16 L318,12 L314,12 L314,16 Z M308,16 L312,16 L312,12 L308,12 L308,16 Z M302,16 L306,16 L306,12 L302,12 L302,16 Z" id="icon_widgets"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<ng-controller ng-controller="rateController">
+    <div class="popup__header">
+        <p>{{ 'rate_question' | i18n }}</p>
+        <div class="stars">
+            <i class="stars__item" ng-repeat="star in stars" ng-class="{'active': star.active}" ng-mouseover="toggleRate($index)" ng-click="rate()"></i>
+        </div>
+    </div>
+    <div class="popup__body">
+        <h1 class="popup__title">{{ 'rate_title' | i18n }}</h1>
+        <p>{{ 'rate_text_1' | i18n }}</p>
+        <p>{{ 'rate_text_2' | i18n }}</p>
+        <div class="popup__btns">
+            <button class="link-btn link-btn_primary" ng-click="rate()">{{ 'rate_btn' | i18n }}</button>
+        </div>
+    </div>
+</ng-controller>

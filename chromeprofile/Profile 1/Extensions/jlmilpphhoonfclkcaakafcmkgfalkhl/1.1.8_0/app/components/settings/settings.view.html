@@ -1,0 +1,98 @@
+<div class="widget">
+    <div class="widget__header">
+        <img src="images/icon_settings_dark.svg" width="20" height="20" />
+        <h1 class="widget__title">{{ 'settings' | i18n }}</h1>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section widget__section_border">
+            <h2 class="subtitle">{{ 'choose_background' | i18n }}</h2>
+            <ul class="backgrounds">
+                <li class="backgrounds__item"
+                    ng-repeat="bg in backgrounds | limitTo:21:0"
+                    ng-style="bg[0] == '#' ? {'background-color': bg} : {'background-image': 'url(../images/bg/{{bg}}-preview.webp)'}"
+                    ng-click="saveBackground(bg, $index);"
+                    ng-class="{'selected': background.bg == bg}">
+                </li>
+            </ul>
+            <h2 class="subtitle">{{ 'additional_backgrounds' | i18n }}</h2>
+            <ul class="backgrounds">
+                <li class="backgrounds__item"
+                    ng-repeat="bg in backgrounds | limitTo:21:21"
+                    ng-style="bg[0] == '#' ? {'background-color': bg} : {'background-image': 'url(../images/bg/{{bg}}-preview.webp)'}"
+                    ng-click="saveBackground(bg, $index+21);"
+                    ng-class="{'selected': background.bg == bg, 'locked': !background.unlocked}">
+                    <span ng-if="!background.unlocked" class="tooltip" ng-class="{'tooltip_place_left-bottom': ([6,13,20]).indexOf($index) != -1 }">{{ 'unlock_background' | i18n }}<span>
+                </li>
+            </ul>
+            <h2 class="subtitle">{{ 'change_background' | i18n }}</h2>
+            <div class="radio">
+                <input type="radio" id="never" name="changeMode" ng-model="background.changeMode" value="never" ng-change="saveBackground()" /><label for="never">{{ 'bg_change_mode_never' | i18n }}</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="random" name="changeMode" ng-model="background.changeMode" value="random" ng-change="saveBackground()" /><label for="random">{{ 'bg_change_mode_random' | i18n }}</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="30sec" name="changeMode" ng-model="background.changeMode" value="30sec" ng-change="saveBackground()" /><label for="30sec">{{ 'bg_change_mode_30sec' | i18n }}</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="everyhour" name="changeMode" ng-model="background.changeMode" value="everyhour" ng-change="saveBackground()" /><label for="everyhour">{{ 'bg_change_mode_everyhour' | i18n }}</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="everyday" name="changeMode" ng-model="background.changeMode" value="everyday" ng-change="saveBackground()" /><label for="everyday">{{ 'bg_change_mode_everyday' | i18n }}</label>
+            </div>
+        </div>
+        <div class="widget__section widget__section_border widget__section_widgets" ng-if="settings.apps">
+            <a href="#!/quick-bar" class="link"><span>{{ 'change_widgets_bar' | i18n }}</span></a>
+        </div>
+        <div class="widget__section widget__section_border">
+            <div class="input-desc">
+                <span class="input-desc__label">{{ 'location' | i18n }}</span>
+            </div>
+            <search type="cities" placeholder="{{city.name}}" template-name="search-cities.view.html" on-submit="saveCity(city)"></search>
+            <div class="input-desc">
+                <span class="input-desc__tip">{{ 'location_text' | i18n }}</span>
+            </div>
+            <h2 class="subtitle">{{ 'weather_units_title' | i18n }}</h2>
+            <div class="radio">
+                <input type="radio" id="celsius" name="units" ng-model="weatherSettings.units" value="c" ng-change="saveWeatherSettings()" /><label for="celsius">{{ 'weather_units_metric' | i18n }}</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="fahrenheits" name="units" ng-model="weatherSettings.units" value="f" ng-change="saveWeatherSettings()" /><label for="fahrenheits">{{ 'weather_units_imperial' | i18n }}</label>
+            </div>
+        </div>
+        <div class="widget__section widget__section_border">
+            <h2 class="subtitle">{{ 'additional' | i18n }}</h2>
+            <div class="checkbox">
+                <input type="checkbox" id="bookmarksBar" ng-model="settings.bookmarksBar" ng-change="saveSettings()" /><label for="bookmarksBar">{{ 'show_bookmarks' | i18n }}</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="apps" ng-model="settings.apps" ng-change="saveSettings()" /><label for="apps">{{ 'show_widgets' | i18n }}</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="showLogo" ng-model="settings.showLogo" ng-change="saveSettings()" /><label for="showLogo">{{ 'show_logo' | i18n }}</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="showCtBar" ng-model="settings.showCtBar" ng-change="saveSettings()" /><label for="showCtBar">{{ 'show_cryptotab_bar' | i18n }}</label>
+            </div>
+        </div>
+        <div class="widget__section widget__section_border widget__section_links">
+            <ul class="list">
+                <li class="list__item">
+                    <span class="link" ng-click="showPopup('rate')">{{ 'rate_us' | i18n }}</span>
+                </li>
+                <li class="list__item">
+                    <a href="https://cryptotabstart.com" class="link">{{ 'about' | i18n }}</a>
+                </li>
+                <li class="list__item">
+                    <a href="#!/page/privacy" class="link">{{ 'privacy_policy' | i18n }}</a>
+                </li>
+                <li class="list__item">
+                    <a href="#!/page/terms" class="link">{{ 'terms_of_use' | i18n }}</a>
+                </li>
+                <li class="list__item">
+                    <a href="https://cryptotabstart.com/feedback/" class="link">{{ 'contact_us' | i18n }}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

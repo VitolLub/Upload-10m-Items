@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="39px" viewBox="0 0 45 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="14.6629213 0 29.8314607 0 44.494382 26 29.3258427 26"></polygon>
+        <filter x="-1.7%" y="-1.9%" width="103.4%" height="103.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.889140428   0 0 0 0 0.556561711  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M7.65583082,38 C9.85436878,33.9623676 14.7344825,26 14.7344825,26 L44.5659432,26 L36.9816735,39 L7.65583081,39 C7.65583081,39 7.49481822,38.2957009 7.65583082,38 Z" id="path-3"></path>
+        <filter x="-1.4%" y="-3.8%" width="102.7%" height="107.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.580392157   0 0 0 0 0.71372549   0 0 0 0 0.909803922  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="43.6025947%" y1="-46.318583%" x2="43.6025947%" y2="109.619183%" id="linearGradient-5">
+            <stop stop-color="#155ACA" offset="0%"></stop>
+            <stop stop-color="#2F71DD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.80742852%" y1="44.531045%" x2="41.0102288%" y2="65.409263%" id="linearGradient-6">
+            <stop stop-color="#002D77" stop-opacity="0.801800272" offset="0%"></stop>
+            <stop stop-color="#2F71DD" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-7" points="15.0500043 26.0271301 21.4615294 38.4880066 7.89383106 38.4880066"></polygon>
+        <linearGradient x1="34.0319283%" y1="26.4114835%" x2="86.8797674%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#1B935A" offset="0%"></stop>
+            <stop stop-color="#108C50" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Extension" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="extname_newtab-apps" transform="translate(-1198.000000, -125.000000)">
+            <g id="side-panel-weather" transform="translate(960.000000, 0.000000)">
+                <g id="apps" transform="translate(0.000000, 70.000000)">
+                    <g id="icon" transform="translate(215.000000, 55.000000)">
+                        <g id="Icon" transform="translate(23.000000, 0.000000)">
+                            <g id="Yellow">
+                                <use fill="#FFCF48" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="Blue">
+                                <use fill="#4587F4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            </g>
+                            <polygon id="Green" fill="#1BA261" points="14.6629213 0 22.247191 13.5 7.58426966 39 0 26"></polygon>
+                            <g id="Blue-Shadow">
+                                <use fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                            </g>
+                            <polygon id="Green-Shadow" fill="url(#linearGradient-8)" points="14.6768394 0.016784668 19.082789 18.9938653 22.2705832 13.4823001"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

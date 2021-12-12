@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+      "default_icon": "amazon.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com/ 'unsafe-eval'; object-src 'self'",
+   "description": "Проверяет наличие лимита на количество ревью. \n Для площадки Amazon.",
+   "icons": {
+      "128": "amazon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjV7t+SWP4lvhD/ENaNAbFUS3iA5uCUWxtDGZzkSFl+J7nxil6n5Era6liGJYAQG/SoIfNPRh1jt+az0hvS6fQ2n4aq9BSQUy19pOwx6ek5c+au+wKzbsUip39IAdcUtWCilLwM+PHTuOvnnFdq3q6YzzTNtOEx9B+sP9tWfZ/K54j+daqQnH6mEOzOWMm+EumS2uqnN0N1zQJHJ7w8LfCZhR0A2Es7/5xHHkR6iDiRRzP11kLSyFMutBUbjuSkptJXe2WGoaS//ff2AA41R5DNcShpCZTb1rhkgExFoqaKgix93NiTd/DYGCQf9AokQN+FaMlAKEo9A8Kq+JV2o9ZwIDAQAB",
+   "manifest_version": 2,
+   "name": "AMZSMART. Review limit checker",
+   "permissions": [ "storage", "activeTab" ],
+   "short_name": "checker",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.1"
+}

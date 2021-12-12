@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="20" viewBox="0 0 76 20">
+    <g fill="none" fill-rule="evenodd" opacity=".8">
+        <rect width="75.6" height="19.44" fill="#F3F3F3" rx="5.76"/>
+        <text fill="#D5D5D5" font-family="Arial-BoldMT, Arial" font-size="10.08" font-weight="bold">
+            <tspan x="6.557" y="12.6">#</tspan>
+        </text>
+        <rect width="49.68" height="7.92" x="18" y="5.76" fill="#D5D5D5" rx="3.96"/>
+    </g>
+</svg>

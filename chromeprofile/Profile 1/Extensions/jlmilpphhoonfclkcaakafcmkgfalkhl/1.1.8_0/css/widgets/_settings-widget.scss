@@ -1,0 +1,128 @@
+/* Settings widget */
+.subtitle {
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	font-weight: bold;
+	& + .radio {
+		margin-top: 15px;
+	}
+}
+
+.backgrounds {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+	box-sizing: border-box;
+    &__item {
+        display: block;
+        width: 32px;
+        height: 32px;
+        border-radius: 4px;
+        margin-right: 8px;
+        margin-top: 10px;
+        cursor: pointer;
+        position: relative;
+		background-position: center;
+		background-size: cover;
+        &:nth-child(7n) {
+            margin-right: 0;
+        }
+        &:hover {
+            &:after {
+                content: '';
+                display: block;
+                box-sizing: border-box;
+                width: 16px;
+                height: 16px;
+                border-radius: 8px;
+                border: 2px solid #fff;
+                opacity: 0.5;
+                position: absolute;
+                left: 8px;
+                top: 8px;
+            }
+            &:before {
+                content: '';
+                display: block;
+                box-sizing: border-box;
+                width: 6px;
+                height: 6px;
+                border-radius: 3px;
+                background-color: #fff;
+                position: absolute;
+                left: 13px;
+                top: 13px;
+            }
+			.tooltip {
+				display: block;
+			}
+        }
+        &.selected,
+        &.selected:hover {
+            &:after {
+                content: '';
+                display: block;
+                width: 12px;
+                height: 12px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background-image: url('../images/checkmark.svg');
+                background-size: 12px;
+                border: none;
+                opacity: 1;
+                border-radius: 0;
+            }
+            &:before {
+                display: none;
+            }
+        }
+		&.locked,
+		&.locked:hover {
+			&:after {
+                content: '';
+                display: block;
+                width: 9px;
+                height: 11px;
+                position: absolute;
+                top: 10px;
+                left: 11px;
+                background-image: url('../images/lock.svg');
+                background-size: 9px 11px;
+                border: none;
+                opacity: 1;
+                border-radius: 0;
+            }
+			&:before {
+                display: none;
+            }
+		}
+    }
+}
+
+.input-desc {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    min-height: 14px;
+    &__label {
+        display: block;
+        float: left;
+        color: #000;
+		font-size: 14px;
+		font-weight: bold;
+    }
+    &__tip {
+        display: block;
+        color: #7B8287;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		padding-left: 15px;
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: 10px;
+		background-image: url('../images/weather-location-tip@2x.png');
+    }
+}

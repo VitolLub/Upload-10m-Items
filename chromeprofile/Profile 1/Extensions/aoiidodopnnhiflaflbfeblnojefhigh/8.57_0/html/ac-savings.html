@@ -1,0 +1,39 @@
+<link rel="stylesheet" type="text/css" href="chrome-extension://{{ extension_id }}/css/ac.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://{{ extension_id }}/css/ac-savings.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://{{ extension_id }}/fonts/bootstrap-icons.css">
+
+<div id="ac-savings">
+  <div id="ac-code" style="display:none"></div>
+  <div class="modal-content coupon-modal-content pd-32">
+      <div class="modal-body coupon-modal-body">
+        <div class="saving_header">
+          <img class="checkout-icon" src="chrome-extension://{{ extension_id }}/images/checkout_icon.svg">
+          <p class="m-16">You saved: <span class="green-text">$54:00</span></p>
+        </div>
+          <table class="coptable">
+              <tbody>
+                  <tr class="whight-bg">
+                      <td class="text-left pd-32-all">Without PriceBlink</td>
+                      <td class="text-right pd-32-all">
+                          <button class="black-btn">$604.00</button>
+                      </td>
+                  </tr>
+                  <tr class="normal-bg">
+                      <td class="text-left pd-32-all">With PriceBlink</td>
+                      <td class="text-right pd-32-all">
+                          <button class="green-btn">$550.00</button>
+                      </td>
+                  </tr>
+                  <tr class="whight-bg" style="display:none;">
+                      <td class="text-center pd-32-all" colspan="2" id="rating_msg">
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+      <div class="modal-footer coupon-modal-footer">
+          <button class="mt-16" type="button" id="ac-button">Continue to Checkout</button>
+          <span style="display:none;" id="rating_msg_checkout"></span>
+      </div>
+  </div>
+</div>

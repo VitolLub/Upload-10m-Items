@@ -1,0 +1,158 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "グラム"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "インチ"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "キログラム"
+   },
+   "POUND": {
+      "message": "ポンド"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "appDesc": {
+      "message": "FBA Calculatorは、Amazonの手数料、販売マージン、収益、製品の純利益を表示し、無料で使用できます。"
+   },
+   "appName": {
+      "message": "Amazon用FBA計算機"
+   },
+   "bannerText": {
+      "message": "これらの品目の在庫、月別販売価格、価格履歴を調べる \u003Ca href='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner' target='_blank'>もっと稼ぎます\u003C/a>"
+   },
+   "bannerTextStats": {
+      "message": "あなたは自由のためのアマゾン売り手の在庫レベルを知りたいですか？ \u003Ca href='https://goo.gl/rFZcHW' target='_blank'>が欲しいです\u003C/a>"
+   },
+   "cannotFees": {
+      "message": "Amazonはこの製品の料金に関する情報を提供していません。"
+   },
+   "cessFee": {
+      "message": "サービス＆目的税手数料"
+   },
+   "cpcCost": {
+      "message": "CPCコスト"
+   },
+   "dateFirstAvailable": {
+      "message": "初回入手可能日"
+   },
+   "deliveryFee": {
+      "message": "配達料"
+   },
+   "estimatedRevenue": {
+      "message": "推定月次収益"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "推定月間売上と利益率に基づく推定月次収益"
+   },
+   "estimatedSales": {
+      "message": "月間売上高"
+   },
+   "fixedClosingFee": {
+      "message": "固定された閉会料"
+   },
+   "marginImpact": {
+      "message": "売上純利益率"
+   },
+   "monthlyStorage": {
+      "message": "毎月の保管"
+   },
+   "negativeNumberTooltip": {
+      "message": "Beware, this is a negative Est.Monthly Profit / Net Margin / Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipEstMonthly": {
+      "message": "Beware, this is a negative Est.Monthly Profit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipNet": {
+      "message": "Beware, this is a negative Net Margin you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipProfit": {
+      "message": "Beware, this is a negative Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "orderHandling": {
+      "message": "注文処理"
+   },
+   "packageWeight": {
+      "message": "パッケージの重量"
+   },
+   "pageLoadingErr": {
+      "message": "ページが完全に読み込まれなかったようです。 ページを更新して、もう一度お試しください。"
+   },
+   "pickPack": {
+      "message": "選別および梱包"
+   },
+   "piece": {
+      "message": "個数"
+   },
+   "productCost": {
+      "message": "製品コスト"
+   },
+   "productPrice": {
+      "message": "製品価格"
+   },
+   "productSize": {
+      "message": "製品サイズ"
+   },
+   "productSizeDimension": {
+      "message": "小包のサイズ"
+   },
+   "productWeight": {
+      "message": "製品の重量"
+   },
+   "profitPerUnit": {
+      "message": "利益"
+   },
+   "referralFee": {
+      "message": "紹介料"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "投資収益率"
+   },
+   "shippingCost": {
+      "message": "輸送費"
+   },
+   "taxes": {
+      "message": "税"
+   },
+   "totalFee": {
+      "message": "総FBA料金"
+   },
+   "tryScout": {
+      "message": "AMZScout PROを無料でお試しください！"
+   },
+   "unsupportedDomainErr": {
+      "message": "申し訳ありませんが、現在このドメインはサポートされていません。"
+   },
+   "variableClosingFee": {
+      "message": "可変閉会料"
+   },
+   "weightHandling": {
+      "message": "重量の取り扱い"
+   },
+   "wrongPageErr": {
+      "message": "間違ったページにいるようです。\u003Cbr>Amazonの製品ページを開き、もう一度お試しください！"
+   }
+}

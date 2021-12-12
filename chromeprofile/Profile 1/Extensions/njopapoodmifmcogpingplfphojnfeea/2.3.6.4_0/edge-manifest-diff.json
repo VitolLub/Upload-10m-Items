@@ -1,0 +1,5 @@
+{
+    "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+    "content_security_policy": "script-src 'self'; object-src 'self';",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuok9bOleR7b+WL9tbpRviybH3q+OEKoQn2FuV4m+T32z+WNA3pGntMlTPSTHXMHPL+Mp+wnWX/25tQ0S6OgBniEz2apfyFcpOindzQN+i+dv/oWFIP9D3U+PQERAUvlbo8I/xILWE6YDQ12iHRMXPWGnZkRA359vwqgJQTHfut2MkZmwEHwsGJRw3uhcMeVT/H2o2617NYbT2z7QSCRWzSqFvqCEqplDZ9BVVhACN2UY8FOP620dQ+rIkxsUIHGX5LwovVo630lva1gDp2ios97jNgW2rd1fZuTjujEsMg78GqojnN2xVASlbvvu30TKGG/tYDey8Jc/f3Hs6Z7vsQIDAQAB"
+}

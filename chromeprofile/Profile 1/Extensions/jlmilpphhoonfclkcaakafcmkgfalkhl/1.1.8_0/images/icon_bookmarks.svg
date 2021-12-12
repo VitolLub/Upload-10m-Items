@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_bookmarks</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-317.000000, -465.000000)" fill-rule="nonzero">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row" transform="translate(0.000000, 139.000000)">
+                    <g id="item" transform="translate(0.000000, 5.000000)">
+                        <g id="icon_bookmarks" transform="translate(31.000000, 21.000000)">
+                            <path d="M34.0560841,19.9989984 L34.0560841,3.94211027 L24.0090135,3.94211027 L24.0090135,19.9989984 L28.9844767,16.9943412 L34.0560841,19.9989984 Z M34.0560841,5.3373434e-15 C36.215323,5.3373434e-15 38,1.78476639 38,3.94411338 L38,27.9813711 C38,30.1407181 36.215323,32.0196304 34.0560841,32.0196304 L10.02003,32.0196304 C7.86079119,32.0196304 5.98197296,30.1407181 5.98197296,27.9813711 L5.98197296,3.94411338 C5.98197296,1.78476639 7.86079119,0 10.02003,0 L34.0560841,5.3373434e-15 Z" id="Shape" fill="#494949"></path>
+                            <path d="M2.94391587,5.98036957 L2.94391587,33.0558866 C2.94391587,34.1604561 3.83934637,35.0558866 4.94391587,35.0558866 L32.018027,35.0558866 L32.018027,38 L3.94391587,38 C1.78467702,38 0,36.2152336 0,34.0558866 L0,5.98036957 L2.94391587,5.98036957 Z" id="Path" fill="#757575"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,158 @@
+{
+   "CM": {
+      "message": "см"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "гр"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "дюйм"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "килограммы"
+   },
+   "POUND": {
+      "message": "фунты"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "appDesc": {
+      "message": "Калькулятор FBA показывает комиссионные сборы Amazon, маржу продаж, выручку и чистую прибыль от продукта, и его можно использовать бесплатно."
+   },
+   "appName": {
+      "message": "Бесплатный калькулятор Amazon FBA от AMZScout"
+   },
+   "bannerText": {
+      "message": "Узнай продажи, количество товара на складе и историю цены на эти товары \u003Ca href='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner' target='_blank'>Заработай больше\u003C/a>"
+   },
+   "bannerTextStats": {
+      "message": "Хотите бесплатно знать сколько товара на складе у продавца товара? \u003Ca href='https://goo.gl/rFZcHW' target='_blank'>Хочу\u003C/a>"
+   },
+   "cannotFees": {
+      "message": "Извините, AMAZON не предоставляет информацию о коммисиях за этот продукт."
+   },
+   "cessFee": {
+      "message": "Обслуживание и Cess"
+   },
+   "cpcCost": {
+      "message": "Стоимость CPC"
+   },
+   "dateFirstAvailable": {
+      "message": "Дата добавления на Amazon"
+   },
+   "deliveryFee": {
+      "message": "Сбор за доставку"
+   },
+   "estimatedRevenue": {
+      "message": "Прибл. месячный доход"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Приблизительный месячный доход основан на приблизительных месячных продажах и прибыли с одного товара"
+   },
+   "estimatedSales": {
+      "message": "Прибл. месячные продажи"
+   },
+   "fixedClosingFee": {
+      "message": "Фикс. сбор закрытия"
+   },
+   "marginImpact": {
+      "message": "Маржинальность"
+   },
+   "monthlyStorage": {
+      "message": "Месячное хранение"
+   },
+   "negativeNumberTooltip": {
+      "message": "Beware, this is a negative Est.Monthly Profit / Net Margin / Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipEstMonthly": {
+      "message": "Beware, this is a negative Est.Monthly Profit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipNet": {
+      "message": "Beware, this is a negative Net Margin you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipProfit": {
+      "message": "Beware, this is a negative Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "orderHandling": {
+      "message": "Обработка заказа"
+   },
+   "packageWeight": {
+      "message": "Вес упаковки"
+   },
+   "pageLoadingErr": {
+      "message": "Похоже, что страница не загрузилась полностью. Обновите страницу и повторите попытку."
+   },
+   "pickPack": {
+      "message": "Сбор за упаковку"
+   },
+   "piece": {
+      "message": "шт."
+   },
+   "productCost": {
+      "message": "Стоимость продукта"
+   },
+   "productPrice": {
+      "message": "Цена продукта"
+   },
+   "productSize": {
+      "message": "Размер продукта"
+   },
+   "productSizeDimension": {
+      "message": "Размер упаковки"
+   },
+   "productWeight": {
+      "message": "Вес продукта"
+   },
+   "profitPerUnit": {
+      "message": "Прибыль"
+   },
+   "referralFee": {
+      "message": "Партнёрский сбор"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Возвратные инвестиции"
+   },
+   "shippingCost": {
+      "message": "Стоимость доставки"
+   },
+   "taxes": {
+      "message": "Налоги"
+   },
+   "totalFee": {
+      "message": "Суммарный FBA сбор"
+   },
+   "tryScout": {
+      "message": "Попробуйте AMZScout PRO БЕСПЛАТНО!"
+   },
+   "unsupportedDomainErr": {
+      "message": "Мы сожалеем, но текущий домен не поддерживается."
+   },
+   "variableClosingFee": {
+      "message": "Пер. сбор закрытия"
+   },
+   "weightHandling": {
+      "message": "Сбор за вес"
+   },
+   "wrongPageErr": {
+      "message": "Похоже, что мы на неправильной странице.\u003Cbr>Откройте страницу продукта Amazon и повторите попытку!"
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "flipboard-19.png",
+         "38": "flipboard-38.png"
+      },
+      "default_title": "+ Flip It"
+   },
+   "description": "Save anything you like from the web into your Flipboard.",
+   "homepage_url": "http://www.flipboard.com",
+   "icons": {
+      "128": "flipboard-128.png",
+      "16": "flipboard-16.png",
+      "48": "flipboard-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjDyKVHolrR4YAVS2vQgVKlJpdjrVsk1TatUuSeYiBnxQ5zI3wXGGZa2lD1qQwq3X5MkMBDOBjkVDWODMPzRwdmoHbHP1GtN+/C2jfT1JMkGtpYcd9Bw9lQKCikYYpVAcswivmU9II327l6Cwb0R3x5XPBTd2BmSuRirmD2TX5mwIDAQAB",
+   "manifest_version": 2,
+   "name": "+ Flip It",
+   "permissions": [ "tabs", "contextMenus", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6"
+}

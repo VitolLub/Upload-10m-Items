@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "background.js", "purify.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon_16.png",
+      "default_popup": "coupons_popup.html",
+      "default_title": "PriceBlink"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "js/jquery.min.js", "main.js", "purify.js", "js/autocoupons.js", "js/autoapplycoupons.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "early.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Finds Coupons and Compares Prices while you shop. Shows savings when you're shopping, otherwise it stays hidden.",
+   "icons": {
+      "128": "images/icon_128.png",
+      "16": "images/icon_16.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4sTGhoh8CgoUy+X+EopxOyG0cORwo1G5C3SQU3HPRIkZ5xGJKIgYenm2b59a654me/TlnCvma+N3c+XAIHWf3qRn2xoFEXY95LFV3cWx9NwO0hCiUa+g3ZGw4g8skOr++bitsHC9zTChOpoErUlurh0gFUi6zSdXHcy9Dlj4f2wIDAQAB",
+   "manifest_version": 2,
+   "name": "PriceBlink Coupons and Price Comparison",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "http://*/", "https://*/", "tabs", "webRequest", "storage", "alarms" ],
+   "short_name": "PriceBlink",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.57",
+   "web_accessible_resources": [ "fonts/*", "images/*", "html/*", "js/*", "css/*" ]
+}

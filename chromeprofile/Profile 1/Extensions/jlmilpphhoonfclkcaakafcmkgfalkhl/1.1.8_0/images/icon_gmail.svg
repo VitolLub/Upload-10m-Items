@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="34px" viewBox="0 0 48 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_gmail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="34" rx="2.71698113"></rect>
+        <path d="M5.45454545,34 L2.72691753,34 C1.22088256,34 0,32.8098579 0,31.3462389 L0,2.89084434 C0,1.42521253 0.923385991,3.64737973 2.42768643,3.64737973 L5.45454545,6.00594556 L5.45454545,34 Z" id="path-3"></path>
+        <filter x="-9.2%" y="-1.6%" width="118.3%" height="103.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.764705882   0 0 0 0 0.270588235   0 0 0 0 0.219607843  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="67.1503847%" y1="84.2126403%" x2="4.58832748%" y2="9.2327392%" id="linearGradient-5">
+            <stop stop-color="#DAD8D8" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#C7C7C7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M42.5454546,4.87515974 C42.5454546,4.87515974 42.6108437,5.3125 42.5454545,5.3125 C41.5708561,5.3125 45,3.453125 45,3.453125 C46.5060349,3.453125 48.0000002,1.72388091 48.0000002,3.1875 L48,31.3462389 C48,32.8118707 46.7773829,34 45.2730825,34 L42.5454545,34 L42.5454546,4.87515974 Z" id="path-6"></path>
+        <filter x="-8.9%" y="-1.6%" width="117.8%" height="103.2%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.701960784   0 0 0 0 0.219607843   0 0 0 0 0.164705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M42.9303416,0.679950714 C44.7228664,-0.339720426 46.5629058,-0.247045511 47.5243856,1.15218739 L47.6952852,1.42795033 C48.3518892,2.74561006 48.0136192,4.29481302 46.648419,5.25683596 L24.0117715,21.2083236 L1.29759964,5.22406296 C-0.0620951652,4.26722789 -0.288740668,2.51195901 0.311212709,1.42795039 L0.427734383,1.21950154 C1.29759967,-0.164783478 3.27209483,-0.35985184 4.6251862,0.540846277 L23.9949246,13.9058653 L42.9303416,0.679950714 Z" id="path-8"></path>
+        <filter x="-5.2%" y="-11.8%" width="114.5%" height="133.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-3.1%" y="-7.0%" width="110.3%" height="123.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.854901961   0 0 0 0 0.290196078   0 0 0 0 0.243137255  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M42.9303416,0.679950714 C44.7228664,-0.339720426 46.5629058,-0.247045511 47.5243856,1.15218739 L47.6952852,1.42795033 C48.3518892,2.74561006 48.0136192,4.29481302 46.648419,5.25683596 L24.0117715,21.2083236 L1.29759964,5.22406296 C-0.0620951652,4.26722789 -0.288740668,2.51195901 0.311212709,1.42795039 L0.427734383,1.21950154 C1.29759967,-0.164783478 3.27209483,-0.35985184 4.6251862,0.540846277 L23.9949246,13.9058653 L42.9303416,0.679950714 Z" id="path-11"></path>
+        <filter x="-1.0%" y="-2.4%" width="102.1%" height="104.7%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.854901961   0 0 0 0 0.290196078   0 0 0 0 0.243137255  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-312.000000, -328.000000)">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row">
+                    <g id="item">
+                        <g id="icon_gmail" transform="translate(26.000000, 28.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#EFEFEF" xlink:href="#path-1"></use>
+                            <polygon id="Mid-Shadow" fill="#E3E3E3" mask="url(#mask-2)" points="5.56974868 6.89454873 5.56974868 33.9327447 29.5066855 17.4079847"></polygon>
+                            <g id="Left-Bar" mask="url(#mask-2)">
+                                <use fill="#D54D40" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            </g>
+                            <path d="M1.08729224,1.34342257 C1.08729224,1.34342257 1.22123508,0.377776345 1.02486173,1.79350851 C0.828488378,3.20924068 0.901378285,4.87190994 0.901378285,4.87190994 L36.5802466,40.4968642 L53.8810536,40.6708449 C53.8810536,40.6708449 53.7853845,15.9858792 53.7382262,1.98039886 C53.737776,1.84668248 53.738228,-1.74674514 53.738228,-1.74674514 C53.738228,-1.74674514 47.5117132,2.79737654 41.0294499,7.54057261 C35.1857535,11.8165171 29.3061091,16.3209245 24.584883,16.6369764 C17.5174605,17.1100893 2.66087537,1.67251405 2.66087537,1.67251405 L1.08729224,1.34342257 Z" id="Big-Shadow" fill="url(#linearGradient-5)" mask="url(#mask-2)"></path>
+                            <g id="Right-Bar" mask="url(#mask-2)">
+                                <use fill="#C33B2C" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            </g>
+                            <g id="Top-Shadow" mask="url(#mask-2)">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                <use fill="#DD4D40" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
+                            </g>
+                            <path d="M1.04833771,3.06190271 C1.42274148,3.36115322 1.88780158,3.64737973 2.42768643,3.64737973 L5.45454545,6.00594556 L5.45454545,9.43127735 L0.842984286,4.82862266 C0.842984286,4.82862266 0.929527329,4.02671689 1.04833771,3.06190271 L1.04833771,3.06190271 Z" id="Small-Shadow" fill="#AF4A40" mask="url(#mask-2)"></path>
+                            <g id="Top" mask="url(#mask-2)">
+                                <use fill="#DD4D40" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

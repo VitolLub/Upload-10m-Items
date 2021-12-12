@@ -1,0 +1,155 @@
+{
+   "CM": {
+      "message": "厘米"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "克"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "英寸"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "公斤"
+   },
+   "POUND": {
+      "message": "磅"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "appDesc": {
+      "message": "亞馬遜物流計算器顯示亞馬遜的費用，銷售利潤率，收入和產品淨利潤，可以免費使用。"
+   },
+   "appName": {
+      "message": "AMZScout免費提供的Amazon FBA計算器"
+   },
+   "bannerText": {
+      "message": "找出这些项目的库存，每月销售额和价格历史 \u003Ca href='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner' target='_blank'>知识\u003C/a>"
+   },
+   "bannerTextStats": {
+      "message": "你想知道免费亚马逊卖家的库存水平？ \u003Ca href='https://goo.gl/rFZcHW' target='_blank'>我想要\u003C/a>"
+   },
+   "cannotFees": {
+      "message": "抱歉，AMAZON沒有提供有關此產品費用的信息。"
+   },
+   "cessFee": {
+      "message": "服务及附加税费用"
+   },
+   "cpcCost": {
+      "message": "CPC成本"
+   },
+   "dateFirstAvailable": {
+      "message": "第一次生效的日期"
+   },
+   "deliveryFee": {
+      "message": "快递费"
+   },
+   "estimatedRevenue": {
+      "message": "估計月收入"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "基於估計月銷售額和利潤率影響的估計月收入"
+   },
+   "estimatedSales": {
+      "message": "估計月銷售額"
+   },
+   "fixedClosingFee": {
+      "message": "定休费"
+   },
+   "marginImpact": {
+      "message": "淨保證金"
+   },
+   "monthlyStorage": {
+      "message": "月儲存"
+   },
+   "negativeNumberTooltipEstMonthly": {
+      "message": "請注意，如果您使用FBA計劃銷售商品，則可能會產生負的估計月度利潤。 該產品的賣方實際上是正利潤的，因為他們是以FBM或通過Vendor Central出售的，他們要支付不同的費用。"
+   },
+   "negativeNumberTooltipNet": {
+      "message": "請注意，如果使用FBA程序銷售，這可能是負淨利潤。 該產品的賣方實際上是正利潤的，因為他們是以FBM或通過Vendor Central出售的，他們要支付不同的費用。"
+   },
+   "negativeNumberTooltipProfit": {
+      "message": "請注意，如果使用FBA程序銷售，這可能會帶來負的單位利潤。 該產品的賣方實際上是正利潤的，因為他們是以FBM或通過Vendor Central出售的，他們要支付不同的費用。"
+   },
+   "orderHandling": {
+      "message": "訂單處理"
+   },
+   "packageWeight": {
+      "message": "包裹重量"
+   },
+   "pageLoadingErr": {
+      "message": "看起来网页没有完全加载。 刷新页面，然后重试。"
+   },
+   "pickPack": {
+      "message": "分揀包裝"
+   },
+   "piece": {
+      "message": "pcs."
+   },
+   "productCost": {
+      "message": "產品成本"
+   },
+   "productPrice": {
+      "message": "產品價格"
+   },
+   "productSize": {
+      "message": "產品尺寸"
+   },
+   "productSizeDimension": {
+      "message": "包裝尺寸"
+   },
+   "productWeight": {
+      "message": "產品重量"
+   },
+   "profitPerUnit": {
+      "message": "利润"
+   },
+   "referralFee": {
+      "message": "介紹費"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "投资回报"
+   },
+   "shippingCost": {
+      "message": "运输费"
+   },
+   "taxes": {
+      "message": "税"
+   },
+   "totalFee": {
+      "message": "總 FBA 費用"
+   },
+   "tryScout": {
+      "message": "免費試用 AMZScout PRO！"
+   },
+   "unsupportedDomainErr": {
+      "message": "很抱歉，该域名目前不受支持。"
+   },
+   "variableClosingFee": {
+      "message": "可变费用闭幕"
+   },
+   "weightHandling": {
+      "message": "重量處理"
+   },
+   "wrongPageErr": {
+      "message": "看起来我们在错误的页面。\u003Cbr>打开Amazon产品页面，然后重试！"
+   }
+}

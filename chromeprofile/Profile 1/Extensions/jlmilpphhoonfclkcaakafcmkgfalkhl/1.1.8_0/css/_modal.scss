@@ -1,0 +1,211 @@
+.modal {
+    &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+    &__handler {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        max-width: 450px;
+        margin: 80px auto;
+        &_theme {
+            &_sharing {
+                max-width: 500px;
+                .modal__header {
+                    display: block;
+                    height: 180px;
+                    background-image: url('../images/promo_img_big@2x.png');
+                    background-repeat: no-repeat;
+                    background-position: center bottom;
+                    background-size: 450px 140px;
+                    border-bottom: 1px solid #D5D5D5;
+                    &:before {
+                        content: '';
+                        display: block;
+                        width: 70px;
+                        height: 70px;
+                        position: absolute;
+                        top: 20px;
+                        right: 10px;
+                        border-radius: 35px;
+                        background-color: $orange;
+                        background-image: url('../images/unlock@2x.png');
+                        background-size: 27px 36px;
+                        z-index: 10;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                }
+                .modal__body {
+                    padding-top: 20px;
+                    h1 {
+                        font-size: 26px;
+                        line-height: 30px;
+                        color: #000;
+                        padding-top: 0;
+                        padding-left: 0;
+                    }
+                    p {
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin-bottom: 50px;
+                        color: #494949;
+                    }
+                    .btn {
+                        position: absolute;
+                        left: 50%;
+                        bottom: -40px;
+                        transform: translateX(-50%);
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        color: #B2B2B2;
+                        cursor: pointer;
+                        font-weight: bold;
+                        &:hover {
+                            color: #4793F4;
+                        }
+                    }
+                }
+            }
+            &_like {
+                .modal__body {
+                    p {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+    &__cancel {
+        display: block;
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        background-color: #fff;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        transition: all .3s;
+        cursor: pointer;
+        z-index: 100;
+        &:hover {
+            background-color: blue;
+            &:after,
+            &:before {
+                background-color: #fff;
+            }
+        }
+        &:active {
+            background-color: #D8D8D8;
+        }
+        &:after,
+        &:before {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 20px;
+            background-color: #7A7A7A;
+            position: absolute;
+            margin-top: 6px;
+            margin-left: 15px;
+            transition: all .3s;
+        }
+        &:after {
+            transform: rotate(45deg);
+        }
+        &:before {
+            transform: rotate(-45deg);
+        }
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        padding-top: 26px;
+        padding-bottom: 26px;
+        padding-left: 30px;
+        padding-right: 50px;
+        font-size: 32px;
+        line-height: 46px;
+        border-bottom: 1px solid #D8D8D8;
+        position: relative;
+    }
+
+    &__body {
+        padding: 40px 30px 30px 30px;
+        font-size: 16px;
+        line-height: 24px;
+        h1 {
+            display: block;
+            font-size: 24px;
+            line-height: 27px;
+            color: #323232;
+            margin-bottom: 20px;
+        }
+        p {
+            display: block;
+            font-size: 14px;
+            line-height: 17px;
+            color: #7B8287;
+        }
+        .link {
+            text-decoration: none;
+            color: $blue;
+            outline: none;
+            &:hover {
+                color: #3B99FC;
+            }
+        }
+    }
+
+    &__section {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-top: 1px solid #D0D0D0;
+        &_countdown {
+            padding-top: 50px;
+            text-align: center;
+        }
+        &_url {
+            padding-right: 40px;
+        }
+        &_profile {
+            padding-top: 40px;
+        }
+    }
+
+    &__footer {
+        border-top: 1px solid #D8D8D8;
+        padding: 20px 50px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+    background-color: transparent;
+}
+.ngdialog.ngdialog-theme-default {
+    padding-top: 60px;
+}
+.ngdialog.ngdialog-theme-default.ngdialog-promo {
+    padding-top: 0;
+    .ngdialog-content {
+        width: 600px;
+        height: 500px;
+    }
+}
+.ngdialog.ngdialog-theme-default.ngdialog-payout {
+    padding-top: 0;
+    .ngdialog-content {
+        width: 600px;
+        height: 640px;
+    }
+}

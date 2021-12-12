@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/icons/32.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "assets/styles/fonts.css", "assets/styles/common-react.css", "assets/styles/content-all-sites.css" ],
+      "js": [ "common-react.js", "content-all-sites.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_EXTENSION_DESCRIPTION__",
+   "homepage_url": "https://alitools.io",
+   "icons": {
+      "128": "assets/icons/128.png",
+      "32": "assets/icons/32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlIKTQhK8dg3LEPPmg7+lFWJ+kxxwtj5rl5UGabytpkfY3W15Fi1z/3EEibIf6cdOqbJETZXd6t1e96BUD5D2w12NKjxZEsRAEjQO/uLGwJH76KMGjo+uf3xpGTmGuYwrhTHKEDR2A6SSLuzaxpAqlm6XTk7SxpKqavuvJD03Y1U9GU7iGqRQXteybcvZmmCnPYBaI0CuuZrlPGbXEhLbPwc5mzfJhJ7zBtFNnVIPhFDfemJ0MPANUquqLeK3J1nPL1Rwvu6E6tapb4uC9VCuWsxRyG6fQ098oZEWym4fYpQwLSUG9pPmzuQZDkOmylcb1XW+LLbiPg08JBK3S/paYwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_EXTENSION_NAME__",
+   "options_page": "settings.html",
+   "permissions": [ "http://*/*", "https://*/*", "contextMenus", "cookies", "notifications", "tabs", "webNavigation", "storage" ],
+   "short_name": "__MSG_EXTENSION_SHORT_NAME__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "21.11.4.12999",
+   "web_accessible_resources": [ "assets/fonts/*" ]
+}

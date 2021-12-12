@@ -1,0 +1,204 @@
+#priceblink-ac-container #ac-savings .saving_header {
+  	display: flex;    
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #F1C242;
+}
+
+#priceblink-ac-container #ac-savings .coupon-modal-body img {
+    height: 140px;
+}
+
+#priceblink-ac-container #ac-savings .coupon-modal-body p {
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #fff !important;
+    margin: 32px 32px !important;
+}
+
+#priceblink-ac-container #ac-savings .saving_header {
+  	display: flex;    
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#priceblink-ac-container #ac-savings .green-btn {
+    color: #505050 !important;
+    background-color: #F1C242 !important;
+    border: none !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+    color: #fff !important;
+    padding: 4px 10px !important;
+    cursor: pointer !important;
+    -webkit-appearance: button;
+    font-size: 12px !important;
+    line-height: 22px !important;
+    font-family: SF Pro Text SemiBold !important;
+}
+
+#priceblink-ac-container #ac-savings .gray-btn {
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  color: #505050 !important;
+  padding: 4px 10px;
+  cursor: pointer;
+  -webkit-appearance: button;
+   font-size: 12px;
+   line-height: 22px;
+   font-family: SF Pro Text SemiBold !important;
+}
+
+#priceblink-ac-container #ac-savings .black-btn {
+    background-color: #505050 !important;
+    border: none !important;
+    border-radius: 3px !important;
+    text-align: center !important;
+    color: #fff !important;
+    padding: 4px 10px;
+    cursor: pointer !important;
+    -webkit-appearance: button;
+    font-size: 12px !important;
+    line-height: 22px !important;
+    font-family: SF Pro Text SemiBold !important;
+}
+
+#priceblink-ac-container #ac-savings tbody, td, tfoot, th, thead, tr{
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+#priceblink-ac-container #ac-savings table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    display: table;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+##priceblink-ac-container #ac-savings thead{
+  background: rgba(0, 0, 0, 0.05);
+  padding: 8px 16px;
+}
+
+#priceblink-ac-container #ac-savings thead tr{
+  border-style: hidden;
+}
+
+#priceblink-ac-container #ac-savings thead tr th{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 14px 16px;
+  font-family: SF Pro Text SemiBold !important;
+}
+
+#priceblink-ac-container #ac-savings .checkout-icon{
+    width: 200px !important;
+}
+
+#priceblink-ac-container #ac-savings .green-text{
+    color: #505050;
+    font-weight: normal;
+    font-family: SF Pro Text Bold !important;
+}
+
+#priceblink-ac-container #ac-savings .coptable{
+    width: 100%;
+}
+
+#priceblink-ac-container #ac-savings .text-right{
+    text-align: right !important;
+}
+
+#priceblink-ac-container #ac-savings .whight-bg{
+    background-color: #fff;
+}
+
+#priceblink-ac-container #ac-savings .normal-bg{
+    background-color: #F9FAFE;
+}
+
+#priceblink-ac-container #ac-savings .pd-32{
+    padding: 20px 0px !important;
+}
+
+#priceblink-ac-container #ac-savings .pd-32-all{
+    color: #505050 !important;
+    padding: 14px 18px !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+    font-weight: normal !important;
+    font-family: SF Pro Text Regular !important;
+}
+
+
+/* media queries */
+@media (max-width:480px){
+  #priceblink-ac-container #ac-savings .pd-32-all{
+      padding: 8px !important;
+    }
+
+  #priceblink-ac-container #ac-savings .coptable tbody tr td{
+      font-size: 12px;
+  }
+   
+  #priceblink-ac-container #ac-savings .checkout-icon{
+      width: 150px !important;
+  }
+
+  #priceblink-ac-container #ac-savings .black-btn{
+      font-size: 12px;
+      padding: 6px 16px;
+  }
+
+  #priceblink-ac-container #ac-savings .green-btn{
+      font-size: 12px;
+      padding: 6px 16px;
+  }
+
+  #priceblink-ac-container #ac-savings .gray-btn{
+      font-size: 12px;
+      padding: 6px 16px;
+  }
+}
+
+#priceblink-ac-container #ac-savings .modal-footer {
+    background: #fff;
+    padding: 20px !important;
+}
+
+#priceblink-ac-container #ac-savings #rating_msg{
+    padding: 20px 20px 0 20px !important;
+}
+
+#priceblink-ac-container #ac-savings .modal-footer #rating_msg_checkout{
+    cursor: pointer;
+	margin: 1.5rem 0 0rem;
+}
+
+/* media queries */
+@media (min-width:576px){
+  #priceblink-ac-container .modal-content{
+    max-width: 350px;
+    margin: 1.75rem auto;
+  }
+}
+
+#priceblink-ac-container #ac-savings .coupon-modal-content {
+    background-color: #F1C242;
+    padding-bottom: 0 !important;
+    overflow: hidden;
+}

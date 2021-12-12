@@ -1,0 +1,221 @@
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.r-t .r-t-h {
+  height: 28.8px;
+  width: 14.4px;
+  border-radius: 14.4px 0 0 14.4px;
+  background: red;
+  position: absolute;
+}
+.r-t .r-t-h:nth-of-type(2) {
+  z-index: 98;
+  -webkit-transform-origin: center right;
+  -webkit-transform: rotate(180deg);
+}
+.r-t .r-t-h:before {
+  content: "";
+  position: absolute;
+  top: 3.8px;
+  left: 3.8px;
+  height: 21.2px;
+  width: 10.6px;
+  border-radius: 11.5px 0 0 11.5px;
+  background: #fff;
+}
+.r-t .r-t-h:after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  height: 57.6px;
+  width: 43.2px;
+  left: -28.8px;
+  top: -14.4px;
+  -webkit-transform-origin: center right;
+}
+.r-t .r-t-t {
+    position:absolute;
+    text-align:center;
+    width:27.5px;
+    z-index:99;
+    font-size:16px;
+    color:red;
+    line-height:30px;
+}
+.r-t.s-a {
+  -webkit-transform-origin: center right;
+}
+.r-t.s-a .r-t-h:nth-of-type(1):after {
+  -webkit-animation: rotateLeftMask 10s infinite linear;
+}
+.r-t.s-a .r-t-h:nth-of-type(2):after {
+  -webkit-animation: rotateRightMask 10s infinite linear;
+}
+
+@-webkit-keyframes rotateLeftMask {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes rotateRightMask {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    visibility: hidden;
+  }
+}
+#payad_task #ytstate {display:none}
+#payad_task {
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+	zoom: 0.35;
+	top: 40px;
+    left: 40px;
+	position:fixed;
+	z-index:2147483647;
+}
+#payad_task canvas {
+	box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    border-radius: 50%;
+}
+#payad_task  #clock {
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+}
+#payad_task  #timer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size:120px;
+    text-align: center;
+    width: 250px;
+    z-index: 2;
+    line-height: 250px;
+    color: #ff3838;
+    transition: opacity 350ms linear 0s;
+    -webkit-transition: opacity 350ms linear 0s;
+}
+#payad_task .checkmark {
+  border-radius: 15px;
+}
+#payad_task .checkmark.draw:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-name: checkmark;
+  -moz-animation-name: checkmark;
+  animation-name: checkmark;
+  -webkit-transform: scaleX(-1) rotate(135deg);
+  -moz-transform: scaleX(-1) rotate(135deg);
+  -ms-transform: scaleX(-1) rotate(135deg);
+  -o-transform: scaleX(-1) rotate(135deg);
+  transform: scaleX(-1) rotate(135deg);
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+#payad_task .checkmark:after {
+  opacity: 1;
+  height: 120px;
+  width: 60px;
+  -webkit-transform-origin: left top;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  transform-origin: left top;
+  border-right: 30px solid white;
+  border-top: 30px solid white;
+  border-radius: 15px !important;
+  content: '';
+  left: 40px;
+  top: 130px;
+  position: absolute;
+}
+@-webkit-keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+	width: 60px;
+    opacity: 1;
+  }
+  40% {
+    height: 120px;
+	width: 60px;
+    opacity: 1;
+  }
+  100% {
+    height: 120px;
+	width: 60px;
+    opacity: 1;
+  }
+}
+@-moz-keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+	width: 60px;
+    opacity: 1;
+  }
+  40% {
+	height: 120px;
+	width: 60px;
+    opacity: 1;
+  }
+  100% {
+	height: 120px;
+	width: 60px;
+    opacity: 1;
+  }
+}
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+	width: 60px;
+    opacity: 1;
+  }
+  40% {
+	height: 120px;
+	width: 60px;
+    opacity: 1;
+  }
+  100% {
+    height: 120px;
+	width: 60px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--
+ * Copyright (c) 2010 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+  <head>
+	<script src="lib/codemirror.js"></script>    
+	<script src="lib/javascript-hint.js"></script>    
+	<script src="lib/simple-hint.js"></script>    
+    <script src="mode/javascript/javascript.js"></script>    
+	<script src="mode/css/css.js"></script>    
+	<script  type="text/javascript" src="jquery.js" ></script>
+	<script  type="text/javascript" src="js/jquery-ui-1.8.21.custom.min.js" ></script>
+	<script  type="text/javascript" src="popup.js" ></script>
+	<link rel=stylesheet href="css/custom-theme/jquery-ui-1.8.21.custom.css">    
+    <link rel=stylesheet href="lib/codemirror.css">
+    <link rel=stylesheet href="doc/docs.css">
+	<style>
+		html{
+			overflow:hidden;
+		}
+		body{
+			margin:0;
+			padding:0; 
+			overflow:hidden;
+		}
+		.CodeMirror
+		{			
+			max-width:99%;
+			min-width:99%;
+			border:1px solid black;
+			clear:both;			
+		}
+		.CodeMirror-scroll
+		{
+			height:500px;
+		}
+		h4{margin:0px;}
+		input[type=button]
+		{
+			display:block;
+			float:right;
+			border:1px solid rgba(124,122,12,1);
+			cursor:pointer;
+			background-color:rgba(247,223,29,1); 
+			background:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf1b4), color-stop(50%,#fce448), color-stop(51%,#f4d300), color-stop(100%,#fbec8b));
+			box-shadow: rgba(0,0,0,0.2) 0 -1px 2px inset,rgba(255,255,255,1) 0 1px 2px inset;
+			padding:3px 10px;
+			text-shadow:rgba(255,255,255,0.6) 0 1px;
+		}
+		input[type=button]:hover,input[type=button]:focus
+		{
+			box-shadow: rgba(0,0,0,0.2) 0 -1px 2px inset,rgba(255,255,255,1) 0 1px 2px inset,rgba(247,223,29,1) 0 0px 15px;
+		}
+		input[type=button]:active
+		{
+			box-shadow: rgba(0,0,0,0.2) 0 1px 2px inset,rgba(255,255,255,1) 0 -1px 2px inset,rgba(255,255,255,1) 0 0px 15px;
+			background-color:rgba(227,203,09,1);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4ebc6), color-stop(50%,#e7d069), color-stop(51%,#dfbc21), color-stop(100%,#efe1a3));
+		}
+		#tabs{
+			position:relative;
+			overflow:hidden;
+			width:99%;
+		}
+		#tabs >div
+		{
+			position:absolute;
+			top:32px;
+			left:0px;
+			width:100%;
+		}
+		#tabs > ul{
+			padding:0px;
+			margin:1px 0px 0 0;
+			line-height:30px;
+			
+		}
+		#tabs > ul li
+		{
+			display:inline-block;
+			border:1px solid rgba(124,122,12,1);
+			cursor:pointer;			
+			background-color:rgba(227,203,09,1);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4ebc6), color-stop(50%,#e7d069), color-stop(51%,#dfbc21), color-stop(100%,#efe1a3));
+			box-shadow: rgba(0,0,0,0.2) 0 -1px 2px inset,rgba(255,255,255,1) 0 1px 2px inset;
+			padding:0px 10px;
+			text-shadow:rgba(255,255,255,0.6) 0 1px;
+			font-size:1.4em;
+		}
+		#tabs > ul li:active
+		{
+			box-shadow: rgba(0,0,0,0.2) 0 1px 2px inset,rgba(255,255,255,1) 0 -1px 2px inset,rgba(247,223,29,1) 0 0px 15px;	
+			
+		}
+		#tabs > ul li.selected
+		{
+			background:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf1b4), color-stop(50%,#fce448), color-stop(51%,#f4d300), color-stop(100%,#fbec8b));
+			background-color:rgba(247,223,29,1);
+			box-shadow: rgba(0,0,0,0.2) 0 -1px 2px inset,rgba(255,255,255,1) 0 1px 2px inset,rgba(255,255,255,1) 0 0px 15px;
+			
+		}
+		#saveOptBtn{
+			width:40px;
+			background: url('icons/icons_01.png') no-repeat center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf1b4), color-stop(50%,#fce448), color-stop(51%,#f4d300), color-stop(100%,#fbec8b)); 
+		}
+		#laodCacheBtn{
+			width:40px;
+			background:   url('icons/icons_02.png') no-repeat center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf1b4), color-stop(50%,#fce448), color-stop(51%,#f4d300), color-stop(100%,#fbec8b)); 
+		}
+		#runBtn{
+			width:40px;
+			background:   url('icons/icons_03.png') no-repeat center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf1b4), color-stop(50%,#fce448), color-stop(51%,#f4d300), color-stop(100%,#fbec8b)); 
+		}
+		#runSelectedBtn{
+			width:40px;
+			background:   url('icons/icons_04.png') no-repeat center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcf1b4), color-stop(50%,#fce448), color-stop(51%,#f4d300), color-stop(100%,#fbec8b)); 
+		}
+	</style>
+  </head>
+  <body>
+	
+	<div style='float:left'><img src='icon32.png' alt='' style='vertical-align:bottom;margin-bottom:5px;'/></div>
+	<div style="float:right;margin-top:5px;">
+		<span id='title'></span>
+		
+		<input id='runSelectedBtn' type='button' title="Apply Selected" >
+		<input id='runBtn' type='button' title="Apply">		
+		<input id='laodCacheBtn' type='button' title="Load Cache">	
+		<input id='saveOptBtn' type='button' title="Save" >
+		<input type='checkbox' id='jstcb'  /><label for="jstcb">Autostart</label>
+		
+	</div>
+	
+	<div id="tabs" style="width:600px;font-size:11px">
+		<ul>
+			<li><a href="#tabs-1">JavaScript</a></li>
+			<li><a href="#tabs-2">CSS</a></li>
+		</ul>
+		<div id="tabs-1">
+			<div id="editorwrap" style="height:500px;">
+				<textarea id='scriptText'></textarea>
+			</div>
+		</div>
+		<div id="tabs-2">
+			<div id="editorwrap2" style="height:500px;clear:both">
+				<textarea id='scriptTextCss'></textarea>
+			</div>
+		</div>
+		<span><div style='height:501px;'></div></span>
+	</div>
+	
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<div class="widget">
+    <div class="widget__header">
+        <img src="images/icon_history.svg" width="25" height="22" />
+        <h1 class="widget__title">{{ 'widget_title_history' | i18n }}</h1>
+    </div>
+    <div class="widget__content">
+        <div class="widget__section widget__section_border-bottom" style="margin-bottom: 10px;">
+            <div class="input">
+                <input type="text" placeholder="{{ 'history_search_placeholder' | i18n }}" ng-model="query" ng-model-options="{debounce: 500}" />
+                <span class="cancel" ng-click="query=''"></span>
+                <span class="action" ng-click="clearHistory()">{{ 'history_clear' | i18n }}</span>
+            </div>
+        </div>
+        <span ng-if="filteredItems.length == 0" class="nothing">{{ 'nothing_found' | i18n }}</span>
+        <ul class="sites">
+            <li class="sites__item" ng-repeat="item in filteredItems=(history | filter:query | limitTo:10) track by $index">
+                <img class="sites__icon" src="chrome://favicon/size/16/{{item.url}}" srcset="chrome://favicon/size/16@2x/{{item.url}} 2x" />
+                <a href="{{item.url}}">
+                    {{item.title ? item.title : item.url}}
+                    <span class="remove" ng-click="removeItem(item, $event)"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

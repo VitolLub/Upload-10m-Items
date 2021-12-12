@@ -1,0 +1,155 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "gr"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "pouce"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "kilogrammes"
+   },
+   "POUND": {
+      "message": "livres"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "appDesc": {
+      "message": "La calculatrice FBA affiche les frais d'Amazon, les marges de vente, les revenus et le bénéfice net du produit et son utilisation est gratuite."
+   },
+   "appName": {
+      "message": "Calculatrice Amazon FBA gratuite par AMZScout"
+   },
+   "bannerText": {
+      "message": "Découvrez l'inventaire, les ventes mensuelles et l'historique des prix pour ces articles \u003Ca href='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner' target='_blank'>Savoir-faire\u003C/a>"
+   },
+   "bannerTextStats": {
+      "message": "Voulez-vous connaître les niveaux d'inventaire des vendeurs Amazon gratuitement? \u003Ca href='https://goo.gl/rFZcHW' target='_blank'>Je veux\u003C/a>"
+   },
+   "cannotFees": {
+      "message": "Désolé, Amazon ne fournit pas d'informations sur les frais pour ce produit."
+   },
+   "cessFee": {
+      "message": "Frais de service et Cess"
+   },
+   "cpcCost": {
+      "message": "CPC Cost"
+   },
+   "dateFirstAvailable": {
+      "message": "La première date disponible"
+   },
+   "deliveryFee": {
+      "message": "Frais de livraison"
+   },
+   "estimatedRevenue": {
+      "message": "Rev mensuels estimés"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Revenus mensuels estimés basés sur les Ventes mensuelles estimées et l'impact de marge"
+   },
+   "estimatedSales": {
+      "message": "Ventes mensuelles estimées"
+   },
+   "fixedClosingFee": {
+      "message": "Frais de clôture fixe"
+   },
+   "marginImpact": {
+      "message": "La marge nette"
+   },
+   "monthlyStorage": {
+      "message": "Stockage mensuel"
+   },
+   "negativeNumberTooltipEstMonthly": {
+      "message": "Beware, this is a negative Est.Monthly Profit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipNet": {
+      "message": "Beware, this is a negative Net Margin you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipProfit": {
+      "message": "Beware, this is a negative Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "orderHandling": {
+      "message": "Gestion de la commande"
+   },
+   "packageWeight": {
+      "message": "Poids du paquet"
+   },
+   "pageLoadingErr": {
+      "message": "Il semble que la page ne s'est pas complètement chargée. Actualisez la page et réessayez."
+   },
+   "pickPack": {
+      "message": "Remplir"
+   },
+   "piece": {
+      "message": "pcs."
+   },
+   "productCost": {
+      "message": "Coût du produit"
+   },
+   "productPrice": {
+      "message": "Prix du produit"
+   },
+   "productSize": {
+      "message": "Taille du produit"
+   },
+   "productSizeDimension": {
+      "message": "Taille du paquet"
+   },
+   "productWeight": {
+      "message": "Poids du produit"
+   },
+   "profitPerUnit": {
+      "message": "Profit"
+   },
+   "referralFee": {
+      "message": "Commission pour recommandation"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Retour sur investissement"
+   },
+   "shippingCost": {
+      "message": "Coût CPC"
+   },
+   "taxes": {
+      "message": "Les Taxes"
+   },
+   "totalFee": {
+      "message": "Total Frais FBA"
+   },
+   "tryScout": {
+      "message": "Essayez AMZScout PRO gratuitement!"
+   },
+   "unsupportedDomainErr": {
+      "message": "Nous sommes désolés, mais ce domaine n'est actuellement pas pris en charge."
+   },
+   "variableClosingFee": {
+      "message": "Frais de clôture variable"
+   },
+   "weightHandling": {
+      "message": "Gestion du poids"
+   },
+   "wrongPageErr": {
+      "message": "On dirait que nous sommes sur la mauvaise page.\u003Cbr>Ouvrez la page produit Amazon et réessayez!"
+   }
+}

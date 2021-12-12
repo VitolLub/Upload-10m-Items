@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_humidity</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03-weather" transform="translate(-1097.000000, -348.000000)" fill="#2681E5">
+            <g id="weather" transform="translate(970.000000, 185.000000)">
+                <g id="active">
+                    <g id="params" transform="translate(20.000000, 163.000000)">
+                        <g id="humidity" transform="translate(90.000000, 0.000000)">
+                            <path d="M26.4145455,11.5348148 C26.4145455,10.1734163 23.9321212,6.60444444 23.9321212,6.60444444 C23.9321212,6.60444444 21.449697,10.1734163 21.449697,11.5348148 C21.449697,12.8962133 22.5612024,14 23.9321212,14 C25.30304,14 26.4145455,12.8962133 26.4145455,11.5348148 Z M30,4.93037037 C30,3.56897185 27.5175758,0 27.5175758,0 C27.5175758,0 25.0351515,3.56897185 25.0351515,4.93037037 C25.0351515,6.29176889 26.146657,7.39555556 27.5175758,7.39555556 C28.8884945,7.39555556 30,6.29176889 30,4.93037037 Z M21.9648485,6.93037037 C21.9648485,5.56897185 19.4824242,2 19.4824242,2 C19.4824242,2 17,5.56897185 17,6.93037037 C17,8.29176889 18.1115055,9.39555556 19.4824242,9.39555556 C20.853343,9.39555556 21.9648485,8.29176889 21.9648485,6.93037037 Z" id="icon_humidity"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

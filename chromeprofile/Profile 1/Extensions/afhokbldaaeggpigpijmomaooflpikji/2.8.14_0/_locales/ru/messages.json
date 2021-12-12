@@ -1,0 +1,14 @@
+{
+   "browser_action_page": {
+      "description": "test",
+      "message": "test.html"
+   },
+   "extDescription": {
+      "description": "",
+      "message": "Инструмент для повышения продуктивности. Запланируйте все необходимое и фокусируйтесь над выполнением."
+   },
+   "extName": {
+      "description": "",
+      "message": "MakeTime - повышение продуктивности"
+   }
+}

@@ -1,0 +1,269 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "gr"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "inch"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "kilograms"
+   },
+   "POUND": {
+      "message": "pounds"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "aliSearch": {
+      "message": "Find on Aliexpress"
+   },
+   "alibabaSearch": {
+      "message": "Find on Alibaba"
+   },
+   "appDesc": {
+      "message": "FBA Calculator shows Amazon fees, sales margins, revenue and product net profit and is free to use."
+   },
+   "appName": {
+      "message": "Amazon FBA Calculator Free by AMZScout"
+   },
+   "banggoodSearch": {
+      "message": "Find on Banggood"
+   },
+   "bannerAzon2": {
+      "message": "Learn how to Uncover The Most Powerful Niches on Amazon Producing $$5,000-$$50,000/month.\u003Ca href='https://amzscout.net/api/go?url=https%3A%2F%2Fgo.azonu.net%2Famzwebinar&utm_source=calc&utm_campaign=azon2-banner' target='_blank'>YES! Seсure my place for The Live Training!\u003C/a>"
+   },
+   "bannerText10niches": {
+      "message": "\u003Cdiv class='calc-ebook-banner__text--grey'>Get\u003C/div> 10 hot-selling low-competition products \u003Cdiv class='calc-ebook-banner__text--grey'>on Amazon.\u003C/div>"
+   },
+   "bannerText10nichesBtn": {
+      "message": "SEND ME 10 NICHE IDEAS NOW!"
+   },
+   "bannerText10nichesCancel": {
+      "message": "No, thanks, I found lots of them myself"
+   },
+   "bannerTextEBookThankYou1": {
+      "message": "Thank you!"
+   },
+   "bannerTextEBookThankYou2": {
+      "message": "Check your \u003Cdiv class='line2--orange'>email.\u003C/div>"
+   },
+   "bannerTextEbook": {
+      "message": "\u003Cdiv class='calc-ebook-banner__text--grey'>Download our guide to start your\u003C/div> Passive Income on Amazon!"
+   },
+   "bannerTextEbookBtn": {
+      "message": "Send me my Ebook!"
+   },
+   "bannerTextMiniCourse": {
+      "message": "\u003Cdiv class='calc-ebook-banner__text--grey'>BRAND NEW\u003C/div> PRODUCT RESEARCH COURSE!"
+   },
+   "bannerTextMiniCourseBtn": {
+      "message": "Get Course Now for just $$49!"
+   },
+   "bannerTextMiniCourseHint": {
+      "message": ""
+   },
+   "bannerTextPayoneer": {
+      "message": "\u003Ca href='https://goo.gl/43fdvT' target='_blank'>\u003C/a>"
+   },
+   "bannerTextPriceIncrease": {
+      "message": "\u003Cdiv class='calc-ebook-banner__text--grey'>Try AMZ\u003C/div>Scout \u003Cdiv class='calc-ebook-banner__text--grey'>Pro and subscribe at\u003C/div> its OLD PRICE before April 10. \u003Cdiv class='calc-ebook-banner__text--grey'>After that date,\u003C/div> the price will jump!"
+   },
+   "bannerTextPriceIncreaseBtn": {
+      "message": "START FREE TRIAL"
+   },
+   "bannerTextSS": {
+      "message": "Do you want to know product price at eBay while shopping on Amazon? \u003Ca href='https://goo.gl/67xS8n' target='_blank'>I want\u003C/a>"
+   },
+   "bannerTextScout": {
+      "message": "Find out your competitors sales history, revenue and backend keywords just in one click"
+   },
+   "bannerTextScoutBtn": {
+      "message": "\u003Cdiv class='link' data-link='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner'>Know how\u003C/a>"
+   },
+   "bannerTextStockStats": {
+      "message": "Do you want to know Amazon sellers inventory levels for free?"
+   },
+   "bannerTextStockStatsBtn": {
+      "message": "\u003Ca class='link' data-link='https://goo.gl/rFZcHW'>I want\u003C/a>"
+   },
+   "bannerTextThankYou": {
+      "message": "\u003Cdiv class='calc-ebook-banner__text--grey'>Thank you! Check your\u003C/div> email."
+   },
+   "bannerTextThankYouLink": {
+      "message": "\u003Cdiv class='calc-ebook-banner__text--grey'>Thank you!\u003C/div>"
+   },
+   "bannerTextWebinarBtn": {
+      "message": "YES! Secure My Place For The Webinar"
+   },
+   "bannerWebinarAddToCalendarBtn": {
+      "message": "Add to my calendar"
+   },
+   "bestbuySearch": {
+      "message": "Find on Bestbuy"
+   },
+   "cannotFees": {
+      "message": "Sorry, Amazon doesn't provide information about fees for this product."
+   },
+   "cessFee": {
+      "message": "Service & Cess Fees"
+   },
+   "cpcCost": {
+      "message": "CPC Cost"
+   },
+   "dateFirstAvailable": {
+      "message": "Date First Available"
+   },
+   "deliveryFee": {
+      "message": "Delivery Fee"
+   },
+   "dhgateSearch": {
+      "message": "Find on Dhgate"
+   },
+   "ebaySearch": {
+      "message": "Find on Ebay"
+   },
+   "estimatedRevenue": {
+      "message": "Est Monthly Profit"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Estimated monthly profit based on Estimated Monthly Sales and Margin Impact"
+   },
+   "estimatedSales": {
+      "message": "Est Monthly Sales"
+   },
+   "fixedClosingFee": {
+      "message": "Fixed Closing Fee"
+   },
+   "getScout": {
+      "message": "Get AMZScout PRO for FREE!"
+   },
+   "getScoutQuestion": {
+      "message": "Do you already sell products on Amazon and ready to answer on few our questions by Skype?"
+   },
+   "getScoutReject": {
+      "message": "We are sorry, but currently we cannot offer our tool to you for free."
+   },
+   "madeInChinaSearch": {
+      "message": "Find on Made-in-china"
+   },
+   "marginImpact": {
+      "message": "Net Margin"
+   },
+   "monthlyStorage": {
+      "message": "Monthly Storage"
+   },
+   "negativeNumberTooltipEstMonthly": {
+      "message": "Beware, this is a negative Est.Monthly Profit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipNet": {
+      "message": "Beware, this is a negative Net Margin you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipProfit": {
+      "message": "Beware, this is a negative Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "orderHandling": {
+      "message": "Order Handling"
+   },
+   "packageWeight": {
+      "message": "Package Weight"
+   },
+   "pageLoadingErr": {
+      "message": "It looks like page didn't load completely. Refresh page and try again."
+   },
+   "pickPack": {
+      "message": "Fulfillment fee"
+   },
+   "piece": {
+      "message": "pcs."
+   },
+   "pm_card": {
+      "message": "Bank Card"
+   },
+   "pm_paypal": {
+      "message": "PayPal"
+   },
+   "priceHistory": {
+      "message": "Price History"
+   },
+   "productCost": {
+      "message": "Product Cost"
+   },
+   "productPrice": {
+      "message": "Product Price"
+   },
+   "productSize": {
+      "message": "Product Size"
+   },
+   "productSizeDimension": {
+      "message": "Package Size"
+   },
+   "productWeight": {
+      "message": "Product Weight"
+   },
+   "profitPerUnit": {
+      "message": "Profit per Unit"
+   },
+   "referralFee": {
+      "message": "Referral Fee"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Return on Investment (ROI) is the benefit to an Seller resulting from an investment of some product"
+   },
+   "salesHistory": {
+      "message": "Sales History"
+   },
+   "searchListButton": {
+      "message": "Find the best supplier"
+   },
+   "shippingCost": {
+      "message": "Shipping Cost"
+   },
+   "taxes": {
+      "message": "Taxes"
+   },
+   "totalFee": {
+      "message": "Total FBA Fee"
+   },
+   "tryScout": {
+      "message": "Try AMZScout PRO for FREE!"
+   },
+   "unsupportedDomainErr": {
+      "message": "We are sorry, but this domain currently unsupported."
+   },
+   "variableClosingFee": {
+      "message": "Variable Closing Fee"
+   },
+   "walmartSearch": {
+      "message": "Find on Walmart"
+   },
+   "weightHandling": {
+      "message": "Weight Handling"
+   },
+   "weightUnitTooltip": {
+      "message": "Package weight no longer counts on Amazon when calculating FBA fees. Only product weight counts."
+   },
+   "wrongPageErr": {
+      "message": "It looks like we are on the wrong page.\u003Cbr>Open Amazon product page and try again!"
+   }
+}

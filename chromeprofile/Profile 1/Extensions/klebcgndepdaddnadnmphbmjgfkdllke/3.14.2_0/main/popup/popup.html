@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="./../content/jquery.min.js"></script>
+  <script src="./../content/CommonMemory.js"></script>
+  <script src="./../../seyt_page/include/include.js"></script>
+  <script src="popup.js"></script>
+  <link href="../fonts/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+  <link href="../fonts/fontawesome/css/regular.css" rel="stylesheet">
+  <link href="../fonts/fontawesome/css/solid.css" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+  <title>SurfEarner - заработок без вложений</title>
+</head>
+<body>
+
+<div id="loader" class="block">Загрузка...<br/><img src="./../../img/long-loader.gif" alt="loading..."/></div>
+
+<section id="header">
+  <div class="logo">
+    <a class="href-partner" href="https://surfearner.com/partner" title="Перейти в личный кабинет" target="_blank"></a>
+    <div class="user-id"><a class="href-payout" href="https://surfearner.com/partner" title="Перейти в личный кабинет"
+                            target="_blank">ID <span class="_val"></span></a></div>
+    <div id="header-user-balance" class="user-balance">
+      <div class="hovered">
+        <span class="href-payout short"><span class="_val"></span></span>
+        <div class="full">
+          <table width="100%">
+            <tr id="balanceRUB">
+              <td class="f-12 title"><a class="clr-default" href="https://surfearner.com/payout"
+                                        title="Вывести средства" target="_blank">Баланс<br/>пользователя</a></td>
+              <td class="value"><a class="f-16-600 clr-default" href="https://surfearner.com/payout"
+                                   title="Вывести средства" target="_blank"></a></td>
+            </tr>
+            <tr id="balanceBNS">
+              <td class="f-12 title"><a class="clr-default" href="https://surfearner.com/bonus_account"
+                                        title="Бонусный счет" target="_blank">Бонусный<br/>счет</a></td>
+              <td class="value"><a class="f-16-600 clr-default" href="https://surfearner.com/bonus_account"
+                                   title="Бонусный счет" target="_blank"></a></td>
+            </tr>
+            <tr id="balanceADV">
+              <td class="f-12 title"><a class="clr-default" href="https://surfearner.com/payin" title="Пополнить счет"
+                                        target="_blank">Рекламный<br/>баланс</a></td>
+              <td class="value"><a class="f-16-600 clr-default" href="https://surfearner.com/payin"
+                                   title="Пополнить счет" target="_blank"></a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controll-wrap">
+    <div class="controll">
+      <a href="#" class="button switch-toggle" title="Отключить">Включено</a>
+    </div>
+  </div>
+</section>
+<div class="clear-20"></div>
+<!--
+
+Не авторизован
+
+-->
+<section id="auth" class="single framed pv-20 ph-20">
+  <div class="f-16-600">Вы не авторизованы</div>
+  <div class="clear-20"></div>
+  <div>
+    <a id="btn-auth" href="#" class="btn blue">Войдите</a>
+    <span class="ph-20">или</span>
+    <a target="_blank" href="https://surfearner.com/register" class="btn blue green">Зарегистрируйтесь</a>
+  </div>
+</section>
+
+<!--
+
+Главное окно
+
+-->
+
+<section id="userinfo" class="single">
+  <!--
+
+      Шапка
+
+  -->
+  <div id="userinfo-header" class="framed">
+
+    <div id="userinfo-captcha" class="row captcha f-12 left hidden">
+      <div class="cell">
+        <i class="icon icon-robot-solid"></i>
+        <a href="https://surfearner.com/user/captcha" target="_blank">Ввести капчу</a>
+      </div>
+    </div>
+
+    <div id="userinfo-vacation" class="row vacation f-12 left hidden">
+      <div class="cell hovered">
+        <i class="icon icon-plane-solid"></i>
+        Отпуск
+        <div class="value f-14-400">0 дней</div>
+        <center>
+          <a>Выключить</a>
+        </center>
+      </div>
+    </div>
+
+
+    <div id="userinfo-referral" class="row referral f-12">
+      <div class="cell hovered">
+        <i class="icon icon-sitemap-solid"></i>
+        Рефералы
+        <div class="value f-14-400">0</div>
+        <center>
+          <div class="today"></div>
+          <a href="https://surfearner.com/referral" title="Партнерская программа" target="_blank">Пригласить</a>
+        </center>
+      </div>
+    </div>
+
+    <div id="userinfo-quality" class="row quality f-12">
+      <div class="cell hovered">
+        <i class="icon icon-check-square-regular"></i>
+        Квалификация
+        <div class="value f-14-400">0</div>
+        <center>
+          <div class="actions"><span class="done"></span> из <span class="all"></span></div>
+          <div class="full-date hidden"></div>
+          <a class="hidden" href="https://help.surfearner.com/ru/t/2-qualification"
+             title="Как увеличить свою квалификацию" target="_blank">Как получить?</a>
+        </center>
+      </div>
+    </div>
+    <div id="userinfo-premium" class="row premium f-12 hidden">
+      <div class="cell hovered">
+        <i class="icon icon-crown-solid clr-orange"></i>
+        PREMIUM
+        <div class="value f-14-400">0 дней</div>
+        <center>
+          <a href="https://surfearner.com/premium?pos=premium_connect" title="Продлить активность статуса PREMUIM"
+             target="_blank">Продлить</a>
+        </center>
+      </div>
+    </div>
+    <div id="userinfo-rating" class="row rating left f-12">
+      <div class="cell hovered">
+        <i class="icon icon-graduation-cap-solid"></i>
+        Рейтинг
+        <div class="value f-14-400">0</div>
+        <center>
+          <div class="today"></div>
+        </center>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear-20"></div>
+
+  <div id="popup-cpa-loader">Подбираем доступные задания...<br/><img src="./../../img/long-loader.gif" alt="loading..."/></div>
+  <div id="userinfo-cpa" class="row cpa f-12 hidden">
+    <div class="popup-cpa">
+      <div class="_se-img">
+        <img class="_se-cpa-icon" src="https://static.surfearner.com/images/svg/icon_push_warning.svg" alt="" width="100%" height="100%">
+      </div>
+      <div class="_se-title"></div>
+      <div class="_se-msg"></div>
+      <button type="button" id="_se-update_btn" class="btn-link blue _se-update_btn"><i class="fas fa-sync"></i></button>
+    </div>
+    <div class="clear-20"></div>
+  </div>
+
+  <!--
+
+      Таблица
+
+  -->
+  <div id="userinfo-table" class="framed p-10">
+    <table>
+      <tr>
+        <th colspan="3">Заработок за сегодня:</th>
+        <th>PUSH:</th>
+      </tr>
+      <tr id="row-cpa">
+        <td><a href="https://surfearner.com/cpa" target="_blank">Задания</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-cpa" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr id="row-banner">
+        <td><a href="https://surfearner.com/viewing" target="_blank">Баннеры</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-banner" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr id="row-video">
+        <td><a href="https://surfearner.com/cpa" target="_blank">Видеореклама</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-video" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr id="row-youtube">
+        <td><a href="https://surfearner.com/cpa" target="_blank">Просмотры на YT</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-youtube" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr id="row-surf">
+        <td><a href="https://surfearner.com/cpa" target="_blank">Переходы на сайт</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-surf" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr id="row-gift">
+        <td><a href="https://surfearner.com/gift/" target="_blank">Подарки каждый час</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-gift" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr id="row-refer">
+        <td><a href="https://surfearner.com/referral/profit" target="_blank">Доход от рефералов</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td></td>
+      </tr>
+      <tr id="row-surfvideo" style="display:none">
+        <td><a href="https://surfearner.com/video" target="_blank">Бонусные видео</a></td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-surfvideo" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+      <tr class="sep-3"></tr>
+      <tr id="row-summary">
+        <td colspan="2">Итого:</td>
+        <td class="profit" colspan="2"></td>
+      </tr>
+    </table>
+  </div>
+  <div class="clear-20"></div>
+
+  <!--
+
+      Adult
+
+  -->
+  <div id="adult-content" class="framed p-10">
+    <table>
+      <tr id="row-adult">
+        <td class="clr-black f-14-600">Рекламный контент 18+ (Adult Content)</td>
+        <td class="quantity"></td>
+        <td class="profit"></td>
+        <td><label class="switch">
+          <input id="push-adult" type="checkbox"/><span class="slider round"></span></label>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="clear-20 seyt-page-dynamic"></div>
+
+  <div id="seyt-page-content" class="framed p-10 seyt-page-dynamic">
+    <table>
+      <tr id="row-seyt">
+        <td class="clr-black f-14-600 status-label">Аналитика YouTube <a href="https://help.surfearner.com/ru/t/watch-tracking" target="_blank" class="seyt-help"><i class="far fa-question-circle"></i></a></td>
+        <td></td>
+        <td class="status-label" id="seyt-page-status">Неактивно</td>
+        <td><button type="button" id="seyt-reset" class="btn-link seyt-reset"><i class="fas fa-sync"></i></button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+<!--
+
+Настройки
+
+-->
+<section id="settings" class="single framed p-10">
+  <div>
+    <h1>Настройки</h1>
+    <ul class="ul-half">
+      <li>
+        <b>Правила показа баннеров:</b>
+        <div class="anim_radio">
+          <label>
+            <input type="radio" name="_anim_type" class="_anim_type" value="3"/>
+            Баннер поверх страницы
+          </label>
+          <br/>
+          <label>
+            <input type="radio" name="_anim_type" class="_anim_type" value="1"/>
+            Баннер сдвигает страницу
+          </label>
+        </div>
+      </li>
+      <li><a href="https://surfearner.com/user/settings#limits" target="_blank">Настройки ограничений</a></li>
+      <li><a href="#" class="reset_btn">Сброс расширения</a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="message" class="single framed pv-20 ph-20">
+  <div class="msg"></div>
+</section>
+
+<section id="banner" class="hidden">
+  <a href="" target="_blank"><img src="" alt="" style="display: block;"></a>
+</section>
+
+<section id="footer-wrap">
+  <div class="footer">
+    <span class="lk_btn btm">Перейти в Личный кабинет</span>
+    <span id="version" class="ver"></span>
+    <span class="settings_btn btm">Настройки</span>
+  </div>
+</section>
+</body>
+</html>

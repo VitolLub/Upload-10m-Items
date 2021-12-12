@@ -1,0 +1,18 @@
+<div class="popup__body">
+    <h1 class="popup__title">{{ 'weather_popup_title' | i18n }}</h1>
+    <div class="popup__content">
+        <h2 class="subtitle">{{ 'location' | i18n }}</h2>
+        <search type="cities" placeholder="{{city.name}}" template-name="search-cities.view.html" on-submit="updateCity(city)"></search>
+        <h2 class="subtitle">{{ 'weather_units_title' | i18n }}</h2>
+        <div class="radio">
+            <input type="radio" id="celsius" name="units" ng-model="units" value="c" /><label for="celsius">{{ 'weather_units_metric' | i18n }}</label>
+        </div>
+        <div class="radio">
+            <input type="radio" id="fahrenheits" name="units" ng-model="units" value="f" /><label for="fahrenheits">{{ 'weather_units_imperial' | i18n }}</label>
+        </div>
+    </div>
+    <div class="popup__btns">
+        <button class="link-btn link-btn_default" ng-click="closeThisDialog()">{{ 'dismiss' | i18n }}</button>
+        <button class="link-btn link-btn_primary" ng-click="saveChanges()">{{ 'save_changes' | i18n }}</button>
+    </div>
+</div>

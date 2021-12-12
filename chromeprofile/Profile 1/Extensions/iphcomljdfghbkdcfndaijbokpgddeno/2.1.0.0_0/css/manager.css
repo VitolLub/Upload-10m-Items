@@ -1,0 +1,54 @@
+html,body,div,h1,h2,h3,h4,p,hr,a,b,i,strong,span,ul,ol,li,img,button{margin:0;padding:0;border:0;clear:both}
+html,body{background:#f5f5f5;color:#616161;min-width:760px!important;width:100%!important}
+body,button{font-family:'Segoe UI',Helvetica,'Helvetica Neue',Arial,sans-serif;font-size:15px}
+button{box-sizing:content-box;background:inherit;cursor:pointer}
+a{color:#1565c0;text-decoration:none}
+p a:hover,div.__sidebar a:hover,div.__copyright a:hover{border-bottom:solid 1px}
+ul{list-style:none}
+h1{max-width:970px;padding:0 6px;margin:16px auto;letter-spacing:3px}
+h2{text-align:left;font-weight:500;margin-top:24px;letter-spacing:3px;text-transform:uppercase}
+h2>span,h2>small{font-size:12px}
+h3,h4{margin:16px 0 8px;font-weight:500;letter-spacing:3px;text-transform:uppercase}
+hr{text-align:left;margin:16px 0;width:80px;height:0;border-bottom:3px solid #ff9800}
+::selection{background:#424242;color:#f5f5f5}
+
+header{background:#fff;overflow:hidden}
+header>div{max-width:1200px;margin:0 auto;line-height:44px}
+.__logo{float:left;display:block;height:44px;padding:0 9px}
+.__menu{float:right;clear:none;background:#f5f5f5;text-transform:uppercase}
+.__menu a,.__menu span{display:inline-block}
+.__menu a{width:79px;text-align:center;color:#424242;margin-left:8px}
+.__menu a:hover{background:#fff}
+
+div.__promo{background-color:#2196f3;background-image:url('../img/cookie-mesh.png')}
+div.__promo>div{max-width:1170px;margin:0 auto;overflow:hidden}
+div.__promo a{float:left;width:100%;max-width:267px;padding:37px 0 0 3px;margin:30px 0 0 13px;color:#f1f1f1;background:url('../img/cookie-editor-logo.png') no-repeat;font-size:16px;line-height:27px}
+div.__promo img{float:right;clear:none}
+
+div.__main{width:100%;background:#fff;overflow:hidden}
+div.__content{max-width:970px;margin:0 auto;padding:0 6px}
+div.__content>p{text-align:left;line-height:22px;margin-bottom:22px}
+
+.__cookie-manager{margin-bottom:12px;min-height:1px}
+iframe.__cookie-manager-frame{display:block;max-width:970px;width:100%;height:600px;margin-bottom:32px;border:0;overflow:hidden}
+
+.__icon-cc-chrome{background-position:0 0}
+.__icon-cc-firefox{background-position:0 -32px}
+.__icon-eraser{background-position:0 -64px}
+.__icon-cookie-app{background-position:0 -96px}
+.__icon-cc-edge{background-position:0 -192px}
+
+footer{background:#f5f5f5;border-top:1px solid #eee;text-align:center}
+footer>div{display:inline-block;padding:32px 48px;text-align:left;vertical-align:top}
+footer a,footer button{display:block;line-height:32px;color:#424242;padding:4px 0;cursor:pointer}
+footer a:hover,footer button:hover{color:#1565c0}
+
+div.__copyright{line-height:28px;padding:24px 16px;font-size:14px;background:#eee;text-align:center}
+div.__copyright a{margin:0 8px}
+
+.__icon{display:block;background-image:url('../img/click-and-clean-sprite.png');background-repeat:no-repeat}
+.__icon-fb,.__icon-tw,.__icon-yt{padding-left:32px}
+.__icon-fb{background-position:0 -322px}
+.__icon-tw{background-position:0 -370px}
+
+.__consent-donotsell{background:none;border:0;color:#1565c0;border-bottom:solid 1px;margin-left:8px;cursor:pointer}

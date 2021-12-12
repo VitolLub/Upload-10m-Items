@@ -1,0 +1,37 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/management_16.png",
+         "24": "icons/management_24.png"
+      }
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; worker-src 'self'; object-src 'self'; style-src * data: blob: 'unsafe-inline'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "https://metamask.io/*" ]
+   },
+   "icons": {
+      "128": "icons/management_128.png",
+      "16": "/favicon.ico",
+      "36": "icons/bookmark-48.png",
+      "48": "icons/management_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtuDKwZ0QWGxeiETwWowQDtAtLEDhgTtlgn+ZFvR/Ild5bhLyrftDGf3IAXqhFtBt8CdiC+Zh/EjlZ9Y0YrwZ0bmlCWQBVqg/kQgf0E1dqU5x1mz8mbgZ3CW5CMVddcIxgMZVq+sKYVNYYrQEFG95TMd5MYmSpuxG24AYBcQizVDJAbxaxlVVZ/TAUXcNy/eoKic+UlozymVjv15+GkE9t2EruOfYzHTS/diogRQFWkMhoC/+os4Y5k5GKn0tsmxJk36Mrz2lhlqr0LWPMLXCXNq8xl9OoHx8pPxFhlR2gIzroF0BDfHEtIZ6593I6XGyLaQ3zuZFJf5y1MOE9++ZrQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "optional_permissions": [ "bookmarks" ],
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.8.14",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*.ttf", "*.wofl" ]
+   } ]
+}

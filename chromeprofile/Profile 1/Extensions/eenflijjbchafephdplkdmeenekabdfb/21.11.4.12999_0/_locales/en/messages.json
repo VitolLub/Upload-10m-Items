@@ -1,0 +1,2582 @@
+{
+   "ACTIVATE_FIREFOX_PAGE_ATTENTION": {
+      "message": "To start using Alitools, please review the following information:"
+   },
+   "ACTIVATE_FIREFOX_PAGE_BUTTON_ACTIVATE": {
+      "message": "Understood, activate Alitools!"
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_1": {
+      "message": "We use technical data, which includes the IP address, date and time of use of Alitools, language, information about the OS and browser type. This data is needed to ensure that Alitools is working \u003Cbr/> correctly, prevent fraud and configure the product for you."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_2": {
+      "message": "We use cookies to authorize you and automatically configure your profile. In our functions we use \u003Cbr/> the links of affiliate programs of AliExpress and other partner stores."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_3_1": {
+      "message": "Alitools collects the following personal information: URLs of visited pages on a limited list of sites \u003Cbr/> for functioning of «History», first-level domains on a limited list of sites for functioning of «Search \u003Cbr/> for goods» and «Favorite stores» and first-level domains when the «Search by picture» icon is \u003Cbr/> displayed on all sites. The lists of domains whose addresses we collect can be found in the"
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_3_2": {
+      "message": "\u003Cbr/>Privacy Policy"
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_3_3": {
+      "message": ". All data is sent to the server in encrypted form."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DESCRIPTION_ITEM_4": {
+      "message": "We strive to make Alitools better for all of our users. To do this we use Google Analytics, \u003Cbr/> Yandex.Metrika and Facebook Pixel to collect information about how you use Alitools."
+   },
+   "ACTIVATE_FIREFOX_PAGE_DISABLE_ANALYTICS": {
+      "message": "Prohibit the collection \u003Cbr/> of analytical data."
+   },
+   "ACTIVATE_FIREFOX_PAGE_PRIVACY_POLICY": {
+      "message": "Privacy Policy"
+   },
+   "ACTIVATE_FIREFOX_PAGE_TITLE": {
+      "message": "is not active yet!"
+   },
+   "ACTIVATE_FIREFOX_PAGE_USER_AGREEMENT": {
+      "message": "User Agreement"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_1": {
+      "message": "A yellow triangle means that the extension isn't active.\u003Cbr/> Click on the icon to fix it:"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_2": {
+      "message": "Select «Always Allow on Every Website...»\u003Cbr/> in the menu that opens."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_3": {
+      "message": "The extension will activate automatically."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_4": {
+      "message": "You have no yellow triangle and the extension isn't active yet?${BR}$ Follow ${LINK}$."
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_1_4_LINK": {
+      "message": "these instructions"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_2_1": {
+      "message": "Please, allow it to be visible on the websites you visit.\u003Cbr/> Follow the instructions on the pictures:"
+   },
+   "ACTIVATE_SAFARI_PAGE_STEP_2_2": {
+      "message": "The extension will activate automatically after you select «Always Allow on Every Website...»."
+   },
+   "ACTIVATE_SAFARI_PAGE_TITLE": {
+      "message": "Alitools is not active"
+   },
+   "ADVICE_PRODUCTS_HEADER": {
+      "message": "On AliExpress"
+   },
+   "ADVICE_PRODUCTS_ORDERS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, order|orders|orders}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "ADVICE_PRODUCTS_SORT_DEFAULT": {
+      "message": "without sorting"
+   },
+   "ADVICE_PRODUCTS_SORT_HEADER": {
+      "message": "sort"
+   },
+   "ADVICE_PRODUCTS_SORT_ORDERS": {
+      "message": "popular first"
+   },
+   "ADVICE_PRODUCTS_SORT_PRICE": {
+      "message": "cheap first"
+   },
+   "ADVICE_STRIPE_ONBOARDING_COMMENT": {
+      "message": "Browse through products and we will find suitable offers on AliExpress."
+   },
+   "ADVICE_STRIPE_ONBOARDING_HERO": {
+      "message": "Alitools found similar\u003C/br> and related products"
+   },
+   "ADVICE_STRIPE_ONBOARDING_SETTINGS_BUTTON": {
+      "message": "Continue"
+   },
+   "ADVICE_STRIPE_ONBOARDING_SETTINGS_LINK": {
+      "message": "in the settings."
+   },
+   "ADVICE_STRIPE_ONBOARDING_SETTINGS_MESSAGE": {
+      "message": "You can disable this feature "
+   },
+   "ADVICE_STRIP_ASIDE_OFFERS": {
+      "message": "All offers"
+   },
+   "ADVICE_STRIP_CONTEXT_CONFIGURE": {
+      "message": "Configure Alitools Adviser"
+   },
+   "ADVICE_STRIP_CONTEXT_HIDE": {
+      "message": "Don't show on this site"
+   },
+   "ADVICE_STRIP_MAIN_BUTTON_ACTION": {
+      "message": "Open on AliExpress"
+   },
+   "ADVICE_STRIP_MAIN_MESSAGE": {
+      "message": "There is a similar product on AliExpress"
+   },
+   "ADVICE_WIDGET_TAB_FROM": {
+      "message": "from "
+   },
+   "ADVICE_WIDGET_TAB_ON_ALIEXPRESS": {
+      "message": "on AliExpress"
+   },
+   "ANNOUNCE_CONTROL_CLOSE": {
+      "message": "Got it, thanks"
+   },
+   "ANNOUNCE_DESCRIPTION": {
+      "message": "New stores."
+   },
+   "ANNOUNCE_FEATURE_CABINET_FILTERS": {
+      "message": "Quickly find your favorites from different shops with a new filter on"
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON": {
+      "message": "The \"Track price\" button is now always visible. You can add products to your favorites list with a single click."
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON_GUEST": {
+      "message": " and add products that interest you to your favorites list with a single click."
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON_GUEST_REGISTRATION": {
+      "message": "Sign up"
+   },
+   "ANNOUNCE_FEATURE_MOBILE_PRICE": {
+      "message": "The \"Price analysis\" tab now shows the purchase price via the AliExpress mobile app."
+   },
+   "ANNOUNCE_FEATURE_NEW_STORES": {
+      "message": "Alitools for Pandao, Joom, Lamoda, Wildberries is available."
+   },
+   "ANNOUNCE_FEATURE_PRICE_WIDGET": {
+      "message": "Alitools compares previous and current prices and instantly shows you how much you can save."
+   },
+   "ANNOUNCE_FOOTER_FEEDBACK": {
+      "message": "Help us make Alitools better: "
+   },
+   "ANNOUNCE_FOOTER_FEEDBACK_LINK": {
+      "message": "Send us ideas, feedback, and bug reports"
+   },
+   "ANNOUNCE_TITLE": {
+      "message": "Alitools has been updated!"
+   },
+   "BALLOON_BUTTON_CLOSE": {
+      "message": "Close"
+   },
+   "BETA_LABEL": {
+      "message": "Beta version"
+   },
+   "BETA_SUPPORT_LINK": {
+      "message": "Contact us"
+   },
+   "BETA_TITLE": {
+      "message": "Alitools for $STORE_NAME$",
+      "placeholders": {
+         "store_name": {
+            "content": "$1",
+            "example": "Gearbest"
+         }
+      }
+   },
+   "BETA_TOOLTIP": {
+      "message": "The browser extension is under development. We appreciate your feedback and bug reports."
+   },
+   "BOOKMARKS_HEADER_SITES_LIST": {
+      "message": "All shops"
+   },
+   "BOOKMARKS_HEADER_TITLE": {
+      "message": "Favorite stores"
+   },
+   "BOOKMARKS_ITEM_ICON_CART": {
+      "message": "Cart"
+   },
+   "BOOKMARKS_ITEM_ICON_FAVORITE": {
+      "message": "Favorites"
+   },
+   "BOOKMARKS_SITES_HINT_HEADER": {
+      "message": "Supported stores:"
+   },
+   "BUTTON_TRY_AGAIN": {
+      "message": "Retry request"
+   },
+   "CHART2_CHEAPER": {
+      "message": "cheaper"
+   },
+   "CHART2_CURRENT_PRICE": {
+      "message": "Last price"
+   },
+   "CHART2_DOESNT_CHANGE": {
+      "message": "doesn't change "
+   },
+   "CHART2_DROPPED": {
+      "message": "dropped by "
+   },
+   "CHART2_EXPENSIVE": {
+      "message": "more expensive"
+   },
+   "CHART2_FEEDBACK_HOW": {
+      "message": "How do you find the new chart?"
+   },
+   "CHART2_FEEDBACK_PLACEHOLDER": {
+      "message": "What don’t you like about the new chart?"
+   },
+   "CHART2_FEEDBACK_SEND": {
+      "message": "Send"
+   },
+   "CHART2_FEEDBACK_THANKS": {
+      "message": "Thank you for the answer!"
+   },
+   "CHART2_INCREASED": {
+      "message": "increased by "
+   },
+   "CHART2_LAST_PRICE": {
+      "message": "Last price"
+   },
+   "CHART2_NOW": {
+      "message": "Now for"
+   },
+   "CHART2_ONE_POINT_SINCE": {
+      "message": "Alitools started receiving price info on "
+   },
+   "CHART2_PRICE": {
+      "message": "Price:"
+   },
+   "CHART2_SAME_PRICE": {
+      "message": "Currently the same"
+   },
+   "CHART2_START_TRACKING_DATE": {
+      "message": "(tracking start) "
+   },
+   "CHART2_UNKNOWN": {
+      "message": "Alitools didn’t receive any price info on this day."
+   },
+   "COUPON_BUTTON_APPLYING": {
+      "message": "To checkout"
+   },
+   "COUPON_BUTTON_BACK_TO_CHECKOUT": {
+      "message": "To checkout"
+   },
+   "COUPON_BUTTON_GRAB_NOW": {
+      "message": "Grab Now"
+   },
+   "COUPON_BUTTON_OK_TEXT": {
+      "message": "Check now"
+   },
+   "COUPON_BUTTON_STANDBY": {
+      "message": "Grab Now"
+   },
+   "COUPON_FOUND_INFO": {
+      "message": "Get promo codes and coupons"
+   },
+   "COUPON_FOUND_TITLE": {
+      "message": "Save on shopping"
+   },
+   "COUPON_ONBORDING_MINIWIDGET_DESCRIPTION": {
+      "message": "Hover over the icon and you can find discount\u003Cbr/>for your shopping."
+   },
+   "COUPON_ONBORDING_MINIWIDGET_TITLE": {
+      "message": "Automatic discount search"
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_COUPON_DESCRIPTION": {
+      "message": "We checking out the coupons and reload\u003Cbr/> your shopping cart page."
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_COUPON_TITLE": {
+      "message": "Checking out coupons"
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_PROMOCODE_DESCRIPTION": {
+      "message": "We'll go through the best promo codes.\u003Cbr/> This will take about a minute."
+   },
+   "COUPON_PARAGRAPH_ACTIVATE_PROMOCODE_TITLE": {
+      "message": "Checking out codes"
+   },
+   "COUPON_PARAGRAPH_APPLYING_FINISH_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "The best discounts are chosen, and they \u003Cbr/>apply to your shopping cart."
+   },
+   "COUPON_PARAGRAPH_APPLYING_FINISH_FOUND_DISCOUNT_TITLE": {
+      "message": "You got $PRICE$ discount",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_PARAGRAPH_FINISH_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "The best discounts are chosen, and they \u003Cbr/>apply to your shopping cart."
+   },
+   "COUPON_PARAGRAPH_FINISH_FOUND_DISCOUNT_TITLE": {
+      "message": "You got $PRICE$ discount",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_PARAGRAPH_FINISH_NOT_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "You can change the contents of your \u003Cbr/>shopping cart or try your luck later on."
+   },
+   "COUPON_PARAGRAPH_FINISH_NOT_FOUND_DISCOUNT_TITLE": {
+      "message": "No discounts, sorry"
+   },
+   "COUPON_PARAGRAPH_NOT_FINISH_NOT_FOUND_DISCOUNT_DESCRIPTION": {
+      "message": "You can change the contents of your \u003Cbr/>shopping cart or try your luck later on."
+   },
+   "COUPON_PARAGRAPH_NOT_FINISH_NOT_FOUND_DISCOUNT_TITLE": {
+      "message": "No discounts"
+   },
+   "COUPON_SPLASH_DESCRIPTION": {
+      "message": "We have automated the search and\u003Cbr/>application discounts."
+   },
+   "COUPON_SPLASH_TITLE": {
+      "message": "Please, wait..."
+   },
+   "COUPON_STATE_ACTIVATE_COUPON": {
+      "message": "Looking for the best coupon..."
+   },
+   "COUPON_STATE_ACTIVATE_PROMOCODE": {
+      "message": "Checking out $CURRENT$ out of $COUNT$ / $PROMOCODE$...",
+      "placeholders": {
+         "count": {
+            "content": "$2",
+            "example": "14"
+         },
+         "current": {
+            "content": "$1",
+            "example": "7"
+         },
+         "promocode": {
+            "content": "$3",
+            "example": "HAVE100"
+         }
+      }
+   },
+   "COUPON_STATE_APPLYING_FINISH_NOT_FOUND_DISCOUNT": {
+      "message": "Restoring your discount..."
+   },
+   "COUPON_STATE_FINISH_BUST_FOUND_DISCOUNT": {
+      "message": "Discount applied! Go back to checkout."
+   },
+   "COUPON_STATE_FINISH_FOUND_DISCOUNT": {
+      "message": "Applying the best discount..."
+   },
+   "COUPON_STATE_FINISH_NOT_FOUND_DISCOUNT": {
+      "message": "Done. We haven’t found any discounts."
+   },
+   "COUPON_STATE_PROGRESS_STEP": {
+      "message": "Step $STEP$/$COUNT$: ",
+      "placeholders": {
+         "count": {
+            "content": "$2",
+            "example": "3"
+         },
+         "step": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "COUPON_STATUS_BAR_DISCOUNT": {
+      "message": "You saved $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_STATUS_BAR_GRAB_NOW": {
+      "message": "Discount $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "7"
+         }
+      }
+   },
+   "COUPON_STATUS_BAR_NOT_DISCOUNT": {
+      "message": "We're sad about it"
+   },
+   "COUPON_STATUS_BAR_STANDBY": {
+      "message": "Just a sec"
+   },
+   "EXTENSION_DESCRIPTION": {
+      "message": "Auto-find & apply AliExpress ™ promo codes, price history, seller rating, similar products, find item by picture"
+   },
+   "EXTENSION_NAME": {
+      "message": "Alitools Shopping Assistant"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "Alitools"
+   },
+   "EXTERNAL_LINKS_ALERT_PRODUCT_DELETED": {
+      "message": "Product may not be on sale anymore."
+   },
+   "EXTERNAL_LINKS_ALIEXPRESS_PAGE": {
+      "message": "AliExpress page"
+   },
+   "EXTERNAL_LINKS_BUTTON_ALIEXPRESS_PAGE": {
+      "message": "Go to page"
+   },
+   "EXTERNAL_LINKS_BUTTON_MAKE_SURE": {
+      "message": "Make sure"
+   },
+   "EXTERNAL_LINKS_BUTTON_ON": {
+      "message": "Open on"
+   },
+   "EXTERNAL_LINKS_BUTTON_PRODUCT": {
+      "message": "Open on AliExpress"
+   },
+   "EXTERNAL_LINKS_BUTTON_PRODUCT_PAGE": {
+      "message": "Open product page"
+   },
+   "EXTERNAL_LINKS_CUTAWAY_SERVICE_ACTION": {
+      "message": "Link checked"
+   },
+   "EXTERNAL_LINKS_CUTAWAY_SERVICE_TITLE": {
+      "message": "Guide"
+   },
+   "EXTERNAL_LINKS_IS_NOT_PRODUCT_DATA": {
+      "message": "Link verified successfully"
+   },
+   "EXTERNAL_LINKS_IS_NOT_PRODUCT_DATA_DESCRIPTION": {
+      "message": "We made sure the links is reliable,\u003Cbr/>but could not get the product data."
+   },
+   "EXTERNAL_LINKS_IS_NOT_PRODUCT_PAGE": {
+      "message": "We made sure the link is reliable, but could not \u003Cbr/>determine whether it is a link to a product."
+   },
+   "EXTERNAL_LINKS_ITEMS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, order|orders|orders}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "EXTERNAL_LINKS_ITEM_SELLER": {
+      "message": "Seller’s rating: ${SCORE}$"
+   },
+   "EXTERNAL_LINKS_TAB_REVIEWS": {
+      "message": "Reviews"
+   },
+   "EXTERNAL_LINKS_TAB_REVIEWS_EMPTY_TITLE": {
+      "message": "Unfortunately, there’re\u003Cbr/>no reviews for this product."
+   },
+   "EXTERNAL_LINKS_TAB_SIMILAR": {
+      "message": "Similar"
+   },
+   "EXTERNAL_LINKS_TAB_SIMILAR_EMPTY_TITLE": {
+      "message": "Unfortunately, there’re\u003Cbr/>no similar products."
+   },
+   "FILTER_ALL": {
+      "message": "All"
+   },
+   "FILTER_ITAO": {
+      "message": "iTao"
+   },
+   "FILTER_PHOTOS": {
+      "message": "Photo"
+   },
+   "FILTER_USER_PHOTOS": {
+      "message": "Buyers' photos"
+   },
+   "FILTER_VIDEOS": {
+      "message": "Video"
+   },
+   "FILTER_YOUTUBE": {
+      "message": "YouTube"
+   },
+   "HISTORY_TAB_ITEMS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, order|orders|orders}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "IMAGE_SEARCH_BOX_TITLE": {
+      "message": "Product search by image"
+   },
+   "IMAGE_SEARCH_CATEGORIES_TITLE": {
+      "message": "Specify category:"
+   },
+   "IMAGE_SEARCH_CATEGORY_APPAREL": {
+      "message": "Apparel"
+   },
+   "IMAGE_SEARCH_CATEGORY_BAGS": {
+      "message": "Bags"
+   },
+   "IMAGE_SEARCH_CATEGORY_FOOTWEAR": {
+      "message": "Shoes"
+   },
+   "IMAGE_SEARCH_CATEGORY_OTHER": {
+      "message": "Other"
+   },
+   "IMAGE_SEARCH_CONTEXT": {
+      "message": "Find on AliExpress"
+   },
+   "IMAGE_SEARCH_CONTEXT_TITLE": {
+      "message": "Alitools"
+   },
+   "IMAGE_SEARCH_CROP_BUTTON": {
+      "message": "Search by selected area"
+   },
+   "IMAGE_SEARCH_CROP_BUTTON_ACTIVE": {
+      "message": "Looking..."
+   },
+   "IMAGE_SEARCH_EMPTY_TEXT": {
+      "message": "Unfortunately, we couldn’t \u003C/br>find  any products\u003C/br>by this picture."
+   },
+   "IMAGE_SEARCH_FAILURE_RETRY": {
+      "message": "Try again"
+   },
+   "IMAGE_SEARCH_FAILURE_TEXT": {
+      "message": "Something went wrong...\u003Cbr>Please try again a bit later."
+   },
+   "IMAGE_SEARCH_ORDERS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, order|orders|orders}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "IMAGE_SEARCH_ORDERS_NONE": {
+      "message": "No orders"
+   },
+   "IMAGE_SEARCH_SORT_HEADER": {
+      "message": "sort"
+   },
+   "IMAGE_SEARCH_SORT_NONE": {
+      "message": "without sorting"
+   },
+   "IMAGE_SEARCH_SORT_ORDERS": {
+      "message": "popular first"
+   },
+   "IMAGE_SEARCH_SORT_PRICE": {
+      "message": "cheap first"
+   },
+   "IMAGE_SEARCH_STATUS_ANALYZING": {
+      "message": "Analysing image"
+   },
+   "IMAGE_SEARCH_STATUS_SEARCHING": {
+      "message": "Looking for products on AliExpress"
+   },
+   "IMAGE_SEARCH_STATUS_SENDING": {
+      "message": "Sending image"
+   },
+   "INDICATOR_ANNOUNCE": {
+      "message": "What's new?"
+   },
+   "INDICATOR_UPDATE_AVAILABLE": {
+      "message": "Update is available"
+   },
+   "LEGACY_SELLER_CHECK_NOTE_PLACEHOLDER": {
+      "message": "Notes about the seller..."
+   },
+   "LEGACY_SELLER_CHECK_TITLE": {
+      "message": "Seller rating based on Alitools data"
+   },
+   "LEGACY_SELLER_CHECK_TOOLTIP": {
+      "message": "You can disable this section in the extension's settings"
+   },
+   "MOBILE_PRICE_WIDGET_DISCOUNT_TOOLTIP": {
+      "message": "Mobile discount "
+   },
+   "MODAL_SETTINGS_AUTH_LOGIN": {
+      "message": "Log in"
+   },
+   "MODAL_SETTINGS_AUTH_SIGN_UP": {
+      "message": "Sign up"
+   },
+   "MODAL_SETTINGS_BASE_TITLE": {
+      "message": "General settings"
+   },
+   "MODAL_SETTINGS_FOOTER_ABOUT": {
+      "message": "About us"
+   },
+   "MODAL_SETTINGS_FOOTER_FEEDBACK": {
+      "message": "Support"
+   },
+   "MODAL_SETTINGS_L10N_TITLE": {
+      "message": "Local settings"
+   },
+   "MODAL_SETTINGS_LOGOUT": {
+      "message": "LOG OUT"
+   },
+   "MODAL_SETTINGS_NOTIFICATIONS_TITLE": {
+      "message": "Notifications"
+   },
+   "MODAL_VIDEOS_TITLE": {
+      "message": "Video reviews"
+   },
+   "NAVIGATION_BRAND_TITLE": {
+      "message": "All products $MESSAGE$",
+      "placeholders": {
+         "message": {
+            "content": "$1",
+            "example": "Bamoer"
+         }
+      }
+   },
+   "NOTICE_DISABLE_SITE_BUTTON_CLOSE": {
+      "message": "Close"
+   },
+   "NOTICE_DISABLE_SITE_BUTTON_SHOW_MORE": {
+      "message": "Learn more"
+   },
+   "NOTICE_DISABLE_SITE_TITLE": {
+      "message": "Alitools will stop working on $STORE_NAME$",
+      "placeholders": {
+         "store_name": {
+            "content": "$1",
+            "example": "Gearbest"
+         }
+      }
+   },
+   "NOTICE_DISABLE_SITE_TOOLTIP": {
+      "message": "Starting $DATE$ Alitools will only be available on&nbspAliExpress.",
+      "placeholders": {
+         "date": {
+            "content": "$1",
+            "example": "March 16"
+         }
+      }
+   },
+   "ONBOARDING_ADD_TO_FAVORITES_TEXT": {
+      "message": "To keep track of the product and receive notifications about significant price reductions, \u003Cbr> click the heart."
+   },
+   "ONBOARDING_ADD_TO_FAVORITES_TITLE": {
+      "message": "New way to save"
+   },
+   "ONBOARDING_CHECK_PRODUCT_BUTTON": {
+      "message": "Understood, close"
+   },
+   "ONBOARDING_CHECK_PRODUCT_TEXT": {
+      "message": "Click on the Alitools icon in the upper right\u003Cbr/> corner of your browser to view price history,\u003Cbr/> seller ratings and other information."
+   },
+   "ONBOARDING_CHECK_PRODUCT_TITLE": {
+      "message": "How to check a product?"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_BUTTON_CANCEL": {
+      "message": "No, thanks"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_BUTTON_TRY": {
+      "message": "Try Alitools search"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_MESSAGE": {
+      "message": "No more accessories when searching for a smartphone!"
+   },
+   "ONBOARDING_SEARCH_IN_SIDEBAR_TITLE": {
+      "message": "Find only right products\u003C/br>with Alitools"
+   },
+   "ONBOARDING_WIDGET_MOVED_BUTTON": {
+      "message": "Understood, close"
+   },
+   "ONBOARDING_WIDGET_MOVED_TEXT": {
+      "message": "Click on the Alitools icon in the upper right\u003Cbr/> corner of your browser to view price history,\u003Cbr/> seller ratings and other information."
+   },
+   "ONBOARDING_WIDGET_MOVED_TITLE": {
+      "message": "Alitools widget has moved"
+   },
+   "ONBOARDING_WIDGET_PIN_BUTTON": {
+      "message": "Understood, close"
+   },
+   "ONBOARDING_WIDGET_PIN_TEXT": {
+      "message": "Pin the Alitools icon to check a product\u003Cbr/> in one click and never miss important price alerts."
+   },
+   "ONBOARDING_WIDGET_PIN_TITLE": {
+      "message": "Save your time"
+   },
+   "ON_BOARDING_HISTORY_ASIDE_WIDGET_TEXT_2": {
+      "message": "Click on the “History” button to open\u003Cbr/> the list of viewed products."
+   },
+   "ON_BOARDING_HISTORY_IN_BULB_TEXT_2": {
+      "message": "Click on the Alitools logo to open\u003Cbr/> a list of viewed products."
+   },
+   "ON_BOARDING_HISTORY_TEXT_1": {
+      "message": "The history stores all the goods you opened.\u003Cbr/> Not even accidentally closed ones will be lost."
+   },
+   "ON_BOARDING_HISTORY_TITLE": {
+      "message": "Browsing history"
+   },
+   "ON_BOARDING_PRICE_TEXT_1": {
+      "message": "One of its features is price history chart.\u003C/br>It immediately shows artificial discounts and inflated prices."
+   },
+   "ON_BOARDING_PRICE_TEXT_2": {
+      "message": "Click on the “Price” block to open the chart."
+   },
+   "ON_BOARDING_PRICE_TITLE": {
+      "message": "Alitools is ready for work"
+   },
+   "PACKAGES_EMPTY_LIST_ALL": {
+      "message": "Enter tracking number in the field above\u003C/br>to find out where your long-awaited package is."
+   },
+   "PACKAGES_EMPTY_LIST_NEW_INFO": {
+      "message": "There are no packages with new information yet."
+   },
+   "PACKAGE_ARCHIVE_BUTTON": {
+      "message": "Archive"
+   },
+   "PACKAGE_CANCEL_BUTTON": {
+      "message": "Cancel"
+   },
+   "PACKAGE_DELETE_MESSAGE": {
+      "message": "Package is deleted and no longer being tracked."
+   },
+   "PACKAGE_DELIVERED_TOOLTIP": {
+      "message": "Delivered"
+   },
+   "PACKAGE_FROM_ARCHIVE_BUTTON": {
+      "message": "Unarchive"
+   },
+   "PACKAGE_FROM_ARCHIVE_TOOLTIP": {
+      "message": "Unarchive"
+   },
+   "PACKAGE_JUST_UPDATED_LABEL": {
+      "message": "just now"
+   },
+   "PACKAGE_MARKED_BRING_BACK": {
+      "message": "Put back"
+   },
+   "PACKAGE_MARKED_HIDE": {
+      "message": "Hide"
+   },
+   "PACKAGE_MARKED_TEXT": {
+      "message": "Package is deleted and no longer being tracked."
+   },
+   "PACKAGE_MESSAGE_DELETE_CURRENT": {
+      "message": "Package is deleted\u003Cbr> and no longer being tracked."
+   },
+   "PACKAGE_NO_DATA_YET_MSG": {
+      "message": "There is no data for this package yet."
+   },
+   "PACKAGE_NO_PACKAGE_INFO_HEADER_MSG": {
+      "message": "No information about the package."
+   },
+   "PACKAGE_NO_PACKAGE_INFO_TEXT_MSG": {
+      "message": "As soon as we know where it is,\u003Cbr> you will receive a notification."
+   },
+   "PACKAGE_ON_THE_WAY_DAYS": {
+      "message": "$DAYS$ {pluralize, $DAYS$, day|days|days}",
+      "placeholders": {
+         "days": {
+            "content": "1",
+            "example": "2"
+         }
+      }
+   },
+   "PACKAGE_ON_THE_WAY_TOOLTIP": {
+      "message": "On the way"
+   },
+   "PACKAGE_PACKAGES_LIST_BACK": {
+      "message": "Back"
+   },
+   "PACKAGE_PACKAGES_LIST_BUTTON": {
+      "message": "Package list"
+   },
+   "PACKAGE_PICKUP_READY_TOOLTIP": {
+      "message": "Ready to be received"
+   },
+   "PACKAGE_RELOAD_BUTTON": {
+      "message": "Update"
+   },
+   "PACKAGE_REMOVE_BUTTON": {
+      "message": "Delete"
+   },
+   "PACKAGE_RENAME": {
+      "message": "Rename"
+   },
+   "PACKAGE_RESTORE_BUTTON": {
+      "message": "Restore"
+   },
+   "PACKAGE_SAVE_BUTTON": {
+      "message": "Save"
+   },
+   "PACKAGE_START_TRACKING_TOOLTIP": {
+      "message": "Tracking start"
+   },
+   "PACKAGE_TIME_LABEL_PRETEXT": {
+      "message": "at "
+   },
+   "PACKAGE_TO_ARCHIVE_BUTTON": {
+      "message": "Archive"
+   },
+   "PACKAGE_TO_ARCHIVE_TOOLTIP": {
+      "message": "Archive"
+   },
+   "PACKAGE_TO_REMOVE_TOOLTIP": {
+      "message": "Delete"
+   },
+   "PACKAGE_TRY_RELOAD_MSG": {
+      "message": "Try to check later."
+   },
+   "PACKAGE_UPDATED_LABEL": {
+      "message": "Updated"
+   },
+   "PACKAGE_WAITING_DATA_MSG": {
+      "message": "Receiving data about the package..."
+   },
+   "PLAY_TAB_PRICE_HISTORY_BUTTON": {
+      "message": "Open product page without campaign"
+   },
+   "PLAY_TAB_PRICE_HISTORY_TEXT": {
+      "message": "The price history of this product is not available\u003Cbr/>as part of the “Discount fot two” campaign."
+   },
+   "POPUP_APP_BUTTON_OPEN_AGREEMENT_PAGE": {
+      "message": "Continue to activation"
+   },
+   "POPUP_APP_DISABLED_DESCRIPTION": {
+      "message": "Your action is required."
+   },
+   "POPUP_APP_DISABLED_HEADER": {
+      "message": "Alitools is not active yet!"
+   },
+   "POPUP_CARD_MENU_DELETE": {
+      "message": "Delete"
+   },
+   "POPUP_CONTROL_FAVORITES": {
+      "message": "Favorites"
+   },
+   "POPUP_CONTROL_PACKAGES": {
+      "message": "Packages"
+   },
+   "POPUP_CONTROL_SETTINGS": {
+      "message": "Settings"
+   },
+   "POPUP_FAVORITES_AUTH_BLOCK": {
+      "message": "You need to ${LOGIN}$ or ${SIGNUP}$ to use your favorites."
+   },
+   "POPUP_FAVORITES_AUTH_BLOCK_LOGIN": {
+      "message": "log in"
+   },
+   "POPUP_FAVORITES_AUTH_BLOCK_SIGNUP": {
+      "message": "sign up"
+   },
+   "POPUP_FAVORITES_EMPTY_DESCRIPTION_TEXT": {
+      "message": "To add a product and start tracking its price, click ${HEART_ICON}$ in the bottom left corner of the ${LINK}$${EXT_LINK_ICON}$."
+   },
+   "POPUP_FAVORITES_EMPTY_DESCRIPTION_TEXT_ALIEXPRESS_PAGE": {
+      "message": "AliExpress product page"
+   },
+   "POPUP_FAVORITES_EMPTY_DROP_PRICE_DESCRIPTION": {
+      "message": "When a tracked product’s price drops, a push notification will arrive and a number will appear on the extension icon."
+   },
+   "POPUP_FAVORITES_EMPTY_DROP_PRICE_HEADER_TEXT": {
+      "message": "There are no products with a dropped price."
+   },
+   "POPUP_FAVORITES_EMPTY_HEADER_TEXT": {
+      "message": "You don’t track any products yet."
+   },
+   "POPUP_FAVORITES_EMPTY_TEXT": {
+      "message": "Products from AliExpress you start tracking with Alitools will be displayed here."
+   },
+   "POPUP_FAVORITES_EMPTY_TEXT_DROPPED": {
+      "message": "It seems there're no products with a dropped price in Alitools favorites."
+   },
+   "POPUP_FAVORITE_MARKED_CANCEL": {
+      "message": "Cancel"
+   },
+   "POPUP_FAVORITE_MARKED_HIDE": {
+      "message": "Hide"
+   },
+   "POPUP_FAVORITE_MARKED_RESTORE": {
+      "message": "Put back"
+   },
+   "POPUP_FAVORITE_MARKED_TEXT": {
+      "message": "Product is deleted. Its price is no longer being tracked."
+   },
+   "POPUP_FAVORITE_NO_PRICE_MESSAGE": {
+      "message": "Unable to collect price data. We’re fixing it."
+   },
+   "POPUP_FAVORITE_PRICE_ADDED_TIME": {
+      "message": "at the time of adding to the list"
+   },
+   "POPUP_FAVORITE_PRICE_DOWN_NEW": {
+      "message": "Dropped by"
+   },
+   "POPUP_FAVORITE_PRICE_SAME_NEW": {
+      "message": "Unchanged"
+   },
+   "POPUP_FAVORITE_PRICE_UP_NEW": {
+      "message": "Rose by"
+   },
+   "POPUP_FOOTER_ABOUT": {
+      "message": "About us"
+   },
+   "POPUP_FOOTER_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_FOOTER_SHOWCASE_INFO": {
+      "message": "We select products with a low price and free\u003Cbr/> shipping from sellers with a high rating."
+   },
+   "POPUP_FOOTER_SHOWCASE_UPDATE": {
+      "message": "Next update in \u003Cstrong>$TIME$\u003C/strong>",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "5 h"
+         }
+      }
+   },
+   "POPUP_FOOTER_SUPPORT": {
+      "message": "Support"
+   },
+   "POPUP_FOOTER_TUTORIAL": {
+      "message": "How it works"
+   },
+   "POPUP_HISTORY_FILTER_ALL_SITES": {
+      "message": "All stores"
+   },
+   "POPUP_HISTORY_HEADER_SITES_LIST": {
+      "message": "List of stores"
+   },
+   "POPUP_HISTORY_HINT_HEADER": {
+      "message": "New “History” section"
+   },
+   "POPUP_HISTORY_HINT_TEXT": {
+      "message": "History saves all supported stores’ products that you open."
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_LAST_MONTH": {
+      "message": "Last month"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_LAST_WEEK": {
+      "message": "Last week"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_THIS_MONTH": {
+      "message": "This month"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_THIS_WEEK": {
+      "message": "This week"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_TODAY": {
+      "message": "Today"
+   },
+   "POPUP_HISTORY_PERIOD_LABEL_YESTERDAY": {
+      "message": "Yesterday"
+   },
+   "POPUP_HISTORY_SITES_HINT_HEADER": {
+      "message": "Stores whose products are saved in your browsing history:"
+   },
+   "POPUP_HISTORY_SORT_BY_DAY": {
+      "message": "By days"
+   },
+   "POPUP_HISTORY_SORT_BY_MONTH": {
+      "message": "By months"
+   },
+   "POPUP_HISTORY_SORT_BY_WEEK": {
+      "message": "By weeks"
+   },
+   "POPUP_HISTORY_SORT_DEFAULT": {
+      "message": "Without grouping"
+   },
+   "POPUP_INTERESTING_BALLOON_BUTTON_CLOSE": {
+      "message": "Understood, close"
+   },
+   "POPUP_INTERESTING_BALLOON_HEADER": {
+      "message": "Section “Interesting”"
+   },
+   "POPUP_INTERESTING_BALLOON_TEXT": {
+      "message": "Quickly go to important sections and start searching for products right here."
+   },
+   "POPUP_INTERESTING_CONTENT_FAILURE_HEADER": {
+      "message": "Failed to load products."
+   },
+   "POPUP_INTERESTING_CONTENT_NEWEST_BALLOON": {
+      "message": "New!"
+   },
+   "POPUP_INTERESTING_CONTENT_TITLE": {
+      "message": "Especially for you"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_CART": {
+      "message": "Cart"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_INPUT_PLACEHOLDER": {
+      "message": "Search on AliExpress (e.g. "
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_LABEL": {
+      "message": "Quick access"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_SEARCH_BUTTON": {
+      "message": "Search"
+   },
+   "POPUP_INTERESTING_FAST_ACCESS_WISHES": {
+      "message": "Wishes"
+   },
+   "POPUP_INTERESTING_HISTORY_ALL": {
+      "message": "All history"
+   },
+   "POPUP_INTERESTING_HISTORY_EMPTY_MESSAGE": {
+      "message": "Products that you viewed in supported online stores will be here."
+   },
+   "POPUP_INTERESTING_HISTORY_HEADER": {
+      "message": "Browsing history"
+   },
+   "POPUP_PACKAGE_ARCHIVED": {
+      "message": "Archived"
+   },
+   "POPUP_PACKAGE_MARKED_TEXT": {
+      "message": "Package is deleted."
+   },
+   "POPUP_PACKAGE_STATUS_DELIVERED": {
+      "message": "Delivered"
+   },
+   "POPUP_PACKAGE_STATUS_FORSAKEN": {
+      "message": "Not tracked"
+   },
+   "POPUP_PACKAGE_STATUS_FORSAKEN_DESCRIPTION": {
+      "message": "The package has not had new information for too long, so it is no longer tracked."
+   },
+   "POPUP_PACKAGE_STATUS_INVALID": {
+      "message": "Unknown courier"
+   },
+   "POPUP_PACKAGE_STATUS_INVALID_DESCRIPTION": {
+      "message": "Couldn’t determine which courier the tracking number belongs to. Perhaps such a courier is not in the Alitools system or there is an error in the tracking number."
+   },
+   "POPUP_PACKAGE_STATUS_INVALID_ORDER": {
+      "message": "Order number"
+   },
+   "POPUP_PACKAGE_STATUS_INVALID_UNKNOWN_COURIER": {
+      "message": "Unknown courier"
+   },
+   "POPUP_PACKAGE_STATUS_NEW": {
+      "message": "New"
+   },
+   "POPUP_PACKAGE_STATUS_ON_THE_WAY": {
+      "message": "On the way"
+   },
+   "POPUP_PACKAGE_STATUS_ORDER_NUMBER": {
+      "message": "Order number"
+   },
+   "POPUP_PACKAGE_STATUS_ORDER_NUMBER_DESCRIPTION": {
+      "message": "You entered the order number instead of the tracking number. The tracking number can be found in the detailed order information in the ${LINK}$${EXT_LINK_ICON}$ section on AliExpress."
+   },
+   "POPUP_PACKAGE_STATUS_ORDER_NUMBER_DESCRIPTION_MY_ORDERS": {
+      "message": "“My Orders”"
+   },
+   "POPUP_PACKAGE_STATUS_READY_FOR_PICKUP": {
+      "message": "Ready to be received"
+   },
+   "POPUP_PACKAGE_STATUS_WAITING": {
+      "message": "Receiving data"
+   },
+   "POPUP_PAGE_FAVORITES_FAILURE_DESCRIPTION": {
+      "message": "Check your internet connection \u003Cbr>and try again."
+   },
+   "POPUP_PAGE_FAVORITES_FAILURE_HEADER": {
+      "message": "Failed to load the product list."
+   },
+   "POPUP_PAGE_FAVORITES_FAILURE_TEXT": {
+      "message": "Something went wrong...\u003Cbr>Please try again a bit later."
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_DESCRIPTION_ALIEXPRESS_PAGE": {
+      "message": "AliExpress orders page"
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_DESCRIPTION_ENTER_TRACKCODE": {
+      "message": "Enter tracking number in the field above\u003C/br>to find out where your long-awaited package is right now."
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_DESCRIPTION_FIND_TRACKCODE_HERE": {
+      "message": "Tracking numbers for mailings can be found on  ${LINK}$${EXT_LINK_ICON}$."
+   },
+   "POPUP_PAGE_PACKAGES_EMPTY_HEADER": {
+      "message": "You don’t track any packages yet."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_DESCRIPTION": {
+      "message": "Check your internet connection \u003Cbr>and try again."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_DESCRIPTION_LINE": {
+      "message": "Check your internet connection and try again."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_HEADER": {
+      "message": "Failed to load the package list."
+   },
+   "POPUP_PAGE_PACKAGES_FAILURE_TEXT": {
+      "message": "Failed to load the packages list.\u003Cbr>Check your internet connection and try again."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_BUTTON_TEXT": {
+      "message": "Track the package"
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_FEW_SYMBOL": {
+      "message": "Tracking number can’t be shorter than five characters."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_MANY_SYMBOL": {
+      "message": "Tracking number is too long. Maximum is 45 characters."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_NO_TRACK_CODE": {
+      "message": "Doesn't look like tracking number."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_ONLY_LATIN": {
+      "message": "Tracking number can contain Latin letters (a-z) and numbers (0-9) only."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_ERROR_TEXT": {
+      "message": "Hmm... That doesn't look like a tracking number."
+   },
+   "POPUP_PAGE_PACKAGES_FORM_INPUT_PLACEHOLDER": {
+      "message": "Enter the package's tracking number"
+   },
+   "POPUP_PAGE_PACKAGES_NAME_INPUT_PLACEHOLDER": {
+      "message": "Enter package's title..."
+   },
+   "POPUP_PAGE_PACKAGES_WAITING_LABEL": {
+      "message": "Receiving data"
+   },
+   "POPUP_PAGE_SHOWCASES_FAILURE_DESCRIPTION": {
+      "message": "Check your internet connection \u003Cbr>and try again."
+   },
+   "POPUP_PAGE_SHOWCASES_FAILURE_HEADER": {
+      "message": "Failed to load the product list."
+   },
+   "POPUP_SHOWCASE_TAB_BEST_UP_TO_5": {
+      "message": "Best for $PRICE$",
+      "placeholders": {
+         "price": {
+            "content": "$1",
+            "example": "$5"
+         }
+      }
+   },
+   "POPUP_SHOWCASE_TAB_CHOICE_ALITOOLS": {
+      "message": "Alitools choice"
+   },
+   "POPUP_SHOWCASE_TAB_MOST_VIEWED": {
+      "message": "Most viewed"
+   },
+   "POPUP_SIDEBAR_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_SIDEBAR_COUPONS": {
+      "message": "Coupons"
+   },
+   "POPUP_SIDEBAR_FAVORITES": {
+      "message": "Favorites"
+   },
+   "POPUP_SIDEBAR_HISTORY": {
+      "message": "History"
+   },
+   "POPUP_SIDEBAR_INTERESTING": {
+      "message": "Interesting"
+   },
+   "POPUP_SIDEBAR_LOGIN_AND_SIGNUP": {
+      "message": "Log in or sign up"
+   },
+   "POPUP_SIDEBAR_NEWS_AND_SALES": {
+      "message": "News and sales"
+   },
+   "POPUP_SIDEBAR_PACKAGES": {
+      "message": "Packages"
+   },
+   "POPUP_SIDEBAR_PRODUCTS": {
+      "message": "Products"
+   },
+   "POPUP_SIDEBAR_PROFILE": {
+      "message": "Profile"
+   },
+   "POPUP_SIDEBAR_SETTINGS": {
+      "message": "Settings"
+   },
+   "POPUP_SIDEBAR_SHOWCASES": {
+      "message": "Showcase"
+   },
+   "POPUP_SIDEBAR_SHOWCASES_CLOSE": {
+      "message": "Not now"
+   },
+   "POPUP_SIDEBAR_SHOWCASES_OPEN": {
+      "message": "Open"
+   },
+   "POPUP_SIDEBAR_SHOWCASES_TEXT_FIRST_GROUP": {
+      "message": "A daily updated selection of inspirational products selected by Alitools."
+   },
+   "POPUP_SIDEBAR_SHOWCASES_TEXT_SECOND_GROUP": {
+      "message": "Daily updated collections of the most popular products among Alitools users."
+   },
+   "POPUP_SIDEBAR_SHOWCASES_TITLE": {
+      "message": "Showcase"
+   },
+   "POPUP_SIDEBAR_SUPPORT": {
+      "message": "Support"
+   },
+   "POPUP_SIDEBAR_SYNC": {
+      "message": "Synchronization"
+   },
+   "POPUP_SIDEBAR_SYNC_CLOSE": {
+      "message": "Not now"
+   },
+   "POPUP_SIDEBAR_SYNC_OPEN": {
+      "message": "Turn on"
+   },
+   "POPUP_SIDEBAR_SYNC_TEXT": {
+      "message": "Don’t lose your products and packages and access them on any device by turning synchronization on."
+   },
+   "POPUP_SIDEBAR_SYNC_TITLE": {
+      "message": "Synchronization"
+   },
+   "POPUP_SIDEBAR_WIDGET": {
+      "message": "Check"
+   },
+   "POPUP_TAB_ALL": {
+      "message": "All"
+   },
+   "POPUP_TAB_WITH_NEW_INFO": {
+      "message": "with new information"
+   },
+   "POPUP_TAB_WITH_PRICE_DROP": {
+      "message": "With a price drop"
+   },
+   "POPUP_TIME_HOURS": {
+      "message": "$HOURS$ h",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "5 h"
+         }
+      }
+   },
+   "POPUP_TIME_MINUTES": {
+      "message": "$MINUTES$ min",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "5 min"
+         }
+      }
+   },
+   "POPUP_WELCOME_ASIDE_TITLE": {
+      "message": "Functional\u003C/br> assistant on AliExpress"
+   },
+   "POPUP_WELCOME_BANNER_HEADER": {
+      "message": "How can Alitools be useful?"
+   },
+   "POPUP_WELCOME_BANNER_HEADER_V3": {
+      "message": "Meet Alitools"
+   },
+   "POPUP_WELCOME_BANNER_TEXT": {
+      "message": "We'd like to show you what this extension can do based on an example from a product page \u003C/br> on AliExpress."
+   },
+   "POPUP_WELCOME_BANNER_TEXT_V3": {
+      "message": "Find out how this extension will be useful\u003Cbr> when working with AliExpress site."
+   },
+   "POPUP_WIDGET_BALLOON_BUTTON_CLOSE": {
+      "message": "Understood, close"
+   },
+   "POPUP_WIDGET_EMPTY_DESCRIPTION_TEXT": {
+      "message": "Open ${LINK}$${EXT_LINK_ICON}$ and click on the Alitools icon to view price history, seller rating and other information."
+   },
+   "POPUP_WIDGET_EMPTY_DESCRIPTION_TEXT_ALIEXPRESS_PAGE": {
+      "message": "a product page on AliExpress"
+   },
+   "POPUP_WIDGET_EMPTY_HEADER_TEXT": {
+      "message": "No product to check"
+   },
+   "POPUP_WIDGET_HINT_HEADER": {
+      "message": "New “Check” section"
+   },
+   "POPUP_WIDGET_HINT_TEXT": {
+      "message": "Visit it while on a product page on AliExpress\u003Cbr/> to start tracking the product, see price history,\u003Cbr/> seller ratings, and more."
+   },
+   "POPUP_WIDGET_PRICE_BALLOON_BUTTON_CLOSE": {
+      "message": "Understood, close"
+   },
+   "POPUP_WIDGET_PRICE_HINT_HEADER": {
+      "message": "The best way to save"
+   },
+   "POPUP_WIDGET_PRICE_HINT_TEXT": {
+      "message": "To keep an eye on the item and receive notifications of significant price drops, click on the button with a heart."
+   },
+   "PRICE_DYNAMICS_NEGATIVE": {
+      "message": "dropped"
+   },
+   "PRICE_DYNAMICS_NEUTRAL": {
+      "message": "unchanged"
+   },
+   "PRICE_DYNAMICS_POSITIVE": {
+      "message": "increased"
+   },
+   "PUSH_MULTIPLE_MESSAGE": {
+      "message": "Go to favorites to view the list of products"
+   },
+   "PUSH_MULTIPLE_MORE": {
+      "message": "and $COUNT$ {pluralize, $COUNT$, more|more|more}",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "PUSH_MULTIPLE_TITLE": {
+      "message": "Product prices dropped"
+   },
+   "PUSH_SINGLE_TITLE": {
+      "message": "Product price dropped"
+   },
+   "PUSH_SINGLE_TITLE_NEW_NOTIFICATION": {
+      "message": "Price dropped by "
+   },
+   "QUESTIONNAIRE_DESCRIPTION": {
+      "message": "Your response will help make the extension better."
+   },
+   "QUESTIONNAIRE_GRATEFULNESS_TEXT": {
+      "message": "The window will close automatically."
+   },
+   "QUESTIONNAIRE_GRATEFULNESS_TITLE": {
+      "message": "We appreciate your help!"
+   },
+   "QUESTIONNAIRE_TITLE": {
+      "message": "How did you hear about Alitools?"
+   },
+   "QUESTIONNAIRE_YOU_OWN_VERSION_ITEM_BUTTON": {
+      "message": "Submit"
+   },
+   "QUESTIONNAIRE_YOU_OWN_VERSION_ITEM_TEXT": {
+      "message": "Other (please specify)"
+   },
+   "RATING_CHANGE": {
+      "message": "Edit rating"
+   },
+   "RATING_CHROME_BTN": {
+      "message": "Leave review in $BROWSER$",
+      "placeholders": {
+         "browser": {
+            "content": "$1",
+            "example": "Chrome"
+         }
+      }
+   },
+   "RATING_CHROME_TEXT": {
+      "message": "Tell us how Alitools has helped you in\u003Cbr/>shopping on AliExpress?"
+   },
+   "RATING_CHROME_TITLE": {
+      "message": "Wow! We'd love your feedback."
+   },
+   "RATING_EMAIL_INPUT_PLACEHOLDER": {
+      "message": "Email..."
+   },
+   "RATING_EMAIL_TEXT": {
+      "message": "Sometimes  we want to clarify what you mean.\u003Cbr> Leave your mail so we can write to you."
+   },
+   "RATING_HEADER_SCORE": {
+      "message": "Score: $SCORE$ {pluralize, $SCORE$, point|points|points}",
+      "placeholders": {
+         "score": {
+            "content": "0",
+            "example": "10"
+         }
+      }
+   },
+   "RATING_HEADER_ZERO_SCORE": {
+      "message": "Score: 0 points"
+   },
+   "RATING_HIGHT": {
+      "message": "Absolutely"
+   },
+   "RATING_INPUT_PLACEHOLDER": {
+      "message": "Message..."
+   },
+   "RATING_LOW": {
+      "message": "No way"
+   },
+   "RATING_QUESTION": {
+      "message": "Would you recommend Alitools to your friends?"
+   },
+   "RATING_QUESTION_AVERAGE": {
+      "message": "Tell us why you put such an assessment?"
+   },
+   "RATING_QUESTION_HIGH": {
+      "message": "Wow! Tell us what is most useful for you in Alitools?"
+   },
+   "RATING_QUESTION_LOW": {
+      "message": "Tell us what we need to improve to get 10 points?"
+   },
+   "RATING_SEND": {
+      "message": "Send"
+   },
+   "RATING_SURVEY_BTN": {
+      "message": "Take survey"
+   },
+   "RATING_SURVEY_TEXT": {
+      "message": "Please, take a short survey\u003Cbr/>to help Alitools become even better."
+   },
+   "RATING_SURVEY_TITLE": {
+      "message": "How can we make Alitools better?"
+   },
+   "RATING_THANKS": {
+      "message": "Thanks!"
+   },
+   "RATING_THANKS_END": {
+      "message": "Thanks for participating!"
+   },
+   "REVIEWS_GAMERY_FROM_SUFFIX": {
+      "message": "from"
+   },
+   "REVIEWS_GAMERY_TURN_LEFT": {
+      "message": "Turn left"
+   },
+   "REVIEWS_GAMERY_TURN_RIGHT": {
+      "message": "Turn right"
+   },
+   "SALE_ONBOARDING_TEXT_1": {
+      "message": "News will report on important\u003C/br>events and profitable promotions."
+   },
+   "SALE_ONBOARDING_TEXT_2": {
+      "message": "Tips will help you understand\u003C/br>the tricks of shopping on AliExpress."
+   },
+   "SALE_ONBOARDING_TITLE": {
+      "message": "All AliExpress secrets\u003C/br> in one place"
+   },
+   "SALE_SIDEBAR_ADVICE_EMPTY_MESSAGE": {
+      "message": "Nothing here yet.\u003C/br>Tips will begin to appear\u003C/br>closer to the start of the sale."
+   },
+   "SALE_SIDEBAR_ASSISTANT": {
+      "message": "Assistant"
+   },
+   "SALE_SIDEBAR_NEWS_MORE_LINK": {
+      "message": "More..."
+   },
+   "SALE_SIDEBAR_NEWS_TODAY": {
+      "message": "Today"
+   },
+   "SALE_SIDEBAR_NEWS_YESTERDAY": {
+      "message": "yesterday"
+   },
+   "SALE_SIDEBAR_NEW_LABEL": {
+      "message": "New"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_BUTTON": {
+      "message": "Sale’s news"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_START_BUY": {
+      "message": "Grab everything!"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_START_SALE": {
+      "message": "Sale has started"
+   },
+   "SALE_SIDEBAR_POPUP_BANNER_TEXT": {
+      "message": "Fill the cart, collect coupons"
+   },
+   "SALE_SIDEBAR_SALE_NAVIGATOR": {
+      "message": "Sale \u003C/br> navigator"
+   },
+   "SALE_SIDEBAR_SEARCH_WELCOME_TEXT": {
+      "message": "No more accessories when searching for a smartphone!"
+   },
+   "SALE_SIDEBAR_SEARCH_WELCOME_TITLE": {
+      "message": "Find only right products\u003C/br>with Alitools"
+   },
+   "SALE_SIDEBAR_SETTINGS": {
+      "message": "Alitools settings"
+   },
+   "SALE_SIDEBAR_SETTINGS_TOOLTIP": {
+      "message": "Alitools settings"
+   },
+   "SALE_SIDEBAR_TAB_NEWS": {
+      "message": "News"
+   },
+   "SALE_SIDEBAR_TAB_NEWS_TOOLTIP": {
+      "message": "Best promotions, discounts and coupons."
+   },
+   "SALE_SIDEBAR_TAB_SEARCH": {
+      "message": "Product search"
+   },
+   "SALE_SIDEBAR_TAB_SEARCH_TOOLTIP": {
+      "message": "Find products on AliExpress using Alitools"
+   },
+   "SALE_SIDEBAR_TIP_BACK": {
+      "message": "Back"
+   },
+   "SALE_SIDEBAR_TIP_HEADER_CATEGORY": {
+      "message": "Category «${CATEGORY}$»"
+   },
+   "SALE_SIDEBAR_WELCOME_BUTTON": {
+      "message": "Got it, close"
+   },
+   "SALE_SIDEBAR_WELCOME_TEXT": {
+      "message": "Navigator will direct you to the most interesting sections of the sale, and tips and news will help to save to the maximum."
+   },
+   "SALE_SIDEBAR_WELCOME_TITLE": {
+      "message": "Your personal assistant"
+   },
+   "SEARCH_BY_IMAGE_CUSTOMIZE": {
+      "message": "Configure search by image"
+   },
+   "SEARCH_BY_IMAGE_FIND_ON_ALIEXPRESS": {
+      "message": "Find on AliExpress"
+   },
+   "SEARCH_BY_IMAGE_OFF_ON_SITE": {
+      "message": "Don’t show on this site"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION": {
+      "message": "Understood, close"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_APPLY": {
+      "message": "Try Alitools Search"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_CANCEL": {
+      "message": "Dismiss"
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_TEXT": {
+      "message": "Find products that aren't \u003C/br> in AliExpress's standard search."
+   },
+   "SEARCH_IN_SIDEBAR_BALLOON_EXPLANATION_TITLE": {
+      "message": "Alitools Search"
+   },
+   "SEARCH_IN_SIDEBAR_BREAD_CRUMB_LOOK_WHAT_FOUND": {
+      "message": "Look what Alitools has found"
+   },
+   "SEARCH_IN_SIDEBAR_BREAD_CRUMB_WANT_MORE": {
+      "message": " Want more? "
+   },
+   "SEARCH_IN_SIDEBAR_CATEGORIES_ALL": {
+      "message": "All categories"
+   },
+   "SEARCH_IN_SIDEBAR_CATEGORIES_TITLE": {
+      "message": "CATEGORIES"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE": {
+      "message": "PRICE"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE_CLEAR": {
+      "message": "Clear"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE_FROM": {
+      "message": "From"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANGE_TO": {
+      "message": "To"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_RANG_APPLY": {
+      "message": "Apply"
+   },
+   "SEARCH_IN_SIDEBAR_FILTER_SHIPPING": {
+      "message": "Free shipping"
+   },
+   "SEARCH_IN_SIDEBAR_FIND_BUTTON": {
+      "message": "Search"
+   },
+   "SEARCH_IN_SIDEBAR_FIND_WITH_ALITOOLS_BUTTON": {
+      "message": "With Alitools"
+   },
+   "SEARCH_IN_SIDEBAR_HEADER_SUBMIT": {
+      "message": "Search"
+   },
+   "SEARCH_IN_SIDEBAR_HEADER_TITLE": {
+      "message": "Search"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LABEL": {
+      "message": "For example, "
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_1": {
+      "message": "mi band 4"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_10": {
+      "message": "battery"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_2": {
+      "message": "micro sd card"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_3": {
+      "message": "power bank"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_4": {
+      "message": "headphones"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_5": {
+      "message": "smartphone"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_6": {
+      "message": "processor"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_7": {
+      "message": "microphone"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_8": {
+      "message": "motherboard"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_EXAMPLE_LINK_9": {
+      "message": "xiaomi redmi note"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_DEFAULT_MESSAGE": {
+      "message": "Enter your query in the box above\u003C/br>to find products on AliExpress."
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_EMPTY_MESSAGE": {
+      "message": "Unfortunately, we could not\u003C/br>find any product\u003C/br>for your request."
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_ERROR_BUTTON": {
+      "message": "Try again"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_ERROR_MESSAGE": {
+      "message": "Something went wrong...\u003C/br>Please try again."
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_LENGTH_LABEL": {
+      "message": "{pluralize, $PRODUCTS$, Found|Found|Found} ",
+      "placeholders": {
+         "products": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_LENGTH_POSITIVE": {
+      "message": " {pluralize, $PRODUCTS$, product|products|products}",
+      "placeholders": {
+         "products": {
+            "content": "$1",
+            "example": "2"
+         }
+      }
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_LENGTH_ZERO": {
+      "message": "Nothing found for your request"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_PRODUCT_FREE_DELIVERY": {
+      "message": "Free shipping"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_PRODUCT_ORDERS": {
+      "message": "$ORDERS$ {pluralize, $ORDERS$, order|orders|orders}",
+      "placeholders": {
+         "orders": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_PRODUCT_PRICE_DELIVERY": {
+      "message": "Shipping:"
+   },
+   "SEARCH_IN_SIDEBAR_RESULTS_SORT_TITLE": {
+      "message": "Without sorting"
+   },
+   "SEARCH_IN_SIDEBAR_SITE_AUTOCOMPLETE_ITEM": {
+      "message": "Find ${ITEM}$ with Alitools Search"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_BEST_MATCH": {
+      "message": "Without sorting"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_HIGHEST_PRICE": {
+      "message": "Expensive first"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_LOWEST_PRICE": {
+      "message": "Cheap first"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_NUMBER_OF_ORDERS": {
+      "message": "Popular first"
+   },
+   "SEARCH_IN_SIDEBAR_SORT_SELLER_RATING": {
+      "message": "From 4★ rating first"
+   },
+   "SEARCH_IN_SIDEBAR_TOOLTIP_REMINDER": {
+      "message": "Alitools will find \u003C/br> interesting products."
+   },
+   "SEARCH_IN_SIDEBAR_TOOLTIP_WELCOME": {
+      "message": "Improved search \u003C/br> from Alitools"
+   },
+   "SELLER_CHECK_BAD": {
+      "message": "Low"
+   },
+   "SELLER_CHECK_EMPTY_TITLE": {
+      "message": "We haven't collected enough data to rate this seller. But we are working on it."
+   },
+   "SELLER_CHECK_GOOD": {
+      "message": "High"
+   },
+   "SELLER_CHECK_NEUTRAL": {
+      "message": "Average"
+   },
+   "SELLER_CHECK_STORE_NAME": {
+      "message": "Seller rating ${NAME}$"
+   },
+   "SELLER_TAB_COMMENTS_PAGE": {
+      "message": "Comments about seller"
+   },
+   "SELLER_TAB_MAIN_PAGE": {
+      "message": "Seller's page"
+   },
+   "SETTINGS_BUTTON_CANCEL": {
+      "message": "Cancel"
+   },
+   "SETTINGS_BUTTON_CHANGE": {
+      "message": "Change"
+   },
+   "SETTINGS_BUTTON_CONNECT": {
+      "message": "Connect"
+   },
+   "SETTINGS_BUTTON_LOGOUT": {
+      "message": "Log out"
+   },
+   "SETTINGS_BUTTON_SAVE": {
+      "message": "Save"
+   },
+   "SETTINGS_BUTTON_SIGNIN": {
+      "message": "Log in"
+   },
+   "SETTINGS_BUTTON_SIGNUP": {
+      "message": "Sign up"
+   },
+   "SETTINGS_COMMON_CURRENCY": {
+      "message": "Currency:"
+   },
+   "SETTINGS_COMMON_LANGUAGE": {
+      "message": "Language:"
+   },
+   "SETTINGS_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "If you turn off the\u003C/br>«Find of AliExpress»  button\u003C/br>on a site, site’s address will appear here."
+   },
+   "SETTINGS_DISABLED_SITES_LIST_HEADER": {
+      "message": "Sites with the button turned off"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_CONNECT": {
+      "message": "Email and password"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_EMAIL_PLACEHOLDER": {
+      "message": "Email ..."
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_PASSWORD_HINT": {
+      "message": "Minimum 6 characters"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_PASSWORD_PLACEHOLDER": {
+      "message": "Password ..."
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_TITLE": {
+      "message": "Connect email"
+   },
+   "SETTINGS_EMAIL_EMAIL_PLACEHOLDER": {
+      "message": "New email ..."
+   },
+   "SETTINGS_EMAIL_PASSWORD_PLACEHOLDER": {
+      "message": "Current password ..."
+   },
+   "SETTINGS_EMAIL_SUCCESS": {
+      "message": "Email changed"
+   },
+   "SETTINGS_EMAIL_TITLE": {
+      "message": "Change email address"
+   },
+   "SETTINGS_ENABLE_BUTTON_ON_IMAGES": {
+      "message": "Button on images"
+   },
+   "SETTINGS_ENABLE_HISTORY": {
+      "message": "History for online stores."
+   },
+   "SETTINGS_ENABLE_NOTIFICATIONS_COUNTER": {
+      "message": "Notification counter on the extension icon"
+   },
+   "SETTINGS_ENABLE_PUSH_NOTIFICATIONS": {
+      "message": "Push notifications about product's price drops"
+   },
+   "SETTINGS_ENABLE_SOVETNIK": {
+      "message": "Show deals from AliExpress on other sites"
+   },
+   "SETTINGS_FOOTER_TEXT": {
+      "message": "Extension version: "
+   },
+   "SETTINGS_HISTORY_DISABLED_SITES_HEADER": {
+      "message": "Sites with turned off history"
+   },
+   "SETTINGS_HISTORY_WIDGET_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "If you turn off the History widget \u003C/br> on some site, its address will appear here."
+   },
+   "SETTINGS_JDPR_POLICY": {
+      "message": "Privacy Policy"
+   },
+   "SETTINGS_JDPR_TERMS": {
+      "message": "Terms of Use"
+   },
+   "SETTINGS_JDPR_TEXT": {
+      "message": "I've read and agree with "
+   },
+   "SETTINGS_LABEL_ANALYTICS": {
+      "message": "Allow to collect analytic data for product improvement"
+   },
+   "SETTINGS_LABEL_CURRENCY": {
+      "message": "Currency"
+   },
+   "SETTINGS_LABEL_EMAIL_NOTIFICATIONS": {
+      "message": "Email notifications"
+   },
+   "SETTINGS_LABEL_GOOGLE_ANALYTICS": {
+      "message": "Allow to collect analytic data for product improvement"
+   },
+   "SETTINGS_LABEL_LANGUAGE": {
+      "message": "Language"
+   },
+   "SETTINGS_LABEL_NOTIFICATIONS_BADGE": {
+      "message": "Show number of new notifications on browser extension panel"
+   },
+   "SETTINGS_LABEL_PAGE_MOBILE_PRICE": {
+      "message": "Show price from mobile app on product page"
+   },
+   "SETTINGS_LABEL_PAGE_SELLER_CHECK": {
+      "message": "Show seller check section on product page"
+   },
+   "SETTINGS_LABEL_PANEL_ALL_PAGES": {
+      "message": "Show browser extension panel on all store pages"
+   },
+   "SETTINGS_LABEL_PUSH_NOTIFICATIONS": {
+      "message": "Push notifications"
+   },
+   "SETTINGS_LABEL_THEME": {
+      "message": "Color scheme"
+   },
+   "SETTINGS_LABEL_YANDEX_SOVETNIK": {
+      "message": "Show recommendations from Yandex.Advisor"
+   },
+   "SETTINGS_MODAL_HEADER": {
+      "message": "Settings"
+   },
+   "SETTINGS_NOTE_CURRENCY": {
+      "message": "The prices in the selected currency might vary by 1-5% between AliExpress and the browser extension."
+   },
+   "SETTINGS_NOTE_END": {
+      "message": " using your Alitools account to enjoy\u003Cbr> all the features of the browser extension."
+   },
+   "SETTINGS_NOTE_LOGIN": {
+      "message": "log in"
+   },
+   "SETTINGS_NOTE_OR": {
+      "message": "or"
+   },
+   "SETTINGS_NOTE_SIGN_UP": {
+      "message": "Sign up"
+   },
+   "SETTINGS_NOTIFICATIONS_EXPLANATION": {
+      "message": "Drop is the difference between the price at the time of adding to My Products and the current one. The first notification will come when the drop is 5%, the second — when it’s 10% and so on."
+   },
+   "SETTINGS_OAUTH_ERROR": {
+      "message": "An error occurred during authorization. Refresh the page and try again."
+   },
+   "SETTINGS_OAUTH_WARNING": {
+      "message": "The account you tried to connect has already been linked to another Alitools account."
+   },
+   "SETTINGS_OAUTH_facebook": {
+      "message": "Facebook"
+   },
+   "SETTINGS_OAUTH_google": {
+      "message": "Google"
+   },
+   "SETTINGS_OAUTH_vk": {
+      "message": "VK"
+   },
+   "SETTINGS_PASSWORD_CHANGE": {
+      "message": "Password"
+   },
+   "SETTINGS_PASSWORD_NEW_HINT": {
+      "message": "Minimum 6 characters"
+   },
+   "SETTINGS_PASSWORD_NEW_PLACEHOLDER": {
+      "message": "New password ..."
+   },
+   "SETTINGS_PASSWORD_OLD_PLACEHOLDER": {
+      "message": "Current password ..."
+   },
+   "SETTINGS_PASSWORD_SUCCESS": {
+      "message": "Password changed"
+   },
+   "SETTINGS_PASSWORD_TITLE": {
+      "message": "Change Password"
+   },
+   "SETTINGS_SHOW_NOTIFICATIONS": {
+      "message": "Number of items with dropped price in the widget"
+   },
+   "SETTINGS_SHOW_PAGE_MOBILE_PRICE": {
+      "message": "Mobile price on the product page"
+   },
+   "SETTINGS_SHOW_PAGE_SELLER_CHECK": {
+      "message": "Seller trust level section on the product page"
+   },
+   "SETTINGS_SHOW_PANEL_ON_ALL_PAGES": {
+      "message": "Widget on all AliExpress pages"
+   },
+   "SETTINGS_SHOW_SEARCH_BUTTON": {
+      "message": "Alitools Search button next to AliExpress search"
+   },
+   "SETTINGS_SOVETNIK_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "If you turn off the Adviser's strip\u003C/br>on some site, its\u003C/br>domain will appear here."
+   },
+   "SETTINGS_SOVETNIK_DISABLED_SITES_HEADER": {
+      "message": "Sites with Adviser turned off"
+   },
+   "SETTINGS_SOVETNIK_WIDGET_DISABLED_SITES_EMPTY_TEXT": {
+      "message": "If you disable the Adviser widget \u003C/br> on any site, its address will appear here."
+   },
+   "SETTINGS_SYNC_DO": {
+      "message": "Turn on"
+   },
+   "SETTINGS_SYNC_FIRST_TEXT": {
+      "message": "Sign in or create new account to link your products and packages to it. This way they’ll be available from any device."
+   },
+   "SETTINGS_SYNC_SIGN_UP": {
+      "message": "Create account"
+   },
+   "SETTINGS_SYNC_TEXT": {
+      "message": "All products and packages remain linked to your account. Turn on synchronization to access them."
+   },
+   "SETTINGS_SYNC_TITLE": {
+      "message": "Synchronization is off"
+   },
+   "SETTINGS_TAB_ADVICE": {
+      "message": "Adviser"
+   },
+   "SETTINGS_TAB_COMMON": {
+      "message": "General"
+   },
+   "SETTINGS_TAB_EXTENSION": {
+      "message": "Extension"
+   },
+   "SETTINGS_TAB_HISTORY": {
+      "message": "History"
+   },
+   "SETTINGS_TAB_NOTIFICATIONS": {
+      "message": "Notifications"
+   },
+   "SETTINGS_TAB_PROFILE": {
+      "message": "Profile"
+   },
+   "SETTINGS_TAB_SEARCH_BY_IMAGE": {
+      "message": "Search by image"
+   },
+   "SETTINGS_TAB_SYNC": {
+      "message": "Synchronization"
+   },
+   "SETTINGS_THEME": {
+      "message": "Color scheme"
+   },
+   "SETTINGS_THEMES_DEFAULT": {
+      "message": "dark"
+   },
+   "SETTINGS_THEMES_LIGHT": {
+      "message": "light"
+   },
+   "SETTINGS_THEME_DARK": {
+      "message": "Dark"
+   },
+   "SETTINGS_THEME_LIGHT": {
+      "message": "Light"
+   },
+   "SHARE_BUTTON_NO_TEXT": {
+      "message": "No"
+   },
+   "SHARE_BUTTON_SPLIT_MORE_TEXT": {
+      "message": "More"
+   },
+   "SHARE_BUTTON_YES_TEXT": {
+      "message": "I like it"
+   },
+   "SHARE_COPY_TEXT": {
+      "message": "Copy link"
+   },
+   "SHARE_FACEBOOK_MESSENGER_TEXT": {
+      "message": "Share on Facebook Messenger"
+   },
+   "SHARE_FACEBOOK_TEXT": {
+      "message": "Share on Facebook"
+   },
+   "SHARE_LIKE_US_BODY_IMPORTANT_QUESTION_SUBTITLE": {
+      "message": "Do you like Alitools?"
+   },
+   "SHARE_LIKE_US_BODY_IMPORTANT_QUESTION_TITLE": {
+      "message": "Important question:"
+   },
+   "SHARE_LIKE_US_BODY_THANKS_SUBTITLE": {
+      "message": "Share the usefulness with your friends:"
+   },
+   "SHARE_LIKE_US_BODY_THANKS_TITLE": {
+      "message": "Thanks! We are glad."
+   },
+   "SHARE_LIKE_US_TITLE": {
+      "message": "Thank you for buying with Alitools!"
+   },
+   "SHARE_OK_TEXT": {
+      "message": "Share on Odnoklassniki"
+   },
+   "SHARE_REDDIT_TEXT": {
+      "message": "Share on Reddit"
+   },
+   "SHARE_TELEGRAM_TEXT": {
+      "message": "Send to Telegram"
+   },
+   "SHARE_TRICKY_SELLERS_BODY_SUBTITLE": {
+      "message": "Tell your friends and family about Alitools so they can buy cheaply and safely on AliExpress, too."
+   },
+   "SHARE_TRICKY_SELLERS_BODY_TITLE": {
+      "message": "Sly Chinese sellers could not deceive you."
+   },
+   "SHARE_TRICKY_SELLERS_TITLE": {
+      "message": "Congratulations, you've made your purchase with Alitools!"
+   },
+   "SHARE_TWITTER_TEXT": {
+      "message": "Share on Twitter"
+   },
+   "SHARE_VIBER_TEXT": {
+      "message": "Send to Viber"
+   },
+   "SHARE_VK_TEXT": {
+      "message": "Share on VK"
+   },
+   "SHARE_WHATSAPP_TEXT": {
+      "message": "Send to WhatsApp"
+   },
+   "SIMILARS_TAB_EMPTY": {
+      "message": "Sorry, we haven't found anything yet."
+   },
+   "SIMILARS_TAB_ORDERS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, order|orders|orders}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SIMILARS_TAB_ORDERS_V2": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, order|orders|orders}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SIMILARS_TAB_TITLE": {
+      "message": "Similar products"
+   },
+   "SIMILARS_TAB_TITLE_EMPTY": {
+      "message": "For now similar goods feature works only for smartphones."
+   },
+   "SIMILARS_TAB_TITLE_EMPTY_SMART": {
+      "message": "See how it works on Xiaomi Redmi Note 5 page"
+   },
+   "SIMILAR_ALI_ITEM_SELLER": {
+      "message": "Seller: ${SCORE}$"
+   },
+   "SIMILAR_BEST_OFFER_MOST_CHEAP": {
+      "message": "You’re viewing \u003Cbr> the cheapest variant."
+   },
+   "SIMILAR_BEST_OFFER_MOST_POPULAR": {
+      "message": "You’re viewing \u003Cbr> the most popular variant."
+   },
+   "SIMILAR_BEST_OFFER_MOST_RELIABLE": {
+      "message": "You’re viewing \u003Cbr> the most reliable variant."
+   },
+   "SIMILAR_DIVIDER_LESS_POPULAR": {
+      "message": "Less than ${ORDERS}$ orders"
+   },
+   "SIMILAR_DIVIDER_LESS_RELIABLE": {
+      "message": "Seller rating is lower than ${SCORE}$%"
+   },
+   "SIMILAR_DIVIDER_MORE_EXPENSIVE": {
+      "message": "Price is higher than ${PRICE}$"
+   },
+   "SIMILAR_DROP_DOWN_CHEAP_FIRST": {
+      "message": "cheap first"
+   },
+   "SIMILAR_DROP_DOWN_HEADER": {
+      "message": "sort"
+   },
+   "SIMILAR_DROP_DOWN_NO_SORT": {
+      "message": "without sorting"
+   },
+   "SIMILAR_DROP_DOWN_POPULAR_FIRST": {
+      "message": "popular first"
+   },
+   "SIMILAR_DROP_DOWN_TRUSTED_FIRST": {
+      "message": "reliable first"
+   },
+   "SIMILAR_NEW_TAB_TITLE": {
+      "message": "Similar"
+   },
+   "SIMILAR_TAB_TOOLTIP_SORT": {
+      "message": "Sort similar products by price, seller rating and orders number."
+   },
+   "SIMILAR_TOOLTIP_NEW_FEATURES": {
+      "message": "New features"
+   },
+   "SORT_LAST": {
+      "message": "Latest"
+   },
+   "SORT_LOWEST_PRICE": {
+      "message": "With a price drop"
+   },
+   "SOVETNIK_CONTEXT_CONFIGURE": {
+      "message": "Configure Alitools Advisor"
+   },
+   "SOVETNIK_CONTEXT_HIDE": {
+      "message": "Don't show on this site"
+   },
+   "SOVETNIK_LOCATION_DIVIDER_TEXT": {
+      "message": " is on AliExpress for "
+   },
+   "SOVETNIK_ONBOARDING_BUTTON": {
+      "message": "Continue"
+   },
+   "SOVETNIK_ONBOARDING_COMMENT": {
+      "message": "Look through products and we will report you if more\u003C/br>suitable and cheap deals will found on AliExpress."
+   },
+   "SOVETNIK_ONBOARDING_HERO": {
+      "message": "Alitools found this product cheaper"
+   },
+   "SOVETNIK_ONBOARDING_SETTINGS_LINK": {
+      "message": "in the settings"
+   },
+   "SOVETNIK_ONBOARDING_SETTINGS_MESSAGE": {
+      "message": "Disable this feature "
+   },
+   "SOVETNIK_OPEN_BUTTON": {
+      "message": "Open it on AliExpress"
+   },
+   "SOVETNIK_SAVE_BUTTON": {
+      "message": "You can save on it"
+   },
+   "SPLASH_HEARD_BUTTON_ADDITIONAL_TEXT": {
+      "message": "Now without registration!"
+   },
+   "SPLASH_HEARD_BUTTON_HEADER": {
+      "message": "New opportunity to save"
+   },
+   "SPLASH_HEARD_BUTTON_MAIN_TEXT": {
+      "message": "Click the button to track the product and get a notification when the price drop."
+   },
+   "SPLASH_OPEN_POPUP_HEADER": {
+      "message": "Product is added to Alitools"
+   },
+   "SPLASH_OPEN_POPUP_TEXT_FOR_OPENING": {
+      "message": " to open the list of tracking products."
+   },
+   "SPLASH_OPEN_POPUP_TEXT_PUSH_ICON": {
+      "message": "Click the icon"
+   },
+   "STATIC_CHANGE_LOG_TITLE": {
+      "message": "Changes — Alitools"
+   },
+   "STATIC_SETTINGS_TITLE": {
+      "message": "Settings — Alitools"
+   },
+   "STATIC_TRACKING_ARCHIVE_TITLE": {
+      "message": "Order archive — Alitools"
+   },
+   "STATIC_TRACKING_PACKAGES_TITLE": {
+      "message": "Order tracking — Alitools"
+   },
+   "STATIC_TUTORIAL_TITLE": {
+      "message": "Tutorial — Alitools"
+   },
+   "TAB_ERROR_BUTTON": {
+      "message": "Try again"
+   },
+   "TAB_ERROR_TITLE": {
+      "message": "Something went wrong...\u003Cbr> Please try again a bit later."
+   },
+   "TAB_FAVORITES_EMPTY_BUTTON": {
+      "message": "Add to Favorites"
+   },
+   "TAB_FAVORITES_EMPTY_PRODUCT_TOOLTIP": {
+      "message": "To track the product\u003Cbr> "
+   },
+   "TAB_FAVORITES_EMPTY_TITLE": {
+      "message": "There will be products that you will follow through Alitools."
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP": {
+      "message": "To track the price\u003Cbr>"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_LOGIN": {
+      "message": "log in"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_REGISTER": {
+      "message": "sign up"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_SUFFIX": {
+      "message": " or "
+   },
+   "TAB_FAVORITES_ERROR_MESSAGE": {
+      "message": "Error occurred while loading products"
+   },
+   "TAB_FAVORITES_LIST_EMPY_TEXT": {
+      "message": "It seems there're no products\u003Cbr> with a dropped price in Alitools favorites."
+   },
+   "TAB_FAVORITES_MORE": {
+      "message": "Open all products from Favorites"
+   },
+   "TAB_FAVORITES_MOVED_MESSAGE": {
+      "message": "Products you follow with Alitools are now\u003Cbr>always at hand. Click on the extension icon\u003Cbr>in the upper right corner of the browser."
+   },
+   "TAB_FAVORITES_MOVED_TITLE": {
+      "message": "Favorites were moved"
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TITLE": {
+      "message": "Products from AliExpress you add to favorites will be here."
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP": {
+      "message": "To use favorites you must "
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP_LOGIN": {
+      "message": "log in"
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP_REGISTER": {
+      "message": "sign up."
+   },
+   "TAB_FAVORITES_POPUP_EMPTY_TOOLTIP_SUFFIX": {
+      "message": " or "
+   },
+   "TAB_FAVORITES_PRICE_DOWN": {
+      "message": "dropped by"
+   },
+   "TAB_FAVORITES_PRICE_SAME": {
+      "message": "unchanged"
+   },
+   "TAB_FAVORITES_PRICE_UP": {
+      "message": "rose by"
+   },
+   "TAB_FAVORITES_TITLE": {
+      "message": "Favorites"
+   },
+   "TAB_HISTORY_EMPTY_TITLE": {
+      "message": "Products that you viewed\u003Cbr/> on AliExpress will be here."
+   },
+   "TAB_HISTORY_TITLE": {
+      "message": "Browsing history"
+   },
+   "TAB_HISTORY_TODAY": {
+      "message": "Today"
+   },
+   "TAB_HISTORY_YESTERDAY": {
+      "message": "Yesterday"
+   },
+   "TAB_MULTI_SITES_HISTORY_EMPTY_TITLE": {
+      "message": "Products that you viewed\u003Cbr/> in this store will be here."
+   },
+   "TAB_PRICE_HISTORY_3_MONTH_PERIOD": {
+      "message": "for 3 months"
+   },
+   "TAB_PRICE_HISTORY_6_MONTH_PERIOD": {
+      "message": "for half a year"
+   },
+   "TAB_PRICE_HISTORY_ADDED_TO_FAVORITE": {
+      "message": "Added to favorites"
+   },
+   "TAB_PRICE_HISTORY_ADD_TO_FAVORITE": {
+      "message": "Add to favorites"
+   },
+   "TAB_PRICE_HISTORY_DYNAMIC_TODAY": {
+      "message": "Today"
+   },
+   "TAB_PRICE_HISTORY_EMPTY_TITLE": {
+      "message": "We haven't collected\u003Cbr> enough data to build a price chart."
+   },
+   "TAB_PRICE_HISTORY_EXPLANATION_AFTER_ADD": {
+      "message": "You have been tracking the product since ${DATE}$.${BREAK}$We send a notification when the product becomes cheaper."
+   },
+   "TAB_PRICE_HISTORY_EXPLANATION_BEFORE_ADD": {
+      "message": "To keep track of the product and receive notifications${BREAK}$ about significant price reductions, click the heart icon."
+   },
+   "TAB_PRICE_HISTORY_FOLLOWING_BUTTON": {
+      "message": "Tracking price"
+   },
+   "TAB_PRICE_HISTORY_FOLLOWING_PRODUCT_BUTTON": {
+      "message": "Tracking product"
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_BUTTON": {
+      "message": "Track price"
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_COMMENT": {
+      "message": "The product will be added to your Favorites."
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_PRODUCT_BUTTON": {
+      "message": "Track product"
+   },
+   "TAB_PRICE_HISTORY_HEADER_TOOLTIP": {
+      "message": "Alitools only provides price history\u003Cbr> for the cheapest product configuration."
+   },
+   "TAB_PRICE_HISTORY_MOBILE_DISCOUNT": {
+      "message": "discount"
+   },
+   "TAB_PRICE_HISTORY_MOBILE_PRICE": {
+      "message": "Mobile price:"
+   },
+   "TAB_PRICE_HISTORY_NOTIFICATIONS_COMMENT": {
+      "message": "You will get a notification when the price drops"
+   },
+   "TAB_PRICE_HISTORY_PRODUCT_TOOLTIP": {
+      "message": "To track the product, "
+   },
+   "TAB_PRICE_HISTORY_REMOVE_FROM_FAVORITE": {
+      "message": "Remove from favorites"
+   },
+   "TAB_PRICE_HISTORY_TAB_TITLE": {
+      "message": "Price history"
+   },
+   "TAB_PRICE_HISTORY_TITLE": {
+      "message": "Price dynamics"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP": {
+      "message": "To track the price "
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_LOGIN": {
+      "message": "log in"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_REGISTER": {
+      "message": "sign up"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_SUFFIX": {
+      "message": " or "
+   },
+   "TAB_PRICE_HISTORY_UNFOLLOW_BUTTON": {
+      "message": "Stop tracking product"
+   },
+   "TAB_PRICE_HISTORY_UNFOLLOW_COMMENT": {
+      "message": "The product will be removed from your Favorites."
+   },
+   "TAB_REVIEWS_EMPTY_TITLE": {
+      "message": "Unfortunately, no reviews\u003Cbr> of this product were found."
+   },
+   "TAB_REVIEWS_LIST_EMPTY_PHOTOS_TEXT": {
+      "message": "This product has\u003Cbr> no photo reviews yet"
+   },
+   "TAB_REVIEWS_LIST_EMPTY_VIDEOS_TEXT": {
+      "message": "This product has\u003Cbr> no video reviews yet"
+   },
+   "TAB_REVIEWS_TITLE": {
+      "message": "Reviews"
+   },
+   "TAB_SELLER_CHECK_TITLE": {
+      "message": "Seller rating"
+   },
+   "TRACKING_ACTION_ARCHIVE": {
+      "message": "Archive"
+   },
+   "TRACKING_ACTION_REMOVE": {
+      "message": "Remove"
+   },
+   "TRACKING_ACTION_RESTORE": {
+      "message": "Restore"
+   },
+   "TRACKING_ACTION_SELECT_ALL": {
+      "message": "View all orders on a\u003Cbr>single page"
+   },
+   "TRACKING_ACTION_UPDATE": {
+      "message": "Edit"
+   },
+   "TRACKING_INPUT_PLACEHOLDER": {
+      "message": "Tracking number"
+   },
+   "TRACKING_MESSAGE_ARCHIVE_EMPTY": {
+      "message": "No products here yet.\u003Cbr>To stay up-to-date, move your shipped orders to archive. "
+   },
+   "TRACKING_MESSAGE_EDIT_NAME": {
+      "message": "Enter order name"
+   },
+   "TRACKING_MESSAGE_LOADING": {
+      "message": "Loading..."
+   },
+   "TRACKING_MESSAGE_LOADING_ERROR": {
+      "message": "Error loading list of orders."
+   },
+   "TRACKING_MESSAGE_PACKAGES_EMPTY": {
+      "message": "To track your order, enter the tracking number provided by the seller into the field below."
+   },
+   "TRACKING_PACKAGES_MESSAGE_CLEAN_NEW": {
+      "message": "There are no more packages with new information."
+   },
+   "TRACKING_PACKAGES_MESSAGE_EMPTY_ALL": {
+      "message": "Enter tracking number in the field above\u003C/br>to find out where your long-awaited package is right now."
+   },
+   "TRACKING_PACKAGES_MESSAGE_EMPTY_NEW": {
+      "message": "There are no packages with new information yet."
+   },
+   "TRACKING_TAB_ARCHIVE": {
+      "message": "Archive"
+   },
+   "TRACKING_TAB_PACKAGES": {
+      "message": "Order tracking"
+   },
+   "TUTORIAL_MODAL_CONTROLS_ABORT": {
+      "message": "Stop learning about Alitools"
+   },
+   "TUTORIAL_MODAL_CONTROLS_NEXT": {
+      "message": "More"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_CONTROLS_GUEST": {
+      "message": "Continue without signing up"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_CONTROLS_SIGNUP": {
+      "message": "Sign up"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_DESCRIPTION": {
+      "message": "Only registered users can track\u003Cbr> prices and add products to their favorites list."
+   },
+   "TUTORIAL_MODAL_STEP_DONE_TITLE": {
+      "message": "And finally..."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_DESCRIPTION": {
+      "message": "All products whose prices you are tracking\u003Cbr> are displayed here."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_CABINET": {
+      "message": "All of the products on your favorites list are available\u003Cbr> in your profile."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_FILTERS": {
+      "message": "To see which products'\u003Cbr> prices have recently dropped, \u003Cbr>go to the the \"With a price drop\" tab."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_ITEMS": {
+      "message": "Your favorites list allows you\u003Cbr> to quickly see how much products currently cost and how much\u003Cbr> their prices have changed."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_TITLE": {
+      "message": "These is your favorites list"
+   },
+   "TUTORIAL_MODAL_STEP_POPUP": {
+      "message": "List of products and packages"
+   },
+   "TUTORIAL_MODAL_STEP_POPUP_TEXT_END": {
+      "message": " in the top right corner of the browser."
+   },
+   "TUTORIAL_MODAL_STEP_POPUP_TEXT_START": {
+      "message": "To open the list of products and packages you are tracking, click extension’s icon "
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_DESCRIPTION": {
+      "message": "Compare previous prices to the current one\u003Cbr> to spot a fake discount."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_FAVORITES_SECTION_CONTROL": {
+      "message": "The \"Track product\" button will add it\u003Cbr> to your favorites list. You will get a notification as soon as\u003Cbr> the product's price drops."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_FAVORITES_TITLE": {
+      "message": "Do you like a product?"
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_SECTION_CHART": {
+      "message": "The chart shows the history of the product's\u003Cbr> price changes. Mouse over the chart to select a time\u003Cbr> period for comparison."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_SECTION_COMPARING": {
+      "message": "This section compares prices. The old price is on the left,\u003Cbr> the current price is on the right, and the difference between them and discount\u003Cbr> percentage are shown in the middle."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_TITLE": {
+      "message": "This is a chart of price changes"
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_DESCRIPTION": {
+      "message": "See what the product\u003Cbr> you're about to buy is really like."
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_SECTION_FILTERS": {
+      "message": "Filters for switching review\u003Cbr> type (photo or video)"
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_SECTION_ITEMS": {
+      "message": "Each card leads to a different review.\u003Cbr> If you mouse over a card you can read\u003Cbr> a brief description of the review."
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_TITLE": {
+      "message": "These are reviews"
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_DESCRIPTION": {
+      "message": "Check the seller trust level\u003Cbr> to make the right buying decision."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_SECTION_CONCLUSION": {
+      "message": "Seller can have one of three ratings:\u003Cbr> high, average, and low. A brief description\u003Cbr> can be found below the rating."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_SECTION_REASONS": {
+      "message": "The factors that have influenced\u003Cbr> the rating are always listed below."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_TITLE": {
+      "message": "This is the seller rating"
+   },
+   "TUTORIAL_MODAL_STEP_WELCOME_DESCRIPTION": {
+      "message": "It shows changes in price,\u003Cbr> the seller trust percentage, and the number of reviews.\u003Cbr> It also has a \"Track product\" button."
+   },
+   "TUTORIAL_MODAL_STEP_WELCOME_TITLE": {
+      "message": "This is the Alitools mini-widget"
+   },
+   "TUTORIAL_POPUP_ALI_CONFIRM": {
+      "message": "Try it on AliExpress"
+   },
+   "TUTORIAL_POPUP_ALI_OPEN_GUIDE": {
+      "message": "Open guide"
+   },
+   "TUTORIAL_POPUP_CONTROL_ALI_CONFIRM": {
+      "message": "Try it on\u003Cbr> AliExpress"
+   },
+   "TUTORIAL_POPUP_CONTROL_CANCEL": {
+      "message": "Understood"
+   },
+   "TUTORIAL_POPUP_CONTROL_CONFIRM": {
+      "message": "Try it out on a\u003Cbr> product page"
+   },
+   "TUTORIAL_POPUP_CONTROL_NOT_WANT": {
+      "message": "Not interested"
+   },
+   "TUTORIAL_POPUP_CONTROL_NO_THANKS": {
+      "message": "No, thanks"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_CHART": {
+      "message": "Price history"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_DYNAMICS": {
+      "message": "Price drop notifications"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_HISTORY": {
+      "message": "Price history for 3 months"
+   },
+   "TUTORIAL_POPUP_FEATURE_REVIEWS": {
+      "message": "Photos and video reviews"
+   },
+   "TUTORIAL_POPUP_FEATURE_SELLER_CHECK": {
+      "message": "Seller trust level"
+   },
+   "TUTORIAL_POPUP_HEADER": {
+      "message": "Buy on AliExpress\u003Cbr>cheaply and more secure"
+   },
+   "TUTORIAL_POPUP_HEADER_TEST": {
+      "message": "Buy on AliExpress\u003Cbr>cheaply and more secure"
+   },
+   "UPDATES_TAB_TEXT": {
+      "message": "We added new features and fixed bugs. Please update to make extension even more useful and convenient."
+   },
+   "UPDATES_TAB_TITLE": {
+      "message": "Update is available"
+   },
+   "UPDATES_TAB_UPDATE_EXTENSION": {
+      "message": "Update Alitools"
+   },
+   "UPDATES_TAB_VERSION": {
+      "message": "Version: $VERSION$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "5.0.0"
+         }
+      }
+   },
+   "VIDEO_THUMB_VIEWS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, view|views|views}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5,460"
+         }
+      }
+   },
+   "WEB_PUSH_SIGNATURE": {
+      "message": "News"
+   },
+   "WIDGETS_HISTORY_BUTTON_TITLE": {
+      "message": "history"
+   },
+   "WIDGET_HISTORY_BALLOON_HEADER": {
+      "message": "Browsing history"
+   },
+   "WIDGET_HISTORY_BALLOON_TEXT": {
+      "message": "Now also on "
+   },
+   "WIDGET_HISTORY_STRIP_CONTEXT_CONFIGURE": {
+      "message": "Configure History"
+   },
+   "WIDGET_HISTORY_STRIP_CONTEXT_HIDE": {
+      "message": "Don't show on this site"
+   },
+   "WIDGET_MIN_PRICE_TOOLTIP": {
+      "message": "Minimum price"
+   },
+   "WIDGET_TAB_PRICE": {
+      "message": "price"
+   },
+   "WIDGET_TAB_REVIEWS": {
+      "message": "reviews"
+   },
+   "WIDGET_TAB_SELLER": {
+      "message": "seller"
+   },
+   "WIDGET_TAB_SIMILAR": {
+      "message": "similar"
+   }
+}

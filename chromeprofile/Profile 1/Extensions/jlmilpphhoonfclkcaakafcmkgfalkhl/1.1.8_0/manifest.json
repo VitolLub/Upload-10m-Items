@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/icon-128px.png",
+         "16": "images/icon-16px.png",
+         "32": "images/icon-32px.png"
+      },
+      "default_title": "__MSG_browserActionTitle__"
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_security_policy": "script-src 'self' https://cryptotabstart.com/;object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "images/cryptotab-start_icon-128.png",
+      "16": "images/cryptotab-start_icon-16.png",
+      "32": "images/cryptotab-start_icon-32.png",
+      "48": "images/cryptotab-start_icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi05tSFZ+VtxHX1SCxx6k1/vXxM+1ivNII2jhzhWRybqk7WNgwd4JhPltHpklCcsXrLL8Ao5k5Sus2M7Qky9cWGXhiFRGYXypfcn0QEPEW2N1mGz6QCNouXnsAlGObkaieJjhZZpClH7B3iMjTP//Ahpb+ab2IEhDYTpUpjl4Wwf+NKx56EGZnYo9RYOz6TPk9qgiNd8uYVNRcgBJHdDHoKx3EcA1MYqth454N20A5Jk5Co0D8sNS4ssPebbpQhIwEuvdL3K2egMY6swRRko2G1vmysC5f36umkuCmjK/X8HwyAbw+M5SLBANjkpXWdBnhQ5kZ/PvY/pfdUQ5sCBdOQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "activeTab", "*://*.cryptobrowser.site/*", "*://cryptotabstart.com/*", "tabs", "bookmarks", "history", "chrome://favicon/*", "browsingData", "management" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.8"
+}

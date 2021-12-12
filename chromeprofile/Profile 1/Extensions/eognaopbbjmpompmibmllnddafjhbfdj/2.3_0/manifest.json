@@ -1,0 +1,25 @@
+{
+   "browser_action": {
+      "default_icon": "img/icon16.png",
+      "default_popup": "popup.html",
+      "default_title": "EditCookie"
+   },
+   "content_scripts": [ {
+      "exclude_matches": [  ],
+      "js": [ "cs.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Very simple and minimalistic cookie manager",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3aTcfuJhub8A4e08DZyRKT0XApy02tDoJP+3WNfLBQXl/UnYbBZcmZ12rYbNuKBXkKO7nMafRx0GYakOt4HS+S2/mFbTH2yvM5y8Tz7YeTe1oo1uropJSfUxNJ09oDWVgnhhVWH192MV0UIUsqA4zdjo6XYNRDppGQzxDKYlZ1/A6lo7P46T8TYQMZERcU+Y0nUmdMPNuxHw93vuhNVOZ7XI2jlfJ9EGHIK0GruRWjRDNaC6I9ebD3KiM8r9iR/7cSlrZgSVyjlsNrcbNf1FAWFAKUWrwwmnUpl2acxY51mNRX7Iq8QFQjPB1pafp5O9WYWsAG9U3u+8v33HzN60vQIDAQAB",
+   "manifest_version": 2,
+   "name": "EditCookie",
+   "permissions": [ "\u003Call_urls>", "tabs", "cookies", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3"
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Publisher Studio Extension Settings</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="ext-wrap ext-wrap-options">
+
+    <div id="amznps-options">
+        <div class="amznps-logo amznps-sprite"></div>
+        <h3 class="amznps-options-title">Publisher Studio Extension Settings</h3>
+        <hr class="amznps-grey-divider">
+        <div class="amznps-options-container">
+            <div class="amznps-option">
+                <div class="amznps-option-col amznps-option-col-lbl">
+                    <label for="amznps-options-storeid">
+                        Signed in as
+                    </label>
+                </div>
+                <div class="amznps-option-col">
+                    <div class="amznps-select">
+                        <select name="amznps-options-storeid" id="amznps-options-storeid">
+                        </select>
+                        <span></span>
+                    </div>
+					<span>
+                        (<a id='amznps-options-signout' href="#" class="js-amznps-logout-user" class='link'>Sign Out</a>)
+					</span>
+                </div>
+            </div>
+            <div class="amznps-option">
+                <div class="amznps-option-col amznps-option-col-lbl">
+                    <label class="amznps-option-lbl" for="amznps-options-trackingid">
+                        Tracking ID
+                    </label>
+                </div>
+                <div class="amznps-option-col">
+                    <div class="amznps-select">
+                        <select id="amznps-options-trackingid" name="amznps-options-trackingid">
+                        </select>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="amznps-option amznps-option-extn">
+                <div class="amznps-option-col amznps-option-col-lbl">
+                    Manage linking
+                </div>
+                <div class="amznps-option-col">
+                    <div class="amznps-extn-editor-container">
+                        <div class="amznps-extn-editor-lbl">
+                            Enable/Disable link building on the following CMS/Blog platforms
+                        </div>
+                        <div id="amznps-options-blogs" class="amznps-extn-editor">
+                        </div>
+                    </div>
+                    <div class="amznps-extn-editor-container">
+                        <div class="amznps-extn-editor-lbl">
+                            Enable/Disable link sharing via $$ on the following websites
+                        </div>
+                        <div id="amznps-options-sites" class="amznps-extn-editor">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="amznps-checkbox">
+                            <input class="amznps-checkbox" type="checkbox" name="amznps-options-shortlink-social" id="amznps-options-shortlink-social">
+                            <label for="amznps-options-shortlink-social"></label>
+                            <label class="amznps-option-lbl-2" for="amznps-options-shortlink-social">
+                                Shorten links
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="amznps-option">
+                <div class="amznps-option-col amznps-option-col-lbl">
+                </div>
+                <div class="amznps-option-col">
+                    <button id="amznps-options-save" type="submit" class="amznps-button-submit">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="amznps-options-overlay" class="amznps-options-overlay">
+    <div class="amznps-options-overlay-msg">
+        <span class="amznps-options-overlay-icon"></span>
+        <span id="amznps-options-overlay-msg">Loading...</span>
+    </div>
+</div>
+
+<div id="amznps-options-notification" class="amznps-options-notification-wrapper">
+    <div class="amznps-options-notification amznps-options-notification-success">
+        <span class="amznps-options-notification-icon"></span>
+        <span id="amznps-options-notification-msg" class="amznps-options-notification-msg"></span>
+        <span><a  id="amznps-options-notification-close" href="#">x</a></span>
+    </div>
+</div>
+
+<script src="js/amzn-j.js"></script>
+<script src="js/chrome.background.js"></script>
+<script src="js/options.js"></script>
+
+</body>
+
+</html>

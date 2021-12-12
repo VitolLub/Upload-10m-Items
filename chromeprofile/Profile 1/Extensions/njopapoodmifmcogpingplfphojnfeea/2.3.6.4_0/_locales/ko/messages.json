@@ -1,0 +1,1391 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "inch"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "kilograms"
+   },
+   "POUND": {
+      "message": "pounds"
+   },
+   "RON": {
+      "message": "L"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "UAH": {
+      "message": "₴"
+   },
+   "USD": {
+      "message": "$$"
+   },
+   "VND": {
+      "message": "₫"
+   },
+   "aboutAppVersion": {
+      "message": "App 버젼"
+   },
+   "aboutExpires": {
+      "message": "만료"
+   },
+   "aboutLicence": {
+      "message": "특허"
+   },
+   "aboutLicenceType": {
+      "message": "라이슨스종류"
+   },
+   "aboutModalTitle": {
+      "message": "About"
+   },
+   "aboutRegisteredTo": {
+      "message": "Registered to"
+   },
+   "activeExceed": {
+      "message": "액티브 설치량이 초과되었습니다."
+   },
+   "activeLimit": {
+      "message": "설치에대한 제한"
+   },
+   "addToTracker": {
+      "message": "Tracker에 추가"
+   },
+   "additionalMonthlyCosts": {
+      "message": "추가 월간 비용"
+   },
+   "additionalProductCost": {
+      "message": "단위 비용 당 추가 비용"
+   },
+   "allRowsAreNotAvailable": {
+      "message": "모든 행은 유료 버전에서 사용할 수 있습니다."
+   },
+   "alreadyPaid": {
+      "message": "나는 이미 돈을 지불했다"
+   },
+   "alreadyPaidContact": {
+      "message": "Please contact us at \u003Ca class='btn--dotted already-pay__btn_dotted' href='mailto:support@amzscout.net'>support@amzscout.net\u003C/a> if this didn’t solve the problem."
+   },
+   "alreadyPaidQuestion": {
+      "message": "If you paid for PRO Extension and are still experiencing licensing issues, please follow these steps to fix it:"
+   },
+   "alreadyPaidStep1": {
+      "message": "Delete the AMZScout PRO Extension from your Chrome browser"
+   },
+   "alreadyPaidStep2": {
+      "message": "\u003Ca target='_blank' class='btn--dotted already-pay__btn_dotted' href='https://chrome.google.com/webstore/detail/amzscout-pro/njopapoodmifmcogpingplfphojnfeea?hl=en-US'>Reinstall\u003C/a> the AMZScout PRO Extension on Chrome"
+   },
+   "alreadyPaidStep2Edge": {
+      "message": "\u003Ca target='_blank' class='btn--dotted already-pay__btn_dotted' href='https://microsoftedge.microsoft.com/addons/detail/idcpecldgbbabloifgjogemdifohldkd'>Reinstall\u003C/a> the AMZScout PRO Extension on Edge"
+   },
+   "alreadyPaidStep3": {
+      "message": "Log on to the AMZScout PRO Extension on Chrome, and enjoy!"
+   },
+   "annual": {
+      "message": "년이용권"
+   },
+   "appDesc": {
+      "message": "AMZScout PRO extension사용으로 직관보다 실제 데이터에 근거한 틈새시장 타겟팅을 할 수 있습니다."
+   },
+   "appName": {
+      "message": "Amazon Product Finder - AMZScout PRO"
+   },
+   "apply": {
+      "message": "적용"
+   },
+   "asin": {
+      "message": "ASIN"
+   },
+   "availableFrom": {
+      "message": "사용가능한 형식"
+   },
+   "availableFromTooltip": {
+      "message": "Date First Available은 아마존에서 제품구매가 개시된 날짜를 뜻합니다."
+   },
+   "avgMarginImpact": {
+      "message": "평균 순이익"
+   },
+   "avgMonthlyRevenue": {
+      "message": "평균월수입"
+   },
+   "avgMonthlySales": {
+      "message": "평균월매출"
+   },
+   "avgPrice": {
+      "message": "평균가격"
+   },
+   "avgReviews": {
+      "message": "평균리뷰"
+   },
+   "avgSalesRank": {
+      "message": "평균매출순위"
+   },
+   "benefit1": {
+      "message": "틈새시장 찾기 – 리스크최소화"
+   },
+   "benefit2": {
+      "message": "정확한 실시간 측정 – 수익극대화"
+   },
+   "benefit3": {
+      "message": "검증해보고확신을 가지고판매하세요"
+   },
+   "benefits": {
+      "message": "혜택"
+   },
+   "bestPractices": {
+      "message": "Best Practices from experts"
+   },
+   "bestSeller": {
+      "message": "베스트셀러(BS)"
+   },
+   "bestSellerCategory": {
+      "message": "베스트셀러 in"
+   },
+   "bestSellerLink": {
+      "message": "Best Seller Category URL"
+   },
+   "bestSellerTooltip": {
+      "message": "아마존 베스트셀러"
+   },
+   "blog": {
+      "message": "Blog "
+   },
+   "brand": {
+      "message": "브랜드"
+   },
+   "bulletsCount": {
+      "message": "Bullets Count"
+   },
+   "bundlingItems": {
+      "message": "Bundling items to double your revenue"
+   },
+   "businessType": {
+      "message": "Business type:"
+   },
+   "buy": {
+      "message": "잘 판매되는 상품을 찾으세요."
+   },
+   "buyAtGoogle": {
+      "message": "Google Chrome Store에서 구매"
+   },
+   "buyNow": {
+      "message": "지금구매"
+   },
+   "buyPrice": {
+      "message": "평생이용권 :: currency:price"
+   },
+   "buyPriceRecurring": {
+      "message": "1달 사용료:: currency:price"
+   },
+   "ca": {
+      "message": "Canada"
+   },
+   "cancel": {
+      "message": "취소"
+   },
+   "cantGetProductsErr": {
+      "message": "이페이지에서 AMZCount로 제품정보를 불러올수 없습니다. AMZCount가 아마존 페이지에서 제품을"
+   },
+   "category": {
+      "message": "카테고리"
+   },
+   "cessFee": {
+      "message": "서비스&세금 수수료"
+   },
+   "ch": {
+      "message": "China"
+   },
+   "chartMaxPeriod": {
+      "message": "Maximum available period"
+   },
+   "chartMonth": {
+      "message": "month"
+   },
+   "chartMonths": {
+      "message": "months"
+   },
+   "chartYear": {
+      "message": "year"
+   },
+   "chartYears": {
+      "message": "years"
+   },
+   "chartselectPeriod": {
+      "message": "Select period:"
+   },
+   "checkProfit": {
+      "message": "Check If Profitable"
+   },
+   "choosePaymentMethod": {
+      "message": "지불방법선택"
+   },
+   "choosingBest": {
+      "message": "Choosing the best niche with AMZScout Scores"
+   },
+   "chromeStore": {
+      "message": "Chrome Store"
+   },
+   "clear": {
+      "message": "지우기"
+   },
+   "close": {
+      "message": "닫기"
+   },
+   "closingFee": {
+      "message": "결산 수수료"
+   },
+   "columns": {
+      "message": "컬럼"
+   },
+   "consideredHOT": {
+      "message": "This product is considered HOT because its sales grew by 20% or more for the past :textHot."
+   },
+   "contactSupplier": {
+      "message": "Contact Supplier"
+   },
+   "continue": {
+      "message": "계속하기"
+   },
+   "copyASIN": {
+      "message": "ASIN복사"
+   },
+   "currencyType": {
+      "message": "Currency type"
+   },
+   "daily": {
+      "message": "하루이용권"
+   },
+   "data": {
+      "message": "데이터"
+   },
+   "dataLoading": {
+      "message": "Data is loading"
+   },
+   "deliveryFee": {
+      "message": "배송비"
+   },
+   "descriptionLength": {
+      "message": "설명 글자수"
+   },
+   "ebc": {
+      "message": "EBC"
+   },
+   "ebcTooltip": {
+      "message": "브랜드 컨텐츠가 강화된 리스팅"
+   },
+   "emptyImport": {
+      "message": "제품을 찾을수없습니다. 파일을 확인하세요."
+   },
+   "enablePS": {
+      "message": "AMZScout 틈새 점수 팝업 사용"
+   },
+   "enterP": {
+      "message": "Enter a product"
+   },
+   "error": {
+      "message": "오류"
+   },
+   "estRevenue": {
+      "message": "예상수입"
+   },
+   "estRevenueTooltip": {
+      "message": "예상월수입"
+   },
+   "estSales": {
+      "message": "추정매출"
+   },
+   "estSalesTooltip": {
+      "message": "추정 월매출은 제품의 한달간 예상 판매금액입니다. 카테고리와 제품랭킹을 근거로 산출됩니다."
+   },
+   "estimatedProfit": {
+      "message": "추정 월수익"
+   },
+   "estimatedProfitTooltip": {
+      "message": "추정 월매출과 마진효과에 근거하여 월수익율을 산출"
+   },
+   "estimatedRevenue": {
+      "message": "추정 월수입"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "추정 월매출과 마진효과에 근거하여 월수입을 산출"
+   },
+   "estimatedSales": {
+      "message": "추정 월매출"
+   },
+   "export": {
+      "message": "CSV로 내보내기"
+   },
+   "extendTrial": {
+      "message": "체험기간연장"
+   },
+   "extendTrialMessage": {
+      "message": "최대2달까지 무료사용"
+   },
+   "extractOneProductOnly": {
+      "message": "제품 페이지에서만 한 제품 추출"
+   },
+   "faq": {
+      "message": "자주하는질문"
+   },
+   "faq_a_0": {
+      "message": "사용료는 일시납입니다. 추가사용료가 없으며 extension의 모든 기능이 포함된 가격입니다."
+   },
+   "faq_a_1": {
+      "message": "Amazon 홈페이지를 열고 아무 제품이나 검색해보세요. extension 버튼"
+   },
+   "faq_a_2": {
+      "message": "모든 추정금액은 월별입니다."
+   },
+   "faq_a_3": {
+      "message": "Amazon의 최상위 카테고리를 기준으로 공식에 의해 산출하며 (예: 홈&가든, 서적 등) 카테고리내에서 순위가 매겨집니다."
+   },
+   "faq_a_4": {
+      "message": "Net 컬럼은 FBA 수수료와 15% Amazon 위탁 수수료를 제한 금액입니다. FBA수수료가 없으면 Net Price는 공식에 의해 산출됩니다."
+   },
+   "faq_a_5": {
+      "message": "LQS는 Listing Quality Score - 리스팅 퀄리티 점수입니다. AMZScout는 제품 설명부분을 분석하여 점수를 매깁니다. 높은 점수는 검색결과에서 유리하다는 뜻입니다. 점수산정 내역은 커서를 LQS숫자위로 가져가면 보실 수 있습니다."
+   },
+   "faq_a_6": {
+      "message": "RPR은 리뷰당 수입을 뜻합니다. RPR이 증가하면 아마존 판매기회가 늘어난다는 뜻입니다."
+   },
+   "faq_a_7": {
+      "message": "FBA수수료는 한달동안의 보관비용이 포함된 개당 비용으로 계산합니다. 해당제품페이지에서 가져온 배송사이즈 및 무게를 기준으로 계산합니다."
+   },
+   "faq_a_8": {
+      "message": "amazondevcrew@gmail.com로 문의사항을 보내주시면 가장 신속한 답변을 들으실 수 있습니다."
+   },
+   "faq_q_0": {
+      "message": "extension의 사용료는 일시납인가요 월납인가요?"
+   },
+   "faq_q_1": {
+      "message": "extension을 구매했어요. 어떻게 사용하면 되나요?"
+   },
+   "faq_q_2": {
+      "message": "추정금액은 어떻게 계산되나요, 월별, 일별, 년도별?"
+   },
+   "faq_q_3": {
+      "message": "추정숫자들은 어떻게 계산하나요?"
+   },
+   "faq_q_4": {
+      "message": "Net 컬럼은 무엇인가요?"
+   },
+   "faq_q_5": {
+      "message": "LOS 컬럼은 무엇인가요?"
+   },
+   "faq_q_6": {
+      "message": "RPR 컬럼은 무엇인가요?"
+   },
+   "faq_q_7": {
+      "message": "FBA수수료는 개당으로 계산되나요, 묶음으로 계산되나요?"
+   },
+   "faq_q_8": {
+      "message": "AMZScout 이용관련 질문과 문제점은 어디에 문의해야 하나요?"
+   },
+   "favorites": {
+      "message": "즐겨찾기"
+   },
+   "favoritesTooltip": {
+      "message": "나의 즐겨찾기제품"
+   },
+   "fbaFees": {
+      "message": "FBA 수수료"
+   },
+   "fbaFeesTooltip": {
+      "message": "FBA를 통해 제품판매시 FBA수수료를 지불해야 합니다."
+   },
+   "fbaOnly": {
+      "message": "FBA전용"
+   },
+   "featureIsNotAvailable": {
+      "message": "이 기능은 유료 버전에서 사용할 수 있습니다"
+   },
+   "feedback": {
+      "message": "피드백"
+   },
+   "filter": {
+      "message": "필터"
+   },
+   "filters": {
+      "message": "필터"
+   },
+   "findProfit": {
+      "message": "Find profitable products and niches"
+   },
+   "forever": {
+      "message": "무제한이용권"
+   },
+   "fr": {
+      "message": "France"
+   },
+   "freeLaunchesLeft": {
+      "message": "무료사용 잔여량"
+   },
+   "freeLaunchesLeftSingle": {
+      "message": "무료사용 잔여량"
+   },
+   "freeQuestion": {
+      "message": "좋은소식이 있습니다! 짧은 인터뷰를 하시면 AMZScout Web App 3개월 사용권을 드립니다."
+   },
+   "freeQuestionNo": {
+      "message": "괜찮습니다."
+   },
+   "freeQuestionTitle": {
+      "message": "그뤠잇 뉴스"
+   },
+   "freeQuestionYes": {
+      "message": "네, 진행합니다."
+   },
+   "freshNicheIdea": {
+      "message": "당신은 신선한 틈새 아이디어가 있습니다!"
+   },
+   "friendyNAInventory": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>이 제품의 재고 수준이 무엇인지 말하기 어렵습니다.\u003C/span>\u003C/div>"
+   },
+   "friendyNASales": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Amazon이이 제품의 상위 카테고리에 순위를 제공하지 않기 때문에 말하기가 어렵습니다. 하위 카테고리의 순위가 작은 경우 제품은 정상적으로 판매됩니다.\u003C/span>\u003C/div>"
+   },
+   "from": {
+      "message": "from"
+   },
+   "getKeywords": {
+      "message": "키워드찾기"
+   },
+   "getNicheIdea": {
+      "message": "틈새 아이디어"
+   },
+   "getNicheKeywords": {
+      "message": "틈새 시장 키워드 얻기"
+   },
+   "gotoFindP": {
+      "message": "Go to finding a product"
+   },
+   "gr": {
+      "message": "Germany"
+   },
+   "grew3M": {
+      "message": "Grew by 20% for the past 3 months"
+   },
+   "grewM": {
+      "message": "Grew by 20% for the past month"
+   },
+   "headers": {
+      "message": "헤더"
+   },
+   "hideSponsored": {
+      "message": "후원사 숨기기"
+   },
+   "history": {
+      "message": "히스토리"
+   },
+   "hot": {
+      "message": "Hot"
+   },
+   "howHacks": {
+      "message": "Amazon hacks"
+   },
+   "howTips": {
+      "message": "Tips from experts"
+   },
+   "howToStart": {
+      "message": "How to start"
+   },
+   "howToUsePro": {
+      "message": "How to use AMZScout PRO Extension"
+   },
+   "howToUserProExt": {
+      "message": "How to use Pro Extension"
+   },
+   "igotIt": {
+      "message": "I got it"
+   },
+   "imagesCount": {
+      "message": "Images count"
+   },
+   "import": {
+      "message": "CSV에서 가져오기"
+   },
+   "in": {
+      "message": "in"
+   },
+   "ind": {
+      "message": "India"
+   },
+   "instanceBlockedErr": {
+      "message": "AMZScout가 차단되었습니다. support부서와 컨택하세요."
+   },
+   "instanceUnsupportedErr": {
+      "message": "버젼을 더이상 사용할 수 없습니다. 최신 AMZScout 버젼으로 업데이트 해주세요."
+   },
+   "inventory": {
+      "message": "재고"
+   },
+   "inventoryTooltip": {
+      "message": "재고수량"
+   },
+   "it": {
+      "message": "Italy"
+   },
+   "jp": {
+      "message": "Japan"
+   },
+   "keepTracking": {
+      "message": "수익성있는 제품 선택으로 첫달에 500$의 수익을 올리세요."
+   },
+   "keyword": {
+      "message": "예어"
+   },
+   "keywords": {
+      "message": "키워드"
+   },
+   "keywordsNotFound": {
+      "message": "죄송합니다. 키워드를 찾지 못했습니다."
+   },
+   "keywordsPropositionFind": {
+      "message": "이 제품에 대해 \u003Cspan class='modal--keywords__decor'> 수천 개의 키워드 \u003C/ span>를 얻으십시오. 경쟁 업체가 모르는 키워드도 있습니다!"
+   },
+   "keywordsPropositionLearn": {
+      "message": "키워드 도구에 대해 알아보기"
+   },
+   "keywordsPropositionReverse": {
+      "message": "더 많은 키워드를 얻으려면 Reverse ASIN Lookup을여십시오."
+   },
+   "learnHowToSell": {
+      "message": "Learn how to sell on Amazon"
+   },
+   "licenceExpired": {
+      "message": "죄송합니다. Product Tracker 이용권이 종료되었습니다. \u003Ca href=\"https://amzscout.net/app/#/tracker\">여기\u003C/a>에서 연장하실 수 있습니다."
+   },
+   "licenceFull": {
+      "message": "유료"
+   },
+   "licenceTrial": {
+      "message": "체험"
+   },
+   "lifetime": {
+      "message": "평생이용권"
+   },
+   "lqs": {
+      "message": "LQS"
+   },
+   "lqsTooltip": {
+      "message": "LQS(Listing Quality Score)는 제품리스팅 퀄리티 가이드입니다. 숫자에 마우스를 가져가면 어떻게 스코어를 산정했는지 상세내역이 나타납니다."
+   },
+   "mainProducts": {
+      "message": "Main products"
+   },
+   "mainProductsT": {
+      "message": "\u003Cdiv class='niche__tooltip-wrap'>\u003Cdiv class='niche__tooltip-title'>\u003Cstrong>The main products from this supplier are:\u003C/strong>\u003C/div>\u003Cdiv class='niche__tooltip-content'>:mainProducts\u003C/div>\u003C/div>"
+   },
+   "marginImpact": {
+      "message": "순이익"
+   },
+   "marginImpactTooltip": {
+      "message": "순이익율"
+   },
+   "masterclasses": {
+      "message": "MasterClasses"
+   },
+   "maxImport": {
+      "message": "최대수입수량 :: count products"
+   },
+   "minPrice": {
+      "message": "최저가"
+   },
+   "minPriceTooltip": {
+      "message": "최저가는 판매중인 모든 셀러들이 제시한 가격 중 최저가격"
+   },
+   "modalTitle": {
+      "message": "메세지"
+   },
+   "moneyBack": {
+      "message": "100%환불보장"
+   },
+   "monthly": {
+      "message": "월이용권"
+   },
+   "monthlyFee": {
+      "message": "월납부"
+   },
+   "monthlyPayment": {
+      "message": "월납입"
+   },
+   "monthlyStorage": {
+      "message": "월보관료"
+   },
+   "moq": {
+      "message": "MOQ"
+   },
+   "my": {
+      "message": "Malaysia"
+   },
+   "nameLength": {
+      "message": "제품명 글자수"
+   },
+   "needPermissions": {
+      "message": "계속하기전에 로그인해주세요"
+   },
+   "negativeNumberTooltip": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Beware, this is a negative Est.Monthly Profit / Net Margin / Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees.\u003C/span>\u003C/div>"
+   },
+   "netTooltip": {
+      "message": "Net는 제품 한개 판매당 셀러에게 배당되는 금액"
+   },
+   "next": {
+      "message": "다음"
+   },
+   "next20pages": {
+      "message": "다음 20 페이지"
+   },
+   "next5pages": {
+      "message": "다음 5 페이지"
+   },
+   "nextP": {
+      "message": "Next Page"
+   },
+   "nextPage": {
+      "message": "다음페이지"
+   },
+   "nicheAddFavorite": {
+      "message": "Add to favorites"
+   },
+   "nicheFilterBtn": {
+      "message": "Search"
+   },
+   "nicheHistory": {
+      "message": "틈새 역사"
+   },
+   "nicheKeywords": {
+      "message": "틈새 키워드"
+   },
+   "nicheRemoveFavorite": {
+      "message": "Remove from favorites"
+   },
+   "nicheSuppliers": {
+      "message": "Suppliers for Niche"
+   },
+   "nicheSuppliersFavorite": {
+      "message": "Favorite Suppliers"
+   },
+   "noCreditCard": {
+      "message": "신용 카드가 필요하지 않습니다"
+   },
+   "noFees": {
+      "message": "추가비용없음"
+   },
+   "nofavorites": {
+      "message": "You have not added any products to your Favorites yet"
+   },
+   "nosuppliers": {
+      "message": "There are no suppliers on Alibaba for this keyword corresponding to these filter settings. \u003C/br>Please try other filter settings or another keyword."
+   },
+   "number": {
+      "message": "#"
+   },
+   "occurrencesNumber": {
+      "message": "발생 건수"
+   },
+   "of": {
+      "message": "of"
+   },
+   "offerPrice": {
+      "message": "::통화:가격"
+   },
+   "onboardAdjust": {
+      "message": "We will adjust the amount of pop up tips and certain parameters based on your experience. You will be able to change this choice later in the Settings."
+   },
+   "onboardAsExpert": {
+      "message": "As an expert, you’ll see the full data and be able to fine-tune your research."
+   },
+   "onboardBeginner": {
+      "message": "Beginner"
+   },
+   "onboardCheck": {
+      "message": "To check whether a niche is profitable, simply enter its name and click «Check If Profitable»."
+   },
+   "onboardExpert": {
+      "message": "Expert"
+   },
+   "onboardHelps": {
+      "message": "PRO Extension helps you find the perfect product to sell on Amazon"
+   },
+   "onboardNotShure": {
+      "message": "Not sure what to look for? Try one of our suggestions:"
+   },
+   "onboardResearch": {
+      "message": "Research you first niche with PRO Extension!"
+   },
+   "onboardSelect": {
+      "message": "Select your experience level with Amazon"
+   },
+   "onboardWelcome": {
+      "message": "Welcome to AMZScout PRO Extension"
+   },
+   "onboardWillsee": {
+      "message": "You will see items with similar names currently sold on Amazon along with their \u003Cspan class='step__desc_decor'> Monthly Sales, Reviews, Best Seller Rank, \u003C/span> and other key statistics you need to evaluate them."
+   },
+   "onboardYouNew": {
+      "message": "If you are new to Amazon research, you’ll see vital parameters that will help you choose a great product quickly. Great for learning."
+   },
+   "oneTimeFee": {
+      "message": "일시납부"
+   },
+   "onetimePayment": {
+      "message": "일시납입"
+   },
+   "opScore": {
+      "message": "틈새 점수"
+   },
+   "options": {
+      "message": "옵션"
+   },
+   "orderHandling": {
+      "message": "주문처리"
+   },
+   "orderProcessing": {
+      "message": "5분안에 구매처리가 완료됩니다. 5분후에 extension사용을 시작해주세요."
+   },
+   "orderQuantity": {
+      "message": "Minimum Order Quantity"
+   },
+   "oversize": {
+      "message": "오버사이즈"
+   },
+   "packageWeight": {
+      "message": "패키지 무게"
+   },
+   "page": {
+      "message": "Page"
+   },
+   "page1": {
+      "message": " "
+   },
+   "pageLoading": {
+      "message": "페이지가 열릴때까지 기다려주세요."
+   },
+   "payment": {
+      "message": "지불할 금액"
+   },
+   "paymentChooseMethod": {
+      "message": "지불방법을 선택"
+   },
+   "paymentDone": {
+      "message": "지불 완료"
+   },
+   "paymentFooterMessage": {
+      "message": "\u003Cstrong>40,000\u003C/strong>이 넘는 Amazon 셀러가 \u003Cstrong>AMZScout를 신뢰합니다\u003C/strong>."
+   },
+   "paymentInfo": {
+      "message": "지불정보"
+   },
+   "paymentMethod_card": {
+      "message": "Bank Card"
+   },
+   "paymentRejectedErr": {
+      "message": "지불이 거부되었습니다. 지불 세부 정보를 확인하고 다시 시도하십시오."
+   },
+   "paymentRuble": {
+      "message": "다음단계에서 러시아 루블로 금액이 표시될 것입니다. 하지만 지불은 country: :currency(으)로 이루어집니다. price::currency 입니다."
+   },
+   "paywallTagline": {
+      "message": "아마존에서 성공적인 비즈니스"
+   },
+   "paywallTitleBottom": {
+      "message": "고수익을 유지할 수 있습니다!"
+   },
+   "paywallTitleTop": {
+      "message": "수익성있는 제품 찾기 및 경쟁 업체 우위"
+   },
+   "personalizeView": {
+      "message": "By clicking the Personalize View button, you can customize your view of the data in the Extension"
+   },
+   "ph": {
+      "message": "Philippines"
+   },
+   "pickPack": {
+      "message": "피킹앤패킹비용"
+   },
+   "piece": {
+      "message": "개"
+   },
+   "pk": {
+      "message": "Pakistan"
+   },
+   "previousP": {
+      "message": "Previous Page"
+   },
+   "price": {
+      "message": "가격"
+   },
+   "priceRange": {
+      "message": "Price range"
+   },
+   "productCost": {
+      "message": "제품원가비용"
+   },
+   "productName": {
+      "message": "제품명"
+   },
+   "productPrice": {
+      "message": "제품가"
+   },
+   "productSize": {
+      "message": "제품규격"
+   },
+   "productSizeDimension": {
+      "message": "패키지 크기"
+   },
+   "productUntrackable": {
+      "message": "아마존이 충분한 데이터를 제공하지 않아이 상품을 추적 할 수 없습니다."
+   },
+   "productWeight": {
+      "message": "제품무게"
+   },
+   "product_score_high": {
+      "message": "쉽게 복사하고 판매 할 수있는 훌륭한 제품입니다."
+   },
+   "product_score_low": {
+      "message": "판매를 위해 열심히 노력한 제품."
+   },
+   "product_score_middle": {
+      "message": "당신이 약간의 경험을 가지고 판매 할 수있는 제품."
+   },
+   "products": {
+      "message": "products on"
+   },
+   "profit": {
+      "message": "개당수익"
+   },
+   "profitCalculator": {
+      "message": "수익계산기"
+   },
+   "providerInitErr": {
+      "message": "지불 제공자를 초기화 할 수 없습니다."
+   },
+   "pw1": {
+      "message": "AMZScout의 혜택을 받아보세요."
+   },
+   "pw1AlreadyPaid": {
+      "message": "나는 이미 돈을 지불했다."
+   },
+   "pw1And": {
+      "message": "과"
+   },
+   "pw1BuyNowTitle": {
+      "message": "수익성있는 제품을 찾고 경쟁자를이기십시오."
+   },
+   "pw1ExpiredSubTitle": {
+      "message": "AMZScout PRO 확장 프로그램을 계속 사용하려면 아래 결제 계획을 확인하십시오."
+   },
+   "pw1ExpiredTitle": {
+      "message": "죄송 합니다만 시험 사용 기간이 만료되었습니다."
+   },
+   "pw1MainTitle": {
+      "message": "값"
+   },
+   "pw1Or": {
+      "message": "또는"
+   },
+   "pw1PanelProfit1": {
+      "message": "위험 최소화"
+   },
+   "pw1PanelProfit2": {
+      "message": "이익 극대화"
+   },
+   "pw1PanelProfit3": {
+      "message": "신뢰와 함께 팔아 라."
+   },
+   "pw1PanelProfit4": {
+      "message": "환불 보증"
+   },
+   "pw1PayPalBuyerProtection": {
+      "message": "PayPal 구매자 보호 프로그램"
+   },
+   "pw1PayWith": {
+      "message": "지불"
+   },
+   "pw1PayWithCard": {
+      "message": "은행 카드로 결제하기"
+   },
+   "pw1PaymentTitle": {
+      "message": "지불"
+   },
+   "pw1PlanAnnualHint": {
+      "message": "Identify the most profitable products!"
+   },
+   "pw1PlanAnnualName": {
+      "message": "연간"
+   },
+   "pw1PlanAnnualPriceHint": {
+      "message": "(75% 싼!)"
+   },
+   "pw1PlanLifetimeHint": {
+      "message": "가장 정확한 판매 데이터에 대한 무제한 액세스!"
+   },
+   "pw1PlanLifetimeName": {
+      "message": "일생"
+   },
+   "pw1PlanLifetimePriceHint": {
+      "message": " "
+   },
+   "pw1PlanMonthlyHint": {
+      "message": "몇 분 안에 첫 번째 틈새 시장을 찾으십시오!"
+   },
+   "pw1PlanMonthlyName": {
+      "message": "달마다"
+   },
+   "pw1PlanMostPopular": {
+      "message": "가장 인기있는"
+   },
+   "pw1PlansTitle": {
+      "message": "당신의 계획을 선택하십시오"
+   },
+   "pw1Privacy": {
+      "message": "은둔."
+   },
+   "pw1StripeMoneyBack": {
+      "message": "지급금은 Stripe의 보호를받습니다."
+   },
+   "pw1StripePowered": {
+      "message": "Stripe에 의해 강화 된."
+   },
+   "pw1Terms": {
+      "message": "자귀"
+   },
+   "pw1TrustpilotReviews": {
+      "message": ":reviews 리뷰"
+   },
+   "pw2": {
+      "message": "신뢰할수 있는 매출데이터로 리스크를 최소화합니다."
+   },
+   "pw3": {
+      "message": "하루에 2~3시간을 절감할 수 있습니다. 더 중요한일에 쓰세요."
+   },
+   "pw4": {
+      "message": "판매되지도 않는 몇백개의 상품에서 벗어나세요."
+   },
+   "rank": {
+      "message": "순위"
+   },
+   "rating": {
+      "message": "순위"
+   },
+   "referralFee": {
+      "message": "추천수수료"
+   },
+   "referralMessage": {
+      "message": "이 링크를 친구와 공유하세요. 친구가입시 한사람당 1주일 무료사용이 추가되며 친구도 1주일 무료사용기간을 받을수 있습니다."
+   },
+   "refresh": {
+      "message": "새로고침"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "results": {
+      "message": "결과"
+   },
+   "revenueNiche": {
+      "message": "Revenue per 6 month: \u003Cspan class='niche-item__score-value'>:halfYearSalesAmout\u003C/span> in \u003Cspan class='niche-item__revenue-value'>:halfYearOrderNumber\u003C/span> transactions"
+   },
+   "reviewScore": {
+      "message": "Review score:"
+   },
+   "reviews": {
+      "message": "리뷰갯수"
+   },
+   "reviewsCount": {
+      "message": "리뷰 갯수"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "투자대비수익"
+   },
+   "rpr": {
+      "message": "RPR"
+   },
+   "rprTooltip": {
+      "message": "월별 RPR(Revenue per Review)은 리뷰숫자로 추정수입을 나누어서 계산합니다."
+   },
+   "s1Btn1": {
+      "message": "사용해보겠습니다."
+   },
+   "s1Btn2": {
+      "message": "괜찮습니다."
+   },
+   "s1Message": {
+      "message": "3개월동안 무료로 product tracker와 keyword explorer를 사용해보세요! \u003C/b>\u003Cbr>\u003Cbr> 연락처 정보를 남겨주시면 빠르게 답변드리겠습니다."
+   },
+   "s1Title": {
+      "message": "안녕하세요, AMZScout입니다!"
+   },
+   "s1f": {
+      "message": "몇번의 클릭으로 \u003Cbr>\u0003결정에 필요한 모든 정보를 수집할 수 있습니다."
+   },
+   "s1h": {
+      "message": "데이터 수집하는 \u003Cbr>일상에서 벗어날 수 있습니다."
+   },
+   "s2f": {
+      "message": "잠재적인 틈새시장을 밝굴해 \u003Cbr>판매가능한 제품을 찾습니다."
+   },
+   "s2h": {
+      "message": "신뢰할 수 있는 판매데이터를 바탕으로,"
+   },
+   "s3f": {
+      "message": "리스크를 최소화할 수 있습니다."
+   },
+   "s3h": {
+      "message": "한달안에 판매가능한 제품 수를 예측함으로써,"
+   },
+   "s4f": {
+      "message": "예상했던 결과를 얻도록 해 줍니다."
+   },
+   "s4h": {
+      "message": "바른 결정을 함으로써,"
+   },
+   "sa": {
+      "message": "South Africa"
+   },
+   "sales": {
+      "message": "판매"
+   },
+   "saturationScore": {
+      "message": "가시성 점수"
+   },
+   "saturationScoreHigh": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. This niche is often seen by many sellers researching the market. Their high interest in this niche can indicate either that it is a large niche with big sales and high competition or that there are some notable trends prompting sellers to market research in this niche.\u003C/p>"
+   },
+   "saturationScoreMiddle": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. Although a significant number of sellers consider this niche in their market research, there aren't too many of them. It makes sense to enter and take a position in this niche right now because it has significant potential and is not yet saturated.\u003C/p>"
+   },
+   "saturationScoreTTLow": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. A very small number of sellers have noticed this niche while researching the market. The chances of making a successful business and significant profit in this niche are extremely high.\u003C/p>"
+   },
+   "save": {
+      "message": "저장"
+   },
+   "sc": {
+      "message": "South Korea"
+   },
+   "searchAli": {
+      "message": "AliBaba에서 찾기"
+   },
+   "searchButtonCaption": {
+      "message": "Search products"
+   },
+   "searchGoogle": {
+      "message": "Google에서 찾기"
+   },
+   "searchPlaceHolder": {
+      "message": "Enter a product to search, eg. plastic straw rug"
+   },
+   "searchSuppTitle": {
+      "message": "Search Suppliers\u003C/br>on Alibaba.com"
+   },
+   "searchSupplierDisabled": {
+      "message": "To find a supplier on Alibaba with Extension Pro, please open a specific product page on Amazon or type a keyword into the search bar on Amazon to open the search results page"
+   },
+   "searchSuppliers": {
+      "message": "Search Suppliers"
+   },
+   "selectPlan": {
+      "message": "선택한 플랜"
+   },
+   "selectYourPlan": {
+      "message": "플랜을 선택해주세요."
+   },
+   "seller": {
+      "message": "셀러"
+   },
+   "sellerIsFBA": {
+      "message": "FBA셀러"
+   },
+   "sellers": {
+      "message": "셀러"
+   },
+   "sellersTooltip": {
+      "message": "이 제품의 셀러 수"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "show": {
+      "message": "보여 주다"
+   },
+   "signOut": {
+      "message": "로그 아웃"
+   },
+   "signUp": {
+      "message": "로그인"
+   },
+   "signUpMessage1": {
+      "message": "평가판 사용시 신용 카드가 필요하지 않습니다."
+   },
+   "signUpMessage2": {
+      "message": "가입 한 후 앱을 완벽하게 사용할 수 있습니다."
+   },
+   "signUpMessage3": {
+      "message": "개인 테이터가 안전하게 유지됩니다"
+   },
+   "signUpTitle": {
+      "message": "귀하의\u003Cbr>\u003Cspan class='highlight'>수익성있는 상품\u003C/span>찾기"
+   },
+   "signUpWithChrome": {
+      "message": "Chrome"
+   },
+   "signUpWithEmail": {
+      "message": "Email"
+   },
+   "signUpWithFacebook": {
+      "message": "Facebook"
+   },
+   "signUpWithGoogle": {
+      "message": "Google"
+   },
+   "signUpWithWeibo": {
+      "message": "Weibo"
+   },
+   "skip": {
+      "message": "건너뛰기"
+   },
+   "sponsored": {
+      "message": "스폰서"
+   },
+   "startTrial": {
+      "message": "체험을 시작합니다."
+   },
+   "startingAt": {
+      "message": "Starting at $$:lowestPrice per unit"
+   },
+   "step": {
+      "message": "Step"
+   },
+   "stepByC": {
+      "message": "Step-by-step  Course"
+   },
+   "stopShowingTips": {
+      "message": "힌트가 필요하지 않습니다."
+   },
+   "strictFilterTooltip": {
+      "message": "필터 매개 변수가 너무 엄격합니다. 필터를 변경하거나 필터를 끄십시오."
+   },
+   "suppliedBy": {
+      "message": "Supplied by:"
+   },
+   "supplierCountry": {
+      "message": "Supplier country"
+   },
+   "suppliersON": {
+      "message": "suppliers on"
+   },
+   "suppliersTrade": {
+      "message": "Supporting trade assurance only"
+   },
+   "suppliersVerified": {
+      "message": "Verified only"
+   },
+   "t0": {
+      "message": "AMZScout Pro를 \u003Ca target='_blank' href='/stream'>Stream\u003C/a> 또는 \u003Ca target='_blank' href='/gp/goldbox/'>Goldbox\u003C/a> 페이지를 통해 사용하도록 해보세요. 정말 많은 아이디어가 있습니다. AMZScout Pro는 거의 모든 아마존 페이지에 적용이 가능합니다. \u003Cbr>우리는 \u003Ca target='_blank' href='/gp/movers-and-shakers'>Movers and Shakers\u003C/a> 페이지 또는 \u003Ca target='_blank' href='/gp/most-wished-for'>Most Wished For\u003C/a>에서도 세심하게 정보를 끌어옵니다."
+   },
+   "t1": {
+      "message": "제품 스프레드시트의 모든 \u003Cb>파란색 숫자\u003C/b>와 줄은 \u003Cb>클릭가능\u003C/b>하도록 되어있습니다. 클릭해서 각 숫자들이 무엇인지 확인해 보도록 하세요."
+   },
+   "t10": {
+      "message": "\u003Cb>몇초동안 커서를 LQS 숫자근처에 가져가면\u003C/b> 리스팅 퀄리티에 대한 상세정보를 볼 수 있습니다."
+   },
+   "t11": {
+      "message": "\u003Cb>가격을 클릭하시면\u003C/b> 시간별 가격변화를 볼 수 있습니다."
+   },
+   "t2": {
+      "message": "각 컬럼의 제목들에는 팝아웃 힌트 창이 있습니다. 커서를 몇초동안 제목근처로 가져가면 볼수 있습니다. 이 기능으로 \u003Cb>아무 제목이나 클릭\u003C/b>해서 스프레드시트의 \u003Cb>데이터를 분류\u003C/b>할 수 있습니다. \u003Cbr> 페이지에 나와있는 번호로 제품을 분류하려면, 첫번째 컬럼 헤더의 #사인을 클릭합니다."
+   },
+   "t3": {
+      "message": "왼쪽의 별을 클릭하면 제품을 즐겨찾기에 추가할 수 있고, 아래쪽의 즐겨찾기 버튼을 클릭해 언제든 확인할 수 있습니다."
+   },
+   "t4": {
+      "message": "\u003Cb>FBA수수료 또는 순이익 컬럼의 숫자들을 클릭하면\u003C/b> 수익계산기가 열리게되고, 제품의 원가비용을 입력하면 수익과 ROI를 계산해 줍니다."
+   },
+   "t5": {
+      "message": "\u003Cb>Rank컬럼의 숫자를 클릭하면\u003C/b> 시간별 순위변화를 볼 수 있습니다."
+   },
+   "t6": {
+      "message": "\u003Cb>커서를 오른쪽의 세로로 나열된 3개의 점위로 가져가면 \u003C/b> 드랍다운 메뉴가 열리고 \u003Cb>Alibaba에서 유사제품을 찾아 제품의 ASIN을 복사하거나 제품의 키워드를 찾도록 합니다.\u003C/b>"
+   },
+   "t7": {
+      "message": "오른쪽의 세로로된 3개의 점을 클릭해서 필요한 액션을 선택하세요. \u003Cb>키워드 아이디어\u003C/b>를 찾아 제품을 효과적으로 홍보할 수 있습니다."
+   },
+   "t8": {
+      "message": "BSR 컬럼에서 둥근오렌지 사인이있다면 그 제품이 1위에 랭크된 베스트 셀러라는 뜻입니다. \u003Cbr> 사인근처에 커서를 가져가면 어떤 카테고리에서 제품이 베스트 셀러로 랭크되었는지 알 수 있습니다."
+   },
+   "t9": {
+      "message": "\u003Cb>제품에 브랜드에대한 컨텐츠가 강화되었거나 A+ 리스팅인 경우\u003C/b> EBC 컬럼에 그린색 체크마크가 나타납니다. \u003Cbr>EBC는 아마존 내의 브랜드등록절차를 통과해 브랜드 오너로 선정된 셀러들에게 오픈됩니다."
+   },
+   "textCurrentSalesValue": {
+      "message": "Current estimated daily sales volume is # items "
+   },
+   "textNodatafull": {
+      "message": "*There is no price, sales and rank history for this product for this date"
+   },
+   "textNodatapriceNo": {
+      "message": "*There is no price history for this product for this date"
+   },
+   "textNodatapriceandrankNo": {
+      "message": "*There is no price and rank history for this product for this date"
+   },
+   "textNodatapriceandsalesNo": {
+      "message": "*There is no price and sales history for this product for this date"
+   },
+   "textNodatarankNo": {
+      "message": "*There is no rank history for this product for this date"
+   },
+   "textNodatarankandsalesNo": {
+      "message": "*There is no rank and sales history for this product for this date"
+   },
+   "textNodatasalesNo": {
+      "message": "*There is no sales history for this product for this date"
+   },
+   "textSameDatasales": {
+      "message": "There is not enough data to estimate sales volume changes for some periods after "
+   },
+   "th": {
+      "message": "Thailand"
+   },
+   "theyearly": {
+      "message": "the yearly sales history of the product to check for yourself."
+   },
+   "tips": {
+      "message": "힌트"
+   },
+   "to": {
+      "message": "to"
+   },
+   "toggleFilterTitle": {
+      "message": "필터활성화/비활성화"
+   },
+   "totalFee": {
+      "message": "총 FBA수"
+   },
+   "tr": {
+      "message": "Turkey"
+   },
+   "trackAddedMessage": {
+      "message": "이 항목을 \u003Ca href=\":url\" target='_blank'> 제품 추적기 \u003C/a>에 추가했습니다. 판매, 리뷰 및 재고 내역을 곧 확인할 수 있습니다."
+   },
+   "tracksLimitExceed": {
+      "message": "계획 추적 한도를 초과했습니다."
+   },
+   "trends": {
+      "message": "트렌드"
+   },
+   "trialEnded": {
+      "message": "사용기간이 만료되었습니다."
+   },
+   "trialEndedAlert": {
+      "message": "서비스를 계속 사용하기 위해서는 AMZScout extension을 구매해야 합니다."
+   },
+   "trialEndedSub": {
+      "message": "지금 구매하고 경쟁자의 매출을 관리하세요."
+   },
+   "trialMessage": {
+      "message": "7일동안 AMZScout Chrome Extension의 모든 기능을 마음껏 사용하실 수 있습니다. \u003Cbr>\u003Cbr>크레딧카드 정보를 입력하실 필요가 없습니다. 추가도 없습니다. \u003Cbr>\u003Cbr>AMZScout에 대한 팁을 알려드립니다:\u003Cbr>\t- 테이블의 거의 모든 header들은 유용한 tooltip입니다. 마우스를 가져가면 보실 수 있습니다. \u003Cbr>\t- 테이블 header를 클릭하시면 어떤 컬럼이든 데이터정렬이 가능합니다. \u003Cbr>\t- 테이블내의 파란색 숫자들은 클릭이 가능하며 더 많은 기회를 만들어낼 수 있습니다. \u003Cbr>\u003Cbr>Have a good scouting with AMZScout!"
+   },
+   "trialMessageBtnMore": {
+      "message": "자세한정보"
+   },
+   "trialMessageBtnStart": {
+      "message": "시작합니다."
+   },
+   "trialTitle": {
+      "message": "AMZScout 무료체험"
+   },
+   "try": {
+      "message": "Try"
+   },
+   "tryDay": {
+      "message": "하루만 써보세요."
+   },
+   "tryPro": {
+      "message": "Pro를 포함"
+   },
+   "tryProPeriod": {
+      "message": "2주간 무료"
+   },
+   "tutorial": {
+      "message": "지도 시간"
+   },
+   "tutorialTitle": {
+      "message": "안내 MZScout PRO Extension"
+   },
+   "uk": {
+      "message": "United Kingdom"
+   },
+   "unhandledErr": {
+      "message": "틀린 페이지에 있는것 같네요. 다른페이지로 다시시도하세요."
+   },
+   "url": {
+      "message": "URL"
+   },
+   "us": {
+      "message": "United States"
+   },
+   "usa": {
+      "message": "USA"
+   },
+   "variants": {
+      "message": "Variants"
+   },
+   "variantsTooltip": {
+      "message": "variant 갯수"
+   },
+   "variationsTips": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Products on Amazon can have multiple variations (eg. colors, sizes, etc). \u003Cbr> \u003Cbr> This product has :variations variations on Amazon. The Sales Estimation column provided in Pro  Extension is for all variations added together. If you would like to check the popularity and demand for a specific color or size of a product, you can enter corresponding keywords into \u003Ca class='hot-tooltip__link' target='_blank' href=\":url\">Keyword Search.\u003C/a>\u003C/span>\u003C/div>"
+   },
+   "verifiedSince": {
+      "message": "Verified since"
+   },
+   "vi": {
+      "message": "Vietnam"
+   },
+   "videoT": {
+      "message": "Video Tutorial"
+   },
+   "view": {
+      "message": "View"
+   },
+   "weight": {
+      "message": "중량"
+   },
+   "weightHandling": {
+      "message": "중량취급비용"
+   },
+   "wrongPage": {
+      "message": "지금 아마존 홈페이지가 열려있지 않은것 같네요. 참고용 화면을 띄워서 AMZScout를 실행합니다. Happy scouting. Regards, AMZScout team"
+   },
+   "yes": {
+      "message": "Yes"
+   },
+   "youCanSkipThisIn": {
+      "message": "기다려주십시오"
+   },
+   "youViewed": {
+      "message": "You've viewed"
+   },
+   "yourPlan": {
+      "message": "내플랜"
+   }
+}

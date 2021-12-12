@@ -1,0 +1,32 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "scripts/background/events.js", "scripts/background/background.js" ]
+      }
+   },
+   "description": "The only true Microsoft Remote Desktop app for the Chrome browser.",
+   "differential_fingerprint": "1.a869778609d047b55946c2fe1471d3e5c65ad3ccaff8758095b67fc41aebf3ec",
+   "externally_connectable": {
+      "matches": [ "https://gauth.fusionlabs.net/*", "https://*.google.com/*" ]
+   },
+   "icons": {
+      "128": "images/rdp_gce_icon-128.png",
+      "16": "images/rdp_gce_icon-16.png",
+      "48": "images/rdp_gce_icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnqhZzJuch9tM5ISaIh5mIycqIfzXo5DXZatS8hXHrsf9h/G1eovVwxh23boadv6VLwbPAgw0z+33+iZG6BANVID48wGPf7Xom630mVlUdoTokPyG9uQ+pDPNwDws48HqXFcUOnPHdeiRLoBoe4f9NCQNSvamLWH5NqZ/juf81zUPXncF2s6vmTbDPAc2z129cfM2Vf3aclKXx2FvYgt2/lPy7K69Zdh+u4C2c9LomXR7DQTzz7S37IP/ZQYnK4xkAij0HtI+lPW9rmB1wrLamfMvcU3KmLNe56CctJhZARn4Bu0XSTmKbqPZ+L8jN/bg+fLUii/iAQq4btMTEcN5mwIDAQAB",
+   "kiosk_enabled": true,
+   "manifest_version": 2,
+   "minimum_chrome_version": "47.0",
+   "name": "Chrome RDP for Google Cloud Platform",
+   "permissions": [ "clipboardRead", "clipboardWrite", "unlimitedStorage", "storage", "notifications", "overrideEscFullscreen", {
+      "socket": [ "tcp-connect", "resolve-host", "network-state" ]
+   } ],
+   "sockets": {
+      "tcp": {
+         "connect": [ "" ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.47.2.6"
+}

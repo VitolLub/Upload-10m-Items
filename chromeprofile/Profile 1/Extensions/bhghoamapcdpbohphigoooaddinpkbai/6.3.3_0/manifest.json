@@ -1,0 +1,54 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "dist/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "view/popup.html",
+      "default_title": "__MSG_extShortName__"
+   },
+   "commands": {
+      "_execute_browser_action": {
+
+      },
+      "scan-qr": {
+         "description": "Scan a QR code"
+      }
+   },
+   "content_security_policy": "script-src 'self'; font-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src https://www.google.com/ https://*.dropboxapi.com https://www.googleapis.com/ https://accounts.google.com/o/oauth2/revoke https://login.microsoftonline.com/common/oauth2/v2.0/token https://graph.microsoft.com/; default-src 'none'",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjo5++7m6mlJGqKOnlYehr9tjIqahMZBJUG7PLa7dSRk6bDUu2pVodO1TQWviHlrDTLP+zfoVbDBS8v8cjloK5Tn90nzC6a957dPzOfyC1WUNYNDlGM0BCmZKVP/MWB3d0ffOmTwaxh0L47aLH5nTW0AUmuwCWCBEEl4Acuyp7rwLNGlazBpaom1Qb5ckn29gCJVVVIZ6wudmcrG/FPTNJXQbg8N6wObGrgGOaxmowbkzJmIfKTyHlYOKLAjZ7aJi0W6jsy47/aV+ojvn4gO+ka6BcRhUeWgoQxqEky119f3OWiVP46SJVbAi0pkknThUjDvX11lATGjB5EvJZGyotwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "oauth2": {
+      "client_id": "292457304165-u8ve4j79gag5o231n5u2pdtdrbfdo1hh.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "offline_enabled": true,
+   "optional_permissions": [ "clipboardWrite", "contextMenus", "https://www.google.com/", "https://*.dropboxapi.com/*", "https://www.googleapis.com/*", "https://accounts.google.com/o/oauth2/revoke", "https://graph.microsoft.com/me/*", "https://login.microsoftonline.com/common/oauth2/v2.0/token" ],
+   "options_ui": {
+      "chrome_style": true,
+      "page": "view/options.html"
+   },
+   "permissions": [ "activeTab", "storage", "identity" ],
+   "sandbox": {
+      "content_security_policy": "sandbox allow-scripts; script-src 'self' 'unsafe-eval';",
+      "pages": [ "view/argon.html" ]
+   },
+   "short_name": "__MSG_extShortName__",
+   "storage": {
+      "managed_schema": "schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.3.3"
+}

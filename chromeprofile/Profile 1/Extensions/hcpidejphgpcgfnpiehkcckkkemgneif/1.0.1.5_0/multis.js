@@ -1,0 +1,1 @@
+$.fn.shiftSelectable=function(){var b,c=this;c.click(function(d){if(b&&d.shiftKey){var a=c.index(b),e=c.index(this);d=Math.max(e,a);var f=b.checked;for(a=Math.min(e,a);a<=d;a++)c[a].checked=f}b=this})};

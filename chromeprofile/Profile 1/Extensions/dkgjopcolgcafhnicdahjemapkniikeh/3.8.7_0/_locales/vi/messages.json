@@ -1,0 +1,155 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "GR": {
+      "message": "gram"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "inch"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "kilogam"
+   },
+   "POUND": {
+      "message": "pao"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "USD": {
+      "message": "$"
+   },
+   "appDesc": {
+      "message": "FBA Calculator hiển thị phí của Amazon, biên lợi nhuận bán hàng, doanh thu và lợi nhuận ròng của sản phẩm và được sử dụng miễn phí."
+   },
+   "appName": {
+      "message": "Máy tính Amazon FBA miễn phí bởi AMZScout"
+   },
+   "bannerText": {
+      "message": "Tìm ra hàng tồn kho, doanh thu hàng tháng và lịch sử giá cho các mặt hàng này \u003Ca href='https://amzscout.net/api/go?url=SCOUT_EXT_PRO&utm_source=calc&utm_campaign=baner' target='_blank'>Kiếm nhiều hơn\u003C/a>"
+   },
+   "bannerTextStats": {
+      "message": "Bạn có muốn biết Amazon mức bán hàng tồn kho miễn phí?? \u003Ca href='https://goo.gl/rFZcHW' target='_blank'>Tôi muốn\u003C/a>"
+   },
+   "cannotFees": {
+      "message": "Désolé, Amazon ne fournit pas d'informations sur les frais pour ce produit"
+   },
+   "cessFee": {
+      "message": "Dịch vụ & sau trung học Phí"
+   },
+   "cpcCost": {
+      "message": "Chi phí CPC"
+   },
+   "dateFirstAvailable": {
+      "message": "Ngày đầu tiên có hàng"
+   },
+   "deliveryFee": {
+      "message": "Phí giao hàng"
+   },
+   "estimatedRevenue": {
+      "message": "Lợi tức ước tính hàng tháng"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Lợi tức ước tính hàng tháng dựa trên Doanh số ước tính hàng tháng và Tác động lợi nhuận"
+   },
+   "estimatedSales": {
+      "message": "Doanh số ước tính hàng tháng"
+   },
+   "fixedClosingFee": {
+      "message": "Phí đóng cố định"
+   },
+   "marginImpact": {
+      "message": "Ký quỹ ròng"
+   },
+   "monthlyStorage": {
+      "message": "Lưu trữ hàng tháng"
+   },
+   "negativeNumberTooltipEstMonthly": {
+      "message": "Beware, this is a negative Est.Monthly Profit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipNet": {
+      "message": "Beware, this is a negative Net Margin you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "negativeNumberTooltipProfit": {
+      "message": "Beware, this is a negative Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees."
+   },
+   "orderHandling": {
+      "message": "Xử lí đơn hàng"
+   },
+   "packageWeight": {
+      "message": "Trọng lượng gói hàng"
+   },
+   "pageLoadingErr": {
+      "message": "Dường như trang đã không tải hoàn toàn. Làm mới lại trang và thử lại."
+   },
+   "pickPack": {
+      "message": "Chọn & đóng gói"
+   },
+   "piece": {
+      "message": "cái."
+   },
+   "productCost": {
+      "message": "Chi phí sản phẩm"
+   },
+   "productPrice": {
+      "message": "Giá sản phẩm"
+   },
+   "productSize": {
+      "message": "Kích cỡ sản phẩm"
+   },
+   "productSizeDimension": {
+      "message": "Kích cỡ gói"
+   },
+   "productWeight": {
+      "message": "Trọng lượng sản phẩm"
+   },
+   "profitPerUnit": {
+      "message": "Lợi nhuận"
+   },
+   "referralFee": {
+      "message": "Phí giới thiệu"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Hoàn lại vốn đầu tư"
+   },
+   "shippingCost": {
+      "message": "Giá vận chuyển"
+   },
+   "taxes": {
+      "message": "Thuế"
+   },
+   "totalFee": {
+      "message": "Tổng chi phí FBA"
+   },
+   "tryScout": {
+      "message": "Dùng thử miễn phí AMZScout PRO!"
+   },
+   "unsupportedDomainErr": {
+      "message": "Chúng tôi rất tiếc, nhưng tên miền này hiện không được hỗ trợ."
+   },
+   "variableClosingFee": {
+      "message": "Phí đóng cửa biến"
+   },
+   "weightHandling": {
+      "message": "Chọn & đóng gói"
+   },
+   "wrongPageErr": {
+      "message": "Dường như chúng tôi đang ở trang không đúng.\u003Cbr>Mở trang sản phẩm Amazon và thử lại!"
+   }
+}

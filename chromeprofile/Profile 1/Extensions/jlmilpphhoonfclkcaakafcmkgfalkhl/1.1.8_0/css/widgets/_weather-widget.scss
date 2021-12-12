@@ -1,0 +1,378 @@
+/* Weather widget */
+.weather {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 30px;
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 4px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 50;
+    cursor: pointer;
+    &:hover {
+        background-color: #000;
+        border-color: #fff;
+        .weather__label {
+            color: #fff;
+        }
+        .weather__location {
+            color: $orange;
+        }
+    }
+    &__icon {
+        margin-right: 10px;
+    }
+    &__label {
+        display: inline-block;
+        font-size: 8px;
+        line-height: 9px;
+        color: rgba(255,255,255, 0.8);
+        text-transform: uppercase;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: -14px;
+    }
+    &__location {
+        font-size: 10px;
+        line-height: 11px;
+        font-weight: bold;
+        color: rgba(255,255,255,0.7);
+    }
+    &__temp {
+        display: block;
+        font-size: 26px;
+        line-height: 30px;
+        color: #fff;
+        b {
+            font-weight: bold;
+        }
+    }
+}
+.weather-details {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #fff;
+    z-index: 50;
+    width: 300px;
+    height: auto;
+    max-height: calc(100vh - 20px);
+    padding-top: 20px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+    border-radius: 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &:hover::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background: rgba(0,0,0,0.5);
+    }
+    &::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(0,0,0,0.2);
+    }
+}
+
+.location {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all.3s;
+    color: #494949;
+    font-weight: bold;
+    &:hover {
+        color: $blue;
+    }
+}
+
+.current-weather {
+    text-align: center;
+    border-bottom: 1px solid $border-color;
+    &__temp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        height: 64px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #D6D6D6;
+        i {
+            margin-right: 10px;
+        }
+    }
+    &__desc {
+        font-size: 12px;
+        line-height: 14px;
+        color: #494949;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+    &__params {
+        display: flex;
+        padding: 15px 20px;
+        justify-content: space-between;
+    }
+    &__param {
+        display: block;
+        width: 80px;
+    }
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    &__icon {
+        margin-right: 5px;
+        img {
+            display: block;
+        }
+    }
+    &__label {
+        font-size: 11px;
+        line-height: 14px;
+        color: #757575;
+    }
+    &__value {
+        color: #494949;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 14px;
+        white-space: nowrap;
+        &_humidity {
+            color: $blue;
+        }
+    }
+}
+
+.hourly-forecast {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px 9px;
+    border-bottom: 1px solid $border-color;
+    &__item {
+        display: block;
+        width: 80px;
+        text-align: center;
+    }
+    &__time {
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: bold;
+        color: #757575;
+        margin-bottom: 2px;
+    }
+    &__humidity {
+        color: $blue;
+        font-size: 10px;
+        line-height: 11px;
+        font-weight: bold;
+    }
+    &__temp {
+        color: #494949;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: bold;
+    }
+    &__icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        margin: 8px auto;
+    }
+}
+
+.daily-forecast {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 17px;
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 36px;
+        padding: 0 15px;
+    }
+    &__day {
+        font-size: 13px;
+        line-height: 15px;
+        color: #323232;
+        font-weight: bold;
+        width: 100px;
+    }
+    &__temp {
+        display: inline-block;
+        font-size: 13px;
+        line-height: 14px;
+        color: #98A4AC;
+        width: 65px;
+        flex-shrink: 0;
+        text-align: right;
+        &_d {
+            color: #323232;
+            font-weight: bold;
+            margin-right: 3px;
+        }
+        &_n {
+            margin-left: 3px;
+        }
+    }
+    &__params {
+        display: flex;
+        align-items: center;
+        width: 70px;
+        text-align: left;
+        flex-shrink: 0;
+        img {
+            display: block;
+            width: 24px;
+            height: 24px;
+        }
+        span {
+            display: block;
+            color: $blue;
+            font-size: 11px;
+            line-height: 12px;
+            font-weight: bold;
+            margin-left: 7px;
+        }
+    }
+}
+
+.hide-details {
+    background-color: $blue;
+    color: #fff;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 10px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.weather-settings {
+    .popup__body {
+        padding: 15px 20px 30px 20px;
+    }
+    .popup__title {
+        margin-bottom: 40px;
+    }
+    .popup__content {
+        padding-left: 20px;
+        padding-right: 20px;
+        .subtitle {
+            margin-top: 30px;
+        }
+        .input {
+            margin-top: 10px;
+        }
+        .radio label {
+            display: block;
+            line-height: 16px;
+        }
+    }
+}
+
+// Weather icons
+// https://openweathermap.org/weather-conditions
+$weather-icons: icon_01 icon_02 icon_03 icon_04 icon_09 icon_10 icon_11 icon_13 icon_50;
+
+$weather-icons-individual: icon_611 icon_612 icon_615 icon_616 icon_701 icon_741 icon_761 icon_781 icon_903 icon_904 icon_905 icon_906 icon_962;
+
+.w-icon_24px {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    // Common day icons
+    @each $icon in $weather-icons {
+        &.w-#{$icon}d {
+            background-image: url('../images/weather-icons/#{$icon}d-64px.png');
+        }
+    }
+    // Common night icons
+    @each $icon in $weather-icons {
+        &.w-#{$icon}n {
+            background-image: url('../images/weather-icons/#{$icon}n-64px.png');
+        }
+    }
+
+    // Individual icons
+    @each $icon in $weather-icons-individual {
+        &.w-#{$icon} {
+            background-image: url('../images/weather-icons/#{$icon}-64px.png') !important;
+        }
+    }
+}
+
+.w-icon_64px {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    // Day icons
+    @each $icon in $weather-icons {
+        &.w-#{$icon}d {
+            background-image: url('../images/weather-icons/#{$icon}d-64px@2x.png');
+        }
+    }
+    // Night icons
+    @each $icon in $weather-icons {
+        &.w-#{$icon}n {
+            background-image: url('../images/weather-icons/#{$icon}n-64px@2x.png');
+        }
+    }
+
+    &.w-icon_09d,
+    &.w-icon_09n {
+        background-position: top -6px center;
+    }
+    &.w-icon_02d {
+        background-position: top 5px center;
+    }
+    &.w-icon_10d {
+        background-size: 54px;
+    }
+    &.w-icon_10n {
+        background-position: top -5px center;
+    }
+    &.w-icon_11d,
+    &.w-icon_11n {
+        background-position: top -5px center;
+    }
+    &.w-icon_13d,
+    &.w-icon_13n {
+        background-position: top -5px center;
+    }
+
+
+    // Individual icons
+    @each $icon in $weather-icons-individual {
+        &.w-#{$icon} {
+            background-position: center;
+            background-image: url('../images/weather-icons/#{$icon}-64px@2x.png') !important;
+        }
+    }
+    &.w-icon_906 {
+        background-position: top -5px center;
+    }
+}

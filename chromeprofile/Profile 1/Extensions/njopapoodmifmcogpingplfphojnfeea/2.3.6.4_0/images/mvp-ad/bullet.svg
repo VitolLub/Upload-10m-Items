@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="9" viewBox="0 0 8 9">
+    <g fill="#FFA23C" fill-rule="evenodd">
+        <g transform="translate(0 .5)">
+            <circle cx="4" cy="4" r="4" fill-opacity=".28"/>
+            <circle cx="4" cy="4" r="3"/>
+        </g>
+        <g transform="translate(1 1.5)">
+            <circle cx="3" cy="3" r="3" fill-opacity=".28"/>
+            <circle cx="3" cy="3" r="2.25"/>
+        </g>
+    </g>
+</svg>

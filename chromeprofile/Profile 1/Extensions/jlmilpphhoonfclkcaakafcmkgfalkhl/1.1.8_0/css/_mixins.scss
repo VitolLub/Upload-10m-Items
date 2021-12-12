@@ -1,0 +1,17 @@
+@mixin retina-bg($image) {
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+        & {
+            background-image: url($image);
+        }
+    }
+}
+
+@mixin clearfix() {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}

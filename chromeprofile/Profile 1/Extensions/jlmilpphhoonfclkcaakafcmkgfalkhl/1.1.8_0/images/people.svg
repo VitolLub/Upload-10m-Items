@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>people</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-643.000000, -697.000000)" fill="#757575">
+            <g id="ct-block" transform="translate(10.000000, 345.000000)">
+                <g id="registred">
+                    <g id="stat" transform="translate(533.000000, 350.000000)">
+                        <g id="people" transform="translate(100.000000, 0.000000)">
+                            <g transform="translate(0.000000, 2.000000)">
+                                <circle id="Oval-8" cx="4" cy="2" r="2"></circle>
+                                <path d="M2.74801465,5 L5.25198535,5 C6.21845246,5 7.08451365,5.59684834 7.42857143,6.5 L7.42857143,6.5 C7.64606199,7.07091272 7.35955672,7.71003987 6.78864399,7.92753043 C6.66287816,7.97544122 6.52942514,8 6.3948425,8 L1.6051575,8 C0.994220941,8 0.498959002,7.50473806 0.498959002,6.8938015 C0.498959002,6.75921885 0.523517778,6.62576583 0.571428571,6.5 L0.571428571,6.5 C0.915486345,5.59684834 1.78154754,5 2.74801465,5 Z" id="Rectangle-26"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "lib/codemirror.js", "mode/javascript/javascript.js", "autoload.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "You can trick any page! Add your own JavaScript (powered by JQuery) and/or CSS to any page.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "24": "icon24.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8DGEXyCSf27pPqfW38VftpJdTXc58XsGOQXrc+YPBhNsf1nPEDWwabpSepi9Cs9UZSnxnBhthZ8e5p71VALn1ISC8UrYcZxzc4lLcjzRLgzEzK54VH82kDhCTvfxPonz17ogSTXuMMtt2sFDk4X105MDAzujTIVZmkUoNkl7vXwIDAQAB",
+   "manifest_version": 2,
+   "name": "JScript tricks",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.88"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="48px" viewBox="0 0 36 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_gdocs</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#518FF5" offset="0%"></stop>
+            <stop stop-color="#4385F4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2.14648445,0 C0.964584981,0 0,0.970415953 0,2.1674847 L0,45.4000829 C0,46.5958323 0.961013822,47.5675676 2.14648445,47.5675676 L33.2300854,47.5675676 C34.4119849,47.5675676 35.3765699,46.5971516 35.3765699,45.4000829 L35.3765699,11.5828644 L23.8957832,0 L2.14648445,0 Z" id="path-2"></path>
+        <filter x="-1.4%" y="-1.1%" width="102.8%" height="102.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.223529412   0 0 0 0 0.454901961   0 0 0 0 0.835294118  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.423529412   0 0 0 0 0.631372549   0 0 0 0 0.968627451  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#3664B2" offset="0%"></stop>
+            <stop stop-color="#4788F4" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="4.36657266%" x2="50%" y2="28.4136813%" id="linearGradient-6">
+            <stop stop-color="#345FA7" offset="0%"></stop>
+            <stop stop-color="#2B70E3" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-7" points="24.4214681 11.15561 35.4145074 22.397364 35.4145074 11.15561"></polygon>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-03" transform="translate(-681.000000, -321.000000)">
+            <g id="icons" transform="translate(286.000000, 300.000000)">
+                <g id="row">
+                    <g id="item" transform="translate(363.000000, 0.000000)">
+                        <g id="icon_gdocs" transform="translate(32.000000, 21.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Background">
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                            </g>
+                            <g id="Shadow" mask="url(#mask-3)">
+                                <use fill-opacity="0.8" fill="url(#linearGradient-5)" xlink:href="#path-7"></use>
+                                <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                            </g>
+                            <rect id="Light-Blue" fill="#A6C5FA" mask="url(#mask-3)" x="23.5843799" y="-2.72540797" width="14.5043879" height="14.6172999" rx="2.7027027"></rect>
+                            <path d="M9.11214678,21.6216216 L26.2644231,21.6216216 L26.2644231,23.2432432 L9.11214678,23.2432432 L9.11214678,21.6216216 L9.11214678,21.6216216 Z M9.11214678,25.4054054 L26.2644231,25.4054054 L26.2644231,27.027027 L9.11214678,27.027027 L9.11214678,25.4054054 L9.11214678,25.4054054 Z M9.11214678,29.1891892 L26.2644231,29.1891892 L26.2644231,30.8108108 L9.11214678,30.8108108 L9.11214678,29.1891892 L9.11214678,29.1891892 Z M9.11214678,32.972973 L19.8323195,32.972973 L19.8323195,34.5945946 L9.11214678,34.5945946 L9.11214678,32.972973 L9.11214678,32.972973 Z" id="Shape" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

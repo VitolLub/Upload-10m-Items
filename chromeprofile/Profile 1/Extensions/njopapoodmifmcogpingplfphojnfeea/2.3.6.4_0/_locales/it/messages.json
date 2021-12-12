@@ -1,0 +1,2069 @@
+{
+   "CM": {
+      "message": "cm"
+   },
+   "EUR": {
+      "message": "€"
+   },
+   "GBP": {
+      "message": "£"
+   },
+   "ILS": {
+      "message": "₪"
+   },
+   "INCH": {
+      "message": "pollici"
+   },
+   "INR": {
+      "message": "₹"
+   },
+   "KG": {
+      "message": "chilogrammi"
+   },
+   "POUND": {
+      "message": "libbre"
+   },
+   "RON": {
+      "message": "L"
+   },
+   "RUB": {
+      "message": "₽"
+   },
+   "UAH": {
+      "message": "₴"
+   },
+   "USD": {
+      "message": "$$"
+   },
+   "VND": {
+      "message": "₫"
+   },
+   "aboutAppVersion": {
+      "message": "Versione app"
+   },
+   "aboutExpires": {
+      "message": "Scade il"
+   },
+   "aboutLicence": {
+      "message": "Licenza"
+   },
+   "aboutLicenceType": {
+      "message": "Tipo di licenza"
+   },
+   "aboutModalTitle": {
+      "message": "Informazioni   "
+   },
+   "aboutRegisteredTo": {
+      "message": "Registrato a"
+   },
+   "activeExceed": {
+      "message": "Numero di installazioni attive superato"
+   },
+   "activeLimit": {
+      "message": "Limite di installazioni"
+   },
+   "addToTracker": {
+      "message": "Aggiungi al tracker"
+   },
+   "additionalMonthlyCosts": {
+      "message": "Costi mensili aggiuntivi"
+   },
+   "additionalProductCost": {
+      "message": "Supplemento per costo unitario"
+   },
+   "allRowsAreNotAvailable": {
+      "message": "Tutte le righe saranno disponibili nella versione a pagamento."
+   },
+   "alreadyPaid": {
+      "message": "Ho già effettuato il pagamento"
+   },
+   "alreadyPaidContact": {
+      "message": "Please contact us at \u003Ca class='btn--dotted already-pay__btn_dotted' href='mailto:support@amzscout.net'>support@amzscout.net\u003C/a> if this didn’t solve the problem."
+   },
+   "alreadyPaidQuestion": {
+      "message": "If you paid for PRO Extension and are still experiencing licensing issues, please follow these steps to fix it:"
+   },
+   "alreadyPaidStep1": {
+      "message": "Delete the AMZScout PRO Extension from your Chrome browser"
+   },
+   "alreadyPaidStep2": {
+      "message": "\u003Ca target='_blank' class='btn--dotted already-pay__btn_dotted' href='https://chrome.google.com/webstore/detail/amzscout-pro/njopapoodmifmcogpingplfphojnfeea?hl=en-US'>Reinstall\u003C/a> the AMZScout PRO Extension on Chrome"
+   },
+   "alreadyPaidStep2Edge": {
+      "message": "\u003Ca target='_blank' class='btn--dotted already-pay__btn_dotted' href='https://microsoftedge.microsoft.com/addons/detail/idcpecldgbbabloifgjogemdifohldkd'>Reinstall\u003C/a> the AMZScout PRO Extension on Edge"
+   },
+   "alreadyPaidStep3": {
+      "message": "Log on to the AMZScout PRO Extension on Chrome, and enjoy!"
+   },
+   "annual": {
+      "message": "Annuale"
+   },
+   "appDesc": {
+      "message": "Con l'estensione AMZScout PRO scegliere il tuo prossimo prodotto Amazon è facile. Ti basterà seguire i dati."
+   },
+   "appName": {
+      "message": "Amazon Product Finder - AMZScout PRO"
+   },
+   "apply": {
+      "message": "Richiedi"
+   },
+   "asin": {
+      "message": "ASIN"
+   },
+   "availableFrom": {
+      "message": "Disponibile da"
+   },
+   "availableFromTooltip": {
+      "message": "La data di prima disponibilità è la data in cui il prodotto è divenuto disponibile per la prima volta su Amazon"
+   },
+   "avgMarginImpact": {
+      "message": "Margine netto medio"
+   },
+   "avgMonthlyRevenue": {
+      "message": "Entrate medie mensili"
+   },
+   "avgMonthlySales": {
+      "message": "Vendite medie mensili"
+   },
+   "avgPrice": {
+      "message": "Prezzo medio"
+   },
+   "avgReviews": {
+      "message": "Media recensioni"
+   },
+   "avgSalesRank": {
+      "message": "Posizione media nella classifica vendite"
+   },
+   "bannerA1": {
+      "message": "\u003Cspan class='a-lamp'>\u003C/span>\u003Cdiv class='a1-still'>Non sei ancora sicuro di quale prodotto vendere?\u003C/div>\u003Cdiv class='a1-fear'>Hai paura di perdere un'occasione mentre gli altri diventano sempre più grandi?\u003C/div>\u003Cdiv class='a1-separator'>\u003C/div>\u003Cdiv class='a1-weare'>Siamo qui per aiutarti!\u003C/div>\u003Cdiv class='a1-leave'>Lasciaci il tuo numero e riceverai un'\u003Cspan class='a1-special'>offerta esclusiva dal\u003Cbr> nostro team che ti aiuterà ad iniziare nel migliore dei modi la tua attività su\u003Cbr>Amazon\u003C/span>.\u003C/div>"
+   },
+   "bannerB1": {
+      "message": "\u003Cdiv class='a1-still'>Non sei sicuro su quale prodotto venderà di più in futuro?\u003C/div>\u003Cdiv class='a1-fear'>Hai paura di entrare nella nicchia sbagliata?\u003C/div>\u003Cdiv class='a1-separator'>\u003C/div>\u003Cdiv class='a1-weare'>Siamo qui per aiutarti!\u003C/div>\u003Cdiv class='a1-leave'>Lasciaci il tuo numero e riceverai un'offerta esclusiva dal \u003Cbr>nostro team. \u003Cspan class='a1-special-1'>Ti forniremo le migliori tendenze in crescita in\u003Cbr>qualsiasi categoria.\u003C/span>\u003C/div>"
+   },
+   "bannerPreorder": {
+      "message": "Questa funzione apparirà in una settimana solo per coloro che l'hanno preordinata. \u003Cbr>Sarà disponibile per tutti dopo un test completo che può richiedere un mese. Sbrigati, diventa uno dei primi pioneri di questa innovazione!"
+   },
+   "benefit1": {
+      "message": "Trova nicchie facilmente - riduci al minimo i rischi."
+   },
+   "benefit2": {
+      "message": "Metriche accurate in tempo reale - massimizza il profitto."
+   },
+   "benefit3": {
+      "message": "Convalida e vendi con fiducia."
+   },
+   "benefits": {
+      "message": "Vantaggi"
+   },
+   "bestPractices": {
+      "message": "Best Practices from experts"
+   },
+   "bestSeller": {
+      "message": "BS"
+   },
+   "bestSellerCategory": {
+      "message": "Best Seller in"
+   },
+   "bestSellerLink": {
+      "message": "URL categoria Best Seller"
+   },
+   "bestSellerTooltip": {
+      "message": "Best Seller di Amazon"
+   },
+   "blog": {
+      "message": "Blog "
+   },
+   "brand": {
+      "message": "Marca"
+   },
+   "bsr30": {
+      "message": "BSR 30"
+   },
+   "bsr30Tooltip": {
+      "message": "Posizione media nella classifica dei prodotti più venduti degli ultimi 30 giorni"
+   },
+   "bulletsCount": {
+      "message": "Numero Bullet Point"
+   },
+   "bundlingItems": {
+      "message": "Bundling items to double your revenue"
+   },
+   "businessType": {
+      "message": "Business type:"
+   },
+   "buy": {
+      "message": "Trova un prodotto che vende bene"
+   },
+   "buyAtGoogle": {
+      "message": "Compra sul Chrome Store di Google"
+   },
+   "buyNow": {
+      "message": "Compra ora"
+   },
+   "buyPrice": {
+      "message": "Licenza a vita per ::currency:price"
+   },
+   "buyPriceRecurring": {
+      "message": "1 mese di abbonamento per ::currency:price"
+   },
+   "ca": {
+      "message": "Canada"
+   },
+   "cancel": {
+      "message": "Annulla"
+   },
+   "cantGetProductsErr": {
+      "message": "Su questa pagina non ci sono informazioni sui prodotti.\u003Cbr>\u003Cbr>L'estensione AMZScout PRO può visualizzare dati solamente dalle pagine Amazon dove sono presenti i prodotti, ad esempio:\u003Cbr>- Pagine dei risultati di ricerca\u003Cbr>- Pagine con listing del prodotto\u003Cbr>- Le pagine come Best Sellers, Today’s Deals ed altre\u003Cbr>"
+   },
+   "category": {
+      "message": "Categoria"
+   },
+   "cessFee": {
+      "message": "Costi di servizio e registrazione"
+   },
+   "ch": {
+      "message": "China"
+   },
+   "chartMaxPeriod": {
+      "message": "Maximum available period"
+   },
+   "chartMonth": {
+      "message": "month"
+   },
+   "chartMonths": {
+      "message": "months"
+   },
+   "chartYear": {
+      "message": "year"
+   },
+   "chartYears": {
+      "message": "years"
+   },
+   "chartselectPeriod": {
+      "message": "Select period:"
+   },
+   "checkProfit": {
+      "message": "Check If Profitable"
+   },
+   "choosePaymentMethod": {
+      "message": "Scegli un metodo di pagamento"
+   },
+   "choosingBest": {
+      "message": "Choosing the best niche with AMZScout Scores"
+   },
+   "chromeStore": {
+      "message": "Chrome Store"
+   },
+   "clear": {
+      "message": "Cancella"
+   },
+   "close": {
+      "message": "Chiudi"
+   },
+   "closingFee": {
+      "message": "Commissione di chiusura"
+   },
+   "columns": {
+      "message": "Colonne"
+   },
+   "consideredHOT": {
+      "message": "This product is considered HOT because its sales grew by 20% or more for the past :textHot."
+   },
+   "contactMe": {
+      "message": "Contattami"
+   },
+   "contactSupplier": {
+      "message": "Contact Supplier"
+   },
+   "continue": {
+      "message": "Continua"
+   },
+   "copyASIN": {
+      "message": "Copia ASIN"
+   },
+   "countryCode": {
+      "message": "Prefisso internazionale"
+   },
+   "currencyType": {
+      "message": "Currency type"
+   },
+   "daily": {
+      "message": "1 giorno"
+   },
+   "data": {
+      "message": "Dati"
+   },
+   "dataLoading": {
+      "message": "Data is loading"
+   },
+   "deliveryFee": {
+      "message": "Tariffa di spedizione"
+   },
+   "descriptionLength": {
+      "message": "Lunghezza descrizione"
+   },
+   "ebc": {
+      "message": "EBC"
+   },
+   "ebcTooltip": {
+      "message": "Enhanced Brand Content pagina prodotto"
+   },
+   "emptyImport": {
+      "message": "Nessun prodotto trovato, controlla il tuo file"
+   },
+   "enablePS": {
+      "message": "Abilita popup punteggio nicchia AMZScout"
+   },
+   "enterP": {
+      "message": "Enter a product"
+   },
+   "error": {
+      "message": "Errore "
+   },
+   "estRevenue": {
+      "message": "Entrate stimate"
+   },
+   "estRevenueTooltip": {
+      "message": "Entrate mensili stimate"
+   },
+   "estSales": {
+      "message": "Vendite stimate"
+   },
+   "estSalesTooltip": {
+      "message": "Le vendite mensili stimate rappresentano l'importo stimato delle vendite del prodotto in un mese. Calcoliamo questo valore in base alla categoria e al piazzamento del prodotto."
+   },
+   "estimatedProfit": {
+      "message": "Profitto mensile stimato"
+   },
+   "estimatedProfitTooltip": {
+      "message": "Profitto mensile stimato basato sulle vendite mensili stimate e sull'impatto sul margine"
+   },
+   "estimatedRevenue": {
+      "message": "Entrate mensili stimate"
+   },
+   "estimatedRevenueTooltip": {
+      "message": "Entrate mensili stimate basate sulle vendite mensili stimate e sull'impatto sul margine"
+   },
+   "estimatedSales": {
+      "message": "Vendite mensili stimate"
+   },
+   "export": {
+      "message": "Esporta in CSV"
+   },
+   "extendTrial": {
+      "message": "Estendi il periodo di prova"
+   },
+   "extendTrialMessage": {
+      "message": "Ricevi fino a 2 mesi gratis"
+   },
+   "extractOneProductOnly": {
+      "message": "Estrarre un solo prodotto nella pagina prodotto"
+   },
+   "faq": {
+      "message": "FAQ"
+   },
+   "faq_a_0": {
+      "message": "R: Il costo è una tantum. Non devi pagare nient'altro. Tutte le funzionalità dell'estensione sono incluse."
+   },
+   "faq_a_1": {
+      "message": "R: Apri il sito web di Amazon, cerca alcuni prodotti, premi il pulsante dell'estensione. Vedrai apparire dei popup con un loader. Dopo pochi secondi appariranno le informazioni sui prodotti trovati."
+   },
+   "faq_a_2": {
+      "message": "R: I valori stimati sono mensili."
+   },
+   "faq_a_3": {
+      "message": "R: Questi valori vengono calcolati utilizzando la formula basata sulle categoria di primo livello di Amazon (ad esempio casa e giardino, libri) e la classifica in una di queste categorie."
+   },
+   "faq_a_4": {
+      "message": "R: La colonna netto indica il prezzo dopo la sottrazione della commissione FBA e la sottrazione del 15% della commissione del programma di affiliazione Amazon. Se la commissione FBA non è disponibile, il prezzo netto calcola per formula."
+   },
+   "faq_a_5": {
+      "message": "R: LQS sta per Listing Quality Score. AMZScout analizza molti criteri di descrizione del prodotto, e per ciascuno calcola il punteggio. Un punteggio più alto significa una posizione più alta nei risultati di ricerca. Per vedere i dettagli puntare il cursore sul valore LQS."
+   },
+   "faq_a_6": {
+      "message": "D: RPR sta per revenue per revue, ovvero entrate per recensione. Maggiore è l'RPR, migliori sono le opportunità di vendita su Amazon."
+   },
+   "faq_a_7": {
+      "message": "R: La commissione FBA viene calcolata per pezzo, con la quota di deposito inclusa per 1 mese. Si tratta di un calcolo basato sulle dimensioni della spedizione e sul peso della spedizione prelevato dalla pagina prodotto."
+   },
+   "faq_a_8": {
+      "message": "R: Il modo più veloce per ottenere assistenza è inviarci la tua richiesta all'indirizzo \u003Ca href='mailto:amazondevcrew@gmail.com'> amazondevcrew@gmail.com \u003C/a>"
+   },
+   "faq_q_0": {
+      "message": "D: Il costo per l'estensione è una tantum o è mensile?"
+   },
+   "faq_q_1": {
+      "message": "D: Ho comprato l'estensione, come faccio ad usarla?"
+   },
+   "faq_q_2": {
+      "message": "D: I valori stimati sono mensili, giornalieri o annuali?"
+   },
+   "faq_q_3": {
+      "message": "D: Come vengono calcolati i valori stimati?"
+   },
+   "faq_q_4": {
+      "message": "D: Cosa significa la colonna netto?"
+   },
+   "faq_q_5": {
+      "message": "D: Cosa significa la colonna LQS?"
+   },
+   "faq_q_6": {
+      "message": "D: Cosa significa la colonna RPR?"
+   },
+   "faq_q_7": {
+      "message": "D: La commissione FBA è calcolata per pezzo o per volume?"
+   },
+   "faq_q_8": {
+      "message": "D: Se ho un'altra domanda o problema con AMZScout, come posso ottenere assistenza?"
+   },
+   "favorites": {
+      "message": "Preferiti"
+   },
+   "favoritesTooltip": {
+      "message": "I tuoi prodotti preferiti"
+   },
+   "fbaFees": {
+      "message": "Commissioni FBA"
+   },
+   "fbaFeesTooltip": {
+      "message": "Le commissioni FBA sono le commissioni che il venditore dovrà  pagare se venderà il prodotto tramite FBA."
+   },
+   "fbaOnly": {
+      "message": "Solo FBA"
+   },
+   "featureIsNotAvailable": {
+      "message": "La funzione è disponibile nella versione a pagamento"
+   },
+   "feedback": {
+      "message": "Feedback"
+   },
+   "filter": {
+      "message": "Filtro"
+   },
+   "filters": {
+      "message": "Filtri"
+   },
+   "findProfit": {
+      "message": "Find profitable products and niches"
+   },
+   "fio": {
+      "message": "Nome"
+   },
+   "forever": {
+      "message": "Usala per sempre"
+   },
+   "fr": {
+      "message": "France"
+   },
+   "freeLaunchesLeft": {
+      "message": ":freeLaunchesLeft tentativi gratuiti rimasti"
+   },
+   "freeLaunchesLeftSingle": {
+      "message": ":freeLaunchesLeft tentativi gratuiti rimasti"
+   },
+   "freeQuestion": {
+      "message": "Ehi, abbiamo una notizia fantastica per te! \u003Cbr> Siamo felici di offrirti 3 mesi gratuiti dell'App Web AMZScout in cambio di una breve intervista.\u003Cbr>Ci stai?"
+   },
+   "freeQuestionNo": {
+      "message": "No, grazie"
+   },
+   "freeQuestionTitle": {
+      "message": "Ottime notizie"
+   },
+   "freeQuestionYes": {
+      "message": "Sì, ci sto"
+   },
+   "freshNicheIdea": {
+      "message": "Hai un'idea di nicchia fresca!"
+   },
+   "friendyNAInventory": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>È difficile dire quale sia il livello di inventario di questo prodotto.\u003C/span>\u003C/div>"
+   },
+   "friendyNASales": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Difficile dirlo, dato che Amazon non fornisce un posizionamento in una categoria principale di questo prodotto. Se il posizionamento in una sottocategoria è basso, il prodotto vende nel modo corretto.\u003C/span>\u003C/div>"
+   },
+   "from": {
+      "message": "da"
+   },
+   "getKeywords": {
+      "message": "Ottieni le parole chiave"
+   },
+   "getNicheIdea": {
+      "message": "Idea di nicchia"
+   },
+   "getNicheKeywords": {
+      "message": "Ottieni le parole chiave della nicchia"
+   },
+   "gotIt": {
+      "message": "Capito"
+   },
+   "gotoFindP": {
+      "message": "Go to finding a product"
+   },
+   "gr": {
+      "message": "Germany"
+   },
+   "grew3M": {
+      "message": "Grew by 20% for the past 3 months"
+   },
+   "grewM": {
+      "message": "Grew by 20% for the past month"
+   },
+   "headers": {
+      "message": "Intestazione"
+   },
+   "hideSponsored": {
+      "message": "Nascondi annunci"
+   },
+   "hideTips": {
+      "message": "Chiudi"
+   },
+   "hot": {
+      "message": "Hot"
+   },
+   "howHacks": {
+      "message": "Amazon hacks"
+   },
+   "howTips": {
+      "message": "Tips from experts"
+   },
+   "howToStart": {
+      "message": "How to start"
+   },
+   "howToUsePro": {
+      "message": "How to use AMZScout PRO Extension"
+   },
+   "howToUserProExt": {
+      "message": "How to use Pro Extension"
+   },
+   "iAmIn": {
+      "message": "Ci sto!"
+   },
+   "igotIt": {
+      "message": "I got it"
+   },
+   "imagesCount": {
+      "message": "Numero immagini"
+   },
+   "import": {
+      "message": "Importa da CSV"
+   },
+   "in": {
+      "message": "in"
+   },
+   "ind": {
+      "message": "India"
+   },
+   "instanceBlockedErr": {
+      "message": "Il tuo caso su AMZScout è bloccato. Contatta l'assistenza."
+   },
+   "instanceUnsupportedErr": {
+      "message": "La tua versione di AMZScout non è più supportata. Esegui l'aggiornamento alla versione più recente di AMZScout."
+   },
+   "inventory": {
+      "message": "Inventario"
+   },
+   "inventoryTooltip": {
+      "message": "Numero di prodotti in magazzino"
+   },
+   "it": {
+      "message": "Italy"
+   },
+   "jp": {
+      "message": "Japan"
+   },
+   "keepTracking": {
+      "message": "Ottieni circa $500 di profitto nel primo mese scegliendo un prodotto redditizio"
+   },
+   "keyword": {
+      "message": "Parola chiave"
+   },
+   "keywords": {
+      "message": "Parole chiave"
+   },
+   "keywordsNotFound": {
+      "message": "Purtroppo non abbiamo trovato parole chiave"
+   },
+   "keywordsPropositionFind": {
+      "message": "Ottieni \u003Cspan class='modal--keywords__decor'> migliaia di parole chiave \u003C/span> per questo prodotto, anche quelle che i tuoi concorrenti non conoscono!"
+   },
+   "keywordsPropositionLearn": {
+      "message": "Ulteriori informazioni sui nostri strumenti per le parole chiave"
+   },
+   "keywordsPropositionReverse": {
+      "message": "Apri Ricerca ASIN inversa per ottenere più parole chiave"
+   },
+   "learnHowToSell": {
+      "message": "Learn how to sell on Amazon"
+   },
+   "licenceExpired": {
+      "message": "Sfortunatamente la tua licenza per il Tracker Prodotto è scaduta. Puoi rinnovarla \u003Ca href=\"https://amzscout.net/app/#/tracker\">qui\u003C/a>."
+   },
+   "licenceFull": {
+      "message": "Completo"
+   },
+   "licenceTrial": {
+      "message": "Prova"
+   },
+   "lifetime": {
+      "message": "A vita"
+   },
+   "load20warn": {
+      "message": "\u003Cp class='load20-warn-content'>Il caricamento di 20 pagine richiederà molto tempo, e sovraccaricherà molto \u003Cbr>il tuo computer. Vuoi continuare?\u003C/p>"
+   },
+   "lqs": {
+      "message": "LQS"
+   },
+   "lqsTooltip": {
+      "message": "Il Listing Quality Score misura l'indice di qualità di una scheda prodotto. Puoi tenere il mouse sul valore per vedere i dettagli di come abbiamo calcolato il punteggio."
+   },
+   "mainProducts": {
+      "message": "Main products"
+   },
+   "mainProductsT": {
+      "message": "\u003Cdiv class='niche__tooltip-wrap'>\u003Cdiv class='niche__tooltip-title'>\u003Cstrong>The main products from this supplier are:\u003C/strong>\u003C/div>\u003Cdiv class='niche__tooltip-content'>:mainProducts\u003C/div>\u003C/div>"
+   },
+   "marginImpact": {
+      "message": "Margine netto"
+   },
+   "marginImpactTooltip": {
+      "message": "Percentuale di margine"
+   },
+   "masterclasses": {
+      "message": "MasterClasses"
+   },
+   "maxImport": {
+      "message": "Quantità massima per l'importazione di ::count prodotti"
+   },
+   "minPrice": {
+      "message": "Prezzo min"
+   },
+   "minPriceTooltip": {
+      "message": "Il prezzo min è il prezzo minimo tra tutti i venditori che vendono lo stesso prodotto."
+   },
+   "modalTitle": {
+      "message": "Messaggio"
+   },
+   "moneyBack": {
+      "message": "Rimborso garantito al 100%"
+   },
+   "monthly": {
+      "message": "Mensile"
+   },
+   "monthlyFee": {
+      "message": "Pagamento mensile"
+   },
+   "monthlyPayment": {
+      "message": "Pagamento mensile"
+   },
+   "monthlyStorage": {
+      "message": "Deposito mensile"
+   },
+   "moq": {
+      "message": "MOQ"
+   },
+   "my": {
+      "message": "Malaysia"
+   },
+   "nameLength": {
+      "message": "Lunghezza nome"
+   },
+   "needPermissions": {
+      "message": "Accedi prima di continuare"
+   },
+   "negativeNumberTooltip": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Beware, this is a negative Est.Monthly Profit / Net Margin / Profit Per Unit you might have if you sell with an FBA program. The sellers of this product actually have a positive profit because they are selling as FBM or through Vendor Central, who pay different fees.\u003C/span>\u003C/div>"
+   },
+   "net": {
+      "message": "Netto"
+   },
+   "netTooltip": {
+      "message": "Netto è l'importo di denaro prelevato dal venditore a seguito della vendita di 1 unità di prodotto."
+   },
+   "next": {
+      "message": "Successivo"
+   },
+   "next20pages": {
+      "message": "20 pagine successive"
+   },
+   "next5pages": {
+      "message": "5 pagine successive"
+   },
+   "nextP": {
+      "message": "Next Page"
+   },
+   "nextPage": {
+      "message": "Pagina successiva"
+   },
+   "nicheAddFavorite": {
+      "message": "Add to favorites"
+   },
+   "nicheFilterBtn": {
+      "message": "Search"
+   },
+   "nicheHistory": {
+      "message": "Storico nicchia"
+   },
+   "nicheKeywords": {
+      "message": "Parole chiave della nicchia"
+   },
+   "nicheRemoveFavorite": {
+      "message": "Remove from favorites"
+   },
+   "nicheSuppliers": {
+      "message": "Suppliers for Niche"
+   },
+   "nicheSuppliersFavorite": {
+      "message": "Favorite Suppliers"
+   },
+   "noCreditCard": {
+      "message": "Nessuna carta di credito richiesta"
+   },
+   "noFees": {
+      "message": "Senza costi aggiuntivi"
+   },
+   "nofavorites": {
+      "message": "You have not added any products to your Favorites yet"
+   },
+   "nosuppliers": {
+      "message": "There are no suppliers on Alibaba for this keyword corresponding to these filter settings. \u003C/br>Please try other filter settings or another keyword."
+   },
+   "number": {
+      "message": "#"
+   },
+   "occurrencesNumber": {
+      "message": "Numero di occorrenze"
+   },
+   "of": {
+      "message": "of"
+   },
+   "offerPrice": {
+      "message": "::currency:price"
+   },
+   "onboardAdjust": {
+      "message": "We will adjust the amount of pop up tips and certain parameters based on your experience. You will be able to change this choice later in the Settings."
+   },
+   "onboardAsExpert": {
+      "message": "As an expert, you’ll see the full data and be able to fine-tune your research."
+   },
+   "onboardBeginner": {
+      "message": "Beginner"
+   },
+   "onboardCheck": {
+      "message": "To check whether a niche is profitable, simply enter its name and click «Check If Profitable»."
+   },
+   "onboardExpert": {
+      "message": "Expert"
+   },
+   "onboardHelps": {
+      "message": "PRO Extension helps you find the perfect product to sell on Amazon"
+   },
+   "onboardNotShure": {
+      "message": "Not sure what to look for? Try one of our suggestions:"
+   },
+   "onboardResearch": {
+      "message": "Research you first niche with PRO Extension!"
+   },
+   "onboardSelect": {
+      "message": "Select your experience level with Amazon"
+   },
+   "onboardWelcome": {
+      "message": "Welcome to AMZScout PRO Extension"
+   },
+   "onboardWillsee": {
+      "message": "You will see items with similar names currently sold on Amazon along with their \u003Cspan class='step__desc_decor'> Monthly Sales, Reviews, Best Seller Rank, \u003C/span> and other key statistics you need to evaluate them."
+   },
+   "onboardYouNew": {
+      "message": "If you are new to Amazon research, you’ll see vital parameters that will help you choose a great product quickly. Great for learning."
+   },
+   "oneTimeFee": {
+      "message": "Pagamento unico"
+   },
+   "onetimePayment": {
+      "message": "Pagamento unico"
+   },
+   "opScore": {
+      "message": "Punteggio della nicchia"
+   },
+   "opScoreDisabled": {
+      "message": "Il punteggio della nicchia è disponibile solo nella pagina di ricerca"
+   },
+   "options": {
+      "message": "Opzioni"
+   },
+   "orderHandling": {
+      "message": "Gestione dell'ordine"
+   },
+   "orderProcessing": {
+      "message": "Il tuo ordine verrà elaborato in 5 minuti. Prova a utilizzare nuovamente l'estensione dopo 5 minuti."
+   },
+   "orderQuantity": {
+      "message": "Minimum Order Quantity"
+   },
+   "os_amzSellers_1": {
+      "message": "Quantità molto alta di venditori AMZ"
+   },
+   "os_amzSellers_1_desc": {
+      "message": "Sarai in concorrenza con Amazon per le vendite, il che è difficile."
+   },
+   "os_amzSellers_2": {
+      "message": "Quantità alta di venditori AMZ"
+   },
+   "os_amzSellers_2_desc": {
+      "message": "Sarai in concorrenza con alcuni prodotti Amazon, il che è difficile."
+   },
+   "os_amzSellers_3": {
+      "message": "Pochi venditori AMZ"
+   },
+   "os_amzSellers_3_desc": {
+      "message": "Non sarai molto in concorrenza con Amazon per le vendite, il che è positivo."
+   },
+   "os_amzSellers_4": {
+      "message": "Pochissimi venditori AMZ"
+   },
+   "os_amzSellers_4_desc": {
+      "message": "Non sarai in concorrenza con Amazon per le vendite, il che è positivo."
+   },
+   "os_avgMargin_1": {
+      "message": "Margine molto basso"
+   },
+   "os_avgMargin_1_desc": {
+      "message": "Dovrai vendere molto per guadagnare. Presta particolare attenzione alle commissioni fba, ai costi di spedizione, di produzione e di marketing. Potrebbero essere troppo alti. Usa il calcolatore del profitto per contarli."
+   },
+   "os_avgMargin_2": {
+      "message": "Margine basso"
+   },
+   "os_avgMargin_2_desc": {
+      "message": "Dovrai vendere molto per guadagnare. Presta particolare attenzione alle commissioni fba, ai costi di spedizione, di produzione e di marketing. Potrebbero essere un po 'alti. Usa il calcolatore del profitto per contarli."
+   },
+   "os_avgMargin_3": {
+      "message": "Margine elevato"
+   },
+   "os_avgMargin_3_desc": {
+      "message": "Hai tutto pronto per guadagnare. Ma non dimenticare di aggiungere le spese di spedizione, produzione e marketing ai tuoi costi nel calcolatore del profitto."
+   },
+   "os_avgMargin_4": {
+      "message": "Margine molto elevato"
+   },
+   "os_avgMargin_4_desc": {
+      "message": "Guadagnerai facilmente. Ma non dimenticare di aggiungere le spese di spedizione, produzione e marketing ai tuoi costi nel calcolatore del profitto."
+   },
+   "os_avgPrice_1": {
+      "message": "Prezzi molto indesiderati"
+   },
+   "os_avgPrice_1_desc": {
+      "message": "I prezzi sono al di fuori del range $$15-40. È difficile realizzare dei profitti se i prezzi sono bassi, o vendere in grandi quantità se i prezzi sono alti."
+   },
+   "os_avgPrice_2": {
+      "message": "Prezzi indesiderati"
+   },
+   "os_avgPrice_2_desc": {
+      "message": "Alcuni prezzi non sono compresi nel range  $$15-40. È difficile realizzare dei profitti se i prezzi sono bassi, o vendere in grandi quantità se i prezzi sono alti."
+   },
+   "os_avgPrice_3": {
+      "message": "Vicino a prezzi desiderati"
+   },
+   "os_avgPrice_3_desc": {
+      "message": "La maggior parte dei prezzi è compresa nel range $$15-40. È più facile realizzare dei profitti se i prezzi non sono bassi, o vendere in grandi quantità se i prezzi non sono alti."
+   },
+   "os_avgPrice_4": {
+      "message": "Prezzi desiderati"
+   },
+   "os_avgPrice_4_desc": {
+      "message": "I prezzi sono compresi nel range $$15-40. È più facile realizzare dei profitti se i prezzi non sono bassi, o vendere in grandi quantità se i prezzi non sono alti."
+   },
+   "os_avgRating_1": {
+      "message": "Valutazione media molto alta"
+   },
+   "os_avgRating_1_desc": {
+      "message": "Sarà molto difficile realizzare un prodotto con una qualità migliore."
+   },
+   "os_avgRating_2": {
+      "message": "Valutazione media alta"
+   },
+   "os_avgRating_2_desc": {
+      "message": "Puoi provare e realizzare un prodotto con una qualità migliore."
+   },
+   "os_avgRating_3": {
+      "message": "Valutazione media bassa"
+   },
+   "os_avgRating_3_desc": {
+      "message": "Puoi realizzare un prodotto con una qualità migliore abbastanza facilmente."
+   },
+   "os_avgRating_4": {
+      "message": "Valutazione media molto bassa"
+   },
+   "os_avgRating_4_desc": {
+      "message": "Puoi facilmente realizzare un prodotto con una qualità migliore."
+   },
+   "os_avgSales_1": {
+      "message": "Vendite basse"
+   },
+   "os_avgSales_1_desc": {
+      "message": "Dovrai lavorare duramente per vendere, anche se sei in prima pagina."
+   },
+   "os_avgSales_2": {
+      "message": "Vendite ok"
+   },
+   "os_avgSales_2_desc": {
+      "message": "Avrai bisogno di sforzarti per vendere, anche se sei in prima pagina."
+   },
+   "os_avgSales_3": {
+      "message": "Vendite elevate"
+   },
+   "os_avgSales_3_desc": {
+      "message": "Avrai la possibilità di vendere molto, specialmente se sei in prima pagina."
+   },
+   "os_avgSales_4": {
+      "message": "Vendite molto elevate"
+   },
+   "os_avgSales_4_desc": {
+      "message": "Puoi vendere molto, specialmente se sei in prima pagina."
+   },
+   "os_circle_1": {
+      "message": "Nicchia scarsa"
+   },
+   "os_circle_2": {
+      "message": "Nicchia debole"
+   },
+   "os_circle_3": {
+      "message": "Nicchia buona"
+   },
+   "os_circle_4": {
+      "message": "Nicchia ottima"
+   },
+   "os_competition": {
+      "message": "Concorrenza"
+   },
+   "os_competition_1": {
+      "message": "Molto forte"
+   },
+   "os_competition_2": {
+      "message": "Forte"
+   },
+   "os_competition_3": {
+      "message": "Medio"
+   },
+   "os_competition_4": {
+      "message": "Leggero"
+   },
+   "os_dateFirstAvailable_1": {
+      "message": "Nicchia vecchia"
+   },
+   "os_dateFirstAvailable_1_desc": {
+      "message": "Puoi essere certo che il prodotto è richiesto da anni, ma dovrai competere contro alcuni vecchi venditori."
+   },
+   "os_dateFirstAvailable_2": {
+      "message": "Nicchia abbastanza vecchia"
+   },
+   "os_dateFirstAvailable_2_desc": {
+      "message": "Puoi essere certo che il prodotto è richiesto da un po', ma dovrai compete contro alcuni vecchi venditori."
+   },
+   "os_dateFirstAvailable_3": {
+      "message": "Nicchia abbastanza nuova"
+   },
+   "os_dateFirstAvailable_3_desc": {
+      "message": "La domanda potrebbe essere temporanea ma ha una possibilità di crescita, e tu puoi essere uno dei primi venditori."
+   },
+   "os_dateFirstAvailable_4": {
+      "message": "Nicchia nuova"
+   },
+   "os_dateFirstAvailable_4_desc": {
+      "message": "La domanda potrebbe essere temporanea ma ha una possibilità di crescita, e tu puoi essere uno dei primi venditori."
+   },
+   "os_demand": {
+      "message": "Domanda"
+   },
+   "os_demand_1": {
+      "message": "Basso"
+   },
+   "os_demand_2": {
+      "message": "Medio"
+   },
+   "os_demand_3": {
+      "message": "Buono"
+   },
+   "os_demand_4": {
+      "message": "Ottimo"
+   },
+   "os_entering": {
+      "message": "Profitto"
+   },
+   "os_entering_1": {
+      "message": "Basso"
+   },
+   "os_entering_2": {
+      "message": "OK"
+   },
+   "os_entering_3": {
+      "message": "Alto"
+   },
+   "os_entering_4": {
+      "message": "Molto alto"
+   },
+   "os_lqs_1": {
+      "message": "Ottime schede prodotto"
+   },
+   "os_lqs_1_desc": {
+      "message": "Sarà difficile creare delle pagine prodotto di uguale qualità."
+   },
+   "os_lqs_2": {
+      "message": "Schede prodotto di qualità media"
+   },
+   "os_lqs_2_desc": {
+      "message": "Ci si dovrà sforzare per creare delle pagine prodotto di uguale qualità."
+   },
+   "os_lqs_3": {
+      "message": "Schede prodotto di bassa qualità"
+   },
+   "os_lqs_3_desc": {
+      "message": "Puoi facilmente creare una pagina prodotto migliore."
+   },
+   "os_lqs_4": {
+      "message": "Schede prodotto di qualità molto bassa"
+   },
+   "os_lqs_4_desc": {
+      "message": "Puoi facilmente creare la miglior pagina prodotto."
+   },
+   "os_niche_1": {
+      "message": "Scarse possibilità di successo"
+   },
+   "os_niche_2": {
+      "message": "Probabili scarse possibilità di successo"
+   },
+   "os_niche_3": {
+      "message": "Possibilità di successo"
+   },
+   "os_niche_4": {
+      "message": "Ottime possibilità di successo"
+   },
+   "os_open_on_run": {
+      "message": "Apri questa finestra ad ogni tentativo"
+   },
+   "os_productsCount_1": {
+      "message": "Nicchia molto satura"
+   },
+   "os_productsCount_1_desc": {
+      "message": "Sarai in competizione con un numero molto alto di venditori."
+   },
+   "os_productsCount_2": {
+      "message": "Nicchia satura"
+   },
+   "os_productsCount_2_desc": {
+      "message": "Sarai in competizione con un numero alto di venditori."
+   },
+   "os_productsCount_3": {
+      "message": "Nicchia leggermente satura"
+   },
+   "os_productsCount_3_desc": {
+      "message": "Non sarai in competizione con molti venditori."
+   },
+   "os_productsCount_4": {
+      "message": "Nicchia non satura"
+   },
+   "os_productsCount_4_desc": {
+      "message": "Sarai in competizione con pochi venditori."
+   },
+   "os_query_label": {
+      "message": "Risultato per:"
+   },
+   "os_reviewsCount_1": {
+      "message": "Numerose recensioni"
+   },
+   "os_reviewsCount_1_desc": {
+      "message": "Hai bisogno di molte recensione per vendere."
+   },
+   "os_reviewsCount_2": {
+      "message": "Molte recensioni"
+   },
+   "os_reviewsCount_2_desc": {
+      "message": "Hai bisogni di alcune recensioni per vendere."
+   },
+   "os_reviewsCount_3": {
+      "message": "Poche recensioni"
+   },
+   "os_reviewsCount_3_desc": {
+      "message": "Puoi ottenere delle vendite con solo poche recensioni."
+   },
+   "os_reviewsCount_4": {
+      "message": "Pochissime recensioni"
+   },
+   "os_reviewsCount_4_desc": {
+      "message": "Puoi ottenere delle vendite con 0-2 recensioni."
+   },
+   "os_title": {
+      "message": "Punteggio totale"
+   },
+   "os_topBrands_1": {
+      "message": "Concorennza molto alta di marchi top"
+   },
+   "os_topBrands_1_desc": {
+      "message": "Sarai in competizione con diversi marchi famosi."
+   },
+   "os_topBrands_2": {
+      "message": "Concorrenza alta di marchi top"
+   },
+   "os_topBrands_2_desc": {
+      "message": "Sarai in competizione con dei marchi famosi."
+   },
+   "os_topBrands_3": {
+      "message": "Concorrenza bassa di marchi top"
+   },
+   "os_topBrands_3_desc": {
+      "message": "Non sarai in competizione con molti marchi famosi."
+   },
+   "os_topBrands_4": {
+      "message": "Concorrenza molto bassa di marchi top"
+   },
+   "os_topBrands_4_desc": {
+      "message": "Non sarai in competizione con marchi famosi."
+   },
+   "os_topSellers_1": {
+      "message": "Estremamente monopolistico"
+   },
+   "os_topSellers_1_desc": {
+      "message": "Sarai in competizione con molti venditori davvero forti."
+   },
+   "os_topSellers_2": {
+      "message": "Nicchia monopolistica"
+   },
+   "os_topSellers_2_desc": {
+      "message": "Sarai in competizione con alcuni venditori forti."
+   },
+   "os_topSellers_3": {
+      "message": "Non monopolistico"
+   },
+   "os_topSellers_3_desc": {
+      "message": "Non sarai in competizione con molti venditori forti."
+   },
+   "os_topSellers_4": {
+      "message": "Libera concorrenza"
+   },
+   "os_topSellers_4_desc": {
+      "message": "Non sarai in competizione con dei venditori forti."
+   },
+   "oversize": {
+      "message": "Voluminoso"
+   },
+   "oversizeTooltip": {
+      "message": "Mancata corrispondenza del prodotto alle dimensioni standard. Un prodotto e' ritenuto oversize se misura più di 18 x 14 x 8 pollici e pesa più di 20 libbre."
+   },
+   "packageWeight": {
+      "message": "Peso del pacco"
+   },
+   "page": {
+      "message": "Page"
+   },
+   "page1": {
+      "message": " "
+   },
+   "pageLoading": {
+      "message": "Attendi il caricamento della pagina"
+   },
+   "payment": {
+      "message": "Importo del pagamento"
+   },
+   "paymentChooseMethod": {
+      "message": "Scegli il tuo metodo di pagamento"
+   },
+   "paymentDone": {
+      "message": "Pagamento effettuato"
+   },
+   "paymentFooterMessage": {
+      "message": "Più di \u003Cstrong>40.000\u003C/strong> venditori Amazon \u003Cstrong>si fidano di AMZScout\u003C/strong>"
+   },
+   "paymentInfo": {
+      "message": "Informazioni di pagamento"
+   },
+   "paymentMethod_card": {
+      "message": "Carta di credito"
+   },
+   "paymentMethod_gpay": {
+      "message": "Google"
+   },
+   "paymentMethod_paypal": {
+      "message": "PayPal"
+   },
+   "paymentRejectedErr": {
+      "message": "Il pagamento è stato respinto. Verifica i tuoi dettagli di pagamento e riprova."
+   },
+   "paymentRuble": {
+      "message": "Nel passaggio successivo vedrai l'importo in rubli russi, ma in realtà il pagamento verrà addebitato in :country :currency. Sarà di :price::currency"
+   },
+   "paywallTagline": {
+      "message": "Il tuo business di successo su Amazon"
+   },
+   "paywallTitleBottom": {
+      "message": "Continua a guadagnare di più"
+   },
+   "paywallTitleTop": {
+      "message": "Trova dei prodotti redditizi e batti i tuoi concorrenti"
+   },
+   "personalizeView": {
+      "message": "By clicking the Personalize View button, you can customize your view of the data in the Extension"
+   },
+   "ph": {
+      "message": "Philippines"
+   },
+   "phone": {
+      "message": "Numero di telefono"
+   },
+   "pickPack": {
+      "message": "Raccolta e imballaggio"
+   },
+   "piece": {
+      "message": "pz."
+   },
+   "pk": {
+      "message": "Pakistan"
+   },
+   "preorder": {
+      "message": "Ricevi il 50% di sconto ORA!"
+   },
+   "previousP": {
+      "message": "Previous Page"
+   },
+   "price": {
+      "message": "Prezzo"
+   },
+   "price30": {
+      "message": "Prezzo 30"
+   },
+   "price30Tooltip": {
+      "message": "Prezzo medio degli ultimi 30 giorni"
+   },
+   "priceHistory": {
+      "message": "Storico prezzo"
+   },
+   "priceRange": {
+      "message": "Price range"
+   },
+   "productCost": {
+      "message": "Costo del prodotto"
+   },
+   "productHistory": {
+      "message": "Storico prodotto"
+   },
+   "productName": {
+      "message": "Nome prodotto"
+   },
+   "productPrice": {
+      "message": "Prezzo del prodotto"
+   },
+   "productScore": {
+      "message": "Punteggio prodotto"
+   },
+   "productScoreTooltip": {
+      "message": "Il punteggio prodotto mostra quanto bene il prodotto corrisponde con i criteri principali forniti dagli esperti FBA."
+   },
+   "productSize": {
+      "message": "Dimensioni prodotto"
+   },
+   "productSizeDimension": {
+      "message": "Dimensione del pacchetto"
+   },
+   "productUntrackable": {
+      "message": "Questo prodotto non può essere monitorato perché Amazon non ha fornito dati sufficienti"
+   },
+   "productWeight": {
+      "message": "Peso prodotto"
+   },
+   "product_score_high": {
+      "message": "Un ottimo prodotto da copiare e vendere facilmente."
+   },
+   "product_score_low": {
+      "message": "Un prodotto che ha lavorato duro per guadagnarsi delle vendite."
+   },
+   "product_score_middle": {
+      "message": "Un prodotto che puoi vendere avendo una certa esperienza."
+   },
+   "products": {
+      "message": "products on"
+   },
+   "profit": {
+      "message": "Profitto per unità"
+   },
+   "profitCalculator": {
+      "message": "Calcolatore del profitto"
+   },
+   "providerInitErr": {
+      "message": "Impossibile inizializzare i provider dei servizi di pagamento"
+   },
+   "ps_lqs_1": {
+      "message": "La scheda prodotto è ottima, dovrai avere una scheda prodotto della stessa qualità per competere."
+   },
+   "ps_lqs_2": {
+      "message": "La scheda prodotto è di qualità media, puoi provare a creare una scheda prodotto migliore per competere."
+   },
+   "ps_lqs_3": {
+      "message": "La scheda prodotto è di bassa qualità, puoi facilmente creare una scheda prodotto migliore per competere."
+   },
+   "ps_margin_1": {
+      "message": "È difficile ottenere un profitto con questo prodotto."
+   },
+   "ps_margin_2": {
+      "message": "Avrai un profitto sufficiente con questo prodotto."
+   },
+   "ps_margin_3": {
+      "message": "Avrai un grande margine con questo prodotto."
+   },
+   "ps_revenue_1": {
+      "message": "Questo prodotto non guadagna ancora molto."
+   },
+   "ps_revenue_2": {
+      "message": "C'è un'opportunità di guadagno media."
+   },
+   "ps_revenue_3": {
+      "message": "C'è una grande opportunità di guadagno."
+   },
+   "ps_rpr_1": {
+      "message": "Avrai bisogno di molte recensioni per fare delle vendite."
+   },
+   "ps_rpr_2": {
+      "message": "Avrai bisogno di alcune recensioni per fare delle vendite."
+   },
+   "ps_rpr_3": {
+      "message": "Sarai in grado di ottenere delle vendite decenti anche con un numero ridotto di recensioni."
+   },
+   "pw1": {
+      "message": "Ottieni i tuoi vantaggi con AMZScout"
+   },
+   "pw1AlreadyPaid": {
+      "message": "Ho già effettuato il pagamento"
+   },
+   "pw1And": {
+      "message": "e"
+   },
+   "pw1BuyNowTitle": {
+      "message": "Trova dei \u003Cspan class='red-text'>prodotti\u003C/span> redditizi e \u003Cspan class='red-text'>batti\u003C/span> i tuoi concorrenti"
+   },
+   "pw1ExpiredSubTitle": {
+      "message": "Per continuare a utilizzare l'estensione AMZScout PRO, seleziona il piano di pagamento di seguito."
+   },
+   "pw1ExpiredTitle": {
+      "message": "Sfortunatamente, il tuo periodo di prova è scaduto."
+   },
+   "pw1FeedbackPlaceholder": {
+      "message": "Forniscici il numero di telefono o l'email a cui possiamo contattarti."
+   },
+   "pw1FeedbackTitle": {
+      "message": "Abbiamo notato che stai riscontrando alcuni problemi con l'acquisto. Lasciaci le tue informazioni di contatto qui sotto in modo da permetterci di aiutarti."
+   },
+   "pw1MainTitle": {
+      "message": "Valore"
+   },
+   "pw1OfferPrice": {
+      "message": "::currency :price"
+   },
+   "pw1Or": {
+      "message": "o "
+   },
+   "pw1PanelProfit1": {
+      "message": "Trova un \u003Cspan class='red-text'>prodotto redditizio\u003C/span> in \u003Cspan class='red-text'>1 giorno.\u003C/span>"
+   },
+   "pw1PanelProfit2": {
+      "message": "I \u003Cspan class='red-text'>dati più accurati\u003C/span> nel settore."
+   },
+   "pw1PanelProfit3": {
+      "message": "Abbiamo \u003Cspan class='red-text'>protetto oltre 66.000 venditori\u003C/span> dal prendere delle decisioni sbagliate."
+   },
+   "pw1PanelProfit4": {
+      "message": "\u003Cspan class='red-text'>Rimborso garantito\u003C/span> per 10 giorni."
+   },
+   "pw1PayPalBuyerProtection": {
+      "message": "Programma di protezione pagamenti PayPal"
+   },
+   "pw1PayWith": {
+      "message": "Paga con  "
+   },
+   "pw1PayWithCard": {
+      "message": "Paga con carta di credito"
+   },
+   "pw1PaymentTitle": {
+      "message": "Pagamento"
+   },
+   "pw1PlanAnnualHint": {
+      "message": "Identifica i prodotti più redditizi!"
+   },
+   "pw1PlanAnnualName": {
+      "message": "All'anno"
+   },
+   "pw1PlanAnnualPriceHint": {
+      "message": "(75% in meno!)"
+   },
+   "pw1PlanLifetimeHint": {
+      "message": "Ottieni un accesso illimitato ai dati di vendita più accurati!"
+   },
+   "pw1PlanLifetimeName": {
+      "message": "A vita"
+   },
+   "pw1PlanLifetimePriceHint": {
+      "message": ""
+   },
+   "pw1PlanMonthlyHint": {
+      "message": "Trova la tua prima nicchia in pochi minuti!"
+   },
+   "pw1PlanMonthlyName": {
+      "message": "Al mese"
+   },
+   "pw1PlanMostPopular": {
+      "message": "più popolare"
+   },
+   "pw1PlansTitle": {
+      "message": "Seleziona il tuo piano"
+   },
+   "pw1Privacy": {
+      "message": "Privacy."
+   },
+   "pw1StripeMoneyBack": {
+      "message": "Il tuo pagamento è protetto da Stripe"
+   },
+   "pw1StripePowered": {
+      "message": "Fornito da Stripe."
+   },
+   "pw1Terms": {
+      "message": "Termini"
+   },
+   "pw1TrustpilotReviews": {
+      "message": ":reviews recensioni"
+   },
+   "pw1TrustpilotTrustScore": {
+      "message": "TrustScore :score"
+   },
+   "pw2": {
+      "message": "Minimizza il rischio con dei dati di vendita affidabili"
+   },
+   "pw3": {
+      "message": "Risparmiati 2-3 ore al giorno e spendi questo tempo su altre cose più importanti"
+   },
+   "pw4": {
+      "message": "Non rimanere bloccato con centinaia di prodotti invenduti"
+   },
+   "questionnaireThankyou": {
+      "message": "Grazie per la risposta!\u003Cbr>Goditi la ricerca prodotti più efficace con AMZScout."
+   },
+   "questionnaire_q1": {
+      "message": "Quanti prodotti vendi su Amazon?"
+   },
+   "questionnaire_q1_a1": {
+      "message": "Sono un principiante"
+   },
+   "questionnaire_q1_a2": {
+      "message": "10-Jan"
+   },
+   "questionnaire_q1_a3": {
+      "message": "più di 10"
+   },
+   "rank": {
+      "message": "Piazzamento"
+   },
+   "rankHistory": {
+      "message": "Storico classifica"
+   },
+   "rating": {
+      "message": "Valutazione"
+   },
+   "referralFee": {
+      "message": "Commissione di affiliazione"
+   },
+   "referralMessage": {
+      "message": "Condividi questo link con i tuoi amici e riceverai 1 settimana in più gratis per ogni amico che si iscriverà. Anche il tuo amico riceverà 1 settimana in più gratis."
+   },
+   "refresh": {
+      "message": "Aggiorna   "
+   },
+   "remember": {
+      "message": "Non chiedermelo più"
+   },
+   "reset": {
+      "message": "Reset"
+   },
+   "results": {
+      "message": "Risultati"
+   },
+   "revenueNiche": {
+      "message": "Revenue per 6 month: \u003Cspan class='niche-item__score-value'>:halfYearSalesAmout\u003C/span> in \u003Cspan class='niche-item__revenue-value'>:halfYearOrderNumber\u003C/span> transactions"
+   },
+   "reviewScore": {
+      "message": "Review score:"
+   },
+   "reviews": {
+      "message": "# di recensioni"
+   },
+   "reviewsCount": {
+      "message": "Numero recensioni"
+   },
+   "roi": {
+      "message": "ROI"
+   },
+   "roiTooltip": {
+      "message": "Ritorno sull'investimento"
+   },
+   "rpr": {
+      "message": "RPR"
+   },
+   "rprTooltip": {
+      "message": "Le entrate mensili per recensione vengono calcolate come entrate stimate divise per il numero delle recensioni."
+   },
+   "s1Btn1": {
+      "message": "Affare fatto"
+   },
+   "s1Btn2": {
+      "message": "No, grazie"
+   },
+   "s1Message": {
+      "message": "\u003Cb>Ricevi 3 mesi di tracker dei prodotti e keyword explorer gratis!\u003C/b>\u003Cbr>\u003Cbr>Lascia i tuoi contatti qui e ti contatteremo a breve."
+   },
+   "s1Title": {
+      "message": "Ehi, è AMZScount che ti parla!"
+   },
+   "s1f": {
+      "message": "ottieni tutti i dati per prendere una decisione \u003Cbr>in pochi clic."
+   },
+   "s1h": {
+      "message": "Niente più routine con la \u003Cbr>raccolta dati"
+   },
+   "s2f": {
+      "message": "stimando il potenziale di nicchia sulla base di \u003Cbr>dati di vendita affidabili."
+   },
+   "s2h": {
+      "message": "Trova un prodotto ad alto potenziale"
+   },
+   "s3f": {
+      "message": "scopri quanti prodotti venderai entro 1 mese."
+   },
+   "s3h": {
+      "message": "Minimizza il tuo rischio"
+   },
+   "s4f": {
+      "message": "prendendo le giuste decisioni."
+   },
+   "s4h": {
+      "message": "Ottieni il risultato che ti aspettavi"
+   },
+   "sa": {
+      "message": "South Africa"
+   },
+   "sales": {
+      "message": "Vendite medie mensili"
+   },
+   "salesHistory": {
+      "message": "Storico vendite"
+   },
+   "satScore": {
+      "message": "Punteggio di saturazione"
+   },
+   "satScoreDisabled": {
+      "message": "Il punteggio di saturazione è disponibile solo nella pagina di ricerca"
+   },
+   "saturationPreorder": {
+      "message": "PREORDINA"
+   },
+   "saturationScore": {
+      "message": "Punteggio di visibilità"
+   },
+   "saturationScoreHigh": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. This niche is often seen by many sellers researching the market. Their high interest in this niche can indicate either that it is a large niche with big sales and high competition or that there are some notable trends prompting sellers to market research in this niche.\u003C/p>"
+   },
+   "saturationScoreMiddle": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. This niche isn't a once-in-a-lifetime opportunity. However, there is room for new sellers to make money with a strong product and reasonable advertising.\u003C/p>"
+   },
+   "saturationScoreTTLow": {
+      "message": "\u003Cp class='ss__tooltip'>\u003Cspan class='ss__visits color-:color'>:visits%\u003C/span> of our users have found this niche. Competition in this niche is very low and will remain low for some time. If it shows promise in terms of revenue then it's a great niche to invest in.\u003C/p>"
+   },
+   "save": {
+      "message": "Salva"
+   },
+   "sc": {
+      "message": "South Korea"
+   },
+   "searchAli": {
+      "message": "Trovalo su AliBaba"
+   },
+   "searchButtonCaption": {
+      "message": "Search products"
+   },
+   "searchGoogle": {
+      "message": "Trovalo su Google"
+   },
+   "searchPlaceHolder": {
+      "message": "Enter a product to search, eg. plastic straw rug"
+   },
+   "searchSuppTitle": {
+      "message": "Search Suppliers\u003C/br>on Alibaba.com"
+   },
+   "searchSupplierDisabled": {
+      "message": "To find a supplier on Alibaba with Extension Pro, please open a specific product page on Amazon or type a keyword into the search bar on Amazon to open the search results page"
+   },
+   "searchSuppliers": {
+      "message": "Search Suppliers"
+   },
+   "selectPlan": {
+      "message": "Seleziona il piano"
+   },
+   "selectYourPlan": {
+      "message": "Seleziona il tuo piano"
+   },
+   "seller": {
+      "message": "Venditore"
+   },
+   "sellerIsFBA": {
+      "message": "Il venditore è FBA"
+   },
+   "sellers": {
+      "message": "Venditori "
+   },
+   "sellersTooltip": {
+      "message": "Numero di venditori del prodotto"
+   },
+   "send": {
+      "message": "Invia"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "show": {
+      "message": "Mostra"
+   },
+   "showMore": {
+      "message": "Mostra di più"
+   },
+   "signOut": {
+      "message": "Disconnessione"
+   },
+   "signUp": {
+      "message": "Accedi con"
+   },
+   "signUpMessage1": {
+      "message": "Nessuna carta di credito richiesta durante il periodo di prova"
+   },
+   "signUpMessage2": {
+      "message": "Dopo esserti iscritto, potrai usare tutte le funzionalità dell'app"
+   },
+   "signUpMessage3": {
+      "message": "I tuoi dati personali sono al sicuro"
+   },
+   "signUpTitle": {
+      "message": "Registrati per trovare il tuo \u003Cbr>\u003Cspan class='highlight'>prodotto redditizio\u003C/span>"
+   },
+   "signUpWithChrome": {
+      "message": "Chrome"
+   },
+   "signUpWithEmail": {
+      "message": "Email"
+   },
+   "signUpWithFacebook": {
+      "message": "Facebook"
+   },
+   "signUpWithGoogle": {
+      "message": "Google"
+   },
+   "signUpWithWeibo": {
+      "message": "Weibo"
+   },
+   "skip": {
+      "message": "Salta"
+   },
+   "sponsored": {
+      "message": "Annunci"
+   },
+   "startTrial": {
+      "message": "Inizia la prova"
+   },
+   "startingAt": {
+      "message": "Starting at $$:lowestPrice per unit"
+   },
+   "step": {
+      "message": "Step"
+   },
+   "stepByC": {
+      "message": "Step-by-step  Course"
+   },
+   "stopShowingTips": {
+      "message": "Non ho bisogno di suggerimenti"
+   },
+   "strictFilterTooltip": {
+      "message": "I parametri del filtro sono troppo rigidi. Prova a cambiarli o a disattivare il filtro."
+   },
+   "suppliedBy": {
+      "message": "Supplied by:"
+   },
+   "supplierCountry": {
+      "message": "Supplier country"
+   },
+   "suppliersON": {
+      "message": "suppliers on"
+   },
+   "suppliersTrade": {
+      "message": "Supporting trade assurance only"
+   },
+   "suppliersVerified": {
+      "message": "Verified only"
+   },
+   "t0": {
+      "message": "Prova ad usare AMZScout PRO nelle pagine \u003Ca target='_blank' href='/stream'>Stream\u003C/a> o \u003Ca target='_blank' href='/gp/goldbox/'>Goldbox\u003C/a>. Troverai tonnellate di idee! AMZScout PRO funziona con quasi tutte le pagine Amazon.\u003Cbr>Inoltre, estrarremo attentamente per te i prodotti dalle pagina dei \u003Ca target='_blank' href='/gp/movers-and-shakers'>prodotti del momento\u003C/a>, e persino da quella dei \u003Ca target='_blank' href='/gp/most-wished-for'>più desiderati\u003C/a>."
+   },
+   "t1": {
+      "message": "Tutti i \u003Cb>numeri blu\u003C/b> e le righe nel foglio di calcolo del prodotto \u003Cb>sono cliccabili\u003C/b>.\u003Cbr>Prova a fare clic su di essi per verificare cosa significhi ciascun valore."
+   },
+   "t10": {
+      "message": "Se \u003Cb>passi il cursore sopra al valore LQS\u003C/b> per un paio di secondi, vedrai più dettagli sulla qualità della pagina prodotto."
+   },
+   "t11": {
+      "message": "Se fai \u003Cb>clic su un valore del prezzo\u003C/b>, vedrai il grafico con le variazioni del prezzo nel tempo."
+   },
+   "t12": {
+      "message": "Se fai clic sul numero \u003Cb>punteggio della nicchia\u003C/b>, vedrai un'analisi dettagliata completa del potenziale della nicchia."
+   },
+   "t2": {
+      "message": "I titoli delle colonne hanno dei popup di suggerimento, posiziona il cursore su un titolo per un paio di secondi per vederli.\u003Cbr>Puoi \u003Cb>fare clic su qualsiasi titolo\u003C/b> e \u003Cb>ordinare i dati\u003C/b> nel foglio di calcolo per questo indicatore.\u003Cbr>Inoltre, se vuoi ordinare i prodotti per il numero di volte in cui compaiono nella pagina, fai clic sul segno # sull'intestazione della prima colonna."
+   },
+   "t3": {
+      "message": "Aggiungi potenziali prodotti ai preferiti facendo clic sulla stella a sinistra e controllali quando vuoi facendo clic sul pulsante preferiti in basso"
+   },
+   "t4": {
+      "message": "Se fai \u003Cb>clic su un valore nella colonna commissioni FBA o prezzo netto\u003C/b>, \u003Cb>aprirai il calcolatore del profitto\u003C/b>, che ti consente di inserire il costo del prodotto per calcolare l'utile e il ROI."
+   },
+   "t5": {
+      "message": "Se \u003Cb>fai clic su un valore nella colonna classifica\u003C/b>, vedrai un grafico delle variazioni della classifica nel tempo."
+   },
+   "t6": {
+      "message": "Se \u003Cb>muovi il cursore sui 3 punti verticali\u003C/b> a destra, aprirai un menu a tendina che ti consente di \u003Cb>trovare prodotti simili su Alibaba, copiare l'ASIN del prodotto o ottenere le parole chiave del prodotto.\u003C/b>"
+   },
+   "t7": {
+      "message": "Trova \u003Cb>delle idee di parole chiave\u003C/b> per promuovere il tuo prodotto in modo efficace semplicemente facendo clic sui 3 punti verticali sulla destra e scegliendo l'azione necessaria."
+   },
+   "t8": {
+      "message": "Il prodotto è il più venduto, con punteggio pari a 1, se ha un segno rotondo arancione nella colonna BSR.\u003Cbr>Scopri in quale categoria il prodotto sta vendendo meglio posizionando il cursore sopra al segno."
+   },
+   "t9": {
+      "message": "La colonna EBC ha un segno di spunta verde quando il prodotto \u003Cb>ha un Enhanced Brand Content o una pagina prodotto A+\u003C/b>.\u003Cbr>L'EBC è aperto ai venditori che sono stati riconosciuti e approvati come proprietari del marchio tramite il processo di registrazione del marchio di Amazon."
+   },
+   "textCurrentSalesValue": {
+      "message": "Current estimated daily sales volume is # items "
+   },
+   "textNodatafull": {
+      "message": "*There is no price, sales and rank history for this product for this date"
+   },
+   "textNodatapriceNo": {
+      "message": "*There is no price history for this product for this date"
+   },
+   "textNodatapriceandrankNo": {
+      "message": "*There is no price and rank history for this product for this date"
+   },
+   "textNodatapriceandsalesNo": {
+      "message": "*There is no price and sales history for this product for this date"
+   },
+   "textNodatarankNo": {
+      "message": "*There is no rank history for this product for this date"
+   },
+   "textNodatarankandsalesNo": {
+      "message": "*There is no rank and sales history for this product for this date"
+   },
+   "textNodatasalesNo": {
+      "message": "*There is no sales history for this product for this date"
+   },
+   "textSameDatasales": {
+      "message": "There is not enough data to estimate sales volume changes for some periods after "
+   },
+   "th": {
+      "message": "Thailand"
+   },
+   "theyearly": {
+      "message": "the yearly sales history of the product to check for yourself."
+   },
+   "tips": {
+      "message": "Suggerimenti"
+   },
+   "to": {
+      "message": "a"
+   },
+   "toggleFilterTitle": {
+      "message": "Abilita/disabilita filtro"
+   },
+   "tooltip_10_beginner": {
+      "message": "Mostra le parole chiave utilizzate tra i vari titoli in questa nicchia. La frequenza è indicata tra parentesi. Usa le parole più popolari per creare il tuo titolo, basandoti sul lavoro fatto dai tuoi concorrenti."
+   },
+   "tooltip_10_expert": {
+      "message": "Mostra le parole chiave che i prodotti di questa nicchia usano nei loro titoli. Il numero tra parentesi indica quante volte è stato utilizzato. Quando crei il tuo titolo, assicurati di includere le parole chiave più importanti in primo piano nel tuo titolo."
+   },
+   "tooltip_1_beginner": {
+      "message": "Puoi sempre trovare il report sull'analisi dettagliata della nicchia qui."
+   },
+   "tooltip_1_expert": {
+      "message": "Puoi sempre trovare il report sull'analisi dettagliata della nicchia qui."
+   },
+   "tooltip_2_beginner": {
+      "message": "Filtra i prodotti in base a criteri e aspettative specifici per numeri. Ad esempio, il prezzo a cui desideri vendere, le vendite mensili, le entrate che intendi avere, ecc."
+   },
+   "tooltip_2_expert": {
+      "message": "Imposta i filtri in modo da poter utilizzare dei criteri predeterminati. Ciò ti aiuta a scegliere i prodotti in base con il giusto prezzo di vendita e la giusta domanda, in base alla tua strategia di vendita."
+   },
+   "tooltip_3_beginner": {
+      "message": "Scegli quali colonne vuoi visualizzare, per avere un menu personalizzato solo per le tue esigenze."
+   },
+   "tooltip_3_expert": {
+      "message": "Personalizza il menu in base alle tue esigenze decidendo quali colonne sono visibili."
+   },
+   "tooltip_4_beginner": {
+      "message": "Ordina qualsiasi colonna facendo clic sul suo titolo. Puoi ordinare e vedere il miglior posizionamento, le migliori vendite, il miglior prezzo e le migliori entrate e trovare la combinazione perfetta per te."
+   },
+   "tooltip_4_expert": {
+      "message": "Puoi ordinare le colonne facendo clic sul titolo. Ciò ti aiuta a trovare il prodotto con le entrate più alte, i prodotti più nuovi, ecc. Cercare i prodotti più nuovi può aiutarti a configurare le aspettative di vendita sui tuoi primi lotti di inventario."
+   },
+   "tooltip_5_beginner": {
+      "message": "Il calcolatore delle entrate è qui (clicca sui numeri blu). Puoi vedere tutti i profitti e i costi per un determinato prodotto che stai considerando. Ciò include le commissioni, come se stessi già vendendo il prodotto!"
+   },
+   "tooltip_5_expert": {
+      "message": "Il calcolatore delle entrate ti aiuta a calcolare il tuo profitto per un determinato articolo. Include le spese di evasione degli articoli FBA, le commissioni di stoccaggio stimate e le commissioni di vendita. Inserisci i tuoi costi per ottenere una stima del profitto reale."
+   },
+   "tooltip_6_beginner": {
+      "message": "Il rapporto entrate - recensioni fa miracoli per aiutarti a trovare un prodotto che ti faccia ottenere grandi entrate con poche recensioni. Le recensioni sono difficili da ottenere - ecco perché questo strumento è importante."
+   },
+   "tooltip_6_expert": {
+      "message": "Il rapporto entrate - recensioni mostra la relazione tra entrate e recensioni. Un rapporto più elevato indica che è possibile fare soldi anche con una bassa quantità di recensioni."
+   },
+   "tooltip_7_beginner": {
+      "message": "Questo è il punteggio di qualità della scheda prodotto, con una descrizione dettagliata di ciò che c'è di giusto e di sbagliato nella pagina del prodotto. Ti basta posizionare il cursore su di esso. Vedrai immediatamente cosa puoi fare meglio o copiare ciò che è già stato fatto."
+   },
+   "tooltip_7_expert": {
+      "message": "Il punteggio di qualità della pagina prodotto ti aiuta a vedere i punti deboli nelle pagine prodotti dei concorrenti in base alle lunghezze delle descrizioni e alle immagini. È una buona base di partenza, ma sarà necessario un controllo più approfondito per riconoscere dei difetti più specifici."
+   },
+   "tooltip_8_beginner": {
+      "message": "Si tratta di un suggerimento o uno strumento di ricerca di una nicchia, inteso a fornirti delle idee di alcune nicchie con cui puoi iniziare. Ciò ti aiuterà ad ampliare i tuoi orizzonti su ciò che può essere venduto su Amazon."
+   },
+   "tooltip_8_expert": {
+      "message": "Si tratta dello strumento di ricerca della nicchia, che può darti alcune buone idee e nicchie da iniziare a esplorare, e fornirti l'ispirazione per nuove aree da ricercare."
+   },
+   "tooltip_9_beginner": {
+      "message": "Il punteggio prodotto indica se un prodotto è un'ottima idea da vendere, in base a vendite, classificazione, valutazione, recensioni e altri indicatori."
+   },
+   "tooltip_9_expert": {
+      "message": "Il punteggio del prodotto indica se un prodotto è un'ottima idea da vendere in base a vendite, classificazione, valutazione, recensioni e altri indicatori."
+   },
+   "totalFee": {
+      "message": "Commissione FBA totale"
+   },
+   "tr": {
+      "message": "Turkey"
+   },
+   "trackAddedMessage": {
+      "message": "Abbiamo aggiunto questo articolo al \u003Ca href=\":url\" target='_blank'> Product tracker. \u003C/a> Le vendite, la revisione e la cronologia delle scorte saranno presto disponibili"
+   },
+   "tracksLimitExceed": {
+      "message": "Il limite delle tracce del piano è stato superato."
+   },
+   "trends": {
+      "message": "Trend"
+   },
+   "trialEnded": {
+      "message": "La tua licenza è scaduta"
+   },
+   "trialEndedAlert": {
+      "message": "È necessario acquistare l'estensione AMZScout per usarla ulteriormente"
+   },
+   "trialEndedSub": {
+      "message": "Acquista ora e continua a monitorare le vendite dei concorrenti"
+   },
+   "trialMessage": {
+      "message": "Per i prossimi 7 giorni, puoi utilizzare tutte le funzionalità dell'estensione di Chrome AMZScout senza alcuna restrizione.\u003Cbr>\u003Cbr>Non è richiesta alcuna carta di credito. Niente sorprese. Solo risultati.\u003Cbr>\u003Cbr>Ecco alcuni suggerimenti su AMZScout:\u003Cbr> - Quasi tutte le intestazioni delle tabelle contengono degli utili suggerimenti. Tieni premuto il mouse per un po' su di esse e li vedrai.\u003Cbr> - Puoi ordinare i dati per qualsiasi colonna, ti basta fare clic sull'intestazione della tabella.\u003Cbr> - Tutti i valori della tabella in colore blu sono selezionabili, prova a cliccare su di essi per vedere più opportunità.\u003Cbr>\u003Cbr>Ti auguriamo una buona ricerca con AMZScout!"
+   },
+   "trialMessageBtnMore": {
+      "message": "Maggiori dettagli"
+   },
+   "trialMessageBtnStart": {
+      "message": "Iniziamo"
+   },
+   "trialTitle": {
+      "message": "Offerta prova gratuita AMZScout"
+   },
+   "try": {
+      "message": "Prova"
+   },
+   "tryDay": {
+      "message": "Prova di un giorno"
+   },
+   "tryPro": {
+      "message": "Passa alla versione PRO"
+   },
+   "tryProPeriod": {
+      "message": "Due settimane gratis"
+   },
+   "tutorial": {
+      "message": "Tutorial"
+   },
+   "tutorial1Step1Actions": {
+      "message": "Inizia facendo clic sulla parte superiore della colonna \u003Cb>punteggio prodotto\u003C/b> per mettere tutti i prodotti in ordine da quello col punteggio più alto al più basso."
+   },
+   "tutorial1Step1Description": {
+      "message": "Disponiamo di un indicatore utile chiamato \u003Cb>punteggio prodotto\u003C/b> che consente di raggruppare i prodotti in base alla loro potenziale redditività."
+   },
+   "tutorial1Step2Actions": {
+      "message": "1. Fai clic \u003Cb>tra\u003C/b> le colonne punteggio prodotto e marchio e vedrai apparire questa nuova riga.\u003C/br>2. Fai clic sul pulsante \u003Cb>ottieni parole chiave\u003C/b>"
+   },
+   "tutorial1Step2Description": {
+      "message": "Ora che abbiamo trovato dei prodotti interessanti, vediamo a quali nicchie appartengono."
+   },
+   "tutorial1Step3Actions": {
+      "message": "Fai clic su una qualsiasi \u003Cb>parola chiave\u003C/b> (nuova nicchia) e si aprirà una nuova scheda con una ricerca per quella parola chiave"
+   },
+   "tutorial1Step3Description": {
+      "message": "Ora puoi vedere tutte le parole chiave con cui questo prodotto viene classificato, in altre parole - nuove nicchie"
+   },
+   "tutorial1Step4Actions": {
+      "message": "Fai clic sull'indicatore \u003Cb>punteggio di nicchia\u003C/b> per leggere l'analisi della nicchia corrente"
+   },
+   "tutorial1Step4Description": {
+      "message": "Infine, scateniamo il nostro potente \u003Cb>punteggio di nicchia\u003C/b>, che fornisce un'analisi approfondita della nicchia in cui stai ora eseguendo la ricerca."
+   },
+   "tutorial2Label": {
+      "message": "Prova i nostri tutorial"
+   },
+   "tutorial2Step1Actions": {
+      "message": "Fai clic sull'indicatore \u003Cb>punteggio di nicchia\u003C/b> per leggere l'analisi della nicchia corrente"
+   },
+   "tutorial2Step1Description": {
+      "message": "AMZScout dispone di un potente strumento chiamato \u003Cb>punteggio di nicchia\u003C/b> che stima la probabilità di successo e fornisce un'analisi approfondita quando si entra nella nicchia del prodotto corrente"
+   },
+   "tutorial2Title": {
+      "message": "Scopri come padroneggiare rapidamente AMZScout"
+   },
+   "tutorial3Step1Actions": {
+      "message": "Fai clic sull'indicatore \u003Cb>trend delle vendite medie\u003C/b>"
+   },
+   "tutorial3Step1Description": {
+      "message": "Iniziamo guardando la cronologia delle vendite dell'intera nicchia. Per far ciò, utilizza l'indicatore \u003Cb>trend delle vendite medie\u003C/b>. Assicurati che la tendenza sia in aumento"
+   },
+   "tutorial3Step2Actions": {
+      "message": "Clicca sul \u003Cb>numero nella colonna vendite stimate\u003C/b> dei prodotti a cui sei interessato"
+   },
+   "tutorial3Step2Description": {
+      "message": "Ora è il momento di esaminare lo storico delle vendite di ciascun prodotto. Di nuovo, assicurati che la tendenza sia in aumento"
+   },
+   "tutorial3Step3Actions": {
+      "message": "Fai clic sul pulsante \u003Cb>trend\u003C/b> in basso"
+   },
+   "tutorial3Step3Description": {
+      "message": "Infine, diamo un'occhiata a \u003Cb>Google Trends\u003C/b> per questa nicchia. Ci mostrerà la popolarità delle ricerche relative alla nicchia in Google"
+   },
+   "tutorial4Step1Actions": {
+      "message": "Fai clic sul pulsante filtro in basso"
+   },
+   "tutorial4Step1Description": {
+      "message": "Iniziamo trovando i tuoi competitor più forti"
+   },
+   "tutorial4Step2Actions": {
+      "message": "Prova questo: \u003C/br> 1. Controlla \u003Cb>FBA\u003C/b> e \u003Cb>nascondi sponsorizzati\u003C/b>\u003C/br>2. Configura LQS (Listing Qualità Score) tra 80 e 100"
+   },
+   "tutorial4Step2Description": {
+      "message": "Restringi la lista al tipo di competitor che desideri studiare"
+   },
+   "tutorial4Step3Actions": {
+      "message": "Fai clic sulla stella gialla nella prima colonna di quella riga prodotto per aggiungerla ai \u003Cb>preferiti\u003C/b>"
+   },
+   "tutorial4Step3Description": {
+      "message": "Ora dovresti avere meno risultati, con la maggior parte di essi che vale la pena monitorare.\u003C/br> Aggiungiamo alcune pagine prodotto ai \u003Cb>preferiti\u003C/b> in modo che sia più facile trovarle in seguito."
+   },
+   "tutorial4Step4Description": {
+      "message": "Ora che hai salvato i tuoi competitor più forti tra i \u003Cb>preferiti\u003C/b>, ricontrollali regolarmente (è buona pratica farlo una volta alla settimana) per vedere come stanno andando le loro vendite."
+   },
+   "tutorialEndBtn": {
+      "message": "Termina il tutorial"
+   },
+   "tutorialGoToStep": {
+      "message": "Vai a passaggio"
+   },
+   "tutorialMenuPlayAgain": {
+      "message": "Puoi riprodurre nuovamente questo tutorial in qualsiasi momento"
+   },
+   "tutorialMenuTitle": {
+      "message": "Tutorial veloci"
+   },
+   "tutorialStepMenuIntroTitle": {
+      "message": "1. Guarda il video sulla panoramica del prodotto (7 min)"
+   },
+   "tutorialStepMenuTitle1": {
+      "message": "2. Scopri come \u003Cb>trovare un'idea di nicchia\u003C/b>"
+   },
+   "tutorialStepMenuTitle2": {
+      "message": "3. Scopri come \u003Cb>controllare la tua idea di nicchia\u003C/b>"
+   },
+   "tutorialStepMenuTitle3": {
+      "message": "4. Scopri come \u003Cb>trovare delle tendenze in crescita\u003C/b>"
+   },
+   "tutorialStepMenuTitle4": {
+      "message": "5. Scopri come \u003Cb> monitorare la concorrenza\u003C/b>"
+   },
+   "tutorialTitle": {
+      "message": "Tutorial estensione AMZScout PRO"
+   },
+   "uk": {
+      "message": "United Kingdom"
+   },
+   "unhandledErr": {
+      "message": "Sembra che siamo nella pagina sbagliata. Prova con una pagina diversa."
+   },
+   "upgradeToLifetime": {
+      "message": "Passa al BONUS+\u003Cbr> a vita!"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "us": {
+      "message": "United States"
+   },
+   "usa": {
+      "message": "USA"
+   },
+   "variants": {
+      "message": "Varianti"
+   },
+   "variantsTooltip": {
+      "message": "Il numero di varianti di un prodotto"
+   },
+   "variationsTips": {
+      "message": "\u003Cdiv class='friendly-na'>\u003Cdiv class='i-wrapper'>\u003Ci class='i-alert-circle'>\u003C/i>\u003C/div>\u003Cspan>Products on Amazon can have multiple variations (eg. colors, sizes, etc). \u003Cbr> \u003Cbr> This product has :variations variations on Amazon. The Sales Estimation column provided in Pro  Extension is for all variations added together. If you would like to check the popularity and demand for a specific color or size of a product, you can enter corresponding keywords into \u003Ca class='hot-tooltip__link' target='_blank' href=\":url\">Keyword Search.\u003C/a>\u003C/span>\u003C/div>"
+   },
+   "verifiedSince": {
+      "message": "Verified since"
+   },
+   "vi": {
+      "message": "Vietnam"
+   },
+   "videoT": {
+      "message": "Video Tutorial"
+   },
+   "view": {
+      "message": "View"
+   },
+   "webinarSignup1": {
+      "message": "Guarda ora"
+   },
+   "webinarSignup2": {
+      "message": "SÌ! Prenota il mio posto per la formazione dal vivo"
+   },
+   "webinarSignup3": {
+      "message": "Prenota il mio posto per il webinar"
+   },
+   "weight": {
+      "message": "Peso"
+   },
+   "weightHandling": {
+      "message": "Gestione del peso"
+   },
+   "wrongPage": {
+      "message": "Sembra che tu non sia nella pagina di Amazon. Caricheremo una pagina di esempio e apriremo AMZScout PRO per te.\u003Cbr>Buona ricerca.\u003Cbr>\u003Cbr>Cordiali saluti,\u003Cbr>il Team AMZScout"
+   },
+   "yes": {
+      "message": "Sì"
+   },
+   "youCanSkipThisIn": {
+      "message": "Attendi"
+   },
+   "youViewed": {
+      "message": "You've viewed"
+   },
+   "yourPlan": {
+      "message": "Il tuo piano"
+   }
+}

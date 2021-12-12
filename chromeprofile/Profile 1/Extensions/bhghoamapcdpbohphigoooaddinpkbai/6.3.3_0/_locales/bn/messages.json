@@ -1,0 +1,445 @@
+{
+   "about": {
+      "description": "About.",
+      "message": "সম্বন্ধে"
+   },
+   "account": {
+      "description": "Account.",
+      "message": "অ্যাকাউন্ট"
+   },
+   "accountName": {
+      "description": "Account Name.",
+      "message": "ব্যবহারকারীর নাম"
+   },
+   "add_code": {
+      "description": "Add account.",
+      "message": "অ্যাকাউন্ট যোগ করুন"
+   },
+   "add_qr": {
+      "description": "Scan QR Code.",
+      "message": "কিউ-আর কোড স্ক্যান করুন"
+   },
+   "add_secret": {
+      "description": "Manual Entry.",
+      "message": "ম্যানুয়াল এন্ট্রি"
+   },
+   "added": {
+      "description": "Added Account.",
+      "message": "যোগ করা হয়েছে।"
+   },
+   "advanced": {
+      "message": "উন্নত"
+   },
+   "advisor": {
+      "message": "উপদেষ্টা"
+   },
+   "advisor_insight_auto_fill_not_enabled": {
+      "message": "ওয়েবসাইটে কোড স্বয়ংক্রিয়ভাবে পূরণ করতে অটোফিল চালু করা যাবে"
+   },
+   "advisor_insight_auto_lock_not_set": {
+      "message": "আপনার ডেটা সুরক্ষিত রাখতে অটো-লক চালু করুন।"
+   },
+   "advisor_insight_browser_sync_not_enabled": {
+      "message": "ব্রাউজার সিঙ্ক অচল। চালু করলে আপনার অ্যাকাউন্টগুলো ব্রাউজারজুড়ে সিঙ্ক হবে, যেখানে আপনার ব্রাউজারে এই এক্সটেনশন চালু করা আছে।"
+   },
+   "advisor_insight_password_not_set": {
+      "message": "আপনার ডেটা সুরক্ষিত করতে একটি পাসওয়ার্ড সেট করুন।"
+   },
+   "advisor_insight_smart_filter_not_enabled": {
+      "message": "স্মার্ট ফিল্টার চালু করার ফলে অ্যাকাউন্টে কুইক এক্সেস পাওয়া যাবে।"
+   },
+   "algorithm": {
+      "message": "অ্যালগরিদম"
+   },
+   "autolock": {
+      "message": "লক করুন"
+   },
+   "backup": {
+      "message": "ব্যাকআপ"
+   },
+   "backup_file_info": {
+      "message": "একটি ফাইলে আপনার ডেটা ব্যাকআপ করুন।"
+   },
+   "based_on_counter": {
+      "description": "Counter Based",
+      "message": "কাউন্টার ভিত্তিক"
+   },
+   "based_on_time": {
+      "description": "Time Based",
+      "message": "সময় ভিত্তিক"
+   },
+   "browser_sync": {
+      "description": "Storage location",
+      "message": "ব্রাউজার সিঙ্ক"
+   },
+   "capture_failed": {
+      "description": "Capture Failed",
+      "message": "ক্যাপচার করতে ব্যর্থ, অনুগ্রহ করে পেজ রিলোড করুন আর আবার চেষ্টা করুন।"
+   },
+   "capture_local_file_failed": {
+      "description": "Import QR image backup instead of scan local image",
+      "message": "আপনি একটি স্থানীয় ফাইল থেকে কিউ-আর কোড স্ক্যান করতে চেষ্টা করছেন কি? এর বদলে ইম্পোর্ট কিউ-আর ইমেজ ব্যাকআপ ব্যবহার করুন।"
+   },
+   "clock_too_far_off": {
+      "description": "Local Time is Too Far Off",
+      "message": "সাবধান! আপনার স্থানীয় ঘড়ি অনেক আগে গিয়েছে, অনুগ্রহ করে চালিয়ে যেতে সংশোধন করুন।"
+   },
+   "close": {
+      "description": "Close.",
+      "message": "বন্ধ করুন"
+   },
+   "confirm_delete": {
+      "description": "Remove entry confirmation",
+      "message": "আপনি কি সত্যিই এই অ্যাকাউন্টটি মুছে ফেলতে চান? এই কাজের ফলে আর ফিরে পাওয়া যাবে না।"
+   },
+   "confirm_delete_all": {
+      "description": "Message that user is required to acknowledge before clearing all data.",
+      "message": "আমি বুঝতে পেরেছি যে আমার সকল ডেটা অপূরণীয়ভাবে মুছে ফেলা হবে।"
+   },
+   "confirm_phrase": {
+      "description": "Confirm Passphrase.",
+      "message": "পাসওয়ার্ড নিশ্চিত করুন"
+   },
+   "copied": {
+      "description": "Copied.",
+      "message": "অনুলিপি করা হয়েছে"
+   },
+   "current_phrase": {
+      "description": "Current Passphrase.",
+      "message": "চলতি পাসওয়ার্ড"
+   },
+   "danger": {
+      "message": "বিপজ্জনক"
+   },
+   "delete_all": {
+      "message": "অথেন্টিকেটর রিসেট করুন"
+   },
+   "delete_all_warning": {
+      "message": "এই কাজের ফলে আপনার সকল ডেটা মুছে ফেলা হবে এবং সম্পূর্ণভাবে অথেন্টিকেটর রিসেট করা হবে। আপনি কোনোভাবেই যেকোনো মুছে ফেলা ডেটা পুনরুদ্ধার করতে পারবেন না! অথেন্টিকেটর রিসেট করার পূর্বে ব্যাকআপ ডেটা সংরক্ষণ করার ব্যাপারে আপনার বিবেচনা করা উচিত।"
+   },
+   "digits": {
+      "message": "ডিজিটস"
+   },
+   "dismiss": {
+      "message": "খারিজ করুন"
+   },
+   "download_backup": {
+      "description": "Download backup file.",
+      "message": "ব্যাকআপ ফাইল ডাউনলোড করুন"
+   },
+   "download_enc_backup": {
+      "description": "Download Encrypted Backup",
+      "message": "পাসওয়ার্ড-সংরক্ষিত ব্যাকআপ ডাউনলোড করুন"
+   },
+   "dropbox_risk": {
+      "description": "Backup risk warning.",
+      "message": "সাবধানঃ ব্যাকআপগুলো এনক্রিপ্টেড নয়। নিজের ঝুঁকিতে ব্যবহার করুন।"
+   },
+   "edit": {
+      "description": "Edit",
+      "message": "সম্পাদন করুন"
+   },
+   "enable_context_menu": {
+      "message": "কন্টেক্সট মেনুতে যোগ করুন"
+   },
+   "encrypted": {
+      "description": "Encrypted.",
+      "message": "এনক্রিপ্ট করা হয়েছে"
+   },
+   "errorqr": {
+      "description": "QR Error.",
+      "message": "অস্বীকৃত কিউ-আর কোড।"
+   },
+   "errorsecret": {
+      "description": "Secret Error.",
+      "message": "অবৈধ অ্যাকাউন্ট সিক্রেট"
+   },
+   "export_info": {
+      "description": "Export menu info text",
+      "message": "সতর্কতাঃ সকল ব্যাকআপগুলো এনক্রিপ্টেড নয়। অন্য আরেকটি অ্যাপে একটি অ্যাকাউন্ট যোগ করতে চান? যেকোনো একাউন্টের উপর-ডান অংশে যান আর গোপন বাটনে চাপ দিন।"
+   },
+   "extDesc": {
+      "description": "Extension Description.",
+      "message": "অথেন্টিকেটর আপনার ব্রাউজারে টু-ফ্যাক্টর অথেন্টিকেশন কোড উৎপন্ন করে।"
+   },
+   "extName": {
+      "description": "Extension Name.",
+      "message": "অথেন্টিকেটর"
+   },
+   "extShortName": {
+      "description": "Extension Short Name.",
+      "message": "অথেন্টিকেটর"
+   },
+   "feedback": {
+      "description": "Feedback.",
+      "message": "মতামত"
+   },
+   "import_backup": {
+      "description": "Import backup.",
+      "message": "ব্যাকআপ আমদানি করুন"
+   },
+   "import_backup_code": {
+      "description": "Import backup code.",
+      "message": "টেক্সট ব্যাকআপ আমদানি করুন"
+   },
+   "import_backup_file": {
+      "description": "Import backup file.",
+      "message": "ব্যাকআপ ফাইল আমদানি করুন"
+   },
+   "import_backup_qr": {
+      "description": "Import qr image backup.",
+      "message": "কিউ-আর ইমেজ ব্যাকআপ আমদানি করুন"
+   },
+   "import_backup_qr_in_batches": {
+      "description": "You can select multiple image files to import backup in batches.",
+      "message": "ব্যাকআপ আমদানি ব্যাচে করতে আপনি একাধিক ফাইল নির্বাচন করতে পারবেন।"
+   },
+   "import_backup_qr_partly_failed": {
+      "description": "Import successful, but some QR image cannot be recognized.",
+      "message": "সফলভাবে আমদানি করা হয়েছে, কিন্তু কিছু কিউ-আর ইমেজ চেনা যাচ্ছে না।."
+   },
+   "import_error_password": {
+      "description": "Error password warning when import backups.",
+      "message": "ব্যাকআপগুলো আমদানি করতে আপনাকে সঠিক পাসওয়ার্ড প্রবেশ করাতে হবে।"
+   },
+   "info": {
+      "message": "তথ্য"
+   },
+   "invalid": {
+      "message": "অবৈধ"
+   },
+   "issuer": {
+      "description": "Issuer.",
+      "message": "প্রদানকারী"
+   },
+   "learn_more": {
+      "message": "আরো জানুন"
+   },
+   "loading": {
+      "message": "লোড করা হচ্ছে..."
+   },
+   "local_passphrase_warning": {
+      "description": "localStorage password warning.",
+      "message": "আপনার পাসওয়ার্ড স্থানীয়ভাবে সংরক্ষণ করা হয়েছে, অনুগ্রহ করে নিরাপত্তা মেনুতে অবিলম্বে পরিবর্তন করুন।"
+   },
+   "lock": {
+      "description": "Lock accounts",
+      "message": "লক করুন"
+   },
+   "log_out": {
+      "description": "Sign out of 3rd party storage services",
+      "message": "লগআউট করুন"
+   },
+   "manual_dropbox": {
+      "description": "Manual backup",
+      "message": "ম্যানুয়াল ব্যাকআপ"
+   },
+   "migration_fail": {
+      "description": "Import migration data failed.",
+      "message": "আমদানি করতে ব্যর্থ। যদি আপনি গুগল অথেন্টিকেটর থেকে ডেটা স্থানান্তরিত করে থাকেন, অনুগ্রহ করে গুগল অথেন্টিকেটর থেকে আপনার ডেটা পুনঃআমদানি করুন এবং আবার চেষ্টা করুন।"
+   },
+   "migration_partly_fail": {
+      "description": "Some migration data is broken.",
+      "message": "কিছু অ্যাকাউন্ট ডেটা সফলভাবে আমদানি করা হয়নি।"
+   },
+   "minutes": {
+      "message": "মিনিটের পরে"
+   },
+   "new_phrase": {
+      "description": "New Passphrase.",
+      "message": "নতুন পাসওয়ার্ড"
+   },
+   "no": {
+      "description": "No.",
+      "message": "না"
+   },
+   "no_entires": {
+      "message": "কোন অ্যাকাউন্ট দেখা যাচ্ছে না। আপনার প্রথম অ্যাকাউন্ট যোগ করুন।"
+   },
+   "no_insight_available": {
+      "message": "কোন অন্তর্দৃষ্টি পাওয়া যায়নি, সবকিছু ভালো দেখা যাচ্ছে!"
+   },
+   "ok": {
+      "description": "OK.",
+      "message": "ঠিক আছে"
+   },
+   "onedrive_business_perms": {
+      "message": "ব্যবসায়িক একাউন্টগুলোতে বেশি অনুমতির প্রয়োজন পড়ে কেন?"
+   },
+   "otp_backup_inform": {
+      "description": "Info text on import page",
+      "message": "অন্য কিছু অ্যাপ্লিকেশনগুলো থেকে আপনি ব্যাকআপ আমদানি করতে পারবেন।"
+   },
+   "otp_backup_learn": {
+      "description": "learn more link on import page. Placed after otp_backup_inform",
+      "message": "আরো জানুন"
+   },
+   "otp_unsupported_warn": {
+      "description": "Warning if using account that is not supported by standard backup format.",
+      "message": "আপনার কাছে এক বা একাধিক স্টিম অথবা ব্লিজার্ড অ্যাকাউন্ট আছে। খোলা বা আনএনক্রিপ্টেড ব্যাকআপগুলো প্রমিত ব্যাকআপ ফরমেট ব্যবহার করবে না।"
+   },
+   "passphrase_info": {
+      "description": "Passphrase Info",
+      "message": "অ্যাকাউন্ট ডেটা ডিক্রিপ্ট করতে (খুলতে) পাসওয়ার্ড প্রবেশ করান।"
+   },
+   "password_policy_default_hint": {
+      "message": "আপনার পাসওয়ার্ড আপনার প্রতিষ্ঠানের নিরাপত্তা প্রয়োজনীয়তায় মিলছে না। আরো তথ্য জানতে আপনার পরিচালকের সাথে যোগাযোগ করুন।"
+   },
+   "period": {
+      "message": "সময়সীমা"
+   },
+   "phrase": {
+      "description": "Passphrase.",
+      "message": "পাসওয়ার্ড"
+   },
+   "phrase_incorrect": {
+      "description": "Passphrase Incorrect.",
+      "message": "যতক্ষণ না পর্যন্ত আপনার অ্যাকাউন্টগুলো ডিক্রিপ্ট (খোলা) হবে ততক্ষণ পর্যন্ত আপনি আর নতুন অ্যাকাউন্ট যোগ করতে পারবেন না। অনুগ্রহ করে চালিয়ে যাওয়ার আগে সঠিক পাসওয়ার্ড প্রবেশ করান।"
+   },
+   "phrase_incorrect_export": {
+      "description": "Skip Unable-decripted Data.",
+      "message": "যেগুলো অ্যাকাউন্ট ডিক্রিপ্ট হতে সক্ষম নয়, সেগুলো আর ব্যাকআপে আসবে না।"
+   },
+   "phrase_not_match": {
+      "description": "Passphrase Not Match.",
+      "message": "পাসওয়ার্ড মিলছে না"
+   },
+   "popout": {
+      "description": "Make window turn into persistent popup",
+      "message": "পপ-আপ মোড"
+   },
+   "remember_phrase": {
+      "description": "Remember Passphrase",
+      "message": "পাসওয়ার্ড মনে রাখুন"
+   },
+   "remind_backup": {
+      "description": "Remind Backup",
+      "message": "আপনার অ্যাকাউন্টগুলোর জন্য ব্যাকআপ আছে? দেরি হওয়ার আগে আর অপেক্ষা নয়!"
+   },
+   "remove": {
+      "description": "Remove password.",
+      "message": "অপসারণ করুন"
+   },
+   "resize_popup_page": {
+      "description": "Popup Page Settings",
+      "message": "পছন্দসমূহ"
+   },
+   "scale": {
+      "description": "Scale",
+      "message": "স্কেল"
+   },
+   "search": {
+      "description": "Search",
+      "message": "অনুসন্ধান"
+   },
+   "secret": {
+      "description": "Secret.",
+      "message": "সিক্রেট"
+   },
+   "security": {
+      "description": "Security.",
+      "message": "নিরাপত্তা"
+   },
+   "security_warning": {
+      "description": "Passphrase Warning.",
+      "message": "এই পাসওয়ার্ড আপনার অ্যাকাউন্টকে এনক্রিপ্ট করতে কাজে লাগবে। কেউ আপনাকে সাহায্য করবে না যদি আপনি পাসওয়ার্ড ভুলে যান।"
+   },
+   "settings": {
+      "description": "Settings.",
+      "message": "সেটিংস"
+   },
+   "show_all_entries": {
+      "description": "Show all entries.",
+      "message": "সকল এন্ট্রি দেখান"
+   },
+   "show_all_insights": {
+      "message": "সকল অন্তর্দৃষ্টি দেখান।"
+   },
+   "sign_in": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "সাইন ইন করুন"
+   },
+   "sign_in_business": {
+      "description": "Sign in to 3rd party storage services",
+      "message": "সাইন ইন করুন (ব্যবসায়িক)"
+   },
+   "smart_filter": {
+      "message": "স্মার্ট ফিল্টার"
+   },
+   "source": {
+      "description": "Source Code.",
+      "message": "সোর্স কোড"
+   },
+   "storage_sync_info": {
+      "description": "3rd party backup info",
+      "message": "তৃতীয় পক্ষের স্টোরেজ সেবাসমূহে আপনার ডেটা স্বয়ংক্রিয়ভাবে ব্যাকআপ করুন।"
+   },
+   "sync_clock": {
+      "description": "Sync Clock",
+      "message": "গুগলের সাথে ক্লক সুসংগত করুন"
+   },
+   "theme": {
+      "description": "Theme",
+      "message": "থিম"
+   },
+   "theme_dark": {
+      "description": "Dark theme",
+      "message": "ডার্ক"
+   },
+   "theme_high_contrast": {
+      "description": "High Contrast theme",
+      "message": "উচ্চ কন্ট্র্যাস্ট"
+   },
+   "theme_light": {
+      "description": "Light theme",
+      "message": "লাইট"
+   },
+   "theme_simple": {
+      "description": "Simple theme",
+      "message": "সিম্পল"
+   },
+   "token_revoked": {
+      "description": "Error authenticating to backup service. $SERVICE$ will be replaced with a proper noun (E.g.: 'Google Drive' or 'Dropbox')",
+      "message": "আপনার $SERVICE$ অ্যাকাউন্টে সংযোগ প্রদানে একটি সমস্যা সংঘটিত হয়েছে, অনুগ্রহ করে আবার সাইন ইন করুন।",
+      "placeholders": {
+         "service": {
+            "content": "$1",
+            "example": "Google Drive"
+         }
+      }
+   },
+   "translate": {
+      "description": "Translate.",
+      "message": "অনুবাদ"
+   },
+   "type": {
+      "message": "ধরন"
+   },
+   "update": {
+      "description": "Update.",
+      "message": "আপডেট"
+   },
+   "updateFailure": {
+      "description": "Update Failure.",
+      "message": "ব্যর্থ।"
+   },
+   "updateSuccess": {
+      "description": "Update Success.",
+      "message": "সফল।"
+   },
+   "use_autofill": {
+      "description": "Use Autofill",
+      "message": "অটোফিল ব্যবহার করুন"
+   },
+   "use_high_contrast": {
+      "description": "Use High Contrast",
+      "message": "উচ্চ কন্ট্র্যাস্ট ব্যবহার করুন"
+   },
+   "warning": {
+      "message": "সাবধান"
+   },
+   "yes": {
+      "description": "Yes.",
+      "message": "হ্যাঁ"
+   }
+}

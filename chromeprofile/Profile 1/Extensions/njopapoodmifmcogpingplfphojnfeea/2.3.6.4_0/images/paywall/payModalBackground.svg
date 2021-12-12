@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="864" height="412" viewBox="0 0 864 412">
+    <defs>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#EDEDED"/>
+            <stop offset="100%" stop-color="#F8F8F8"/>
+        </linearGradient>
+        <filter id="prefix__d" width="146.2%" height="155.6%" x="-23.1%" y="-27.8%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="7"/>
+        </filter>
+        <rect id="prefix__a" width="864" height="412" x="0" y="0" rx="8"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__c" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="url(#prefix__b)" xlink:href="#prefix__a"/>
+        <ellipse cx="53.5" cy="56.914" fill="#FFF" mask="url(#prefix__c)" opacity=".504" rx="87.5" ry="73.032"/>
+        <ellipse cx="681.5" cy="35.76" fill="#FFF" filter="url(#prefix__d)" mask="url(#prefix__c)" rx="45.5" ry="37.775"/>
+        <ellipse cx="613" cy="122.391" fill="#FFF" mask="url(#prefix__c)" rx="8" ry="6.548"/>
+        <ellipse cx="874" cy="214.059" fill="#FFF" mask="url(#prefix__c)" opacity=".768" rx="73" ry="60.944"/>
+        <ellipse cx="295.5" cy="239.242" fill="#FFF" mask="url(#prefix__c)" rx="12.5" ry="10.577"/>
+    </g>
+</svg>

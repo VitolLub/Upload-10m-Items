@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon_messenger</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-1026.000000, -365.000000)" fill="#0084FF">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="item" transform="translate(20.000000, 91.000000)">
+                    <g transform="translate(20.000000, 257.000000)" id="icon">
+                        <g transform="translate(10.000000, 0.000000)">
+                            <path d="M24.8759969,56.2826385 C19.4603476,52.2283008 16,46.0426507 16,39.1123601 C16,26.9000408 26.745166,17 40,17 C53.254834,17 64,26.9000408 64,39.1123601 C64,51.3246793 53.254834,61.2247201 40,61.2247201 C37.4740509,61.2247201 35.0392434,60.8651881 32.7525731,60.1986367 L24.8872725,65 L24.8759969,56.2826385 L24.8759969,56.2826385 L24.8759969,56.2826385 Z M24.755676,46.540237 L37.5402365,32.9397883 L43.7281614,39.8416902 L55.4148734,32.9397883 L42.542732,46.7618526 L36.2829458,40.105637 L24.755676,46.540237 L24.755676,46.540237 Z" id="icon_messenger"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

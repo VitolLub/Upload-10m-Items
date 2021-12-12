@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="44px" viewBox="0 0 34 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_tinder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33.5706297,51.5804967 C33.5706297,51.5804967 37.2912477,61.5844336 50.5581743,60.973079 C63.8245723,60.3617244 66.392211,50.6710479 66.392211,50.6710479 C66.392211,50.6710479 71.272152,35.4818407 53.3769204,18.8612584 C53.3769204,18.8612584 51.3564313,17 50.5602889,17 C50.5602889,17 49.9167059,17 50.5602887,18.5690618 C50.5602887,18.5690618 54.4791495,27.7821197 45.5090662,34.4447866 C45.5090662,34.4447866 43.7766898,33.5196487 43.9447996,29.6224592 C43.9447996,29.6224592 44.0457712,28.3903365 43.2718319,28.2904487 C43.2718319,28.2904487 42.6644164,28.1811475 41.9274824,29.0131964 C41.9274824,29.0131964 30.3331951,41.3025223 33.5706297,51.5804967 Z" id="path-1"></path>
+        <filter x="-5.9%" y="-4.5%" width="111.8%" height="109.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.905882353   0 0 0 0 0.0980392157   0 0 0 0 0.0431372549  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Startpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cryptotab_startpage-widgets" transform="translate(-1174.000000, -1428.000000)">
+            <g id="side-panel-notes" transform="translate(960.000000, 0.000000)">
+                <g id="item" transform="translate(25.000000, 86.000000)">
+                    <g transform="translate(156.000000, 1325.000000)" id="icon_tinder">
+                        <g>
+                            <use fill="#F9524D" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

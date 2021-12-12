@@ -1,0 +1,84 @@
+<div class="weather" ng-if="!showWeatherDetails" ng-click="showDetails();">
+    <div class="weather__label">{{ 'show_details' | i18n }}</div>
+    <div class="weather__icon">
+        <i class="w-icon_64px w-icon_{{currentWeather.icon}} w-icon_{{currentWeather.icon_id}}"></i>
+    </div>
+    <div class="weather__temp">
+        <span ng-if="weatherSettings.units == 'c'"><b>{{currentWeather.temp}}&deg;</b>C</span>
+        <span ng-if="weatherSettings.units == 'f'"><b>{{currentWeather.temp | toFahrenheit}}&deg;</b>F</span>
+        <div class="weather__location">{{city.name}}</div>
+    </div>
+</div>
+<div class="weather-details" ng-if="showWeatherDetails">
+    <div class="location" ng-click="openWeatherSettings()">{{city.name}}</div>
+    <div class="current-weather" ng-if="loadingCounter <= 0">
+        <div class="current-weather__desc">{{currentWeather.description}}</div>
+        <div class="current-weather__temp">
+            <i class="w-icon_64px w-icon_{{currentWeather.icon}} w-icon_{{currentWeather.icon_id}}"></i>
+            <span ng-if="weatherSettings.units == 'c'"><b>{{currentWeather.temp}}&deg;</b>C</span>
+            <span ng-if="weatherSettings.units == 'f'"><b>{{currentWeather.temp | toFahrenheit}}&deg;</b>F</span>
+        </div>
+        <div class="current-weather__params">
+            <div class="current-weather__param">
+                <div class="current-weather__row">
+                    <div class="current-weather__icon">
+                        <img src="images/icon_wind.svg" ng-style="{'transform': 'rotate('+currentWeather.wind_direction + 'deg)'}" />
+                    </div>
+                    <div class="current-weather__value">{{weatherSettings.units == 'c' ? currentWeather.wind_speed : currentWeather.wind_speed_mph}}</div>
+                </div>
+                <div class="current-weather__label">{{ 'weather_label_wind' | i18n }}</div>
+            </div>
+            <div class="current-weather__param">
+                <div class="current-weather__row">
+                    <div class="current-weather__icon">
+                        <img src="images/icon_humidity.svg" />
+                    </div>
+                    <div class="current-weather__value current-weather__value_humidity">{{currentWeather.humidity}}%</div>
+                </div>
+                <div class="current-weather__label">{{ 'weather_label_humidity' | i18n }}</div>
+            </div>
+            <div class="current-weather__param">
+                <div class="current-weather__row">
+                    <div class="current-weather__value">{{weatherSettings.units == 'c' ? currentWeather.pressure : currentWeather.pressureF}}</div>
+                </div>
+                <div class="current-weather__label">{{ 'weather_label_pressure' | i18n }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="hourly-forecast" ng-if="loadingCounter <= 0">
+        <div class="hourly-forecast__item" ng-repeat="item in hourlyForecast.list | limitTo: 5">
+            <div ng-if="weatherSettings.units == 'c'" class="hourly-forecast__time">{{item.dt*1000 | date : 'H:mm' : city.tz_offset}}</div>
+            <div ng-if="weatherSettings.units == 'f'" class="hourly-forecast__time">{{item.dt*1000 | date : 'h a' : city.tz_offset}}</div>
+            <div class="hourly-forecast__humidity">{{item.main.humidity | number:0}}%</div>
+            <i class="hourly-forecast__icon w-icon_24px w-icon_{{item.weather[0].icon}} w-icon_{{item.weather[0].id}}"></i>
+            <div class="hourly-forecast__temp">{{weatherSettings.units == 'c' ? (item.main.temp|number:0) : (item.main.temp|toFahrenheit)}}&deg;</div>
+        </div>
+    </div>
+    <div class="daily-forecast" ng-if="loadingCounter <= 0">
+        <div class="daily-forecast__item" ng-repeat="item in dailyForecast.list | limitTo: 5">
+            <div class="daily-forecast__day">{{ (item.dt*1000 | date : 'EEEE') | i18n }}</div>
+            <div class="daily-forecast__params">
+                <i class="daily__icon w-icon_24px w-icon_{{item.weather[0].icon}} w-icon_{{item.weather[0].id}}" title="{{item.weather[0].description}}"></i>
+                <span>{{item.humidity | number:0}}%</span>
+            </div>
+            <div class="daily-forecast__temp">
+                <span class="daily-forecast__temp_d">{{weatherSettings.units == 'c' ? (item.temp.day|number:0) : (item.temp.day|toFahrenheit) }}&deg;</span>/<span class="daily-forecast__temp_n">{{weatherSettings.units == 'c' ? (item.temp.night|number:0) : (item.temp.night|toFahrenheit) }}&deg;</span>
+            </div>
+        </div>
+    </div>
+    <div class="sk-fading-circle" ng-if="loadingCounter != 0">
+        <div class="sk-circle1 sk-circle"></div>
+        <div class="sk-circle2 sk-circle"></div>
+        <div class="sk-circle3 sk-circle"></div>
+        <div class="sk-circle4 sk-circle"></div>
+        <div class="sk-circle5 sk-circle"></div>
+        <div class="sk-circle6 sk-circle"></div>
+        <div class="sk-circle7 sk-circle"></div>
+        <div class="sk-circle8 sk-circle"></div>
+        <div class="sk-circle9 sk-circle"></div>
+        <div class="sk-circle10 sk-circle"></div>
+        <div class="sk-circle11 sk-circle"></div>
+        <div class="sk-circle12 sk-circle"></div>
+    </div>
+    <div class="hide-details" ng-click="hideDetails();">{{ 'hide_details' | i18n }}</div>
+</div>

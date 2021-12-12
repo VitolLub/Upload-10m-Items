@@ -1,0 +1,21 @@
+<link rel="stylesheet" type="text/css" href="chrome-extension://{{ extension_id }}/css/ac.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://{{ extension_id }}/css/ac-apply-coupons.css">
+<link rel="stylesheet" type="text/css" href="chrome-extension://{{ extension_id }}/fonts/bootstrap-icons.css">
+
+<div id="ac-apply-coupons">
+  <div id="ac-code" style="display:none"></div>
+  <div class="modal-content coupon-modal-content">
+    <div class="modal-body coupon-modal-body">
+      <img src="chrome-extension://{{ extension_id }}/images/coupon.svg">
+      <h3 id="ac-title" >Applying Coupon Codes</h3>
+      <p id="ac-text">Priceblink is finding the best coupon code for you</p>
+      <div id="ac-progress-bar-container" class="progress">
+          <div id="ac-progress" class="progress-bar" role="progressbar"
+              aria-valuemax="100"></div>
+      </div>
+    </div>
+    <div class="modal-footer coupon-modal-footer">
+        <button id="ac-close-icon" type="button">Cancel</button>
+    </div>
+  </div>
+</div>

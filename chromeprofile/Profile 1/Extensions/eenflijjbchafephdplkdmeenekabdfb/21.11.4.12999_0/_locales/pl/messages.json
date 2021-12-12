@@ -1,0 +1,788 @@
+{
+   "ANNOUNCE_CONTROL_CLOSE": {
+      "message": "Przyjęte, dzięki"
+   },
+   "ANNOUNCE_DESCRIPTION": {
+      "message": "Nowe sklepy."
+   },
+   "ANNOUNCE_FEATURE_CABINET_FILTERS": {
+      "message": "Szybko znajduj swoich ulubionych z różnych sklepów z nowym filtrem na"
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON": {
+      "message": "Przycisk „Śledź cenę” jest teraz zawsze widoczny. Możesz dodawać produkty do listy ulubionych 1 kliknięciem."
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON_GUEST": {
+      "message": " i dodaj interesujące cię produkty do listy ulubionych 1 kliknięciem."
+   },
+   "ANNOUNCE_FEATURE_FAVORITES_BUTTON_GUEST_REGISTRATION": {
+      "message": "Zarejestruj się"
+   },
+   "ANNOUNCE_FEATURE_MOBILE_PRICE": {
+      "message": "Zakładka „Analiza ceny” przedstawia cenę zakupu za pośrednictwem aplikacji mobilnej AliExpress."
+   },
+   "ANNOUNCE_FEATURE_NEW_STORES": {
+      "message": "AliTools na Pandao, Joom, Lamoda, Wildberries."
+   },
+   "ANNOUNCE_FEATURE_PRICE_WIDGET": {
+      "message": "AliTools porównuje poprzednie i obecne ceny pokazując, ile możesz zaoszczędzić."
+   },
+   "ANNOUNCE_FOOTER_FEEDBACK": {
+      "message": "Pomóż nam uczynić aplikację AliTools lepszą:"
+   },
+   "ANNOUNCE_FOOTER_FEEDBACK_LINK": {
+      "message": "prześlij swoje pomysły, opinię i zgłoszenia błędów."
+   },
+   "ANNOUNCE_TITLE": {
+      "message": "AliTools otrzymało aktualizację!"
+   },
+   "BETA_LABEL": {
+      "message": "Wersja beta"
+   },
+   "BETA_SUPPORT_LINK": {
+      "message": "Skontaktuj się z nami"
+   },
+   "BETA_TITLE": {
+      "message": "AliTools dla witryny $STORE_NAME$",
+      "placeholders": {
+         "store_name": {
+            "content": "$1",
+            "example": "Gearbest"
+         }
+      }
+   },
+   "BETA_TOOLTIP": {
+      "message": "Rozszerzenie przeglądarki jest nadal w przygotowaniu. Dziękujemy za opinie i zgłoszenia błędów."
+   },
+   "BUTTON_TRY_AGAIN": {
+      "message": "Odśwież"
+   },
+   "CHART2_CHEAPER": {
+      "message": "tańsze"
+   },
+   "CHART2_CURRENT_PRICE": {
+      "message": "Ostatnia cena"
+   },
+   "CHART2_DOESNT_CHANGE": {
+      "message": "niezmienna "
+   },
+   "CHART2_DROPPED": {
+      "message": "spadła o "
+   },
+   "CHART2_EXPENSIVE": {
+      "message": "drogie"
+   },
+   "CHART2_FEEDBACK_HOW": {
+      "message": "Jak znaleźć nowy wykres?"
+   },
+   "CHART2_FEEDBACK_PLACEHOLDER": {
+      "message": "Co ci się nie podoba w nowym wykresie?"
+   },
+   "CHART2_FEEDBACK_THANKS": {
+      "message": "Dziękujemy za odpowiedź!"
+   },
+   "CHART2_INCREASED": {
+      "message": "wzrosła o "
+   },
+   "CHART2_LAST_PRICE": {
+      "message": "Ostatnia cena"
+   },
+   "CHART2_NOW": {
+      "message": "Teraz za"
+   },
+   "CHART2_ONE_POINT_SINCE": {
+      "message": "AliTools zaczął otrzymywać informacje o cenie od "
+   },
+   "CHART2_PRICE": {
+      "message": "Cena:"
+   },
+   "CHART2_SAME_PRICE": {
+      "message": "Niezmienna"
+   },
+   "CHART2_UNKNOWN": {
+      "message": "AliTools nie otrzymał informacji o cenie tego dnia."
+   },
+   "EXTENSION_DESCRIPTION": {
+      "message": "Historia cen z 6 miesięcy, podobne produkty, znajdowanie przedmiotów po zdjęciu, oceny sprzedawców."
+   },
+   "EXTENSION_NAME": {
+      "message": "Alitools — asystent zakupów"
+   },
+   "EXTENSION_SHORT_NAME": {
+      "message": "Alitools"
+   },
+   "FILTER_ALL": {
+      "message": "Wszystkie"
+   },
+   "FILTER_PHOTOS": {
+      "message": "Zdjęcie"
+   },
+   "FILTER_VIDEOS": {
+      "message": "Wideo"
+   },
+   "INDICATOR_ANNOUNCE": {
+      "message": "Co nowego?"
+   },
+   "INDICATOR_UPDATE_AVAILABLE": {
+      "message": "Dostępna aktualizacja"
+   },
+   "LEGACY_SELLER_CHECK_NOTE_PLACEHOLDER": {
+      "message": "Uwaga osobista na temat sprzedawcy..."
+   },
+   "LEGACY_SELLER_CHECK_TITLE": {
+      "message": "Ocena sprzedawcy na podstawie danych AliTools"
+   },
+   "LEGACY_SELLER_CHECK_TOOLTIP": {
+      "message": "Sekcję można wyłączyć w ustawieniach  rozszerzeń"
+   },
+   "MOBILE_PRICE_WIDGET_DISCOUNT_TOOLTIP": {
+      "message": "Zniżka mobilna "
+   },
+   "MODAL_SETTINGS_AUTH_LOGIN": {
+      "message": "Zaloguj się"
+   },
+   "MODAL_SETTINGS_AUTH_SIGN_UP": {
+      "message": "Zarejestruj się"
+   },
+   "MODAL_SETTINGS_BASE_TITLE": {
+      "message": "Ustawienia ogólne"
+   },
+   "MODAL_SETTINGS_FOOTER_ABOUT": {
+      "message": "O nas"
+   },
+   "MODAL_SETTINGS_FOOTER_FEEDBACK": {
+      "message": "Wsparcie"
+   },
+   "MODAL_SETTINGS_L10N_TITLE": {
+      "message": "Ustawienia lokalne"
+   },
+   "MODAL_SETTINGS_LOGOUT": {
+      "message": "WYLOGUJ SIĘ"
+   },
+   "MODAL_SETTINGS_NOTIFICATIONS_TITLE": {
+      "message": "Powiadomienia"
+   },
+   "MODAL_VIDEOS_TITLE": {
+      "message": "Wideorecenzje"
+   },
+   "NAVIGATION_BRAND_TITLE": {
+      "message": "Wszystkie przedmioty $MESSAGE$",
+      "placeholders": {
+         "message": {
+            "content": "$1",
+            "example": "Bamoer"
+         }
+      }
+   },
+   "POPUP_CONTROL_FAVORITES": {
+      "message": "Ulubione"
+   },
+   "POPUP_CONTROL_PACKAGES": {
+      "message": "Paczki"
+   },
+   "POPUP_CONTROL_SETTINGS": {
+      "message": "Ustawienia"
+   },
+   "POPUP_FOOTER_ABOUT": {
+      "message": "O nas"
+   },
+   "POPUP_FOOTER_ALIEXPRESS": {
+      "message": "AliExpress"
+   },
+   "POPUP_FOOTER_SUPPORT": {
+      "message": "Wsparcie"
+   },
+   "POPUP_FOOTER_TUTORIAL": {
+      "message": "Jak korzystać"
+   },
+   "PRICE_DYNAMICS_NEGATIVE": {
+      "message": "spadła"
+   },
+   "PRICE_DYNAMICS_NEUTRAL": {
+      "message": "bez zmian"
+   },
+   "PRICE_DYNAMICS_POSITIVE": {
+      "message": "wzrosła"
+   },
+   "PUSH_MULTIPLE_MESSAGE": {
+      "message": "Przejdź do ulubionych, aby wyświetlić listę produktów"
+   },
+   "PUSH_MULTIPLE_MORE": {
+      "message": "i $COUNT$ {pluralize, $COUNT$, produkt więcej|produkty więcej|produktów więcej}",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "10"
+         }
+      }
+   },
+   "PUSH_MULTIPLE_TITLE": {
+      "message": "Cena produktu wzrosła"
+   },
+   "PUSH_SINGLE_TITLE": {
+      "message": "Cena produktu spadła"
+   },
+   "REVIEWS_GAMERY_FROM_SUFFIX": {
+      "message": "from"
+   },
+   "REVIEWS_GAMERY_TURN_LEFT": {
+      "message": "Turn left"
+   },
+   "REVIEWS_GAMERY_TURN_RIGHT": {
+      "message": "Turn right"
+   },
+   "SELLER_CHECK_BAD": {
+      "message": "Niska"
+   },
+   "SELLER_CHECK_EMPTY_TITLE": {
+      "message": "Na razie nie zebraliśmy wystarczająco dużo danych do oceny tego sprzedawcy. Wkrótce to naprawimy."
+   },
+   "SELLER_CHECK_GOOD": {
+      "message": "Wysoka"
+   },
+   "SELLER_CHECK_NEUTRAL": {
+      "message": "Średnia"
+   },
+   "SETTINGS_BUTTON_CANCEL": {
+      "message": "Anuluj"
+   },
+   "SETTINGS_BUTTON_CHANGE": {
+      "message": "Zmień"
+   },
+   "SETTINGS_BUTTON_CONNECT": {
+      "message": "Powiąż"
+   },
+   "SETTINGS_BUTTON_LOGOUT": {
+      "message": "Wyloguj"
+   },
+   "SETTINGS_BUTTON_SAVE": {
+      "message": "Zapisz"
+   },
+   "SETTINGS_BUTTON_SIGNIN": {
+      "message": "Zaloguj się"
+   },
+   "SETTINGS_BUTTON_SIGNUP": {
+      "message": "Zarejestruj się"
+   },
+   "SETTINGS_COMMON_CURRENCY": {
+      "message": "Waluta:"
+   },
+   "SETTINGS_COMMON_LANGUAGE": {
+      "message": "Język:"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_CONNECT": {
+      "message": "E-mail i hasło"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_EMAIL_PLACEHOLDER": {
+      "message": "Email ..."
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_PASSWORD_HINT": {
+      "message": "Minimum 6 znaków"
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_PASSWORD_PLACEHOLDER": {
+      "message": "Hasło ..."
+   },
+   "SETTINGS_EMAIL_AND_PASSWORD_TITLE": {
+      "message": "Połącz e-mail"
+   },
+   "SETTINGS_EMAIL_EMAIL_PLACEHOLDER": {
+      "message": "Nowy e-mail ..."
+   },
+   "SETTINGS_EMAIL_PASSWORD_PLACEHOLDER": {
+      "message": "Aktualne hasło ..."
+   },
+   "SETTINGS_EMAIL_SUCCESS": {
+      "message": "Zmieniono adres e-mail"
+   },
+   "SETTINGS_EMAIL_TITLE": {
+      "message": "Zmień adres email"
+   },
+   "SETTINGS_ENABLE_PUSH_NOTIFICATIONS": {
+      "message": "Powiadomienia push o spadku cen artykułów"
+   },
+   "SETTINGS_FOOTER_TEXT": {
+      "message": "Wersja rozszerzenia: "
+   },
+   "SETTINGS_JDPR_POLICY": {
+      "message": "Polityka prywatności"
+   },
+   "SETTINGS_JDPR_TERMS": {
+      "message": "Warunki użytkowania"
+   },
+   "SETTINGS_JDPR_TEXT": {
+      "message": "Przeczytałem(-am) i zgadzam się z: "
+   },
+   "SETTINGS_LABEL_CURRENCY": {
+      "message": "Waluta"
+   },
+   "SETTINGS_LABEL_EMAIL_NOTIFICATIONS": {
+      "message": "Powiadomienia e-mail"
+   },
+   "SETTINGS_LABEL_GOOGLE_ANALYTICS": {
+      "message": "Pozwól na gromadzenie danych analitycznych w celu ulepszenia produktu"
+   },
+   "SETTINGS_LABEL_LANGUAGE": {
+      "message": "Język"
+   },
+   "SETTINGS_LABEL_NOTIFICATIONS_BADGE": {
+      "message": "Pokazuj powiadomienia na panelu rozszerzeń"
+   },
+   "SETTINGS_LABEL_PAGE_MOBILE_PRICE": {
+      "message": "Pokazuj ceny z aplikacji mobilnej na stronie produktu"
+   },
+   "SETTINGS_LABEL_PAGE_SELLER_CHECK": {
+      "message": "Pokazuj sekcję weryfikacji sprzedawcy na stronie produktu"
+   },
+   "SETTINGS_LABEL_PANEL_ALL_PAGES": {
+      "message": "Pokazuj panel rozszerzeń na wszystkich stronach sklepów"
+   },
+   "SETTINGS_LABEL_PUSH_NOTIFICATIONS": {
+      "message": "Powiadomienia push"
+   },
+   "SETTINGS_LABEL_THEME": {
+      "message": "Schemat kolorów"
+   },
+   "SETTINGS_MODAL_HEADER": {
+      "message": "Ustawienia"
+   },
+   "SETTINGS_NOTE_CURRENCY": {
+      "message": "Ceny w wybranej walucie między sklepami internetowymi i rozszerzeniem przeglądarki mogą różnić się o 1-5%."
+   },
+   "SETTINGS_NOTE_END": {
+      "message": " za pomocą konta AliTools, aby korzystać\u003Cbr> z wszystkich funkcji rozszerzenia."
+   },
+   "SETTINGS_NOTE_LOGIN": {
+      "message": "zaloguj się"
+   },
+   "SETTINGS_NOTE_OR": {
+      "message": "lub"
+   },
+   "SETTINGS_NOTE_SIGN_UP": {
+      "message": "Zarejestruj się"
+   },
+   "SETTINGS_OAUTH_ERROR": {
+      "message": "Wystąpił błąd podczas autoryzacji. Odśwież stronę i spróbuj ponownie."
+   },
+   "SETTINGS_OAUTH_WARNING": {
+      "message": "Konto, które próbowałeś połączyć zostało już połączone z innym kontem AliTools."
+   },
+   "SETTINGS_OAUTH_facebook": {
+      "message": "Facebook"
+   },
+   "SETTINGS_OAUTH_google": {
+      "message": "Google"
+   },
+   "SETTINGS_OAUTH_vk": {
+      "message": "VK"
+   },
+   "SETTINGS_PASSWORD_CHANGE": {
+      "message": "Hasło"
+   },
+   "SETTINGS_PASSWORD_NEW_HINT": {
+      "message": "Minimum 6 znaków"
+   },
+   "SETTINGS_PASSWORD_NEW_PLACEHOLDER": {
+      "message": "Nowe hasło ..."
+   },
+   "SETTINGS_PASSWORD_OLD_PLACEHOLDER": {
+      "message": "Aktualne hasło ..."
+   },
+   "SETTINGS_PASSWORD_SUCCESS": {
+      "message": "Hasło zostało zmienione"
+   },
+   "SETTINGS_PASSWORD_TITLE": {
+      "message": "Zmień hasło"
+   },
+   "SETTINGS_SHOW_NOTIFICATIONS": {
+      "message": "Liczba przedmiotów z obniżoną ceną w widżecie"
+   },
+   "SETTINGS_SHOW_PAGE_MOBILE_PRICE": {
+      "message": "Cena mobilna na stronie produktu"
+   },
+   "SETTINGS_SHOW_PAGE_SELLER_CHECK": {
+      "message": "Sekcja weryfikacji sprzedawcy na stronie produktu"
+   },
+   "SETTINGS_SHOW_PANEL_ON_ALL_PAGES": {
+      "message": "Widżet na wszystkich stronach AliExpress"
+   },
+   "SETTINGS_TAB_COMMON": {
+      "message": "Ogólne"
+   },
+   "SETTINGS_TAB_EXTENSION": {
+      "message": "Rozszerzenie"
+   },
+   "SETTINGS_TAB_PROFILE": {
+      "message": "Profil"
+   },
+   "SETTINGS_THEME": {
+      "message": "Schemat kolorów widżeta"
+   },
+   "SETTINGS_THEMES_DEFAULT": {
+      "message": "ciemny"
+   },
+   "SETTINGS_THEMES_LIGHT": {
+      "message": "jasny"
+   },
+   "SETTINGS_THEME_DARK": {
+      "message": "Ciemny"
+   },
+   "SETTINGS_THEME_LIGHT": {
+      "message": "Jasny"
+   },
+   "SIMILARS_TAB_EMPTY": {
+      "message": "Ten produkt jest jedyny w swoim rodzaju: nie znaleźliśmy mu podobnych."
+   },
+   "SIMILARS_TAB_ORDERS": {
+      "message": "$VIEWS${pluralize, $VIEWS$, zamówienie|zamówienia|zamówień}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "SIMILARS_TAB_TITLE": {
+      "message": "Podobne produkty"
+   },
+   "SIMILARS_TAB_TITLE_EMPTY": {
+      "message": "Funkcja podobnych produktów działa obecnie tylko na smartfonach."
+   },
+   "SIMILARS_TAB_TITLE_EMPTY_SMART": {
+      "message": "Sprawdź, jak działa na stronie Xiaomi Redmi Note 5"
+   },
+   "SORT_LAST": {
+      "message": "Najnowsze"
+   },
+   "SORT_LOWEST_PRICE": {
+      "message": "Z obniżką ceny"
+   },
+   "STATIC_CHANGE_LOG_TITLE": {
+      "message": "Zmiany — AliTools"
+   },
+   "STATIC_SETTINGS_TITLE": {
+      "message": "Ustawienia — AliTools"
+   },
+   "STATIC_TRACKING_ARCHIVE_TITLE": {
+      "message": "Archiwum zamówień — AliTools"
+   },
+   "STATIC_TRACKING_PACKAGES_TITLE": {
+      "message": "Śledzenie zamówienia — AliTools"
+   },
+   "STATIC_TUTORIAL_TITLE": {
+      "message": "Przewodnik — AliTools"
+   },
+   "TAB_ERROR_BUTTON": {
+      "message": "Spróbuj ponownie"
+   },
+   "TAB_ERROR_TITLE": {
+      "message": "Coś poszło nie tak... \u003Cbr>Spróbuj ponownie\u003Cbr> za jakiś czas."
+   },
+   "TAB_FAVORITES_EMPTY_BUTTON": {
+      "message": "Dodaj do ulubionych"
+   },
+   "TAB_FAVORITES_EMPTY_TITLE": {
+      "message": "There will be products that you will follow through AliTools."
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP": {
+      "message": "Aby śledzić cenę, "
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_LOGIN": {
+      "message": "zaloguj się"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_REGISTER": {
+      "message": "zarejestruj się"
+   },
+   "TAB_FAVORITES_EMPTY_TOOLTIP_SUFFIX": {
+      "message": " lub "
+   },
+   "TAB_FAVORITES_ERROR_MESSAGE": {
+      "message": "Przy ładowaniu produktów wystąpił błąd"
+   },
+   "TAB_FAVORITES_LIST_EMPY_TEXT": {
+      "message": "Wygląda na to, że\u003Cbr> nie ma jeszcze zniżek, ale wkrótce będą dostępne."
+   },
+   "TAB_FAVORITES_MORE": {
+      "message": "Otwórz wszystkie produkty z ulubionych"
+   },
+   "TAB_FAVORITES_PRICE_DOWN": {
+      "message": "spadła o"
+   },
+   "TAB_FAVORITES_PRICE_SAME": {
+      "message": "bez zmian"
+   },
+   "TAB_FAVORITES_PRICE_UP": {
+      "message": "wzrosła o"
+   },
+   "TAB_FAVORITES_TITLE": {
+      "message": "Ulubione"
+   },
+   "TAB_PRICE_HISTORY_3_MONTH_PERIOD": {
+      "message": "za 3 miesiące"
+   },
+   "TAB_PRICE_HISTORY_6_MONTH_PERIOD": {
+      "message": "przez pół roku"
+   },
+   "TAB_PRICE_HISTORY_ADDED_TO_FAVORITE": {
+      "message": "Ulubione"
+   },
+   "TAB_PRICE_HISTORY_ADD_TO_FAVORITE": {
+      "message": "Dodaj do ulubionych"
+   },
+   "TAB_PRICE_HISTORY_DYNAMIC_TODAY": {
+      "message": "Dzisiaj"
+   },
+   "TAB_PRICE_HISTORY_EMPTY_TITLE": {
+      "message": "Nie zebrano wystarczającej\u003Cbr> ilości danych, by stworzyć wykres ceny"
+   },
+   "TAB_PRICE_HISTORY_FOLLOWING_BUTTON": {
+      "message": "Cena śledzona"
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_BUTTON": {
+      "message": "Śledź cenę"
+   },
+   "TAB_PRICE_HISTORY_FOLLOW_COMMENT": {
+      "message": "Produkt zostanie dodany do ulubionych"
+   },
+   "TAB_PRICE_HISTORY_HEADER_TOOLTIP": {
+      "message": "AliTools zapewnia wgląd w historię ceny\u003Cbr>tylko dla najtańszej konfiguracji produktu"
+   },
+   "TAB_PRICE_HISTORY_MOBILE_DISCOUNT": {
+      "message": "zniżka"
+   },
+   "TAB_PRICE_HISTORY_MOBILE_PRICE": {
+      "message": "Cena mobilna:"
+   },
+   "TAB_PRICE_HISTORY_NOTIFICATIONS_COMMENT": {
+      "message": "Otrzymasz powiadomienie, gdy cena spadnie"
+   },
+   "TAB_PRICE_HISTORY_REMOVE_FROM_FAVORITE": {
+      "message": "Usuń z ulubionych"
+   },
+   "TAB_PRICE_HISTORY_TAB_TITLE": {
+      "message": "Historia cen"
+   },
+   "TAB_PRICE_HISTORY_TITLE": {
+      "message": "Historia ceny"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP": {
+      "message": "Aby śledzić cenę, "
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_LOGIN": {
+      "message": "zaloguj się"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_REGISTER": {
+      "message": "zarejestruj się"
+   },
+   "TAB_PRICE_HISTORY_TOOLTIP_SUFFIX": {
+      "message": " lub "
+   },
+   "TAB_PRICE_HISTORY_UNFOLLOW_BUTTON": {
+      "message": "Zatrzymaj śledzenie"
+   },
+   "TAB_PRICE_HISTORY_UNFOLLOW_COMMENT": {
+      "message": "Produkt zostanie usunięty z ulubionych"
+   },
+   "TAB_REVIEWS_EMPTY_TITLE": {
+      "message": "Niestety,\u003Cbr>nie znaleźliśmy żadnych recenzji tego produktu."
+   },
+   "TAB_REVIEWS_LIST_EMPTY_PHOTOS_TEXT": {
+      "message": "Ten produkt nie ma\u003Cbr> jeszcze fotorecenzji"
+   },
+   "TAB_REVIEWS_LIST_EMPTY_VIDEOS_TEXT": {
+      "message": "Ten produkt nie ma\u003Cbr> jeszcze wideorecenzji"
+   },
+   "TAB_REVIEWS_TITLE": {
+      "message": "Recenzje"
+   },
+   "TAB_SELLER_CHECK_TITLE": {
+      "message": "Ocena sprzedawcy"
+   },
+   "TRACKING_ACTION_ARCHIVE": {
+      "message": "Archiwizuj"
+   },
+   "TRACKING_ACTION_REMOVE": {
+      "message": "Usuń"
+   },
+   "TRACKING_ACTION_RESTORE": {
+      "message": "Przywróć"
+   },
+   "TRACKING_ACTION_SELECT_ALL": {
+      "message": "Zobacz wszystkie zamówienia na \u003Cbr />jednej stronie"
+   },
+   "TRACKING_ACTION_UPDATE": {
+      "message": "Edytuj"
+   },
+   "TRACKING_INPUT_PLACEHOLDER": {
+      "message": "Nr monitorowania"
+   },
+   "TRACKING_MESSAGE_ARCHIVE_EMPTY": {
+      "message": "Brak tu jeszcze produktów.\u003Cbr />Aby być na bieżąco, zarchiwizuj już dostarczone zamówienia. "
+   },
+   "TRACKING_MESSAGE_EDIT_NAME": {
+      "message": "Wprowadź nr monitorowania"
+   },
+   "TRACKING_MESSAGE_LOADING": {
+      "message": "Wczytywanie..."
+   },
+   "TRACKING_MESSAGE_LOADING_ERROR": {
+      "message": "Błąd podczas wczytywania listy zamówień"
+   },
+   "TRACKING_MESSAGE_PACKAGES_EMPTY": {
+      "message": "Aby śledzić zamówienie, wprowadź w polu poniżej przekazany przez sprzedawcę numer monitorowania."
+   },
+   "TRACKING_TAB_ARCHIVE": {
+      "message": "Archiwizuj"
+   },
+   "TRACKING_TAB_PACKAGES": {
+      "message": "Śledzenie zamówienia"
+   },
+   "TUTORIAL_MODAL_CONTROLS_ABORT": {
+      "message": "Przerwij samouczek AliTools"
+   },
+   "TUTORIAL_MODAL_CONTROLS_NEXT": {
+      "message": "Więcej"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_CONTROLS_GUEST": {
+      "message": "Kontynuuj bez rejestracji"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_CONTROLS_SIGNUP": {
+      "message": "Zarejestruj się"
+   },
+   "TUTORIAL_MODAL_STEP_DONE_DESCRIPTION": {
+      "message": "Tylko zarejestrowani użytkownicy mogą śledzić ceny \u003Cbr>i dodawać produkty do listy ulubionych. "
+   },
+   "TUTORIAL_MODAL_STEP_DONE_TITLE": {
+      "message": "I wreszcie..."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_DESCRIPTION": {
+      "message": "Wszystkie produkty, których ceny śledzisz, \u003Cbr>znajdują się w tym miejscu."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_CABINET": {
+      "message": "Wszystkie produkty na liście ulubionych \u003Cbr>dostępne są z poziomu profilu."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_FILTERS": {
+      "message": "Żeby przekonać się, które ceny \u003Cbr>produktów spadły w ostatnim czasie, \u003Cbr>przejdź do zakładki „Z obniżoną ceną”"
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_SECTION_ITEMS": {
+      "message": "Lista ulubionych pozwala szybko przekonać się, \u003Cbr>ile produkt kosztuje w danej chwili \u003Cbr>i jak bardzo zmieniła się jego cena."
+   },
+   "TUTORIAL_MODAL_STEP_FAVORITES_TITLE": {
+      "message": "Oto twoja lista ulubionych"
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_DESCRIPTION": {
+      "message": "Zestaw poprzednie ceny z obecną, \u003Cbr>żeby wykryć fałszywe obniżki."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_FAVORITES_SECTION_CONTROL": {
+      "message": "Przycisk „Śledź produkt” doda produkt do listy ulubionych. \u003Cbr>Otrzymasz powiadomienie, gdy tylko \u003Cbr>spadnie cena produktu."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_FAVORITES_TITLE": {
+      "message": "Czy coś ci się spodobało?"
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_SECTION_CHART": {
+      "message": "Wykres przedstawia historię zmian ceny produktu. \u003Cbr>Najedź kursorem na wykres, \u003Cbr>żeby wybrać przedział czasowy."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_SECTION_COMPARING": {
+      "message": "Niniejsza sekcja przedstawia zestawieniowe cenowe. \u003Cbr>Po lewej znajdują się stare ceny, a po prawej obecne. \u003Cbr>Pośrodku natomiast widać różnicę \u003Cbr>w cenie oraz procentową obniżkę."
+   },
+   "TUTORIAL_MODAL_STEP_PRICE_DYNAMICS_TITLE": {
+      "message": "Oto wykres zmian ceny"
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_DESCRIPTION": {
+      "message": "Poznaj specyfikę \u003Cbr>kupowanego produktu."
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_SECTION_FILTERS": {
+      "message": "Filtry do przełączania rodzaju \u003Cbr>recenzji (foto- lub wideo-) i sposobu \u003Cbr>wyświetlania (kart lub listy)"
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_SECTION_ITEMS": {
+      "message": "Każda karta prowadzi do innej recenzji. \u003Cbr>Po najechaniu karty kursorem można \u003Cbr>przeczytać opis recenzji."
+   },
+   "TUTORIAL_MODAL_STEP_REVIEWS_TITLE": {
+      "message": "Oto recenzje"
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_DESCRIPTION": {
+      "message": "Sprawdź ocenę sprzedawcę, nim podejmiesz \u003Cbr>decyzję o zakupie."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_SECTION_CONCLUSION": {
+      "message": "Sprzedawcy mogą otrzymać jedną z trzech ocen: wysoką, \u003Cbr>średnią i niską. Pod oceną znaleźć\u003Cbr> można krótki opis."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_SECTION_REASONS": {
+      "message": "Czynniki, które zaważyły na ocenie, \u003Cbr>wymieniono poniżej."
+   },
+   "TUTORIAL_MODAL_STEP_SELLER_CHECK_TITLE": {
+      "message": "Oto ocena sprzedawcy"
+   },
+   "TUTORIAL_MODAL_STEP_WELCOME_DESCRIPTION": {
+      "message": "Zawiera informacje o zmianach cen, współczynniku \u003Cbr>zaufania do sprzedawcy oraz liczbie zamieszczonych \u003Cbr> recenzji. Zawiera także przycisk „Śledź produkt”."
+   },
+   "TUTORIAL_MODAL_STEP_WELCOME_TITLE": {
+      "message": "Oto mini widżet AliTools"
+   },
+   "TUTORIAL_POPUP_CONTROL_ALI_CONFIRM": {
+      "message": "Wypróbuj na\u003Cbr> AliExpress"
+   },
+   "TUTORIAL_POPUP_CONTROL_CANCEL": {
+      "message": "Już rozumiem"
+   },
+   "TUTORIAL_POPUP_CONTROL_CONFIRM": {
+      "message": "Wypróbuj na\u003Cbr> stronie produktu"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_CHART": {
+      "message": "Historia ceny"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_DYNAMICS": {
+      "message": "Powiadomienia o obniżce cen"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_HISTORY": {
+      "message": "Historia cen przez 3 miesiące"
+   },
+   "TUTORIAL_POPUP_FEATURE_PRICE_HISTORY_HALF_YEAR": {
+      "message": "Historia cen przez pół roku"
+   },
+   "TUTORIAL_POPUP_FEATURE_REVIEWS": {
+      "message": "Zdjęcia i wideorecenzje"
+   },
+   "TUTORIAL_POPUP_FEATURE_SELLER_CHECK": {
+      "message": "Poziom zaufania sprzedawcy"
+   },
+   "TUTORIAL_POPUP_HEADER": {
+      "message": "Twój niezawodny pomocnik\u003Cbr> przy zakupach online"
+   },
+   "UPDATES_TAB_TEXT": {
+      "message": "Dodaliśmy nowe funkcje i poprawione błędy. Zaktualizuj, aby rozszerzenie były jeszcze bardziej przydatne i wygodne."
+   },
+   "UPDATES_TAB_TITLE": {
+      "message": "Dostępna aktualizacja"
+   },
+   "UPDATES_TAB_UPDATE_EXTENSION": {
+      "message": "Zaktualizuj AliTools"
+   },
+   "UPDATES_TAB_VERSION": {
+      "message": "Wersja: $VERSION$",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "5.0.0"
+         }
+      }
+   },
+   "VIDEO_THUMB_VIEWS": {
+      "message": "$VIEWS$ {pluralize, $VIEWS$, wyświetlenie|wyświetlenia|wyświetleń}",
+      "placeholders": {
+         "views": {
+            "content": "$1",
+            "example": "5460"
+         }
+      }
+   },
+   "WIDGET_TAB_PRICE": {
+      "message": "cena"
+   },
+   "WIDGET_TAB_REVIEWS": {
+      "message": "recenzje"
+   },
+   "WIDGET_TAB_SELLER": {
+      "message": "sprzedawca"
+   },
+   "WIDGET_TAB_SIMILAR": {
+      "message": "podobne"
+   }
+}

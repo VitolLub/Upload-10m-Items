@@ -1,0 +1,75 @@
+:host{margin:0}
+html,body,div,dt,dl,dd,button,span,b,input,textarea{margin:0;padding:0;border:0;box-sizing:border-box}
+input,textarea{padding:2px 7px;border:solid 1px #c2bfb3;border-radius:2px}
+textarea{resize:vertical;overflow:hidden}
+.__editor,button,input,textarea{font-family:'Segoe UI',Helvetica,'Helvetica Neue',Arial,sans-serif;font-size:15px;color:#434343}
+button{background:none;vertical-align:middle}
+button,input,label,span,b,i{display:inline-block;vertical-align:middle}
+dt,dd,button{cursor:pointer}
+button.__wide{position:absolute;bottom:19px;right:19px;padding:3px 12px;background:#1976d2;color:#fff}
+
+.__chk{-webkit-appearance:none;border:0;padding:0;width:16px;height:16px;margin-right:7px;background:url('../img/chk.png') 0 0 no-repeat;}
+.__chk:checked{background-position: 0 -128px;}
+.__chk[disabled]{background-position: 0 -96px;}
+.__chk[disabled]:checked{background-position: 0 -224px;}
+.__chk:hover:not([disabled]),.__chk:focus{background-position: 0 -32px;}
+.__chk:checked:hover:not([disabled]),.__chk:checked:focus{background-position: 0 -160px;}
+.__chk:active:not([disabled]){background-position: 0 -64px;}
+.__chk:checked:active:not([disabled]){background-position: 0 -192px;}
+
+.__lbox{position:absolute;left:0;top:0;width:60%;height:100%;border:solid 1px #aea999;overflow:hidden}
+.__controls,.__tree,.__status{position:absolute;left:0;width:100%}
+.__controls,.__status{padding:7px 12px;background:#f4f2e9 url('../img/prop.png') repeat;}
+.__controls{top:0;border-bottom:solid 1px #aea999}
+.__status{bottom:0;border-top:solid 1px #aea999}
+.__tree{top:39px;bottom:33px;padding:19px 12px;background:#fff;overflow:auto}
+.__tree.__imported{background:#f1f8e9}
+.__controls button,.__status button{width:16px;height:16px;margin:0 9px}
+.__status button{float:right;margin-top:2px}
+.__cook-green,.__cook-salad,.__cook-yellow,.__cook-white,.__cook-red,.__btn-web,.__btn-expand,.__btn-refresh,.__btn-remove,.__btn-export,.__btn-import{background-image:url('../img/sprite.png');background-repeat:no-repeat}
+.__cook-yellow{background-position:0 -33px}
+.__cook-green{background-position:0 -61px}
+.__cook-salad{background-position:0 -89px}
+.__cook-white{background-position:0 -117px}
+.__cook-red{background-position:0 -145px}
+.__cook-ses-sec{background-position:0 -201px}
+.__cook-pers{background-position:0 -5px}
+.__cookie-pers-sec{background-position:0 -201px}
+.__btn-expand{background-position:0 -201px}
+.__btn-refresh{background-position:0 -313px}
+.__btn-remove{background-position:0 -174px}
+.__btn-export{background-position:0 -286px}
+.__btn-import{background-position:0 -258px}
+.__btn-web{background-position:0 -230px}
+.__filter{margin-left:9px;width:130px}
+
+dt{font-weight:bold;user-select:none}
+dt,dd{line-height:28px}
+dt b,dd span{max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+dt .__btn-web,dd>i{width:16px;height:16px;margin-right:7px}
+dt .__btn-arrow{border-style:solid;border-width:5px 4px 0 4px;margin:0 9px 0 12px;border-color:#212121 transparent}
+dt.__expanded .__btn-arrow{border-width:0 4px 5px 4px}
+dt.__expanded + dl{display:block}
+dt[hidden] + dl{display:none}
+dl{display:none;padding-left:17px}
+dd{padding-left:5px}
+{width:16px;height:16px}
+dd:hover{background:#fff8e1}
+
+.__prop{position:absolute;top:0;right:0;bottom:0;width:40%;padding:6px 17px 0;line-height:26px;background:#f4f2e9 url('../img/prop.png') repeat;border:solid 1px #aea999;overflow:auto}
+.__prop label{font-weight:bold}
+.__prop input[type="text"],textarea{width:100%;max-width:480px}
+.__prop input:not(.__chk),textarea{margin-bottom:3px}
+#__cstore,#__cdate,#__ctime{width:150px}
+
+.__shade{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.7)}
+.__prompt-box{max-width:500px;margin:20% auto;padding:0 24px 17px;background:#fffde7;font-size:15px;overflow: auto}
+.__prompt-pass{display:block;width:100%}
+.__prompt-box button{display:block;margin-top:1em;margin-left:1em;padding:7px 19px;background:#1976d2;color:#fff;float:right}
+.__download-btn{display:block;position:fixed;bottom:0;width:100%;font-size:20px;padding:12px 0;background:#1976d2;color:#fff;text-align:center;text-decoration:none}
+
+.__imported{padding:3px 6px;background:#fffde7;border:solid 1px #aea999}
+.__btn-setsel{background:#1976d2;color:#fff;padding:3px 9px;margin:6px auto;max-width:64px}
+
+:invalid{background-color:#fe9b9b}
+:focus{outline:solid 1px #f57f17}

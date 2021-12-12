@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="590" height="372" viewBox="0 0 590 372">
+    <defs>
+        <linearGradient id="b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#EDEDED"/>
+            <stop offset="100%" stop-color="#F8F8F8"/>
+        </linearGradient>
+        <path id="a" d="M8 .5h582v372H8a8 8 0 0 1-8-8V8.5a8 8 0 0 1 8-8z"/>
+        <filter id="d" width="146.2%" height="148.8%" x="-23.1%" y="-24.4%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="7"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(0 -.5)">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <ellipse cx="53.5" cy="65.5" fill="#FFF" mask="url(#c)" opacity=".504" rx="87.5" ry="83"/>
+        <ellipse cx="367.5" cy="18.5" fill="#FFF" filter="url(#d)" mask="url(#c)" rx="45.5" ry="43"/>
+        <ellipse cx="524" cy="140" fill="#FFF" mask="url(#c)" rx="8" ry="7.5"/>
+        <ellipse cx="190" cy="367" fill="#FFF" mask="url(#c)" opacity=".768" rx="73" ry="69.5"/>
+        <ellipse cx="503.5" cy="272.5" fill="#FFF" mask="url(#c)" rx="12.5" ry="12"/>
+    </g>
+</svg>

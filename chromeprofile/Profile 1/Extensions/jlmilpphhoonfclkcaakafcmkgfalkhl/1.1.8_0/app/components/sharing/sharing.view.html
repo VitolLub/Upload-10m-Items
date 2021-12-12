@@ -1,0 +1,32 @@
+<div class="modal">
+    <div class="modal__handler modal__handler_theme_sharing" ng-controller="sharingController">
+        <div class="modal__header">
+            
+        </div>
+        <div class="modal__body">
+            <h1>{{ 'sharing_popup_title' | i18n }}</h1>
+            <p>{{ 'sharing_popup_text' | i18n }}</p>
+            <div class="share-btns">
+                <div class="share-btns__label" ng-click="openSharingPopup($event)">{{ 'sharing_popup_label' | i18n }}</div>
+                <div class="social-btns social-btns_size_l" data-msg="" data-linkid="">
+                    <div class="social-btn social-btn_fb" ng-click="shared()" data-target="fb" title="Share on Facebook"></div>
+                    <div class="social-btn social-btn_tw" ng-click="shared()" data-target="tw" title="Share on Twitter"></div>
+                    <div class="social-btn social-btn_wa" ng-click="shared()" data-target="wa" title="Share on WhatsApp"></div>
+                    <div class="social-btn social-btn_tg" ng-click="shared()" data-target="tg" title="Share on Telegram"></div>
+                    <div class="social-btn social-btn_rd" ng-click="shared()" data-target="rd" title="Share on Reddit"></div>
+                    <div class="social-btn social-btn_pt" ng-click="shared()" data-target="pt" title="Share on Pinterest"></div>
+                    <div class="social-btns__more"><span></span></div>
+                    <div class="social-btns__list">
+                        <div class="social-btn social-btn_vk" ng-click="shared()" data-target="vk" title="Share on VK"></div>
+                        <div class="social-btn social-btn_li" ng-click="shared()" data-target="li" title="Share on Linkedin"></div>
+                        <div class="social-btn social-btn_flb" ng-click="shared()" data-target="flb" title="Share on Flipboard"></div>
+                        <div class="social-btn social-btn_mail" ng-click="shared()" data-target="eml" title="Share by email"></div>
+                        <div class="social-btn social-btn_th" ng-click="shared()" data-target="th" title="Share on Tumblr"></div>
+                        <div class="social-btn social-btn_ln" ng-click="shared()" data-target="ln" title="Share on LINE"></div>
+                        <div class="social-btn social-btn_vb" ng-click="shared()" data-target="vb" title="Share on Viber"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

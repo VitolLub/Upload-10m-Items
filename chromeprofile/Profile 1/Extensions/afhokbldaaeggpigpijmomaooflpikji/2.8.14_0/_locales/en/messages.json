@@ -1,0 +1,14 @@
+{
+   "browser_action_page": {
+      "description": "test",
+      "message": "test.html"
+   },
+   "extDescription": {
+      "description": "",
+      "message": "Your productivity tool. Plan what you need and focus on getting it done."
+   },
+   "extName": {
+      "description": "",
+      "message": "MakeTime - increase productivity"
+   }
+}
