@@ -46,7 +46,7 @@ class ReadIdFromDb:
 
         #update all ID to status 1
 
-        self.db.set_status_to_1(urls_arr)
+        #self.db.set_status_to_1(urls_arr)
         #print(urls_arr)
         return urls_arr
 
@@ -327,6 +327,7 @@ class AliParserItemIDs:
                     save_class = SaveOnWebsite(res)
                     after_save = save_class.save(url['site_id'])
                     print('Data after saving')
+
                     try:
                         if after_save['message'] == 'Invalid or duplicated SKU.':
                             #remove from db
@@ -363,8 +364,8 @@ class AliParserItemIDs:
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     program = AliParserItemIDs()
-    while True:
-        program.start()
+    #while True:
+    program.start()
 
 
 

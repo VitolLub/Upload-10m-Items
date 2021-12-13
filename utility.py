@@ -113,6 +113,7 @@ class Utility:
             print(f'Other error occurred: {err}')  # Python 3.6
 
     def convert_array_to_dict(self, product_id_arr, site_id):
+        shoes_arr = [40401, 40405, 26139, 40402, 40406, 26134, 40403, 40407, 40404, 26138]
         site_ids = []
         site_ids.append(site_id)
         product_id_list = []
@@ -122,7 +123,10 @@ class Utility:
             product_id_dict['product_id'] = product_id
             product_id_dict['site_id'] = site_ids
             product_id_dict['status'] = 0
-
+            for id in site_ids:
+                if id in shoes_arr:
+                    product_id_dict['shoise_status'] = 0
+                    break
             #add to list
             product_id_list.append(product_id_dict)
         return product_id_list

@@ -71,7 +71,6 @@ def edit_post(driver):
         pyautogui.press('enter')
         driver.get(f"http://195.181.243.90/wp-admin/post.php?post={product_id}&action=edit")
 
-        time.sleep(20)
         # delete element id="wp-content-wrap"
 
         #element = driver.find_element(By.XPATH, "//div[@id='wp-content-wrap']")

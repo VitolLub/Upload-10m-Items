@@ -149,6 +149,9 @@ class Database:
         try:
             db = self.connect_to_db()
             collection = db['aliexpress_all_product_ids']
+            #  start from 10000 row
+
+
             collection.update_one({'product_id': site_id}, {'$set': {'shoise_status': 1}})
             return True
         except:
@@ -185,6 +188,9 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         collection.update_one({'site_product_id': param}, {'$set': {'alidropship_status': 1}})
+
+    def update_shoe_remove_after(self, arr_shoes):
+        pass
 
 
 

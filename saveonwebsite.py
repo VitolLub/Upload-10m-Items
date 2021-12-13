@@ -33,7 +33,7 @@ class SaveOnWebsite:
             url="http://195.181.243.90",
             consumer_key="ck_8a23912a6156503227cd48970bb221e394aabd6c",
             consumer_secret="cs_a6af47b5c7b36fde6222c95159e9fbd2e59f56c1",
-            timeout=1000
+            timeout=200
         )
 
         return wcapi
@@ -181,13 +181,23 @@ class SaveOnWebsite:
         full_description = self.remove_all_links(self.data[12])
         clean_description = self.clen_description(full_description)
 
+        #check simple or variable product
+        if len(self.data[6])>0:
+            product_type = "variable"
+            regular_price = ""
+            price = ""
+        else:
+            product_type = "simple"
+            regular_price = str(utility().price_fix(self.data[7][0]['amount']['value']))
+            price =  str(utility().price_fix(self.data[7][0]['activityAmount']['value']))
+            print("Simple product")
+
         product_data = {
             "name": self.data[4],
-            "type": "variable",
+            "type": product_type,
             "sku":self.data[0],
-            "regular_price": "",
-            'price':"",
-
+            "regular_price": regular_price,
+            'sale_price':price,
             "short_description": self.data[4],
             "description": "<div class='description'>"+"<div = 'video'>"+video_embed+"</div>"+clean_description+"</div>",
             "categories": categories_arr,
@@ -197,8 +207,6 @@ class SaveOnWebsite:
 
             "attributes": attr_option_arr
         }
-        #print(product_data)
-        #quit()
         response = wcapi.post('products', product_data).json()
         print('Data saving')
         return response
@@ -231,18 +239,18 @@ class SaveOnWebsite:
         #print(attrribute_skuPropIds_arr)
         print("attrribute_skuPropIds_arr")
         print(len(attrribute_skuPropIds_arr))
+        if len(attrribute_skuPropIds_arr[0]['attributes']) > 0:
+            if len(attrribute_skuPropIds_arr) <= 40:
+                self.save_all_attributes(attrribute_skuPropIds_arr, id)
+            else:
+                iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 40))
 
-        if len(attrribute_skuPropIds_arr) <= 40:
-            self.save_all_attributes(attrribute_skuPropIds_arr, id)
-        else:
-            iteration = list(self.divide_chunks(attrribute_skuPropIds_arr, 40))
-
-            for iteration_val in iteration:
-                try:
-                    print("Run code if elements more  then  40")
-                    self.save_all_attributes(iteration_val, id)
-                except Exception as e:
-                    print(f"During savind attributes in function add_attributes upon error {e}")
+                for iteration_val in iteration:
+                    try:
+                        print("Run code if elements more  then  40")
+                        self.save_all_attributes(iteration_val, id)
+                    except Exception as e:
+                        print(f"During savind attributes in function add_attributes upon error {e}")
 
 
         return attrribute_skuPropIds_arr
@@ -374,11 +382,9 @@ class SaveOnWebsite:
         }
         try:
             print('Run code')
-            response = wcapi.post(f"products/{id}/variations/batch", data).json()
-            #print(response)
+            wcapi.post(f"products/{id}/variations/batch", data).json()
         except:
             print('Some problem, attributes dont saved. Run code again')
-            print(attrribute_skuPropIds_arr,id)
             self.save_all_attributes(attrribute_skuPropIds_arr,id)
 
     def save_parent_category(self,parent_categoty_dict):

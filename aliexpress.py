@@ -177,6 +177,7 @@ class AliexpressItemsParse:
                             # convert product_id_arr to dict
                             product_id_dict = help_tool().convert_array_to_dict(product_id_arr, site_id)
 
+
                             # function to save item in DB aliexpress_all_product_ids
                             item.save_items(product_id_dict)
                         if product_id_arr is False:
