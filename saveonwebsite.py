@@ -31,8 +31,8 @@ class SaveOnWebsite:
             # consumer_key="ck_e7206cd4ca57cac8a978d9cdbee19d320cad6235",
             # consumer_secret="cs_19b8c87f70d22168e9faa096b9b6178769247903",
             url="http://195.181.243.90",
-            consumer_key="ck_8a23912a6156503227cd48970bb221e394aabd6c",
-            consumer_secret="cs_a6af47b5c7b36fde6222c95159e9fbd2e59f56c1",
+            consumer_key="ck_e26130c214cafb8ab88d5fa11be04965ac6cd8b9",
+            consumer_secret="cs_7e53f650da621952b97a564d7d7651acdcb04549",
             timeout=500
         )
 
@@ -44,7 +44,7 @@ class SaveOnWebsite:
 
         wcapi = API(
             url="https://newdropship.a2hosted.com/",
-            consumer_key="ck_34e7f3f1e99a0b0911283a82b61280bbe422d789",
+            consumer_key="ck_e26130c214cafb8ab88d5fa11be04965ac6cd8b9",
             consumer_secret="cs_e8838c981a6b91b89cbdfc8364152a569740e87d",
             timeout=80
         )

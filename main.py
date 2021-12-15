@@ -46,7 +46,7 @@ class ReadIdFromDb:
 
         #update all ID to status 1
 
-        #self.db.set_status_to_1(urls_arr)
+        self.db.set_status_to_1(urls_arr)
         #print(urls_arr)
         return urls_arr
 
