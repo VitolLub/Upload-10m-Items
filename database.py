@@ -49,7 +49,7 @@ class Database:
         db = self.connect_to_db()
         collection = db['aliexpress_all_product_ids']
         #first 10 orders with status = 0
-        result = collection.find({'status': 0}).limit(10) #, ,'shoise_status':1
+        result = collection.find({'status': 0,'shoise_status':0}).limit(10) #, ,'shoise_status':1
 
         #print(result)
         return result

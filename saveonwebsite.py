@@ -33,7 +33,7 @@ class SaveOnWebsite:
             url="http://195.181.243.90",
             consumer_key="ck_8a23912a6156503227cd48970bb221e394aabd6c",
             consumer_secret="cs_a6af47b5c7b36fde6222c95159e9fbd2e59f56c1",
-            timeout=200
+            timeout=500
         )
 
         return wcapi
