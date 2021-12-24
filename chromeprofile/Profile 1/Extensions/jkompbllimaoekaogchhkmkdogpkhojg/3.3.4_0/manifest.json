@@ -1,0 +1,34 @@
+{
+   "background": {
+      "scripts": [ "/lib/google-analytics-bundle.js", "/js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/off38.png",
+      "default_popup": "/html/popup.html"
+   },
+   "content_scripts": [ {
+      "css": [ "/css/style.css" ],
+      "js": [ "/lib/jquery-3.4.1.min.js", "/js/content-script-0.js" ],
+      "matches": [ "*://*.amazon.com/*", "*://*.amazon.co.uk/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "/js/content-script-1.js" ],
+      "matches": [ "*://*.amazon.com/*", "*://*.amazon.co.uk/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "",
+   "icons": {
+      "128": "img/icon128.png",
+      "19": "img/on38.png",
+      "38": "img/on38.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAko4rW403eAjDikH7Ppr0xc1A+rwIutI/0oDg8OVa5habvCPqN1psh3FUWfZH+5KCb8C2FOQ6IO13nTMczEfzM6X/PjgzeWrP79dmFVH8RRYZuMxS6r6j9+T3jpZhC9HWRy3xW9+/6oAc7LiGcjtIOtUl3USO4d0p1/YGvmDR2JefH/WSec2Qkxn1YnoK8egAzhYdwuPV/Bn3kWzZYA3cZCaJhxhsiaZaycDF0GI5IcIT6PHay9/rQqtiLnpF612luzClrexqU/5QsK1hkwaIWKtAUpbwor/MBsQkLjI+FyjtmL5xhDT2Bly4wP5ST/BP5wTUr80VMbl6pZ43P4NaKwIDAQAB",
+   "manifest_version": 2,
+   "name": "DS Amazon Quick View",
+   "permissions": [ "*://*.amazon.com/*", "*://*.amazon.co.uk/*", "webRequest", "webRequestBlocking", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.4",
+   "web_accessible_resources": [ "/img/*" ]
+}

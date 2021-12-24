@@ -1,2 +1,6 @@
-2021/12/11-21:05:28.017 1488 Creating DB C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Local Storage\leveldb since it was missing.
-2021/12/11-21:05:28.049 1488 Reusing MANIFEST C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Local Storage\leveldb/MANIFEST-000001
+2021/12/15-20:47:57.187 2fb8 Reusing MANIFEST C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Local Storage\leveldb/MANIFEST-000001
+2021/12/15-20:47:57.189 2fb8 Recovering log #3
+2021/12/15-20:47:57.192 2fb8 Reusing old log C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Local Storage\leveldb/000003.log 
+2021/12/15-20:48:24.444 fe0 Level-0 table #5: started
+2021/12/15-20:48:30.856 fe0 Level-0 table #5: 30240 bytes OK
+2021/12/15-20:48:30.921 fe0 Delete type=0 #3

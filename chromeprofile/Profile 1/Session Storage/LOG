@@ -1,2 +1,3 @@
-2021/12/11-21:05:28.620 1488 Creating DB C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Session Storage since it was missing.
-2021/12/11-21:05:28.634 1488 Reusing MANIFEST C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Session Storage/MANIFEST-000001
+2021/12/15-20:48:14.624 2fb8 Reusing MANIFEST C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Session Storage/MANIFEST-000001
+2021/12/15-20:48:14.632 2fb8 Recovering log #3
+2021/12/15-20:48:14.634 2fb8 Reusing old log C:\Users\Vitol\Upload 10m Items\chromeprofile\Profile 1\Session Storage/000003.log 

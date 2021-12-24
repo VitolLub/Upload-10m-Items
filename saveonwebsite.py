@@ -27,13 +27,12 @@ class SaveOnWebsite:
     #website credential
     def credential(self):
         wcapi = API(
-            # url="https://newdropship.a2hosted.com/",
-            # consumer_key="ck_e7206cd4ca57cac8a978d9cdbee19d320cad6235",
-            # consumer_secret="cs_19b8c87f70d22168e9faa096b9b6178769247903",
             url="http://195.181.243.90",
-            consumer_key="ck_e26130c214cafb8ab88d5fa11be04965ac6cd8b9",
-            consumer_secret="cs_7e53f650da621952b97a564d7d7651acdcb04549",
-            timeout=500
+            consumer_key="ck_e31b9e80b86e0f06c98dc0858008056f8270fca2",
+            consumer_secret="cs_b91f264d7abb2335f8f11603443ea572eaf924c6",
+            #wp_api=True,
+            version="wc/v2",
+            timeout=180
         )
 
         return wcapi
@@ -42,10 +41,11 @@ class SaveOnWebsite:
     def connet_ping(self):
 
 
+
         wcapi = API(
             url="https://newdropship.a2hosted.com/",
-            consumer_key="ck_e26130c214cafb8ab88d5fa11be04965ac6cd8b9",
-            consumer_secret="cs_e8838c981a6b91b89cbdfc8364152a569740e87d",
+            consumer_key="ck_e31b9e80b86e0f06c98dc0858008056f8270fca2",
+            consumer_secret="cs_b91f264d7abb2335f8f11603443ea572eaf924c6",
             timeout=80
         )
         response = wcapi.get('products/categories/39617')
@@ -208,6 +208,7 @@ class SaveOnWebsite:
             "attributes": attr_option_arr
         }
         response = wcapi.post('products', product_data).json()
+        del wcapi
         print('Data saving')
         return response
 
@@ -386,6 +387,7 @@ class SaveOnWebsite:
         except:
             print('Some problem, attributes dont saved. Run code again')
             self.save_all_attributes(attrribute_skuPropIds_arr,id)
+        del wcapi
 
     def save_parent_category(self,parent_categoty_dict):
         wcapi = self.credential()
