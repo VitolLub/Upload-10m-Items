@@ -365,8 +365,8 @@ class AliParserItemIDs:
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     program = AliParserItemIDs()
-    #while True:
-    program.start()
+    while True:
+        program.start()
 
 
 

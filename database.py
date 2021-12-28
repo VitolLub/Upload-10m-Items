@@ -66,7 +66,7 @@ class Database:
         collection = db['aliexpress_all_product_ids']
         #update status = 1 by product_id and receive result
 
-        collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'alidropship_status':0,'site_product_id':site_product_id, 'sku_arr':sku_arr}})
+        collection.update_one({'product_id': product_id}, {'$set': {'status': 1,'alidropship_status':0,'site_product_id':site_product_id, 'sku_arr':sku_arr, 'shoise_status':1}})
         return True
     def set_status_to_404(self, url_o):
         # extract product_id from url

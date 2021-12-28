@@ -142,7 +142,7 @@ class AliexpressItemsParse:
                 #append site_id in res_arr
 
                 #update site_id arr in aliexpress_all_product_ids
-                db.update_one({'product_id': product_id}, {'$push': {'site_id': site_id}})
+                db.update_one({'product_id': product_id}, {'$push': {'site_id': site_id}, '$set': {'shoise_status': 0}})
         return product_id_no_dublicated_arr
 
 

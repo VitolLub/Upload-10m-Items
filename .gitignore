@@ -5,3 +5,8 @@ test.py
 *.py
 *.py
 *.py
+env/Lib/site-packages/PyInstaller/loader/pyimod01_os_path.pyc
+env/Lib/site-packages/PyInstaller/loader/pyimod03_importers.pyc
+env/Lib/site-packages/PyInstaller/loader/pyimod04_ctypes.pyc
+env/Lib/site-packages/PyInstaller/loader/pyimod02_archive.pyc
+__pycache__/database.cpython-39.pyc
